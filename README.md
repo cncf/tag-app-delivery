@@ -8,3 +8,10 @@ See our full charter here: https://github.com/cncf/toc/blob/master/sigs/app-deli
 
 * Slack channel: #sig-app-delivery in CNCF workspace - https://cloud-native.slack.com/messages/CL3SL0CP5
 * Mailing list: https://lists.cncf.io/g/cncf-sig-app-delivery/topics
+
+## Meetings
+
+We have meetings every 2nd and 4th week of the month at 8:00 a.m. PST
+
++ Agenda and Notes: https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit# 
++ Zoom Meeting: https://zoom.us/j/727678301
