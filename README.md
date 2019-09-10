@@ -8,3 +8,8 @@ See our full charter here: https://github.com/cncf/toc/blob/master/sigs/app-deli
 
 * Slack channel: #sig-app-delivery in CNCF workspace - https://cloud-native.slack.com/messages/CL3SL0CP5
 * Mailing list: https://lists.cncf.io/g/cncf-sig-app-delivery/topics
+
+## Meetings
+
+
++ Meeting Notes : https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#heading=h.r6tiyo9ld7hy
