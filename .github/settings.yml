@@ -23,9 +23,12 @@ collaborators:
   - username: monadic
     permission: admin
 
-  # Members 
+  # SIG Chairs 
   - username: AloisReitbauer
-    permission: push
+    permission: admin
 
   - username: bryanl
-    permission: push
+    permission: admin
+    
+  - username: resouer
+    permission: admin
