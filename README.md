@@ -4,6 +4,9 @@ The Application Delivery SIG focuses on delivering cloud native applications whi
 
 See our full charter here: https://github.com/cncf/toc/blob/master/sigs/app-delivery.md
 
+## Chairs
+Alois Reitbauer, Bryan Liles and Lei Zhang.
+
 ## Community
 
 * Slack channel: #sig-app-delivery in CNCF workspace - https://cloud-native.slack.com/messages/CL3SL0CP5
