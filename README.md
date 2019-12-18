@@ -18,3 +18,4 @@ We have meetings every 1st and 3rd Wednesday of the month at 8:00 a.m. PST.
 
 + Agenda and Notes: https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit# 
 + Zoom Meeting: https://zoom.us/j/7276783015 
++ Recordings of previous meetings: https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci
