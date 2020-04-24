@@ -4,6 +4,9 @@ The Application Delivery SIG focuses on delivering cloud native applications whi
 
 See our full charter here: https://github.com/cncf/toc/blob/master/sigs/app-delivery.md
 
+## Chairs
+Alois Reitbauer, Bryan Liles and Lei Zhang.
+
 ## Community
 
 * Slack channel: #sig-app-delivery in CNCF workspace - https://cloud-native.slack.com/messages/CL3SL0CP5
@@ -11,5 +14,9 @@ See our full charter here: https://github.com/cncf/toc/blob/master/sigs/app-deli
 
 ## Meetings
 
+We have meetings every 1st and 3rd Wednesday of the month at 8:00 a.m. PST.
 
-+ Meeting Notes : https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#heading=h.r6tiyo9ld7hy
++ Agenda and Notes: https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit# 
++ Zoom Meeting: https://zoom.us/j/7276783015 
++ Recordings of previous meetings: https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci
+
