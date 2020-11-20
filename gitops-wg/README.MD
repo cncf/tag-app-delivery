@@ -52,7 +52,7 @@ The founders of the GitOps Working Group envision the creation of a GitOps Manif
 With the announcement of the GitOps Working Group the founders would like to invite other companies to join the group and contribute to the community and the adoption of GitOps across the cloud native landscape. There are a few ways you can get involved:
 * Watch or star this repo to see when things change.
 * Attend a working group meeting (schedule coming soon).
-* [Open an issue](/issues/new) and let us know how you're using GitOps and any important considerations we should include.
+* [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include.
 
 We'll review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
