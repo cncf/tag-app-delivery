@@ -2,7 +2,7 @@
 
 ## Announcing the GitOps Working Group
 
-On November 19, 2020, Amazon, Codefresh, GitHub, Microsoft, and Weaveworks are announcing the creation of the GitOps Working Group. This will be an open CNCF community project created inside the CNCF [fluxcd GitHub organization](https://github.com/fluxcd/flux) as the initial venue for collaboration and open governance.
+On November 19, 2020, Amazon, Codefresh, GitHub, Microsoft, and Weaveworks are announcing the creation of the GitOps Working Group. This will be an open CNCF community project created inside the CNCF [gitops-working-group GitHub organization](https://github.com/gitops-working-group) as the initial venue for collaboration and open governance.
 
 The GitOps Working Group’s goal is to provide companies and individuals with the skills, knowledge and competency to implement GitOps tooling and methodologies which simplify the operation and management of infrastructure and cloud native applications.
 
