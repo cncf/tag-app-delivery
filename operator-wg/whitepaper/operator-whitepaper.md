@@ -7,13 +7,37 @@
 ## Introduction
 
 ### Goal of this document
+The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target audience / Minimum level of experience 
-This document is intended for application developers,  Kubernetes cluster operators and service providers (internal or external) - who are looking to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
+This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who are looking to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
 
 ## Foundation
 
 ### Operator design pattern
+This section describes the pattern with abstract concepts, the next section “Kubernetes Operator Definition” will describe the implementations of the pattern in terms of Kubernetes objects and concepts
+
+The operator design pattern defines how to manage application and infrastructure resources using declarative domain-specific knowledge. The goal of the pattern is to reduce the amount of manual imperative work which is required to keep an application in a healthy and well-maintained state. 
+
+By using the operator pattern, the knowledge on how to adjust and maintain a resource is captured in code and usually in a single service (also called a controller).
+
+When using an operator design pattern the user should only be required to describe the desired state of the application and resources. A software pre-written should make the necessary changes in the world so it will be in the desired state. The software will also monitor the real state continuously and take actions to keep it healthy and n the same state (preventing drifts)
+
+A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described. 
+
+![Operator Design Pattern](img/designpattern.png)
+
+The Operator pattern consists of three components:
+
+* The application or infrastructure that we want to manage in a declarative way.
+* Our domain specific knowledge that describes the state of the application in a declarative way.
+* A controller that run continuously :
+  * Reads and is aware of the state.
+  * Runs actions against the application in an automated way.
+  * Report the state of the application  in a declarative way.
+
+This design pattern will be applied on Kubernetes and its operators in the next sections.
+
 
 ### Operator characteristics
 
@@ -82,6 +106,7 @@ The control (reconciliation) loop in a Kubernetes controller ensures that the st
 #### Auto-Remediation
 
 #### Monitoring/metrics - observability
+While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provides a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
 
 #### Scaling
 
