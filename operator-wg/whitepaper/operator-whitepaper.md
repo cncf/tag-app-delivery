@@ -143,6 +143,7 @@ While the managed application should provide the telemetry data for itself, the 
 * Noah Kantrowitz
 * Omer Kahani
 * Thomas Schuetz
+* Jennifer Strejevich
 
 **Reviewers:**
 * Daniel Sover
