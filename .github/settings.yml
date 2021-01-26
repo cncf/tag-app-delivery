@@ -34,4 +34,4 @@ collaborators:
     permission: admin
     
   - username: thschue
-    permission: push
+    permission: admin 
