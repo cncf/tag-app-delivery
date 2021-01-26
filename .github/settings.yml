@@ -32,3 +32,6 @@ collaborators:
     
   - username: resouer
     permission: admin
+    
+  - username: thschue
+    permission: push
