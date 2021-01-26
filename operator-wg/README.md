@@ -7,7 +7,7 @@ every other week on wednesday ([Zoom Meeting](https://zoom.us/my/cncfsigappdeliv
 * 6 PM Central European Time
 
 #### Links
-* [Charter(Draft)](https://docs.google.com/document/d/1DqHnj8O9DoU1ev9RvEdpStFUQvH-Iz6OYako6bQn9rM)
+* [Charter](./charter.md)
 * [Agenda and Meeting Notes](https://docs.google.com/document/d/17pjT2g35yUMaby0cPJnFfHRlhlFzFruDxmJKRmj_BLU)
 
 #### Documents
