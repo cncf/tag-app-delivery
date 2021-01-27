@@ -1,6 +1,6 @@
 # Operator Working Group
 
-### Goal 
+### Current Goal 
 Create A Whitepaper (Initially Definition of an Operator)
 
 ### How to contribute
