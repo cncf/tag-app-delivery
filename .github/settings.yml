@@ -34,4 +34,11 @@ collaborators:
     permission: admin
     
   - username: thschue
-    permission: admin 
+    permission: push
+    
+  - username: Jenniferstrej
+    permission: push
+    
+  - username: OmerKahani
+    permission: push  
+    
