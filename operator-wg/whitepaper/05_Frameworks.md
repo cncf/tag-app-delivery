@@ -5,6 +5,8 @@
 
 [Framework_1](051_Framework_1.md) | Not even created | |
 
+[Kopf](https://github.com/nolar/kopf/) — a framework to make Kubernetes operators in Python.
+
 ## Operator Frameworks for Non-Kubernetes Platforms
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/41**
 
