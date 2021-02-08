@@ -5,7 +5,7 @@ Create A Whitepaper (Initially Definition of an Operator)
 
 ### How to contribute
 1. Join us in Slack [#sig-app-delivery-operator-wg](https://cloud-native.slack.com/archives/C01GTMYJLKS)
-2. Read the [Operator Whitepaper](https://docs.google.com/document/d/1daXHyR2yG5ArjO1PO83v4a0fmLCLo2kYNT3TwGZksng)
+2. Read the [Operator Whitepaper](./whitepaper/README.md)
 3. Grab a ticket and write content - we have a [project with all the tickets](https://github.com/cncf/sig-app-delivery/projects/1)
 4. Open a new ticket for things that are missing
 
