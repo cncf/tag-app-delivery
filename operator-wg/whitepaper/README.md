@@ -25,6 +25,8 @@
 - [ ] Due February 10th, 2021
 * Tasking Assignment - people interested in content generation for a particular topic area comment on the corresponding GitHub issue and the topic gets assigned to them
 
+* Update - we will keep assignements open throughout the "Content-rough-in" weeks and [Jen](https://github.com/jenniferstrej), [Thomas](https://github.com/thschue) and [Omer](https://github.com/OmerKahani) will pick them up on a FIFO basis.
+
 - [ ] February 10th - March 15th, 2021  - *Content-rough-in*
 * Members generate content for the respective area of assignment. Cohesive sentences, concepts, phrasing, etc. should be placed in quotations ("") for later review as whole content.
 
