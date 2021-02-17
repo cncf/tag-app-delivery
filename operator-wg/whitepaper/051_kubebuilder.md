@@ -6,7 +6,7 @@ The main entry point provided by the kubebuilder framework is a *Manager*. In th
 
 As Kubernetes API resources are attached to domains and arranged in Groups, Versions and Kinds, the Kubernetes custom resources you will define will be attached to your own domain, and arranged in your own groups, versions and kinds.
 
-The first step when using kubebuilder is to create a project, that  will create the source code for building a single Manager attached to your domain.
+The first step when using kubebuilder is to create a project attached to your domain, that  will create the source code for building a single Manager.
 
 After initiating your project with a specific domain, you can add APIs to your domain and make these APIs managed by the manager.
 
