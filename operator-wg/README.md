@@ -9,6 +9,8 @@ Create A Whitepaper (Initially Definition of an Operator)
 3. Grab a ticket and write content - we have a [project with all the tickets](https://github.com/cncf/sig-app-delivery/projects/1)
 4. Open a new ticket for things that are missing
 
+For more details, see our [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ### Meetings
 Every other week on Wednesday ([Zoom Meeting](https://zoom.us/my/cncfsigappdelivery?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09))
 * 9 AM US Pacific Standard Time
