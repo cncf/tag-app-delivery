@@ -5,9 +5,9 @@
 
 ## [Framework_1](051_Framework_1.md)
 
-- Add Short description of the framework
+- Add short description of the framework.
 - How does it work (in a Nutshell)?
-- What makes it unique?
+- Describe the value that this framework brings.
 - When should I use this framework?
 
 <em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
@@ -18,9 +18,9 @@
 
 ## [Non_k8s_Framework_1](051_Framework_1.md)
 
-- Add Short description of the framework
+- Add short description of the framework
 - How does it work (in a Nutshell)?
-- What makes it unique?
+- Describe the value that this framework brings.
 - When should I use this framework?
 
 <em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
