@@ -52,7 +52,7 @@ The founders of the GitOps Working Group envision the creation of a GitOps Manif
 With the announcement of the GitOps Working Group the founders would like to invite other companies to join the group and contribute to the community and the adoption of GitOps across the cloud native landscape. There are a few ways you can get involved:
 
 - Watch or star this repo to see when things change.
-- Attend a working group meeting (schedule coming soon).
+- Attend a [Working Group meeting](./MEETINGS.md).
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include.
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
 
@@ -68,4 +68,4 @@ Documenting the GitOps principles, and supporting WG GitOps in CNCF App Delivery
 
 Please see [GitOps WG Charter](https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/view)
 and [Draft Definition](https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/view)
-for initial details.
+for initial details. NOTE: We have moved the gitops definition into git - see PR #48
