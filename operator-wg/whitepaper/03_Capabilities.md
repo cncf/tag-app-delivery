@@ -61,7 +61,7 @@ An operator should respect basic scaling configuration of min and max.
 
 #### Uninstalling / Disconnect
 **(Current) Issues: https://github.com/cncf/sig-app-delivery/issues/52 & https://github.com/cncf/sig-app-delivery/issues/53**
-When deleting the declarative requested state (in most cases a custom resource),an operator should allow two behaviors:
+When deleting the declarative requested state (in most cases a custom resource), an operator should allow two behaviors:
 - Uninstalling: An operator should be able to completely remove or delete every managed resource.
 - Disconnecting: An operator should stop managing the provisioned resources.
 
