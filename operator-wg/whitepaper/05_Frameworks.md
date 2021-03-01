@@ -3,7 +3,18 @@
 ## Operator Frameworks for Kubernetes
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/40**
 
+## [Framework_1](051_Framework_1.md)
+
+- Add short description of the framework.
+- How does it work (in a Nutshell)?
+- Describe the value that this framework brings.
+- When should I use this framework?
+
+<em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
+
+
 ## [Kopf](https://github.com/nolar/kopf)
+
 
 **Kopf** —**K**ubernetes **O**perator **P**ythonic **F**ramework— is a framework
 to create Kubernetes operators faster and easier, just in a few lines of Python.
@@ -37,4 +48,12 @@ For more features, see the [documentation](https://kopf.readthedocs.io/en/stable
 ## kubebuilder
 [read more](051_Framework_kubebuilder.md)
 
-[Framework_2](052_Framework_2.md) | Not even created | |
+## [Non_k8s_Framework_1](051_Framework_1.md)
+
+- Add short description of the framework
+- How does it work (in a Nutshell)?
+- Describe the value that this framework brings.
+- When should I use this framework?
+
+<em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
+
