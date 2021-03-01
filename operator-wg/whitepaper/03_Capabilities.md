@@ -66,4 +66,4 @@ When deleting the declarative requested state (in most cases a custom resource),
 - Disconnecting: An operator should stop managing the provisioned resources.
 
 Both processes should be applied to every resource that the operator directly provisioned.  
-An operator should report any failure in the process in a declarative way. 
+An operator should report any failure in the process in a declarative way (using the [status field](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#object-spec-and-status) for example). 
