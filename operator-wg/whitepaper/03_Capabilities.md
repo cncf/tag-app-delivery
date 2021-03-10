@@ -1,4 +1,4 @@
-**Status**: WIP | **Maintainer** : N/A | 
+**Status**: WIP | **Maintainer** : Omer Kahani | 
 
 ### Operator capabilities
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/38**
@@ -59,8 +59,11 @@ An operator should respect basic scaling configuration of min and max.
 #### Auto-configuration tuning
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/54**
 
-#### Disconnect
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/52**
+#### Uninstalling / Disconnect
+**(Current) Issues: https://github.com/cncf/sig-app-delivery/issues/52 & https://github.com/cncf/sig-app-delivery/issues/53**
+When deleting the declarative requested state (in most cases a custom resource), an operator should allow two behaviors:
+- Uninstalling: An operator should be able to completely remove or delete every managed resource.
+- Disconnecting: An operator should stop managing the provisioned resources.
 
-#### Uninstalling
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/53**
+Both processes should be applied to every resource that the operator directly provisioned.  
+An operator should report any failure in the process in a declarative way (using the [status field](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#object-spec-and-status) for example). 
