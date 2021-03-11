@@ -21,7 +21,7 @@
 
 ## Proposed Schedule
 *inspired by https://github.com/cncf/sig-security/issues/138*
-- [ ] Due February 10th, 2021
+- [x] Due February 10th, 2021
 * Tasking Assignment - people interested in content generation for a particular topic area comment on the corresponding GitHub issue and the topic gets assigned to them
 
 * Update - we will keep assignements open throughout the "Content-rough-in" weeks and [Jen](https://github.com/jenniferstrej), [Thomas](https://github.com/thschue) and [Omer](https://github.com/OmerKahani) will pick them up on a FIFO basis.
@@ -42,4 +42,8 @@
 - [ ] April 20th - April 30th, 2021 - *Final group review*
 * Final Review - final review by group, with selected "intended audience"
 
+<<<<<<< HEAD
 - [ ] From April 30th, 2021 - *Publishing Process*
+=======
+- [ ] From April 30th, 2021 - *Publishing Process*
+>>>>>>> 2a09de1ba1216bedc58b19a36c493a8614505df7
