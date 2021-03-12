@@ -42,8 +42,4 @@
 - [ ] April 20th - April 30th, 2021 - *Final group review*
 * Final Review - final review by group, with selected "intended audience"
 
-<<<<<<< HEAD
 - [ ] From April 30th, 2021 - *Publishing Process*
-=======
-- [ ] From April 30th, 2021 - *Publishing Process*
->>>>>>> 2a09de1ba1216bedc58b19a36c493a8614505df7
