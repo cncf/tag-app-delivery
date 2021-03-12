@@ -36,8 +36,6 @@ At first, the application (data store) is set to consistent state (like a consis
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/50**
 
 #### Auto-Remediation
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/51**
-
 The auto-remediation capability of an operator should ensure that it is able to restore the application from a more complex failed state, which might not be handled or detected by mechanisms as health checks (live- and readiness probes). Therefore, the operator needs to have a deep understanding of the application. This can be achieved by metrics which might indicate application failures or errors, but also by dealing with kubernetes mechanisms like health checks. 
 
 Some examples might be:
