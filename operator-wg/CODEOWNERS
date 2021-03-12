@@ -1,0 +1,11 @@
+# CODEOWNERS file indicates code owners for certain files
+#
+# Code owners will automatically be added as a reviewer for PRs that touch
+# the owned files.
+#
+
+# README.md Owners
+/README.md @AloisReitbauer @resouer @bryanl
+
+# Operator Working Group
+/operator-wg/ @Jenniferstrey @OmerKahani @thschue
