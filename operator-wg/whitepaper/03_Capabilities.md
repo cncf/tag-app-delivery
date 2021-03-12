@@ -20,20 +20,18 @@ An operator should monitor the update, and rollback if there was a problem durin
 An operator should report the version of the resources and their health status during the process. If there was an error, the version reported should be the version that is actually been used.
 
 #### Backup
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/49**
 
-An operator’s capability to back up the application state and it’s data should give the user the certainty that he is able to restore from a failure if data is lost or compromised.
+This capability ensures that an operator is able to create consistent backups. This backup should be done in a way that the user of the operator can be certain that it can be restored if data is lost or compromised. Furthermore, the status information provided, should give insights when the backup ran the last time and where it is located.
 
-Therefore, the process of backing up data can be described as follows:
-Backup gets triggered (either manually or automatically)
-The application is set to a state where it allows consistent backups
-Backup data and save it to an external storage
-Write the Backup state and its location to the custom resource
+![Example Backup Process](plantuml/backup-sequence.png)
 
-At first, the application (data store) is set to consistent state (like a consistent snapshot). Afterwards, the data gets backed up using appropriate tools and are saved to an external storage, which may be an nfs share on-site, but could also be an s3 bucket in the cloud. Either if the Backup failed or succeeded, this state will be written to the state of the custom resource.
+Above illustration shows how such an process could look like. At first the backup gets triggered either by a human or another trigger (e.g. time-trigger). The operator instructs its watched resource (application) to set up a consistent state (like a consistent snapshot). Afterwards, the data of the application gets backed up using appropriate tools to an external storage. This could either be a one step process (backup directly to external storage) or in multiple steps, like writing to a persistent volume at first and to the external storage afterwards. The external storage might be a NFS/CIFS share (or any other network file system) on-premises, but also an object store/bucket on a cloud provider infrastructure. Either if the backup failed or succeeded, the state (of the backup) including the backed up application version and the location of the backup might be written to the state section of the custom resource.
 
 #### Recovery from backup
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/50**
+
+The recovery capability of an operator might assist a user to restore the application state from a successful backup. Therefore, the application state (application version and data) should be restored. 
+
+There might be many ways to achieve this. One possible way could be that the current application state also got backed up (including configuration), so the user only has to create a custom resource for the application and point to the backup. The operator would read the configuration, restore the application version and restore the data. Another possible solution might be that the user only backed up the data and might have to specify the application version used. Nevertheless, in both ways the operator ensures that the application is up and running afterwards using the data from the backup specified.
 
 #### Auto-Remediation
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/51**
