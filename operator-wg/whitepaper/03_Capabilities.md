@@ -21,7 +21,7 @@ An operator should report the version of the resources and their health status d
 
 #### Backup
 
-This capability ensures that an operator is able to create consistent backups. This backup should be done in a way that the user of the operator can be certain that it can be restored if data is lost or compromised. Furthermore, the status information provided, should give insights when the backup ran the last time and where it is located.
+This capability is for operators that manage data and ensure that the operator is able to create consistent backups. This backup should be done in a way that the user of the operator can be certain that it can be restored if data is lost or compromised. Furthermore, the status information provided, should give insights when the backup ran the last time and where it is located.
 
 ![Example Backup Process](plantuml/backup-sequence.png)
 
