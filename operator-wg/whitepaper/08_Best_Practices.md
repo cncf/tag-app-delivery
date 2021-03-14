@@ -28,7 +28,18 @@ Technically, there would be a custom resource definition for the whole stack man
 ### Multiple CRDs per controller
 Every CRD managed by an operator should be implemented in a single controller. This makes code a bit more readable and should help with separation of concerns.
 
-More best practices regarding operator creation could be found on following sources:
+### Where to publish and find operators
+There are services like operatorhub.io and artifacthub.io which help end-users to find operators including instructions how they can be installed. This services often includes information about current security issues and the sources of operators. Additionally, information about the capabilities of operators is given.
+
+
+
+### Further reading
+There are lots of more best practices like:
+* An operator shouldn't install other operators
+* Operators shouldn't make assumptions about the namespaces they are deployed in, but also
+* Use an SDK for writing operators
+
+and many other best practices might be found on the internet. More of them could be found on following sources:
 * https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md
 * https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
     
