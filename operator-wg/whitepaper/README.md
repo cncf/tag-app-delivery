@@ -14,15 +14,14 @@
 | 6 | Operator Lifecycle Management | [Lifecycle Management](06_Lifecycle.md) | WIP | |
 | 7 | Use Cases *Add 07x_UseCase.md for your Use Case / Will be merged* | [Use Cases](07_Use_Cases.md) | WIP | |
 | 8 | Best Practices | [Best Practices](08_Best_Practices.md) | WIP | |
-| 9 | Technical Implementation | [Technical Implementation](09_Technical_Implementation.md) | WIP | |
-| 10 | Summary / Conclusion | [Summary](10_Summary.md) | WIP | |
-| 11 | Related Work | [Related Work](11_Related_Work.md) | WIP | |
-| 12 | Bibliography | [Bibliography](12_Bibliography.md) | WIP | |
+| 9 | Summary / Conclusion | [Summary](10_Summary.md) | WIP | |
+| 10 | Related Work | [Related Work](11_Related_Work.md) | WIP | |
+| 11 | Bibliography | [Bibliography](12_Bibliography.md) | WIP | |
 | 99 | Contributors | [Contributors](99_Contributors.md) | WIP | |
 
 ## Proposed Schedule
 *inspired by https://github.com/cncf/sig-security/issues/138*
-- [ ] Due February 10th, 2021
+- [x] Due February 10th, 2021
 * Tasking Assignment - people interested in content generation for a particular topic area comment on the corresponding GitHub issue and the topic gets assigned to them
 
 * Update - we will keep assignements open throughout the "Content-rough-in" weeks and [Jen](https://github.com/jenniferstrej), [Thomas](https://github.com/thschue) and [Omer](https://github.com/OmerKahani) will pick them up on a FIFO basis.
