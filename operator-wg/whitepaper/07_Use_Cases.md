@@ -19,7 +19,7 @@ The Prometheus Operator was one of the first ever Operators written, along with 
 
 _"The Prometheus Operator serves to make running Prometheus on top of Kubernetes as easy as possible, while preserving Kubernetes-native configuration options."_
 
-When you install the [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/user-guides/getting-started.md), besides the operator controller pod/deployment, you have a wide range of APIs available to configure your own Prometheus stack. The APIs are represented as Custom Resource Definitions (CRDs) and those allow you to configure objects responsible, among other tasks, for:
+When the [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/user-guides/getting-started.md) is installed besides the operator controller pod/deployment, a wide range of APIs gets available to configure a Prometheus stack. The APIs are represented as Custom Resource Definitions (CRDs) which allow to configure objects responsible, among other tasks, for:
 
 - Describing a set of targets to be monitored by Prometheus (ServiceMonitor).
 - Declaratively describing the desired state of a Prometheus deployment.
@@ -28,4 +28,3 @@ When you install the [Prometheus Operator](https://github.com/prometheus-operato
 The benefits is using Kubernetes native configuration as a way to configure your whole operation stack, benefiting from Kubernetes resources validation and self-healing capabilities.
 
 The Operator controller will then communicate with the K8s API server to add Service metrics endpoints and automatically generate the required Prometheus scrape configurations for the configured Services.
-
