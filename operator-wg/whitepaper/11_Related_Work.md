@@ -12,10 +12,9 @@ Michael Hausenblas and Stefan Schimanski wrote a book about Programming Kubernet
 
 Ref: Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
 
-Many documents describe capability levels of operators, which should describe the maturity of an operator. As there could be the case that an operator which supports all features of the highest level is not capable of some lower-level features, this document covers rather capabilities instead of capability levels. The capabilities used for defining capability levels were taken into consideration for this document. 
+Many documents describe capability levels (also known as maturity levels) of operators. Since there could be cases where an operator that supports all features that fall on the highest capability level but does not support some lower level features, this document chooses to cover “capabilities” rather than “capability levels”. The capabilities required for each capability level, however, are taken into consideration.
 
 Ref: Operator Framework. (n.d.). Operator Capabilities. Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
 
 The CNCF SIG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security (https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md).
-
