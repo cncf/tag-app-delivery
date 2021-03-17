@@ -13,6 +13,20 @@
 <em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
 
 
+## [CNCF Operator Framework](https://github.com/operator-framework)
+
+The *Operator Framework* is an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.
+
+It aims at Operator Developers with an SDK to streamline Operator development with scaffolding tools (based on [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)), a test harness for unit tests and integration as well as functional tests and packaging / distribution mechanisms to publish version histories of Operators in conjunction with a user-configurable update graph. Supported project types are Golang, Helm and Ansible. Python and Java are currently in development.
+
+It also caters for Kubernetes administrators that require a central point to install, configure and update Operators in multi-tenant environment with potentially dozens of Operators installed. It covers the following aspects of Operator lifecycle:
+
+- Continuous over-the-Air Updates and Catalogs of Operators a publishing mechanism and source of updates
+- Dependency Model so Operator can have dependencies on cluster features or on each other
+- Discoverability for less privileged tenants that usually cannot list CRDs or see Operators installed in separate namespaces
+- Cluster Stability that avoid runtime conflicts of Operators on multi-tenant clusters while honoring the global nature of CRDs, and the subtleties of CRD versioning and CRD conversion
+- Declarative UI controls that allows consoles to generate rich UI experiences for end users interacting with Operator services
+
 ## [Kopf](https://github.com/nolar/kopf)
 
 
