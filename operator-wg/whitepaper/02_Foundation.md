@@ -44,7 +44,7 @@ This design pattern will be applied on Kubernetes and its operators in the next 
 ### Operator Characteristics
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/37**
 
-The core purpose of any operator is to extend its orcherstrator's underlying API with new domain knowledge. For instance, just like Kubernetes natively understands things like containers and layer 4 load balancers via the Pod and Service objects, operators add new capabilities for more complex systems and applications. As an example, prometheus-operator adds a new object type, Prometheus, which extends Kubernetes with high-level support for deploying and running a Prometheus server.
+The core purpose of any operator is to extend its orchestrator's underlying API with new domain knowledge. As an example, an orchestration platform as Kubernetes natively understands things like containers and layer 4 load balancers via the Pod and Service objects. An operator adds new capabilities for more complex systems and applications. For instance, a prometheus-operator introduces new object types, "Prometheus", which extend Kubernetes with high-level support for deploying and running Prometheus servers.
 
 The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation, and domain knowledge.
 
