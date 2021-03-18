@@ -12,7 +12,7 @@
 | 4 | Security and Risks | [Security](04_Security.md) | WIP | |
 | 5 | Operator Frameworks *Add 05x_Framework_Name.md per Framework* | [Frameworks](05_Frameworks.md) | WIP | |
 | 6 | Operator Lifecycle Management | [Lifecycle Management](06_Lifecycle.md) | WIP | |
-| 7 | Use Cases *Add 07x_UseCase.md for your Use Case / Will be merged* | [Use Cases](07_Use_Cases.md) | WIP | |
+| 7 | Use Cases *Add 07x_UseCase.md for your Use Case / Will be merged* | [Use Cases](07_Use_Cases.md) \\ [*GitOps*](071_GitOps.md) | WIP | |
 | 8 | Best Practices | [Best Practices](08_Best_Practices.md) | WIP | |
 | 9 | Summary / Conclusion | [Summary](10_Summary.md) | WIP | |
 | 10 | Related Work | [Related Work](11_Related_Work.md) | WIP | |
