@@ -1,6 +1,6 @@
 ## Finding the right solution
 
-The previous chapter described a use case for an operator that was one of the first operators ever. With no claim
+The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
 of completeness, this chapter deals with some best practice when writing
 own Operators, based on our own experience or described by the
 community. However, without clear knowledge of the actual state and
