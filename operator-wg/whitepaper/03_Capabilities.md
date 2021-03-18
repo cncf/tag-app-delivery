@@ -1,9 +1,9 @@
 **Status**: WIP | **Maintainer** : Omer Kahani | 
 
 ### Operator capabilities
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/38**
+An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all. 
 
-In the following sections, capabilities an operator could have are described.
+The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
 #### Install an application / take ownership of an application
 An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
