@@ -41,7 +41,6 @@ At first, the application (data store) is set to consistent state (like a consis
 #### Monitoring/metrics - observability
 While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provides a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
 
-#### Scaling (Scaling of the Operator itself)
 
 #### Scaling (Operator Supports Scaling)
 Scaling is part of the day-2 operations that an operator can manage in order to keep the application / resources functional. The scaling capability doesn’t require the scaling to be automated, but only that the operator will know how to change the resources in terms of horizontal and vertical scaling.
@@ -57,7 +56,9 @@ An operator should respect basic scaling configuration of min and max.
 
 
 #### Auto-configuration tuning
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/54**
+This capability should empower the operator to manage the configuration of the managed application. As an example, the operator could adopt memory settings of an application according to the operation environment (e.g. kubernetes) or the change of DNS names. Furthermore, the operator should be able to handle configuration changes in a seamless way, e.g. if a configuration change requires a restart, this should be triggered. 
+
+These capabilities should be transparent to the users the user should have the possibility to override such auto-configuration mechanisms if he wants to do so. Furthermore, automatic reconfigurations should be well-documented in a way that the user could comprehend what is happening on the infrastructure.
 
 #### Uninstalling / Disconnect
 **(Current) Issues: https://github.com/cncf/sig-app-delivery/issues/52 & https://github.com/cncf/sig-app-delivery/issues/53**
