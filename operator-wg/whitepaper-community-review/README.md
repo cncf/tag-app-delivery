@@ -33,7 +33,7 @@ Table of Contents
         * [Multiple CRDs per controller](#multiple-crds-per-controller)
         * [Where to publish and find operators](#where-to-publish-and-find-operators)
         * [Further reading](#further-reading)
-    * [Finding the right solution](#finding-the-right-solution)
+    * [Designing Operators](#designing-operators)
         * [Requirement analysis](#requirement-analysis)
         * [Custom or third\-party Operator](#custom-or-third-party-operator)
         * [Use the right tool](#use-the-right-tool)
@@ -624,7 +624,7 @@ and many other best practices might be found on the internet. More of them could
 * https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md
 * https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
     
-## Finding the right solution
+## Designing Operators
 
 The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
 of completeness, this chapter deals with some best practice when writing
