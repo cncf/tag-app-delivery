@@ -1,6 +1,6 @@
 ## Finding the right solution
 
-The previous chapter provides a use case for an Operator. With no claim
+The previous chapter described a use case for an operator that was one of the first operators ever. With no claim
 of completeness, this chapter deals with some best practice when writing
 own Operators, based on our own experience or described by the
 community. However, without clear knowledge of the actual state and
@@ -26,10 +26,9 @@ True, Kubernetes solves these issues in a novel way by creating and
 managing custom applications using Operators. However, and here is the
 first question: as a developer, do you really know how this type of
 application works and interacts both internally and externally? How does
-the day-to-day IT operations work, how is the application backed up
-(including recovery), what steps are necessary in case of failovers or
-outages, are there any dependencies between the software components,
-etc.?
+the day-to-day IT operations work. How is the application backed up
+(including recovery). What steps are necessary in case of failovers or
+outages, are there any dependencies between the software components?
 
 It is therefore strongly recommended that a comprehensive requirement
 analysis is needed to determine the requirements or conditions of an
@@ -164,7 +163,7 @@ free.
 ### Design your Operator the right way
 
 The last paragraph summarizes an unsorted list of best practices which
-were found and publish by various sources.
+were found and published by various sources.
 
 -   Writing an Operator involves using the Kubernetes API. Use a
     framework like Operator-SDK to save yourself time with this and get
