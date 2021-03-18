@@ -1,7 +1,7 @@
 **Status**: WIP | **Maintainer** : N/A | 
 
 ## Operator Lifecycle Management
-An operator is an application, this section will describe considerations regarding the lidecycle of the operator itself. 
+An operator is an application, this section will describe considerations regarding the lifecycle of the operator itself. 
 
 ### Upgrading the Operator
 While upgrading the operator a specile care should be taken in regrads to the managed resoruces. While upgrading the operator the managed resources should be kept in the same state and healthy. 
