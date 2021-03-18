@@ -7,6 +7,11 @@ There might be the case that an - mainly imperatively managed - application shou
 
 ![GitOps Example](img/071_GitOps_UseCase.png)
 
-Above example might illustrate such a use case, where a used configuration is checked in git repository. The operator gets his knowledge about the git repository by using a custom resource definition (1), where the repository path and the information about the secret ist stored. The operator fetches the config (2) and analyzes it (3) which means that it applies its operational knowledge to get from the current to the desired state. This is achieved by querying the application about its current state and sending instructions to get to the desired state (3-5).
+The above example illustrates such a case: 
+
+1. a piece of configuration is checked in a git repository.
+2. The operator acknowledges the git repository by using a custom resource definition (where the repository path and the information about the secret is stored).
+3. The operator fetches the config and analyses it.
+4. It applies its operational knowledge to get from the current to the desired state (by querying the application about its current state and sending instructions to get to the desired state).
 
 This enables the user to have reproducible configurations, versioned in a git repository.
