@@ -14,7 +14,7 @@
 | 6 | Operator Lifecycle Management | [Lifecycle Management](06_Lifecycle.md) | WIP | |
 | 7 | Use Cases *Add 07x_UseCase.md for your Use Case / Will be merged* | [Use Cases](07_Use_Cases.md) | WIP | |
 | 8 | Best Practices | [Best Practices](08_Best_Practices.md) | WIP | |
-| 9 | Find the right solution (to be refined)| [Find the right solution](09_Find_Solution.md) | WIP | |
+| 9 | Designing Operators| [Find the right solution](09_Find_Solution.md) | WIP | |
 | 10 | Summary / Conclusion | [Summary](10_Summary.md) | WIP | |
 | 11 | Related Work | [Related Work](11_Related_Work.md) | WIP | |
 | 12 | Bibliography | [Bibliography](12_Bibliography.md) | WIP | |
