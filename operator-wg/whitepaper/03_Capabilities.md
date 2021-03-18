@@ -36,7 +36,15 @@ At first, the application (data store) is set to consistent state (like a consis
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/50**
 
 #### Auto-Remediation
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/51**
+The auto-remediation capability of an operator should ensure that it is able to restore the application from a more complex failed state, which might not be handled or detected by mechanisms as health checks (live- and readiness probes). Therefore, the operator needs to have a deep understanding of the application. This can be achieved by metrics which might indicate application failures or errors, but also by dealing with kubernetes mechanisms like health checks. 
+
+Some examples might be:
+* Rolling back to the last known configuration if a defined amount of pod starts is unsuccessful after a version change.
+* In some points a restart of the application might be a short-term solution which also could be done by the operator
+* It could also be imaginable that an operator informs another operator of a dependent service that a backend system is not reachable at the moment (to take remediation actions).
+
+In any ways, this capability enables the operator to take actions to keep the system up and running. 
+
 
 #### Monitoring/metrics - observability
 While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provides a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
