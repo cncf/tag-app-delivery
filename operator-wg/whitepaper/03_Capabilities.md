@@ -17,7 +17,7 @@ An operator should be able to upgrade the version of the application / resources
 
 An operator should monitor the update, and rollback if there was a problem during the process.
 
-An operator should report the version of the resources and their health status during the process. If there was an error, the version reported should be the version that is actually been used.
+An operator should report the version of the resources and their health status during the process. If there was an error, the version reported should be the version that is currently been used.
 
 #### Backup
 
