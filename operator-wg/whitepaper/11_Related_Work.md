@@ -2,9 +2,7 @@
 
 
 ## Related Work
-Initially, Operators were introduced by a blog post on the CoreOS Blog (Philips, 2016) . This article provides a rough overview what operators are, why the concept has been developed and how they are built. The insights of this article are mainly used for the definition of operators in this document. As the blog post only provided a concise overview, additional terms as capabilities, security and additional concepts are described more in-depth in this document.
-
-Ref: Philips, B. (2016, 03 16). Introducing Operators: Putting Operational Knowledge into Software. CoreOS Blog. Retrieved 11 24, 2020, from https://coreos.com/blog/introducing-operators.html
+Initially, Operators were introduced by a blog post on the CoreOS Blog. This article provides a rough overview what operators are, why the concept has been developed and how they are built. The insights of this article are mainly used for the definition of operators in this document. As the blog post only provided a concise overview, additional terms as capabilities, security and additional concepts are described more in-depth in this document.
 
 The Operator Pattern as a concept is described in the Kubernetes documentation and therefore provides an overview how an example operator could do and provides starting points for writing an operator. (https://kubernetes.io/docs/concepts/extend-kubernetes/operator/).
 
