@@ -29,7 +29,7 @@ The above illustration shows how such a process could look like. At first the ba
 
 #### Recovery from backup
 
-The recovery capability of an operator might assist a user to restore the application state from a successful backup. Therefore, the application state (application version and data) should be restored. 
+The recovery capability of an operator might assist a user in restoring the application state from a successful backup. Therefore, the application state (application version and data) should be restored. 
 
 There might be many ways to achieve this. One possible way could be that the current application state also got backed up (including configuration), so the user only has to create a custom resource for the application and point to the backup. The operator would read the configuration, restore the application version and restore the data. Another possible solution might be that the user only backed up the data and might have to specify the application version used. Nevertheless, in both ways the operator ensures that the application is up and running afterwards using the data from the backup specified.
 
