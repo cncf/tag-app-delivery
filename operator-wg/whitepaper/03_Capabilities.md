@@ -1,9 +1,9 @@
 **Status**: WIP | **Maintainer** : Omer Kahani | 
 
 ### Operator capabilities
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/38**
+An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all. 
 
-In the following sections, capabilities an operator could have are described.
+The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
 #### Install an application / take ownership of an application
 An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
@@ -36,12 +36,19 @@ At first, the application (data store) is set to consistent state (like a consis
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/50**
 
 #### Auto-Remediation
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/51**
+The auto-remediation capability of an operator should ensure that it is able to restore the application from a more complex failed state, which might not be handled or detected by mechanisms as health checks (live- and readiness probes). Therefore, the operator needs to have a deep understanding of the application. This can be achieved by metrics which might indicate application failures or errors, but also by dealing with kubernetes mechanisms like health checks. 
+
+Some examples might be:
+* Rolling back to the last known configuration if a defined amount of pod starts is unsuccessful after a version change.
+* In some points a restart of the application might be a short-term solution which also could be done by the operator
+* It could also be imaginable that an operator informs another operator of a dependent service that a backend system is not reachable at the moment (to take remediation actions).
+
+In any ways, this capability enables the operator to take actions to keep the system up and running. 
+
 
 #### Monitoring/metrics - observability
 While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provides a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
 
-#### Scaling (Scaling of the Operator itself)
 
 #### Scaling (Operator Supports Scaling)
 Scaling is part of the day-2 operations that an operator can manage in order to keep the application / resources functional. The scaling capability doesn’t require the scaling to be automated, but only that the operator will know how to change the resources in terms of horizontal and vertical scaling.
@@ -57,7 +64,9 @@ An operator should respect basic scaling configuration of min and max.
 
 
 #### Auto-configuration tuning
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/54**
+This capability should empower the operator to manage the configuration of the managed application. As an example, the operator could adopt memory settings of an application according to the operation environment (e.g. kubernetes) or the change of DNS names. Furthermore, the operator should be able to handle configuration changes in a seamless way, e.g. if a configuration change requires a restart, this should be triggered. 
+
+These capabilities should be transparent to the users the user should have the possibility to override such auto-configuration mechanisms if he wants to do so. Furthermore, automatic reconfigurations should be well-documented in a way that the user could comprehend what is happening on the infrastructure.
 
 #### Uninstalling / Disconnect
 **(Current) Issues: https://github.com/cncf/sig-app-delivery/issues/52 & https://github.com/cncf/sig-app-delivery/issues/53**
