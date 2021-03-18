@@ -1,7 +1,7 @@
 **Status**: WIP | **Maintainer** : Omer Kahani | 
 
 ### Operator capabilities
-An operator is able to assist on operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. Besides that, an operator could manage the full lifecycle of an application, but does not necessarily have to deal with the installation/upgrading at all. 
+An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all. 
 
 The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
