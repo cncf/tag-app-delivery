@@ -25,7 +25,7 @@ or high availability to remain in a stable state.
 True, Kubernetes solves these issues in a novel way by creating and
 managing custom applications using Operators. However, and here is the
 first question: as a developer, do you really know how this type of
-application works and interacts both internally and externally. How does
+application works and interacts both internally and externally? How does
 the day-to-day IT operations work, how is the application backed up
 (including recovery), what steps are necessary in case of failovers or
 outages, are there any dependencies between the software components,
