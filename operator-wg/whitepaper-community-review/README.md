@@ -74,7 +74,7 @@ This document is intended for application developers, Kubernetes cluster operato
 Kubernetes and the success of other orchestrators, has been due to their focus on the main capabilities of containers.
 While companies began their journey to cloud native, working with more specific use cases (microservices, stateless applications) made more sense.
 As Kubernetes and other container orchestrators grew their reputation and extensibility, requirements became more ambitious.
-The desire to use orchestrators' full lifecycle capabilities was also transferred to highly distributed data stores.
+The desire to use the full lifecycle capabilities of an orchestrator was also transferred to highly distributed data stores.
 
 But Kubernetes primitives were not built to manage state by default.
 Thus by relying on Kubernetes primitives alone, it's difficult to manage stateful application requirements such as replication, failover automation, backup/restore, upgrades, etc which can occur based on events that are too specific.
