@@ -48,7 +48,7 @@ Table of Contents
         * [Reviewers](#reviewers)
 
 ## Executive Summary
-Maintaining applications or infrastructure requires many repetitive actions and checks. As computers are great in doing repetitive tasks and verifying the state of an object, the preferred way to maintain an application of infrastructure should be through code. An operator provides a way to encapsulate the tasks and checks required to manage other objects.
+Maintaining applications or infrastructure requires many repetitive actions and checks. As computers are great at doing repetitive tasks and verifying the state of an object, the preferred way to maintain an application of infrastructure should be through code. An operator provides a way to encapsulate the tasks and checks required to manage other objects.
 
 In Kubernetes, an operator provides intelligent, dynamic management capabilities by extending the functionality of the API.
 
