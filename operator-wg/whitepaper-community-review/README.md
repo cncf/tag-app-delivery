@@ -77,7 +77,7 @@ As Kubernetes and other container orchestrators grew their reputation and extens
 The desire to use the full lifecycle capabilities of an orchestrator was also transferred to highly distributed data stores.
 
 Kubernetes primitives were not built to manage state by default.
-Thus by relying on Kubernetes primitives alone, it's difficult to manage stateful application requirements such as replication, failover automation, backup/restore, upgrades, etc which can occur based on events that are too specific.
+Relying on Kubernetes primitives alone brings difficulty managing stateful application requirements such as replication, failover automation, backup/restore and upgrades (_which can occur based on events that are too specific_).
 
 We can solve the problem of managing state with the Operator Pattern.
 By leveraging Kubernetes built in capabilities such as self-healing and reconciliation and extending those along with application-specific complexities, it is possible to automate any application's lifecycle and operations and turn it into a highly capable offering.
