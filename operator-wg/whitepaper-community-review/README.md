@@ -71,7 +71,7 @@ The goal of this document is to provide a definition of operators for cloud-nati
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who are looking to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
 
 ## Foundation
-Kubernetes and other orchestrators' success was due to their focus on containers' main capabilities.
+Kubernetes and the success of other orchestrators, has been due to their focus on the main capabilities of containers.
 While companies began their journey to cloud native, working with more specific use cases (microservices, stateless applications) made more sense.
 As Kubernetes and other container orchestrators grew their reputation and extensibility, requirements became more ambitious.
 The desire to use orchestrators' full lifecycle capabilities was also transferred to highly distributed data stores.
