@@ -79,12 +79,12 @@ The desire to use the full lifecycle capabilities of an orchestrator was also tr
 Kubernetes primitives were not built to manage state by default.
 Relying on Kubernetes primitives alone brings difficulty managing stateful application requirements such as replication, failover automation, backup/restore and upgrades (_which can occur based on events that are too specific_).
 
-We can solve the problem of managing state with the Operator Pattern.
+Operator Pattern can be used to solve the problem of managing state.
 By leveraging Kubernetes built-in capabilities such as self-healing, reconciliation and extending those along with application-specific complexities; it is possible to automate any application lifecycle, operations and turn it into a highly capable offering.
 
-When we hear about Operators, we think of Kubernetes.
-But the idea of an application whose management is entirely automated can be exported to other platforms.
-So with this paper, we aim to bring this concept to a higher level than Kubernetes itself.
+Operators are thought of a synonymous with Kubernetes.
+However, the idea of an application whose management is entirely automated can be exported to other platforms.
+The aim of this paper is to bring this concept to a higher level than Kubernetes itself.
 
 ### Operator Design Pattern
 This section describes the pattern with high-level concepts.
@@ -122,13 +122,12 @@ Since the dawn of time, there have been two main ways to configure software, con
 Allowing for better validation and data structuring reduces the likelihood of small configuration errors and improves the ability of teams to self-serve. Enabling them to avoid having a deep or complete a knowledge of either the underlying orchestrator or the target application as would be traditionally required. This can include things like progressive defaults, where a few high-level settings are used to populate a best-practices-driven configuration file or adaptive configuration such as adjusting resource usage to match available hardware or expected load based on cluster size.
 
 #### Operational Automation
-Along with custom resources, most operators include at least one custom controller. These controllers are daemons that run inside the orchestrator like any other, but connect to the underlying API and provide automation of common or repetitive tasks. This is the same way that orchestrators (like Kubernetes) are implemented, you may have seen kube-controller-manager or cloud-controller-manager mentioned in your journey so far. But as we saw with configuration, operators can extend and enhance orchestrators with higher-level automation such as deploying clustered software, providing automated backups and restores, or dynamic scaling based on load.
+Along with custom resources, most operators include at least one custom controller. These controllers are daemons that run inside the orchestrator like any other, but connect to the underlying API and provide automation of common or repetitive tasks. This is the same way that orchestrators (like Kubernetes) are implemented, you may have seen kube-controller-manager or cloud-controller-manager mentioned in your journey so far. But as was demonstrated with configuration, operators can extend and enhance orchestrators with higher-level automation such as deploying clustered software, providing automated backups and restores, or dynamic scaling based on load.
 
-By putting these common operational tasks into code, we can ensure they will be repeatable, testable and upgradable in a standardized fashion. Keeping humans out of the loop on frequent tasks also ensures that steps won’t be missed or excluded and that different pieces of the task can’t drift out of sync with each other. As before, this allows for improved team autonomy by reducing the hours spent on boring-but-important upkeep tasks like application backups.
+By putting these common operational tasks into code, it can be ensured they will be repeatable, testable and upgradable in a standardized fashion. Keeping humans out of the loop on frequent tasks also ensures that steps won’t be missed or excluded and that different pieces of the task can’t drift out of sync with each other. As before, this allows for improved team autonomy by reducing the hours spent on boring-but-important upkeep tasks like application backups.
 
 #### Domain Knowledge
-Similar to operational automation, we can write an operator to encode specialized domain knowledge about particular software or processes. A common example of this is application upgrades. While a simple stateless application might need nothing more than a Deployment’s rolling upgrade; databases and other stateful applications often require very specific steps in sequence to safely perform upgrades. This can be handled autonomously by the operator as it knows your current and requested versions and can run specialized upgrade code when needed. More generally, this can apply to anything a pre-cloud-native environment would use manual checklists for (effectively using the operator as an executable runbook).
-
+Similar to operational automation, it can be written into an operator to encode specialized domain knowledge about particular software or processes. A common example of this is application upgrades. While a simple stateless application might need nothing more than a Deployment’s rolling upgrade; databases and other stateful applications often require very specific steps in sequence to safely perform upgrades. This can be handled autonomously by the operator as it knows your current and requested versions and can run specialized upgrade code when needed. More generally, this can apply to anything a pre-cloud-native environment would use manual checklists for (effectively using the operator as an executable runbook).
 Another common way to take advantage of automated domain knowledge is error remediation. For example, the Kubernetes built-in remediation behaviours mostly start and end with “restart container until it works” which is a powerful solution but often not the best or fastest solution. 
 An operator can monitor its application and react to errors with specific behaviour to resolve the error or escalate the issue if it can’t be automatically resolved. This can reduce MTTR (mean time to recovery) and also reduce operator fatigue from recurring issues.
 
@@ -345,7 +344,7 @@ used to manage off-cluster and cloud resources, cloud IAM integration
 permissions should be configured to prevent cloud account takeover
 from a compromised operator.
 
-One thing to note: A “land grab” of privileges - e.g requesting
+_One thing to note_: A “land grab” of privileges - e.g requesting
 significant/administrative access - is not always malicious in
 intent. The developer might not know better or have had the time
 to tune the required permissions to the concept of least privilege.
@@ -669,7 +668,7 @@ Operators. All requirements should be documented, measurable, testable,
 traceable, related to identified requirements, and defined at a level of
 detail sufficient for system design.
 
-Best practice:
+Steps to build the right operator:
 
 1.  Do not assume to know what is needed.
 
@@ -688,9 +687,7 @@ Best practice:
 
 ### Custom or third-party Operator
 
-Now that we know that we need an Operator and what the requirements are,
-we can turn our attention to the question where do we get a Kubernetes
-Operator which meets best our requirements?
+Now that the situations where using an Operator have been made clear, the next part of the paper will focus on where Operator implementations are available and which best meets requirements.
 
 Finding the right Kubernetes Operator can be a challenge. On the one
 hand, you need to find something that fits with the requirements you
@@ -879,4 +876,4 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 ### Reviewers
 
 **Add yourself if you reviewed the document**
-Alex Jones (github.com/AlexsJones)
+- Alex Jones (github.com/AlexsJones)
