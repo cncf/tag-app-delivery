@@ -104,7 +104,7 @@ The Operator pattern consists of three components:
 
 * The application or infrastructure that we want to manage in a declarative way.
 * Our domain specific knowledge that describes the state of the application in a declarative way.
-* A controller that run continuously:
+* A controller that runs continuously:
   * Reads and is aware of the state.
   * Runs actions against the application in an automated way.
   * Report the state of the application  in a declarative way.
@@ -117,7 +117,7 @@ The core purpose of any operator is to extend its orchestrator's underlying API 
 The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation and domain knowledge.
 
 #### Dynamic Configuration
-Since the dawn of time, there have been two main ways to configure software, configuration files and environment variables. In the cloud-native world, there are some newer options like querying a well-known API at startup, but most existing software in the world uses one or both of these options. Kubernetes naturally provides many tools to interact with these (such as ConfigMaps and Secrets) but because they are generic, they don’t understand any specifics of configuring a given application. An operator can define new custom object types (custom resources) to better express the configuration of a particular application in a Kubernetes context.
+Since the dawn of time, there have been two main ways to configure software: configuration files and environment variables. In the cloud-native world, there are some newer options like querying a well-known API at startup, but most existing software in the world uses one or both of these options. Kubernetes naturally provides many tools to interact with these (such as ConfigMaps and Secrets) but because they are generic, they don’t understand any specifics of configuring a given application. An operator can define new custom object types (custom resources) to better express the configuration of a particular application in a Kubernetes context.
 
 Allowing for better validation and data structuring reduces the likelihood of small configuration errors and improves the ability of teams to self-serve. Enabling them to avoid having a deep or complete a knowledge of either the underlying orchestrator or the target application as would be traditionally required. This can include things like progressive defaults, where a few high-level settings are used to populate a best-practices-driven configuration file or adaptive configuration such as adjusting resource usage to match available hardware or expected load based on cluster size.
 
@@ -195,7 +195,7 @@ The following sections should give an overview about capabilities an operator co
 #### Install an application / take ownership of an application
 An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
 
-An operator should also be able to recognize resources that were provintied before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The ownership process purpose is to enable easy migration of resources to the operator.
+An operator should also be able to recognize resources that were provisioned before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The ownership process purpose is to enable easy migration of resources to the operator.
 
 An Operator should report the version of the resources and their health status during the process.
 
@@ -212,7 +212,7 @@ This capability is for operators that manage data and ensure that the operator i
 
 ![Example Backup Process](plantuml/backup-sequence.png)
 
-The above illustration shows how such a process could look like. At first, the backup gets triggered either by a human or another trigger (e.g. time-trigger). The operator instructs its watched resource (application) to set up a consistent state (like a consistent snapshot). Afterwards, the data of the application gets backed up to external storage using appropriate tools. This could either be a one-step process (backup directly to external storage) or in multiple steps, like writing to a persistent volume at first and to the external storage afterwards. The external storage might be an NFS/CIFS share (or any other network file system) on-premises, but also an object store/bucket on a cloud provider infrastructure. Whether the backup failed or succeeded, the state (of the backup) including the backed-up application version and the location of the backup might be written to the state section of the custom resource.
+The above illustration shows how such a process could look like. At first, the backup gets triggered either by a human or another trigger (e.g. time-trigger). The operator instructs its watched resource (application) to set up a consistent state (like a consistent snapshot). Afterwards, the data of the application gets backed up to external storage using appropriate tools. This could either be a one-step process (backup directly to external storage) or in multiple steps, like writing to a persistent volume at first and to the external storage afterwards. The external storage might be an NFS/CIFS share (or any other network file system) on-premises, but also an object store/bucket on a cloud provider infrastructure. Whether the backup failed or succeeded, the state (of the backup) including the backed-up application version and the location of the backup might be written to the status section of the custom resource.
 
 #### Recovery from backup
 
@@ -441,11 +441,11 @@ if you want to bring your application domain directly to Kubernetes as custom
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
 
-### kubebuilder Operator Framework
+### kubebuilder
 
-The kubebuilder framework provides developers the possibilities to extend the Kubernetes API by using Custom Resource Definitions, and to create operators that handle these custom resources.
+The kubebuilder framework provides developers the possibilities to extend the Kubernetes API by using Custom Resource Definitions, and to create controllers that handle these custom resources.
 
-The main entry point provided by the kubebuilder framework is a *Manager*. In the same way the native Kubernetes controllers are grouped into a single Kubernetes Controller Manager (`kube-controller-manager`), you will be able to create several contrllers and make them managed by a single manager.
+The main entry point provided by the kubebuilder framework is a *Manager*. In the same way the native Kubernetes controllers are grouped into a single Kubernetes Controller Manager (`kube-controller-manager`), you will be able to create several controllers and make them managed by a single manager.
 
 As Kubernetes API resources are attached to domains and arranged in Groups, Versions and Kinds, the Kubernetes custom resources you will define will be attached to your own domain, and arranged in your own groups, versions and kinds.
 
@@ -613,7 +613,7 @@ Even if there is an operator for every part of the application, it might be easi
 
 Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator creates a custom resource for each of the components of the stack which are again managed by operators and managing the underlying resources.
 
-### Multiple CRDs per controller
+### One CRD per controller
 Every CRD managed by an operator should be implemented in a single controller. This makes code a bit more readable and should help with separation of concerns.
 
 ### Where to publish and find operators
@@ -877,3 +877,4 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 
 **Add yourself if you reviewed the document**
 - Alex Jones (github.com/AlexsJones)
+- Michael Hrivnak (github.com/mhrivnak)
