@@ -861,6 +861,7 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 * Ibryam, B. (2019). Kubernetes Patterns. O'Reilly.
 * Operator Framework. (n.d.). Operator Capabilities. Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/
 * Philips, B. (2016, 03 16). Introducing Operators: Putting Operational Knowledge into Software. CoreOS Blog. Retrieved 11 24, 2020, from https://coreos.com/blog/introducing-operators.html
+* Hausenblas, M & Schimanski, S. (2019). Programming Kubernetes. O'Reilly.
 ## Contributors
 
 ### Contributors
@@ -872,6 +873,7 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 - Jennifer Strejevitch (github.com/Jenniferstrej)
 - Omer Kahani (github.com/OmerKahani)
 - Thomas Schuetz (github.com/thschue)
+- Grzegorz Głąb (github.com/grzesuav)
 
 ### Reviewers
 
