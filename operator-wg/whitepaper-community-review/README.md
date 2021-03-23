@@ -82,7 +82,7 @@ Relying on Kubernetes primitives alone brings difficulty managing stateful appli
 Operator Pattern can be used to solve the problem of managing state.
 By leveraging Kubernetes built-in capabilities such as self-healing, reconciliation and extending those along with application-specific complexities; it is possible to automate any application lifecycle, operations and turn it into a highly capable offering.
 
-Operators are thought of a synonymous with Kubernetes.
+Operators are thought of as synonymous with Kubernetes.
 However, the idea of an application whose management is entirely automated can be exported to other platforms.
 The aim of this paper is to bring this concept to a higher level than Kubernetes itself.
 
