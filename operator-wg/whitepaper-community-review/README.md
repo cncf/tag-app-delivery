@@ -67,7 +67,7 @@ It closes with related work, what additional value they can bring beyond this wh
 ### The goal of this document
 The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
-### Target Audience / Minimum Level of Experience 
+### Target Audience / Minimum Level of Experience
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who are looking to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
 
 ## Foundation
@@ -96,7 +96,7 @@ By using the operator pattern, the knowledge on how to adjust and maintain a res
 
 When using an operator design pattern the user should only be required to describe the desired state of the application and resources. The operator implementation should make the necessary changes in the world so it will be in the desired state. The operator will also monitor the real state continuously and take actions to keep it healthy and in the same state (preventing drifts).
 
-A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described. 
+A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described.
 
 ![Operator Design Pattern](img/02_1_operator_pattern.png)
 
@@ -128,7 +128,7 @@ By putting these common operational tasks into code, it can be ensured they will
 
 #### Domain Knowledge
 Similar to operational automation, it can be written into an operator to encode specialized domain knowledge about particular software or processes. A common example of this is application upgrades. While a simple stateless application might need nothing more than a Deployment’s rolling upgrade; databases and other stateful applications often require very specific steps in sequence to safely perform upgrades. This can be handled autonomously by the operator as it knows your current and requested versions and can run specialized upgrade code when needed. More generally, this can apply to anything a pre-cloud-native environment would use manual checklists for (effectively using the operator as an executable runbook).
-Another common way to take advantage of automated domain knowledge is error remediation. For example, the Kubernetes built-in remediation behaviours mostly start and end with “restart container until it works” which is a powerful solution but often not the best or fastest solution. 
+Another common way to take advantage of automated domain knowledge is error remediation. For example, the Kubernetes built-in remediation behaviours mostly start and end with “restart container until it works” which is a powerful solution but often not the best or fastest solution.
 An operator can monitor its application and react to errors with specific behaviour to resolve the error or escalate the issue if it can’t be automatically resolved. This can reduce MTTR (mean time to recovery) and also reduce operator fatigue from recurring issues.
 
 ### Operator components in Kubernetes
@@ -137,8 +137,8 @@ An operator can monitor its application and react to errors with specific behavi
 (Jimmy Zelinskie, https://github.com/kubeflow/tf-operator/issues/300#issuecomment-357527937)
 
 ![Operator Big Picture](img/02_2_operator.png)
-Operators enable the extension of the Kubernetes API with operational knowledge. 
-This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases. 
+Operators enable the extension of the Kubernetes API with operational knowledge.
+This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases.
 
 The controller will constantly compare the desired state with the current state using the reconciliation loop which ensures that the watched objects get transitioned to the desired state in a defined way.
 
@@ -150,7 +150,7 @@ A Kubernetes Controller takes care of routine tasks to ensure the desired state 
 Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has additional operational knowledge like how to upgrade or remediate from errors, it is an operator.
 
 #### Custom resources and custom resource definitions
-Custom resources are used to store and retrieve structured data in Kubernetes (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/). 
+Custom resources are used to store and retrieve structured data in Kubernetes (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/).
 In the case of an operator, a custom resource contains the required state of the application or domain-specific knowledge but does not contain the implementation logic. Such information could be the version information of application components, but also enabled features of an application or information where backups of the application could be part of this. A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
 
 The following example illustrates, how such an custom resource instance definition could look like:
@@ -188,7 +188,7 @@ The “status” section is where the operator can communicate useful informatio
 The control (reconciliation) loop in a Kubernetes controller ensures that the state that the user declares using a CRD matches the state of the application, but also that the transition between the states works as intended. One common use-case could be the migration of database schemes when upgrading an application. The control loop can be triggered on specific events, as a change on the crd, but also time-based, like for backing up data at a defined time.
 
 ### Operator capabilities
-An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all. 
+An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all.
 
 The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
@@ -216,7 +216,7 @@ The above illustration shows how such a process could look like. At first, the b
 
 #### Recovery from backup
 
-The recovery capability of an operator might assist a user in restoring the application state from a successful backup. Therefore, the application state (application version and data) should be restored. 
+The recovery capability of an operator might assist a user in restoring the application state from a successful backup. Therefore, the application state (application version and data) should be restored.
 
 There might be many ways to achieve this. One possible way could be that the current application state also gets backed up (including configuration), so the user only has to create a custom resource for the application and point to the backup. The operator would read the configuration, restore the application version and restore the data. Another possible solution might be that the user only backed up the data and might have to specify the application version used. Nevertheless, in both ways, the operator ensures that the application is up and running afterwards using the data from the backup specified.
 
@@ -249,7 +249,7 @@ An operator should respect basic scaling configuration of min and max.
 
 
 #### Auto-configuration tuning
-This capability should empower the operator to manage the configuration of the managed application. As an example, the operator could adopt memory settings of an application according to the operation environment (e.g. kubernetes) or the change of DNS names. Furthermore, the operator should be able to handle configuration changes in a seamless way, e.g. if a configuration change requires a restart, this should be triggered. 
+This capability should empower the operator to manage the configuration of the managed application. As an example, the operator could adopt memory settings of an application according to the operation environment (e.g. kubernetes) or the change of DNS names. Furthermore, the operator should be able to handle configuration changes in a seamless way, e.g. if a configuration change requires a restart, this should be triggered.
 
 These capabilities should be transparent to the users the user should have the possibility to override such auto-configuration mechanisms if they want to do so. Furthermore, automatic reconfigurations should be well-documented in a way that the user could comprehend what is happening on the infrastructure.
 
@@ -332,7 +332,7 @@ Kubernetes. When granting an operator access to resources, the focus
 should be on granting the most limited set of permissions needed
 for the operator to perform its task. This means only grant
 ClusterRoles if absolutely necessary, but granting specific permissions
-for specific resources/namespaces. The 
+for specific resources/namespaces. The
 [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 chapter of the user guide covers this topic in detail. Operator
 build kits such as the Operator SDK use general RBAC defaults that
@@ -482,7 +482,7 @@ Main limitations :
 * The current architecture relies on a single metacontroller in a cluster
 * Metacontroller is not aware of any external state, it relies entirely on cluster state
 
-Example metacontroller configuration, shown below, is used to add additional network exposure for `StatefulSet` without explicitly defining `Service` manifest. 
+Example metacontroller configuration, shown below, is used to add additional network exposure for `StatefulSet` without explicitly defining `Service` manifest.
 ```yaml
 apiVersion: metacontroller.k8s.io/v1alpha1
 kind: DecoratorController
@@ -537,10 +537,10 @@ Additional examples and ideas what could be implemented using metacontroller, ca
 For any question, please visit our slack channel ([#metacontroller](https://kubernetes.slack.com/archives/CA0SUPUDP)) or ask it on [github discussions](https://github.com/metacontroller/metacontroller/discussions/).
 
 ## Operator Lifecycle Management
-An operator is an application, this section will describe considerations regarding the lifecycle of the operator itself. 
+An operator is an application, this section will describe considerations regarding the lifecycle of the operator itself.
 
 ### Upgrading the Operator
-While upgrading the operator, special care should be taken in regards to the managed resources. During an operator upgrade, the managed resources should be kept in the same state and healthy. 
+While upgrading the operator, special care should be taken in regards to the managed resources. During an operator upgrade, the managed resources should be kept in the same state and healthy.
 
 ### Upgrading the Declarative State
 the declarative state is the API of the operator, and it may need to be upgraded. The usage of CRD versions indicates the stability of the CRD and the operator - [read more about versioning a CRD](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/)
@@ -573,13 +573,13 @@ The benefits is using Kubernetes native configuration as a way to configure your
 The Operator controller will then communicate with the K8s API server to add Service metrics endpoints and automatically generate the required Prometheus scrape configurations for the configured Services.
 
 ### Operator for GitOps
-Often, operators are associated with installing, upgrading and operating applications. One example that an operator could also "operate" things without managing an application can be found in the GitOps world. 
+Often, operators are associated with installing, upgrading and operating applications. One example that an operator could also "operate" things without managing an application can be found in the GitOps world.
 
-There might be the case that an - mainly imperatively managed - application should be orchestrated in a more declarative and Git-driven way. Therefore, an operator could assist in fetching the configuration from a git-repository, analyze configurations to find out if something has to be changed and which actions should be taken and takes the according actions. 
+There might be the case that an - mainly imperatively managed - application should be orchestrated in a more declarative and Git-driven way. Therefore, an operator could assist in fetching the configuration from a git-repository, analyze configurations to find out if something has to be changed and which actions should be taken and takes the according actions.
 
 ![GitOps Example](img/071_GitOps_UseCase.png)
 
-The above example illustrates such a case: 
+The above example illustrates such a case:
 
 1. a piece of configuration is checked in a git repository.
 2. The operator acknowledges the git repository by using a custom resource definition (where the repository path and the information about the secret is stored).
@@ -628,7 +628,7 @@ There are lots of more best practices like:
 and many other best practices might be found on the internet. More of them could be found on following sources:
 * https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md
 * https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
-    
+
 ## Designing Operators
 
 The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
@@ -785,7 +785,7 @@ However, according to \[1\], **Operators written in Go Language** are by
 far the most popular. The reason for this is two-fold: first, the
 Kubernetes environment itself is written in Go, so the client library is
 perfectly optimized. Second, the Operator SDK (with embedded
-Kubebuilder) supports the implemention of Operators in Go out-of-the-box. 
+Kubebuilder) supports the implemention of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 
@@ -842,7 +842,7 @@ The Book “Kubernetes Operators” (Dobies & Wood, 2020) provides a comprehensi
 
 Ref: Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
 
-Michael Hausenblas and Stefan Schimanski wrote a book about Programming Kubernetes, which provides deeper insights into client-go, custom resources, but also about writing operators. 
+Michael Hausenblas and Stefan Schimanski wrote a book about Programming Kubernetes, which provides deeper insights into client-go, custom resources, but also about writing operators.
 
 Ref: Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
 
@@ -874,6 +874,7 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 - Omer Kahani (github.com/OmerKahani)
 - Thomas Schuetz (github.com/thschue)
 - Grzegorz Głąb (github.com/grzesuav)
+- Alex Jones (github.com/AlexsJones)
 
 ### Reviewers
 
