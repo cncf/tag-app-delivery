@@ -274,7 +274,6 @@ All of these routes offer potential to compromise the operator and
 its resources, and should be protected in line with best practices
 laid out below.
 
-
 ### Operator Developer
 Operator developers should be aware of the security risks an operator
 introduces and document its secure use. While developing an operator
@@ -283,8 +282,21 @@ documentation, operator scope, and vulnerability analysis.
 
 #### Transparency and Documentation
 During development of an operator you should have a clear understanding
-of how it will work and interface within Kubernetes. You should
-provide your users with some or all of this list:
+of how it will work and interface within Kubernetes. As you shift
+from development to publishing your work, your users should also
+have a clear understanding of what your operator does, and how.
+
+You've written something you're proud of, but think of this from
+the end user's point of view: Why should they trust you and your
+operator to run with administrative access on their cluster which
+may be large and costly, or may be handling sensitive information.
+Anything you can do to help this (probably busy) person come up to
+speed with your software, how it works, how it's secured, and what
+affects it might have on their cluster will make it easier for them
+to adopt your software.
+
+Here are some items that can help users make informed decisions
+about how to use your operator:
 
 * Descriptive diagram (threat model) of how the operator is
 communicating and with what is a good start to helping a user
@@ -294,14 +306,33 @@ stay in scope of compliance or you risk vulnerability outside that
 scope.
 * Documented RBAC scopes, threat model, communication ports, API
 calls available
+* Security reporting, disclosure, and incident response processes:
+If someone finds a potential security issue, who should they contact
+and what type of response should they expect?
+* If your project has had security disclosures in the past, listing
+these disclosures (and their CVE IDs) on a web page is a strong step
+in building trust with your users. Everyone will have security
+issues at some point - how you handle them displays the maturity
+of your project.
+
+For further ideas around the security of your development process,
+you may wish to review the CNCF Security SIG's [self-assessment
+questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
 
 #### Operator Scope
-(to be completed)
 
-#### Vulnerability Analysis
-(to be completed)
+A core concept for a developer to consider is if an operator should
+be scoped to run within a sole namespace, or if it should run with
+cluster-wide privileges. While this paper also talks about scoping
+from a user point-of-view, how an operator is designed will weigh
+heavily on the type of security controls which can be applied against
+it in production. It is common to start with lax permissions, and
+intentions to apply security concepts before release; Spending some
+time thinking about the security design of the operator as you begin
+work on it will make this process much easier for you and your
+users.
 
-### Application Developer ("users")
+### Application Developer (operator "users")
 
 Operators perform administrative tasks on the user’s behalf such
 as volume creation/attachment, application deployment, and
