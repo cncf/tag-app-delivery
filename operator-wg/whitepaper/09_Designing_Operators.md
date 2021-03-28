@@ -39,7 +39,7 @@ detail sufficient for system design.
 
 Best practice:
 
-1.  Do not assume to know what is needed.
+1.  If unsure whether to use an operator or not, try to run a feasibility assessment instead. Find plausible and understandable reasons for using an operator. Contrast the benefits of operators with the effort required to implement and operate them.
 
 2.  Study existing documentation of your application, interview
     responsible system administrators and other stakeholders (if
