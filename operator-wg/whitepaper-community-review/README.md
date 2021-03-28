@@ -670,7 +670,7 @@ detail sufficient for system design.
 
 Steps to build the right operator:
 
-1.  Do not assume to know what is needed.
+1.  If unsure whether to use an operator or not, try to run a feasibility assessment instead. Find plausible and understandable reasons for using an Operator. Contrast the benefits of Operators with the effort required to implement and operate them.
 
 2.  Study existing documentation of your application, interview
     responsible system administrators and other stakeholders (if
