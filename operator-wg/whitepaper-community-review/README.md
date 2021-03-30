@@ -308,6 +308,8 @@ calls available
 * Security reporting, disclosure, and incident response processes:
 If someone finds a potential security issue, who should they contact
 and what type of response should they expect?
+* Logging and monitoring attachment through exposed endpoints, log
+levels, or log aggregation.
 * If the project has had security disclosures in the past, listing
 these disclosures (and their CVE IDs) on a web page is a strong step
 in building trust with users. Everyone will have security
@@ -320,16 +322,50 @@ questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide
 
 #### Operator Scope
 
-A core concept for a developer to consider is if an operator should
-be scoped to run within a sole namespace, or if it should run with
-cluster-wide privileges. While this paper also talks about scoping
-from a user point-of-view, how an operator is designed will weigh
-heavily on the type of security controls which can be applied against
-it in production. It is common to start with lax permissions, and
-intentions to apply security concepts before release; Spending some
-time thinking about the security design of the operator as developers begin
-work on it will make this process much easier for developers and their
-users.
+There are many use cases for operators and there is virtually no
+limit in the scope of what an operator can be designed for. In order
+to be clear about the secure nature of a specific operator, the
+developer must include the communication involved with each scope.
+The general scopes which could be used are cluster wide, namespace,
+and external.
+
+**Cluster-wide operators** exist to execute custom resources across
+a cluster no matter if those resources are living in another namespace
+or not. In order to secure this scope we must know the nature of
+the communication, any APIs created, controllers and their
+responsibility, and application metric endpoints. This information,
+if provided with the operator can be used to secure the operator
+application within the cluster further. If the information is not
+provided, the cluster can be left vulnerable to a myriad of attacks.
+
+**Namespace Operators** exist to execute custom resources within a
+namespace. Usually there are policy engine policies applied to jail
+the scope within the namespace and only communicate with pods within
+the namespace. This is considered more secure by nature, but the
+same rules apply. In order to secure this scope we must know the
+nature of the communication, any APIs created, controllers and their
+responsibility, and application metric endpoints. This information,
+if provided with the operator can be used to secure the operator
+application within the namespace further. If the information is not
+provided, the cluster can be left vulnerable to a myriad of attacks.
+
+**External Operators** exist to execute custom resources that are
+external to the cluster. The same rules apply, in order to secure
+this scope we must know the nature of the communication from the
+cluster to the external component, any APIs created, controllers
+and their responsibility, and application metric endpoints. This
+information, if provided with the operator can be used to secure
+the operator application within the cluster further. If the information
+is not provided, the cluster can be left vulnerable to a myriad of
+attacks.
+
+While this paper also talks about scoping from a user point-of-view,
+how an operator is designed will weigh heavily on the type of
+security controls which can be applied against it in production.
+It is common to start with lax permissions, and intentions to apply
+security concepts before release; Spending some time thinking about
+the security design of the operator as developers begin work on it
+will make this process much easier for developers and their users.
 
 ### Application Developer (operator "users")
 
