@@ -284,7 +284,7 @@ documentation, operator scope, and vulnerability analysis.
 During development of an operator a developer should have a clear understanding
 of how it will work and interface within Kubernetes. As you shift
 from development to publishing your work, your users should also
-have a clear understanding of what your operator does, and how.
+have a clear understanding of what the operator does, and how.
 
 You've written something you're proud of, but think of this from
 the end user's point of view: Why should they trust you and your
