@@ -329,7 +329,7 @@ heavily on the type of security controls which can be applied against
 it in production. It is common to start with lax permissions, and
 intentions to apply security concepts before release; Spending some
 time thinking about the security design of the operator as you begin
-work on it will make this process much easier for you and your
+work on it will make this process much easier for developers and their
 users.
 
 ### Application Developer (operator "users")
