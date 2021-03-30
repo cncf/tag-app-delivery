@@ -283,7 +283,7 @@ documentation, operator scope, and vulnerability analysis.
 #### Transparency and Documentation
 During development of an operator a developer should have a clear understanding
 of how it will work and interface within Kubernetes. As you shift
-from development to publishing your work, your users should also
+from development to publishing the work (operator), users should also
 have a clear understanding of what the operator does, and how.
 
 You've written something you're proud of, but think of this from
