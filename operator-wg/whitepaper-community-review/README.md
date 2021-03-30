@@ -312,7 +312,7 @@ and what type of response should they expect?
 * If the project has had security disclosures in the past, listing
 these disclosures (and their CVE IDs) on a web page is a strong step
 in building trust with users. Everyone will have security
-issues at some point - how you handle them displays the maturity
+issues at some point - how they are handled displays the maturity
 of your project.
 
 For further ideas around the security of your development process,
