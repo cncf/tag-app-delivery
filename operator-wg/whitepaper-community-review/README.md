@@ -281,7 +281,7 @@ it's important to focus on key areas such as transparency and
 documentation, operator scope, and vulnerability analysis.
 
 #### Transparency and Documentation
-During development of an operator you should have a clear understanding
+During development of an operator a developer should have a clear understanding
 of how it will work and interface within Kubernetes. As you shift
 from development to publishing your work, your users should also
 have a clear understanding of what your operator does, and how.
