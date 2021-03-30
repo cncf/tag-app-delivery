@@ -309,7 +309,7 @@ calls available
 * Security reporting, disclosure, and incident response processes:
 If someone finds a potential security issue, who should they contact
 and what type of response should they expect?
-* If your project has had security disclosures in the past, listing
+* If the project has had security disclosures in the past, listing
 these disclosures (and their CVE IDs) on a web page is a strong step
 in building trust with your users. Everyone will have security
 issues at some point - how you handle them displays the maturity
