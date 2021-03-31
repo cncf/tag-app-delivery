@@ -274,7 +274,6 @@ All of these routes offer potential to compromise the operator and
 its resources, and should be protected in line with best practices
 laid out below.
 
-
 ### Operator Developer
 Operator developers should be aware of the security risks an operator
 introduces and document its secure use. While developing an operator
@@ -282,26 +281,93 @@ it's important to focus on key areas such as transparency and
 documentation, operator scope, and vulnerability analysis.
 
 #### Transparency and Documentation
-During development of an operator you should have a clear understanding
-of how it will work and interface within Kubernetes. You should
-provide your users with some or all of this list:
+During development of an operator a developer should have a clear understanding
+of how it will work and interface within Kubernetes. As a developer shifts
+from development to publishing the operator, users should also
+have a clear understanding of what the operator does, and how.
+
+You've written something you're proud of, but think of this from
+the end user's point of view: Should they trust source code from
+the internet, an operator to run with administrative access on their
+cluster which may be large and costly, or may be handling sensitive
+information?  Anything the developer can do to help a user come up
+to speed with their software, how it works, how it's secured, and
+what affects it might have on their cluster will make it easier for
+them to adopt the software.
+
+Here are some items that can help users make informed decisions
+about if they should use an operator:
 
 * Descriptive diagram (threat model) of how the operator is
 communicating and with what is a good start to helping a user
 understand how they must secure it and apply policy for the operator.
 * Use case of how the software is intended to be used in order to
-stay in scope of compliance or you risk vulnerability outside that
-scope.
+stay in scope for compliance
 * Documented RBAC scopes, threat model, communication ports, API
 calls available
+* Security reporting, disclosure, and incident response processes:
+If someone finds a potential security issue, who should they contact
+and what type of response should they expect?
+* Logging and monitoring attachment through exposed endpoints, log
+levels, or log aggregation.
+* If the project has had security disclosures in the past, listing
+these disclosures (and their CVE IDs) on a web page is a strong step
+in building trust with users. Everyone will have security
+issues at some point - how they are handled displays the maturity
+of a project.
+
+For further ideas around the security of the development process,
+the reader may wish to review the CNCF Security SIG's [self-assessment
+questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
 
 #### Operator Scope
-(to be completed)
 
-#### Vulnerability Analysis
-(to be completed)
+There are many use cases for operators and there is virtually no
+limit in the scope of what an operator can be designed for. In order
+to be clear about the secure nature of a specific operator, the
+developer must include the communication involved with each scope.
+The general scopes which could be used are cluster wide, namespace,
+and external.
 
-### Application Developer ("users")
+**Cluster-wide operators** exist to execute custom resources across
+a cluster no matter if those resources are living in another namespace
+or not. In order to secure this scope we must know the nature of
+the communication, any APIs created, controllers and their
+responsibility, and application metric endpoints. This information,
+if provided with the operator can be used to secure the operator
+application within the cluster further. If the information is not
+provided, the cluster can be left vulnerable to a myriad of attacks.
+
+**Namespace Operators** exist to execute custom resources within a
+namespace. Usually there are policy engine policies applied to jail
+the scope within the namespace and only communicate with pods within
+the namespace. This is considered more secure by nature, but the
+same rules apply. In order to secure this scope we must know the
+nature of the communication, any APIs created, controllers and their
+responsibility, and application metric endpoints. This information,
+if provided with the operator can be used to secure the operator
+application within the namespace further. If the information is not
+provided, the cluster can be left vulnerable to a myriad of attacks.
+
+**External Operators** exist to execute custom resources that are
+external to the cluster. The same rules apply, in order to secure
+this scope we must know the nature of the communication from the
+cluster to the external component, any APIs created, controllers
+and their responsibility, and application metric endpoints. This
+information, if provided with the operator can be used to secure
+the operator application within the cluster further. If the information
+is not provided, the cluster can be left vulnerable to a myriad of
+attacks.
+
+While this paper also talks about scoping from a user point-of-view,
+how an operator is designed will weigh heavily on the type of
+security controls which can be applied against it in production.
+It is common to start with lax permissions, and intentions to apply
+security concepts before release; Spending some time thinking about
+the security design of the operator as developers begin work on it
+will make this process much easier for developers and their users.
+
+### Application Developer (operator "users")
 
 Operators perform administrative tasks on the user’s behalf such
 as volume creation/attachment, application deployment, and
@@ -356,13 +422,13 @@ to proceed with caution if such a “land grab” is found.
 
 **Software provenance**: The “software supply chain” is starting to get
 more attention at time of writing this whitepaper. Consider the
-source for your operator, how it is being installed, and how or why
-a malicious user may want access to your systems. Spend a few minutes
+source for an operator, how it is being installed, and how or why
+a malicious user may want access to a kubernetes cluster. Spend a few minutes
 reviewing an installation script before running it. While the kubectl
 command supports the ability to apply a yaml script directly from
 the public Internet (e.g `kubectl create -f
 https://publicwebsite.com/install/operator.yaml`) it is strongly
-recommended that you first download that file locally, review it,
+recommended that one first downloads that file locally, review it,
 and then run `kubectl create -f operator.yaml`.
 
 To review the script ask the following questions:
@@ -382,14 +448,14 @@ attempt to run container securityContexts with host sharing or
 **Advanced security controls**, such as SELinux, AppArmor, or seccomp
 may be mandated by cluster policy. Open source operators are unlikely
 to have configurations for these Linux security modules, but if
-your organization is familiar with one of these control systems,
+an organization is familiar with one of these control systems,
 writing the appropriate security configuration for the operator
 should not require significant overhead.
 
 **Operator configuration**: Ideally a project will be “secure by
 default” to increase the likelihood of a secure operator or application
 deployment. Insecure defaults require manual configuration to secure
-your environment. While it may seem like unnecessary work to learn
+the environment. While it may seem like unnecessary work to learn
 configuration  parameters of a new operator, it is usually preferable
 manually adjusting the configuration and/or source code of an
 operator itself to reach the needed level of security.
