@@ -68,7 +68,7 @@ It closes with related work, what additional value they can bring beyond this wh
 The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience 
-This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who are looking to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
+This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
 
 ## Foundation
 Kubernetes and the success of other orchestrators, has been due to their focus on the main capabilities of containers.
@@ -90,7 +90,7 @@ The aim of this paper is to bring this concept to a higher level than Kubernetes
 This section describes the pattern with high-level concepts.
 The next section _Kubernetes Operator Definition_ will describe the implementations of the pattern in terms of Kubernetes objects and concepts.
 
-The operator design pattern defines how to manage application and infrastructure resources using declarative domain-specific knowledge. The goal of the pattern is to reduce the amount of manual imperative work which is required to keep an application in a healthy and well-maintained state.
+The operator design pattern defines how to manage application and infrastructure resources using domain-specific knowledge and declarative state. The goal of the pattern is to reduce the amount of manual imperative work (how to backup, scale, upgrade...) which is required to keep an application in a healthy and well-maintained state, by capturing that domain specific knowledge in code and exposing it using a declarative API
 
 By using the operator pattern, the knowledge on how to adjust and maintain a resource is captured in code and often within a single service (also called a controller).
 
@@ -150,8 +150,8 @@ A Kubernetes Controller takes care of routine tasks to ensure the desired state 
 Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has additional operational knowledge like how to upgrade or remediate from errors, it is an operator.
 
 #### Custom resources and custom resource definitions
-Custom resources are used to store and retrieve structured data in Kubernetes (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/). 
-In the case of an operator, a custom resource contains the required state of the application or domain-specific knowledge but does not contain the implementation logic. Such information could be the version information of application components, but also enabled features of an application or information where backups of the application could be part of this. A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
+Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/). 
+In the case of an operator, a custom resource contains the desired state of the resource (e.g. application) but does not contain the implementation logic. Such information could be the version information of application components, but also enabled features of an application or information where backups of the application could be part of this. A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
 
 The following example illustrates, how such an custom resource instance definition could look like:
 
@@ -178,7 +178,7 @@ apiVersion: example-app.appdelivery.cncf.io/v1alpha1
      lastBackupTime: 12:00
 ```
 
-This example creates a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
+This example represents a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
 
 The “spec” section is where the user can declare the desired state. This example declares that appVersion 0.0.1 should be deployed with one feature enabled and another disabled. Furthermore, backups of this application should be made, and a s3 bucket should be used.
 
@@ -264,15 +264,7 @@ An operator should report any failure in the process in a declarative way (using
 ## Security
 ![operator model](img/04_1_operator_model.png)
 
-Operators are intended to manage their state and configuration via
-the Kubernetes API server using the Custom Resource Definition. The
-subordinate API resources they manage (often pods running stateful
-applications) also have their lifecycle and supporting RBAC, services,
-etc. managed via the Kubernetes API. In some cases the operator
-will also interact with the application’s API across the network.
-All of these routes offer potential to compromise the operator and
-its resources, and should be protected in line with best practices
-laid out below.
+Operators are intended to manage their state and configuration via the Kubernetes API server using the Custom Resource Definition. The subordinate API resources they manage (often pods running stateful applications) also have their lifecycle and supporting RBAC, services, etc. managed via the Kubernetes API. In some cases, the operator will also interact with the application’s API across the network. All of these routes offer the potential to compromise the operator and its resources and should be protected in line with best practices laid out below.
 
 ### Operator Developer
 Operator developers should be aware of the security risks an operator
