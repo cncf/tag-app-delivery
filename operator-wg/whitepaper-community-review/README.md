@@ -273,19 +273,8 @@ it's important to focus on key areas such as transparency and
 documentation, operator scope, and vulnerability analysis.
 
 #### Transparency and Documentation
-During development of an operator a developer should have a clear understanding
-of how it will work and interface within Kubernetes. As a developer shifts
-from development to publishing the operator, users should also
-have a clear understanding of what the operator does, and how.
-
-You've written something you're proud of, but think of this from
-the end user's point of view: Should they trust source code from
-the internet, an operator to run with administrative access on their
-cluster which may be large and costly, or may be handling sensitive
-information?  Anything the developer can do to help a user come up
-to speed with their software, how it works, how it's secured, and
-what affects it might have on their cluster will make it easier for
-them to adopt the software.
+During the development of an operator, a developer should have a clear understanding of how it will work and interface within Kubernetes. As developers shift from development to publishing the operator, users should also have a clear understanding of what the operator does, and how.
+You've written something you're proud of, but think of this from the end user's point of view: Should they trust source code from the internet, an operator to run with administrative access on their cluster which may be large and costly, or maybe handling sensitive information? Anything the developer can do to help a user come up to speed with their software, how it works, how it's secured, and what effects it might have on their cluster will make it easier for them to adopt the software.
 
 Here are some items that can help users make informed decisions
 about if they should use an operator:
