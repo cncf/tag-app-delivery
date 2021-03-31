@@ -307,14 +307,14 @@ There are many use cases for operators and there is virtually no
 limit in the scope of what an operator can be designed for. In order
 to be clear about the secure nature of a specific operator, the
 developer must include the communication involved with each scope.
-The general scopes which could be used are cluster wide, namespace,
+The general scopes which could be used are cluster-wide, namespace,
 and external.
 
 **Cluster-wide operators** exist to execute custom resources across
 a cluster no matter if those resources are living in another namespace
-or not. In order to secure this scope we must know the nature of
+or not. In order to secure this scope, we must know the nature of
 the communication, any APIs created, controllers and their
-responsibility, and application metric endpoints. This information,
+responsibility and application metric endpoints. This information,
 if provided with the operator can be used to secure the operator
 application within the cluster further. If the information is not
 provided, the cluster can be left vulnerable to a myriad of attacks.
@@ -433,13 +433,7 @@ an organization is familiar with one of these control systems,
 writing the appropriate security configuration for the operator
 should not require significant overhead.
 
-**Operator configuration**: Ideally a project will be “secure by
-default” to increase the likelihood of a secure operator or application
-deployment. Insecure defaults require manual configuration to secure
-the environment. While it may seem like unnecessary work to learn
-configuration  parameters of a new operator, it is usually preferable
-manually adjusting the configuration and/or source code of an
-operator itself to reach the needed level of security.
+**Operator configuration**: Ideally a project will be “secure by default” to increase the likelihood of a secure operator or application deployment. Insecure defaults require manual configuration to secure the environment. While it may seem like unnecessary work to learn the configuration parameters of a new operator, it is usually preferable to manually adjusting the configuration and/or source code of an operator itself to reach the needed level of security.
 
 ## Operator Frameworks for Kubernetes
 Currently, many frameworks exist to simplify the process of bootstrapping an operator/controller project and to write operators. This chapter describes some of them without any claim to comprehensiveness.
