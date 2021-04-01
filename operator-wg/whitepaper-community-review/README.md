@@ -277,20 +277,24 @@ During the development of an operator, a developer should have a clear understan
 You've written something you're proud of, but think of this from the end user's point of view: Should they trust source code from the internet, an operator to run with administrative access on their cluster which may be large and costly, or maybe handling sensitive information? Anything the developer can do to help a user come up to speed with their software, how it works, how it's secured, and what effects it might have on their cluster will make it easier for them to adopt the software.
 
 Here are some items that can help users make informed decisions
-about if they should use an operator:
+about if they should use an operator:  
 
 * Descriptive diagram (threat model) of how the operator is
 communicating and with what is a good start to helping a user
 understand how they must secure it and apply policy for the operator.
 * Use case of how the software is intended to be used in order to
-stay in scope for compliance
+stay in scope for compliance or you risk vulnerability outside that
+scope.
 * Documented RBAC scopes, threat model, communication ports, API
-calls available
+calls available, pod security policy requisites (or other policy engine
+requisites), or any other policy engine requisites developed for
+Kubernetes such as OPA.
 * Security reporting, disclosure, and incident response processes:
 If someone finds a potential security issue, who should they contact
 and what type of response should they expect?
 * Logging and monitoring attachment through exposed endpoints, log
 levels, or log aggregation.
+* Operator issue, feature, version tracking.
 * If the project has had security disclosures in the past, listing
 these disclosures (and their CVE IDs) on a web page is a strong step
 in building trust with users. Everyone will have security
@@ -303,42 +307,30 @@ questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide
 
 #### Operator Scope
 
-There are many use cases for operators and there is virtually no
-limit in the scope of what an operator can be designed for. In order
-to be clear about the secure nature of a specific operator, the
-developer must include the communication involved with each scope.
-The general scopes which could be used are cluster-wide, namespace,
-and external.
+There are many use cases for operators and there is virtually no limit
+in the scope of what you can design it for. In order to be clear about
+the secure nature of an operator there should be clear communication 
+involved with each scope. The general scope’s which could be used are 
+cluster-wide operators, namespace operators, and external operators. In
+order to best secure them, there needs to be an understanding of the 
+communication, any API’s created, controllers and their responsibility, 
+and any application metric endpoints. If this information is provided 
+with the operator it can be used to further secure the operator 
+application within the scope of implementation. If the information is 
+not provided you can be left vulnerable to a myriad of attacks.  
 
-**Cluster-wide operators** exist to execute custom resources across
-a cluster no matter if those resources are living in another namespace
-or not. In order to secure this scope, we must know the nature of
-the communication, any APIs created, controllers and their
-responsibility and application metric endpoints. This information,
-if provided with the operator can be used to secure the operator
-application within the cluster further. If the information is not
-provided, the cluster can be left vulnerable to a myriad of attacks.
-
-**Namespace Operators** exist to execute custom resources within a
-namespace. Usually there are policy engine policies applied to jail
-the scope within the namespace and only communicate with pods within
-the namespace. This is considered more secure by nature, but the
-same rules apply. In order to secure this scope we must know the
-nature of the communication, any APIs created, controllers and their
-responsibility, and application metric endpoints. This information,
-if provided with the operator can be used to secure the operator
-application within the namespace further. If the information is not
-provided, the cluster can be left vulnerable to a myriad of attacks.
-
-**External Operators** exist to execute custom resources that are
-external to the cluster. The same rules apply, in order to secure
-this scope we must know the nature of the communication from the
-cluster to the external component, any APIs created, controllers
-and their responsibility, and application metric endpoints. This
-information, if provided with the operator can be used to secure
-the operator application within the cluster further. If the information
-is not provided, the cluster can be left vulnerable to a myriad of
-attacks.
+**Cluster-wide Operators** exist to execute custom resources across a 
+cluster no matter if those resources are living in another namespace
+or not.   
+**Namespace Operators** exist to execute custom resources within a 
+namespace. Usually there are policy engine policies applied to jail the
+scope within the namespace and only communicate with pods within the 
+namespace. This is considered more secure by nature, but the same rules
+apply.   
+**External Operators** exist to execute custom resources that are 
+external to the cluster. The same rules apply, in addition to secure this
+scope we must know the nature of the communication from the cluster to
+the external component. 
 
 While this paper also talks about scoping from a user point-of-view,
 how an operator is designed will weigh heavily on the type of
@@ -346,7 +338,29 @@ security controls which can be applied against it in production.
 It is common to start with lax permissions, and intentions to apply
 security concepts before release; Spending some time thinking about
 the security design of the operator as developers begin work on it
-will make this process much easier for developers and their users.
+will make this process much easier for developers and their users.  
+
+#### Vulnerability Analysis
+
+Being focused on the development and security of the operator
+there are steps that must be taken as an operator developer to ensure 
+validation and proper security analysis has been done. Following the
+guidelines in the CNCF Cloud Native Security Whitepaper there is a 
+clear lifecycle process which defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
+should be adhered to with a strict focus on the develop and distribute
+layers in the scope of the operator developer. There are many detailed
+guidelines in the development and distribution layers that will help 
+to apply sound vulnerability analysis to supply chain to ensure
+that the operator being developed is signed and trusted for the best 
+integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
+is available at this link.  
+  
+In addition to the supply chain there needs to be a focus on 
+performing a threat model of the operator to keep the developer
+in check and also make sure that there was nothing incidentally missed
+that could leave the door open for attack. The foundational model for
+checking for threats can be observed in the CNCF Cloud Native Security
+Whitepaper on [Threat Modeling](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#threat-modeling).
 
 ### Application Developer (operator "users")
 
@@ -910,6 +924,7 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 - Noah Kantrowitz (github.com/coderanger)
 - John Kinsella (github.com/jlk)
 - Roland Pellegrini (github.com/friendlydevops)
+- Cameron Seader (github.com/cseader)
 
 - Jennifer Strejevitch (github.com/Jenniferstrej)
 - Omer Kahani (github.com/OmerKahani)
