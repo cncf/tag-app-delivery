@@ -7,6 +7,7 @@
 - Philippe Martin (github.com/feloy)
 - John Kinsella (github.com/jlk)
 - Roland Pellegrini (github.com/friendlydevops)
+- Cameron Seader (github.com/cseader)
 
 ### Reviewers
 
