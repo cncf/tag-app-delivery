@@ -103,7 +103,7 @@ A general diagram of an operator will have software that can read the desired sp
 The Operator pattern consists of three components:
 
 * The application or infrastructure that we want to manage in a declarative way.
-* Our domain specific knowledge that describes the state of the application in a declarative way.
+* A domain specific language that enables the user to specify the desired state of the application in a declarative way.
 * A controller that runs continuously:
   * Reads and is aware of the state.
   * Runs actions against the application in an automated way.
