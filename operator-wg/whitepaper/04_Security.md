@@ -34,14 +34,62 @@ understand how they must secure it and apply policy for the operator.
 * Use case of how the software is intended to be used in order to
 stay in scope of compliance or you risk vulnerability outside that
 scope.
+* Operator issue, feature, version tracking.
+* Logging and monitoring attachment through exposed endpoints, 
+log levels, or log aggregation.
 * Documented RBAC scopes, threat model, communication ports, API
-calls available
+calls available, pod security policy requisites (or other policy engine
+requisites), or any other policy engine requisites developed for
+Kubernetes such as OPA.
 
 #### Operator Scope
-(to be completed)
+
+There are many use cases for operators and there is virtually no limit
+in the scope of what you can design it for. In order to be clear about
+the secure nature of your operator you must include the communication 
+involved with each scope. The general scope’s which could be used are 
+cluster-wide operators, namespace operators, and external operators. In
+order to secure these we must know the nature of the communication, any
+API’s created, controllers and their responsibility, and any application
+metric endpoints. If this information is provided with the operator it 
+can be used to further secure the operator application within the scope 
+of implementation. If the information is not provided you can be left 
+vulnerable to a myriad of attacks.
+
+**Cluster-wide Operators** exist to execute custom resources across a 
+cluster no matter if those resources are living in another namespace
+or not.   
+**Namespace Operators** exist to execute custom resources within a 
+namespace. Usually there are policy engine policies applied to jail the
+scope within the namespace and only communicate with pods within the 
+namespace. This is considered more secure by nature, but the same rules
+apply.   
+**External Operators** exist to execute custom resources that are 
+external to the cluster. The same rules apply, in addition to secure this
+scope we must know the nature of the communication from the cluster to
+the external component.  
 
 #### Vulnerability Analysis
-(to be completed)
+
+Since we are focused on the development and security of the operator
+there are steps you can take as an operator developer to ensure 
+validation and proper security analysis has been done. Following the
+guidelines in the CNCF Cloud Native Security Whitepaper there is a 
+clear lifecycle process which defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
+should be adhered to with a strict focus on the develop and distribute
+layers in the scope of the operator developer. There are many detailed
+guidelines in the development and distribution layers that will help 
+to apply sound vulnerability analysis to your supply chain to ensure
+that the operator being developed is signed and trusted for the best 
+integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
+is available at this link.  
+  
+In addition to your supply chain you will also want to focus on 
+performing a threat model of the operator to keep you as the developer
+in check and also make sure that you didn’t incidentally miss something
+that could leave the door open for attack. The foundational model for
+checking for threats can be observed in the CNCF Cloud Native Security
+Whitepaper on [Threat Modeling](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#threat-modeling).  
 
 ### Application Developer ("users")
 
