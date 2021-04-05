@@ -48,11 +48,15 @@ Table of Contents
         * [Reviewers](#reviewers)
 
 ## Executive Summary
-Maintaining applications or infrastructure requires many repetitive actions and checks. As computers are great at doing repetitive tasks and verifying the state of an object, the preferred way to maintain an application of infrastructure should be through code. An operator provides a way to encapsulate the tasks and checks required to manage other objects.
+Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
+Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and statement management of an application.
 
 In Kubernetes, an operator provides intelligent, dynamic management capabilities by extending the functionality of the API.
 
-An operator allows for automation of common processes as well as reactive applications that can continually adapt to their environment. This in turn allows for more rapid development with fewer errors, lower mean-time-to-recovery, and increased engineering autonomy.
+These operator components allow for the automation of common processes as well as reactive applications that can continually adapt to their environment. This in turn allows for more rapid development with fewer errors, lower mean-time-to-recovery, and increased engineering autonomy.
+
+Given the rising popularity of the operator pattern, it has become incumbent for there to be a reference paper that helps both novice and expert alike to learn from the community endorsed best practices for achieving their goals.
+In this document we outline not only the taxonomy of an operator but the recommended configuration, implementation and use cases for an operator application management system.
 
 ## Introduction
 
@@ -67,7 +71,7 @@ It closes with related work, what additional value they can bring beyond this wh
 ### The goal of this document
 The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
-### Target Audience / Minimum Level of Experience 
+### Target Audience / Minimum Level of Experience
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
 
 ## Foundation
@@ -150,7 +154,7 @@ A Kubernetes Controller takes care of routine tasks to ensure the desired state 
 Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has additional operational knowledge like how to upgrade or remediate from errors, it is an operator.
 
 #### Custom resources and custom resource definitions
-Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/). 
+Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/).
 In the case of an operator, a custom resource contains the desired state of the resource (e.g. application) but does not contain the implementation logic. Such information could be the version information of application components, but also enabled features of an application or information where backups of the application could be part of this. A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
 
 
@@ -310,28 +314,28 @@ questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide
 
 There are many use cases for operators and there is virtually no limit
 in the scope of what you can design it for. In order to be clear about
-the secure nature of an operator there should be clear communication 
-involved with each scope. The general scope’s which could be used are 
+the secure nature of an operator there should be clear communication
+involved with each scope. The general scope’s which could be used are
 cluster-wide operators, namespace operators, and external operators. In
-order to best secure them, there needs to be an understanding of the 
-communication, any API’s created, controllers and their responsibility, 
-and any application metric endpoints. If this information is provided 
-with the operator it can be used to further secure the operator 
-application within the scope of implementation. If the information is 
+order to best secure them, there needs to be an understanding of the
+communication, any API’s created, controllers and their responsibility,
+and any application metric endpoints. If this information is provided
+with the operator it can be used to further secure the operator
+application within the scope of implementation. If the information is
 not provided you can be left vulnerable to a myriad of attacks.  
 
-**Cluster-wide Operators** exist to execute custom resources across a 
+**Cluster-wide Operators** exist to execute custom resources across a
 cluster no matter if those resources are living in another namespace
 or not.   
-**Namespace Operators** exist to execute custom resources within a 
+**Namespace Operators** exist to execute custom resources within a
 namespace. Usually there are policy engine policies applied to jail the
-scope within the namespace and only communicate with pods within the 
+scope within the namespace and only communicate with pods within the
 namespace. This is considered more secure by nature, but the same rules
 apply.   
-**External Operators** exist to execute custom resources that are 
+**External Operators** exist to execute custom resources that are
 external to the cluster. The same rules apply, in addition to secure this
 scope we must know the nature of the communication from the cluster to
-the external component. 
+the external component.
 
 While this paper also talks about scoping from a user point-of-view,
 how an operator is designed will weigh heavily on the type of
@@ -344,19 +348,19 @@ will make this process much easier for developers and their users.
 #### Vulnerability Analysis
 
 Being focused on the development and security of the operator
-there are steps that must be taken as an operator developer to ensure 
+there are steps that must be taken as an operator developer to ensure
 validation and proper security analysis has been done. Following the
-guidelines in the CNCF Cloud Native Security Whitepaper there is a 
+guidelines in the CNCF Cloud Native Security Whitepaper there is a
 clear lifecycle process which defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
 should be adhered to with a strict focus on the develop and distribute
 layers in the scope of the operator developer. There are many detailed
-guidelines in the development and distribution layers that will help 
+guidelines in the development and distribution layers that will help
 to apply sound vulnerability analysis to supply chain to ensure
-that the operator being developed is signed and trusted for the best 
+that the operator being developed is signed and trusted for the best
 integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
 is available at this link.  
-  
-In addition to the supply chain there needs to be a focus on 
+
+In addition to the supply chain there needs to be a focus on
 performing a threat model of the operator to keep the developer
 in check and also make sure that there was nothing incidentally missed
 that could leave the door open for attack. The foundational model for
