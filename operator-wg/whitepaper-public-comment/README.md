@@ -147,24 +147,26 @@ An operator can monitor its application and react to errors with specific behavi
 (Jimmy Zelinskie, https://github.com/kubeflow/tf-operator/issues/300#issuecomment-357527937)
 
 ![Operator Big Picture](img/02_2_operator.png)
-Operators enable the extension of the Kubernetes API with operational knowledge.
-This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases.
+Operators enable the extension of the Kubernetes API with operational knowledge. This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects. The objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases. The controller will constantly compare the desired state with the current state using the reconciliation loop, ensuring that the watched objects get transitioned to the desired state in a defined way.
 
-The controller will constantly compare the desired state with the current state using the reconciliation loop which ensures that the watched objects get transitioned to the desired state in a defined way.
-
-The desired state is encapsulated in one or more Kubernetes custom resources and the controller contains the operational knowledge which is needed to get the objects (such as deployments, services) to their target state.
+The desired state is encapsulated in one or more Kubernetes custom resources. The controller contains the operational knowledge needed to get the objects (such as deployments, services) to their target state.
 
 #### Kubernetes controllers
-A Kubernetes Controller takes care of routine tasks to ensure the desired state expressed by a particular resource type matches the real-world state (current state,https://engineering.bitnami.com/articles/a-deep-dive-into-kubernetes-controllers.html, https://fntlnz.wtf/post/what-i-learnt-about-kubernetes-controller/). For instance, the Deployment controller takes care that the desired amount of pod replicas is running and a new pod spins up, when one pod is deleted or fails.
+A Kubernetes Controller takes care of routine tasks to ensure the desired state expressed by a particular resource type matches the real-world state (current state,https://engineering.bitnami.com/articles/a-deep-dive-into-kubernetes-controllers.html, https://fntlnz.wtf/post/what-i-learnt-about-kubernetes-controller/). For instance, the Deployment controller takes care that the desired amount of pod replicas is running, and a new pod spins up when one pod is deleted or fails.
 
-Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has additional operational knowledge like how to upgrade or remediate from errors, it is an operator.
+Technically, there is no difference between a typical controller and an Operator. Often the difference referred to is the operational knowledge that is included in the Operator. As a result, a controller that spins up a pod when a custom resource is created and the pod is destroyed afterward can be described as a simple controller. If the controller has additional operational knowledge like upgrading or remediating from errors, it is an Operator.
 
 #### Custom resources and custom resource definitions
-Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/).
-In the case of an operator, a custom resource contains the desired state of the resource (e.g. application) but does not contain the implementation logic. Such information could be the version information of application components, but also enabled features of an application or information where backups of the application could be part of this. A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
+Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/).
+In the case of an Operator, a Custom Resource contains the desired state of the resource (e.g. application) but does not contain the implementation logic. Such information could be:
+* The version information of application components.
+* Enabled features of an application.
+* Information where backups of the application could be part of this.
+
+A custom resource definition (CRD) defines how such an object looks like, for example, which fields exist and how the CRD is named. Such a CRD can be scaffolded using tools (as the operator SDK) or be written by hand.
 
 
-The following example illustrates, how such an custom resource instance definition could look like:
+The following example illustrates, how such a custom resource instance definition could look like:
 
 ```
 apiVersion: example-app.appdelivery.cncf.io/v1alpha1
@@ -191,12 +193,12 @@ apiVersion: example-app.appdelivery.cncf.io/v1alpha1
 
 This example represents a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
 
-The “spec” section is where the user can declare the desired state. This example declares that appVersion 0.0.1 should be deployed with one feature enabled and another disabled. Furthermore, backups of this application should be made, and a s3 bucket should be used.
+The “spec” section is where the user can declare the instance's desired state. This example declares that appVersion 0.0.1 should be deployed with one feature enabled and another disabled. Furthermore, backups of this application should be made, and a object storage bucket should be used.
 
-The “status” section is where the operator can communicate useful information back to the user. In this example, the status shows the current deployed version. If it is different from the “appVersion” in the spec, then the user can expect that the operator is working to deploy the version requested in the spec. Other common information in the status section includes how to connect to an application and the health of the application.
+The “status” section is where the Operator can communicate useful information back to the user. In this example, the status shows the currently deployed version. If it is different from the “appVersion” in the spec, then the user can expect that the Operator is working to deploy the version requested in the spec. Other common information in the status section includes how to connect to an application and the health of the application.
 
 #### Control loop
-The control (reconciliation) loop in a Kubernetes controller ensures that the state that the user declares using a CRD matches the state of the application, but also that the transition between the states works as intended. One common use-case could be the migration of database schemes when upgrading an application. The control loop can be triggered on specific events, as a change on the crd, but also time-based, like for backing up data at a defined time.
+The control (reconciliation) loop in a Kubernetes controller ensures that the desired state that the user declares using a CRD matches the actual state of the application and that the transition between both states works as intended. One common use-case could be the migration of database schemas when upgrading an application. The control loop can be triggered on specific events, such as an update on the custom resource, but also time-based, like for backing up data at a defined time.
 
 ### Operator capabilities
 An operator is able to assist with operating an application or other managed components by solving many different tasks. When talking about operators, the first and most well known capability is the ability of installing and upgrading stateful applications. However, an operator could manage the full lifecycle of an application without necessarily having to deal with the installation/upgrading at all.
