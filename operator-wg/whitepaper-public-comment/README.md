@@ -73,7 +73,7 @@ This paper includes best practices, including observability, security, and techn
 It closes with related work, what additional value Operators can bring beyond this white paper, and the next steps for using Operators.
 
 ### The goal of this document
-The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
+This document aims to define operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
