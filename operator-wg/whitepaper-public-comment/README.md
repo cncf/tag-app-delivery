@@ -120,9 +120,9 @@ The Operator pattern consists of three components:
 This design pattern will be applied to Kubernetes and its Operators in the following sections.
 
 ### Operator Characteristics
-The core purpose of any operator is to extend its orchestrator's underlying API with new domain knowledge. As an example, an orchestration platform within Kubernetes natively understands things like containers and layer 4 load balancers via the Pod and Service objects. An operator adds new capabilities for more complex systems and applications. For instance, a prometheus-operator introduces new object types _Prometheus_, extending Kubernetes with high-level support for deploying and running Prometheus servers.
+The core purpose of any Operator is to extend its orchestrator's underlying API with new domain knowledge. As an example, an orchestration platform within Kubernetes natively understands things like containers and layer 4 load balancers via the Pod and Service objects. An operator adds new capabilities for more complex systems and applications. For instance, a Prometheus Operator introduces new object types _Prometheus_, extending Kubernetes with high-level support for deploying and running Prometheus servers.
 
-The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation and domain knowledge.
+The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation, and domain knowledge.
 
 #### Dynamic Configuration
 Since the dawn of time, there have been two main ways to configure software: configuration files and environment variables. In the cloud-native world, there are some newer options like querying a well-known API at startup, but most existing software in the world uses one or both of these options. Kubernetes naturally provides many tools to interact with these (such as ConfigMaps and Secrets) but because they are generic, they don’t understand any specifics of configuring a given application. An operator can define new custom object types (custom resources) to better express the configuration of a particular application in a Kubernetes context.
