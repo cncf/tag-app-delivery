@@ -95,14 +95,14 @@ However, the idea of an application whose management is entirely automated can b
 This paper aims to bring this concept to a higher level than Kubernetes itself.
 
 ### Operator Design Pattern
-This section describes the pattern with high-level concepts.
-The next section _Kubernetes Operator Definition_ will describe the implementations of the pattern in terms of Kubernetes objects and concepts.
+This section describes the Operator pattern with high-level concepts.
+The following section _Kubernetes Operator Definition_ will describe the implementations of the pattern in terms of Kubernetes objects and concepts.
 
-The operator design pattern defines how to manage application and infrastructure resources using domain-specific knowledge and declarative state. The goal of the pattern is to reduce the amount of manual imperative work (how to backup, scale, upgrade...) which is required to keep an application in a healthy and well-maintained state, by capturing that domain specific knowledge in code and exposing it using a declarative API
+The operator design pattern defines how to manage application and infrastructure resources using domain-specific knowledge and declarative state. The goal of the pattern is to reduce the amount of imperative manual work (e.g. how to backup, scale, upgrade) which is required to keep an application in a healthy and well-maintained state by capturing that domain-specific knowledge in code and exposing it using a declarative API
 
-By using the operator pattern, the knowledge on how to adjust and maintain a resource is captured in code and often within a single service (also called a controller).
+Using the operator pattern, the knowledge of how to adjust and maintain a resource is captured in code and often within a single service (also called a controller).
 
-When using an operator design pattern the user should only be required to describe the desired state of the application and resources. The operator implementation should make the necessary changes in the world so it will be in the desired state. The operator will also monitor the real state continuously and take actions to keep it healthy and in the same state (preventing drifts).
+When using the operator design pattern, the user should only be required to describe the desired state of the application and resources. The operator implementation should make the necessary changes in the world so to converge to the desired state. The operator will also monitor the real state continuously and take actions to keep it healthy and in the same state (preventing drifts).
 
 A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described.
 
@@ -111,13 +111,13 @@ A general diagram of an operator will have software that can read the desired sp
 The Operator pattern consists of three components:
 
 * The application or infrastructure that we want to manage.
-* A domain specific language that enables the user to specify the desired state of the application in a declarative way.
+* A domain-specific language that enables the user to specify the desired state of the application in a declarative way.
 * A controller that runs continuously:
   * Reads and is aware of the state.
   * Runs actions against the application in an automated way.
-  * Report the state of the application  in a declarative way.
+  * Reports the state of the application in a declarative way.
 
-This design pattern will be applied on Kubernetes and its operators in the next sections.
+This design pattern will be applied to Kubernetes and its Operators in the following sections.
 
 ### Operator Characteristics
 The core purpose of any operator is to extend its orchestrator's underlying API with new domain knowledge. As an example, an orchestration platform within Kubernetes natively understands things like containers and layer 4 load balancers via the Pod and Service objects. An operator adds new capabilities for more complex systems and applications. For instance, a prometheus-operator introduces new object types _Prometheus_, extending Kubernetes with high-level support for deploying and running Prometheus servers.
