@@ -79,20 +79,20 @@ This document aims to define operators for cloud-native applications in the cont
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about Operators, and the problems they can solve. It can also help teams already looking at Operators to learn when and where to use them to best effect. It presumes basic knowledge of Kubernetes, such as familiarity with Pods and Deployments.
 
 ## Foundation
-Kubernetes and the success of other orchestrators, has been due to their focus on the main capabilities of containers.
-While companies began their journey to cloud native, working with more specific use cases (microservices, stateless applications) made more sense.
-As Kubernetes and other container orchestrators grew their reputation and extensibility, requirements became more ambitious.
+Kubernetes and the success of other orchestrators have been due to their focus on the main capabilities of containers.
+While companies began their journey to cloud-native, working with more specific use cases (microservices, stateless applications) made more sense.
+As container orchestrators grew their reputation and extensibility, requirements became more ambitious.
 The desire to use the full lifecycle capabilities of an orchestrator was also transferred to highly distributed data stores.
 
 Kubernetes primitives were not built to manage state by default.
-Relying on Kubernetes primitives alone brings difficulty managing stateful application requirements such as replication, failover automation, backup/restore and upgrades (_which can occur based on events that are too specific_).
+Relying on Kubernetes primitives alone brings difficulty managing stateful application requirements such as replication, failover automation, backup/restore, and upgrades (_which can occur based on events that are too specific_).
 
 Operator Pattern can be used to solve the problem of managing state.
-By leveraging Kubernetes built-in capabilities such as self-healing, reconciliation and extending those along with application-specific complexities; it is possible to automate any application lifecycle, operations and turn it into a highly capable offering.
+By leveraging Kubernetes built-in capabilities such as self-healing, reconciliation, and extending those along with application-specific complexities, it is possible to automate any application lifecycle, operations and turn it into a highly capable offering.
 
 Operators are thought of as synonymous with Kubernetes.
 However, the idea of an application whose management is entirely automated can be exported to other platforms.
-The aim of this paper is to bring this concept to a higher level than Kubernetes itself.
+This paper aims to bring this concept to a higher level than Kubernetes itself.
 
 ### Operator Design Pattern
 This section describes the pattern with high-level concepts.
