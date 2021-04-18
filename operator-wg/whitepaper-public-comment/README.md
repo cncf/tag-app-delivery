@@ -76,7 +76,7 @@ It closes with related work, what additional value Operators can bring beyond th
 This document aims to define operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience
-This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about operators and the problems they can solve. It can also help teams already looking at operators to learn when and where to use them to best effect. It presumes basic Kubernetes knowledge such as familiarity with Pods and Deployments.
+This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about Operators, and the problems they can solve. It can also help teams already looking at Operators to learn when and where to use them to best effect. It presumes basic knowledge of Kubernetes, such as familiarity with Pods and Deployments.
 
 ## Foundation
 Kubernetes and the success of other orchestrators, has been due to their focus on the main capabilities of containers.
