@@ -1,19 +1,8 @@
 **Status**: WIP | **Maintainer** : N/A | 
 
 ## Operator Frameworks for Kubernetes
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/40**
 
-Currently, a lot of frameworks exist to simplify the process of bootstrapping an operator/controller project and to write operators. This chapter describes some of them without any claim to comprehensiveness. 
-
-## [Framework_1](051_Framework_1.md)
-
-- Add short description of the framework.
-- How does it work (in a Nutshell)?
-- Describe the value that this framework brings.
-- When should I use this framework?
-
-<em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>
-
+Currently, a lot of frameworks exist to simplify the process of bootstrapping an operator/controller project and to write operators. This chapter describes some of them without any claim to comprehensiveness.
 
 ## [CNCF Operator Framework](https://github.com/operator-framework)
 
@@ -63,12 +52,3 @@ For more features, see the [documentation](https://kopf.readthedocs.io/en/stable
 
 ## kubebuilder
 [read more](051_Framework_kubebuilder.md)
-
-
-
-- Add short description of the framework
-- How does it work (in a Nutshell)?
-- Describe the value that this framework brings.
-- When should I use this framework?
-
-<em>If the framework overview needs more than a couple of paragraphs, add another markdown file and link it on the Framework header.</em>

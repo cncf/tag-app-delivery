@@ -1,7 +1,4 @@
-**Status**: WIP | **Maintainer** : N/A | 
-
 ## Use Cases for an Operator
-**(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/40**
 
 Example:
 An operator is used to install an application, or to provision another object which is achieved by defining a set of objects which are managed by the operator and how they work with each other. After the installation, the target application should be running without human interaction. In further consequence a controller is used for reconfiguration of a system.
