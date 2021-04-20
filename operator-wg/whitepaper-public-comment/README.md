@@ -64,13 +64,13 @@ This document, outlines the taxonomy of Operators and the recommended configurat
 
 ## Introduction
 
-This white paper defines Operators in a broader context than Kubernetes. However, often examples in the Kubernetes ecosystem will describe the characteristics, components and common patterns currently used.
+This white paper defines Operators in a broader context than Kubernetes. However, we will often use examples in the Kubernetes ecosystem to help describe the characteristics, components and common patterns currently in use.
 
-It also dives deep into the possible capabilities of Operators such as backup, recovery, and automatic configuration-tuning, gives insight into frameworks currently in use, lifecycle management, security risks, and use cases.
+It also dives deep into the capabilities of Operators such as backup, recovery and automatic configuration tuning, gives insight into frameworks currently in use, lifecycle management, security risks and use cases.
 
 This paper includes best practices, including observability, security, and technical implementation.
 
-It closes with related work, what additional value Operators can bring beyond this white paper, and the next steps for using Operators.
+It closes with related work, what additional value Operators can bring beyond this white paper and the next steps for Operators.
 
 ### The goal of this document
 This document aims to define operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
