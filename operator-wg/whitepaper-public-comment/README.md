@@ -633,11 +633,11 @@ The declarative state is the API of the operator, and it may need to be upgraded
 
 ## Use Cases for an Operator
 Example:
-An operator is used to install an application, or to provision another object which is achieved by defining a set of objects which are managed by the operator and how they work with each other. After the installation, the target application should be running without human interaction. In further consequence, a controller is used for the reconfiguration of a system.
+An operator is used to install an application or provision another object. We achieve this by defining a set of objects to be managed by the operator and how they interact with each other. After the installation, the target application should be running and operating itself without human interaction. In addition, a controller can be used for the reconfiguration of the system.
 
-To achieve this, an operator watches the current state and the definitions made in the custom resource or external events. Comparing them and starting to reconcile the application to get to the desired state when it is needed. Changes in the custom resource could be enabling a feature or changing a version, external events could be the availability of an application update reported by an API. The current state of the application could also differ when objects managed by the operator get deleted and so they also get recreated to get to the desired state.
+To achieve this, an operator watches the current state of the resources and compares it against the definitions made in custom resources or external events. It will reconcile the application to achieve the desired state when it is needed. Changes in the custom resource could be enabling a feature or changing a version, external events could be the availability of an application update reported by an API. The current state of the application could also differ when objects managed by the operator get deleted and so they also get recreated to reach the desired state.
 
-When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating and updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
+The operator also contains the auxiliary logic to update an application and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating and updating the database schema. Therefore, the logic included in the operator knows which are the prerequisites to build a consistent backup, how to back up the data and how to get back to the normal state.
 
 Finally, the operator is able to remove the application and the resulting objects.
 
