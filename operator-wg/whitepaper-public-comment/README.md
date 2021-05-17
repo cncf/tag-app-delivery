@@ -333,19 +333,19 @@ issues at some point - how they are handled displays the maturity
 of a project.
 
 For further ideas around the security of the development process,
-the reader may wish to review the CNCF Security SIG's [self-assessment
-questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
+the reader may wish to review the CNCF Security TAG's [self-assessment
+questionaire](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md).
 
 #### Operator Scope
 
 There are many use cases for operators and there is virtually no limit
 in the scope of what you can design it for. In order to be clear about
-the secure nature of an operator there should be clear communication
+the secure nature of an operator, there should be clear communication
 involved with each scope. The general scope’s which could be used are
 cluster-wide operators, namespace operators, and external operators. In
 order to best secure them, there needs to be an understanding of the
 communication, any API’s created, controllers and their responsibility,
-and any application metric endpoints. If this information is provided
+and any application metrics endpoints. If this information is provided
 with the operator it can be used to further secure the operator
 application within the scope of implementation. If the information is
 not provided you can be left vulnerable to a myriad of attacks.  
@@ -354,7 +354,7 @@ not provided you can be left vulnerable to a myriad of attacks.
 cluster no matter if those resources are living in another namespace
 or not.   
 **Namespace Operators** exist to execute custom resources within a
-namespace. Usually there are policy engine policies applied to jail the
+namespace. Usually, there are policy engine policies applied to jail the
 scope within the namespace and only communicate with pods within the
 namespace. This is considered more secure by nature, but the same rules
 apply.   
@@ -363,7 +363,7 @@ external to the cluster. The same rules apply, in addition to secure this
 scope we must know the nature of the communication from the cluster to
 the external component.
 
-While this paper also talks about scoping from a user point-of-view,
+While this paper also talks about scoping from a user point of view,
 how an operator is designed will weigh heavily on the type of
 security controls which can be applied against it in production.
 It is common to start with lax permissions, and intentions to apply
@@ -376,9 +376,9 @@ will make this process much easier for developers and their users.
 Being focused on the development and security of the operator
 there are steps that must be taken as an operator developer to ensure
 validation and proper security analysis has been done. Following the
-guidelines in the CNCF Cloud Native Security Whitepaper there is a
-clear lifecycle process which defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
-should be adhered to with a strict focus on the develop and distribute
+guidelines in the CNCF Cloud Native Security Whitepaper, there is a
+clear lifecycle process that defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
+should be adhered to with a strict focus on the development and distribution
 layers in the scope of the operator developer. There are many detailed
 guidelines in the development and distribution layers that will help
 to apply sound vulnerability analysis to supply chain to ensure
@@ -447,9 +447,9 @@ sign of other security weaknesses within the operator. It is advisable
 to proceed with caution if such a “land grab” is found.
 
 **Software provenance**: The “software supply chain” is starting to get
-more attention at time of writing this whitepaper. Consider the
+more attention at the time of writing. Consider the
 source for an operator, how it is being installed, and how or why
-a malicious user may want access to a kubernetes cluster. Spend a few minutes
+a malicious user may want access to a Kubernetes cluster. Spend a few minutes
 reviewing an installation script before running it. While the kubectl
 command supports the ability to apply a yaml script directly from
 the public Internet (e.g `kubectl create -f
@@ -724,7 +724,7 @@ The previous chapter describes a use case for an operator that was one of the fi
 A key promise of Kubernetes is that it enables the automation of operational
 tasks to deploy, scale, and manage containerized applications across
 multiple environments with no (or minimal) human intervention. In
-Kubernetes, stateless cloud-native applications are well suited for
+Kubernetes, stateless cloud native applications are well suited for
 horizontal scaling, automated self-healing restarts, or progressive
 rollout of new containers. However, stateful applications with complex
 components running in clustered or distributed environments are not
@@ -932,7 +932,7 @@ Many documents describe the capability levels (also known as maturity levels) of
 Ref: Operator Framework. (n.d.). Operator Capabilities. Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
 
-The CNCF SIG Security spent a lot of effort to add security-related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud-native security whitepaper which is a very useful source when dealing with cloud-native security (https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md).
+The CNCF TAG Security spent a lot of effort to add security-related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security (https://github.com/cncf/tag-security/blob/main/security-whitepaper/cloud-native-security-whitepaper.md).
 
 ## Bibliography
 
