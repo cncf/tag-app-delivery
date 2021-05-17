@@ -73,14 +73,14 @@ This paper includes best practices, including observability, security, and techn
 It closes with related work, what additional value Operators can bring beyond this white paper and the next steps for Operators.
 
 ### The goal of this document
-This document aims to define operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
+This document aims to define operators for cloud native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience
 This document is intended for application developers, Kubernetes cluster operators and service providers (internal or external) - who want to learn about Operators, and the problems they can solve. It can also help teams already looking at Operators to learn when and where to use them to best effect. It presumes basic knowledge of Kubernetes, such as familiarity with Pods and Deployments.
 
 ## Foundation
 Kubernetes and the success of other orchestrators have been due to their focus on the main capabilities of containers.
-While companies began their journey to cloud-native, working with more specific use cases (microservices, stateless applications) made more sense.
+While companies began their journey to cloud native, working with more specific use cases (microservices, stateless applications) made more sense.
 As container orchestrators grew their reputation and extensibility, requirements became more ambitious.
 The desire to use the full lifecycle capabilities of an orchestrator was also transferred to highly distributed data stores.
 
@@ -125,7 +125,7 @@ The core purpose of any Operator is to extend its orchestrator's underlying API 
 The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation, and domain knowledge.
 
 #### Dynamic Configuration
-Since the dawn of time, there have been two main ways to configure software: configuration files and environment variables. There are some newer options in the cloud-native world, like querying a well-known API at startup, but most existing software uses one or both of these options.
+Since the dawn of time, there have been two main ways to configure software: configuration files and environment variables. There are some newer options in the cloud native world, like querying a well-known API at startup, but most existing software uses one or both of these options.
 
 Kubernetes naturally provides many tools to interact with these (such as ConfigMaps and Secrets), but they don’t understand any specifics of configuring a given application because they are generic. An operator can define new custom object types (custom resources) to better express the configuration of a particular application in a Kubernetes context.
 
