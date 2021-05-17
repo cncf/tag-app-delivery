@@ -717,14 +717,7 @@ In addition to these, there are many other resources that provide best practices
 
 ## Designing Operators
 
-The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
-of completeness, this chapter deals with some best practice when writing
-own Operators, based on our own experience or described by the
-community. However, without clear knowledge of the actual state and
-without clear ideas of what we want to achieve, we also need some
-methods and techniques specifying what our Operator should do.
-Therefore, we will also have to deal with some aspects of requirement
-engineering.
+The previous chapter describes a use case for an operator that was one of the first operators ever written. With no claim of completeness, this chapter deals with some best practices when writing our own Operators, based on our own experience or described by the community. However, without clear knowledge of the actual state and without clear ideas of what we want to achieve, we also need some methods and techniques specifying what our Operator should do. Therefore, we will also have to deal with some aspects of requirement engineering..
 
 ### Requirement analysis
 
@@ -748,7 +741,7 @@ the day-to-day IT operations work? How is the application backed up
 outages, are there any dependencies between the software components?
 
 It is therefore strongly recommended that a comprehensive requirement
-analysis is needed to determine the requirements or conditions of an
+analysis is undertaken to determine the requirements or conditions of an
 Operator. Requirement analysis is critical to the success or failure of
 Operators. All requirements should be documented, measurable, testable,
 traceable, related to identified requirements, and defined at a level of
@@ -776,7 +769,7 @@ Steps to build the right operator:
 Now that the situations where using an Operator have been made clear, the next part of the paper will focus on where Operator implementations are available and which best meets requirements.
 
 Finding the right Kubernetes Operator can be a challenge. On the one
-hand, you need to find something that fits with the requirements you
+hand, you need to find something that fits the requirements you
 have collected. On the other hand, the Operator needs to be regularly
 updated and actively supported by the vendor.
 
@@ -785,7 +778,7 @@ In short, to get an Operator, you have three choices:
 (1) You have a database and need an Operator? Consult the website of the
     vendor.
 
-(2) You can search for a public (or private) registry that offer
+(2) You can search for a public (or private) registry that offers
     available Kubernetes Operators. For example, \[1\] provides a
     platform for publishing and sharing Operators in a way that
     simplifies distribution. The platform makes it easier to find
@@ -795,7 +788,7 @@ In short, to get an Operator, you have three choices:
 (3) Write your own Operator, either from scratch or using a suitable
     framework.
 
-Operators are application specific and their functionality ranges from a
+Operators are application-specific and their functionality ranges from a
 simple installation script to sophisticated logic that handles upgrades,
 backups and failures. It takes time and effort to find the right
 Operator in a public registry, at the cost of oversized or missing
@@ -820,7 +813,7 @@ following tools:
 \(c\) Bare programming language (Java)
 
 As mentioned earlier, this article not only describes the individual
-tools, but also compares their approaches. The author demonstrates that
+tools but also compares their approaches. The author demonstrates that
 the imperative programming approaches require more time, work and
 caution during development. In return, they give developers the
 flexibility to program any kind of logic that is needed. In contrast,
@@ -856,7 +849,7 @@ Operators are programs that can be written in any language of choice.
 This works because Kubernetes provides a REST API that allows
 communication with clients using lightweight protocols such as HTTP.
 Consequently, software developers can write Operators in their preferred
-programming language as long as long as the REST API specifications are
+programming language as long as the REST API specifications are
 followed.
 
 However, if developers are free to choose their programming language,
@@ -871,7 +864,7 @@ However, according to \[1\], **Operators written in Go Language** are by
 far the most popular. The reason for this is two-fold: first, the
 Kubernetes environment itself is written in Go, so the client library is
 perfectly optimized. Second, the Operator SDK (with embedded
-Kubebuilder) supports the implemention of Operators in Go out-of-the-box.
+Kubebuilder) supports the implementation of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 
@@ -884,7 +877,7 @@ were found and published by various sources.
     framework like Operator-SDK to save yourself time with this and get
     a suite of tooling to ease development and testing. \[3\]
 
--   Design an Operator in such a way that application instance continues
+-   Design an Operator in such a way that the application instance continues
     to run unaffected and effectively even if the Operator is stopped or
     removed.
 
@@ -896,7 +889,7 @@ were found and published by various sources.
 -   Use asynchronous sync loops \[4\]
 
 -   Operators should leverage built-in Kubernetes primitives such as
-    replica sets and services. Whenever possible, use well-understood
+    ReplicaSets and Services. Whenever possible, use well-understood
     and well-tested code.
 
 -   When possible, test Operators against a test suite that simulates
