@@ -16,7 +16,7 @@ In this document, we outline not only the taxonomy of an operator but the recomm
 ## Introduction
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/34**
 
-This white paper defines Operators in a wider context than Kubernetes however we will often use examples in the Kubernetes ecosystem to help describe the characteristics, components, and common patterns currently in use.
+This white paper defines Operators in a wider context than Kubernetes; however, we will often use examples in the Kubernetes ecosystem to help describe the characteristics, components, and common patterns currently in use.
 
 It also dives deep into the capabilities of Operators such as backup, recovery and automatic configuration tuning, gives insight into frameworks currently in use, lifecycle management, security risks and use cases.
 
