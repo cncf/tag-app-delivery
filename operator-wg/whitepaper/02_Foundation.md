@@ -2,7 +2,7 @@
 
 ## Foundation
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/36**  
-Kubernetes and other orchestrators' success was due to their focus on containers' main capabilities.  
+Kubernetes and other orchestrators successes were due to their focus on the main capabilities of the container.
 While companies began their journey to cloud-native, working with more specific use cases (microservices, stateless applications) made more sense.  
 As container orchestrators grew their reputation and extensibility, requirements became more ambitious.  
 The desire to use orchestrators' full lifecycle capabilities was also transferred to highly distributed data stores.
