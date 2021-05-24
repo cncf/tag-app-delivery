@@ -11,7 +11,7 @@ However, in Kubernetes for example, primitives were not built to manage state by
 Thus by relying on Kubernetes primitives alone, it's difficult to manage stateful application requirements such as replication, failover automation, backup/restore, upgrades, etc. which can occur based on events that are too specific.
 
 We can solve the problem of managing state with the Operator pattern.  
-By leveraging Kubernetes built-in capabilities such as self-healing and reconciliation and extending those with application-specific complexities, it is possible to automate any application's lifecycle and operations and turn it into a highly capable offering.
+By leveraging the built-in capabilities of Kubernetes, such as self-healing, reconciliation and extending those with application-specific complexities; it is possible to automate any application's lifecycle and operations and turn it into a highly capable offering.
 
 When we hear about Operators, we think of Kubernetes, however, the idea of an application whose management is entirely automated can be exported to other platforms.  
 With this paper, we aim to bring the concept to a higher level than Kubernetes itself.
