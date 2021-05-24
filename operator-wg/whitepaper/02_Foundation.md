@@ -48,7 +48,7 @@ The core purpose of any operator is to extend its framework's underlying API wit
 The capabilities provided by an operator can be sorted into three overarching categories: dynamic configuration, operational automation, and domain knowledge.
 
 #### Dynamic Configuration
-Since the dawn of time, there have been two main ways to configure software: configuration files and environment variables. In the cloud-native world there are some newer options like querying a well-known API at startup, but most existing software in the world uses one or both of these options.
+Since the early origins of modern computing, there have been two main ways to configure software; configuration files and environment variables. In the cloud-native world, there are some newer options like querying a well-known API at startup, but most existing software in the world uses one or both of these options.
 
 Kubernetes naturally provides many tools to interact with these (ConfigMaps, Secrets, etc.) but because they are generic, they don’t understand any specifics of configuring a given application. An operator can define new custom object types (Custom Resources) to better express the configuration of a particular application in a Kubernetes context.
 
