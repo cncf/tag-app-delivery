@@ -7,7 +7,7 @@ Over time, lots of best practices for writing operators have been published by v
 
 Scenario: A microservice application ("The PodTato Head", https://github.com/cncf/podtato-head) should be entirely managed via operators (even if another deployment mechanism would make more sense). This application consists of 4 services and 1 database which can be illustrated as follows:
 
-![Sample Application](./img/08_1_sample.png)
+![Sample Application](img8_1_sample.png)
 
 Best practices should be applied to this application deployment.
 
@@ -21,7 +21,7 @@ The features an operator provides, should be specific to a single application. A
 
 Even if there is an operator for every part of the application, it might be easier to manage the whole stack in one CRD. If this is the case, an operator which represents the whole stack should delegate the work to the other operators for the more specific parts.
 
-![Stack-Operator](./img/08_2_umbrella.png)
+![Stack-Operator](img8_2_umbrella.png)
 
 Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator creates a custom resource for each of the components of the stack which are again managed by operators and managing the underlying resources.
 
