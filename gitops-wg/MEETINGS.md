@@ -1,16 +1,21 @@
 # Meetings
 
-The GitOps Working Group typically meets on the second Thursday of each month at 18:00 GMT, and are listed below. This meeting is also on the [CNCF calendar](https://www.cncf.io/calendar/).
+The GitOps Working Group Monthly meetings are listed below, and are also on the [CNCF calendar](https://www.cncf.io/calendar/).
 
-Additionally Working Group Committees meet as needed to complete their projects, and are also listed below.
+Additionally, Working Group Committees meet weekly or as needed to complete their projects.
+These meetings are also listed below.
 
-See the [Google Doc](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/) for detailed join info, agenda, and notes for all GitOps Working Group meetings.
+See the [GitOps WG Meetings
+Google Doc](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/) for detailed join info, agenda, and notes for all GitOps Working Group meetings.
 Use the [document outline](https://support.google.com/docs/answer/6367684) to more easily jump to each meeting in the doc.
 
 ## Working Group Monthly
 
-[Group meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.94vl69f1t8ph)
+✏️ See the [Group meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.94vl69f1t8ph).
 
+🗓 Second Thursdays monthly at [18:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/), unless otherwise specified.
+
+- June 10, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.v6mtcpwbglcp)
 - May 13, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.lq3s56hyydm0)
 - April 15, 2021: [recording](https://www.youtube.com/watch?v=c_GqwvP5Wqw&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=5), [chat](meetings/monthly/2021-04-15-chat.txt)
 - March 11, 2021: [recording](https://www.youtube.com/watch?v=P5Ib1CubO54&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=4), [chat](meetings/monthly/2021-03-11-chat.txt)
@@ -20,8 +25,11 @@ Use the [document outline](https://support.google.com/docs/answer/6367684) to mo
 
 ## GitOps Principles Committee Meetings
 
-[Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.kr2ebmvnmiq7)
+✏️ See the [Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.kr2ebmvnmiq7).
 
+🗓 Wednesdays weekly at [19:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/), unless otherwise specified.
+
+- May 19, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.hb979iyzq4qb)
 - May 12, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.i3p0vl1o0vv)
 - May 5, 2021: [recording](https://www.youtube.com/watch?v=PtxZHUJWtRk&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=5&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-principles/2021-05-05-chat.txt)
 - April 28, 2021: [recording](https://www.youtube.com/watch?v=Djr8M8kLTXg&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=5&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-principles/2021-04-28-chat.txt)
@@ -29,10 +37,14 @@ Use the [document outline](https://support.google.com/docs/answer/6367684) to mo
 - April 05, 2021: [recording](https://www.youtube.com/watch?v=SGcSRTWnT3k&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=2), [chat](meetings/committee-principles/2021-04-05-chat.txt)
 - March 29, 2021: [recording](https://www.youtube.com/watch?v=2VpbWrKjDkQ&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=1), [chat](meetings/committee-principles/2021-03-29-chat.txt)
 
-## GitOpsCon Committee Meetings
+## Events Committee Meetings
 
-[Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.qeurskf1lqn)
+✏️ See the [Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.qeurskf1lqn).
 
+🗓 Wednesdays weekly at [18:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/), unless otherwise specified.
+
+- May 26, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.3tmx4zqkuj67)
+- May 14, 2021: Not recorded during GitOpsCon EU 2021 postmortem
 - April 29, 2021: Not recorded during speaker scheduling
 - April 27, 2021: Not recorded during speaker scheduling
 - April 22, 2021: Not recorded during CFP review
