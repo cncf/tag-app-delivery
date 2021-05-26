@@ -23,7 +23,7 @@ The operator design pattern defines how to manage application and infrastructure
 
 By using the operator pattern, the knowledge of how to adjust and maintain a resource is captured in code and usually in a single service (also called a controller).
 
-When using the operator design pattern the user should only be required to describe the desired state of the application and resources. Pre-written software should make the necessary changes to the world so it will be in the desired state. The software will also monitor the real state continuously and take actions to keep it healthy and in the same state (preventing drifts)
+When using the operator design pattern the user should only be required to describe the desired state of the application and resources. Pre-written software should make the necessary changes to the world so it will be in the desired state. The software will also monitor the real state continuously and take actions to keep it healthy and in the same state (preventing drifts).
 
 A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described. 
 
