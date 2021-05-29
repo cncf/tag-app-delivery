@@ -48,6 +48,7 @@ The GitOps Working Group is an open group, inviting companies and individuals to
 There are a few ways you can get involved:
 
 - Watch or star this repo to see when things change
+- Join the [GitOps Subreddit](https://www.reddit.com/r/GitOps/)
 - Attend a [Working Group meeting](./MEETINGS.md)
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
