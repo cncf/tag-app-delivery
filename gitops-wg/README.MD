@@ -7,6 +7,8 @@ The GitOps Working Group is a WG under the CNCF App Delivery SIG.
 
 The focus of the GitOps WG is to clearly define a vendor-neutral, principle-led meaning of GitOps. This will establish a foundation for interoperability between tools, conformance, and certification. Lasting programs, documents, and code are planned to live within the [OpenGitOps](https://github.com/open-gitops) project.
 
+See the [charter](charter.md) for additional info on the group's mission, scope, and alignment with other groups and projects.
+
 ## Growing Adoption of GitOps
 
 The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps.
@@ -49,11 +51,12 @@ There are a few ways you can get involved:
 
 - Watch or star this repo to see when things change
 - Join the [GitOps Subreddit](https://www.reddit.com/r/GitOps/)
-- Attend a [Working Group meeting](./MEETINGS.md)
+- Attend a [Working Group or Committee meeting](./MEETINGS.md)
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
 - Join the [SIG App Delivery](https://github.com/cncf/sig-app-delivery) mailing list, and watch or participate in topics prefixed with `[gitops-wg]`
 - See [Working Group project boards](https://github.com/orgs/gitops-working-group/projects) for status of work, or for ideas on areas that could use additional participation
+- Volunteer to join [committees](GOVERNANCE.md#committees) and help with projects according to your interest and ability
 
 The Working Group will review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
@@ -67,6 +70,11 @@ If you are interested in keeping abreast of any new developments, please see [Ho
 | November 19, 2020 | Amazon, Codefresh, GitHub, Microsoft, and Weaveworks announced the creation of the GitOps Working Group. |
 | Q4 of 2020 | Form the group. Provisional governance bootstrapped. For details, see the initial [GitOps WG Charter](https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/view). |
 | Date TBD | Establish a first version of the GitOps Principles |
-| Date TBD | Clearly established governance. For current status, follow [PR #40](https://github.com/gitops-working-group/gitops-working-group/discussions/40). |
+| Mid April, 2021 | Clearly established governance. For current status, follow [PR #125](https://github.com/gitops-working-group/gitops-working-group/pull/125). |
 | March 19 - April 16, 2021 | [CFP open](https://docs.google.com/forms/d/e/1FAIpQLSeNahDbiEolx6WZmtxx4L65qmq7pZTX86nQAltq2uC12tCQYg/viewform) for GitOpsCon EU 2021 |
 | May 3, 2021 | GitOpsCon EU 2021. Pre-registration is required. See [Kubecon + CloudNativeCon Co-located events listing](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/colocated-events/#gitops-con) for details. |
+
+## Licenses and Copyright
+
+- Apache 2.0 is required for all git repositories
+- Developer Certificate of Origin (DCO) commit signoff is required for all new contributions
