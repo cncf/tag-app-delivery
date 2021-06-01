@@ -1,9 +1,6 @@
 # CNCF Operator White Paper - Review Version
 
-Table of Contents
-=================
-
-* [CNCF Operator White Paper](#cncf-operator-white-paper)
+* [CNCF Operator White Paper \- Review Version](#cncf-operator-white-paper---review-version)
     * [Executive Summary](#executive-summary)
     * [Introduction](#introduction)
         * [The goal of this document](#the-goal-of-this-document)
@@ -15,11 +12,11 @@ Table of Contents
         * [Operator capabilities](#operator-capabilities)
     * [Security](#security)
         * [Operator Developer](#operator-developer)
-        * [Application Developer ("users")](#application-developer-users)
+        * [Application Developer (operator "users")](#application-developer-operator-users)
     * [Operator Frameworks for Kubernetes](#operator-frameworks-for-kubernetes)
         * [CNCF Operator Framework](#cncf-operator-framework)
         * [Kopf](#kopf)
-        * [kubebuilder Operator Framework](#kubebuilder-operator-framework)
+        * [kubebuilder](#kubebuilder)
         * [Metacontroller \- Lightweight Kubernetes controllers as a service](#metacontroller---lightweight-kubernetes-controllers-as-a-service)
     * [Operator Lifecycle Management](#operator-lifecycle-management)
         * [Upgrading the Operator](#upgrading-the-operator)
@@ -30,7 +27,7 @@ Table of Contents
     * [Best Practices](#best-practices)
         * [Management of a single type of application](#management-of-a-single-type-of-application)
         * [Writing operators that represent a whole stack](#writing-operators-that-represent-a-whole-stack)
-        * [Multiple CRDs per controller](#multiple-crds-per-controller)
+        * [One CRD per controller](#one-crd-per-controller)
         * [Where to publish and find operators](#where-to-publish-and-find-operators)
         * [Further reading](#further-reading)
     * [Designing Operators](#designing-operators)
@@ -46,6 +43,7 @@ Table of Contents
     * [Contributors](#contributors)
         * [Contributors](#contributors-1)
         * [Reviewers](#reviewers)
+
 
 ## Executive Summary
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
@@ -109,9 +107,9 @@ The Operator pattern consists of three components:
 * The application or infrastructure that we want to manage.
 * A domain specific language that enables the user to specify the desired state of the application in a declarative way.
 * A controller that runs continuously:
-  * Reads and is aware of the state.
-  * Runs actions against the application in an automated way.
-  * Report the state of the application  in a declarative way.
+    * Reads and is aware of the state.
+    * Runs actions against the application in an automated way.
+    * Report the state of the application  in a declarative way.
 
 This design pattern will be applied on Kubernetes and its operators in the next sections.
 
@@ -230,7 +228,7 @@ The auto-remediation capability of an operator should ensure that it is able to 
 
 Some examples might be:
 * Rolling back to the last known configuration if a defined amount of pod starts is unsuccessful after a version change.
-In some points a restart of the application might be a short-term solution which also could be done by the operator.
+  In some points a restart of the application might be a short-term solution which also could be done by the operator.
 * It could also be imaginable that an operator informs another operator of a dependent service that a backend system is not reachable at the moment (to take remediation actions).
 
 In any situation, this capability enables the operator to take actions to keep the system up and running.
@@ -282,29 +280,29 @@ During the development of an operator, a developer should have a clear understan
 You've written something you're proud of, but think of this from the end user's point of view: Should they trust source code from the internet, an operator to run with administrative access on their cluster which may be large and costly, or maybe handling sensitive information? Anything the developer can do to help a user come up to speed with their software, how it works, how it's secured, and what effects it might have on their cluster will make it easier for them to adopt the software.
 
 Here are some items that can help users make informed decisions
-about if they should use an operator:  
+about if they should use an operator:
 
 * Descriptive diagram (threat model) of how the operator is
-communicating and with what is a good start to helping a user
-understand how they must secure it and apply policy for the operator.
+  communicating and with what is a good start to helping a user
+  understand how they must secure it and apply policy for the operator.
 * Use case of how the software is intended to be used in order to
-stay in scope for compliance or you risk vulnerability outside that
-scope.
+  stay in scope for compliance or you risk vulnerability outside that
+  scope.
 * Documented RBAC scopes, threat model, communication ports, API
-calls available, pod security policy requisites (or other policy engine
-requisites), or any other policy engine requisites developed for
-Kubernetes such as OPA.
+  calls available, pod security policy requisites (or other policy engine
+  requisites), or any other policy engine requisites developed for
+  Kubernetes such as OPA.
 * Security reporting, disclosure, and incident response processes:
-If someone finds a potential security issue, who should they contact
-and what type of response should they expect?
+  If someone finds a potential security issue, who should they contact
+  and what type of response should they expect?
 * Logging and monitoring attachment through exposed endpoints, log
-levels, or log aggregation.
+  levels, or log aggregation.
 * Operator issue, feature, version tracking.
 * If the project has had security disclosures in the past, listing
-these disclosures (and their CVE IDs) on a web page is a strong step
-in building trust with users. Everyone will have security
-issues at some point - how they are handled displays the maturity
-of a project.
+  these disclosures (and their CVE IDs) on a web page is a strong step
+  in building trust with users. Everyone will have security
+  issues at some point - how they are handled displays the maturity
+  of a project.
 
 For further ideas around the security of the development process,
 the reader may wish to review the CNCF Security SIG's [self-assessment
@@ -322,7 +320,7 @@ communication, any API’s created, controllers and their responsibility,
 and any application metric endpoints. If this information is provided
 with the operator it can be used to further secure the operator
 application within the scope of implementation. If the information is
-not provided you can be left vulnerable to a myriad of attacks.  
+not provided you can be left vulnerable to a myriad of attacks.
 
 **Cluster-wide Operators** exist to execute custom resources across a
 cluster no matter if those resources are living in another namespace
@@ -343,7 +341,7 @@ security controls which can be applied against it in production.
 It is common to start with lax permissions, and intentions to apply
 security concepts before release; Spending some time thinking about
 the security design of the operator as developers begin work on it
-will make this process much easier for developers and their users.  
+will make this process much easier for developers and their users.
 
 #### Vulnerability Analysis
 
@@ -358,7 +356,7 @@ guidelines in the development and distribution layers that will help
 to apply sound vulnerability analysis to supply chain to ensure
 that the operator being developed is signed and trusted for the best
 integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
-is available at this link.  
+is available at this link.
 
 In addition to the supply chain there needs to be a focus on
 performing a threat model of the operator to keep the developer
@@ -436,14 +434,14 @@ To review the script ask the following questions:
 * What is the purpose of this script?
 * What resources are being created by the script? Is this script creating Roles and RoleBindings?
 * What 3rd party sources will the script attempt to use? (e.g.
-container images, other yaml files) How popular and well-maintained
-are the git and docker image repositories? These might be signs of
-a new project, abandoned software which is no longer receiving
-security updates, or indicators of an unofficial repository with
-malicious intent.
+  container images, other yaml files) How popular and well-maintained
+  are the git and docker image repositories? These might be signs of
+  a new project, abandoned software which is no longer receiving
+  security updates, or indicators of an unofficial repository with
+  malicious intent.
 * What privileges does the script attempt to gain? Does the script
-attempt to run container securityContexts with host sharing or
-“privileged mode”?
+  attempt to run container securityContexts with host sharing or
+  “privileged mode”?
 
 **Advanced security controls**, such as SELinux, AppArmor, or seccomp
 may be mandated by cluster policy. Open source operators are unlikely
@@ -569,7 +567,7 @@ spec:
 With above configuration :
 * `metacontroller`, for every object matching `spec.resources` description (in this case - `apps/v1/statefulsets` with `service` and `port` annotations), will watch for any change in matching objects (create/update/delete) and invoke `hooks.sync` on each of those
 * the `hooks.sync` can return objects which are described in `spec.attachement` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
-For example, if below `Statefulset` will be deployed:
+  For example, if below `Statefulset` will be deployed:
 ```yaml
 apiVersion: apps/v1
 kind: StatefulSet
@@ -757,17 +755,17 @@ updated and actively supported by the vendor.
 In short, to get an Operator, you have three choices:
 
 (1) You have a database and need an Operator? Consult the website of the
-    vendor.
+vendor.
 
 (2) You can search for a public (or private) registry that offer
-    available Kubernetes Operators. For example, \[1\] provides a
-    platform for publishing and sharing Operators in a way that
-    simplifies distribution. The platform makes it easier to find
-    supported services and basic documentation. It also identifies
-    active Operator communities and vendor-supported initiatives.
+available Kubernetes Operators. For example, \[1\] provides a
+platform for publishing and sharing Operators in a way that
+simplifies distribution. The platform makes it easier to find
+supported services and basic documentation. It also identifies
+active Operator communities and vendor-supported initiatives.
 
 (3) Write your own Operator, either from scratch or using a suitable
-    framework.
+framework.
 
 Operators are application specific and their functionality ranges from a
 simple installation script to sophisticated logic that handles upgrades,
@@ -817,10 +815,10 @@ Best practices of \[2\] are:
     organization**
 
     a.  If a popular Operator Framework exists for your language or/and
-        you want to contribute to it =\> Operator Framework
+    you want to contribute to it =\> Operator Framework
 
     b.  If no popular Operator Framework exists for your programming
-        language =\> Bare Programming Language
+    language =\> Bare Programming Language
 
 5.  If **none of the above** =\> Operator SDK: Go
 

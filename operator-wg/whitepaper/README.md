@@ -1,7 +1,7 @@
 # Operator White Paper
 
 ## Current Version
-- [Community Review](../whitepaper-community-review) 
+- [Public Comment Version](./Operator-WhitePaper_v1-0.md) 
 
 ## Proposed Schedule
 *inspired by https://github.com/cncf/sig-security/issues/138*
@@ -20,7 +20,7 @@
 
 - [x] April 1st - April 7th, 2021 - *Executive summary and content wrap up*
 
-- [ ] April 7th - April 20th, 2021 - *Narrative voice*
+- [x] April 7th - April 20th, 2021 - *Narrative voice*
   
 
 * The narrative voice is a semi-final pass of the paper to ensure it reads
