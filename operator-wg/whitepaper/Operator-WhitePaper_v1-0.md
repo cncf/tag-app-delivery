@@ -442,6 +442,8 @@ To review the script ask the following questions:
 * What privileges does the script attempt to gain? Does the script
   attempt to run container securityContexts with host sharing or
   “privileged mode”?
+  
+More information about software supply chain security is available in the [CNCF Supply Chain Security White Paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper).
 
 **Advanced security controls**, such as SELinux, AppArmor, or seccomp
 may be mandated by cluster policy. Open source operators are unlikely
