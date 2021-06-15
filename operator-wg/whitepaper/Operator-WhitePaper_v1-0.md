@@ -667,7 +667,7 @@ The features an operator provides, should be specific to a single application. A
 ### Writing operators that represent a whole stack
 (Sources: https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md)
 
-Even if there is an operator for every part of the application, it might be easier to manage the whole stack in one CRD. If this is the case, an operator which represents the whole stack should delegate the work to the other operators for the more specific parts.
+Even if there is an operator for every part of the application, coordinating the setup and lifecycle of the whole stack can remain complex. An umbrella operator can help shield the user from this complexity by coordinating the various parts of the stack and expose a CRD representing the whole stack. If this is the case, the umbrella operator should delegate the work to the other operators for the more specific parts.
 
 Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator may in turn create other custom resources for each of the components of the stack. The controllers that own these sub-components of stacks can appear in two ways:
 
