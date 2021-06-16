@@ -149,7 +149,7 @@ The desired state is encapsulated in one or more Kubernetes custom resources and
 #### Kubernetes controllers
 A Kubernetes Controller takes care of routine tasks to ensure the desired state expressed by a particular resource type matches the real-world state (current state,https://engineering.bitnami.com/articles/a-deep-dive-into-kubernetes-controllers.html, https://fntlnz.wtf/post/what-i-learnt-about-kubernetes-controller/). For instance, the Deployment controller takes care that the desired amount of pod replicas is running and a new pod spins up, when one pod is deleted or fails.
 
-Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has additional operational knowledge like how to upgrade or remediate from errors, it is an operator.
+Technically, there is no difference between a typical controller and an operator. Often the difference referred to is the operational knowledge that is included in the operator. As a result, a controller which spins up a pod when a custom resource is created and the pod gets destroyed afterwards can be described as a simple controller. If the controller has operational knowledge like how to upgrade or remediate from errors, it is an operator.
 
 #### Custom resources and custom resource definitions
 Custom resources are used to store and retrieve structured data in Kubernetes as an extension of the the default Kubernetes API  (https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/).
