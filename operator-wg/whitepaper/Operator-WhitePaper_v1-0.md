@@ -108,7 +108,7 @@ The Operator pattern consists of three components:
 * A domain specific language that enables the user to specify the desired state of the application in a declarative way.
 * A controller that runs continuously:
     * Reads and is aware of the state.
-    * Runs actions against the application in an automated way.
+    * Runs actions against change of operations state in an automated way.
     * Report the state of the application  in a declarative way.
 
 This design pattern will be applied on Kubernetes and its operators in the next sections.
