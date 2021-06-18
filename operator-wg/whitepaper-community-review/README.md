@@ -942,3 +942,4 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 **Add yourself if you reviewed the document**
 - Alex Jones (github.com/AlexsJones)
 - Michael Hrivnak (github.com/mhrivnak)
+- Roberth Strand (github.com/roberthstrand)
