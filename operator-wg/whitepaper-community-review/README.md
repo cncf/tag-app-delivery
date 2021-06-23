@@ -610,7 +610,7 @@ the declarative state is the API of the operator, and it may need to be upgraded
 
 As the number of Operators & CRDs adds up, its complexity of management also increases. For example, how to manage the conflicts between Operators, like two ingress-related functions? How to manage the dependencies and/or correlation of data flow between CRDs, like DB cluster and DB backup CRDs?
 
-To resolve this problem, we would need a  concrete model to manage Operators & CRDs and
+To resolve this problem, we would need a concrete model to manage Operators & CRDs and
 a new mechanism to oversee them with policy-base engine.
 Community efforts like [KubeVela](https://kubevela.io/) and [Crossplane](https://crossplane.io/)
 have been trying to solve this problem by providing solutions to compose CRDs.
