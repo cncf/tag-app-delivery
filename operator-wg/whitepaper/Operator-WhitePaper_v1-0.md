@@ -648,7 +648,7 @@ The above example illustrates such a case:
 
 This enables the user to have reproducible configurations, versioned in a git repository.
 
-## Best Practices
+## Successful Patterns
 
 Over time, lots of best practices for writing operators have been published by various sources. Following, some of theses sources are mentioned and parts of them described based on a scenario.
 
@@ -664,19 +664,34 @@ Best practices should be applied to this application deployment.
 
 The features an operator provides, should be specific to a single application. Applied to our example, this means that there should be 5 operators which will manage one component (podtato-server, arm-service, foot-service, hat-service and the database) at a time. This provides a good separation of concerns for all of them (based on https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps).
 
-### Writing operators that represent a whole stack
+### Operator of Operators
+
 (Sources: https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md)
 
-Even if there is an operator for every part of the application, coordinating the setup and lifecycle of the whole stack can remain complex. An umbrella operator can help shield the user from this complexity by coordinating the various parts of the stack and expose a CRD representing the whole stack. If this is the case, the umbrella operator should delegate the work to the other operators for the more specific parts.
+With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviours across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; *Operator of Operator* architecture is being used in some use cases within the the industry. This paradigm typically utilises a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
 
-Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator may in turn create other custom resources for each of the components of the stack. The controllers that own these sub-components of stacks can appear in two ways:
 
-An operator distribution package could consist of multiple separate controllers, each handling a sub-component of the stack plus a main controller, that is responsible for the end-user facing CRD, representing the stack as a whole. Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single operator. The main benefit here is separation of concerns within an operator project.
+![distributed](./img/09_1_distributedops.png)
+
+
+Coordinating the setup and lifecycle of the whole stack can remain complex. An Operator controlling a metadata resource can help shield the user from this complexity by coordinating the various parts of the stack and expose a CRD representing the whole stack. If this is the case, the *Meta* operator should delegate the work to the other Operators for the more specific parts.
+
+The controllers that own these sub-components of stacks can appear in two ways:
+
+- An operator distribution package could consisting of multiple separate controllers, each handling a sub-component of the stack plus a main controller ( Responsible for the end-user facing CRD, representing the stack as a whole). Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single Operator. The main benefit here is separation of concerns within an operator project.
 
 ![Stack-Operator](./img/08_2_umbrella.png)
 
-Another pattern depicted above describes higher-level workload operators, which depend on other general-purpose operator projects to deploy sub-components of a stack. An example would be an operator, which depends on `cert-manager`, the `prometheus operator` and a `postgresql` operator to deploy its workload with rotating certificates, monitoring and a SQL database. In this case the higher-level workload operator should not try to ship and install `cert-manager` etc at runtime. This is because the operator author then signs up for shipping and maintaining the particular versions of these dependencies as well and dealing with the general problem area of CRD lifecycle management.
-Instead a package management solution should be employed that supports dependency resolution at install time, so that installing the other required operators is delegated to a package manager in the background and not as part of the higher level operator startup code. This is beneficial for operators that depend on other operators, which are useful on their own and might even be shared with multiple other operators on the cluster. [OLM](https://github.com/operator-framework/operator-lifecycle-manager), part of the Operator Framework Project, is such a package manager.
+
+
+- The second pattern depicted above, describes higher-level workload Operators. These depend on other general-purpose operator projects to deploy sub-components of a stack. An example would be an Operator, which depends on `cert-manager`, the `prometheus operator` and a `postgresql` operator to deploy its workload with rotating certificates, monitoring and a SQL database. In this case the higher-level workload operator should not try to ship and install `cert-manager` etc at runtime. This is because the operator author then signs up for shipping and maintaining the particular versions of these dependencies as well and dealing with the general problem area of CRD lifecycle management.
+
+	*Instead a package management solution should be employed that supports dependency resolution at install time, so that installing the other required operators is delegated to a package manager in the background and not as part of the higher level operator startup code.* 
+	
+	This is beneficial for operators that depend on other Operators, which are useful on their own and might even be shared with multiple other operators on the cluster. [OLM](https://github.com/operator-framework/operator-lifecycle-manager), part of the Operator Framework Project, is such a package manager.
+
+
+
 
 ### One CRD per controller
 Every CRD managed by an operator should be implemented in a single controller. This makes code a bit more readable and should help with separation of concerns.
@@ -894,6 +909,32 @@ https://github.com/operator-framework/community-operators/blob/master/docs/best-
 \[4\]
 https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
 
+
+## Emerging patterns of the future
+
+As the popularity of Operators increases, there are new usages and patterns that are challenging the status-quo of best practices and design principals. 
+
+### Operator lifecycle management
+
+With increasing Operator complexity and versioned, distributed controllers; there has been a need for the management and transparency of Operators and their resources. This pattern aids in the reuse of Operators through discoverability, minimal dependencies and declarative UI controls[1]. 
+
+In addition to this, as Operators become increasingly designed to reconcile with certain characteristics toward an anticipated end-state, maintaining the life cycle within the cluster through proper management enables iterations, experimentation and testing of new behaviours.  
+
+### Policy aware Operators
+
+Many Operators have a static set of role based authorizations within a cluster to reconcile resources. 
+There is ongoing activity to provide operators more dynamic access, based on the behaviour they are required to exhibit for reonciling a resource. This might mean a temporary elevation to create a resource directly, or to request that a custom resource definition is loaded into the Kubernetes api-server. 
+
+There is precedent for Operators[2] to allow for priviledged creation of resources on the behalf of the Operators; extending to new patterns and operating models[3]. Future potential of this pattern would also allow for a policy-engine to control Operator authorization.
+
+### References
+
+\[1\] https://olm.operatorframework.io/
+
+\[2\] https://github.com/cloud-ark/kubeplus
+
+\[3\] https://oam.dev/
+
 ## Conclusion
 Originally, operators were a first-class solution for onboarding stateful applications into orchestrators that usually tackled the operation of stateless workloads. They enhanced their APIs and increased the power of container orchestrators further but didn’t resolve all problems of application configuration and “Day 2” operations. It is important to keep in mind that Operators are a pattern to manage specific requirements and facilitate operations but they also bring complexities that should be weighed up before being implemented.
 
@@ -935,7 +976,6 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 - John Kinsella (github.com/jlk)
 - Roland Pellegrini (github.com/friendlydevops)
 - Cameron Seader (github.com/cseader)
-
 - Jennifer Strejevitch (github.com/Jenniferstrej)
 - Omer Kahani (github.com/OmerKahani)
 - Thomas Schuetz (github.com/thschue)
@@ -945,5 +985,6 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 ### Reviewers
 
 **Add yourself if you reviewed the document**
+
 - Alex Jones (github.com/AlexsJones)
 - Michael Hrivnak (github.com/mhrivnak)
