@@ -975,20 +975,19 @@ This document is a
 - Philippe Martin (github.com/feloy)
 - Noah Kantrowitz (github.com/coderanger)
 - John Kinsella (github.com/jlk)
-- Roland Pellegrini (Plan-B IT, github.com/friendlydevops)
+- Roland Pellegrini (github.com/friendlydevops)
 - Cameron Seader (github.com/cseader)
-- Jennifer Strejevitch (VMware, github.com/Jenniferstrej)
-- Omer Kahani (Snyk, github.com/OmerKahani)
-- Thomas Schuetz (Dynatrace, github.com/thschue)
+- Jennifer Strejevitch (github.com/Jenniferstrej)
+- Omer Kahani (github.com/OmerKahani)
+- Thomas Schuetz (github.com/thschue)
 - Grzegorz Głąb (github.com/grzesuav)
-- Alex Jones (Civo, github.com/AlexsJones)
-- Daniel Messer (RedHat, github.com/dmesser)
+- Alex Jones (github.com/AlexsJones)
+- Daniel Messer (github.com/dmesser)
 
 ### Reviewers
 
 **Add yourself if you reviewed the document**
 
-- Alex Jones (github.com/AlexsJones)
 - Michael Hrivnak (github.com/mhrivnak)
 - Bartlomiej Plotka (github.com/bwplotka)
 - Umanga Chapagain (github.com/umangachapagain)
