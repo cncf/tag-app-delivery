@@ -920,7 +920,7 @@ With increasing Operator complexity and versioned, distributed controllers; ther
 
 In addition to this, as Operators become increasingly designed to reconcile with certain characteristics toward an anticipated end-state, maintaining the life cycle within the cluster through proper management enables iterations, experimentation and testing of new behaviours.  
 
-### Policy-aware Operators
+### Policy-Aware Operators
 
 Many Operators have a static set of role based authorizations within a cluster to reconcile resources. 
 There is ongoing activity to provide operators more dynamic access, based on the behaviour they are required to exhibit for reonciling a resource. This might mean a temporary elevation to create a resource directly, or to request that a custom resource definition is loaded into the Kubernetes api-server. 
@@ -981,6 +981,7 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 - Thomas Schuetz (github.com/thschue)
 - Grzegorz Głąb (github.com/grzesuav)
 - Alex Jones (github.com/AlexsJones)
+- Daniel Messer (github.com/dmesser)
 
 ### Reviewers
 
@@ -988,3 +989,9 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 
 - Alex Jones (github.com/AlexsJones)
 - Michael Hrivnak (github.com/mhrivnak)
+- Bartlomiej Plotka (github.com/bwplotka)
+- Umanga Chapagain (github.com/umangachapagain)
+- Daniel Pacak (github.com/danielpacak)
+- Andy Jeffries (github.com/andyjeffries)
+- Phil Sautter (github.com/redeux)
+
