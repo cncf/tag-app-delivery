@@ -970,7 +970,8 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 * Hausenblas, M & Schimanski, S. (2019). Programming Kubernetes. O'Reilly.
 
 ## Acknowledgements
-This document is a 
+This document in an community driven effort of the CNCF App-Delivery SIG Operator Working Group. Thanks to everyone who contributed to this document, joined discussions and reviewed this document.
+
 ### Contributors
 - Philippe Martin (github.com/feloy)
 - Noah Kantrowitz (github.com/coderanger)
