@@ -17,27 +17,32 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # TOC Liasons
-  - username: michelleN
+  - username: cdavisafc
     permission: admin
 
-  - username: monadic
+  - username: resouer
     permission: admin
+
 
   # SIG Chairs 
   - username: AloisReitbauer
     permission: admin
 
-  - username: bryanl
+  - username: Jenniferstrej
     permission: admin
     
-  - username: resouer
+  - username: hongchaodeng
     permission: admin
+
+  # Tech Leads
+    
+  - username: AlexsJones
+    permission: push
     
   - username: thschue
     permission: push
-    
-  - username: Jenniferstrej
-    permission: push
+
+  # Operator WG Lead
     
   - username: OmerKahani
     permission: push  

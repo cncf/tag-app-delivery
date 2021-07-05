@@ -1,6 +1,9 @@
 # CNCF Operator White Paper - Review Version
 
-* [CNCF Operator White Paper \- Review Version](#cncf-operator-white-paper---review-version)
+Table of Contents
+=================
+
+* [CNCF Operator White Paper](#cncf-operator-white-paper)
     * [Executive Summary](#executive-summary)
     * [Introduction](#introduction)
         * [The goal of this document](#the-goal-of-this-document)
@@ -21,6 +24,7 @@
     * [Operator Lifecycle Management](#operator-lifecycle-management)
         * [Upgrading the Operator](#upgrading-the-operator)
         * [Upgrading the Declarative State](#upgrading-the-declarative-state)
+        * [Managing Relations of CRDs](#managing-relations-of-crds)
     * [Use Cases for an Operator](#use-cases-for-an-operator)
         * [Prometheus Operator](#prometheus-operator)
         * [Operator for GitOps](#operator-for-gitops)
@@ -44,7 +48,6 @@
         * [Contributors](#contributors-1)
         * [Reviewers](#reviewers)
 
-
 ## Executive Summary
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
 Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and statement management of an application.
@@ -66,7 +69,7 @@ This paper includes best practices including observability and security, technic
 
 It closes with related work, what additional value they can bring beyond this white paper and the next steps for Operators.
 
-### The Goal of this Document
+### The Goal of this document
 The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience
@@ -108,8 +111,8 @@ The Operator pattern consists of three components:
 * A domain specific language that enables the user to specify the desired state of the application in a declarative way.
 * A controller that runs continuously:
     * Reads and is aware of the state.
-    * Runs actions against change of operations state in an automated way.
-    * Report the state of the application  in a declarative way.
+    * Runs actions when operations state changes in an automated way.
+    * Report the state of the application in a declarative way.
 
 This design pattern will be applied on Kubernetes and its operators in the next sections.
 
@@ -605,6 +608,16 @@ While upgrading the operator, special care should be taken in regards to the man
 ### Upgrading the Declarative State
 the declarative state is the API of the operator, and it may need to be upgraded. The usage of CRD versions indicates the stability of the CRD and the operator - [read more about versioning a CRD](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/)
 
+### Managing Relations of CRDs
+
+As the number of Operators & CRDs adds up, its complexity of management also increases. For example, how to manage the conflicts between Operators, like two ingress-related functions? How to manage the dependencies and/or correlation of data flow between CRDs, like DB cluster and DB backup CRDs?
+
+To resolve this problem, we would need a concrete model to manage Operators & CRDs and
+a new mechanism to oversee them with policy-base engine.
+Community efforts like [KubeVela](https://kubevela.io/) and [Crossplane](https://crossplane.io/)
+have been trying to solve this problem by providing solutions to compose CRDs.
+KubeVela also provides management of data dependencies between custom resources.
+
 ## Use Cases for an Operator
 Example:
 An operator is used to install an application, or to provision another object which is achieved by defining a set of objects which are managed by the operator and how they work with each other. After the installation, the target application should be running without human interaction. In further consequence, a controller is used for the reconfiguration of a system.
@@ -682,6 +695,7 @@ The controllers that own these sub-components of stacks can appear in two ways:
 
 ![Stack-Operator](./img/08_2_umbrella.png)
 
+Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator creates a custom resource for each of the components of the stack which are again managed by operators and managing the underlying resources.
 
 
 - The second pattern depicted above, describes higher-level workload Operators. These depend on other general-purpose operator projects to deploy sub-components of a stack. An example would be an Operator, which depends on `cert-manager`, the `prometheus operator` and a `postgresql` operator to deploy its workload with rotating certificates, monitoring and a SQL database. In this case the higher-level workload operator should not try to ship and install `cert-manager` etc at runtime. This is because the operator author then signs up for shipping and maintaining the particular versions of these dependencies as well and dealing with the general problem area of CRD lifecycle management.
@@ -973,25 +987,27 @@ The CNCF SIG Security spent a lot of effort to add security related topics to th
 This document is a community-driven effort of the CNCF TAG App-Delivery Operator Working Group. Thanks to everyone who contributed to this document, joined discussions and reviewed this document.
 
 ### Contributors
-- Philippe Martin (github.com/feloy)
+- Omer Kahani (github.com/OmerKahani)
+- Jennifer Strejevitch (github.com/Jenniferstrej)
+- Thomas Schuetz (github.com/thschue)
+- Alex Jones (github.com/AlexsJones)
+- Hongchao Deng (github.com/hongchaodeng)  
+- Grzegorz Głąb (github.com/grzesuav)  
 - Noah Kantrowitz (github.com/coderanger)
 - John Kinsella (github.com/jlk)
+- Philippe Martin (github.com/feloy)
+- Daniel Messer (github.com/dmesser)  
 - Roland Pellegrini (github.com/friendlydevops)
 - Cameron Seader (github.com/cseader)
-- Jennifer Strejevitch (github.com/Jenniferstrej)
-- Omer Kahani (github.com/OmerKahani)
-- Thomas Schuetz (github.com/thschue)
-- Grzegorz Głąb (github.com/grzesuav)
-- Alex Jones (github.com/AlexsJones)
-- Daniel Messer (github.com/dmesser)
 
 ### Reviewers
-
-**Add yourself if you reviewed the document**
-
-- Michael Hrivnak (github.com/mhrivnak)
-- Bartlomiej Plotka (github.com/bwplotka)
 - Umanga Chapagain (github.com/umangachapagain)
-- Daniel Pacak (github.com/danielpacak)
-- Andy Jeffries (github.com/andyjeffries)
+- Michael Hrivnak (github.com/mhrivnak)
+- Andy Jeffries (github.com/andyjeffries)  
+- Daniel Pacak (github.com/danielpacak)  
+- Bartlomiej Plotka (github.com/bwplotka)
 - Phil Sautter (github.com/redeux)
+- Roberth Strand (github.com/roberthstrand)
+
+
+

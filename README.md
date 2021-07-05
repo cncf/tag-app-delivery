@@ -5,7 +5,10 @@ The Application Delivery TAG focuses on delivering cloud native applications whi
 See our full charter here: https://github.com/cncf/toc/blob/master/tags/app-delivery.md
 
 ## Chairs
-Alois Reitbauer, Bryan Liles and Lei Zhang.
+Alois Reitbauer, Jennifer Strejevitch, Hongchao Deng
+
+## Tech Leads
+Alex Jones, Thomas Schuetz
 
 ## Community
 
