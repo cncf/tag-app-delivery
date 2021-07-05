@@ -1,7 +1,7 @@
 # Operator White Paper
 
 ## Current Version
-- [Public Comment Version](./Operator-WhitePaper_v1-0.md) 
+- [Final Version (Version 1.0)](./Operator-WhitePaper_v1-0.md) 
 
 ## Proposed Schedule
 *inspired by https://github.com/cncf/sig-security/issues/138*
@@ -31,7 +31,7 @@
   * footnotes and citations are consistent and not direct hyperlinks in the text
   * vague terms are defined in a glossary or otherwise cited to the cloud native security lexicon in the repo
 
-- [ ] April 20th - April 30th, 2021 - *Final group review*
+- [X] April 20th - April 30th, 2021 - *Final group review*
 * Final Review - final review by group, with selected "intended audience"
 
 - [ ] From April 30th, 2021 - *Publishing Process*
