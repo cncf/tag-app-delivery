@@ -1,4 +1,4 @@
-# CNCF Operator White Paper - Review Version
+# CNCF Operator White Paper - Final Version
 
 Table of Contents
 =================
