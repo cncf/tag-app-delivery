@@ -968,7 +968,7 @@ Ref: Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
 
 Michael Hausenblas and Stefan Schimanski wrote a book about Programming Kubernetes, which provides deeper insights into client-go, custom resources, but also about writing operators.
 
-Ref: Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
+Ref: Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
 
 Google provided a blog post about best practices for building Kubernetes Operators and stateful apps. Some of the advisories of this post take place in the best practices section of the whitepaper (https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps).
 
