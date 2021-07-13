@@ -73,7 +73,7 @@ This paper includes best practices including observability and security, technic
 
 It closes with related work, what additional value they can bring beyond this white paper and the next steps for Operators.
 
-### The Goal of this document
+### The Goal of this Document
 The goal of this document is to provide a definition of operators for cloud-native applications in the context of Kubernetes and other container orchestrators.
 
 ### Target Audience / Minimum Level of Experience
