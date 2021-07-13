@@ -23,3 +23,15 @@ We have meetings every 1st and 3rd Wednesday of the month at 8:00 a.m. PST.
 + Zoom Meeting: https://zoom.us/j/7276783015 Passcode=77777
 + Recordings of previous meetings: https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci
 
+## Working Groups
+
+The TAG has created the following working groups to investigate and discuss the following topics:
+
+| Working Group | Chair            | Meeting Time                          |
+|---------------|------------------|---------------------------------------|
+| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/master/air-gapped-wg)         |   | Inactive |
+| [GitOps](https://github.com/cncf/tag-app-delivery/tree/master/gitops-wg) |  | WIP |
+| [Operator](https://github.com/cncf/tag-app-delivery/tree/master/operator-wg) | | | Inactive |
+| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | | WIP |
+
+All meetings are on the public CNCF calendar: https://goo.gl/eyutah
