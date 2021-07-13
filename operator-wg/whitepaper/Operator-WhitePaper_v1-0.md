@@ -69,7 +69,7 @@ This whitepaper defines operators in a wider context than Kubernetes. It describ
 
 Additionally, it provides a deep dive into the capabilities of Kubernetes controllers, including backup, recovery and automatic configuration tuning. Further insights into frameworks currently in use, lifecycle management, security risks and use cases are provided.
 
-This paper includes best practices including observability and security, technical implementation, and CNCF maintained code samples.
+This paper includes best practices including observability, security and technical implementation.
 
 It closes with related work, highlights the additional value they can bring beyond this whitepaper and the next steps for operators.
 
@@ -1013,6 +1013,5 @@ This document is a community-driven effort of the CNCF TAG App-Delivery Operator
 - Phil Sautter (github.com/redeux)
 - Roberth Strand (github.com/roberthstrand)
 - Anais Urlichs (github.com/AnaisUrlichs)
-
 
 
