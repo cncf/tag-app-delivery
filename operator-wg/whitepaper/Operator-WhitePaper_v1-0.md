@@ -677,13 +677,9 @@ Best practices should be applied to this application deployment.
 
 ### Management of a single type of application
 
-(Sources: https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md, https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps)
-
 The features an operator provides, should be specific to a single application. Applied to our example, this means that there should be 5 operators which will manage one component (podtato-server, arm-service, foot-service, hat-service and the database) at a time. This provides a good separation of concerns for all of them (based on https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps).
 
 ### Operator of Operators
-
-(Sources: https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md)
 
 With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviours across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; *Operator of Operator* architecture is being used in some use cases within the the industry. This paradigm typically utilises a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
 
@@ -707,8 +703,6 @@ Technically, there would be a custom resource definition for the whole stack man
 	*Instead a package management solution should be employed that supports dependency resolution at install time, so that installing the other required operators is delegated to a package manager in the background and not as part of the higher level operator startup code.* 
 	
 	This is beneficial for operators that depend on other Operators, which are useful on their own and might even be shared with multiple other operators on the cluster. [OLM](https://github.com/operator-framework/operator-lifecycle-manager), part of the Operator Framework Project, is such a package manager.
-
-
 
 
 ### One CRD per Controller
@@ -960,24 +954,28 @@ Originally, operators were a first-class solution for onboarding stateful applic
 ## Related Work
 Initially, Operators were introduced by a blog post on the CoreOS Blog. This article provides a rough overview what operators are, why the concept has been developed and how they are built. The insights of this article are mainly used for the definition of operators in this document. As the blog post only provided a concise overview, additional terms as capabilities, security and additional concepts are described more in-depth in this document.
 
-The Operator Pattern as a concept is described in the Kubernetes documentation and therefore provides an overview how an example operator could do and provides starting points for writing an operator. (https://kubernetes.io/docs/concepts/extend-kubernetes/operator/).
+The Operator Pattern as a concept is described in the Kubernetes documentation and therefore provides an overview how an example operator could do and provides starting points for writing an operator [1].
 
-The Book “Kubernetes Operators” (Dobies & Wood, 2020) provides a comprehensive overview about operators, which problems they solve and the different methods to develop them. Definitions made in this book flowed into this document. The same applies to the Book “Kubernetes Patterns” (Ibryam, 2019), which provides more technical and conceptual insights to operators. Definitions made in these books were summarized in this document (to provide a common declaration of operators).
+The Book “Kubernetes Operators” [2] provides a comprehensive overview about operators, which problems they solve and the different methods to develop them. Definitions made in this book flowed into this document. The same applies to the Book “Kubernetes Patterns” (Ibryam, 2019), which provides more technical and conceptual insights to operators. Definitions made in these books were summarized in this document (to provide a common declaration of operators).
 
-Ref: Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
+Michael Hausenblas and Stefan Schimanski [3] wrote a book about Programming Kubernetes, which provides deeper insights into client-go, custom resources, but also about writing operators.
 
-Michael Hausenblas and Stefan Schimanski wrote a book about Programming Kubernetes, which provides deeper insights into client-go, custom resources, but also about writing operators.
+Google provided a blog post about best practices for building Kubernetes Operators and stateful apps. Some of the advisories of this post take place in the best practices section of the whitepaper [4].
 
-Ref: Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
+Many documents describe capability levels (also known as maturity levels) of operators. Since there could be cases where an operator that supports all features that fall on the highest capability level but does not support some lower level features, this document chooses to cover “capabilities” rather than “capability levels”. The capabilities required for each capability level, however, are taken into consideration [5].
 
-Google provided a blog post about best practices for building Kubernetes Operators and stateful apps. Some of the advisories of this post take place in the best practices section of the whitepaper (https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps).
+The CNCF SIG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security [6].
 
-Many documents describe capability levels (also known as maturity levels) of operators. Since there could be cases where an operator that supports all features that fall on the highest capability level but does not support some lower level features, this document chooses to cover “capabilities” rather than “capability levels”. The capabilities required for each capability level, however, are taken into consideration.
+### References
 
-Ref: Operator Framework. (n.d.). Operator Capabilities. Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
+\[1\] https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
+\[2\] Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
+\[3\] Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
+\[4\] https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
+\[5\] Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
+\[6\] https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md
 
-The CNCF SIG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security (https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md).
 
 ## Bibliography
 
