@@ -47,7 +47,6 @@ Table of Contents
         * [References](#references-1)
     * [Conclusion](#conclusion)
     * [Related Work](#related-work)
-    * [Bibliography](#bibliography)
     * [Acknowledgements](#acknowledgements)
         * [Contributors](#contributors)
         * [Reviewers](#reviewers)
