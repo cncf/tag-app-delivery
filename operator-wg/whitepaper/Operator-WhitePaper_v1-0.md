@@ -977,14 +977,6 @@ https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
 \[6\] https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md
 
 
-## Bibliography
-
-* Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
-* Ibryam, B. (2019). Kubernetes Patterns. O'Reilly.
-* Operator Framework. (n.d.). Operator Capabilities. Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/
-* Philips, B. (2016, 03 16). Introducing Operators: Putting Operational Knowledge into Software. CoreOS Blog. Retrieved 11 24, 2020, from https://coreos.com/blog/introducing-operators.html
-* Hausenblas, M & Schimanski, S. (2019). Programming Kubernetes. O'Reilly.
-
 ## Acknowledgements
 This document is a community-driven effort of the CNCF TAG App-Delivery Operator Working Group. Thanks to everyone who contributed to this document, joined discussions and reviewed this document.
 
