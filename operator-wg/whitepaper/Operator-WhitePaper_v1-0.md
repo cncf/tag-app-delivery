@@ -314,7 +314,7 @@ about if they should use an operator:
   of a project.
 
 For further ideas around the security of the development process,
-the reader may wish to review the CNCF Security SIG's [self-assessment
+the reader may wish to review the CNCF Security TAG's [self-assessment
 questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
 
 #### Operator Scope
@@ -963,7 +963,7 @@ Google provided a blog post about best practices for building Kubernetes Operato
 
 Many documents describe capability levels (also known as maturity levels) of operators. Since there could be cases where an operator that supports all features that fall on the highest capability level but does not support some lower level features, this document chooses to cover “capabilities” rather than “capability levels”. The capabilities required for each capability level, however, are taken into consideration [5].
 
-The CNCF SIG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security [6].
+The CNCF TAG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security [6].
 
 ### References
 
