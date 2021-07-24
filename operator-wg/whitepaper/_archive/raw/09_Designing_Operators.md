@@ -156,7 +156,7 @@ However, according to \[1\], **Operators written in Go Language** are by
 far the most popular. The reason for this is two-fold: first, the
 Kubernetes environment itself is written in Go, so the client library is
 perfectly optimized. Second, the Operator SDK (with embedded
-Kubebuilder) supports the implemention of Operators in Go out-of-the-box. 
+Kubebuilder) supports the implementation of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 

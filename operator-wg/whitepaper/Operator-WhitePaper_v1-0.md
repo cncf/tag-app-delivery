@@ -99,7 +99,7 @@ The aim of this paper is to bring this concept to a higher level than Kubernetes
 This section describes the pattern with high-level concepts.
 The next section _Kubernetes Operator Definition_ will describe the implementations of the pattern in terms of Kubernetes objects and concepts.
 
-The operator design pattern defines how to manage application and infrastructure resources using domain-specific knowledge and declarative state. The goal of the pattern is to reduce the amount of manual imperative work (how to backup, scale, upgrade...) which is required to keep an application in a healthy and well-maintained state, by capturing that domain specific knowledge in code and exposing it using a declarative API
+The operator design pattern defines how to manage application and infrastructure resources using domain-specific knowledge and declarative state. The goal of the pattern is to reduce the amount of manual imperative work (how to backup, scale, upgrade...) which is required to keep an application in a healthy and well-maintained state, by capturing that domain specific knowledge in code and exposing it using a declarative API.
 
 By using the operator pattern, the knowledge on how to adjust and maintain a resource is captured in code and often within a single service (also called a controller).
 
@@ -137,8 +137,8 @@ By putting these common operational tasks into code, it can be ensured they will
 
 #### Domain Knowledge
 Similar to operational automation, it can be written into an operator to encode specialized domain knowledge about particular software or processes. A common example of this is application upgrades. While a simple stateless application might need nothing more than a Deployment’s rolling upgrade; databases and other stateful applications often require very specific steps in sequence to safely perform upgrades. The operator can handle this autonomously as it knows your current and requested versions and can run specialized upgrade code when needed. More generally, this can apply to anything a pre-cloud-native environment would use manual checklists for (effectively using the operator as an executable runbook).
-Another common way to take advantage of automated domain knowledge is error remediation. For example, the Kubernetes built-in remediation behaviours mostly start and end with “restart container until it works” which is a powerful solution but often not the best or fastest solution.
-An operator can monitor its application and react to errors with specific behaviour to resolve the error or escalate the issue if it can’t be automatically resolved. This can reduce MTTR (mean time to recovery) and also reduce operator fatigue from recurring issues.
+Another common way to take advantage of automated domain knowledge is error remediation. For example, the Kubernetes built-in remediation behaviors mostly start and end with “restart container until it works” which is a powerful solution but often not the best or fastest solution.
+An operator can monitor its application and react to errors with specific behavior to resolve the error or escalate the issue if it can’t be automatically resolved. This can reduce MTTR (mean time to recovery) and also reduce operator fatigue from recurring issues.
 
 ### Operator Components in Kubernetes
 
@@ -149,7 +149,7 @@ An operator can monitor its application and react to errors with specific behavi
 Operators enable the extension of the Kubernetes API with operational knowledge.
 This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases.
 
-The desired state refers hereby to any resource that is defined in code and which the operator is configured to manage. Subsequently, the current state references the deployed instance of those resources. 
+The desired state refers hereby to any resource that is defined in code and which the operator is configured to manage. Subsequently, the current state references the deployed instance of those resources.
 
 The controller will constantly compare the desired state with the current state using the reconciliation loop which ensures that the watched objects get transitioned to the desired state in a defined way.
 
@@ -270,7 +270,7 @@ When deleting the declarative requested state (in most cases a custom resource),
 - Uninstalling: An operator should be able to completely remove or delete every managed resource.
 - Disconnecting: An operator should stop managing the provisioned resources.
 
-Both processes should be applied to every resource that the operator directly provisioned.  
+Both processes should be applied to every resource that the operator directly provisioned.
 An operator should report any failure in the process in a declarative way (using the [status field](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#object-spec-and-status) for example).
 
 ## Security
@@ -315,7 +315,7 @@ about if they should use an operator:
 
 For further ideas around the security of the development process,
 the reader may wish to review the CNCF Security TAG's [self-assessment
-questionaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
+questionnaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
 
 #### Operator Scope
 
@@ -333,12 +333,12 @@ not provided you can be left vulnerable to a myriad of attacks.
 
 **Cluster-wide Operators** exist to execute custom resources across a
 cluster no matter if those resources are living in another namespace
-or not.   
+or not.
 **Namespace Operators** exist to execute custom resources within a
 namespace. Usually there are policy engine policies applied to jail the
 scope within the namespace and only communicate with pods within the
 namespace. This is considered more secure by nature, but the same rules
-apply.   
+apply.
 **External Operators** exist to execute custom resources that are
 external to the cluster. The same rules apply, in addition to secure this
 scope we must know the nature of the communication from the cluster to
@@ -451,7 +451,7 @@ To review the script ask the following questions:
 * What privileges does the script attempt to gain? Does the script
   attempt to run container securityContexts with host sharing or
   “privileged mode”?
-  
+
 More information about software supply chain security is available in the [CNCF Supply Chain Security White Paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper).
 
 **Advanced security controls**, such as SELinux, AppArmor, or seccomp
@@ -504,7 +504,7 @@ def greet_regularly(memo, **_):
 ```
 
 You should consider using this framework if you want or need to make ad-hoc
-(here-and-now one-time non-generalisable) operators in Python 3.7+; especially if you want to bring your application domain directly to Kubernetes as custom
+(here-and-now one-time non-generalizable) operators in Python 3.7+; especially if you want to bring your application domain directly to Kubernetes as custom
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
 
@@ -575,8 +575,8 @@ spec:
 ```
 With above configuration :
 * `metacontroller`, for every object matching `spec.resources` description (in this case - `apps/v1/statefulsets` with `service` and `port` annotations), will watch for any change in matching objects (create/update/delete) and invoke `hooks.sync` on each of those
-* the `hooks.sync` can return objects which are described in `spec.attachement` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
-  For example, if below `Statefulset` will be deployed:
+* the `hooks.sync` can return objects which are described in `spec.attachments` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
+  For example, if below `StatefulSet` will be deployed:
 ```yaml
 apiVersion: apps/v1
 kind: StatefulSet
@@ -647,7 +647,7 @@ When the [Prometheus Operator](https://github.com/prometheus-operator/prometheus
 
 The benefits is using Kubernetes native configuration as a way to configure your whole operation stack, benefiting from Kubernetes resources validation and self-healing capabilities.
 
-The Operator controller will then communicate with the K8s API server to add Service metrics endpoints and automatically generate the required Prometheus scrape configurations for the configured Services.
+The Operator controller will then communicate with the Kubernetes API server to add Service metrics endpoints and automatically generate the required Prometheus scrape configurations for the configured Services.
 
 ### Operator for GitOps
 Often, operators are associated with installing, upgrading and operating applications. One example that an operator could also "operate" things without managing an application can be found in the GitOps world. GitOps is the practice of using Git as the single source of truth for all resources.
@@ -681,7 +681,7 @@ The features an operator provides, should be specific to a single application. A
 
 ### Operator of Operators
 
-With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviours across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; the *Operator of Operators* architecture is being applied in some use cases within the the industry. This paradigm typically utilises a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
+With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviors across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; the *Operator of Operators* architecture is being applied in some use cases within the the industry. This paradigm typically utilizes a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
 
 ![distributed](./img/09_1_distributedops.png)
 
@@ -699,8 +699,8 @@ Technically, there would be a custom resource definition for the whole stack man
 
 - The second pattern depicted above, describes higher-level workload Operators. These depend on other general-purpose operator projects to deploy sub-components of a stack. An example would be an Operator, which depends on `cert-manager`, the `prometheus operator` and a `postgresql` operator to deploy its workload with rotating certificates, monitoring and a SQL database. In this case the higher-level workload operator should not try to ship and install `cert-manager` etc at runtime. This is because the operator author then signs up for shipping and maintaining the particular versions of these dependencies as well and dealing with the general problem area of CRD lifecycle management.
 
-	*Instead a package management solution should be employed that supports dependency resolution at install time, so that installing the other required operators is delegated to a package manager in the background and not as part of the higher level operator startup code.* 
-	
+	*Instead a package management solution should be employed that supports dependency resolution at install time, so that installing the other required operators is delegated to a package manager in the background and not as part of the higher level operator startup code.*
+
 	This is beneficial for operators that depend on other Operators, which are useful on their own and might even be shared with multiple other operators on the cluster. [OLM](https://github.com/operator-framework/operator-lifecycle-manager), part of the Operator Framework Project, is such a package manager.
 
 
@@ -876,7 +876,7 @@ However, according to \[1\], **Operators written in Go Language** are by
 far the most popular. The reason for this is two-fold: first, the
 Kubernetes environment itself is written in Go, so the client library is
 perfectly optimized. Second, the Operator SDK (with embedded
-Kubebuilder) supports the implemention of Operators in Go out-of-the-box.
+Kubebuilder) supports the implementation of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 
@@ -923,20 +923,20 @@ https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-
 
 ## Emerging Patterns of the Future
 
-As the popularity of Operators increases, there are new usages and patterns that are challenging the status-quo of best practices and design principals. 
+As the popularity of Operators increases, there are new usages and patterns that are challenging the status-quo of best practices and design principals.
 
 ### Operator Lifecycle Management
 
-With increasing Operator complexity and versioned, distributed controllers; there has been a need for the management and transparency of Operators and their resources. This pattern aids in the reuse of Operators through discoverability, minimal dependencies and declarative UI controls[1]. 
+With increasing Operator complexity and versioned, distributed controllers; there has been a need for the management and transparency of Operators and their resources. This pattern aids in the reuse of Operators through discoverability, minimal dependencies and declarative UI controls[1].
 
-In addition to this, as Operators become increasingly designed to reconcile with certain characteristics toward an anticipated end-state, maintaining the life cycle within the cluster through proper management enables iterations, experimentation and testing of new behaviours.  
+In addition to this, as Operators become increasingly designed to reconcile with certain characteristics toward an anticipated end-state, maintaining the life cycle within the cluster through proper management enables iterations, experimentation and testing of new behaviors.
 
 ### Policy-Aware Operators
 
-Many Operators have a static set of role based authorizations within a cluster to reconcile resources. 
-There is ongoing activity to provide operators more dynamic access, based on the behaviour they are required to exhibit for reonciling a resource. This might mean a temporary elevation to create a resource directly, or to request that a custom resource definition is loaded into the Kubernetes api-server. 
+Many Operators have a static set of role based authorizations within a cluster to reconcile resources.
+There is ongoing activity to provide operators more dynamic access, based on the behavior they are required to exhibit for reconciling a resource. This might mean a temporary elevation to create a resource directly, or to request that a custom resource definition is loaded into the Kubernetes API server.
 
-There is precedent for Operators[2] to allow for priviledged creation of resources on the behalf of the Operators; extending to new patterns and operating models[3]. Future potential of this pattern would also allow for a policy-engine to control Operator authorization.
+There is precedent for Operators[2] to allow for privileged creation of resources on the behalf of the Operators; extending to new patterns and operating models[3]. Future potential of this pattern would also allow for a policy-engine to control Operator authorization.
 
 ### References
 
@@ -984,23 +984,21 @@ This document is a community-driven effort of the CNCF TAG App-Delivery Operator
 - Jennifer Strejevitch (github.com/Jenniferstrej)
 - Thomas Schuetz (github.com/thschue)
 - Alex Jones (github.com/AlexsJones)
-- Hongchao Deng (github.com/hongchaodeng)  
-- Grzegorz Głąb (github.com/grzesuav)  
+- Hongchao Deng (github.com/hongchaodeng)
+- Grzegorz Głąb (github.com/grzesuav)
 - Noah Kantrowitz (github.com/coderanger)
 - John Kinsella (github.com/jlk)
 - Philippe Martin (github.com/feloy)
-- Daniel Messer (github.com/dmesser)  
+- Daniel Messer (github.com/dmesser)
 - Roland Pellegrini (github.com/friendlydevops)
 - Cameron Seader (github.com/cseader)
 
 ### Reviewers
 - Umanga Chapagain (github.com/umangachapagain)
 - Michael Hrivnak (github.com/mhrivnak)
-- Andy Jeffries (github.com/andyjeffries)  
-- Daniel Pacak (github.com/danielpacak)  
+- Andy Jeffries (github.com/andyjeffries)
+- Daniel Pacak (github.com/danielpacak)
 - Bartlomiej Plotka (github.com/bwplotka)
 - Phil Sautter (github.com/redeux)
 - Roberth Strand (github.com/roberthstrand)
 - Anais Urlichs (github.com/AnaisUrlichs)
-
-

@@ -55,7 +55,7 @@ def greet_regularly(memo, **_):
 ```
 
 You should consider using this framework if you want or need to make ad-hoc
-(here-and-now one-time non-generalisable) operators in Python 3.7+, especially
+(here-and-now one-time non-generalizable) operators in Python 3.7+, especially
 if you want to bring your application domain directly to Kubernetes as custom
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
