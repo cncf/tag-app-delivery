@@ -48,8 +48,8 @@ spec:
 ```
 With above configuration :
 * `metacontroller`, for every object matching `spec.resources` description (in this case - `apps/v1/statefulsets` with `service` and `port` annotations), will watch for any change in matching objects (create/update/delete) and invoke `hooks.sync` on each of those
-* the `hooks.sync` can return objects which are described in `spec.attachement` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
-For example, if below `Statefulset` will be deployed:
+* the `hooks.sync` can return objects which are described in `spec.attachment` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
+For example, if below `StatefulSet` will be deployed:
 ```yaml
 apiVersion: apps/v1
 kind: StatefulSet
