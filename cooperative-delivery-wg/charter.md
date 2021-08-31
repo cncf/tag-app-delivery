@@ -1,38 +1,5 @@
 # Cooperative Delivery Working Group Charter
 
-## Interested Parties
-* Thomas Schuetz (Dynatrace)
-* Alex Jones (Civo)
-* Jennifer Strejevitch (VMware)
-* Phil Sautter (HashiCorp)
-* Roberth Strand (Crayon)
-* Saiyam Pathak (Civo)
-* Josh Gavant (Discover)
-* Hongchao Deng (Alibaba)
-* Tracy Ragan (DeployHub)
-* Will Wang(Tencent)
-* Toni Menzel (rebaze)
-* Viktor Farcic (Shipa)
-* Jesse Butler (AWS)
-* Zheng Xi Zhou (Alibaba Cloud)
-* Sumit Shatwara (Red Hat)
-* Matt Clarke (Spotify)
-* Soheil Eizadi (Infoblox)
-* Uma Mukkara (ChaosNative)
-* Karena Angell (Red Hat)
-* Ramon Roman Nissen (Red Hat)
-* Devdatta Kulkarni (CloudARK)
-* Jim Haughwout (Peloton)
-* David Harris (Weaveworks)
-* David Stauffer (Weaveworks)
-* Leonardo Murillo (Weaveworks)
-* Scott Rigby (Weaveworks)
-* Ethan Goldblum (Box)
-* Matt Young (EverQuote)
-* Henrik Blixt (Intuit)
-* Kiran Mova (MayaData)
-* Antonin Kral (IPFabric)
-
 ## Problem Statement
 In most app-delivery scenarios, the packaging format and delivery mechanism of the application artifacts are targeted, but not necessarily the app's infrastructure dependencies such as data stores and message queues. That is, application and infrastructure delivery are not coordinated. Often, applications are heavily dependent on infrastructure resources that are not directly linked to a specific deployment, and therefore problems with non-existing infrastructure resources might cause deployments to fail. In addition to this, the application and infrastructure lifecycles are not synchronized, creating additional complexity and challenges when delivering workloads.
 
@@ -108,6 +75,39 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 
 ## Working Group Meetings
 * To be defined
+
+## Interested Parties
+* Thomas Schuetz (Dynatrace)
+* Alex Jones (Civo)
+* Jennifer Strejevitch (VMware)
+* Phil Sautter (HashiCorp)
+* Roberth Strand (Crayon)
+* Saiyam Pathak (Civo)
+* Josh Gavant (Discover)
+* Hongchao Deng (Alibaba)
+* Tracy Ragan (DeployHub)
+* Will Wang(Tencent)
+* Toni Menzel (rebaze)
+* Viktor Farcic (Shipa)
+* Jesse Butler (AWS)
+* Zheng Xi Zhou (Alibaba Cloud)
+* Sumit Shatwara (Red Hat)
+* Matt Clarke (Spotify)
+* Soheil Eizadi (Infoblox)
+* Uma Mukkara (ChaosNative)
+* Karena Angell (Red Hat)
+* Ramon Roman Nissen (Red Hat)
+* Devdatta Kulkarni (CloudARK)
+* Jim Haughwout (Peloton)
+* David Harris (Weaveworks)
+* David Stauffer (Weaveworks)
+* Leonardo Murillo (Weaveworks)
+* Scott Rigby (Weaveworks)
+* Ethan Goldblum (Box)
+* Matt Young (EverQuote)
+* Henrik Blixt (Intuit)
+* Kiran Mova (MayaData)
+* Antonin Kral (IPFabric)
 
 ## Chairs
 * To be voted
