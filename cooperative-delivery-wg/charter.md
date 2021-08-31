@@ -69,7 +69,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 
 ## Non-Goals
 * Creating a new type of standard
-* An opinion on how to build micros-service applications or cloud-native architecture.
+* An opinion on how to build microservice applications or cloud-native architecture.
 * Defining how deployments should be done.
 * Creation of a new CNCF open source project.
 
