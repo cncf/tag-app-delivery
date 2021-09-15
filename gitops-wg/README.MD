@@ -51,14 +51,23 @@ There are a few ways you can get involved:
 
 - Watch or star this repo to see when things change
 - Join the [GitOps Subreddit](https://www.reddit.com/r/GitOps/)
-- Attend a [Working Group or Committee meeting](./MEETINGS.md)
+- Attend a [Working Group or Committee meeting](#meetings)
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
 - Join the [SIG App Delivery](https://github.com/cncf/sig-app-delivery) mailing list, and watch or participate in topics prefixed with `[gitops-wg]`
 - See [Working Group project boards](https://github.com/orgs/gitops-working-group/projects) for status of work, or for ideas on areas that could use additional participation
 - Volunteer to join [committees](GOVERNANCE.md#committees) and help with projects according to your interest and ability
 
-The Working Group will review all open issues and PRs at our regular working group meeting (schedule coming soon).
+The Working Group will review all open issues and PRs at our [regular working group meeting](#meetings).
+
+## Meetings
+
+- 🗓 The WG now meets every other Wednesday at [18:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/)
+- 👩‍💻 Join using [this Zoom link](https://zoom.us/j/93779536510?pwd=TEFzbGRzREI3MVlkZmluemVkMEhHdz09)
+- ✏️ See [Agenda and Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/) for next and and all previous meetings
+- 💡 Hint: use the [document outline](https://support.google.com/docs/answer/6367684) to help navigate to the right meeting!
+- 📼 Browse the [YouTube playlists](https://www.youtube.com/channel/UCI6iqYuuI4gZuOCZaks5i1g/playlists) for recordings of all previous meetings
+- 📧 Additional committee meetings may be scheduled as needed, and will be announced on the [CNCF App Delivery TAG](https://github.com/cncf/tag-app-delivery) mailing list, prefixed with `[gitops-wg]`
 
 ## Timeline
 
