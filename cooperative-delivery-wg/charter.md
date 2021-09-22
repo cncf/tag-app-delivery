@@ -108,6 +108,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Henrik Blixt (Intuit)
 * Kiran Mova (MayaData)
 * Antonin Kral (IPFabric)
+* Sebastian Pleschko (REWE International)
 
 ## Chairs
 * To be voted
