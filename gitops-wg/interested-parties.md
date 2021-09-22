@@ -35,6 +35,7 @@ Finch | Mark Beacom
 GitHub | Chris Patterson
 GitLab | William Chia
 GitLab | Viktor Nagy
+HashiCorp | Taylor Dolezal
 Hobsons | Fahad Arshad
 Hobsons | Matthew Caya
 IBM | Carlos Santana
