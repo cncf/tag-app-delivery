@@ -27,10 +27,10 @@ We have meetings every 1st and 3rd Wednesday of the month at 8:00 a.m. PST.
 
 The TAG has created the following working groups to investigate and discuss the following topics:
 
-| Working Group | Chair            | Meeting Time                          |
+| Working Group | Chairs            | Meeting Time                          |
 |---------------|------------------|---------------------------------------|
 | [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/master/air-gapped-wg)         |   | Inactive |
-| [GitOps](https://github.com/cncf/tag-app-delivery/tree/master/gitops-wg) |  | WIP |
+| [GitOps](https://github.com/cncf/tag-app-delivery/tree/master/gitops-wg) | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md) | [gitops-wg/README#meetings](./gitops-wg/README.MD#meetings) |
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/master/operator-wg) | | Inactive |
 | [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | | WIP |
 
