@@ -42,12 +42,16 @@ The GitOps WG works to enable widespread and successful adoption of the GitOps p
 - Helping to maintain the continued health of GitOps related projects in CNCF
 - Identifying and filling gaps in the landscape of GitOps Projects
 
-## SIG App Delivery Alignment
+## App Delivery TAG Alignment
 
-As an “operating model” for cloud native applications, GitOps fully aligns with "Application delivery workflow and strategy" and "Configuration source driven workflow" scopes defined in CNCF SIG App Delivery charter.
+- CNCF App Delivery TAG: As an “operating model” for cloud native applications, GitOps fully aligns with "Application delivery workflow and strategy" and "Configuration source driven workflow" scopes defined in CNCF App Delivery TAG charter
+- Additionally aligns with the other working groups within this TAG:
+  - Air Gapped WG: An important use case for GitOps
+  - Operator WG: See the [Operator whitepaper](https://github.com/cncf/tag-app-delivery/blob/master/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md#operator-for-gitops) section on GitOps
+  - Cooperative Delivery WG: See notes on GitOps in [their charter](https://github.com/cncf/tag-app-delivery/blob/master/cooperative-delivery-wg/charter.md)
 
 ## Other Related Groups
 
-- CNCF SIG-Security: Security in GitOps workflow is one of the most important areas in consideration
-- CNCF SIG-Runtime: The execution engine of GitOps workflow is mostly a controller inside Kubernetes which drops in scope of SIG Runtime
+- CNCF Security TAG: Security in GitOps workflow is one of the most important areas in consideration
+- CNCF Runtime TAG: The execution engine of GitOps workflow is mostly a controller inside Kubernetes which drops in scope of Runtime TAG
 - Continuous Delivery Foundation (CDF) cdCon GitOps Summit
