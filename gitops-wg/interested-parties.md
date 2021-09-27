@@ -4,6 +4,7 @@ Organization | Person
 -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
+Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
 Atos | Sunil Sukumaran
