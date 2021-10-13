@@ -35,3 +35,5 @@ The TAG has created the following working groups to investigate and discuss the 
 | [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | | WIP |
 
 All meetings are on the public CNCF calendar: https://goo.gl/eyutah
+
+## TODO
