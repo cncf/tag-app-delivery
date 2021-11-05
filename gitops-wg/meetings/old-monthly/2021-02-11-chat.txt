@@ -1,0 +1,49 @@
+00:09:38	Brice Fernandes:	https://github.com/gitops-working-group/gitops-working-group/pull/48
+00:10:11	Nate Taber:	Thanks Brice
+00:11:27	Engin Diri:	Looks really nice! Good Work, Brice!
+00:14:00	Scott Rigby:	Woot woop
+00:16:22	Daniel Lizio-Katzen:	­https://cloud-native.slack.com/archives/C01G9DEE88M
+00:17:31	Schlomo Schapiro:	Can you please repost the meetings Doc? I don't see the old chat after rejoining from my desktop
+00:17:57	Engin Diri:	https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#
+00:23:53	Scott Rigby:	Well said 👏
+00:25:58	Waldemar:	What are the requirements for the co-chairs and is it suitable new people to this working group?
+00:28:16	Waldemar:	Alright thanks!
+00:30:14	Waldemar:	Makes perfectly sense, thanks.
+00:30:55	Cornelia Davis:	I’m still here. Just going to get my tea :-)
+00:32:59	Scott Rigby:	Thanks Brice, was just going to say that
+00:34:12	Daniel Lizio-Katzen:	Here are the notes for today if you don't have the link: https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#
+00:46:31	Schlomo Schapiro:	Since I don't know about the previous discussion I don't understand what's the problem with calling it "GitOps Principles" or who objects to that term.
+00:46:52	Schlomo Schapiro:	Like, GitOps Principles sounds perfectly appropriate to me :-)
+00:49:09	Scott Rigby:	Correct Chris
+00:49:19	Gurney Buchanan:	+1
+00:49:21	Scott Rigby:	+1
+00:49:23	Cornelia Davis:	+1
+00:49:24	Leonardo Murillo:	+1
+00:49:26	Waldemar:	+1
+00:49:29	Engin Diri:	+1
+00:50:52	Chris Patterson:	We are doing the same with docker distribution as well
+00:50:53	Jeff Krupinski:	+1
+00:51:01	Chris Patterson:	Just trying to get things moving
+00:51:32	Brice Fernandes:	https://github.com/gitops-working-group/gitops-working-group/issues/49
+00:54:03	Scott Rigby:	+1
+00:56:49	Brice Fernandes:	+1 on the sponsoring orgs
+00:56:58	Scott Rigby:	Cornelia, I just made a gh discussion for this https://github.com/gitops-working-group/gitops-working-group/discussions/50
+00:57:08	Leonardo Murillo:	+1 I can provide a sponsoring org
+00:58:57	Cornelia Davis:	Thank you Scott.
+00:59:13	Leonardo Murillo:	gotta drop, thanks everybody
+00:59:32	Gurney Buchanan:	Have to drop - thanks folks!
+01:00:15	Scott Rigby:	That’s what I was thinking
+01:00:35	Brice Fernandes:	+1 for "GitOps Initiative”
+01:02:48	Jesse Butler:	And sorry, my camera is broken-ish. See you all next time I hope :)
+01:03:24	Jesse Butler:	I need to drop , thanks all chat again soon!
+01:04:01	Chris Sanders:	+1 for "GitOps Initiative”
+01:04:18	Chris Patterson:	Have to drop
+01:04:23	Dan Garfield:	Thanks Crhis
+01:04:26	Dan Garfield:	Chris*
+01:05:10	Scott Rigby:	Moshe, I love the idea of dogfooding. However, moving all our discussions to just within git is a very cumbersome way to actually discuss things. For example we can’t zoom in git either. But when the discussion is answered we can commit it to git
+01:05:55	Toni Menzel:	zoom in git.. good point ;)
+01:06:03	Chris Sanders:	Git = single source of truth :-)
+01:06:28	Waldemar:	Well said Brice. i agree.
+01:07:47	Brice Fernandes:	Worth noting is that we’re not really operating software as a working group.
+01:09:48	Scott Rigby:	Brice yes, and nothing to automatically “reconcile”
+01:09:51	Scott Rigby:	Bye!

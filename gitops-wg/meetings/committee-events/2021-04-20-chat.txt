@@ -1,0 +1,31 @@
+00:06:10	Scott:	We’re now recording
+00:06:14	Leonardo Murillo:	https://docs.google.com/spreadsheets/d/13r31KwCDjBXTrtsq-3ddwT2qFLnQEEannOO7cVlFXrM/edit#gid=322767999
+00:08:31	Cornelia Davis:	Hello all. I am bandwidth challenged so will leave my camera off.
+00:08:31	Scott:	Agenda doc for this meeting: https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.6b4oie86y8kg
+00:08:46	Scott:	Dan moderating. We have not yet moved to hand raising, but may want to
+00:10:10	Cornelia Davis:	Also, I am only available the first hour of this call.
+00:10:25	Chris Short:	Yeah, I have to drop the last thirty minutes
+00:11:25	Scott:	@Chris is there anything you want to make sure to address before you have to drop?
+00:13:19	Leonardo Murillo:	https://docs.google.com/spreadsheets/d/13r31KwCDjBXTrtsq-3ddwT2qFLnQEEannOO7cVlFXrM/edit
+00:13:53	Chris Short:	I'll need to know the flow, but yeah, I should build out an outline for hosting
+00:15:34	Scott:	I will be doing reviews today as well
+00:19:03	Scott:	Ah right
+00:19:44	Scott:	Awesome
+00:20:45	Chris Short:	Christian, how did you know which talks were Red Hatters?
+00:21:12	Christian Hernandez:	It's in the other tab
+00:21:18	Christian Hernandez:	"Form Responses"
+00:21:25	Philippe Ensarguet:	on Form response tab
+00:21:41	Chris Short:	ha... scroll down, dunce
+00:23:28	Scott:	For sure
+00:24:30	Philippe Ensarguet:	from the trenches ;-)
+00:25:02	Roberth Strand:	Good name
+00:25:04	Christian Hernandez:	Yes Philippe!
+00:25:10	Christian Hernandez:	Tres bien
+00:30:34	Schlomo Schapiro:	https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/colocated-events/#fluentcon-cloud-native-logging-day
+00:31:47	Chris Short:	https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/colocated-events/#gitops-con
+00:31:47	Roberth Strand:	Timezones are great
+00:37:19	Philippe Ensarguet:	Sonja said that we are close to 1,600 attendees
+00:37:42	Cornelia Davis:	WOW!
+00:47:56	Philippe Ensarguet:	We only have 7 Lightning talks before final cut
+00:48:28	Scott:	When I said “good” what I meant was, we should at least make sure they’re all relevant
+00:56:55	Scott:	https://doodle.com/poll/n59y5uyh2ustenwy

@@ -1,0 +1,27 @@
+00:06:16	Christian Hernandez:	https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.s5dinyjyr1t
+00:14:44	Christian Hernandez:	https://docs.google.com/document/d/14eHgAjFvbjRUMDl6uHX3bb1DQJvxRu6ddQPFX-e-wfY/edit
+00:16:08	Schlomo Schapiro:	Review Work Sheet: https://docs.google.com/spreadsheets/d/13r31KwCDjBXTrtsq-3ddwT2qFLnQEEannOO7cVlFXrM/edit?ts=60690147#gid=322767999
+00:21:30	Philippe Ensarguet:	And what about the ones who already applied? do we have a mean to know if they have a talk on KubeCon ?
+00:21:44	Schlomo Schapiro:	I'd like to suggest to add another category for evaluation, or maybe use it to rank the talks: How much do the talks reflect our GitOps principles?
+00:24:41	Philippe Ensarguet:	we should be cautious about the number of proposals up to now ;-)
+00:29:10	Roberth Strand:	We from the north is known for swearing, kick ass doesn't make the list at all :P
+00:30:25	Philippe Ensarguet:	and do we have an idea of number of required talks to fuel the day?
+00:31:22	Christian Hernandez:	++ @schlomo!
+00:32:12	Roberth Strand:	I'm ready to vote :P
+00:32:22	Scott - CNCF GitOps Working Group:	+1
+00:34:21	Scott - CNCF GitOps Working Group:	I was thinking the same
+00:36:07	Scott - CNCF GitOps Working Group:	+1 to cell comments
+00:37:35	Chris Short:	Please change "Total" to Average
+00:41:46	Philippe Ensarguet:	@schlomo, it works !
+00:51:55	Scott - CNCF GitOps Working Group:	GMT?
+00:52:03	Scott - CNCF GitOps Working Group:	+1
+00:52:16	Philippe Ensarguet:	And you have a french guy ;-)
+00:56:41	Scott - CNCF GitOps Working Group:	+1
+00:56:48	Leonardo Murillo:	+1
+00:56:50	Chris Short:	+100
+00:56:50	Philippe Ensarguet:	@cornelia, great idea!
+00:56:52	Roberth Strand:	+2
+00:58:45	Cornelia Davis:	Thank you Roberth :-)
+01:01:42	Cornelia Davis:	I need to run folks. Thank you all so much for the work here!
+01:01:50	Roberth Strand:	Bye
+01:01:58	Philippe Ensarguet:	Do we have to decide for a special action to boost the audience on the CFP ?

@@ -1,0 +1,54 @@
+00:09:26	Carlos Santana:	I do
+00:09:38	Carlos Santana:	At 2x
+00:09:56	Carlos Santana:	timezone
+00:10:58	Carlos Santana:	Is this the chat or there is a Slack channel you usually use ?
+00:11:20	Roberth Strand:	We usually use the Slack channel for general chatting
+00:15:35	Carlos Santana:	yes
+00:18:05	Carlos Santana:	Automatic?
+00:18:42	Carlos Santana:	Oh I see the “automated” actions afterwards.
+00:21:53	Scott - CNCF GitOps Working Group:	Next is Brice, then Timothy, Cornelia
+00:21:53	Brice Fernandes:	“The principle of reconciliation” would be sufficient - Details can be in the details
+00:22:58	Jesse Butler:	I don’t want to jump the hand queue, but what’s protocol for response?
+00:23:41	Roberth Strand:	I guess just bust in :P
+00:24:28	Schlomo Schapiro:	👍to a shorter title like Brice suggested. For me, "reconciliation" emphasizes the goal and I start to think that the details of continuous vs. regularly and the remediation details (immediate, eventually) are actually totally irrelevant - on the level of the principles
+00:26:06	Roberth Strand:	Same reasoning that I had the last meeting, when we discussed this. I think that having the principle of state reconciliation is more than enough as a title for the idea we're trying to get across
+00:26:20	Jesse Butler:	I re-raised, yep
+00:26:59	Scott - CNCF GitOps Working Group:	Next Cornelia, Jesse, Schlomo (going in order of hands raised)
+00:28:32	Jesse Butler:	+1 in all parts.
+00:28:37	Leonardo Murillo:	+1
+00:28:44	Roberth Strand:	Good point
+00:30:45	Roberth Strand:	Again, good point :)
+00:31:39	Scott - CNCF GitOps Working Group:	I’d like to suggest we do so in the notes
+00:35:05	Jesse Butler:	:nod:
+00:36:12	Brice Fernandes:	seconded
+00:38:24	Scott - CNCF GitOps Working Group:	thirded
+00:42:52	Scott - CNCF GitOps Working Group:	What about “s/differ/differ for any reason/g”
+00:46:57	Leonardo Murillo:	I think its redundant
+00:48:16	Roberth Strand:	Thirderded
+00:48:29	Cornelia Davis:	I agree that from a “mathematical” perspective that it’s unnecessary, but I do think it is helpful particularly for new folks.
+00:50:09	Schlomo Schapiro:	Yes, this is not a math exercise but rather should explain what we mean with as little potential for misunderstandings as possible
+00:52:44	Brice Fernandes:	I think taken/attempted/etc… is quite a small point that should be explored in the notes/explanation. It’s quite subtle for a first reading. I defer to the consensus for what that word choice is.
+00:53:46	Brice Fernandes:	We can deal explicitly with actions success/failur in the explanatory notes, with maybe a state diagram.
+00:53:53	Roberth Strand:	The principle should still stand, even if the attempt fail.
+00:54:07	Carlos Santana:	That was the part of “loop” that was removed
+00:54:30	Schlomo Schapiro:	For me "continuous" implies enough of a "loop" like behavior, IMHO
+00:55:17	Roberth Strand:	I agree with the wording. Initiated makes sense.
+00:55:23	Cornelia Davis:	You are right Schlomo! I really like “initiated”
+00:55:45	Carlos Santana:	I think the conversation are good, but as things get discussed the good points can be categorized as “part that helps define the principle” vs “not part of the principle, but a implementation detail following a principle”
+00:55:51	Brice Fernandes:	+1 on initiated>taken>attempted
+00:57:04	Schlomo Schapiro:	For me the automated decision to take action is the core of the principle, everything else is then implementation details.
+00:57:35	Leonardo Murillo:	+1 on initiated
+00:58:28	Roberth Strand:	Let's talk about #4 :P
+01:01:16	Carlos Santana:	Another thing to keep in mind is that these principles are GitOps, that how are the principles are different from XOps, like kubernetes or an operator reconciliation between desire state in a store/db (ie etcd) and current state, and initialing actions.
+01:02:12	Scott - CNCF GitOps Working Group:	💯
+01:02:37	Carlos Santana:	At first glance when I saw these principles for the first time, I thought it was describing k8s of using reconciliation and using delcaritve, the only difference is the store is git vs. etcd or sql (k3s)
+01:03:35	Schlomo Schapiro:	p4: preferred suggests for me a choice, which I'd like to veto
+01:03:43	Leonardo Murillo:	Have a hard stop for another meeting, gotta drop
+01:03:49	Leonardo Murillo:	great conversation everybody!
+01:03:55	Scott - CNCF GitOps Working Group:	Thanks Leonardo!
+01:04:10	Carlos Santana:	Instead of the human dealing with tube api to write to etcd, the human is dealing with git, that then another thing takes into etcddb, k8s controllers takes care of reconciliation, I’m new to the group so sorry for my ignorance, I will have better PoV after spending more time with they crowd
+01:04:24	Brice Fernandes:	Bye Leonardo!
+01:04:26	Cornelia Davis:	I need to jump.
+01:04:47	Roberth Strand:	I think we should follow this up in the next meeting
+01:04:56	Jesse Butler:	Good progress!
+01:05:14	Roberth Strand:	Cheers, see you next time

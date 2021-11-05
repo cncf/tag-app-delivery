@@ -1,0 +1,17 @@
+00:23:59	Tim Pouyer:	I had created an issue for a GitOps Working Group product name in a similar vein to "12 factor apps" to use "GitOps Commitments" which I think is a fun name https://github.com/gitops-working-group/gitops-working-group/issues/8
+00:24:26	Engin Diri:	yeah i saw this one!
+00:30:21	Omer Kahani:	Yes for that! We need feedback in gitops
+00:33:02	Engin Diri:	is this not part of the e.g kubernetes?
+00:34:46	Ed Lee:	verifiable target state
+00:38:24	Dan Garfield:	Tin reconciler
+00:38:33	Dan Garfield:	Tiny reconciler*
+00:39:04	Jesse Butler:	Is there a link to agenda doc(s)?
+00:39:19	Mya:	https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit?usp=sharing
+00:39:56	Engin Diri:	reference architecture would be nice. People sstruggle (at least at my place) the get ther head around
+00:40:09	Engin Diri:	their*
+00:42:54	Kara de la Marck:	https://github.com/cdfoundation/sig-interoperability/blob/master/docs/vocabulary.md
+00:43:51	jstrachan:	a way to map Pipelines => GitOps is the Pipeline can create a Pul Request on the Git repository
+01:00:34	Kara de la Marck:	Got to drop for another meeting. Thank you all very much for an interesting meeting!
+01:00:51	Shoubhik Bose:	Got to drop, great discussion!
+01:02:25	Leonardo Murillo:	gotta drop as well, great convo indeed! thanks everybody
+01:03:06	Dan Garfield:	thanks!

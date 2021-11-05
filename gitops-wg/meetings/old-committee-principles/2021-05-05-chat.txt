@@ -1,0 +1,37 @@
+00:07:36	Scott - CNCF GitOps Working Group:	https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.tqxwlrlh1y2w
+00:12:01	Scott - CNCF GitOps Working Group:	https://github.com/gitops-working-group/gitops-working-group/discussions/93
+00:13:23	Roberth Strand:	Sorry, hosting webinars back-to-back is hard to get the timing right of
+00:13:47	Scott - CNCF GitOps Working Group:	Robert very understood! Especially this week 😅
+00:14:08	Roberth Strand:	Constant things going on.
+00:14:29	Scott - CNCF GitOps Working Group:	https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#
+00:19:10	Leonardo Murillo:	i'd like clarity as to where the human/machine component would go in the principle
+00:33:57	Leonardo Murillo:	Roberth 💓 for book recommendation!
+00:34:43	Roberth Strand:	The little book of GitOps
+00:35:39	Roberth Strand:	#4 looks great now
+00:45:59	Brice Fernandes:	Continuous in the context of Software operations is established and I feel mostly aligns with our intent as currently understood.
+00:46:50	Brice Fernandes:	Removing continuous would lose the explicit rejection of batch processes.
+00:46:50	Moshe Immerman:	the dictionary definition is without interruption
+00:47:05	Brice Fernandes:	Loop and continuous are synonymous for me.
+00:47:52	Christian:	ständig vs Sofort
+00:48:20	Brice Fernandes:	Without interruption _is_ what we mean, I think. Isn’t it? We’re reconciling state between desired and actual without interruption
+00:49:13	Roberth Strand:	Merriam-Webster never use the word instantly in their definition.
+00:49:16	Roberth Strand:	For instance
+00:52:09	Leonardo Murillo:	yeah I don't agree with continuous being synonymous nor inclusive of instantaneity
+00:53:00	Christian:	how do you define loop without using continuous?
+00:53:15	Roberth Strand:	There are no loop without continuous
+00:53:18	Christian:	+1 to Bryce
+00:53:29	Roberth Strand:	I agree with Bryce
+00:58:20	Roberth Strand:	+1 Scott
+00:59:51	Brice Fernandes:	Re Governance, I agree that this is an extremely important topic. We currently only specify only a subset of rule that a state store and desired state changes must comply with (Principle #2). That said, committing straight to master is perfectly acceptable in some contexts.
+01:00:30	Brice Fernandes:	Best practices of gitops sounds like a good place to develop governance +1 Chris
+01:00:38	Christian:	that sounds like an implementation detail vs principal
+01:01:16	Leonardo Murillo:	agreed with these concepts as very relevant in terms of best practices, not a component of the principles
+01:01:32	Leonardo Murillo:	need to drop, happy to see consensus on the 4 principles, great work team!
+01:01:40	Cornelia Davis:	Have to run. Thanks all.
+01:03:20	Chris Sanders:	I have to drop as well.  Thanks for the discussion.  Looking good!
+01:04:12	Christian:	I think the other principals should be expanded to include governance
+01:04:17	Roberth Strand:	Brice are a mindreader, I guess
+01:04:18	Brice Fernandes:	Governance will look so different based on the context. Practices aren’t universally applicable. Principles are. Governance is practice
+01:04:47	Christian:	great conversation! gtg
+01:06:18	Brice Fernandes:	“How GitOps enables Governance” Seems like an excellent explanatory note.
+01:08:25	Roberth Strand:	Sounds like a plan
