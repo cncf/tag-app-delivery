@@ -37,10 +37,10 @@ Without any claim to comprehensiveness:
 #### GitOps
 This pattern is built on top of existing tools like: helm, kustomize or raw yaml and automate applying changes from source of truth in Git repo to the Cluster. ArgoCD and Flux are some examples of projects that implement this pattern.
 
-#### Application Operator 
+#### Application Operator
 This pattern is intended to enhance native Kubernetes resources like Deployment to deploy applications and manage their lifecycle. One of the critical features is canary deployment that requires coordination with Ingress or Service Mesh and domain knowledge about the application. ArgoRollout and Flagger are examples of projects that implement this pattern with these advanced features.
 
-#### Declarative Pipelines 
+#### Declarative Pipelines
 This pattern allows you to build a declarative pipeline that encapsulates some workflow or process. This could be part of the CI process to build an artifact, test or ensure it meets security controls. They can also be used in the CD lifecycle in deploying an artifact and running custom tests or implementing custom canary logic. Declarative pipeline can be thought of as a [directed graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) with decision points to move to the next point in the graph. The decision could be automated or require manual approval tied to a notification system. Projects like Keptn and ArgoWorkflow are examples of solutions that enable building declarative pipelines.
 
 #### Composition Operator
@@ -110,6 +110,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Antonin Kral (IPFabric)
 * Sebastian Pleschko (REWE International)
 * Todd Ekenstam (Intuit)
+* Chris Hunt (Stack Overflow)
 
 ## Chairs
 * To be voted
@@ -119,5 +120,5 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Thomas Schuetz
 
 
- 
+
 
