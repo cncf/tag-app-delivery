@@ -85,6 +85,7 @@ Stackm8 / Weaveworks | David A. Symons
 Stytch | Danny Thomson
 Syncier | Torsten Walter
 Thrivent | Greg Jacobs
+University of Michigan | Jaime Magiera
 UPchieve | David Sudia
 uShip | Richard Simpson
 Verifa | Jacob Larfors
