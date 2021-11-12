@@ -113,7 +113,8 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Chris Hunt (Stack Overflow)
 
 ## Chairs
-* To be voted
+* Josh Gavant
+* Roberth Strand
 
 ## TAG Contact
 * Alex Jones
