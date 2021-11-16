@@ -32,6 +32,6 @@ The TAG has created the following working groups to investigate and discuss the 
 | [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/master/air-gapped-wg)         |   | Inactive |
 | [GitOps](https://github.com/cncf/tag-app-delivery/tree/master/gitops-wg) | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md) | [gitops-wg/README#meetings](./gitops-wg/README.MD#meetings) |
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/master/operator-wg) | | Inactive |
-| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | | WIP |
+| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | [cooperative-delivery-wg/CHAIRS.md](./cooperative-delivery-wg/README.md#chairs) | [cooperative-delivery-wg/README.md#meetings](./cooperative-delivery-wg/README.md#meetings) |
 
 All meetings are on the public CNCF calendar: https://goo.gl/eyutah
