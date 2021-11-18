@@ -41,9 +41,4 @@ collaborators:
     
   - username: thschue
     permission: push
-
-  # Operator WG Lead
-    
-  - username: OmerKahani
-    permission: push  
     
