@@ -1,3 +1,6 @@
+# ⚠️ DO NOTE MERGE THIS PR
+Test for https://github.com/cncf/tag-app-delivery/issues/154 by user not in CODEOWNERS file for this dir.
+
 # GitOps Working Group
 
 A WG under CNCF App Delivery TAG.
