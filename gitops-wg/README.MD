@@ -29,7 +29,7 @@ See releases here: <https://github.com/open-gitops/documents/releases>
 
 ## Meetings
 
-- 🗓 The WG now meets every other Wednesday at [18:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/)
+- 🗓 1st & 3rd Wednesdays at [19:00 GMT](https://greenwichmeantime.com/time-gadgets/time-zone-converter/)
 - 👩‍💻 Join using [this Zoom link](https://zoom.us/j/93779536510?pwd=TEFzbGRzREI3MVlkZmluemVkMEhHdz09)
 - ✏️ See [Agenda and Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/) for next and and all previous meetings
 - 💡 Hint: use the [document outline](https://support.google.com/docs/answer/6367684) to help navigate to the right meeting!
