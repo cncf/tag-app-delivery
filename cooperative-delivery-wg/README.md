@@ -1,6 +1,6 @@
 # Cooperative Delivery WG 
 
-Please check the [Charter](./charter.md) for the purpose & goals of the Cooperative Delivery working group. Feel free to add yourself as interested parties and get involved in this effort.
+Please check the [Charter](./charter/README.md) for the purpose & goals of the Cooperative Delivery working group. Feel free to add yourself as interested parties and get involved in this effort.
 
 ## Chairs
 
@@ -15,7 +15,7 @@ Meetings are every 2nd and 4th Wednesday at 8 AM PST, 4 PM GMT.
 * Passcode: 77777
 
 #### Links
-* [Charter](./charter.md)
+* [Charter](./charter/README.md)
 
 #### Slack
 * [#cooperative-delivery-wg](https://cloud-native.slack.com/archives/C020RHD43BP)
