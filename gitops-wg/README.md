@@ -36,7 +36,6 @@ See releases here: <https://github.com/open-gitops/documents/releases>
 - 📼 Browse the [YouTube playlists](https://www.youtube.com/channel/UCI6iqYuuI4gZuOCZaks5i1g/playlists) for recordings of all previous meetings
 - 📧 Additional committee meetings may be scheduled as needed, and will be announced on the [CNCF App Delivery TAG](https://github.com/cncf/tag-app-delivery) mailing list, prefixed with `[gitops-wg]`
 
-
 ## Timeline
 
 This timeline is a work in progress.
