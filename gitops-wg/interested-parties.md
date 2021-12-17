@@ -9,6 +9,7 @@ AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
 Atos | Sunil Sukumaran
 Avanade/Accenture | Steve Buchanan
+AWS | Chris Short
 AWS | David Killmon
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
@@ -69,7 +70,6 @@ Rally Health | Jon Dowdle
 Rally Health | Erik Nadel
 rebaze GmbH | Toni Menzel
 Red Hat | Sumit Shatwara
-Red Hat | Chris Short
 Red Hat | Christian Hernandez
 Red Hat | Tim Pouyer
 Red Hat | Michael Elder
