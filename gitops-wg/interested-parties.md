@@ -79,6 +79,7 @@ Red Hat | Shoubhik Bose
 Red Hat | Siamak Sadeghianfar
 Red Hat | John Duimovich
 Red Hat | Cansu Kavili Oernek
+Red Hat | Andrew Block
 Salesforce | Prakash Rudraraju
 Schwarz IT | Engin Diri
 Snyk | Omer Kahani
