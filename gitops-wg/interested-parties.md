@@ -33,6 +33,7 @@ Dynatrace | Jürgen Etzlstorfer
 effx | Mya Pitzeruse
 Fairwinds | Robert Brennan
 Finch | Mark Beacom
+Flanksource | Moshe Immerman
 GitHub | Chris Patterson
 GitLab | William Chia
 GitLab | Viktor Nagy
