@@ -1,0 +1,79 @@
+00:20:09	Dan:	hey everyone, sorry for being late, had a meeting run long
+00:21:47	Shoubhik Bose:	Hey Dan
+00:25:38	Scott Rigby:	Would we say that “git” in gitops is a shorthand for something like “versionable declarations of desired state for operations”?
+00:26:01	Chris Patterson:	Yes I think that is a good way to put it
+00:26:26	Chris Patterson:	For example Flux already supports Helm charts as a source and that is not necessarily a git repository
+00:26:49	Scott Rigby:	Correct. Also object storage buckets, because they _can_ be versioned.
+00:26:52	Shoubhik Bose:	Agreed. Versionable implicitly
+00:26:57	Ken:	well put!
+00:30:30	Chris Short:	+1
+00:30:36	Scott Rigby:	Should we consider a hand raising process, now that we have almost 50 people on the call?
+00:30:43	Leonardo Murillo:	+1 ^
+00:30:46	Engin Diri:	+1
+00:30:50	Waqas Ali:	+1
+00:32:33	Ed Lee:	+1
+00:33:10	Christian Hernandez:	I think it's more of a "yes, and"
+00:33:20	isaac@armory.io:	I joined late. will this recording be shared?
+00:33:59	Chris Patterson:	We have admission hooks etc that will alter resources as they deploy
+00:34:09	Scott Rigby:	Regarding the “does A or B project qualify as gitops?” question, I wonder if we may consider this less as a binary and more as a progressive definition. More like “does A or B project specifically meet for X, Y or Z gitops standards?”
+00:34:16	Dan:	@Isaac yes
+00:34:27	Dan:	I’m also keeping meeting notes in the working group doc.
+00:34:39	Shoubhik Bose:	Yes this has to be a progressive definition, I feel.
+00:34:45	Shoubhik Bose:	@Scott.
+00:34:55	Christian Hernandez:	+1 Scott
+00:35:04	Ed Lee:	+1 Scott
+00:35:42	Engin Diri:	@Chris: Mutating admission hooks are very bad on gitops
+00:35:51	Dan:	100% progressive definition
+00:36:20	Engin Diri:	the cluster differs from the declaration
+00:36:49	Chris Patterson:	@Engin I don’t disagree but they are a fact of life we need to consider
+00:36:52	Christian Hernandez:	"git" in "gitops" is tech debt 😅
+00:36:54	Shoubhik Bose:	Mutating admission hooks: This is something that the group should discuss and note down observations/good practices
+00:37:11	Engin Diri:	@Chris: you are 100% right
+00:37:12	Ed Lee:	+1 Shoubhik
+00:37:17	Chris Patterson:	And in many cases they are used to enforce policy and doing that upstream can be extremely complex if not impossible
+00:37:18	Karthik:	+1 Shoubik
+00:37:33	Chris Patterson:	+1 Shoubik
+00:38:04	Shoubhik Bose:	Mutating admission web hooks are annoying for Gitoops  :( but they provide value when not overused :)
+00:38:09	Shoubhik Bose:	*GitOps
+00:38:26	Engin Diri:	i use kyverno, ad i check the validations also in to the repo to atleast give the persons the chance to know would go on  in the cluster
+00:39:37	Daniel Lizio-Katzen:	https://cloud-native.slack.com/archives/C01G9DEE88M
+00:40:00	Tim Pouyer:	+1 to agenda for future meetings
+00:40:01	Omer Kahani:	The chat can be saved in newer version of Zoom
+00:41:34	Chris Patterson:	I just saved the current state
+00:43:03	Scott Rigby:	👍
+00:43:17	Leonardo Murillo:	I keep thinking about 12 factors as a good example to follow, a set of recommendations, there even is some overlap
+00:43:38	Leonardo Murillo:	seems like a lot of the difference is in terms of delivery or reconciliation
+00:43:45	Scott Rigby:	Thanks Dan 💯
+00:43:47	Chris Short:	Gotta drop. Great discussion.
+00:43:57	Scott Rigby:	Thanks Chris, see you
+00:45:21	Omer Kahani:	Coming from the Operator WG, I think it will be interesting to combine GitOps with the general case of operator. Something like gitops is using version controlled storage with an operator
+00:46:29	Fahad Arshad:	Hmm  so can an image registry or even s3 bucket be substituted for git in gitops?
+00:46:43	Chris Patterson:	@Fahad yes
+00:47:48	Ken:	there is a project named kubefed which is a combo of operators and multi cluster management
+00:48:18	Ken:	not meaning to be prescriptive just providing awareness
+00:48:30	Scott Rigby:	Right. Git and k8s are just currently considered superior tools for versioned declaration and reconciliation
+00:50:13	Dan:	100% Scott
+00:51:55	Engin Diri:	the word is burned… as we call it in German
+00:52:12	Scott Rigby:	Maybe it should be a “Declaration of GitOps” lol
+00:52:16	Gurney Buchanan:	As a young person - I learned it in college!
+00:52:43	Leonardo Murillo:	political?
+00:52:53	Scott Rigby:	Dogmatic, etc.
+00:53:13	Engin Diri:	Pillars of GitOps
+00:54:00	Christian Hernandez:	Declaration
+00:54:16	Christian Hernandez:	it fits as "declarative infrastructure"
+00:54:28	Christian Hernandez:	I don't mind Manifesto, however
+00:54:37	Dan:	Declaration of GitOps lol, that's great Christian
+00:54:56	Fahad Arshad:	Well Architected GitOps
+00:54:58	Justin Cormack:	I could reconcile myself to declaration...
+00:56:14	Dan:	oh Scott you said it too
+01:00:05	Scott Rigby:	🤚 can’t raise hand as co-host but here’s my +1
+01:00:26	Dan:	@Scott you might be on old zoom
+01:00:27	Daniel Lizio-Katzen:	https://cloud-native.slack.com/archives/C01G9DEE88M
+01:00:35	Dan:	I can mark yes/no
+01:01:17	Daniel Lizio-Katzen:	https://slack.cncf.io/
+01:03:44	John Duimovich:	Thanks all, great discussion
+01:03:52	Omer Kahani:	Thank
+01:03:56	Jann:	Thank you everyone
+01:04:04	Dan:	Lets keep it going in slack, keep building these connections, great comments from everyone!
+01:04:16	Steve Buchanan:	Thanks all!
+01:04:17	Engin Diri:	was very cool! looking forward for the next session / steps
