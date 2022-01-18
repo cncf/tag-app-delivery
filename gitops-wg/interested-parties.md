@@ -1,18 +1,17 @@
 # Interested Parties
 
-Organization | Person
--- | --
+Organization | Person | GitHub Username
+-- | -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
-Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
 Atos | Sunil Sukumaran
 Avanade/Accenture | Steve Buchanan
-AWS | Chris Short
 AWS | David Killmon
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
+BlackRock (individual) | Ryan Umstead | rumstead
 Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
@@ -34,7 +33,6 @@ Dynatrace | Jürgen Etzlstorfer
 effx | Mya Pitzeruse
 Fairwinds | Robert Brennan
 Finch | Mark Beacom
-Flanksource | Moshe Immerman
 GitHub | Chris Patterson
 GitLab | William Chia
 GitLab | Viktor Nagy
@@ -71,6 +69,7 @@ Rally Health | Jon Dowdle
 Rally Health | Erik Nadel
 rebaze GmbH | Toni Menzel
 Red Hat | Sumit Shatwara
+Red Hat | Chris Short
 Red Hat | Christian Hernandez
 Red Hat | Tim Pouyer
 Red Hat | Michael Elder
@@ -79,7 +78,6 @@ Red Hat | Shoubhik Bose
 Red Hat | Siamak Sadeghianfar
 Red Hat | John Duimovich
 Red Hat | Cansu Kavili Oernek
-Red Hat | Andrew Block
 Salesforce | Prakash Rudraraju
 Schwarz IT | Engin Diri
 Snyk | Omer Kahani
@@ -87,7 +85,6 @@ Stackm8 / Weaveworks | David A. Symons
 Stytch | Danny Thomson
 Syncier | Torsten Walter
 Thrivent | Greg Jacobs
-University of Michigan | Jaime Magiera
 UPchieve | David Sudia
 uShip | Richard Simpson
 Verifa | Jacob Larfors
