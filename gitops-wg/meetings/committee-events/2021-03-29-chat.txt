@@ -1,0 +1,30 @@
+00:13:14	Scott - CNCF GitOps Working Group:	https://hackmd.io/arwvV8NUQX683uBM3HzyNQ
+00:22:22	Scott - CNCF GitOps Working Group:	Glossary: https://github.com/gitops-working-group/gitops-working-group/pull/48/files#diff-e76bd6f4d59f7e55fe3ce2f09d5e817bd9cc6991dbe62de27aadab5e68511043
+00:24:01	Christian Hernandez:	+1 to what Leo said
+00:34:53	Scott - CNCF GitOps Working Group:	Cool Moshe, got your 👍
+00:42:34	Scott - CNCF GitOps Working Group:	S/continuous/automated/g?
+00:44:17	Toni Menzel:	I strongly favour continuous here..
+00:47:30	Scott - CNCF GitOps Working Group:	So how about s/immediately/continuously/g?
+00:48:01	Leonardo Murillo:	I lean towards Brice's stance
+00:48:26	Christian Hernandez:	I'm also leaning towards what Brice is saying
+00:48:46	Scott - CNCF GitOps Working Group:	GitOps is predicated on the idea that things will fail, and there should be automatic attempts to reconcile your actual state
+00:52:01	Toni Menzel:	I think it is important to distinguish GitOps and what we had in "plain" CI. The continuous reconciliation is an important detail.
+00:52:18	Roberth Strand:	I agree
+00:52:57	Scott - CNCF GitOps Working Group:	Next up me, 1 minute
+00:55:56	Christian Hernandez:	Distilling
+00:56:16	Roberth Strand:	Principle of state reconciliation, +1
+00:56:30	Lothar Schulz:	+1
+01:00:52	Scott - CNCF GitOps Working Group:	Or what if the event triggered action doesn’t succeed initially?
+01:01:32	Scott - CNCF GitOps Working Group:	s/continuous/periodic?
+01:02:00	Scott - CNCF GitOps Working Group:	Or certainly other IaaC
+01:04:18	Scott - CNCF GitOps Working Group:	“Continuous” means “unbroken, without interruption”
+01:04:33	Scott - CNCF GitOps Working Group:	And I agree with you all here, that is not 100% correct
+01:05:00	Leonardo Murillo:	I think automated is a good first step
+01:05:07	Scott - CNCF GitOps Working Group:	Continuous does NOT imply immediacy
+01:05:13	Scott - CNCF GitOps Working Group:	+1 automated
+01:06:20	Scott - CNCF GitOps Working Group:	Also, Continuous Delivery has a very specific idea of “Continuous”
+01:08:06	Toni Menzel:	+1 on Roberth
+01:08:20	Scott - CNCF GitOps Working Group:	Sorry Robert what was your wording suggestion?
+01:08:26	Scott - CNCF GitOps Working Group:	Let’s note that
+01:08:35	Roberth Strand:	The principle of state reconciliation
+01:12:58	Roberth Strand:	23:08 here ;)

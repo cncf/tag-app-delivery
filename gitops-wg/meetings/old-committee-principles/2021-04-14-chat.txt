@@ -1,0 +1,63 @@
+16:03:04 From Scott - CNCF GitOps Working Group to Everyone : https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.7wmerton06if
+16:03:15 From Scott - CNCF GitOps Working Group to Everyone : https://hackmd.io/arwvV8NUQX683uBM3HzyNQ
+16:09:03 From Schlomo Schapiro to Everyone : Moshe, I am not sure there is a conflict. The state reconciliation is continuous and the freeze is part of the declared state for me. The mechanism will still continuously check for discrepancies and then DECIDE to not act because the desired state has a freeze
+16:09:39 From Dan Garfield to Everyone : Yeah I think I agree. Like if you have a freeze window for an hour on Sunday evenings it wouldn’t be continuous? Seems pretty continuous.
+16:10:03 From Roberth Strand to Everyone : +1 towards what Schlomo says
+16:10:04 From Leonardo Murillo to Everyone : the freeze condition becomes part of the desired state correct
+16:10:28 From Leonardo Murillo to Everyone : and the freeze condition should be declarative as well
+16:11:07 From Christian Hernandez to Everyone : +1 leo
+16:11:30 From Dan Garfield to Everyone : Yeah, in big orgs where you have commits having every few minutes, it would actually be disruptive to sync those all right away. You set windows during which syncs will occur, hourly, daily, whatever.
+16:12:21 From Shoubhik Bose to Everyone : This is a really good conversation, thanks Moshe for bringing up this point.
+16:12:51 From Schlomo Schapiro to Everyone : Just a thought for later: I'd prefer to think the principles in a "clean room" and not mold them to fit the existing tools that happen to fly the "GitOps flag". Maybe in the end we will provide input for the future development of tools
+16:12:53 From Roberth Strand to Everyone : Are we defining the principals that the GitOps process should strive to, or try to cater to every tool?
+16:15:27 From Schlomo Schapiro to Everyone : Brice, if the change freeze is implemented via not pushing to master, then where would you put that info in a declarative way?
+16:16:20 From Schlomo Schapiro to Everyone : For me it is important that GitOps is "a" "clean & consistent" way - consistent with itself
+16:22:36 From Scott - CNCF GitOps Working Group to Everyone : I don’t believe anything has been said yet to limit desired state to a single repository
+16:22:57 From Christian Hernandez to Everyone : I don't think it has, no
+16:24:39 From Schlomo Schapiro to Everyone : We are discussing IMHO the question if the freeze desired state is in-band (in a Git repo) or out-of-band (in a "button" in the mechanism), which would in my eyes make it not part of the desired state because principle 1 requires the entire desired state to be manage declaratively
+16:25:24 From Schlomo Schapiro to Everyone : also, for the decision to have a freeze or to release the freeze, how do you get Git-style auditing and tracing (4-eyes-principle ...)
+16:27:02 From Christian Hernandez to Everyone : +1 Schlomo
+16:27:47 From Leonardo Murillo to Everyone : continuous =! dense != sequential
+16:28:01 From Brice Fernandes to Everyone : There is a clear way to do proper GitOps Canaries.
+16:28:20 From Scott - CNCF GitOps Working Group to Everyone : I believe we may be bike shedding here. We are debating connotations of a single, industry standard word
+16:28:20 From Brice Fernandes to Everyone : It does not involve having floating state
+16:28:44 From Roberth Strand to Everyone : Isn't the point that we're doing state reconciliation, and if we say that our desired state is not to merge an update in code, it's still continuous?
+16:28:59 From Dan Garfield to Everyone : Brice shoot me a link if you have one, I’d be interested to see if I’m missing something.
+16:32:30 From Scott - CNCF GitOps Working Group to Everyone : There is also a “break glass” clause in the Pull Request
+16:32:37 From Dan Garfield to Everyone : Great point, the reconcilers are doing the thing continuously, how they’re handling the rollout and in what time period isn’t required here.
+16:33:25 From Brice Fernandes to Everyone : *Desired* state.
+16:33:42 From Brice Fernandes to Everyone : The only way to have the *actual* state of a system is to observe the syetm
+16:35:22 From Roberth Strand to Everyone : 100% agree with that point
+16:35:25 From Christian Hernandez to Everyone : +1000000
+16:37:30 From Dan Garfield to Everyone : This is like a Zeno’s paradox thing. Continuous means without interruption and if the reconciler is only polling 1000 times a second that means there are 1000 interruptions in the continuous process per second so it’s no longer continuous? At a certain point the “interruption” is small that does it matter?
+16:38:16 From Christian Hernandez to Everyone : We'll never pass the turtle
+16:38:38 From Leonardo Murillo to Everyone : out of band manipulations would actually breach the 4th principle actually
+16:38:47 From Brice Fernandes to Everyone : Re Loop - Absolutely
+16:39:59 From Scott - CNCF GitOps Working Group to Everyone : Do we not like appending “according to your configured rules”
+16:40:24 From Schlomo Schapiro to Everyone : Sorry, since there is no direct click button for the hand I sometimes forget to lower the hand
+16:40:33 From Scott - CNCF GitOps Working Group to Schlomo Schapiro(Direct Message) : All good :)
+16:42:53 From Leonardo Murillo to Everyone : agreed, principles should define direction and aspiration,not expect to be a reflection of the current implementation and maturity in the ecosystem
+16:42:59 From Christian Hernandez to Everyone : That's be a good CFP :)
+16:43:08 From Christian Hernandez to Everyone : "GitOps incedent management"
+16:44:14 From Roberth Strand to Everyone : I strongly believe that contineous still applies, even with freeze changes. A freeze change would imply that our desired state is not to follow any code changes, at this particular moment.
+16:46:06 From Dan Garfield to Everyone : I agree Roberth
+16:46:55 From Christian Hernandez to Everyone : +1 Roberth. And as Leo said, freeze is part of your state.
+16:52:13 From Christian Hernandez to Everyone : "The principle of state reconciliation"
+
+"Software agents compare a system’s Actual State to its Desired State. If the actual and desired states differ for any reason, actions to reconcile them are initiated."
+16:52:34 From Scott - CNCF GitOps Working Group to Everyone : The problem is we did that last week, and nearly EVERYONE found this disagreeable.
+16:52:44 From Roberth Strand to Everyone : What Scott said
+16:53:02 From Schlomo Schapiro to Everyone : +1 for consensus, if we can't reach it then I'd prefer to release a 0.2 version of the principles with a list of topics that lack consensus. The goal would be to release the 98% of good stuff that we already produced and allow further discussions, even by other people, about the disagreements.
+16:53:19 From Dan Garfield to Everyone : Agreed Schlomo
+16:54:06 From Schlomo Schapiro to Everyone : For me the continuous aspect of GitOps, as in the train never stops ("Snowpiercer"), is quite essential. But I'll be very happy to shelf that question for later
+16:54:49 From Dan Garfield to Everyone : @Schlomo do you think having windows violates that?
+16:55:36 From Schlomo Schapiro to Everyone : I don't know about the windows, I think we would need to talk a bit more about what that exactly means, I only have a very fuzzy image of this concept.
+16:55:55 From Roberth Strand to Everyone : I rather keep it and highlight it, in the initial version, as something to come back to
+16:57:32 From Christian Hernandez to Everyone : Roberth is at a bar :)
+16:57:58 From Roberth Strand to Everyone : Moe's the best
+16:58:02 From Brice Fernandes to Everyone : A Caveats section would be useful addition to whatever artefact we release.
+16:59:10 From Roberth Strand to Everyone : I think loop is worse word to use, and even sounds more continuous than continuous.
+16:59:25 From Dan Garfield to Everyone : Having a document that has notes about areas of potential dissent and disagreement is ok with me.
+17:01:30 From Nate Taber to Everyone : Have to drop thanks all
+17:01:47 From Roberth Strand to Everyone : Yes, Sir
+17:01:51 From Dan Garfield to Everyone : Ditto, sounds good.
