@@ -22,6 +22,7 @@ Contino | Jaroslav Pantsjoha
 Contino | Deepak Vensi
 Contino | Josh Armitage
 Contino | Sean Rigby
+Crayon | Roberth Strand | roberthstrand
 D2iQ | Ken Sipe
 DataGalaxy | Matthieu DUFOURNEAUD
 Deloitte | Timothy Lin
