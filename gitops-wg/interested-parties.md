@@ -102,3 +102,4 @@ Weaveworks | Lucas Käldström
 Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
+&nbsp; | Waleed Malik
