@@ -4,6 +4,12 @@
 # the owned files.
 #
 
+# Default owners for everything in the repo
+#
+# Unless a later match takes precedence, these owners will be requested for
+# review when someone opens a pull request.
+*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue
+
 # README.md Owners
 /README.md @AloisReitbauer @Jenniferstrej
 
