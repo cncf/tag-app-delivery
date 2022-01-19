@@ -1,7 +1,7 @@
 # Interested Parties
 
-Organization | Person
--- | --
+Organization | Person | GitHub Username
+-- | -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
@@ -13,6 +13,7 @@ AWS | Chris Short
 AWS | David Killmon
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
+BlackRock (individual) | Ryan Umstead | rumstead
 Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
