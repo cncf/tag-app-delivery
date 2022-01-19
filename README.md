@@ -36,4 +36,4 @@ The TAG has created the following working groups to investigate and discuss the 
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg) | | Inactive |
 | [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/main/cooperative-delivery-wg) | [cooperative-delivery-wg/README.md#chairs](./cooperative-delivery-wg/README.md#chairs) | [cooperative-delivery-wg/README.md#meetings](./cooperative-delivery-wg/README.md#meetings) |
 
-All meetings are on the public CNCF calendar: <https://goo.gl/eyutah>
+All meetings are on the public CNCF calendar: <https://www.cncf.io/calendar/>
