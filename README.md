@@ -17,7 +17,7 @@ Alex Jones, Thomas Schuetz
 
 ## Meetings
 
-We have meetings every 1st and 3rd Wednesday of the month at 16:00 UTC (see in your local time)[https://dateful.com/convert/utc?t=16].
+We have meetings every 1st and 3rd Wednesday of the month at 16:00 UTC [see in your local time](https://dateful.com/convert/utc?t=16).
 
 + Agenda and Notes: https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit# 
 + Zoom Meeting: https://zoom.us/j/7276783015 Passcode=77777
