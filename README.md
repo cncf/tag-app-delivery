@@ -2,7 +2,7 @@
 
 The Application Delivery TAG focuses on delivering cloud native applications which involves multiple phases including building, deploying, managing, and operating. Additionally, the TAG produces supporting material and best practices for end-users, and provide guidance and coordination for CNCF projects working within the SIG’s scope.
 
-See our full charter here: https://github.com/cncf/toc/blob/master/tags/app-delivery.md
+See our full charter here: https://github.com/cncf/toc/blob/main/tags/app-delivery.md
 
 ## Chairs
 Alois Reitbauer, Jennifer Strejevitch, Hongchao Deng
@@ -29,9 +29,9 @@ The TAG has created the following working groups to investigate and discuss the 
 
 | Working Group | Chairs            | Meeting Time                          |
 |---------------|------------------|---------------------------------------|
-| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/master/air-gapped-wg)         |   | Inactive |
+| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg)         |   | Inactive |
 | [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg) | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md) | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings) |
-| [Operator](https://github.com/cncf/tag-app-delivery/tree/master/operator-wg) | | Inactive |
-| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/master/cooperative-delivery-wg) | [cooperative-delivery-wg/CHAIRS.md](./cooperative-delivery-wg/README.md#chairs) | [cooperative-delivery-wg/README.md#meetings](./cooperative-delivery-wg/README.md#meetings) |
+| [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg) | | Inactive |
+| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/main/cooperative-delivery-wg) | [cooperative-delivery-wg/CHAIRS.md](./cooperative-delivery-wg/README.md#chairs) | [cooperative-delivery-wg/README.md#meetings](./cooperative-delivery-wg/README.md#meetings) |
 
 All meetings are on the public CNCF calendar: https://goo.gl/eyutah
