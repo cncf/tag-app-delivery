@@ -105,3 +105,4 @@ Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
 &nbsp; | Waleed Malik
+&nbsp; | Vince Power
