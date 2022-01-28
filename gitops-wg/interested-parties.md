@@ -3,6 +3,9 @@
 Organization | Person | GitHub Username
 -- | -- | --
 Aivitex | Lothar Schulz
+Akuity | Hong Wang
+Akuity | Jesse Suen
+Akuity | Wojtek Cichoń
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
