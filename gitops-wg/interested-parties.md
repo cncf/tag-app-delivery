@@ -6,6 +6,9 @@ Aivitex | Lothar Schulz
 Akuity | Hong Wang
 Akuity | Jesse Suen
 Akuity | Wojtek Cichoń
+Akuity | Daniel Hoang
+Akuity | Remington Breeze
+Akuity | Yuan Tang
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
@@ -57,8 +60,6 @@ Intuit | Edward Lee
 Intuit | Henrik Blixt
 Intuit | Alexander Matyushentsev
 Intuit | Mukulika Kapas
-Intuit | Hong Wang
-Intuit | Jesse Suen
 Liquid Reply | Max Körbächer
 Mambu | Liviu Costea
 Mambu | Wojtek Burakiewicz
