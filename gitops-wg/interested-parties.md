@@ -24,6 +24,7 @@ Contino | Josh Armitage
 Contino | Sean Rigby
 Crayon | Roberth Strand | roberthstrand
 D2iQ | Ken Sipe
+D2iQ | Max Jonas Werner | makkes
 DataGalaxy | Matthieu DUFOURNEAUD
 Deloitte | Timothy Lin
 DeployHub | Tracy Ragan
