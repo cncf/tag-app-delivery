@@ -45,6 +45,17 @@ body:
     attributes:
       label: Suggestions
       description: What suggestions would you make for improving infrastructure delivery for applications? (optional)
+  - type: dropdown
+    id: organization-size
+    attributes:
+      label: Organization size
+      description: Please, let us know the size of your organization
+      options:
+        - 1-10
+        - 11-100
+        - 101-500
+        - 501-2000
+        - 2000+
   - type: input
     id: organization
     attributes:
