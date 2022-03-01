@@ -167,27 +167,27 @@ In the case of an operator, a custom resource contains the desired state of the 
 
 The following example illustrates, how such an custom resource instance definition could look like:
 
-```
+```yaml
 apiVersion: example-app.appdelivery.cncf.io/v1alpha1
- kind: ExampleApp
- metadata:
-   name: appdelivery-example-app
- spec:
-   appVersion: 0.0.1
-   features:
-     exampleFeature1: true
-     exampleFeature2: false
-   backup:
-     enabled: true
-     storageType: “s3”
-     host: “my-backup.example.com”
-     bucketName: “example-backup”
- status:
-   currentVersion: 0.0.1
-   url: https://myloadbalancer/exampleapp/
-   authSecretName: appdelivery-example-app-auth
-   backup:
-     lastBackupTime: 12:00
+kind: ExampleApp
+metadata:
+  name: appdelivery-example-app
+spec:
+  appVersion: 0.0.1
+  features:
+    exampleFeature1: true
+    exampleFeature2: false
+  backup:
+    enabled: true
+    storageType: “s3”
+    host: “my-backup.example.com”
+    bucketName: “example-backup”
+  status:
+    currentVersion: 0.0.1
+    url: https://myloadbalancer/exampleapp/
+    authSecretName: appdelivery-example-app-auth
+    backup:
+      lastBackupTime: 12:00
 ```
 
 This example represents a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
