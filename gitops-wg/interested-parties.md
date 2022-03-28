@@ -33,7 +33,7 @@ Deutsche Bahn | Schlomo Schapiro
 Docker | Justin Cormack
 Dynatrace | Andreas Grimmer
 Dynatrace | Thomas Schuetz
-Dynatrace | Jürgen Etzlstorfer
+Dynatrace & CDF | Oleg Nenashev | oleg-nenashev
 effx | Mya Pitzeruse
 Fairwinds | Robert Brennan
 Finch | Mark Beacom
@@ -64,6 +64,7 @@ Mambu | Adrian Mârza
 MayaData | Uma Mukkara
 MayaData | Karthik S
 Microsoft | Chris Sanders
+Microsoft | Jürgen Etzlstorfer
 Morgan Stanley | Yash Gandhi
 Morgan Stanley | Dave Reeve
 Octo Technology | Nabil Belakbir
