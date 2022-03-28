@@ -18,12 +18,15 @@ Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
 Codefresh | Dan Garfield
+Codefresh | Tracy P Holmes | tracypholmes
+Codefresh | Hannah Seligson | hseligson1
 Contino | Jaroslav Pantsjoha
 Contino | Deepak Vensi
 Contino | Josh Armitage
 Contino | Sean Rigby
 Crayon | Roberth Strand | roberthstrand
 D2iQ | Ken Sipe
+D2iQ | Max Jonas Werner | makkes
 DataGalaxy | Matthieu DUFOURNEAUD
 Deloitte | Timothy Lin
 DeployHub | Tracy Ragan
@@ -32,7 +35,7 @@ Deutsche Bahn | Schlomo Schapiro
 Docker | Justin Cormack
 Dynatrace | Andreas Grimmer
 Dynatrace | Thomas Schuetz
-Dynatrace | Jürgen Etzlstorfer
+Dynatrace & CDF | Oleg Nenashev | oleg-nenashev
 effx | Mya Pitzeruse
 Fairwinds | Robert Brennan
 Finch | Mark Beacom
@@ -63,6 +66,7 @@ Mambu | Adrian Mârza
 MayaData | Uma Mukkara
 MayaData | Karthik S
 Microsoft | Chris Sanders
+Microsoft | Jürgen Etzlstorfer
 Morgan Stanley | Yash Gandhi
 Morgan Stanley | Dave Reeve
 Octo Technology | Nabil Belakbir
@@ -105,4 +109,5 @@ Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
 &nbsp; | Waleed Malik
-&nbsp; | Vince Power
+&nbsp; | Patrick Geschinski | pg2000
+&nbsp; | Vince Power | vincepower
