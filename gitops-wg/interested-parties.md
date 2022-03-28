@@ -18,6 +18,7 @@ Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
 Codefresh | Dan Garfield
+Codefresh | Hannah Seligson | hseligson1
 Contino | Jaroslav Pantsjoha
 Contino | Deepak Vensi
 Contino | Josh Armitage
