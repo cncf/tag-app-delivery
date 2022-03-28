@@ -6,6 +6,7 @@ Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
+Appsflyer | Eliran Bivas | bivas
 Argo Project (individual) | Jann Fischer
 Atos | Sunil Sukumaran
 Avanade/Accenture | Steve Buchanan
