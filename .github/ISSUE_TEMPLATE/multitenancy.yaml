@@ -1,0 +1,66 @@
+---
+# see https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+name: Multitenancy use case
+description: Provide info on your multitenancy needs and use cases
+title: "[multitenancy] <use case title>"
+labels: 
+  - multitenancy
+  - survey
+assignees:
+  - alexsjones
+  - roberthstrand
+  - joshgav
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to TAG App Delivery's **multitenancy use case** survey.
+
+        TAG App Delivery wants to understand platform providers' use cases for serving multiple tenants.
+        Please share info on the scenario you seek to address through multitenancy, the implementation you now provide, pains you experience and suggestions for the future.
+
+        Thank you for your contributions!
+
+        ---
+  - type: input
+    id: tenant_relationship
+    attributes:
+      label: Tenant relationship
+      description: |
+        How are tenants related to the service provider?  E.g., groups within same org, customers, teams in same group.
+    validations:
+      required: true
+  - type: textarea
+    id: multitenancy_implementation
+    attributes:
+      label: Multitenancy implementation
+      description: |
+        How is multitenancy achieved? E.g., separate clusters, separate namespaces in one cluster, virtual cluster in cluster
+    validations:
+      required: true
+  - type: textarea
+    id: pains
+    attributes:
+      label: Pains
+      description: What problems have you had with available implementations? (optional)
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions
+      description: What suggestions would you make for future implementations? (optional)
+  - type: dropdown
+    id: organization-size
+    attributes:
+      label: Organization size
+      description: Please, let us know the size of your organization
+      options:
+        - 1-10
+        - 11-100
+        - 101-500
+        - 501-2000
+        - 2000+
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Name of your organization (optional)
