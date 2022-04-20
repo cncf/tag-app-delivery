@@ -107,7 +107,7 @@ Weaveworks | Daniel Lizio-Katzen
 Weaveworks | Brice Fernandes
 Weaveworks | Scott Rigby
 Weaveworks | Lucas Käldström
-Weaveworks | Sebastian Bernheim
+Weaveworks | Sebastian Bernheim | sbernheim
 Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
