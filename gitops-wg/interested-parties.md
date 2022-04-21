@@ -3,6 +3,13 @@
 Organization | Person | GitHub Username
 -- | -- | --
 Aivitex | Lothar Schulz
+Akuity | Hong Wang | wanghong230
+Akuity | Jesse Suen | jessesuen
+Akuity | Alexander Matyushentsev | alexmt
+Akuity | Wojtek Cichoń | wojtekidd
+Akuity | Daniel Hoang | dhpup
+Akuity | Remington Breeze | rbreeze
+Akuity | Yuan Tang | terrytangyuan
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
@@ -57,10 +64,7 @@ INNOQ | Simon Harrer
 INNOQ | Anja Kammer
 Intuit | Edward Lee
 Intuit | Henrik Blixt
-Intuit | Alexander Matyushentsev
 Intuit | Mukulika Kapas
-Intuit | Hong Wang
-Intuit | Jesse Suen
 Liquid Reply | Max Körbächer
 Mambu | Liviu Costea
 Mambu | Wojtek Burakiewicz
