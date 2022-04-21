@@ -3,12 +3,12 @@
 Organization | Person | GitHub Username
 -- | -- | --
 Aivitex | Lothar Schulz
-Akuity | Hong Wang
-Akuity | Jesse Suen
-Akuity | Wojtek Cichoń
-Akuity | Daniel Hoang
-Akuity | Remington Breeze
-Akuity | Yuan Tang
+Akuity | Hong Wang | wanghong230
+Akuity | Jesse Suen | jessesuen
+Akuity | Wojtek Cichoń | wojtekidd
+Akuity | Daniel Hoang | dhpup
+Akuity | Remington Breeze | rbreeze
+Akuity | Yuan Tang | terrytangyuan
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
 AppCtl | Yuce Sungur
