@@ -52,6 +52,7 @@ Flanksource | Moshe Immerman
 GitHub | Chris Patterson
 GitLab | William Chia
 GitLab | Viktor Nagy
+Harness | Dave Nielsen
 HashiCorp | Taylor Dolezal
 Hobsons | Fahad Arshad
 Hobsons | Matthew Caya
