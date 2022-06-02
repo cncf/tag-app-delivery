@@ -1,0 +1,20 @@
+name: publish-site
+on:
+  push:
+    branches:
+      - jekyll
+  workflow_dispatch: {}
+jobs:
+  publish-site:
+    name: publish-site
+    runs-on: ubuntu-latest
+    container:
+      image: 'docker.io/library/ruby:latest'
+    env:
+      GITHUB_PUBLISH_BRANCH: publish
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Publish
+        shell: bash
+        run: ./scripts/publish-site.sh ${{ github.repository }} ${{ github.actor }} ${{ github.token }}
