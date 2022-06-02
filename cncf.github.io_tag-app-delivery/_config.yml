@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CNCF TAG App Delivery
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/tag-app-delivery" # the subpath of your site, e.g. /blog
+url: "https://cncf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CNCFTagApp
 
 # Build settings
