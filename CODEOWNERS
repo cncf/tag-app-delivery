@@ -1,0 +1,23 @@
+# CODEOWNERS file indicates code owners for certain files
+#
+# Code owners will automatically be added as a reviewer for PRs that touch
+# the owned files.
+#
+
+# Default owners for everything in the repo
+#
+# Unless a later match takes precedence, these owners will be requested for
+# review when someone opens a pull request.
+*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue
+
+# README.md Owners
+/README.md @AloisReitbauer @Jenniferstrej
+
+# Operator Working Group
+/operator-wg/ @Jenniferstrej @OmerKahani @thschue
+
+# Cooperative Delivery WG
+/cooperative-delivery-wg/ @AlexsJones @thschue @roberthstrand @joshgav
+
+# GitOps WG
+/gitops-wg/ @chrispat @csand-msft @todaywasawesome @jlbutler @scottrigby

@@ -1,0 +1,63 @@
+---
+# see https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+name: Infrastructure for apps use case
+description: Provide info on the infrastructure use cases required by your cloud-native application
+title: "[infrastructure] <use case title>"
+labels: 
+  - infrastructure
+  - survey
+assignees:
+  - roberthstrand
+  - joshgav
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to TAG App Delivery's **infrastructure for apps** use case survey.
+        
+        TAG App Delivery wants to understand developers' use cases for supporting infrastructure services in cloud-native applications.
+        Please share details about the services your cloud-native apps require, how they are delivered and updated, pains you encounter and suggestions for improvement.
+
+        Thank you for your contributions!
+
+        ---
+  - type: textarea
+    id: service_requirements
+    attributes:
+      label: Service requirements
+      description: |
+        What infrastructure services are required by your team? Consider "infrastructure" to mean any supporting capability maintained by other people on behalf of your application. Examples include datastores, identities, monitoring, stream brokers, and pipelines.
+    validations:
+      required: true
+  - type: textarea
+    id: service_implementation
+    attributes:
+      label: Service implementation
+      description: |
+        How are these infrastructure services delivered, managed, and updated today? Are they provided by an internal team or by a managed provider?  Are they provisioned and maintained via Kubernetes CRDs, Terraform, perhaps manually?
+  - type: textarea
+    id: pains
+    attributes:
+      label: Pains
+      description: What problems have you had with infrastructure delivery for your applications? (optional)
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions
+      description: What suggestions would you make for improving infrastructure delivery for applications? (optional)
+  - type: dropdown
+    id: organization-size
+    attributes:
+      label: Organization size
+      description: Please, let us know the size of your organization
+      options:
+        - 1-10
+        - 11-100
+        - 101-500
+        - 501-2000
+        - 2000+
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Name of your organization (optional)
