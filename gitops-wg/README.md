@@ -3,7 +3,7 @@
 A WG under CNCF App Delivery TAG.
 
 <!-- markdownlint-disable MD033 -->
-<p><img src="https://raw.githubusercontent.com/gitops-working-group/gitops-working-group/main/assets/logos/GWG/icon/color/gitopswg-icon-color.svg" alt="GitOps Working Group logo icon color" width="200"></p>
+<p><img src="https://raw.githubusercontent.com/cncf/tag-app-delivery/main/gitops-wg/artwork/GWG/icon/color/gitopswg-icon-color.svg" alt="GitOps Working Group logo icon color" width="200"></p>
 
 The GitOps WG focus is to clearly define a vendor-neutral, principle-led meaning of GitOps, which will establish a foundation for interoperability between tools, conformance, and certification.
 Lasting GitOps programs, documents, and code will live within the CNCF [OpenGitOps](https://github.com/open-gitops) project, also guided by the WG.
