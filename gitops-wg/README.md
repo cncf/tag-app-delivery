@@ -57,3 +57,4 @@ If you are interested in keeping abreast of any new developments, please see [Ho
 | October 12, 2021 | [GitOpsCon NA 2021](https://www.youtube.com/playlist?list=PLj6h78yzYM2O_aoiru-ZeyVT0VHdWglfZ) |
 | October 20, 2021 | [Flux GitOps One-Stop Shop Event](https://fluxcd.io/blog/2021/11/november-2021-update/#gitops-one-stop-shop-event) |
 | December 8, 2021 | [ArgoCon 2021](https://argoproj.github.io/argocon21/) |
+| June 8-9, 2022 | [GitOps Days 2022](https://www.gitopsdays.com/) |
