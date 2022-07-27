@@ -34,6 +34,7 @@ Contino | Deepak Vensi
 Contino | Josh Armitage
 Contino | Sean Rigby
 Crayon | Roberth Strand | roberthstrand
+Crayon | Marius Antonsen | antnsn
 D2iQ | Ken Sipe
 D2iQ | Max Jonas Werner | makkes
 DataGalaxy | Matthieu DUFOURNEAUD
