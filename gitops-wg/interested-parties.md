@@ -112,6 +112,7 @@ Weaveworks | Brice Fernandes
 Weaveworks | Scott Rigby
 Weaveworks | Lucas Käldström
 Weaveworks | Sebastian Bernheim | sbernheim
+Weaveworks | Stacey Potter | staceypotter
 Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
