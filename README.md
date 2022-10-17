@@ -10,7 +10,7 @@ Alois Reitbauer, Jennifer Strejevitch, Hongchao Deng
 
 ## Tech Leads
 
-Alex Jones, Thomas Schuetz
+Alex Jones, Thomas Schuetz, Josh Gavant
 
 ## Community
 
