@@ -31,9 +31,9 @@ The TAG has created the following working groups to investigate and discuss the 
 
 | Working Group | Chairs            | Meeting Time                          |
 |---------------|------------------|---------------------------------------|
+| [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg) | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs) | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
 | [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg)         |   | Inactive |
 | [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg) | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md) | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings) |
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg) | | Inactive |
-| [Cooperative Delivery](https://github.com/cncf/tag-app-delivery/tree/main/cooperative-delivery-wg) | [cooperative-delivery-wg/README.md#chairs](./cooperative-delivery-wg/README.md#chairs) | [cooperative-delivery-wg/README.md#meetings](./cooperative-delivery-wg/README.md#meetings) |
 
 All meetings are on the public CNCF calendar: <https://www.cncf.io/calendar/>
