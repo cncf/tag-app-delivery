@@ -1,4 +1,4 @@
-# Cooperative Delivery Working Group Charter
+# Platforms Working Group - Charter
 
 ## Problem Statement
 In most app-delivery scenarios, the packaging format and delivery mechanism of the application artifacts are targeted, but not necessarily the app's infrastructure dependencies such as data stores and message queues. That is, application and infrastructure delivery are not coordinated. Often, applications are heavily dependent on infrastructure resources that are not directly linked to a specific deployment, and therefore problems with non-existing infrastructure resources might cause deployments to fail. In addition to this, the application and infrastructure lifecycles are not synchronized, creating additional complexity and challenges when delivering workloads.
