@@ -1,29 +1,32 @@
 ---
 layout: post
-title:  "Kubecon NA TAG App Delivery Project Meeting and Booth"
-date:   2022-09-12 13:04:00 +0200
-categories: general
-author: Jennifer Strejevitch
+title:  TAG App Delivery at Kubecon NA 2022
+date:   2022-09-12 12:00:00 +0000
+categories: events
+author:
+- Jennifer Strejevitch
+- Josh Gavant
 ---
-# Kubecon NA TAG App Delivery Schedule
 
-## Project Meeting
+# TAG App Delivery at Kubecon NA 2022
 
-Tuesday, October 25th: 1:00PM - 5:00PM ET
+Join CNCF TAG App Delivery and our working groups at Kubecon in Detroit October
+24-28.
 
-## TAG App Delivery Booth times
+Many app delivery-related projects will be holding open office hours and
+maintaining booths in the project pavilion as detailed
+[here](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/project-engagement/).
 
-Wednesday, October 26: 10:30AM - 3:30PM ET
-Thursday, October 27: 10:30AM - 2:30PM ET
-Friday, October 27: 10:30AM - 1:00PM ET
+A general meeting on the state of the TAG and some emerging app delivery
+patterns will be held Tuesday, October 25 1-5pm at Huntington Place. Find it on
+sched.com
+[here](https://kccncna2022.sched.com/event/1BaU0/cncf-tag-app-delivery-project-meeting).
 
-## Call for Proposals for Project Meeting
+The agenda for the TAG Meeting on Tuesday is
+[here](https://docs.google.com/document/d/1aBLVTg2Ev27fIhFpXvsuL8WwqtK9AuMXgL6RpeozOTc/).
 
-Presentations will be 15 minutes and should cover *CNCF projects or end-user use cases*. The submission of talks for *sandbox projects is highly encouraged*. 
+Finally, the Platforms WG will be gathering platform component providers in an "unmeetup"
+on Thursday 10/27 at 1:30pm, details in
+[this doc](https://docs.google.com/document/d/1YNA1rYlZRZCGIj1VW6mL6a8HUXPHgQ2HaxunMOaoIVI/).
 
-Please submit your proposal here https://forms.gle/wigUmKG7paMPfHPM8
-
-### TAG App Delivery Booth
-
-Come to our booth for Q&As about our working groups and to the TAG Tech Leads and chairs if you'd like to know more about the TAG or would like feedback on your project's sandbox submission, or just to say hi, of course :).
-
+See you in Detroit!
