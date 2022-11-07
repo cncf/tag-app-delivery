@@ -12,6 +12,7 @@ Akuity | Remington Breeze | rbreeze
 Akuity | Yuan Tang | terrytangyuan
 Alibaba | Lei Zhang
 Alibaba | Hongchao Deng
+Amesto Fortytwo | Roberth Strand | roberthstrand
 AppCtl | Yuce Sungur
 Appsflyer | Eliran Bivas | bivas
 Argo Project (individual) | Jann Fischer
@@ -33,7 +34,6 @@ Contino | Jaroslav Pantsjoha
 Contino | Deepak Vensi
 Contino | Josh Armitage
 Contino | Sean Rigby
-Crayon | Roberth Strand | roberthstrand
 D2iQ | Ken Sipe
 D2iQ | Max Jonas Werner | makkes
 DataGalaxy | Matthieu DUFOURNEAUD
