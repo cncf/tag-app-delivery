@@ -20,6 +20,7 @@ Avanade/Accenture | Steve Buchanan
 AWS | Chris Short
 AWS | David Killmon
 AWS | Nicholas Thomson | RedbackThomson
+BestBuy (individual) | Tahir Raza | tahirraza
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
 BlackRock (individual) | Ryan Umstead | rumstead
