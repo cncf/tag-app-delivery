@@ -39,7 +39,7 @@ Table of Contents
         * [Custom or third\-party Operator](#custom-or-third-party-operator)
         * [Use the right Tool](#use-the-right-tool)
         * [Use the right programming language](#use-the-right-programming-language)
-        * [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
+        * [Design your Operator according to your needs](#design-your-operator-the-according-to-your-needs)
         * [References](#references)
     * [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
         * [Operator Lifecycle Management](#operator-lifecycle-management-1)
@@ -880,7 +880,7 @@ Kubebuilder) supports the implementation of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 
-### Design your Operator the according to your needs
+### Design your Operator according to your needs
 
 The last paragraph summarizes an unsorted list of best practices which
 were found and published by various sources.
