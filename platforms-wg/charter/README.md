@@ -111,6 +111,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Sebastian Pleschko (REWE International)
 * Todd Ekenstam (Intuit)
 * Chris Hunt (Stack Overflow)
+* Thomas Vitale (Systematic)
 
 ## Chairs
 * Josh Gavant
