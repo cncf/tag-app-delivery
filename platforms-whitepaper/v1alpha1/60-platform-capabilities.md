@@ -1,0 +1,3 @@
+## Capabilities of platforms
+
+// TODO

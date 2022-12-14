@@ -1,0 +1,22 @@
+<pre class='metadata'>
+Title: Platforms Definition
+Shortname: platforms-def
+Level: none
+Status: LD
+Group: CNCFTAGAppDelivery
+URL: http://cncf.github.io/tag-app-delivery/platforms-def
+Editor: Josh Gavant, Red Hat http://redhat.com/, jgavant@redhat.com, https://blog.joshgav.com/
+Editor: Abby Bangser, Syntasso http://www.syntasso.io/, abby@syntasso.io, https://cncf.github.io/tag-app-delivery
+Abstract: Describes what a platform is, the value it provides, and the attributes and capabilities it should include.
+</pre>
+
+<pre class='include'>path: executive-summary.md</pre>
+<pre class='include'>path: introduction.md</pre>
+<pre class='include'>path: 10-what-is-a-platform.md</pre>
+<pre class='include'>path: 20-why-platforms.md</pre>
+<pre class='include'>path: 30-measure-platforms.md</pre>
+<pre class='include'>path: 40-platform-attributes.md</pre>
+<pre class='include'>path: 50-platform-team-attributes.md</pre>
+<pre class='include'>path: 60-platform-capabilities.md</pre>
+<pre class='include'>path: glossary.md</pre>
+<pre class='include'>path: references.md</pre>

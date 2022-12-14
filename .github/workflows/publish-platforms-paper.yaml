@@ -1,0 +1,16 @@
+name: Publish Platforms Paper
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: w3c/spec-prod@v2
+        with:
+          SOURCE: platforms-whitepaper/index.bs
+          DESTINATION: cncf.github.io_tag-app-delivery/_posts/platforms-def.html
+          GH_PAGES_BRANCH: jekyll
+          TOOLCHAIN: bikeshed
