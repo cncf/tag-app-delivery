@@ -1,6 +1,6 @@
 # CNCF App Delivery TAG
 
-The Application Delivery TAG focuses on delivering cloud native applications which involves multiple phases including building, deploying, managing, and operating. Additionally, the TAG produces supporting material and best practices for end-users, and provide guidance and coordination for CNCF projects working within the SIG’s scope.
+The Application Delivery TAG focuses on delivering cloud-native applications which involves multiple phases including building, deploying, managing, and operating. Additionally, the TAG produces supporting material and best practices for end-users, and provides guidance and coordination for CNCF projects working within the SIG’s scope.
 
 See our full charter here: <https://github.com/cncf/toc/blob/main/tags/app-delivery.md>
 
