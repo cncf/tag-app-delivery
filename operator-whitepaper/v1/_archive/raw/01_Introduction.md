@@ -4,7 +4,7 @@
 **(Current) Issue: https://github.com/cncf/sig-app-delivery/issues/35**
 
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
-Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and statement management of an application.
+Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and state management of an application.
 
 In Kubernetes, an operator provides intelligent, dynamic management capabilities by extending the functionality of the API.
 
