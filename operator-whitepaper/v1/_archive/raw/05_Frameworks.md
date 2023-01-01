@@ -23,7 +23,7 @@ It aims at Operator Developers with an SDK to streamline Operator development wi
 
 It also caters for Kubernetes administrators that require a central point to install, configure and update Operators in multi-tenant environment with potentially dozens of Operators installed. It covers the following aspects of Operator lifecycle:
 
-- Continuous over-the-Air Updates and Catalogs of Operators a publishing mechanism and source of updates
+- Continuous over-the-Air Updates and Catalogs of Operators as a publishing mechanism and source of updates
 - Dependency Model so Operator can have dependencies on cluster features or on each other
 - Discoverability for less privileged tenants that usually cannot list CRDs or see Operators installed in separate namespaces
 - Cluster Stability that avoid runtime conflicts of Operators on multi-tenant clusters while honoring the global nature of CRDs, and the subtleties of CRD versioning and CRD conversion

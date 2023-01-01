@@ -64,7 +64,7 @@ An operator should respect basic scaling configuration of min and max.
 #### Auto-configuration tuning
 This capability should empower the operator to manage the configuration of the managed application. As an example, the operator could adopt memory settings of an application according to the operation environment (e.g. kubernetes) or the change of DNS names. Furthermore, the operator should be able to handle configuration changes in a seamless way, e.g. if a configuration change requires a restart, this should be triggered. 
 
-These capabilities should be transparent to the users the user should have the possibility to override such auto-configuration mechanisms if he wants to do so. Furthermore, automatic reconfigurations should be well-documented in a way that the user could comprehend what is happening on the infrastructure.
+These capabilities should be transparent to the users and the user should have the possibility to override such auto-configuration mechanisms if he wants to do so. Furthermore, automatic reconfigurations should be well-documented in a way that the user could comprehend what is happening on the infrastructure.
 
 #### Uninstalling / Disconnect
 **(Current) Issues: https://github.com/cncf/sig-app-delivery/issues/52 & https://github.com/cncf/sig-app-delivery/issues/53**

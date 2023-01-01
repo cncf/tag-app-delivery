@@ -1,7 +1,7 @@
 ## Finding the right solution
 
 The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
-of completeness, this chapter deals with some best practice when writing
+of completeness, this chapter deals with some best practices when writing
 own Operators, based on our own experience or described by the
 community. However, without clear knowledge of the actual state and
 without clear ideas of what we want to achieve, we also need some
