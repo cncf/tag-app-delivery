@@ -1,3 +1,25 @@
 ## References
 
-// TODO
+- https://slack.engineering/mobile-developer-experience-at-slack/
+- https://platformengineering.org/talks-library/netflix-platform-console-to-unify-engineering-experience
+- https://platformengineering.org/blog/product-management-for-internal-developer-platforms
+- https://humanitec.com/whitepapers/state-of-platform-engineering-report-volume-1
+- https://www.gartner.com/en/articles/what-is-platform-engineering
+- https://thenewstack.io/platform-engineering-infrastructure-meets-dev-experience/
+- https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249
+- https://thenewstack.io/vmware-targets-the-platform-engineer/
+- https://platformcon.com/
+- https://medium.com/@michael.roy.galloway/your-platform-org-needs-a-purpose-heres-how-to-find-it-64874b082d80
+- https://www.infoq.com/news/2022/10/platform-devops-summary/
+- https://salaboy.com/2022/09/29/the-challenges-of-platform-building-on-top-of-kubernetes-1-4/
+- https://engineering.atspotify.com/2020/08/how-we-improved-developer-productivity-for-our-devops-teams/
+- https://cloud.redhat.com/blog/designing-golden-paths
+- https://blog.container-solutions.com/how-to-design-an-internal-developer-platform
+- https://www.honeycomb.io/blog/future-ops-platform-engineering
+- https://www.getambassador.io/resources/rise-of-cloud-native-engineering-organizations/
+- https://blog.getambassador.io/the-developer-experience-and-the-role-of-the-sre-are-changing-heres-how-6003a12571c4
+- https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html
+- https://www.xenonstack.com/insights/internal-developer-platform
+- https://engineering.atspotify.com/2020/08/how-we-use-golden-paths-to-solve-fragmentation-in-our-software-ecosystem
+- https://backstage.spotify.com/blog/measuring-backstage-success-at-spotify/
+- https://martinfowler.com/articles/talk-about-platforms.html
