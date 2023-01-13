@@ -112,6 +112,8 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Todd Ekenstam (Intuit)
 * Chris Hunt (Stack Overflow)
 * Thomas Vitale (Systematic)
+* Philipp Achmueller (suXess-it)
+* Johannes Kleinlercher (suXess-it)
 
 ## Chairs
 * Josh Gavant
