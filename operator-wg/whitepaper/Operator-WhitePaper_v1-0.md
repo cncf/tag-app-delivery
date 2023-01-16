@@ -205,7 +205,7 @@ An operator is able to assist with operating an application or other managed com
 The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
 #### Install an Application / Take Ownership of an Application
-An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
+An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisioned are working as expected, and ready to be used.
 
 An operator should also be able to recognize resources that were provisioned before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The ownership process purpose is to enable easy migration of resources to the operator.
 
