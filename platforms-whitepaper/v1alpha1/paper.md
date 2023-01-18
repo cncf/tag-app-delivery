@@ -247,17 +247,6 @@ delivering department wide announcements, sharing engaging demos, and welcoming
 questions during regular office hours. The key here is to meet users where they
 are, and bring them on the journey to engage with and benefit from the platform.
 
-### Enabling platform teams
-
-Platform teams can easily be overloaded in their efforts to support many product
-teams. Ways to reduce load on the platform team include the following:
-
-1. Use implementations from managed service providers where reasonable
-1. Use open source frameworks and toolkits for creating docs, templates and
-   compositions for application team use
-1. Ensure platform teams are staffed appropriately for their domain and number
-   of customers
-
 ## Challenges with platforms
 
 While platforms promise lots of value, they also bring challenges like the
@@ -280,6 +269,15 @@ resistance and resentment from their users and miss a lot of the promised value.
 To counter this, platform teams should include product managers from the start
 to share roadmaps, gather feedback and generally understand and represent the
 needs of platform users.
+
+Platform teams can easily be overloaded in their efforts to support many product
+teams. Ways to reduce load on the platform team include the following:
+
+1. Use implementations from managed service providers where reasonable
+1. Use open source frameworks and toolkits for creating docs, templates and
+   compositions for application team use
+1. Ensure platform teams are staffed appropriately for their domain and number
+   of customers
 
 Another challenge when adopting platforms is choosing the right capabilities and
 experiences to enable first. Services that are frequently required and
