@@ -278,7 +278,7 @@ To counter this, platform teams should include product managers from the start
 to share roadmaps, gather feedback and generally understand and represent the
 needs of platform users.
 
-However, Platform teams can easily be overloaded in their efforts to support many
+Additionally, Platform teams can easily be overloaded in their efforts to support many
 product teams simultaneously. Ways to reduce load on the platform team include
 the following:
 
