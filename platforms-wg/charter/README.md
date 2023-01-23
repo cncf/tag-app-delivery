@@ -114,6 +114,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Thomas Vitale (Systematic)
 * Philipp Achmueller (suXess-it)
 * Johannes Kleinlercher (suXess-it)
+* Mauricio Salatino "salaboy" (Diagrid)
 
 ## Chairs
 * Josh Gavant
