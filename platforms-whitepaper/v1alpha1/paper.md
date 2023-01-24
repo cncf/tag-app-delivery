@@ -427,7 +427,7 @@ included in their platform.
   <tr>
     <td>Development environments and tools</td>
     <td>Provide tools to aid in editing, testing, and debugging code</td>
-    <td>devfile, Tilt, Skaffold, DevSpaces, Telepresense, Eclipse Che, VS, JetBrains, Eclipse</td>
+    <td>devfile, Tilt, Skaffold, DevSpace, DevSpaces, Telepresense, Eclipse Che, VS, JetBrains, Eclipse</td>
   </tr>
   <tr>
     <td>Accounting</td>
