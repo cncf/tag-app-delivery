@@ -267,7 +267,7 @@ of engaged and skillful app teams. Detailed feedback from such teams improves th
 first platform experiences; and people from those teams help champion and
 evangelize the platform to later adopters.
 
-Perhaps most important is to recognize that the success of a platform is
+Perhaps most important is to treat the platform as a customer-facing product and recognize that its success is
 directly dependent on the success of its users and products; and as such it's
 vital that platform teams partner with app teams and other users to prioritize,
 plan, implement and iterate on the platform's capabilities and user experiences.
