@@ -278,27 +278,6 @@ of engaged and skillful app teams. Detailed feedback from such teams improves th
 first platform experiences; and people from those teams help champion and
 evangelize the platform to later adopters.
 
-Additionally, Platform teams can easily be overloaded in their efforts to support many
-product teams simultaneously. Ways to reduce load on the platform team include
-the following:
-
-1. Use implementations from managed service providers where reasonable
-1. Use open source frameworks and toolkits for creating docs, templates and
-   compositions for application team use
-1. Ensure platform teams are staffed appropriately for their domain and number
-   of customers
-
-<<<<<<< HEAD
-Another challenge when adopting platforms is choosing the right capabilities and
-experiences to enable first. Services that are frequently required and
-undifferentiated, like pipelines, databases and observability, may be a good
-place to start. Platform teams may also choose to focus first on a limited
-number of engaged and skillful app teams. Detailed feedback from such teams
-improves the first platform experiences; and people from those teams help
-champion and evangelize the platform to later adopters.
-
-=======
->>>>>>> 60a9a86 (switch order, to keep all points about the platform team itself together)
 Finally, it's vital in large enterprises to quickly gain leadership support for
 platform teams. Many enterprise leaders perceive IT infrastructure as an expense
 quite disconnected from their primary value streams and may try to constrain
@@ -307,6 +286,18 @@ unrealized promises and frustration. To mitigate this, platform teams need to
 demonstrate their direct impact on and relationships with product and value
 stream teams (see the previous two paragraphs), presenting the platform team as
 a strategic partner of product teams in delivering value to customers.
+
+## Enabling platform teams
+Another challenge for platform teams is the amount of cognitive load, when attempting
+to support multiple teams simultaneously.
+
+Ways to reduce load on the platform team include the following:
+
+1. Use implementations from managed service providers where reasonable
+1. Use open source frameworks and toolkits for creating docs, templates and
+   compositions for application team use
+1. Ensure platform teams are staffed appropriately for their domain and number
+   of customers
 
 ## How to measure the success of platforms
 
