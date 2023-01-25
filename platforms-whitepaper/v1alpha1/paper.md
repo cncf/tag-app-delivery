@@ -259,14 +259,6 @@ following which implementers should keep in mind.
 1. Platform teams must seek support of enterprise leadership and show impact on
    value streams
 
-When adopting platforms, choosing the right capabilities and experiences to
-enable first, can be crucial. Capabilities that are frequently required and
-undifferentiated, like pipelines, databases and observability, may be a good
-place to start. Platform teams may also choose to focus first on a limited number
-of engaged and skillful app teams. Detailed feedback from such teams improves the
-first platform experiences; and people from those teams help champion and
-evangelize the platform to later adopters.
-
 Perhaps most important is to treat the platform as a customer-facing product and recognize that its success is
 directly dependent on the success of its users and products; and as such it's
 vital that platform teams partner with app teams and other users to prioritize,
@@ -277,6 +269,14 @@ resistance and resentment from their users and miss a lot of the promised value.
 To counter this, platform teams should include product managers from the start
 to share roadmaps, gather feedback and generally understand and represent the
 needs of platform users.
+
+When adopting platforms, choosing the right capabilities and experiences to
+enable first, can be crucial. Capabilities that are frequently required and
+undifferentiated, like pipelines, databases and observability, may be a good
+place to start. Platform teams may also choose to focus first on a limited number
+of engaged and skillful app teams. Detailed feedback from such teams improves the
+first platform experiences; and people from those teams help champion and
+evangelize the platform to later adopters.
 
 Additionally, Platform teams can easily be overloaded in their efforts to support many
 product teams simultaneously. Ways to reduce load on the platform team include
