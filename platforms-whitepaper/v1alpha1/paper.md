@@ -2,14 +2,23 @@
 
 Inspired by the cross-functional cooperation promised by DevOps, platform
 engineering has begun to emerge in enterprises as an explicit form of that
-cooperation: platform teams curate and present foundational capabilities,
-frameworks and experiences to facilitate and accelerate the work of internal
-customers such as application developers, data scientists and information
-workers.
+cooperation. Platforms curate and present foundational capabilities, frameworks
+and experiences to facilitate and accelerate the work of internal customers such
+as application developers, data scientists and information workers. Particularly
+in the field of cloud computing, platforms have helped enterprises realize
+values long promised by cloud like fast product releases, portability across
+infrastructures, more secure and resilient products, and greater developer
+productivity.
 
 This paper intends to support enterprise leaders, enterprise architects and
-platform team product managers to investigate and plan internal platforms by
-describing the following:
+platform team leaders to advocate for, investigate and plan internal platforms
+for cloud computing.  We believe platforms significantly impact enterprises'
+actual value streams, but only indirectly, so leadership consensus and support
+is vital to the long-term sustainability and success of platform teams. In this
+paper we'll enable that support by discussing what the value of platforms is, how
+to measure it, and how to implement platform teams that maximize it.
+
+## Table of Contents
 
 1. What is a platform
 1. Why are platforms valuable
@@ -21,79 +30,64 @@ describing the following:
 
 ## What is a platform
 
-A platform in distributed computing is a layer that provides common supporting
-capabilities and services for many uses. A platform provides consistent user
-experiences for getting, using and managing these capabilities and services,
+A platform is a layer that provides common supporting capabilities and services
+for many applications and use cases. Such a platform provides consistent user
+experiences for getting, using and managing its capabilities and services,
 including Web portals and pages, scenario-specific code templates, automatable
 APIs and command-line tools.
 
-According to Atlassian, "platform teams create capabilities that can be used by
-numerous stream-aligned teams with little overhead.... platform teams minimize
-resources and cognitive load of the stream-aligned team... platform teams can
-create a cohesive experience that spans across different user experiences or
-products."
+According to Atlassian [[1]], "platform teams create capabilities that can be
+used by numerous stream-aligned teams with little overhead.... platform teams
+minimize resources and cognitive load of the stream-aligned team... platform
+teams can create a cohesive experience that spans across different user
+experiences or products."
 
-According to Martin Fowler and Evan Bottcher, "a digital platform is a
+According to Martin Fowler and Evan Bottcher [[2]], "a digital platform is a
 foundation of self-service APIs, tools, services, knowledge and support which
 are arranged as a compelling internal product. Autonomous delivery teams can
 make use of the platform to deliver product features at a higher pace, with
 reduced coordination."
 
-Platforms are particularly relevant in distributed systems which separate
-supporting capabilities from application-specific logic. In such environments
-capabilities like databases and object stores, message queues and brokers,
-observability collectors and dashboards, user directories and authentication
-systems, task runners and reconcilers and more are managed independently and
-integrated into applications running in containers and machines. A platform
-provides those capabilities to many teams in a way that makes them easy to
-integrate in applications.
+Platforms are particularly relevant for cloud-native computing, which typically
+separates supporting capabilities from application-specific logic more than
+previous paradigms. In such environments resources like databases and object
+stores, message queues and brokers, observability collectors and dashboards,
+user directories and authentication systems, task runners and reconcilers and
+more are managed independently and integrated into applications running in
+containers and machines. A platform for cloud-native computing provides these to
+many teams in ways that make them easy to integrate in applications and systems.
 
-A basic platform provides consistent experiences to application developers for a
-collection of individual capabilities and services such as database systems or
-secret stores. A more advanced platform also composes capabilities and services
-into scenario-specific experiences and templates fit for key scenarios like web
-application development or data analysis and model training. For example, an
-organization may provide a developer platform that composes capabilities
-required for application development such as compute environments, pipeline
-runners, database systems, messaging queues, identities and telemetry
-collectors. Separately, the organization may also provide a data analysis
-platform that composes data ingestion and transformation services, model
-training services, model deployment pipelines and model servers.
+At its most basic, a platform provides consistent experiences to application
+developers for acquiring and using individual services such as a database system
+or a secret store. A more advanced platform also _composes_ these capabilities
+into experiences and templates fit for key scenarios like web application
+development or data analysis. For example, some organizations today provide
+_developer_ platforms that compose resources required for application
+development such as compute environments, pipeline runners, database systems,
+messaging queues, identities and telemetry collectors. An organization may also
+provide a data analysis ("MLOps") platform that composes data ingestion and
+transformation services, model training services, model deployment pipelines and
+model servers.
 
-By offering consistent experiences for individual capabilities and/or
-scenario-oriented sets of capabilities, platforms make it easy for their users
-to deliver valuable products.
-
-### Platform capability providers
-
-As just described, a platform packages and composes capabilities and services
-from many supporting platform capability providers. These providers may be other
-teams within an enterprise or third parties like "cloud" service providers.
-Platforms enable use of the capabilities and services from these providers by
-wrapping them with consistent web portals, documentation, code templates, and
-programmable APIs and tools. Platforms bridge from underlying capability
-providers to platform users like application developers while implementing and
-enforcing desired practices for security, performance and consistent experience.
-
-The following graphic illustrates the relationships between product, platform,
-and capability providers.
-
-<img src="assets/platform_components.png" width=600px />
+By offering consistent experiences for individual and/or scenario-oriented sets
+of capabilities, platforms make it easy for their users to deliver valuable
+products.
 
 [1]: https://www.atlassian.com/devops/frameworks/team-topologies
 [2]: https://martinfowler.com/articles/talk-about-platforms.html
 
 ## Why are platforms valuable
 
-What economic and business reasons motivate enterprises to implement platforms?
-The value of platforms emerges from a) the consolidation of shared capabilities
-in a team of experts focused on b) making those services and capabilities easy
-to integrate and use in digital products and applications.
+What economic and business reasons motivate enterprises to implement platforms
+for cloud-native computing?  The value of platforms emerges from a) the
+consolidation of shared capabilities in a team of experts focused on b) making
+those services and capabilities easy to integrate and use in digital products
+and applications.
 
 Enterprises adopting platform engineering can expect to achieve the following:
 
 1. Accelerate product development and delivery by intentionally dedicating teams
-   to platform capabilities and thereby reducing cognitive load on product teams
+   to platform services and thereby reducing cognitive load on product teams
 1. Improve reliability and resiliency of products relying on platform
    capabilities by dedicating experts to configure and manage them
 1. Accelerate product development and delivery by reusing and sharing platform
@@ -101,32 +95,33 @@ Enterprises adopting platform engineering can expect to achieve the following:
 1. Reduce risk of security, regulatory and functional issues in products and
    services by governing platform capabilities and the users, tools and processes
    surrounding them
-1. Enable cost-effective and productive use of capabilities from public clouds
+1. Enable cost-effective and productive use of services from public clouds
    and other providers by enabling delegation of implementations to those providers
    while maintaining control over user experience
 
 These benefits accrue in part because just a few platform teams serve many
 product teams, multiplying their impact; in part because platform teams
-consolidate management of common capabilities, facilitating governance; and in
+consolidate management of common functionality, facilitating governance; and in
 part because platform teams emphasize user interfaces and experiences above all
 else.
 
-A team of platform experts not only reduces common work [1] demanded of product
-teams but also optimizes platform capabilities [2] for those products. And
-because a platform offers patterns for many capabilities, knowledge and tools
-for those spread broadly [3] and developers can quickly contribute to other
-teams and products built on the same foundation. Governance and controls [4] can
-also be embedded in a platform's patterns and capabilities. Finally, because
-platform teams corral capability providers and provide consistent experiences
-over their offerings, they enable efficient use of public clouds and service
-providers [5] for foundational but undifferentiated capabilities like databases
-and identity.
+A team of platform experts not only reduces common work \[1\] demanded of
+product teams but also optimizes platform capabilities \[2\] used in those
+products. A platform team also maintains a set of conventional patterns,
+knowledge and tools used broadly across the enterprise \[3\]; enabling
+developers to quickly contribute to other teams and products built on the same
+foundations. The shared platform patterns also allow embedding governance and
+controls \[4\] in templates, patterns and capabilities. Finally, because
+platform teams corral providers and provide consistent experiences over their
+offerings, they enable efficient use of public clouds and service providers
+\[5\] for foundational but undifferentiated capabilities like databases and
+identity.
 
 Top use cases an enterprise can meet with a basic platform include the following:
 
 1. Developers of products and services can automatically provision runtime
    capabilities such as compute, storage, databases and service identity and
-   immediately integrate and use those capabilities to run their products
+   immediately integrate and use those as part of their products
 1. Developers of products and services can automatically provision supporting
    services such as task runners, package registries, deployment orchestrators and
    observability systems to build, verify, operate and observe their products
@@ -152,7 +147,8 @@ environments and could serve the following use cases:
 
 ## Attributes of platforms
 
-Following are key attributes that affect the success of a cloud or developer platform. A platform should:
+Following are key attributes that affect the success of a platform for
+cloud-native computing. Such a platform should:
 
 1. Be designed and continuously improved based on requirements of its users like
    any product
@@ -169,25 +165,25 @@ Following are key attributes that affect the success of a cloud or developer pla
 1. Be optional - users should be able to use some platform capabilities but
    acquire others outside of the platform's offerings
 
-A platform exists to serve the common requirements of many disparate users [1,2]
+A platform exists to serve the common requirements of many disparate users \[1,2\]
 and use cases. It serves those requirements through consistent interfaces of
-several types [3], particularly HTTP APIs, Web portals, and command-line tools.
+several types \[3\], particularly HTTP APIs, Web portals, and command-line tools.
 For example, all platform users require the ability to observe their workloads,
 so a platform might offer a capability to collect and display logs, metrics and
 traces from applications. It might enable users to request and use that
 capability via an API and a Web page.
 
-To be able to use a platform's capabilities users require documentation and
-examples [4]. So a platform team needs to not only make a capability like
+To be able to use a platform's offerings, users require documentation and
+examples \[4\]. So a platform team needs to not only make a capability like
 observability available, but also publish templates and docs to help users
 consume it. For example, a platform team might publish a reusable workflow for
 building, testing, deploying and verifying a Web application on Kubernetes.
-Beyond examples for single capabilities, advanced platforms should group
+Beyond examples for individual resource types, advanced platforms should group
 collections of templates and guidance for specific scenarios, a bundle often
 described as a golden path.
 
 The capabilities provided by a platform should be available to users on demand
-[5] with minimal manual intervention. The interfaces discussed above - APIs and
+\[5\] with minimal manual intervention. The interfaces discussed above - APIs and
 web pages - should enable users to get resources they need in a few minutes with
 at most an approval. For example, a web page describing a database management
 service should include a button to request a database and share a locator and
@@ -196,13 +192,13 @@ credentials for that database within a few minutes of the request.
 One of the purposes of a platform is to reduce cognitive load on product teams,
 so services offered by the platform should not need to be operated by consumers;
 either the platform provider or its delegates, such as a cloud service, should
-handle those operations, hiding complexity [7] from users. For example, users
+handle those operations, hiding complexity \[7\] from users. For example, users
 may often require a message queue, but shouldn't have to manage a message
 broker.
 
 Platforms are intended to make product development more efficient, so it's
-important they not be an impediment [8] when the most efficient path is to not
-use the platform's capabilities. Platforms should enable product teams to
+important they not be an impediment \[8\] when the most efficient path is to not
+use the platform's offerings. Platforms should enable product teams to
 provide and manage their own capabilities when necessary. For example, if a
 platform team doesn't provide a graph database and it's required for a product,
 it should be possible for that product team to provision and operate a graph
@@ -213,7 +209,7 @@ database themselves.
 Platform teams are responsible for the interfaces to and experiences with
 platform capabilities - like Web portals, custom APIs, and golden path
 templates. On one hand, platform teams work with those teams implementing
-infrastructure and supporting capabilities to define consistent experiences; on
+infrastructure and supporting services to define consistent experiences; on
 the other, they work with product and user teams to gather feedback and ensure
 those experiences meet requirements.
 
@@ -225,7 +221,7 @@ Following are jobs a platform team should be responsible for:
 1. Market, evangelize and advocate for platform usage
 
 Most importantly, platform teams must learn about the requirements of platform
-users [1] to inform and continuously improve capabilities and interfaces offered
+users \[1\] to inform and continuously improve capabilities and interfaces offered
 by their platform. Ways to learn about user requirements include user
 interviews, interactive hackathons, issue trackers and surveys, and direct
 observation of usage through observability tools. For example, a platform team
@@ -233,7 +229,7 @@ could publish a form for users to submit feature requests; and conduct periodic
 roadmap meetings to share upcoming features and gather feedback.
 
 A platform team doesn't necessarily run compute, network, storage or other
-services. Rather they own the interfaces [2] (GUI, CLI, API) and user
+services. Rather they own the interfaces \[2\] (GUI, CLI, API) and user
 experiences with those services. For example, a Web portal page might describe
 and even offer a button to provision an identity for an app; while the
 implementation of that capability might be via a cloud-hosted identity service.
@@ -244,7 +240,7 @@ Earlier it was stated that a platform should be treated as a product.
 Specifically, the platform should be continuously improved based on user
 requirements and optional to use (see: platform attributes #1 and #8). While
 research and design is one side of product delivery, the other side is marketing
-and advocacy [3]. If the platform is truly being built to user requirements,
+and advocacy \[3\]. If the platform is truly being built to user requirements,
 people should be excited to use the provided capabilities. Some ways a platform
 team can help adoptions is through internal marketing activities including
 delivering department wide announcements, sharing engaging demos, and welcoming
@@ -278,7 +274,7 @@ Perhaps most important is to recognize that the success of a platform is
 directly dependent on the success of its users and products; and as such it's
 vital that platform teams partner with app teams and other users to prioritize,
 plan, implement and iterate on the platform's capabilities and user experiences.
-Platform teams that release capabilities and experiences without feedback or
+Platform teams that release features and experiences without feedback or
 that rely on top-down mandates to achieve adoption are almost certain to find
 resistance and resentment from their users and miss a lot of the promised value.
 To counter this, platform teams should include product managers from the start
@@ -286,7 +282,7 @@ to share roadmaps, gather feedback and generally understand and represent the
 needs of platform users.
 
 Another challenge when adopting platforms is choosing the right capabilities and
-experiences to enable first. Capabilities that are frequently required and
+experiences to enable first. Services that are frequently required and
 undifferentiated, like pipelines, databases and observability, may be a good
 place to start. Platform teams may also choose to focus first on a limited
 number of engaged and skillful app teams. Detailed feedback from such teams
@@ -333,106 +329,114 @@ also measure users' experiences, including:
 
 ## Capabilities of platforms
 
-Having defined key attributes of a platform and platform teams, following are
-capabilities required by typical digital projects which should be considered for
-inclusion in a platform.
+As described earlier, a platform for cloud-native computing offers and composes
+capabilities and services from many supporting providers. These providers may be
+other teams within the same enterprise or third parties like "cloud" service
+providers. Platforms enable use of the capabilities and services from these
+providers by wrapping them with consistent web portals, documentation, code
+templates, and programmable APIs and tools. 
 
-The goal of this list is to guide platform teams in determining what should be
-included in their platform.
+In a nutshell, platforms bridge from underlying capability _providers_ to
+platform users like application developers; and in the process implement and
+enforce desired practices for security, performance, cost governance and
+consistent experience. The following graphic illustrates the relationships
+between product, platform, and capability providers.
 
-1. Web portal for provisioning and observing capabilities
-1. APIs (and CLIs) for automatically provisioning capabilities on demand
-1. "Golden path" templates and docs enabling optimal use of capabilities
-1. Automation for building and testing services and products
-1. Automation for delivering and verifying services and products
-1. Services in support of product research and development: hosted IDEs, remote
-   connection tools
-1. Instrumentation and dashboards to enable observability of services and
-   products
-1. Infrastructure services: compute runtime, programmable network, block storage
-1. Data services: databases, caches, object stores
-1. Messaging services: brokers, queues, event fabrics
-1. Identity and secret management services: service and user identity and
+<img src="assets/platform_components.png" width=600px />
+
+We've described the attributes and values of platforms and platform teams. Now
+let's describe the kinds of capabilities typically required in cloud-native
+computing platforms. Our goal is to guide platform engineers in ensuring their
+platform is complete.
+
+1. **Web portal** for provisioning and observing capabilities
+1. **APIs** (and CLIs) for automatically provisioning capabilities
+1. **"Golden path" templates and docs** enabling optimal use of capabilities
+1. **Automation for building and testing** services and products
+1. **Automation for delivering and verifying** services and products
+1. **Development environments**: hosted IDEs, remote connection tools
+1. Instrumentation and dashboards to enable **observability** of services and
+   products, including function, performance and cost
+1. **Infrastructure** services: compute runtimes, programmable networks, block
+   and volume storage
+1. **Data** services: databases, caches, object stores
+1. **Messaging** and event services: brokers, queues, event fabrics
+1. **Identity and secret** management services: service and user identity and
    authorization, certificate and key issuance, static secret storage
-1. Security services: static analysis of code and artifacts, runtime analysis,
+1. **Security** services: static analysis of code and artifacts, runtime analysis,
    policy enforcement
-1. Artifact storage: container image and language-specific package management,
+1. **Artifact storage**: container image and language-specific package management,
    custom binaries and libraries, source code
-1. Accounting: track resources and costs
 
 <table>
   <thead>
-    <tr><td>Capability</td><td>Description</td><td>Example projects</td></tr>
+    <tr><td>Capability</td><td>Description</td><td>Example CNCF/CDF Projects</td></tr>
   </thead>
   <tr>
-    <td>Application developer interfaces and experiences (#1, #2, #3)</td>
-    <td>Documentation and code templates. APIs, Web UIs and CLIs. All the self-service experiences and  capabilities provided by a platform.</td>
-    <td>Backstage (UI), Kubernetes (API, CLI), Kratix (API), Crossplane (API), Operator Framework, Dapr, Cartographer</td>
+    <td>Web portals for provisioning and observing capabilities</td>
+    <td>Publish documentation, service catalogs, and project templates. Publish telemetry about systems and capabilities.</td>
+    <td>Backstage</td>
   </tr>
   <tr>
-    <td>Automation for building and testing services and products (#4)</td>
+    <td>APIs for automatically provisioning capabilities</td>
+    <td>Structured formats for automatically creating, updating, deleting and observing capabilities.</td>
+    <td>Kubernetes, Crossplane, Operator Framework, Helm</td>
+  </tr>
+  <tr>
+    <td>Golden path templates and docs</td>
+    <td>Templated compositions of well-integrated code and capabilities for rapid project development.</td>
+    <td>ArtifactHub</td>
+  </tr>
+  <tr>
+    <td>Automation for building and testing products</td>
     <td>Automate build and test of digital products and services.</td>
-    <td>Tekton, Jenkins, Buildpacks, ko, buildah, Carvel, pact, testcontainers, testkube, kuttl</td>
+    <td>Tekton, Jenkins, Buildpacks, ko, Carvel</td>
   </tr>
   <tr>
-    <td>Automation for deploying and delivering services and products (#5)</td>
-    <td>Automate and control delivery of services and applications. For example, canary, blue/green, feature flags, post-deployment verification.</td>
-    <td>ArgoCD, Flux, keptn, Flagger, OpenFeature, kapp (Carvel), Konveyor</td>
+    <td>Automation for delivering and verifying services</td>
+    <td>Automate and observe delivery of services.</td>
+    <td>Argo, Flux, Keptn, Flagger, OpenFeature</td>
   </tr>
   <tr>
-    <td>Observe products and services (#6)</td>
-    <td>Enable all infrastructure capabilities and product workloads to emit telemetry.  Gather, analyze and publish info to product stakeholders.</td>
-    <td>OpenTelemetry, Jaeger, Prometheus, Thanos, Fluentd, Grafana</td>
+    <td>Development environments</td>
+    <td>Enable research and development of applications and systems.</td>
+    <td>Devfile, Nocalhost, Telepresence, DevSpace</td>
   </tr>
   <tr>
-    <td>Infrastructure services (#7)</td>
-    <td>Run application code. Connect application components. Persist data for applications</td>
-    <td>Kubernetes (containers), kubevirt (VMs), Knative (functions), Istio, Envoy, Contour, Cilium, Rook, Longhorn, OpenEBS</td>
+    <td>Application observability</td>
+    <td>Instrument applications, gather and analyze telemetry and publish info to stakeholders.</td>
+    <td>OpenTelemetry, Jaeger, Prometheus, Thanos, Fluentd, Grafana, OpenCost</td>
   </tr>
   <tr>
-    <td>Data services (#8)</td>
+    <td>Infrastructure services</td>
+    <td>Run application code, connect application components and persist data for applications</td>
+    <td>Kubernetes, Kubevirt, Knative, WasmEdge<br />CNI, Istio, Cilium, Envoy, Linkerd, CoreDNS<br />Rook, Longhorn, Etcd</td>
+  </tr>
+  <tr>
+    <td>Data services</td>
     <td>Persist structured data for applications</td>
-    <td>TiKV, Vitess, etcd, SchemaHero</td>
+    <td>TiKV, Vitess, SchemaHero</td>
   </tr>
   <tr>
-    <td>Messaging services (#9)</td>
+    <td>Messaging and event services</td>
     <td>Enable applications to communicate with each other asynchronously</td>
-    <td>CloudEvents, NATS, gRPC, Knative (events)</td>
+    <td>Strimzi, NATS, gRPC, Knative, Dapr</td>
   </tr>
   <tr>
-    <td>Identity and secret services (#10)</td>
-    <td>Ensure workloads have the locators and secrets to access and use provisioned resources and services. Enable services to identify themselves securely to other services</td>
-    <td>Directory, OAuth/OIDC, Hashicorp Vault, Dex, Keycloak, Pinniped, SPIFFE/SPIRE, servicebinding.io, cert-manager, Carvel secretgen</td>
+    <td>Identity and secret services</td>
+    <td>Ensure workloads have locators and secrets to use resources and capabilities. Enable services to identify themselves to other services</td>
+    <td>Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager</td>
   </tr>
   <tr>
-    <td>Security services (#11)</td>
+    <td>Security services</td>
     <td>Observe runtime behavior and report/remediate anomalies. Verify builds and artifacts don't contain vulnerabilities. Constrain activities on the platform per enterprise requirements; notify and/or remediate aberrations</td>
-    <td>Falco, KubeArmor, StackRox, OPA, Kyverno, cloud custodian</td>
+    <td>Falco, In-toto, KubeArmor, OPA, Kyverno, Cloud Custodian</td>
   </tr>
   <tr>
-    <td>Artifact storage (#12)</td>
+    <td>Artifact storage </td>
     <td>Store, publish and secure built artifacts for use in production. Cache and analyze third-party artifacts.  Store source code.</td>
-    <td>ArtifactHub, sigstore, Harbor, Dragonfly, OCI</td>
+    <td>ArtifactHub, Harbor, Distribution, Porter</td>
   </tr>
-  <tr>
-    <td>Extensibility</td>
-    <td>Add APIs, controllers and portal pages to the platform to provide new functionality using the same patterns.</td>
-    <td>Operator Framework</td>
-  </tr>
-  <tr>
-    <td>Multi-tenancy</td>
-    <td>Support many internal teams using one service implementation while keeping teams isolated from each other. Ensure isolation between teams</td>
-    <td>vcluster, Cluster API, Nephio, open-cluster-manager, karmada, kcp</td>
-  </tr>
-  <tr>
-    <td>Development environments and tools</td>
-    <td>Provide tools to aid in editing, testing, and debugging code</td>
-    <td>devfile, Tilt, Skaffold, DevSpaces, Telepresense, Eclipse Che, VS, JetBrains, Eclipse</td>
-  </tr>
-  <tr>
-    <td>Accounting</td>
-    <td>Track resources in use and their costs</td>
-    <td>OpenCost</td>
 </table>
 
 ## Glossary
