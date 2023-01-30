@@ -247,17 +247,6 @@ delivering department wide announcements, sharing engaging demos, and welcoming
 questions during regular office hours. The key here is to meet users where they
 are, and bring them on the journey to engage with and benefit from the platform.
 
-### Enabling platform teams
-
-Platform teams can easily be overloaded in their efforts to support many product
-teams. Ways to reduce load on the platform team include the following:
-
-1. Use implementations from managed service providers where reasonable
-1. Use open source frameworks and toolkits for creating docs, templates and
-   compositions for application team use
-1. Ensure platform teams are staffed appropriately for their domain and number
-   of customers
-
 ## Challenges with platforms
 
 While platforms promise lots of value, they also bring challenges like the
@@ -270,24 +259,24 @@ following which implementers should keep in mind.
 1. Platform teams must seek support of enterprise leadership and show impact on
    value streams
 
-Perhaps most important is to recognize that the success of a platform is
-directly dependent on the success of its users and products; and as such it's
-vital that platform teams partner with app teams and other users to prioritize,
-plan, implement and iterate on the platform's capabilities and user experiences.
-Platform teams that release features and experiences without feedback or
-that rely on top-down mandates to achieve adoption are almost certain to find
-resistance and resentment from their users and miss a lot of the promised value.
-To counter this, platform teams should include product managers from the start
-to share roadmaps, gather feedback and generally understand and represent the
-needs of platform users.
+Perhaps most important is to treat the platform as a customer-facing product and
+recognize that its success is directly dependent on the success of its users and
+products; and as such it's vital that platform teams partner with app teams and
+other users to prioritize, plan, implement and iterate on the platform's
+capabilities and user experiences. Platform teams that release features and
+experiences without feedback or that rely on top-down mandates to achieve adoption
+are almost certain to find resistance and resentment from their users and miss a
+lot of the promised value. To counter this, platform teams should include product
+managers from the start to share roadmaps, gather feedback and generally understand
+and represent the needs of platform users.
 
-Another challenge when adopting platforms is choosing the right capabilities and
-experiences to enable first. Services that are frequently required and
+When adopting platforms, choosing the right capabilities and experiences to
+enable first, can be crucial. Capabilities that are frequently required and
 undifferentiated, like pipelines, databases and observability, may be a good
-place to start. Platform teams may also choose to focus first on a limited
-number of engaged and skillful app teams. Detailed feedback from such teams
-improves the first platform experiences; and people from those teams help
-champion and evangelize the platform to later adopters.
+place to start. Platform teams may also choose to focus first on a limited number
+of engaged and skillful app teams. Detailed feedback from such teams improves the
+first platform experiences; and people from those teams help champion and
+evangelize the platform to later adopters.
 
 Finally, it's vital in large enterprises to quickly gain leadership support for
 platform teams. Many enterprise leaders perceive IT infrastructure as an expense
@@ -297,6 +286,23 @@ unrealized promises and frustration. To mitigate this, platform teams need to
 demonstrate their direct impact on and relationships with product and value
 stream teams (see the previous two paragraphs), presenting the platform team as
 a strategic partner of product teams in delivering value to customers.
+
+## Enabling platform teams
+
+It is clear from these challenges that platform teams are faced with a number of
+diverse responsibilities which lead to cognitive load. Just as with their
+application team counterparts, this challenge grows with the number and diversity
+of users and teams they need to support.
+
+It is important to focus the platform team's energy on the experience and
+capabilities that are unique to their specific business. Ways to reduce load on
+the platform team include the following:
+
+1. Use implementations from managed service providers where reasonable
+1. Leverage open source frameworks and toolkits for creating docs, templates and
+   compositions for application team use
+1. Ensure platform teams are staffed appropriately for their domain and number
+   of customers
 
 ## How to measure the success of platforms
 
