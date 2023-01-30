@@ -288,13 +288,18 @@ stream teams (see the previous two paragraphs), presenting the platform team as
 a strategic partner of product teams in delivering value to customers.
 
 ## Enabling platform teams
-Another challenge for platform teams is the amount of cognitive load, when attempting
-to support multiple teams simultaneously.
 
-Ways to reduce load on the platform team include the following:
+It is clear from these challenges that platform teams are faced with a number of
+diverse responsibilities which lead to cognitive load. Just as with their
+application team counterparts, this challenge grows with the number and diversity
+of users and teams they need to support.
+
+It is important to focus the platform team's energy on the experience and
+capabilities that are unique to their specific business. Ways to reduce load on
+the platform team include the following:
 
 1. Use implementations from managed service providers where reasonable
-1. Use open source frameworks and toolkits for creating docs, templates and
+1. Leverage open source frameworks and toolkits for creating docs, templates and
    compositions for application team use
 1. Ensure platform teams are staffed appropriately for their domain and number
    of customers
