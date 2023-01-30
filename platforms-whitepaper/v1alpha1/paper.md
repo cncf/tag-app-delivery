@@ -2,14 +2,23 @@
 
 Inspired by the cross-functional cooperation promised by DevOps, platform
 engineering has begun to emerge in enterprises as an explicit form of that
-cooperation, particularly for cloud-native application development and delivery.
-Platforms curate and present foundational capabilities, frameworks and
-experiences to facilitate and accelerate the work of internal customers such as
-application developers, data scientists and information workers.
+cooperation. Platforms curate and present foundational capabilities, frameworks
+and experiences to facilitate and accelerate the work of internal customers such
+as application developers, data scientists and information workers. Particularly
+in the field of cloud computing, platforms have helped enterprises realize
+values long promised by cloud like fast product releases, portability across
+infrastructures, more secure and resilient products, and greater developer
+productivity.
 
 This paper intends to support enterprise leaders, enterprise architects and
-platform team leaders to investigate and plan internal platforms for
-cloud-native application development and delivery by describing the following:
+platform team leaders to advocate for, investigate and plan internal platforms
+for cloud computing.  We believe platforms significantly impact enterprises'
+actual value streams, but only indirectly, so leadership consensus and support
+is vital to the long-term sustainability and success of platform teams. In this
+paper we'll enable that support by discussing what the value of platforms is, how
+to measure it, and how to implement platform teams that maximize it.
+
+## Table of Contents
 
 1. What is a platform
 1. Why are platforms valuable
@@ -21,11 +30,11 @@ cloud-native application development and delivery by describing the following:
 
 ## What is a platform
 
-A platform as implemented for cloud-native computing is a layer that provides
-common supporting capabilities and services for many applications and use cases.
-Such a platform provides consistent user experiences for getting, using and
-managing its capabilities and services, including Web portals and pages,
-scenario-specific code templates, automatable APIs and command-line tools.
+A platform is a layer that provides common supporting capabilities and services
+for many applications and use cases. Such a platform provides consistent user
+experiences for getting, using and managing its capabilities and services,
+including Web portals and pages, scenario-specific code templates, automatable
+APIs and command-line tools.
 
 According to Atlassian [[1]], "platform teams create capabilities that can be
 used by numerous stream-aligned teams with little overhead.... platform teams
@@ -96,15 +105,17 @@ consolidate management of common functionality, facilitating governance; and in
 part because platform teams emphasize user interfaces and experiences above all
 else.
 
-A team of platform experts not only reduces common work \[1\] demanded of product
-teams but also optimizes platform capabilities \[2\] used in those products. And
-because a platform includes typical vetted patterns, knowledge and tools about
-those spread broadly \[3\] and developers can quickly contribute to other teams
-and products built on the same foundation. Governance and controls \[4\] can also
-be embedded in a platform's patterns and capabilities. Finally, because platform
-teams corral providers and provide consistent experiences over their offerings,
-they enable efficient use of public clouds and service providers \[5\] for
-foundational but undifferentiated capabilities like databases and identity.
+A team of platform experts not only reduces common work \[1\] demanded of
+product teams but also optimizes platform capabilities \[2\] used in those
+products. A platform team also maintains a set of conventional patterns,
+knowledge and tools used broadly across the enterprise \[3\]; enabling
+developers to quickly contribute to other teams and products built on the same
+foundations. The shared platform patterns also allow embedding governance and
+controls \[4\] in templates, patterns and capabilities. Finally, because
+platform teams corral providers and provide consistent experiences over their
+offerings, they enable efficient use of public clouds and service providers
+\[5\] for foundational but undifferentiated capabilities like databases and
+identity.
 
 Top use cases an enterprise can meet with a basic platform include the following:
 
@@ -323,13 +334,13 @@ capabilities and services from many supporting providers. These providers may be
 other teams within the same enterprise or third parties like "cloud" service
 providers. Platforms enable use of the capabilities and services from these
 providers by wrapping them with consistent web portals, documentation, code
-templates, and programmable APIs and tools. Of note, platforms bridge from
-underlying capability providers to platform users like application developers
-while implementing and enforcing desired practices for security, performance and
-consistent experience.
+templates, and programmable APIs and tools. 
 
-The following graphic illustrates the relationships between product, platform,
-and capability providers.
+In a nutshell, platforms bridge from underlying capability _providers_ to
+platform users like application developers; and in the process implement and
+enforce desired practices for security, performance, cost governance and
+consistent experience. The following graphic illustrates the relationships
+between product, platform, and capability providers.
 
 <img src="assets/platform_components.png" width=600px />
 
