@@ -20,7 +20,7 @@ to measure it, and how to implement platform teams that maximize it.
 
 ## Table of Contents
 
-1. Why have internal platforms gained popularity
+1. Why have platforms gained popularity
 1. What is a platform
 1. Attributes of successful platforms
 1. Attributes of successful platform teams
@@ -28,29 +28,19 @@ to measure it, and how to implement platform teams that maximize it.
 1. How to measure the success of platforms
 1. Capabilities of platforms
 
-## Why have internal platforms gained popularity
+## Why have platforms gained popularity
 
-DevOps provides enterprises a level of agility that has not previously been 
-experienced. Individual teams have the autonomy to delivery value for the business 
-without frequent bottlenecks while waiting on specialty teams to provide support for 
-infrastructure, CI/CD, production support, and more. The phrase "build it, run it" 
-has been popularised to encapsulate the mentality that each team was self sufficient 
-from problem statement, through delivery, and even including production support.
+Process improvements over the past 2-3 decades have significantly increased the 
+agility of software application and product teams, offering them flexible services 
+for both infrastructure like compute, network and storage as well as developer 
+services like builds, tests, delivery and observability. This autonomy and process 
+improvement has also had the effect of gradually shifting more and more responsibility 
+for supporting services to product teams, forcing them to spend more and more time 
+and cognitive energy on infrastructure concerns and reducing their time to produce 
+value relevant to their organization.
 
-As with any strategy, DevOps requires managing a set of trade offs. The same 
-autonomy that improves speed of delivery, challenges other business requirements 
-including governance, infrastrucutre provisioning, and teammember interoperability. 
-In many cases, each of these business requirements are themselves a product; Requiring 
-ongoing research, development, and support. For example, it may take a collection 
-of legal and technical teammembers to understand changes to GDPR regulations 
-and continue to support best practice implementations across the organisation.
-
-Internal platforms provide a natural next step to maintain the value of DevOps while 
-addressing the new complications. The value of platforms emerges from a) the 
-consolidation of shared capabilities in a team of experts focused on b) making those 
-services and capabilities easy to integrate and use in digital products and applications.
-
-Enterprises adopting platform engineering can expect to achieve the following:
+This business need has motivated enterprises to implement platforms for cloud-native 
+computing. Some benefits of such platforms include the following:
 
 1. Reduce the cognitive load on product teams and thereby accelerate product 
    development and delivery
@@ -80,8 +70,8 @@ foundations. The shared platform patterns also allow embedding governance and
 controls \[4\] in templates, patterns and capabilities. Finally, because 
 platform teams corral providers and provide consistent experiences over their 
 offerings, they enable efficient use of public clouds and service providers 
-\[5\] for foundational but undifferentiated capabilities like databases and 
-identity.
+\[5\] for foundational but undifferentiated capabilities such as databases, 
+identity access, infrastructure operations, and app lifecycle.
 
 ## What is a platform
 
@@ -128,8 +118,8 @@ include the following:
    services
 
 A more advanced platform also _composes_ these capabilities into experiences and 
-templates fit for key scenarios like web applicationdevelopment or data analysis. 
-For example, an internal developer platform can include templates for provisioning 
+templates fit for key scenarios like web application development or data analysis. 
+For example, an application developer platform can include templates for provisioning 
 complete development environments and could serve the following use cases:
 
 1. Developers of products or services can automatically request a complete 
@@ -144,11 +134,11 @@ complete development environments and could serve the following use cases:
    those products and services via instrumentation, dashboards and alerts
 
 A platform is bespoke to an organisation, supporting a unique set of users and 
-business needs. While a internal developer platform is likely the most commonly 
-discussed solution today, it is important to focsu on the individual needs of the 
-organization which may require a data analysis ("MLOps") platform that composes 
-data ingestion and transformation services, model training services, model 
-deployment pipelines and model servers.
+business needs. While application developement and delivery is often the first 
+capability a platform supports, it is important to focus on the individual needs of 
+the organization which often surfaces additional opportunities to optimise through 
+a platform offering. Some examples can include data operations, user management, and 
+incident management.
 
 By offering consistent experiences for individual and/or scenario-oriented sets 
 of capabilities, platforms make it easy for their users to deliver valuable products.
