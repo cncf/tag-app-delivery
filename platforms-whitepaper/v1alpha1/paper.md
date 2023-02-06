@@ -52,8 +52,8 @@ computing. Some benefits of such platforms include the following:
    services by governing platform capabilities and the users, tools and processes 
    surrounding them
 1. Enable cost-effective and productive use of services from public clouds 
-   and other providers by enabling delegation of implementations to those providers 
-   while maintaining control over user experience
+   and other managed offerings by enabling delegation of implementations to those 
+   providers while maintaining control over user experience
 
 These benefits accrue in part because just a few platform teams serve many 
 product teams, multiplying their impact; in part because platform teams 
