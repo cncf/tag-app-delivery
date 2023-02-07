@@ -307,31 +307,51 @@ the platform team include the following:
 ## How to measure the success of platforms
 
 Having defined what platforms are and the values they intend to provide, let's
-consider how to measure if a platform is providing those values. Notably, the
-success of a platform is directly correlated to the success of products deployed
-on it, and this in turn is largely dependent on user experiences with the
-platform.
+discuss how to verify if a platform is indeed providing those values. The
+success of a platform depends on the success of its users, so these metrics
+should reflect a platform's impact on product teams that use it. We can measure
+a platform's impact in the following areas:
 
-A platform's first value is to improve product delivery so platform success
-metrics should reflect that. The DevOps Research and Assessment (DORA) metrics
-suggested by Google provide a baseline and include:
+1. User satisfaction and productivity
+1. User autonomy and process automation
+1. Product and feature delivery
 
-- Frequency of updated deployments
-- Lead time for introducing a change
-- Rate of failure of newly-introduced changes
-- Mean time to recovery from failed changes
+As we've said, the first value sought in many platforms is to improve and
+accelerate the work of their users, so measuring user satisfaction and
+improvements in users' productivity helps verify a platform's impact. Some
+popular metrics that reflect this include:
 
-And because a platform's success also depends on its users, platforms should
-also measure users' experiences, including:
+- Time for a new user to submit their first code changes to their product
+- "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
+- Active users and resources: number of capabilities provisioned and used from the platform
+- Metrics for developer productivity such as those discussed in the SPACE framework [[3]]
 
-- Time for a new contributor to submit their first (or 10th!) PR
-- Number of contributions from users, e.g. Backstage plugins, Crossplane
-  compositions
-- Number of projects which diverge from "golden paths" and provided capabilities
-- Number of tickets opened related to platform capabilities
-- Developer satisfaction in the enterprise
-    - Net Promoter Score (NPS)
-    - SPACE framework: https://queue.acm.org/detail.cfm?id=3454124
+[3]: https://queue.acm.org/detail.cfm?id=3454124
+
+Another value sought in many platforms is to enable developer autonomy and
+self-service, reducing the number of manual steps and amount of human
+intervention required to acquire resources and services. So measuring the amount
+of time required to complete a process also shows the impact of a platform; consider
+measures such as these:
+
+- Latency to request and receive a space in a service, such as a database or namespace
+- Latency to build and deploy a complete service
+
+Finally, the ultimate goal of a platform is to deliver business value to waiting
+customers faster, so measuring impact on product and feature releases also helps
+show the success and impact of platforms. The DevOps Research and Assessment
+(DORA) institute at Google suggests [[4]] tracking these metrics:
+
+- Deployment frequency
+- Lead time for changes
+- Time to restore services after failure
+- Change failure rate
+
+[4]: https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
+
+Platform teams seek to align infrastructure and IT effort with an enterprise's
+true value streams. And so, ultimately the success of an organization's products
+and applications are the success of the platform.
 
 ## Capabilities of platforms
 
