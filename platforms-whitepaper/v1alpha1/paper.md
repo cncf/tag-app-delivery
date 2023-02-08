@@ -88,14 +88,16 @@ Enterprises adopting platform engineering can expect to achieve the following:
 
 1. Accelerate product development and delivery by intentionally dedicating teams
    to platform services and thereby reducing cognitive load on product teams
-1. Improve reliability and resiliency of products relying on platform
-   capabilities by dedicating experts to configure and manage them
-1. Accelerate product development and delivery by reusing and sharing platform
+2. Improve reliability and resiliency of products relying on platform
+   capabilities by dedicating experts to develop, configure and manage them
+3. Accelerate product development and delivery by reusing and sharing platform
    tools and knowledge across many teams in an enterprise
-1. Reduce risk of security, regulatory and functional issues in products and
+4. Easier and shorter onboarding of people moving between teams, as the platform 
+   to run on is the same 
+5. Reduce risk of security, regulatory and functional issues in products and
    services by governing platform capabilities and the users, tools and processes
    surrounding them
-1. Enable cost-effective and productive use of services from public clouds
+6. Enable cost-effective and productive use of services from public clouds
    and other providers by enabling delegation of implementations to those providers
    while maintaining control over user experience
 
@@ -150,8 +152,8 @@ environments and could serve the following use cases:
 Following are key attributes that affect the success of a platform for
 cloud-native computing. Such a platform should:
 
-1. Be designed and continuously improved based on requirements of its users like
-   any product
+1. Be designed and continuously improved based on requirements of its users
+   applying product management practises
 1. Manage common capabilities required and used by many application teams
 1. Offer consistent interfaces and experiences - GUIs, APIs, and tools - for
    requesting, managing and observing capabilities
@@ -216,9 +218,11 @@ those experiences meet requirements.
 Following are jobs a platform team should be responsible for:
 
 1. Research platform user requirements
-1. Manage and develop interfaces for capabilities and services - portals, APIs,
+2. Manage and develop interfaces for capabilities and services - portals, APIs,
    docs and templates, CLIs
-1. Market, evangelize and advocate for platform usage
+3. Measuring the success of the features they have built with KPIs for 
+   “market penetration” and “usage frequency”
+4. Market, evangelize and advocate for platform usage
 
 Most importantly, platform teams must learn about the requirements of platform
 users \[1\] to inform and continuously improve capabilities and interfaces offered
@@ -285,7 +289,10 @@ costs and resources allocated to IT platforms, leading to a poor implementation,
 unrealized promises and frustration. To mitigate this, platform teams need to
 demonstrate their direct impact on and relationships with product and value
 stream teams (see the previous two paragraphs), presenting the platform team as
-a strategic partner of product teams in delivering value to customers.
+a strategic partner of product teams in delivering value to customers. At best 
+the platform team can show its impact on the product teams through KPIs such as
+increased efficiency, decreased MTTR (mean time to recover), decreased lead
+time for changes and change failure rate.
 
 ## Enabling platform teams
 
@@ -473,6 +480,12 @@ integration of platform capabilities in applications.
 **Platform product managers** are responsible for understanding the experience of
 platform users and building a roadmap that addresses platform product gaps and
 opportunities.
+
+**Stream Aligned Teams** Stream-aligned teams focus on a single product or service, 
+a single set of features, a single user journey, or a single user persona. The 
+team is empowered to build and deliver customer or user value as quickly, safely 
+and independently as possible, without requiring hand-offs to other teams to 
+perform parts of the work.
 
 ## Bibliography
 
