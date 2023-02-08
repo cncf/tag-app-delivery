@@ -20,7 +20,7 @@ to measure it, and how to implement platform teams that maximize it.
 
 ## Table of Contents
 
-1. Why have platforms gained popularity
+1. Why the rise of platforms
 1. What is a platform
 1. Attributes of successful platforms
 1. Attributes of successful platform teams
@@ -28,7 +28,7 @@ to measure it, and how to implement platform teams that maximize it.
 1. How to measure the success of platforms
 1. Capabilities of platforms
 
-## Why have platforms gained popularity
+## Why the rise of platforms
 
 Process improvements over the past 2-3 decades have significantly increased the 
 agility of software application and product teams, offering them flexible services 
@@ -39,8 +39,9 @@ for supporting services to product teams, forcing them to spend more and more ti
 and cognitive energy on infrastructure concerns and reducing their time to produce 
 value relevant to their organization.
 
-This business need has motivated enterprises to implement platforms for cloud-native 
-computing. Some benefits of such platforms include the following:
+The desire to refocus delivery teams on their core focus and reduce duplication of
+effort across the organisation has motivated enterprises to implement and platforms for 
+cloud-native computing. By investing in platforms, enterprises can:
 
 1. Reduce the cognitive load on product teams and thereby accelerate product 
    development and delivery
