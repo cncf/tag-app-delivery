@@ -20,7 +20,7 @@ to measure it, and how to implement platform teams that maximize it.
 
 ## Table of Contents
 
-1. Why the rise of platforms
+1. Why platforms?
 1. What is a platform
 1. Attributes of successful platforms
 1. Attributes of successful platform teams
@@ -28,7 +28,12 @@ to measure it, and how to implement platform teams that maximize it.
 1. How to measure the success of platforms
 1. Capabilities of platforms
 
-## Why the rise of platforms
+## Why platforms?
+
+Platforms and platform engineering are a popular topic in today's cloud computing world. 
+Before diving into definitions, techniques, and measurements for platform building, it 
+is important to first explore the value platforms provide that's driving this 
+well-deserved attention.
 
 Process improvements over the past 2-3 decades have significantly increased the 
 agility of software application and product teams, offering them flexible services 
