@@ -81,76 +81,77 @@ identity access, infrastructure operations, and app lifecycle.
 
 ## What is a platform
 
-A platform is a layer that provides common supporting capabilities and services 
-for many applications and use cases. Such a platform provides consistent user 
-experiences for getting, using and managing its capabilities and services, 
-including Web portals and pages, scenario-specific code templates, automatable 
-APIs and command-line tools.
+At its more basic, a platform is an **integrated product** developed by a 
+platform engineering team that is custom built and composed of supporting 
+capabilities and services designed to reduce the cognitive load and burden 
+experienced by **internal** stakeholders of an enterprise organization 
+while still safely shipping software at speed [[4]]. 
 
-According to Atlassian [[1]], "platform teams create capabilities that can be 
-used by numerous stream-aligned teams with little overhead.... platform teams 
-minimize resources and cognitive load of the stream-aligned team... platform 
-teams can create a cohesive experience that spans across different user 
-experiences or products."
+Note that while internal stakeholders typically refer to developers, they can 
+refer to DevOps, SREs, FinOps, Customer Success, and anyone who is responsible 
+for software delivery and cloud native infrastructure in an enterprise organization. 
 
-According to Martin Fowler and Evan Bottcher [[2]], "a digital platform is a 
-foundation of self-service APIs, tools, services, knowledge and support which 
-are arranged as a compelling internal product. Autonomous delivery teams can 
-make use of the platform to deliver product features at a higher pace, with 
-reduced coordination."
+Platforms have become a key focus in cloud-native computing, which typically
+separates supporting capabilities from application-specific logic more than
+previous paradigms. In such environments resources like Kubernetes clusters, 
+databases and object stores, message queues and brokers, observability collectors
+and dashboards,user directories and authentication systems, task runners and reconcilers and
+more are managed independently and integrated into applications running in
+containers and machines. However, this has introduced its own set of challenges as 
+developers for example are having to spend more time learning about infrastructure 
+instead of focusing on software and app delivery.
 
-Platforms are particularly relevant for cloud-native computing, which typically 
-separates supporting capabilities from application-specific logic more than 
-previous paradigms. In such environments resources like databases and object 
-stores, message queues and brokers, observability collectors and dashboards, 
-user directories and authentication systems, task runners and reconcilers and 
-more are managed independently and integrated into applications running in 
-containers and machines. A platform for cloud-native computing provides these to 
-many teams in ways that make them easy to integrate in applications and systems.
+Therefore, the goal of the platform is to truly drive
+organizational efficiency and productivity by empowering internal stakeholders to 
+focus on their key responsibilities while giving them the tools and self-service 
+necessary to drive their day to day work. For developers for example, this could mean
+having the ability to deploy self-service environments for application development without 
+the overhead of understanding infrastructure components. Or for FinOps, this could
+mean being able to define chargeback rules without understanding getting too in depth of 
+how the metrics are actually collectedfrom cloud-native infrastructure. 
 
-At its most basic, a platform provides consistent experiences to application 
-developers for acquiring and using individual services such as a database system 
-or a secret store. Example use cases an enterprise can meet with a basic platform 
-include the following:
+Therefore according to Martin Fowler[[2]], **"a digital platform is a foundation of self-service APIs, tools, services, 
+knowledge and support which are arranged as a compelling internal product."**
 
-1. Developers of products and services can automatically provision runtime 
-   capabilities such as compute, storage, databases and service identity and 
-   immediately integrate and use those as part of their products
-1. Developers of products and services can automatically provision supporting 
-   services such as task runners, package registries, deployment orchestrators and 
-   observability systems to build, verify, operate and observe their products
-1. Operators of third-party products and services can automatically provision 
-   spaces and supporting services to deploy and use those third-party products and 
-   services
-
-A more advanced platform also _composes_ these capabilities into experiences and 
-templates fit for key scenarios like web application development or data analysis. 
-For example, an application developer platform can include templates for provisioning 
-complete development environments and could serve the following use cases:
+It is key to note that a platform is bespoke to an organization, supporting 
+a unique set of users and business needs. Therefore, platforms are not to be confused 
+as just an Internal Developer Portal (IDP) or Service Catalog [[5]]. While those interfaces 
+can certainly be helpful for many organizations, ultimately platform engineering teams
+need to take a platform as product approach and think deeply about the business objectives 
+of their organizations. At its very basic level, a platform could simply be a place where 
+users go for basic actions like user management, technical docs, or incident management if that 
+is what is most needed.
+ 
+However, just like any product, a platform can evolve over time to meet more complex needs of an organization. 
+For example, some example use cases an enterprise can meet with a platform include the following:
 
 1. Developers of products or services can automatically request a complete 
    development environment to support iterative research and development of new 
-   features. This includes spaces in relevant services such as task runners and 
-   artifact storage, membership in designated teams, and publication of connection 
+   features. This includes spaces in relevant services such as Kubernetes clusters, 
+   task runners and artifact storage, membership in designated teams, and publication of connection 
    info such as URLs and secrets.
-1. Developers of products or services can use scenario-specific code and 
-   configuration templates to rapidly bootstrap, develop and deliver new products 
-   and features
-1. Stakeholders in a product or service can observe system and user behavior in 
-   those products and services via instrumentation, dashboards and alerts
-
-A platform is bespoke to an organisation, supporting a unique set of users and 
-business needs. While application developement and delivery is often the first 
-capability a platform supports, it is important to focus on the individual needs of 
-the organization which often surfaces additional opportunities to optimise through 
-a platform offering. Some examples can include data operations, user management, and 
-incident management.
+1. Engineering Teams and SRE Teams have a central location for observability where infrastructure
+	and services can be onboarded into a single observability platform. 
+	This allows for a consistent approach to observability while giving developers 
+	an easy interface to be able to do this for any app or cloud service.
+1. Operators of third-party products and services can automatically provision 
+   spaces and supporting services to deploy and use those third-party products and 
+   services
+   
+Therefore, It is recommended that platform engineering teams start with the thinnest viable platform (TVP) [[6]], 
+which is very similar to the concept of an MVP - solve
+for the key needs of your organization with the most basic and continue to evolve your platform just like 
+any other product. 
 
 By offering consistent experiences for individual and/or scenario-oriented sets 
 of capabilities, platforms make it easy for their users to deliver valuable products.
 
 [1]: https://www.atlassian.com/devops/frameworks/team-topologies
 [2]: https://martinfowler.com/articles/talk-about-platforms.html
+[3]: https://thenewstack.io/platform-as-a-product-true-devops/
+[4]: https://thenewstack.io/platform-engineering-in-2023-doing-more-with-less/
+[5]: https://thenewstack.io/platform-engineering-is-not-about-building-fancy-uis/
+[6]: https://teamtopologies.com/key-concepts-content/what-is-a-thinnest-viable-platform-tvp
 
 ## Attributes of platforms
 
