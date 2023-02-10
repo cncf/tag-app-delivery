@@ -115,6 +115,7 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * Philipp Achmueller (suXess-it)
 * Johannes Kleinlercher (suXess-it)
 * Mauricio Salatino "salaboy" (Diagrid)
+* Paolo Martinoli (Mia-Platform)
 
 ## Chairs
 * Josh Gavant
