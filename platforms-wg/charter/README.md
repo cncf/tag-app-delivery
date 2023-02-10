@@ -52,7 +52,6 @@ There is a need to declare cloud provider infrastructure resources as CRDs so th
 ## Alignment with TAG App Delivery Charter
 As application delivery is often coupled to the underlying infrastructure (when thinking of services like external databases, message queues,...), this can often impact package formats and the application delivery workflow. This topic would handle the “Application definition, including description, parameter and configuration”, “Application bundling and deployment”, and “Application delivery workflow and strategy” topics of the TAG charter. As these should be done using configuration-driven tools (“GitOps”), this also touches the “Configuration source driven workflow” area.
 
-
 ## Working mode / expected outcome
 The group discusses concepts, plans and develops a demo infrastructure (as code) to handle these use cases (e.g. App-Ready-Platform as code). This might be implemented using different tools (link to landscape) and could be a blueprint for end users. Furthermore, the validated best practices might then be documented in a white paper.
 
@@ -72,58 +71,3 @@ _Focusing on the key stakeholder, who in this scenario is an engineer potentiall
 * An opinion on how to build microservice applications or cloud-native architecture.
 * Defining how deployments should be done.
 * Creation of a new CNCF open source project.
-
-## Working Group Meetings
-* To be defined
-
-## Interested Parties
-* Thomas Schuetz (Dynatrace)
-* Alex Jones (Civo)
-* Jennifer Strejevitch (VMware)
-* Phil Sautter (HashiCorp)
-* Roberth Strand (Crayon)
-* Saiyam Pathak (Civo)
-* Josh Gavant (Discover)
-* Hongchao Deng (Alibaba)
-* Tracy Ragan (DeployHub)
-* Will Wang(Tencent)
-* Toni Menzel (rebaze)
-* Viktor Farcic (Shipa)
-* Jesse Butler (AWS)
-* Zheng Xi Zhou (Alibaba Cloud)
-* Sumit Shatwara (Red Hat)
-* Matt Clarke (Spotify)
-* Soheil Eizadi (Infoblox)
-* Uma Mukkara (ChaosNative)
-* Karena Angell (Red Hat)
-* Ramon Roman Nissen (Red Hat)
-* Devdatta Kulkarni (CloudARK)
-* Jim Haughwout (Peloton)
-* David Harris (Weaveworks)
-* David Stauffer (Weaveworks)
-* Leonardo Murillo (Weaveworks)
-* Scott Rigby (Weaveworks)
-* Ethan Goldblum (Box)
-* Matt Young (EverQuote)
-* Henrik Blixt (Intuit)
-* Kiran Mova (MayaData)
-* Antonin Kral (IPFabric)
-* Sebastian Pleschko (REWE International)
-* Todd Ekenstam (Intuit)
-* Chris Hunt (Stack Overflow)
-* Thomas Vitale (Systematic)
-* Philipp Achmueller (suXess-it)
-* Johannes Kleinlercher (suXess-it)
-* Mauricio Salatino "salaboy" (Diagrid)
-
-## Chairs
-* Josh Gavant
-* Roberth Strand
-
-## TAG Contact
-* Alex Jones
-* Thomas Schuetz
-
-
-
-
