@@ -183,7 +183,7 @@ of a platform.
    as a golden path.
 1. **Self-service**. A platform should be self-serviceable. Users must be able to request and
    receive capabilities autonomously and automatically. This property is key to allowing a platform
-   team to enable multiple stream-aligned teams at scale. The platform capabilities should be
+   team to enable multiple stream-aligned teams and scale as needed. The platform capabilities should be
    available on demand and with minimal manual intervention via the interfaces described above.
    For example, it should be possible for a user to request a database and receive its locator
    and credentials by running a command-line tool or filling out a form on a web portal.
