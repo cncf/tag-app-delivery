@@ -155,23 +155,20 @@ of capabilities, platforms make it easy for their users to deliver valuable prod
 ## Attributes of platforms
 
 After defining what a platform is and why an organization might want to build one,
-it's relevant to identify what are the key attributes that affect the success
-of a platform.
+let's identify some key attributes that affect the success of a platform.
 
 1. **Platform as a product**. A platform exists to serve the requirements of its users
    and it should be designed and evolved based on those requirements, similar to any
-   other software products.
-1. **Common requirements**. A platform should provide the necessary capabilities to
-   support the most common use cases across stream-aligned teams, and prioritize those
+   other software products. Platforms should provide the necessary capabilities to
+   support the most common use cases across product teams, and prioritize those
    over more specific capabilities that are only used by a single team to maximize
    the value delivered.
 1. **User experience**. A platform should offer its capabilities through consistent
-   interfaces and focus on the user experience. Users should be able to request, manage,
-   and observe such capabilities using a combination of GUIs, APIs, command-line tools,
-   IDEs integrations, and portals, depending on their needs. For example, a platform
-   typically offers the capability of deploying an application. Developers might consume
-   such a capability via the IDE; testers might use a command-line tool, whereas a product
-   owner might use a GUI-based web portal.
+   interfaces and focus on the user experience. Platforms should endeavor to meet their
+   users where they are, which may mean a combination of GUIs, APIs, command-line tools,
+   IDEs, and portals. For example, a platform typically offers the capability of deploying
+   an application. Developers might consume such a capability via the IDE, testers might
+   use a command-line tool, whereas a product owner might use a GUI-based web portal.
 1. **Documentation and onboarding**. Documentation is a key aspect of a successful software
    product. To be able to use a platform's offerings, users require documentation and
    examples. A platform should be delivered with proper documentation addressing the
@@ -180,15 +177,15 @@ of a platform.
    For example, the platform could offer a reusable supply chain workflow for building, scanning,
    testing, deploying, and observing a web application on Kubernetes. Such a workflow could be
    offered with an initial project template and documentation, a bundle often described
-   as a golden path.
+   as a _golden path_.
 1. **Self-service**. A platform should be self-serviceable. Users must be able to request and
    receive capabilities autonomously and automatically. This property is key to allowing a platform
-   team to enable multiple stream-aligned teams and scale as needed. The platform capabilities should be
+   team to enable multiple product teams and scale as needed. The platform capabilities should be
    available on demand and with minimal manual intervention via the interfaces described above.
    For example, it should be possible for a user to request a database and receive its locator
    and credentials by running a command-line tool or filling out a form on a web portal.
-1. **Cognitive load**. An essential goal of a platform is to reduce the cognitive
-   load on stream-aligned teams. A platform should encapsulate implementation details and hide
+1. **Reduced cognitive load for users**. An essential goal of a platform is to reduce the cognitive
+   load on product teams. A platform should encapsulate implementation details and hide
    any complexity that might arise from its architecture. For example, a platform might delegate
    certain services to a cloud provider, but users should not be exposed to such details.
    At the same time, the platform should allow users to configure and observe certain services
@@ -196,10 +193,10 @@ of a platform.
    For example, users may often require a database, but they shouldn't have to manage the database
    server.
 1. **Optional and composable**. Platforms are intended to make product development more efficient, so they
-   must not be an impediment. A platform should be composable and enable stream-aligned teams to use only
-   part of its offerings. It should also enable stream-aligned teams to provide and manage their own
+   must not be an impediment. A platform should be composable and enable product teams to use only
+   parts of its offerings. It should also enable product teams to provide and manage their own
    capabilities outside of the platform's offerings when necessary. For example, if a platform doesn't
-   provide a graph database and it's required for a product, it should be possible for the stream-aligned
+   provide a graph database and it's required for a product, it should be possible for the product
    team to provision and operate a graph database themselves.
 1. **Secure by default**. A platform should be secure by default and offer capabilities
    to ensure compliance and validation based on rules and standards defined by the organization.
