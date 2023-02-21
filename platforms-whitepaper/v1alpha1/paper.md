@@ -307,15 +307,15 @@ the platform team include the following:
 ## How to measure the success of platforms
 
 Enterprises will want to measure whether their platform initiatives are
-delivering their anticipated values. Also, throughout this paper we've
+delivering the values and attributes discussed above. Also, throughout this paper we've
 emphasized the importance of treating internal platforms as products, and good
 product management depends on quantitative and qualitative measurement of a
 product's performance. To meet these requirements, internal platform teams
-should gather user feedback and measure user activities.
+should continuously gather user feedback and measure user activities.
 
 As with other aspects of internal platforms, though, platform teams should use
 the smallest viable effort to gather the feedback they need. We'll suggest
-metrics here but simple surveys or question and answer sessions may be most
+metrics here but simple surveys and analysis of user behavior may be most
 valuable initially.
 
 Categories of metrics that will help enterprises and platform teams understand
