@@ -313,32 +313,63 @@ the platform team include the following:
 
 ## How to measure the success of platforms
 
-Having defined what platforms are and the values they intend to provide, let's
-consider how to measure if a platform is providing those values. Notably, the
-success of a platform is directly correlated to the success of products deployed
-on it, and this in turn is largely dependent on user experiences with the
-platform.
+Enterprises will want to measure whether their platform initiatives are
+delivering the values and attributes discussed above. Also, throughout this paper we've
+emphasized the importance of treating internal platforms as products, and good
+product management depends on quantitative and qualitative measurement of a
+product's performance. To meet these requirements, internal platform teams
+should continuously gather user feedback and measure user activities.
 
-A platform's first value is to improve product delivery so platform success
-metrics should reflect that. The DevOps Research and Assessment (DORA) metrics
-suggested by Google provide a baseline and include:
+As with other aspects of internal platforms, though, platform teams should use
+the smallest viable effort to gather the feedback they need. We'll suggest
+metrics here but simple surveys and analysis of user behavior may be most
+valuable initially.
 
-- Frequency of updated deployments
-- Lead time for introducing a change
-- Rate of failure of newly-introduced changes
-- Mean time to recovery from failed changes
+Categories of metrics that will help enterprises and platform teams understand
+the impact of their platforms include the following:
 
-And because a platform's success also depends on its users, platforms should
-also measure users' experiences, including:
+1. User satisfaction and productivity
 
-- Time for a new contributor to submit their first (or 10th!) PR
-- Number of contributions from users, e.g. Backstage plugins, Crossplane
-  compositions
-- Number of projects which diverge from "golden paths" and provided capabilities
-- Number of tickets opened related to platform capabilities
-- Developer satisfaction in the enterprise
-    - Net Promoter Score (NPS)
-    - SPACE framework: https://queue.acm.org/detail.cfm?id=3454124
+The first quality sought by many platforms is to improve user experience in order
+to increase productivity. Metrics that reflect user satisfaction and
+productivity include the following:
+
+- Active users and resources: number of capabilities provisioned and used from the platform
+- "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
+- Metrics for developer productivity such as those discussed in the SPACE framework [[3]]
+
+1. Organizational efficiency
+
+Another benefit sought from many platforms is to efficiently provide common
+needs to a large user base. This is often achieved by enabling user self-service
+and reducing manual steps and required human intervention while implementing
+policies to guarantee safety and compliance. To measure the efficiency of a
+platform in reducing common work, consider measures such as these:
+
+- Latency from request to fulfillment of a service or capability, such as a database or test environment
+- Latency to build and deploy a brand new service into production
+- Time for a new user to submit their first code changes to their product
+
+1. Product and feature delivery
+
+The ultimate objective of internal platforms is to deliver business value to
+customers faster, so measuring impact on a business's own product and feature
+releases demonstrates that the objectives of the platform are being met. The
+DevOps Research and Assessment (DORA) institute at Google suggests [[4]]
+tracking the following metrics:
+
+- Deployment frequency
+- Lead time for changes
+- Time to restore services after failure
+- Change failure rate
+
+Generally, a key objective of platform teams is to align infrastructure and
+other IT capabilities with an enterprise's value streams - its products. And so
+ultimately the success of an organization's products and applications are the
+true measure of the success of a platform.
+
+[3]: https://queue.acm.org/detail.cfm?id=3454124
+[4]: https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
 
 ## Capabilities of platforms
 
