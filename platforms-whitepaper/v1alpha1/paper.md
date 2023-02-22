@@ -154,62 +154,52 @@ of capabilities, platforms make it easy for their users to deliver valuable prod
 
 ## Attributes of platforms
 
-Following are key attributes that affect the success of a platform for
-cloud-native computing. Such a platform should:
+After defining what a platform is and why an organization might want to build one,
+let's identify some key attributes that affect the success of a platform.
 
-1. Be designed and continuously improved based on requirements of its users like
-   any product
-1. Manage common capabilities required and used by many application teams
-1. Offer consistent interfaces and experiences - GUIs, APIs, and tools - for
-   requesting, managing and observing capabilities
-1. Include documentation and code templates to ease use of its capabilities.
-   Advanced platforms should offer docs and templates for composed scenarios.
-1. Be self-serviceable - users must be able to request and receive capabilities
-   and compositions independently
-1. Be automatable - users must be able to program requests for capabilities
-1. Encapsulate implementation of capabilities and services while enabling
-   required configuration and observation
-1. Be optional - users should be able to use some platform capabilities but
-   acquire others outside of the platform's offerings
-
-A platform exists to serve the common requirements of many disparate users \[1,2\]
-and use cases. It serves those requirements through consistent interfaces of
-several types \[3\], particularly HTTP APIs, Web portals, and command-line tools.
-For example, all platform users require the ability to observe their workloads,
-so a platform might offer a capability to collect and display logs, metrics and
-traces from applications. It might enable users to request and use that
-capability via an API and a Web page.
-
-To be able to use a platform's offerings, users require documentation and
-examples \[4\]. So a platform team needs to not only make a capability like
-observability available, but also publish templates and docs to help users
-consume it. For example, a platform team might publish a reusable workflow for
-building, testing, deploying and verifying a Web application on Kubernetes.
-Beyond examples for individual resource types, advanced platforms should group
-collections of templates and guidance for specific scenarios, a bundle often
-described as a golden path.
-
-The capabilities provided by a platform should be available to users on demand
-\[5\] with minimal manual intervention. The interfaces discussed above - APIs and
-web pages - should enable users to get resources they need in a few minutes with
-at most an approval. For example, a web page describing a database management
-service should include a button to request a database and share a locator and
-credentials for that database within a few minutes of the request.
-
-One of the purposes of a platform is to reduce cognitive load on product teams,
-so services offered by the platform should not need to be operated by consumers;
-either the platform provider or its delegates, such as a cloud service, should
-handle those operations, hiding complexity \[7\] from users. For example, users
-may often require a message queue, but shouldn't have to manage a message
-broker.
-
-Platforms are intended to make product development more efficient, so it's
-important they not be an impediment \[8\] when the most efficient path is to not
-use the platform's offerings. Platforms should enable product teams to
-provide and manage their own capabilities when necessary. For example, if a
-platform team doesn't provide a graph database and it's required for a product,
-it should be possible for that product team to provision and operate a graph
-database themselves.
+1. **Platform as a product**. A platform exists to serve the requirements of its users
+   and it should be designed and evolved based on those requirements, similar to any
+   other software products. Platforms should provide the necessary capabilities to
+   support the most common use cases across product teams, and prioritize those
+   over more specific capabilities that are only used by a single team to maximize
+   the value delivered.
+1. **User experience**. A platform should offer its capabilities through consistent
+   interfaces and focus on the user experience. Platforms should endeavor to meet their
+   users where they are, which may mean a combination of GUIs, APIs, command-line tools,
+   IDEs, and portals. For example, a platform typically offers the capability of deploying
+   an application. Developers might consume such a capability via the IDE, testers might
+   use a command-line tool, whereas a product owner might use a GUI-based web portal.
+1. **Documentation and onboarding**. Documentation is a key aspect of a successful software
+   product. To be able to use a platform's offerings, users require documentation and
+   examples. A platform should be delivered with proper documentation addressing the
+   needs of its users. It should also provide tools to accelerate the onboarding of new projects
+   that can help users consume the necessary platform services in a quick and simple way.
+   For example, the platform could offer a reusable supply chain workflow for building, scanning,
+   testing, deploying, and observing a web application on Kubernetes. Such a workflow could be
+   offered with an initial project template and documentation, a bundle often described
+   as a _golden path_.
+1. **Self-service**. A platform should be self-serviceable. Users must be able to request and
+   receive capabilities autonomously and automatically. This property is key to allowing a platform
+   team to enable multiple product teams and scale as needed. The platform capabilities should be
+   available on demand and with minimal manual intervention via the interfaces described above.
+   For example, it should be possible for a user to request a database and receive its locator
+   and credentials by running a command-line tool or filling out a form on a web portal.
+1. **Reduced cognitive load for users**. An essential goal of a platform is to reduce the cognitive
+   load on product teams. A platform should encapsulate implementation details and hide
+   any complexity that might arise from its architecture. For example, a platform might delegate
+   certain services to a cloud provider, but users should not be exposed to such details.
+   At the same time, the platform should allow users to configure and observe certain services
+   as needed. Users must not be responsible for operating the services offered by the platform.
+   For example, users may often require a database, but they shouldn't have to manage the database
+   server.
+1. **Optional and composable**. Platforms are intended to make product development more efficient, so they
+   must not be an impediment. A platform should be composable and enable product teams to use only
+   parts of its offerings. It should also enable product teams to provide and manage their own
+   capabilities outside of the platform's offerings when necessary. For example, if a platform doesn't
+   provide a graph database and it's required for a product, it should be possible for the product
+   team to provision and operate a graph database themselves.
+1. **Secure by default**. A platform should be secure by default and offer capabilities
+   to ensure compliance and validation based on rules and standards defined by the organization.
 
 ## Attributes of platform teams
 
