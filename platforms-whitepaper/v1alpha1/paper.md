@@ -465,7 +465,7 @@ influential.
 
 **Platforms** enable developers and operators to deliver applications and
 services faster by providing and managing common capabilities. Platforms bridge
-between platform users and platform capability providers, and are developed and
+between platform users and platform capability providers, and are built and
 maintained by platform teams.
 
 **Platform capability providers** develop and maintain the capabilities offered
