@@ -81,17 +81,19 @@ identity access, infrastructure operations, and app lifecycle.
 
 ## What is a platform
 
-A platform is a layer that provides common supporting capabilities and services 
-for many applications and use cases. Such a platform provides consistent user 
-experiences for getting, using and managing its capabilities and services, 
-including Web portals and pages, scenario-specific code templates, automatable 
-APIs and command-line tools.
+A platform for cloud-native computing is an integrated collection of
+capabilities defined and presented according to the needs of the platform's
+users. It is a cross-cutting layer that ensures a consistent experience for
+acquiring and integrating typical capabilities and services for a broad set of
+applications and use cases. A good platform provides consistent user experiences
+for using and managing its capabilities and services, such as Web portals,
+project templates, and self-service APIs.
 
 According to Atlassian [[1]], "platform teams create capabilities that can be 
-used by numerous stream-aligned teams with little overhead.... platform teams 
-minimize resources and cognitive load of the stream-aligned team... platform 
-teams can create a cohesive experience that spans across different user 
-experiences or products."
+used by numerous stream-aligned [product] teams with little overhead....
+platform teams minimize resources and cognitive load of the stream-aligned
+[product] team... platform teams can create a cohesive experience that spans
+across different user experiences or products."
 
 According to Martin Fowler and Evan Bottcher [[2]], "a digital platform is a 
 foundation of self-service APIs, tools, services, knowledge and support which 
@@ -101,13 +103,13 @@ reduced coordination."
 
 The specific set of capabilities provided by a platform depends on the
 requirements of the platform's users. And while platforms _provide_ these
-required capabilities, it's critical to note that the platform team generally
-shouldn't _implement_ them themselves. Managed providers or dedicated teams
-should maintain implementations while the platform itself should be the thinnest
-consistent layer that meets an organization's requirements. For example, the
-simplest "platform" would be a wiki page with links to provision capabilities
-from providers. Some [[3]] have described this principle as seeking the
-"thinnest viable platform".
+required capabilities, it's critical to note that platform teams should not
+always _implement_ them themselves. Managed service providers or dedicated
+internal teams can maintain backing implementations while platforms are the
+thinnest reasonable layer that provides consistency for these implementations
+that meets an organization's requirements. For example, a very simple "platform"
+could be a wiki page with links to standard operating procedures to provision
+capabilities from providers, as described in [[3]].
 
 Because these platforms target no more and no less than an enterprise's internal
 users we often refer to them as _internal_ platforms.
@@ -126,39 +128,27 @@ applications and systems.
 
 At their most basic, internal platforms provide consistent experiences for
 acquiring and using individual services such as a pipeline runner, a database
-system or a secret store. Example use cases an enterprise can meet with a basic
-platform include the following:
+system or a secret store. As they mature internal platforms also offer
+_compositions_ of such services as self-serviceable templates for key scenarios
+like web application development or data analysis, aka MLOps.
 
-1. Developers of products and services can automatically provision runtime 
-   capabilities such as compute, storage, databases and service identity and 
-   immediately integrate and use those as part of their products
-1. Developers of products and services can automatically provision supporting 
-   services such as task runners, package registries, deployment orchestrators and 
-   observability systems to build, verify, operate and observe their products
-1. Operators of third-party products and services can automatically provision 
-   spaces and supporting services to deploy and use those third-party products and 
-   services
+Use cases an enterprise could meet with platforms might progress through the
+following:
 
-A more advanced internal platform also _composes_ capabilities into experiences
-and templates fit for key scenarios like web application development or data
-analysis. For example, an internal developer platform includes templates for
-provisioning complete development environments and could serve the following use
-cases:
-
-1. Developers of products or services can automatically request a complete 
-   development environment to support iterative research and development of new 
-   features. This includes spaces in relevant services such as task runners and 
-   artifact storage, membership in designated teams, and publication of connection 
-   info such as URLs and secrets.
-1. Developers of products or services can use scenario-specific code and 
-   configuration templates to rapidly bootstrap, develop and deliver new products 
-   and features
-1. Stakeholders in a product or service can observe system and user behavior in 
-   those products and services via instrumentation, dashboards and alerts
+1. Product developers can provision capabilities on demand and immediately use
+   them to run systems, such as compute, storage, databases or identities.
+1. Product developers can provision service spaces on demand and use them to run
+   pipelines and tasks, to store artifacts and configuration, and/or to collect
+   telemetry.
+1. Third-party software operators can provision dependencies on demand and run
+   that software.
+1. Product developers can provision complete environments from templates
+   combining run-time and development-time services required for specific
+   scenarios, such as web development or MLOps.
 
 By offering consistent, compliant experiences for individual capabilities or
-sets of them, internal platforms make it easier and more efficient for their
-users to deliver valuable products.
+sets of them, internal platforms ultimately make it easier and more efficient
+for their users to deliver valuable products.
 
 [1]: https://www.atlassian.com/devops/frameworks/team-topologies
 [2]: https://martinfowler.com/articles/talk-about-platforms.html
@@ -224,38 +214,42 @@ those experiences meet requirements.
 
 Following are jobs a platform team should be responsible for:
 
-1. Research platform user requirements
-1. Manage and develop interfaces for capabilities and services - portals, APIs,
-   docs and templates, CLIs
-1. Market, evangelize and advocate for platform usage
+1. Research platform user requirements and plan feature roadmap
+1. Market, evangelize and advocate for the platform's proposed values
+1. Manage and develop interfaces for using and observing capabilities and
+   services, including portals, APIs, documentation and templates, and CLI tools
 
 Most importantly, platform teams must learn about the requirements of platform
-users \[1\] to inform and continuously improve capabilities and interfaces offered
-by their platform. Ways to learn about user requirements include user
-interviews, interactive hackathons, issue trackers and surveys, and direct
-observation of usage through observability tools. For example, a platform team
-could publish a form for users to submit feature requests; and conduct periodic
-roadmap meetings to share upcoming features and gather feedback.
+users to inform and continuously improve capabilities and interfaces offered by
+their platform. Ways to learn about user requirements include user interviews,
+interactive hackathons, issue trackers and surveys, and direct observation of
+usage through observability tools. For example, a platform team could publish a
+form for users to submit feature requests; and conduct periodic roadmap meetings
+to share upcoming features and gather feedback.
+
+Inbound feedback and thoughtful design is one side of product delivery; the
+other side is outbound marketing and advocacy. If the platform is truly built to
+user requirements those users will be excited to use the provided capabilities.
+Some ways a platform team can enable user adoption is through internal marketing
+activities including broad announcements, engaging demos, and regular feedback
+and communication sessions.  The key here is to meet users where they are and
+bring them on a journey to engage with and benefit from the platform.
 
 A platform team doesn't necessarily run compute, network, storage or other
-services, and in fact an internal platform should be as thin as viable as
-described above. A platform team instead is most responsible for the
-_interfaces_ \[2\] (GUI, CLI, API) and user experiences with those services. For
-example, a Web portal page might describe and even offer a button to provision
-an identity for an app; while the implementation of that capability might be via
-a cloud-hosted identity service.  An internal platform team may manage the web
-page and user-facing API, but not necessarily the implementation.
+services. In fact an internal platform should rely on _externally_-provided
+services and capabilities as much as possible; platform teams should build and
+maintain their own capabilities only when they're not available elsewhere from
+managed providers or internal infrastructure teams. Instead, platform teams are
+most responsible for the _interfaces_ (i.e., GUI, CLI, and API) and user
+experiences for the services and capabilities their platform makes available.
 
-Earlier it was stated that an internal platform should be treated as a product.
-Specifically, the platform should be continuously improved based on user
-requirements and optional to use (see: platform attributes #1 and #8). While
-research and design is one side of product delivery, the other side is marketing
-and advocacy \[3\]. If the platform is truly being built to user requirements,
-people should be excited to use the provided capabilities. Some ways a platform
-team can help adoptions is through internal marketing activities including
-delivering department wide announcements, sharing engaging demos, and welcoming
-questions during regular office hours. The key here is to meet users where they
-are, and bring them on the journey to engage with and benefit from the platform.
+For example, a Web page in a platform might describe and even offer a button to
+provision an identity for an app; while the implementation of that capability
+might be via a cloud-hosted identity service. An internal platform team may
+manage the web page and an API, but not the actual service implementation.
+Platform teams should consider creating and maintaining their own capabilities
+only when a required capability is not available elsewhere.
+
 
 ## Challenges with platforms
 
