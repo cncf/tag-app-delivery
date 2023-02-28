@@ -101,15 +101,15 @@ are arranged as a compelling internal product. Autonomous delivery teams can
 make use of the platform to deliver product features at a higher pace, with 
 reduced coordination."
 
-The specific set of capabilities and scenarios supported
-by a platform should be determined by the needs of your internal stakeholders. 
-And while platforms _provide_ these required capabilities, it's critical to note 
-that platform teams should not always _implement_ them themselves. Managed service 
-providers or dedicated internal teams can maintain backing implementations 
-while platforms are the thinnest reasonable layer that provides consistency for these 
-implementations that meets an organization's requirements. 
-For example, a very simple "platform" could be a wiki page with links to 
-standard operating procedures to provision capabilities from providers, as described in [[3]].
+The specific set of capabilities and scenarios supported by a platform should be
+determined by the needs of stakeholders and users. And while platforms _provide_
+these required capabilities, it's critical to note that platform teams should
+not always _implement_ them themselves. Managed service providers or dedicated
+internal teams can maintain backing implementations while platforms are the
+thinnest reasonable layer that provides consistency for these implementations
+that meets an organization's requirements.  For example, a very simple
+"platform" could be a wiki page with links to standard operating procedures to
+provision capabilities from providers, as described in [[3]].
 
 Because these platforms target no more and no less than an enterprise's internal
 users we often refer to them as _internal_ platforms.
@@ -145,10 +145,9 @@ following:
 1. Product developers can provision complete environments from templates
    combining run-time and development-time services required for specific
    scenarios, such as web development or MLOps.
-1. Product developers and managers can observe functionality, performance, and cost
-	of deployed services through automatic instrumentation and single pane of glass
-	dashboards. 
-
+1. Product developers and managers can observe functionality, performance, and
+   cost of deployed services through automatic instrumentation and standard
+   dashboards.
 
 By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
@@ -254,7 +253,6 @@ manage the web page and an API, but not the actual service implementation.
 Platform teams should usually consider creating and maintaining their own
 capabilities only when a required capability is not available elsewhere.
 
-
 ## Challenges with platforms
 
 While platforms promise lots of value, they also bring challenges like the
@@ -295,7 +293,7 @@ demonstrate their direct impact on and relationships with product and value
 stream teams (see the previous two paragraphs), presenting the platform team as
 a strategic partner of product teams in delivering value to customers.
 
-## Enabling platform teams
+### Enabling platform teams
 
 It is clear from these challenges that platform teams are faced with a number of
 diverse responsibilities which lead to cognitive load. Just as with their
@@ -330,7 +328,7 @@ valuable initially.
 Categories of metrics that will help enterprises and platform teams understand
 the impact of their platforms include the following:
 
-1. User satisfaction and productivity
+### User satisfaction and productivity
 
 The first quality sought by many platforms is to improve user experience in order
 to increase productivity. Metrics that reflect user satisfaction and
@@ -338,9 +336,9 @@ productivity include the following:
 
 - Active users and retention: includes number of capabilities provisioned and user growth/churn
 - "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
-- Metrics for developer productivity such as those discussed in the SPACE framework [[3]]
+- Metrics for developer productivity such as those discussed in the SPACE framework [[4]]
 
-1. Organizational efficiency
+### Organizational efficiency
 
 Another benefit sought from many platforms is to efficiently provide common
 needs to a large user base. This is often achieved by enabling user self-service
@@ -352,12 +350,12 @@ platform in reducing common work, consider measures such as these:
 - Latency to build and deploy a brand new service into production
 - Time for a new user to submit their first code changes to their product
 
-1. Product and feature delivery
+### Product and feature delivery
 
 The ultimate objective of internal platforms is to deliver business value to
 customers faster, so measuring impact on a business's own product and feature
 releases demonstrates that the objectives of the platform are being met. The
-DevOps Research and Assessment (DORA) institute at Google suggests [[4]]
+DevOps Research and Assessment (DORA) institute at Google suggests [[5]]
 tracking the following metrics:
 
 - Deployment frequency
@@ -375,44 +373,56 @@ true measure of the success of a platform.
 
 ## Capabilities of platforms
 
-As described earlier, a platform for cloud-native computing offers and composes
+As we've described, a platform for cloud-native computing offers and composes
 capabilities and services from many supporting providers. These providers may be
 other teams within the same enterprise or third parties like cloud service
-providers. Platforms enable use of the capabilities and services from these
-providers by wrapping them with consistent web portals, documentation, code
-templates, and programmable APIs and tools. 
-
-In a nutshell, platforms bridge from underlying capability _providers_ to
-platform users like application developers; and in the process implement and
-enforce desired practices for security, performance, cost governance and
-consistent experience. The following graphic illustrates the relationships
-between product, platform, and capability providers.
+providers. In a nutshell, platforms bridge from underlying _capability
+providers_ to platform users like application developers; and in the process
+implement and enforce desired practices for security, performance, cost
+governance and consistent experience. The following graphic illustrates the
+relationships between products, platforms, and capability providers.
 
 <img src="assets/platform_components.png" width=600px />
 
-We've described the attributes and values of platforms and platform teams. Now
-let's describe the kinds of capabilities typically required in cloud-native
-computing platforms. Our goal is to guide platform engineers in ensuring their
-platform is complete.
+We've focused in this paper on how to construct a good platform and platform
+team; now in this last section we'll describe the capabilities a platform may
+actually offer. This list is intended to guide platform builders and includes
+capabilities typically required by cloud-native applications. As we've noted
+throughout though, a good platform reflects its users' needs, so ultimately
+platform teams should choose and prioritize the capabilities their platform
+offers together with its users.
 
-1. **Web portal** for provisioning and observing capabilities
+Capabilities may comprise several _features_, meaning aspects or attributes of
+the parent capability's domain. For example, observability may include features
+for gathering and publishing metrics, traces and logs as well as for observing
+costs and energy consumption. Consider the need and priority for each feature or
+aspect in your organization. Later CNCF publications may expand on each
+domain further.
+
+Here are capability domains to consider when building platforms for cloud-native
+computing:
+
+1. **Web portals** for observing and provisioning services
 1. **APIs** (and CLIs) for automatically provisioning capabilities
 1. **"Golden path" templates and docs** enabling optimal use of capabilities
 1. **Automation for building and testing** services and products
 1. **Automation for delivering and verifying** services and products
-1. **Development environments**: hosted IDEs, remote connection tools
-1. Instrumentation and dashboards to enable **observability** of services and
-   products, including function, performance and cost
-1. **Infrastructure** services: compute runtimes, programmable networks, block
-   and volume storage
-1. **Data** services: databases, caches, object stores
-1. **Messaging** and event services: brokers, queues, event fabrics
-1. **Identity and secret** management services: service and user identity and
-   authorization, certificate and key issuance, static secret storage
-1. **Security** services: static analysis of code and artifacts, runtime analysis,
-   policy enforcement
-1. **Artifact storage**: container image and language-specific package management,
-   custom binaries and libraries, source code
+1. **Development environments** such as hosted IDEs and remote connection tools
+1. **Observability** for services and products using instrumentation and
+   dashboards, including observation of functionality, performance and costs
+1. **Infrastructure** services including compute runtimes, programmable
+   networks, and block and volume storage
+1. **Data** services including databases, caches, and object stores
+1. **Messaging** and event services including brokers, queues, and event fabrics
+1. **Identity and secret** management services such as service and user identity
+   and authorization, certificate and key issuance, and static secret storage
+1. **Security** services including static analysis of code and artifacts,
+   runtime analysis, and policy enforcement
+1. **Artifact storage** including storage of container image and
+   language-specific packages, custom binaries and libraries, and source code
+
+The following table is intended to help readers grasp each capability by loosely
+relating it to existing CNCF or CDF projects.
 
 <table>
   <thead>
@@ -505,7 +515,7 @@ maintained by platform teams.
 by the platform. Providers can be both external organizations or internal teams,
 and capabilities can be infrastructure, runtime, or other supporting services.
 
-**Platform developers** and **platform engineers** are responsible for developing and 
+**Platform engineers** are responsible for developing and 
 maintaining interfaces and tools to enable provisioning and integration of platform 
 capabilities in applications, according to the requirements and instructions provided 
 by platform product managers. Platform developers are usually grouped in platform teams.
@@ -526,7 +536,7 @@ QA analysts, UI/UX designers, technical writers, developer advocates.
 scientists, COTS software operators, and information workers - whoever runs
 software on the platform or uses platform provided capabilities.
 
-**Thinnest viable platform (TVP)** is a concept originally defined in the book *Team Topologies*,
+**Thinnest viable platform (TVP)** is a concept originally defined in the book *Team Topologies*
 by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
 keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
 software delivery for teams building on the platform."
