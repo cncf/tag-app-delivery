@@ -224,8 +224,8 @@ users to inform and continuously improve capabilities and interfaces offered by
 their platform. Ways to learn about user requirements include user interviews,
 interactive hackathons, issue trackers and surveys, and direct observation of
 usage through observability tools. For example, a platform team could publish a
-form for users to submit feature requests; and conduct periodic roadmap meetings
-to share upcoming features and gather feedback.
+form for users to submit feature requests, lead roadmap meetings
+to share upcoming features and review users' usage patterns to set priorities.
 
 Inbound feedback and thoughtful design is one side of product delivery; the
 other side is outbound marketing and advocacy. If the platform is truly built to
@@ -247,8 +247,8 @@ For example, a Web page in a platform might describe and even offer a button to
 provision an identity for an app; while the implementation of that capability
 might be via a cloud-hosted identity service. An internal platform team may
 manage the web page and an API, but not the actual service implementation.
-Platform teams should consider creating and maintaining their own capabilities
-only when a required capability is not available elsewhere.
+Platform teams should usually consider creating and maintaining their own
+capabilities only when a required capability is not available elsewhere.
 
 
 ## Challenges with platforms
@@ -373,7 +373,7 @@ true measure of the success of a platform.
 
 As described earlier, a platform for cloud-native computing offers and composes
 capabilities and services from many supporting providers. These providers may be
-other teams within the same enterprise or third parties like "cloud" service
+other teams within the same enterprise or third parties like cloud service
 providers. Platforms enable use of the capabilities and services from these
 providers by wrapping them with consistent web portals, documentation, code
 templates, and programmable APIs and tools. 
