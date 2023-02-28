@@ -409,6 +409,7 @@ platform is complete.
    policy enforcement
 1. **Artifact storage**: container image and language-specific package management,
    custom binaries and libraries, source code
+1. **Sustainability and cost governance** services and products
 
 <table>
   <thead>
@@ -478,6 +479,11 @@ platform is complete.
     <td>Artifact storage </td>
     <td>Store, publish and secure built artifacts for use in production. Cache and analyze third-party artifacts. Store source code.</td>
     <td>ArtifactHub, Harbor, Distribution, Porter</td>
+  </tr>
+  <tr>
+    <td>Sustainability and cost governance</td>
+    <td>Help the platform  to be more sustainable in terms of energy savings and carbon footprint reduction, while also cutting costs.</td>
+    <td>Kube-green</td>
   </tr>
 </table>
 
