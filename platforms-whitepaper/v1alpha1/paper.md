@@ -104,12 +104,12 @@ reduced coordination."
 The specific set of capabilities and scenarios supported
 by a platform should be determined by the needs of your internal stakeholders. 
 And while platforms _provide_ these required capabilities, it's critical to note 
-that platform teams should notalways _implement_ them themselves. Managed service 
+that platform teams should not always _implement_ them themselves. Managed service 
 providers or dedicated internal teams can maintain backing implementations 
 while platforms are the thinnest reasonable layer that provides consistency for these 
 implementations that meets an organization's requirements. 
 For example, a very simple "platform" could be a wiki page with links to 
-standard operating procedures to provisioncapabilities from providers, as described in [[3]].
+standard operating procedures to provision capabilities from providers, as described in [[3]].
 
 Because these platforms target no more and no less than an enterprise's internal
 users we often refer to them as _internal_ platforms.
@@ -146,7 +146,7 @@ following:
    combining run-time and development-time services required for specific
    scenarios, such as web development or MLOps.
 1. Product developers and managers can observe functionality, performance, and cost
-	of deployed services through automatuomatic instrumentation and single pane of glass
+	of deployed services through automatic instrumentation and single pane of glass
 	dashboards. 
 
 
