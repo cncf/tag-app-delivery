@@ -101,20 +101,20 @@ are arranged as a compelling internal product. Autonomous delivery teams can
 make use of the platform to deliver product features at a higher pace, with 
 reduced coordination."
 
-The specific set of capabilities provided by a platform depends on the
-requirements of the platform's users. And while platforms _provide_ these
-required capabilities, it's critical to note that platform teams should not
-always _implement_ them themselves. Managed service providers or dedicated
-internal teams can maintain backing implementations while platforms are the
-thinnest reasonable layer that provides consistency for these implementations
-that meets an organization's requirements. For example, a very simple "platform"
-could be a wiki page with links to standard operating procedures to provision
-capabilities from providers, as described in [[3]].
+The specific set of capabilities and scenarios supported
+by a platform should be determined by the needs of your internal stakeholders. 
+And while platforms _provide_ these required capabilities, it's critical to note 
+that platform teams should not always _implement_ them themselves. Managed service 
+providers or dedicated internal teams can maintain backing implementations 
+while platforms are the thinnest reasonable layer that provides consistency for these 
+implementations that meets an organization's requirements. 
+For example, a very simple "platform" could be a wiki page with links to 
+standard operating procedures to provision capabilities from providers, as described in [[3]].
 
 Because these platforms target no more and no less than an enterprise's internal
 users we often refer to them as _internal_ platforms.
 
-Platforms are particularly relevant for cloud-native architectures because these
+Platforms are particularly relevant for cloud-native architectures because they
 separate supporting capabilities from application-specific logic more than
 previous paradigms. In cloud-like environments resources and capabilities are
 often managed independently and integrated with custom business components; such
@@ -145,6 +145,10 @@ following:
 1. Product developers can provision complete environments from templates
    combining run-time and development-time services required for specific
    scenarios, such as web development or MLOps.
+1. Product developers and managers can observe functionality, performance, and cost
+	of deployed services through automatic instrumentation and single pane of glass
+	dashboards. 
+
 
 By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
@@ -332,7 +336,7 @@ The first quality sought by many platforms is to improve user experience in orde
 to increase productivity. Metrics that reflect user satisfaction and
 productivity include the following:
 
-- Active users and resources: number of capabilities provisioned and used from the platform
+- Active users and retention: includes number of capabilities provisioned and user growth/churn
 - "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
 - Metrics for developer productivity such as those discussed in the SPACE framework [[3]]
 
@@ -521,6 +525,8 @@ opportunities.
 - https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249
 - https://thenewstack.io/vmware-targets-the-platform-engineer/
 - https://platformcon.com/
+- https://thenewstack.io/architecture-and-design-considerations-for-platform-engineering-teams/
+- https://rafay.co/the-kubernetes-current/architecture-and-design-considerations-for-platform-engineering-teams
 - https://medium.com/@michael.roy.galloway/your-platform-org-needs-a-purpose-heres-how-to-find-it-64874b082d80
 - https://www.infoq.com/news/2022/10/platform-devops-summary/
 - https://salaboy.com/2022/09/29/the-challenges-of-platform-building-on-top-of-kubernetes-1-4/
