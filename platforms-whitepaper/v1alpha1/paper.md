@@ -106,8 +106,8 @@ determined by the needs of stakeholders and users. And while platforms _provide_
 these required capabilities, it's critical to note that platform teams should
 not always _implement_ them themselves. Managed service providers or dedicated
 internal teams can maintain backing implementations while platforms are the
-thinnest reasonable layer that provides consistency for these implementations
-that meets an organization's requirements.  For example, a very simple
+thinnest reasonable layer that provides consistency across provided implementations
+and meets an organization's requirements. For example, a very simple
 "platform" could be a wiki page with links to standard operating procedures to
 provision capabilities from providers, as described in [[3]].
 
@@ -402,9 +402,9 @@ domain further.
 Here are capability domains to consider when building platforms for cloud-native
 computing:
 
-1. **Web portals** for observing and provisioning services
-1. **APIs** (and CLIs) for automatically provisioning capabilities
-1. **"Golden path" templates and docs** enabling optimal use of capabilities
+1. **Web portals** for observing and provisioning products and capabilities
+1. **APIs** (and CLIs) for automatically provisioning products and capabilities
+1. **"Golden path" templates and docs** enabling optimal use of capabilities in products
 1. **Automation for building and testing** services and products
 1. **Automation for delivering and verifying** services and products
 1. **Development environments** such as hosted IDEs and remote connection tools
