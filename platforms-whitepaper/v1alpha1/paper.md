@@ -60,6 +60,8 @@ cloud-native computing. By investing in platforms, enterprises can:
 1. Enable cost-effective and productive use of services from public clouds 
    and other managed offerings by enabling delegation of implementations to those 
    providers while maintaining control over user experience
+1. Accelerate onboarding of current developers to new projects and teams by sharing 
+   the same platforms between them
 
 These benefits accrue in part because just a few platform teams serve many 
 product teams, multiplying their impact; in part because platform teams 
