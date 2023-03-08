@@ -1,0 +1,22 @@
+name: publish-tag-website
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: website
+          target_branch: 'gh_pages'
