@@ -1,5 +1,6 @@
 ---
 title: "TAG App Delivery"
+toc_hide: true
 ---
 
 ![Tag App Delivery logo](/images/tag-app-delivery-horizontal-color.svg)

@@ -1,10 +1,6 @@
 ---
 title: How to Contribute
 linkTitle: "Contribute"
-toc_hide: true
-menu:
-  main:
-    weight: 30
 description: Welcome! We are glad that you want to contribute to the Cartografos Working Group.
 ---
 
