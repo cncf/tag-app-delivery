@@ -4,7 +4,7 @@ date:   2022-09-22 00:00:00 +0000
 author: Josh Gavant
 ---
 
-![infrastructure integration](/tag-app-delivery/assets/infrastructure-integration.png)
+![infrastructure integration](/images/infrastructure-integration.png)
 
 TAG App Delivery formed the Cooperative Delivery working group in late 2021 to gather and report on emerging trends around coordinated delivery of infrastructure capabilities and applications. The TAG noted that while infrastructure teams are successfully adopting software development practices and deploying features and fixes continuously via the likes of GitOps and IaC (Infrastructure as Code), delivery of infrastructure capabilities is often not coordinated well with delivery of applications using that infrastructure. That is, there's a *gap* in delivery between application and infrastructure and coordination/cooperation is needed to bridge that gap.
 
