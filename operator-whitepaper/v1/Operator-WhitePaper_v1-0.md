@@ -3,53 +3,75 @@
 Table of Contents
 =================
 
-* [Table of Contents](#table-of-contents)
-    * [Executive Summary](#executive-summary)
-    * [Introduction](#introduction)
-        * [The Goal of this document](#the-goal-of-this-document)
-        * [Target Audience / Minimum Level of Experience](#target-audience--minimum-level-of-experience)
-    * [Foundation](#foundation)
-        * [Operator Design Pattern](#operator-design-pattern)
-        * [Operator Characteristics](#operator-characteristics)
-        * [Operator Components in Kubernetes](#operator-components-in-kubernetes)
-        * [Operator Capabilities](#operator-capabilities)
-    * [Security](#security)
-        * [Operator Developer](#operator-developer)
-        * [Application Developer (Operator\-"Users")](#application-developer-operator-users)
-    * [Operator Frameworks for Kubernetes](#operator-frameworks-for-kubernetes)
-        * [CNCF Operator Framework](#cncf-operator-framework)
-        * [Kopf](#kopf)
-        * [kubebuilder](#kubebuilder)
-        * [Metacontroller \- Lightweight Kubernetes Controllers as a Service](#metacontroller---lightweight-kubernetes-controllers-as-a-service)
-    * [Operator Lifecycle Management](#operator-lifecycle-management)
-        * [Upgrading the Operator](#upgrading-the-operator)
-        * [Upgrading the Declarative State](#upgrading-the-declarative-state)
-        * [Managing Relations of CRDs](#managing-relations-of-crds)
-    * [Use Cases for an Operator](#use-cases-for-an-operator)
-        * [Prometheus Operator](#prometheus-operator)
-        * [Operator for GitOps](#operator-for-gitops)
-    * [Successful Patterns](#successful-patterns)
-        * [Management of a single type of application](#management-of-a-single-type-of-application)
-        * [Operator of Operators](#operator-of-operators)
-        * [One CRD per Controller](#one-crd-per-controller)
-        * [Where to publish and find Operators](#where-to-publish-and-find-operators)
-        * [Further reading](#further-reading)
-    * [Designing Operators](#designing-operators)
-        * [Requirement Analysis](#requirement-analysis)
-        * [Custom or third\-party Operator](#custom-or-third-party-operator)
-        * [Use the right Tool](#use-the-right-tool)
-        * [Use the right programming language](#use-the-right-programming-language)
-        * [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
-        * [References](#references)
-    * [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
-        * [Operator Lifecycle Management](#operator-lifecycle-management-1)
-        * [Policy\-Aware Operators](#policy-aware-operators)
-        * [References](#references-1)
-    * [Conclusion](#conclusion)
-    * [Related Work](#related-work)
-    * [Acknowledgements](#acknowledgements)
-        * [Contributors](#contributors)
-        * [Reviewers](#reviewers)
+- [CNCF Operator White Paper - Final Version](#cncf-operator-white-paper---final-version)
+- [Table of Contents](#table-of-contents)
+  - [Executive Summary](#executive-summary)
+  - [Introduction](#introduction)
+    - [The Goal of this Document](#the-goal-of-this-document)
+    - [Target Audience / Minimum Level of Experience](#target-audience--minimum-level-of-experience)
+  - [Foundation](#foundation)
+    - [Operator Design Pattern](#operator-design-pattern)
+    - [Operator Characteristics](#operator-characteristics)
+      - [Dynamic Configuration](#dynamic-configuration)
+      - [Operational Automation](#operational-automation)
+      - [Domain Knowledge](#domain-knowledge)
+    - [Operator Components in Kubernetes](#operator-components-in-kubernetes)
+      - [Kubernetes Controllers](#kubernetes-controllers)
+      - [Custom Resources and Custom Resource Definitions](#custom-resources-and-custom-resource-definitions)
+      - [Control Loop](#control-loop)
+    - [Operator Capabilities](#operator-capabilities)
+      - [Install an Application / Take Ownership of an Application](#install-an-application--take-ownership-of-an-application)
+      - [Upgrade an Application](#upgrade-an-application)
+      - [Backup](#backup)
+      - [Recovery from backup](#recovery-from-backup)
+      - [Auto-Remediation](#auto-remediation)
+      - [Monitoring/Metrics - Observability](#monitoringmetrics---observability)
+      - [Scaling](#scaling)
+      - [Auto-Scaling](#auto-scaling)
+      - [Auto-Configuration tuning](#auto-configuration-tuning)
+      - [Uninstalling / Disconnect](#uninstalling--disconnect)
+  - [Security](#security)
+    - [Operator Developer](#operator-developer)
+      - [Transparency and Documentation](#transparency-and-documentation)
+      - [Operator Scope](#operator-scope)
+      - [Vulnerability Analysis](#vulnerability-analysis)
+    - [Application Developer (Operator-"Users")](#application-developer-operator-users)
+  - [Operator Frameworks for Kubernetes](#operator-frameworks-for-kubernetes)
+    - [CNCF Operator Framework](#cncf-operator-framework)
+    - [Kopf](#kopf)
+    - [kubebuilder](#kubebuilder)
+    - [Metacontroller - Lightweight Kubernetes Controllers as a Service](#metacontroller---lightweight-kubernetes-controllers-as-a-service)
+    - [Juju - Model-driven Operator Framework](#juju---model-driven-operator-framework)
+  - [Operator Lifecycle Management](#operator-lifecycle-management)
+    - [Upgrading the Operator](#upgrading-the-operator)
+    - [Upgrading the Declarative State](#upgrading-the-declarative-state)
+    - [Managing Relations of CRDs](#managing-relations-of-crds)
+  - [Use Cases for an Operator](#use-cases-for-an-operator)
+    - [Prometheus Operator](#prometheus-operator)
+    - [Operator for GitOps](#operator-for-gitops)
+  - [Successful Patterns](#successful-patterns)
+    - [Management of a single type of application](#management-of-a-single-type-of-application)
+    - [Operator of Operators](#operator-of-operators)
+    - [One CRD per Controller](#one-crd-per-controller)
+    - [Where to publish and find Operators](#where-to-publish-and-find-operators)
+    - [Further reading](#further-reading)
+  - [Designing Operators](#designing-operators)
+    - [Requirement Analysis](#requirement-analysis)
+    - [Custom or third-party Operator](#custom-or-third-party-operator)
+    - [Use the right Tool](#use-the-right-tool)
+    - [Use the right programming language](#use-the-right-programming-language)
+    - [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
+    - [References](#references)
+  - [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
+    - [Operator Lifecycle Management](#operator-lifecycle-management-1)
+    - [Policy-Aware Operators](#policy-aware-operators)
+    - [References](#references-1)
+  - [Conclusion](#conclusion)
+  - [Related Work](#related-work)
+    - [References](#references-2)
+  - [Acknowledgements](#acknowledgements)
+    - [Contributors](#contributors)
+    - [Reviewers](#reviewers)
 
 ## Executive Summary
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
@@ -508,6 +530,25 @@ You should consider using this framework if you want or need to make ad-hoc
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
 
+Main advantages of using kopf:
+- Easy to use: Kopf is designed to be easy to use and understand, making it a great choice for developers who are new to Kubernetes or building operators.
+
+- Python-based: As a Python-based framework, Kopf allows developers to leverage the vast Python ecosystem and libraries, making it easier to integrate with other tools and systems.
+
+- Declarative approach: Kopf provides a declarative approach to building operators, which makes it easier to define the desired state of the system and handle updates and changes automatically.
+
+- Lightweight and fast: Kopf is lightweight and has a low overhead, making it a good choice for building operators that need to be deployed in resource-constrained environments.
+
+Main limitations:
+
+- Python-specific: While Python is a popular language, some developers may prefer to use other languages to build Kubernetes operators.
+
+- Limited adoption: Compared to other frameworks and tools, Kopf has a relatively small community and limited adoption, which can limit the availability of resources and support.
+
+- Limited flexibility: Kopf is designed to be simple and easy to use, which can limit its flexibility and customization options for more complex or specialized use cases.
+
+- Learning curve: While Kopf is designed to be easy to use, building Kubernetes operators still requires knowledge of Kubernetes concepts and best practices, which can be a challenge for new users.
+
 ### kubebuilder
 
 The kubebuilder framework provides developers the possibilities to extend the Kubernetes API by using Custom Resource Definitions, and to create controllers that handle these custom resources.
@@ -525,6 +566,24 @@ Adding a resource to the project will generate some sample code for you: a sampl
 The kubebuilder framework leverages the `controller-runtime` library, that provides the Manager and Reconciler concepts, among others.
 
 The kubebuilder framework provides all the requisites for building the manager binary, the image of a container starting the manager, and the Kubernetes resources necessary for deploying this manager, including the `CustomResourceDefinition` resource defining your custom resource, a `Deployment` to deploy the manager, and RBAC rules for your operator to be able to access the Kubernetes API.
+
+Main advantages of using kubebuilder are:
+
+- Simplified development: Kubebuilder provides a framework and tooling to scaffold and automate much of the boilerplate code required for building Kubernetes controllers and API servers, allowing developers to focus on business logic.
+
+- Kubernetes-native: Kubebuilder is built on top of Kubernetes APIs and conventions, making it easier to develop controllers and APIs that integrate well with the Kubernetes ecosystem.
+
+- Reusability: Kubebuilder encourages the creation of reusable, composable controllers and APIs, which can be shared across different applications and projects.
+
+- Robustness: Kubebuilder generates code that adheres to best practices for building Kubernetes controllers and APIs, making it easier to build robust, production-grade applications.
+
+Main limitations:
+
+- Learning curve: Kubebuilder has a significant learning curve, especially for developers who are new to Kubernetes or the Go programming language.
+
+- Complexity: While Kubebuilder simplifies much of the development process, building Kubernetes controllers and APIs can still be a complex task, especially for large-scale or distributed applications.
+
+- Limited flexibility: Kubebuilder is opinionated about how Kubernetes controllers and APIs should be built, which can limit flexibility in certain cases. For example, it may not be suitable for building highly customized or specialized controllers.
 
 ### Metacontroller - Lightweight Kubernetes Controllers as a Service
 
@@ -602,6 +661,48 @@ The user defined endpoint (in this example - `http://service-per-pod.metacontrol
 Additional examples and ideas that could be implemented using metacontroller, can be found at the [metacontroller-examples](https://metacontroller.github.io/metacontroller/examples.html) page !
 
 For any question, please visit our slack channel ([#metacontroller](https://kubernetes.slack.com/archives/CA0SUPUDP)) or ask it on [github discussions](https://github.com/metacontroller/metacontroller/discussions/).
+
+### Juju - Model-driven Operator Framework
+
+Juju Operator Framework is an open-source tool that simplifies the deployment, management, and scaling of complex applications in cloud and container environments. Juju provides a powerful model-driven approach that allows developers to create reusable and composable "charms" to encapsulate application knowledge, configuration, and logic. These charms can be easily deployed and orchestrated by Juju "operators," which are automated agents that handle the lifecycle of an application. One of the significant advantages of Juju is its ability to abstract away the underlying infrastructure, making it easier to deploy and manage applications across multiple clouds and container environments. 
+
+Below is an example of integrations between a web app and database.
+```
+# Database charm
+name: charm-db
+# ...
+provides:
+  database:
+    interface: charm-db
+```
+
+```
+# A web app charm connecting to the database
+name: my-web-app
+# ...
+requires:
+  database:
+    interface: charm-db
+    limit: 1
+provides:
+  website:
+    interface: http
+    optional: true
+```
+
+Main advantages of Juju:
+- Abstraction: Juju provides a layer of abstraction that can help simplify the deployment and management of complex applications on Kubernetes. Juju can abstract away the complexity of Kubernetes APIs and allow developers to focus on the application logic.
+
+- Integration: In Juju, an integration is a connection between applications, or between different units of the same application (the latter are also known as ‘peer relations’). These relations between applications are defined in the charm, and Juju handles the integration between the applications. They allow you to pass data between applications and trigger actions through events.
+
+- Cloud-agnostic: Juju is cloud-agnostic and can deploy applications to various cloud providers and container platforms. This allows developers to deploy and manage their applications on any cloud or container platform with ease.
+
+- Model-driven approach: Juju is based on a model-driven approach that makes it easy to automate and manage the lifecycle of an application, including scaling, upgrading, and monitoring.
+
+Main limitations:
+- The framework has a learning curve, and creating effective charms can require significant development effort, making it more suitable for enterprise use cases than smaller projects.
+
+
 
 ## Operator Lifecycle Management
 An operator is an application, this section will describe considerations regarding the lifecycle of the operator itself.
