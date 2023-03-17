@@ -1,4 +1,4 @@
-baseURL = "https://maturitymodel.cncf.io/"
+baseURL = "https://appdelivery.cncf.io/"
 title = "Cloud Native Maturity Model"
 
 # Language settings
@@ -72,7 +72,7 @@ copyright = "CNCF"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
-image = "https://maturitymodel.cncf.io/images/cnmm-share.jpg"
+image = "https://appdelivery.cncf.io/images/cncf-app-delivery-share.jpg"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
@@ -90,7 +90,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://maturitymodel.cncf.io"
+url_latest_version = "https://appdelivery.cncf.io"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "5104307cea6b94e6b"
