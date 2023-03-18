@@ -4,7 +4,7 @@ pdf: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/v1/C
 version_info: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/v1/README.md
 ---
 
-_This is just a copy of the whitepaper MD file, however, it should really be the exact published version from GitHub. I wonder if we can relocate whitepaper files to within this /website/ directory or at least add frontmatter to the top of them?_
+_This is just a copy of the whitepaper MD file, however, it should really be the exact published version from GitHub. I wonder if we can relocate whitepaper files to within the /website/content/whitepapers/ directory and/or add frontmatter to the top of them?_
 
 ## Table of Contents
 
