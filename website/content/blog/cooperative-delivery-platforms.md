@@ -44,4 +44,4 @@ Late resolution and injection loosens coupling of apps and infrastructure and is
 
 The mission of the Cooperative Delivery WG - soon to be the Platforms WG - is to gather feedback and highlight emerging trends that address gaps in coordination of infrastructure capabilities and applications. [Join us](https://github.com/cncf/tag-app-delivery) in TAG App Delivery to advance this topic and others relevant to application and platform developers and operators.
 
-<sup><sub>Image credit <https://www.cleo.com/blog/knowledge-base-cloud-integration-platform><sup><sub>
+<sub>Image credit https://www.cleo.com/blog/knowledge-base-cloud-integration-platform</sub>

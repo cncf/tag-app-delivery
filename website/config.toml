@@ -1,5 +1,5 @@
 baseURL = "https://appdelivery.cncf.io/"
-title = "Cloud Native Maturity Model"
+title = "CNCF TAG App Delivery"
 
 # Language settings
 contentDir = "content"
@@ -47,8 +47,8 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Cloud Native Maturity Model"
-description = "The intent of the Cloud Native Maturity Model is to help you move from inception through to full adoption of cloud native technologies using the CNCF landscape to achieve the full benefits of running scalable applications in modern, dynamic environments in public and hybrid clouds."
+title = "CNCF TAG App Delivery"
+description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -107,7 +107,7 @@ prism_syntax_highlighting = false
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 [params.github]
-  repo = "https://github.com/cncf/cartografos"
+  repo = "https://github.com/cncf/tag-app-delivery"
   branch = "main"
   subdir = "website"
 
