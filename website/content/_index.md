@@ -3,11 +3,17 @@ title: "CNCF TAG App Delivery"
 toc_hide: true
 ---
 
-![Tag App Delivery logo](/images/tag-app-delivery-horizontal-color.svg)
+_This content is pulled in from the TAG App Delivery GitHub README and could be edited to be appropriate for the site homepage_
 
+<div class="lead">
 TAG App Delivery focuses on enabling projects and initiatives related to
 delivering cloud-native applications, including building, deploying, managing,
-and operating them. The TAG produces guidance for and gathers feedback from
+and operating them.
+</div>
+
+![Tag App Delivery logo](/images/tag-app-delivery-horizontal-color.svg)
+
+The TAG produces guidance for and gathers feedback from
 cloud app users and developers and provides guidance and coordination to CNCF
 projects in the TAG's technical domains.
 

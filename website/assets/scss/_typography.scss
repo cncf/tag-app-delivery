@@ -69,9 +69,17 @@ h3 {
 }
 
 .fas {
-	color: #0077e6;
+	font-size: 1.5rem;
+	margin-right: 5px;
 }
 
 .text-muted {
 	color: #747474 !important;
+}
+
+@media (min-width: 992px) {
+.td-max-width-on-larger-screens, .td-content > pre, .td-content > .highlight, .td-content > .lead, .td-content > h1, .td-content > h2, .td-content > ul, .td-content > ol, .td-content > p, .td-content > blockquote, .td-content > dl dd, .td-content .footnotes, .td-content > .alert,
+div.media-body {
+    max-width: 90%;
+}
 }
