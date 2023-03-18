@@ -4,6 +4,9 @@ linkTitle: "Contribute"
 description: Welcome! We are glad that you want to contribute to the Cartografos Working Group.
 ---
 
+_This is placeholder content from the Maturity Model site that we can edit to be appropriate for App Delivery?_
+
+
 ## Introduction
 
 The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.

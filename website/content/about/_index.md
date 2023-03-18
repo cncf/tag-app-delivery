@@ -9,6 +9,8 @@ description: >
    The cloud native landscape and ecosystem is evolving quickly.
 ---
 
+_This is placeholder content from the Maturity Model site that we can edit to be appropriate for App Delivery?_
+
 ## The Cartografos Working Group
 
  The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
