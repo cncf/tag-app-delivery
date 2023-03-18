@@ -1,5 +1,5 @@
 ---
-title: "TAG App Delivery"
+title: "CNCF TAG App Delivery"
 toc_hide: true
 ---
 
