@@ -1,6 +1,5 @@
 <div class="td-content">
 	<h1>{{ .Title }}</h1>
-	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 	<div class="td-byline mb-5">
 		{{ with .Params.pdf }}
 		<div class="mb-3">

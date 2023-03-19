@@ -3,19 +3,24 @@ title: "CNCF TAG App Delivery"
 toc_hide: true
 ---
 
-_This content is pulled in from the TAG App Delivery GitHub README and could be edited to be appropriate for the site homepage_
-
-<div class="lead">
-TAG App Delivery focuses on enabling projects and initiatives related to
-delivering cloud-native applications, including building, deploying, managing,
-and operating them.
+<div class="row mt-5 mb-5">
+    <div class="col-lg-6">
+        <div class="lead">
+        TAG App Delivery focuses on enabling projects and initiatives related to
+        delivering cloud-native applications, including building, deploying, managing,
+        and operating them.
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
+    </div>
 </div>
 
-![Tag App Delivery logo](/images/tag-app-delivery-horizontal-color.svg)
+_This content is pulled in from the TAG App Delivery GitHub README and could be edited to be appropriate for the site homepage_
 
-The TAG produces guidance for and gathers feedback from
-cloud app users and developers and provides guidance and coordination to CNCF
-projects in the TAG's technical domains.
+
+
+The TAG produces guidance for and gathers feedback from cloud app users and developers and provides guidance and coordination to CNCF projects in the TAG's technical domains.
 
 Full charter here: <https://github.com/cncf/toc/blob/main/tags/app-delivery.md>
 
@@ -25,7 +30,9 @@ Full charter here: <https://github.com/cncf/toc/blob/main/tags/app-delivery.md>
 * Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5) in [CNCF Slack](https://slack.cncf.io/)
 * Mailing list: <https://lists.cncf.io/g/cncf-tag-app-delivery/topics>
 
-![Man working on computer](/images/man-using-laptop.jpg)
+
+<p><img src="/images/man-using-laptop.jpg" alt="Man working on computer" class="mt-5"></p>
+
 
 ## Meetings
 
