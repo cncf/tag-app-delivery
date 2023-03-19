@@ -14,15 +14,14 @@
         </ul>
     {{ else }}
     {{/* Otherwise we show a nice formatted list of subpages with page descriptions */}}
-    <hr class="panel-line">
-	<p class="mt-4">Pages in this section:</p>
+    <hr class="panel-line mt-5 mb-5">
         {{ range $pages }}
             {{ if eq .Parent $parent }}
-                <div class="entry">
-                    <h5>
+                <div class="mt-4">
+                    <h4 class="mb-3">
                         <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-                    </h5>
-                    <p>{{ .Description | markdownify }}</p>
+                    </h4>
+                    <p class="mb-5">{{ .Description | markdownify }}</p>
                 </div>
             {{ end }}
         {{ end }}
