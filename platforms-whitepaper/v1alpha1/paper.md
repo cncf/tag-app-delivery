@@ -3,10 +3,10 @@
 Inspired by the cross-functional cooperation promised by DevOps, platform 
 engineering has begun to emerge in enterprises as an explicit form of that 
 cooperation. Platforms curate and present foundational capabilities, frameworks 
-and experiences to facilitate and accelerate the work of internal customers such 
-as application developers, data scientists and information workers. Particularly 
-in the field of cloud computing, platforms have helped enterprises realize 
-values long promised by cloud like fast product releases, portability across 
+and experiences to facilitate and accelerate the work of internal customers such
+as application developers, data scientists and information workers. Particularly
+in cloud computing, platforms have helped enterprises realize values long
+promised by the cloud like fast product releases, portability across 
 infrastructures, more secure and resilient products, and greater developer 
 productivity.
 
@@ -16,7 +16,7 @@ for cloud computing.  We believe platforms significantly impact enterprises'
 actual value streams, but only indirectly, so leadership consensus and support 
 is vital to the long-term sustainability and success of platform teams. In this 
 paper we'll enable that support by discussing what the value of platforms is, how 
-to measure it, and how to implement platform teams that maximize it.
+to measure that value, and how to implement platform teams that maximize it.
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ and cognitive energy on infrastructure concerns and reducing their time to produ
 value relevant to their organization.
 
 The desire to refocus delivery teams on their core focus and reduce duplication of
-effort across the organisation has motivated enterprises to implement and platforms for 
+effort across the organisation has motivated enterprises to implement platforms for 
 cloud-native computing. By investing in platforms, enterprises can:
 
 1. Reduce the cognitive load on product teams and thereby accelerate product 
@@ -60,8 +60,6 @@ cloud-native computing. By investing in platforms, enterprises can:
 1. Enable cost-effective and productive use of services from public clouds 
    and other managed offerings by enabling delegation of implementations to those 
    providers while maintaining control over user experience
-1. Accelerate onboarding of current developers to new projects and teams by sharing 
-   the same platforms between them
 
 These benefits accrue in part because just a few platform teams serve many 
 product teams, multiplying their impact; in part because platform teams 
@@ -69,17 +67,17 @@ consolidate management of common functionality, facilitating governance; and in
 part because platform teams emphasize user interfaces and experiences above all 
 else.
 
-A team of platform experts not only reduces common work \[1\] demanded of 
-product teams but also optimizes platform capabilities \[2\] used in those 
-products. A platform team also maintains a set of conventional patterns, 
-knowledge and tools used broadly across the enterprise \[3\]; enabling 
-developers to quickly contribute to other teams and products built on the same 
-foundations. The shared platform patterns also allow embedding governance and 
-controls \[4\] in templates, patterns and capabilities. Finally, because 
-platform teams corral providers and provide consistent experiences over their 
-offerings, they enable efficient use of public clouds and service providers 
-\[5\] for foundational but undifferentiated capabilities such as databases, 
-identity access, infrastructure operations, and app lifecycle.
+A team of platform experts not only reduces common work demanded of product
+teams but also optimizes platform capabilities used in those products. A
+platform team also maintains a set of conventional patterns, knowledge and tools
+used broadly across the enterprise; enabling developers to quickly contribute to
+other teams and products built on the same foundations. The shared platform
+patterns also allow embedding governance and controls in templates, patterns and
+capabilities. Finally, because platform teams corral providers and provide
+consistent experiences over their offerings, they enable efficient use of public
+clouds and service providers for foundational but undifferentiated capabilities
+such as databases, identity access, infrastructure operations, and app
+lifecycle.
 
 ## What is a platform
 
@@ -142,8 +140,8 @@ following:
 1. Product developers can provision service spaces on demand and use them to run
    pipelines and tasks, to store artifacts and configuration, and/or to collect
    telemetry.
-1. Third-party software operators can provision dependencies on demand and run
-   that software.
+1. Administrators of third-party software can provision required dependencies
+   like databases on demand and easily install and run that software.
 1. Product developers can provision complete environments from templates
    combining run-time and development-time services required for specific
    scenarios, such as web development or MLOps.
@@ -426,7 +424,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Web portals for provisioning and observing capabilities</td>
     <td>Publish documentation, service catalogs, and project templates. Publish telemetry about systems and capabilities.</td>
-    <td>Backstage</td>
+    <td>Backstage, Skooner, Ortelius</td>
   </tr>
   <tr>
     <td>APIs for automatically provisioning capabilities</td>
