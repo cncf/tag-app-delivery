@@ -5,8 +5,6 @@ version_info: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitep
 description: "In this document, we outline not only the taxonomy of an operator but the recommended configuration, implementation and use cases for an operator application management system."
 ---
 
-_This is just a copy of the whitepaper MD file, however, it should really be the exact published version from GitHub. I wonder if we can relocate whitepaper files to within the /website/content/whitepapers/ directory and/or add frontmatter to the top of them?_
-
 Table of Contents
 =================
 
