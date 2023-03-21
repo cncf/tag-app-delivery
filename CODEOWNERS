@@ -8,16 +8,13 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue
-
-# README.md Owners
-/README.md @AloisReitbauer @Jenniferstrej
+*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue @joshgav
 
 # Operator Working Group
 /operator-wg/ @Jenniferstrej @OmerKahani @thschue
 
-# Cooperative Delivery WG
-/cooperative-delivery-wg/ @AlexsJones @thschue @roberthstrand @joshgav
+# Platforms WG
+/platforms-wg/ @AlexsJones @thschue @roberthstrand @joshgav
 
 # GitOps WG
-/gitops-wg/ @chrispat @csand-msft @todaywasawesome @chris-short @murillodigital @scottrigby @christianh814
+/gitops-wg/ @todaywasawesome @chris-short @murillodigital @scottrigby @christianh814 @JaimeMagiera @niklasmtj @williamcaban @roberthstrand

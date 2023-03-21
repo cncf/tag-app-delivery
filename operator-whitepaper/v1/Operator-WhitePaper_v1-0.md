@@ -53,7 +53,7 @@ Table of Contents
 
 ## Executive Summary
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
-Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and statement management of an application.
+Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and state management of an application.
 
 In Kubernetes, an operator provides intelligent, dynamic management capabilities by extending the functionality of the API.
 
@@ -205,7 +205,7 @@ An operator is able to assist with operating an application or other managed com
 The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
 #### Install an Application / Take Ownership of an Application
-An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
+An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisioned are working as expected, and ready to be used.
 
 An operator should also be able to recognize resources that were provisioned before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The ownership process purpose is to enable easy migration of resources to the operator.
 
@@ -230,7 +230,7 @@ The above illustration shows how such a process could look like. At first, the b
 
 The recovery capability of an operator might assist a user in restoring the application state from a successful backup. Therefore, the application state (application version and data) should be restored.
 
-There might be many ways to achieve this. One possible way could be that the current application state also gets backed up (including configuration), so the user only has to create a custom resource for the application and point to the backup. The operator would read the configuration, restore the application version and restore the data. Another possible solution might be that the user only backed up the data and might have to specify the application version used. Nevertheless, in both ways, the operator ensures that the application is up and running afterwards using the data from the backup specified.
+There might be many ways to achieve this. One possible way could be that the current application state also gets backed up (including configuration), so the user only has to create a custom resource for the application and point to the backup. The operator would read the configuration, restore the application version and restore the data. Another possible solution might be that the user only backed up the data and might have to specify the application version used. Nevertheless, in both ways, the operator ensures that the application is up and running after using the data from the backup specified.
 
 #### Auto-Remediation
 The auto-remediation capability of an operator should ensure that it is able to restore the application from a more complex failed state, which might not be handled or detected by mechanisms such as health checks (live and readiness probes). Therefore, the operator needs to have a deep understanding of the application. This can be achieved by metrics that might indicate application failures or errors, but also by dealing with kubernetes mechanisms like health checks.
@@ -244,7 +244,7 @@ In any situation, this capability enables the operator to take actions to keep t
 
 
 #### Monitoring/Metrics - Observability
-While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provides a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
+While the managed application should provide the telemetry data for itself, the operator could provide metrics about its own behavior and only provide a high level overview about the applications state (as it would be possible for auto-remediation). Furthermore, typical telemetry data provided by the operator could be the count of remediation actions, duration of backups, but also information about the last errors or operational tasks which were handled.
 
 
 #### Scaling
@@ -422,7 +422,7 @@ significant/administrative access - is not always malicious in
 intent. The developer might not know better or have had the time
 to tune the required permissions to the concept of least privilege.
 Even in the most innocent case, though, it is still a red flag:
-Perhaps the operator is reached enough adoption for others to find and
+Perhaps the operator has reached enough adoption for others to find and
 raise concerns about the overuse of privileges, and perhaps it is a
 sign of other security weaknesses within the operator. It is advisable
 to proceed with caution if such a “land grab” is found.
@@ -474,7 +474,7 @@ It aims at Operator Developers with an SDK to streamline Operator development wi
 
 It also caters for Kubernetes administrators that require a central point to install, configure and update Operators in a multi-tenant environment with potentially dozens of Operators installed. It covers the following aspects of Operator lifecycle:
 
-- Continuous over-the-Air Updates and Catalogs of Operators a publishing mechanism and source of updates
+- Continuous over-the-Air Updates and Catalogs of Operators as a publishing mechanism and source of updates
 - Dependency Model so Operator can have dependencies on cluster features or on each other
 - Discoverability for less privileged tenants that usually cannot list CRDs or see Operators installed in separate namespaces
 - Cluster Stability that avoid runtime conflicts of Operators on multi-tenant clusters while honoring the global nature of CRDs, and the subtleties of CRD versioning and CRD conversion
@@ -628,7 +628,7 @@ An operator is used to install an application, or to provision another object wh
 
 To achieve this, an operator watches the current state and the definitions made in the custom resource or external events. Comparing them and starting to reconcile the application to get to the desired state when it is needed. Changes in the custom resource could be enabling a feature or changing a version, external events could be the availability of an application update reported by an API. The current state of the application could also differ when objects managed by the operator get deleted and so they also get recreated to get to the desired state.
 
-When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating and updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
+When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
 
 Finally, the operator is able to remove the application and the resulting objects.
 
@@ -723,7 +723,7 @@ and many other best practices might be found on the internet. More of them could
 ## Designing Operators
 
 The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
-of completeness, this chapter deals with some best practice when writing
+of completeness, this chapter deals with some best practices when writing
 own Operators, based on our own experience or described by the
 community. However, without clear knowledge of the actual state and
 without clear ideas of what we want to achieve, we also need some
