@@ -6,4 +6,5 @@ menu:
     weight: 30
 ---
 
-_Maybe some text here introducing App Delivery whitepapers in general?_
+TAG App Delivery produces long-form papers on topics important to CNCF projects
+and end users. The latest versions of those papers are published here.
