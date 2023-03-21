@@ -7,57 +7,86 @@ description: "In this document, we outline not only the taxonomy of an operator 
 
 _This is just a copy of the whitepaper MD file, however, it should really be the exact published version from GitHub. I wonder if we can relocate whitepaper files to within the /website/content/whitepapers/ directory and/or add frontmatter to the top of them?_
 
-## Table of Contents
+Table of Contents
+=================
 
-* [Table of Contents](#table-of-contents)
-    * [Executive Summary](#executive-summary)
-    * [Introduction](#introduction)
-        * [The Goal of this document](#the-goal-of-this-document)
-        * [Target Audience / Minimum Level of Experience](#target-audience--minimum-level-of-experience)
-    * [Foundation](#foundation)
-        * [Operator Design Pattern](#operator-design-pattern)
-        * [Operator Characteristics](#operator-characteristics)
-        * [Operator Components in Kubernetes](#operator-components-in-kubernetes)
-        * [Operator Capabilities](#operator-capabilities)
-    * [Security](#security)
-        * [Operator Developer](#operator-developer)
-        * [Application Developer (Operator\-"Users")](#application-developer-operator-users)
-    * [Operator Frameworks for Kubernetes](#operator-frameworks-for-kubernetes)
-        * [CNCF Operator Framework](#cncf-operator-framework)
-        * [Kopf](#kopf)
-        * [kubebuilder](#kubebuilder)
-        * [Metacontroller \- Lightweight Kubernetes Controllers as a Service](#metacontroller---lightweight-kubernetes-controllers-as-a-service)
-    * [Operator Lifecycle Management](#operator-lifecycle-management)
-        * [Upgrading the Operator](#upgrading-the-operator)
-        * [Upgrading the Declarative State](#upgrading-the-declarative-state)
-        * [Managing Relations of CRDs](#managing-relations-of-crds)
-    * [Use Cases for an Operator](#use-cases-for-an-operator)
-        * [Prometheus Operator](#prometheus-operator)
-        * [Operator for GitOps](#operator-for-gitops)
-    * [Successful Patterns](#successful-patterns)
-        * [Management of a single type of application](#management-of-a-single-type-of-application)
-        * [Operator of Operators](#operator-of-operators)
-        * [One CRD per Controller](#one-crd-per-controller)
-        * [Where to publish and find Operators](#where-to-publish-and-find-operators)
-        * [Further reading](#further-reading)
-    * [Designing Operators](#designing-operators)
-        * [Requirement Analysis](#requirement-analysis)
-        * [Custom or third\-party Operator](#custom-or-third-party-operator)
-        * [Use the right Tool](#use-the-right-tool)
-        * [Use the right programming language](#use-the-right-programming-language)
-        * [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
-        * [References](#references)
-    * [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
-        * [Operator Lifecycle Management](#operator-lifecycle-management-1)
-        * [Policy\-Aware Operators](#policy-aware-operators)
-        * [References](#references-1)
-    * [Conclusion](#conclusion)
-    * [Related Work](#related-work)
-    * [Acknowledgements](#acknowledgements)
-        * [Contributors](#contributors)
-        * [Reviewers](#reviewers)
+- [Table of Contents](#table-of-contents)
+  - [Executive Summary](#executive-summary)
+  - [Introduction](#introduction)
+    - [The Goal of this Document](#the-goal-of-this-document)
+    - [Target Audience / Minimum Level of Experience](#target-audience--minimum-level-of-experience)
+  - [Foundation](#foundation)
+    - [Operator Design Pattern](#operator-design-pattern)
+    - [Operator Characteristics](#operator-characteristics)
+      - [Dynamic Configuration](#dynamic-configuration)
+      - [Operational Automation](#operational-automation)
+      - [Domain Knowledge](#domain-knowledge)
+    - [Operator Components in Kubernetes](#operator-components-in-kubernetes)
+      - [Kubernetes Controllers](#kubernetes-controllers)
+      - [Custom Resources and Custom Resource Definitions](#custom-resources-and-custom-resource-definitions)
+      - [Control Loop](#control-loop)
+    - [Operator Capabilities](#operator-capabilities)
+      - [Install an Application / Take Ownership of an Application](#install-an-application--take-ownership-of-an-application)
+      - [Upgrade an Application](#upgrade-an-application)
+      - [Backup](#backup)
+      - [Recovery from backup](#recovery-from-backup)
+      - [Auto-Remediation](#auto-remediation)
+      - [Monitoring/Metrics - Observability](#monitoringmetrics---observability)
+      - [Scaling](#scaling)
+      - [Auto-Scaling](#auto-scaling)
+      - [Auto-Configuration tuning](#auto-configuration-tuning)
+      - [Uninstalling / Disconnect](#uninstalling--disconnect)
+  - [Security](#security)
+    - [Operator Developer](#operator-developer)
+      - [Transparency and Documentation](#transparency-and-documentation)
+      - [Operator Scope](#operator-scope)
+      - [Vulnerability Analysis](#vulnerability-analysis)
+    - [Application Developer (Operator-"Users")](#application-developer-operator-users)
+  - [Operator Frameworks for Kubernetes](#operator-frameworks-for-kubernetes)
+    - [CNCF Operator Framework](#cncf-operator-framework)
+    - [Kopf](#kopf)
+    - [kubebuilder](#kubebuilder)
+    - [Metacontroller - Lightweight Kubernetes Controllers as a Service](#metacontroller---lightweight-kubernetes-controllers-as-a-service)
+    - [Juju - Model-driven Operator Framework](#juju---model-driven-operator-framework)
+  - [Operator Lifecycle Management](#operator-lifecycle-management)
+    - [Upgrading the Operator](#upgrading-the-operator)
+    - [Upgrading the Declarative State](#upgrading-the-declarative-state)
+    - [Managing Relations of CRDs](#managing-relations-of-crds)
+  - [Use Cases for an Operator](#use-cases-for-an-operator)
+  - [Well known Operators \& patterns](#well-known-operators--patterns)
+    - [Prometheus Operator](#prometheus-operator)
+    - [Operator for GitOps](#operator-for-gitops)
+    - [Successful Patterns](#successful-patterns)
+    - [Management of a single type of application](#management-of-a-single-type-of-application)
+    - [Operator of Operators](#operator-of-operators)
+    - [One CRD per Controller](#one-crd-per-controller)
+    - [Where to publish and find Operators](#where-to-publish-and-find-operators)
+    - [Further reading](#further-reading)
+  - [Designing Operators](#designing-operators)
+    - [Requirement Analysis](#requirement-analysis)
+    - [Custom or third-party Operator](#custom-or-third-party-operator)
+    - [Use the right Tool](#use-the-right-tool)
+    - [Use the right programming language](#use-the-right-programming-language)
+    - [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
+    - [References](#references)
+  - [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
+    - [Operator Lifecycle Management](#operator-lifecycle-management-1)
+    - [Policy-Aware Operators](#policy-aware-operators)
+    - [Operator data modelling](#operator-data-modelling)
+    - [References](#references-1)
+  - [Conclusion](#conclusion)
+  - [Related Work](#related-work)
+    - [References](#references-2)
+  - [Acknowledgements](#acknowledgements)
+    - [V1.1](#v11)
+      - [Contributors](#contributors)
+      - [Reviewers](#reviewers)
+    - [V1.0](#v10)
+      - [Contributors](#contributors-1)
+      - [Reviewers](#reviewers-1)
 
 ## Executive Summary
+
 Maintaining application infrastructure requires many repetitive human activities that are devoid of lasting value.
 Computers are the preferred method of performing precise tasks, verifying the state of an object and therefore enabling the infrastructure requirements to be codified. An operator provides a way to encapsulate the required activities, checks and state management of an application.
 
@@ -113,7 +142,7 @@ When using an operator design pattern the user should only be required to descri
 
 A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described.
 
-![Operator Design Pattern](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/02_1_operator_pattern.png)
+![Operator Design Pattern](img/02_1_operator_pattern.png)
 
 The Operator pattern consists of three components:
 
@@ -151,7 +180,7 @@ An operator can monitor its application and react to errors with specific behavi
 *“An operator is a Kubernetes controller that understands 2 domains: Kubernetes and something else. By combining knowledge of both domains, it can automate tasks that usually require a human operator that understands both domains”*
 (Jimmy Zelinskie, https://github.com/kubeflow/tf-operator/issues/300#issuecomment-357527937)
 
-![Operator Big Picture](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/02_2_operator.png)
+![Operator Big Picture](img/02_2_operator.png)
 Operators enable the extension of the Kubernetes API with operational knowledge.
 This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases.
 
@@ -228,7 +257,7 @@ An operator should report the version of the resources and their health status d
 
 This capability is for operators that manage data and ensure that the operator is able to create consistent backups. This backup should be done in a way that the user of the operator can be certain that the previous version can be restored if data is lost or compromised. Furthermore, the status information provided should give insights about when the backup last ran and where it is located.
 
-![Example Backup Process](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/plantuml/backup-sequence.png)
+![Example Backup Process](plantuml/backup-sequence.png)
 
 The above illustration shows how such a process could look like. At first, the backup gets triggered either by a human or another trigger (e.g. time-trigger). The operator instructs its watched resource (application) to set up a consistent state (like a consistent snapshot). Afterwards, the data of the application gets backed up to external storage using appropriate tools. This could either be a one-step process (backup directly to external storage) or in multiple steps, like writing to a persistent volume at first and to the external storage afterwards. The external storage might be an NFS/CIFS share (or any other network file system) on-premises, but also an object store/bucket on a cloud provider infrastructure. Whether the backup failed or succeeded, the state (of the backup) including the backed-up application version and the location of the backup might be written to the status section of the custom resource.
 
@@ -280,7 +309,7 @@ Both processes should be applied to every resource that the operator directly pr
 An operator should report any failure in the process in a declarative way (using the [status field](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#object-spec-and-status) for example).
 
 ## Security
-![operator model](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/04_1_operator_model.png)
+![operator model](img/04_1_operator_model.png)
 
 Operators are intended to manage their state and configuration via the Kubernetes API server using the Custom Resource Definition. The subordinate API resources they manage (often pods running stateful applications) also have their lifecycle and supporting RBAC, services, etc. managed via the Kubernetes API. In some cases, the operator will also interact with the application’s API across the network. All of these routes offer the potential to compromise the operator and its resources and should be protected in line with best practices laid out below.
 
@@ -486,6 +515,27 @@ It also caters for Kubernetes administrators that require a central point to ins
 - Cluster Stability that avoid runtime conflicts of Operators on multi-tenant clusters while honoring the global nature of CRDs, and the subtleties of CRD versioning and CRD conversion
 - Declarative UI controls that allows consoles to generate rich UI experiences for end users interacting with Operator services
 
+Main advantages of the Operator Framework are:
+
+- Simplified development: The Operator Framework simplifies the development of Kubernetes operators by providing a framework, tooling, and best practices for building operators.
+
+- Reusability: The Operator Framework promotes the creation of reusable operators, which can be used across different applications and projects.
+
+- Kubernetes-native: The Operator Framework is built on top of Kubernetes APIs and conventions, making it easier to develop operators that integrate well with the Kubernetes ecosystem.
+
+- Robustness: The Operator Framework generates code that adheres to best practices for building Kubernetes operators, making it easier to build robust, production-grade applications.
+
+- Community-driven: The Operator Framework has a large and active community that provides support, resources, and examples to help developers get started and solve problems.
+  
+Main limitations:
+- Learning curve: Building Kubernetes operators with the Operator Framework can still be a complex task, especially for developers who are new to Kubernetes or the concept of operators.
+
+- Limited flexibility: The Operator Framework is opinionated about how Kubernetes operators should be built, which can limit flexibility and customization options in certain cases.
+
+- Performance overhead: Kubernetes operators built with the Operator Framework can add a performance overhead to the Kubernetes cluster, especially for large-scale or distributed applications.
+
+- Maintenance: The Operator Framework requires ongoing maintenance and updates to ensure compatibility with new Kubernetes releases and changes to the operator's dependencies.
+
 ### Kopf
 
 **[Kopf](https://github.com/nolar/kopf)** —**K**ubernetes **O**perator **P**ythonic **F**ramework— is a framework
@@ -514,6 +564,25 @@ You should consider using this framework if you want or need to make ad-hoc
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
 
+Main advantages of using kopf:
+- Easy to use: Kopf is designed to be easy to use and understand, making it a great choice for developers who are new to Kubernetes or building operators.
+
+- Python-based: As a Python-based framework, Kopf allows developers to leverage the vast Python ecosystem and libraries, making it easier to integrate with other tools and systems.
+
+- Declarative approach: Kopf provides a declarative approach to building operators, which makes it easier to define the desired state of the system and handle updates and changes automatically.
+
+- Lightweight and fast: Kopf is lightweight and has a low overhead, making it a good choice for building operators that need to be deployed in resource-constrained environments.
+
+Main limitations:
+
+- Python-specific: While Python is a popular language, some developers may prefer to use other languages to build Kubernetes operators.
+
+- Limited adoption: Compared to other frameworks and tools, Kopf has a relatively small community and limited adoption, which can limit the availability of resources and support.
+
+- Limited flexibility: Kopf is designed to be simple and easy to use, which can limit its flexibility and customization options for more complex or specialized use cases.
+
+- Learning curve: While Kopf is designed to be easy to use, building Kubernetes operators still requires knowledge of Kubernetes concepts and best practices, which can be a challenge for new users.
+
 ### kubebuilder
 
 The kubebuilder framework provides developers the possibilities to extend the Kubernetes API by using Custom Resource Definitions, and to create controllers that handle these custom resources.
@@ -531,6 +600,24 @@ Adding a resource to the project will generate some sample code for you: a sampl
 The kubebuilder framework leverages the `controller-runtime` library, that provides the Manager and Reconciler concepts, among others.
 
 The kubebuilder framework provides all the requisites for building the manager binary, the image of a container starting the manager, and the Kubernetes resources necessary for deploying this manager, including the `CustomResourceDefinition` resource defining your custom resource, a `Deployment` to deploy the manager, and RBAC rules for your operator to be able to access the Kubernetes API.
+
+Main advantages of using kubebuilder are:
+
+- Simplified development: Kubebuilder provides a framework and tooling to scaffold and automate much of the boilerplate code required for building Kubernetes controllers and API servers, allowing developers to focus on business logic.
+
+- Kubernetes-native: Kubebuilder is built on top of Kubernetes APIs and conventions, making it easier to develop controllers and APIs that integrate well with the Kubernetes ecosystem.
+
+- Reusability: Kubebuilder encourages the creation of reusable, composable controllers and APIs, which can be shared across different applications and projects.
+
+- Robustness: Kubebuilder generates code that adheres to best practices for building Kubernetes controllers and APIs, making it easier to build robust, production-grade applications.
+
+Main limitations:
+
+- Learning curve: Kubebuilder has a significant learning curve, especially for developers who are new to Kubernetes or the Go programming language.
+
+- Complexity: While Kubebuilder simplifies much of the development process, building Kubernetes controllers and APIs can still be a complex task, especially for large-scale or distributed applications.
+
+- Limited flexibility: Kubebuilder is opinionated about how Kubernetes controllers and APIs should be built, which can limit flexibility in certain cases. For example, it may not be suitable for building highly customized or specialized controllers.
 
 ### Metacontroller - Lightweight Kubernetes Controllers as a Service
 
@@ -609,6 +696,46 @@ Additional examples and ideas that could be implemented using metacontroller, ca
 
 For any question, please visit our slack channel ([#metacontroller](https://kubernetes.slack.com/archives/CA0SUPUDP)) or ask it on [github discussions](https://github.com/metacontroller/metacontroller/discussions/).
 
+### Juju - Model-driven Operator Framework
+
+Juju Operator Framework is an open-source tool that simplifies the deployment, management, and scaling of complex applications in cloud and container environments. Juju provides a powerful model-driven approach that allows developers to create reusable and composable "charms" to encapsulate application knowledge, configuration, and logic. These charms can be easily deployed and orchestrated by Juju "operators," which are automated agents that handle the lifecycle of an application. One of the significant advantages of Juju is its ability to abstract away the underlying infrastructure, making it easier to deploy and manage applications across multiple clouds and container environments. 
+
+Below is an example of integrations between a web app and database.
+```
+# Database charm
+name: charm-db
+# ...
+provides:
+  database:
+    interface: charm-db
+```
+
+```
+# A web app charm connecting to the database
+name: my-web-app
+# ...
+requires:
+  database:
+    interface: charm-db
+    limit: 1
+provides:
+  website:
+    interface: http
+    optional: true
+```
+
+Main advantages of Juju:
+- Abstraction: Juju provides a layer of abstraction that can help simplify the deployment and management of complex applications on Kubernetes. Juju can abstract away the complexity of Kubernetes APIs and allow developers to focus on the application logic.
+
+- Integration: In Juju, an integration is a connection between applications, or between different units of the same application (the latter are also known as ‘peer relations’). These relations between applications are defined in the charm, and Juju handles the integration between the applications. They allow you to pass data between applications and trigger actions through events.
+
+- Cloud-agnostic: Juju is cloud-agnostic and can deploy applications to various cloud providers and container platforms. This allows developers to deploy and manage their applications on any cloud or container platform with ease.
+
+- Model-driven approach: Juju is based on a model-driven approach that makes it easy to automate and manage the lifecycle of an application, including scaling, upgrading, and monitoring.
+
+Main limitations:
+- The framework has a learning curve, and creating effective charms can require significant development effort, making it more suitable for enterprise use cases than smaller projects.
+
 ## Operator Lifecycle Management
 An operator is an application, this section will describe considerations regarding the lifecycle of the operator itself.
 
@@ -629,14 +756,18 @@ have been trying to solve this problem by providing solutions to compose CRDs.
 KubeVela also provides management of data dependencies between custom resources.
 
 ## Use Cases for an Operator
-Example:
-An operator is used to install an application, or to provision another object which is achieved by defining a set of objects which are managed by the operator and how they work with each other. After the installation, the target application should be running without human interaction. In further consequence, a controller is used for the reconfiguration of a system.
 
-To achieve this, an operator watches the current state and the definitions made in the custom resource or external events. Comparing them and starting to reconcile the application to get to the desired state when it is needed. Changes in the custom resource could be enabling a feature or changing a version, external events could be the availability of an application update reported by an API. The current state of the application could also differ when objects managed by the operator get deleted and so they also get recreated to get to the desired state.
+- Database management: Operators can be used to manage and automate the deployment, scaling, and management of databases running on Kubernetes. For example, an operator could manage the deployment of a MySQL or PostgreSQL database cluster and perform tasks like scaling, backups, and upgrades.
 
-When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating and updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
+- Application deployment: Operators can be used to automate the deployment and management of complex applications running on Kubernetes. For example, an operator could manage the deployment of a containerized web application, handle rolling upgrades, and perform auto-scaling based on metrics like CPU usage.
 
-Finally, the operator is able to remove the application and the resulting objects.
+- Monitoring and logging: Operators can be used to manage the deployment and configuration of monitoring and logging tools like Prometheus or Elasticsearch. Operators can automate tasks like configuring monitoring alerts, collecting and aggregating logs, and performing backups.
+
+- Machine learning workflows: Operators can be used to manage the deployment and scaling of machine learning workflows and models. For example, an operator could manage the deployment of a TensorFlow or PyTorch cluster and handle tasks like scaling, model training, and deployment.
+
+- Infrastructure management: Operators can be used to manage the deployment and configuration of infrastructure resources like load balancers, storage volumes, and network policies. For example, an operator could manage the deployment of a load balancer and perform tasks like scaling and routing traffic.
+
+## Well known Operators & patterns
 
 
 ### Prometheus Operator
@@ -660,7 +791,7 @@ Often, operators are associated with installing, upgrading and operating applica
 
 There might be the case that an - mainly imperatively managed - application should be orchestrated in a more declarative and Git-driven way. Therefore, an operator could assist in fetching the configuration from a git-repository, analyze configurations to find out if something has to be changed and which actions should be taken and takes the according actions.
 
-![GitOps Example](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/071_GitOps_UseCase.png)
+![GitOps Example](img/071_GitOps_UseCase.png)
 
 The above example illustrates such a case:
 
@@ -671,13 +802,13 @@ The above example illustrates such a case:
 
 This enables the user to have reproducible configurations, versioned in a git repository.
 
-## Successful Patterns
+### Successful Patterns
 
 Over time, lots of best practices for writing operators have been published by various sources. Following, some of these sources are mentioned and parts of them described based on a scenario.
 
 Scenario: A microservice application ("The PodTato Head", https://github.com/cncf/podtato-head) should be entirely managed via operators (even if another deployment mechanism would make more sense). This application consists of 4 services and 1 database which can be illustrated as follows:
 
-![Sample Application](./https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/08_1_sample.png)
+![Sample Application](./img/08_1_sample.png)
 
 Best practices should be applied to this application deployment.
 
@@ -689,7 +820,7 @@ The features an operator provides, should be specific to a single application. A
 
 With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviors across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; the *Operator of Operators* architecture is being applied in some use cases within the industry. This paradigm typically utilizes a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
 
-![distributed](./https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/09_1_distributedops.png)
+![distributed](./img/09_1_distributedops.png)
 
 
 Coordinating the setup and lifecycle of the whole stack can remain complex. An Operator controlling a metadata resource can help shield the user from this complexity by coordinating the various parts of the stack and exposes a CRD representing the whole stack. If this is the case, the *Meta* operator should delegate the work to the other Operators for the more specific parts.
@@ -698,7 +829,7 @@ The controllers that own these sub-components of stacks can appear in two ways:
 
 - An operator distribution package could consist of multiple separate controllers, each handling a sub-component of the stack plus a main controller ( Responsible for the end-user facing CRD, representing the stack as a whole). Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single Operator. The main benefit here is separation of concerns within an operator project.
 
-![Stack-Operator](./https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/v1/img/08_2_umbrella.png)
+![Stack-Operator](./img/08_2_umbrella.png)
 
 Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator creates a custom resource for each of the components of the stack which are again managed by operators and managing the underlying resources.
 
@@ -944,6 +1075,10 @@ There is ongoing activity to provide operators more dynamic access, based on the
 
 There is precedent for Operators[2] to allow for privileged creation of resources on the behalf of the Operators; extending to new patterns and operating models[3]. Future potential of this pattern would also allow for a policy-engine to control Operator authorization.
 
+### Operator data modelling
+
+As Kubernetes adoption continues to grow, the role of Kubernetes operators is also likely to evolve. In the future, we can expect operators to become more intelligent, automated, and integrated with other Kubernetes tools and services. One area where we may see significant developments is in the use of data modelling to support more complex and dynamic applications running on Kubernetes. By using data modelling to define and manage the state of the system, operators can more easily manage and automate complex workflows, applications, and services. This approach can also improve scalability, flexibility, and maintainability, as well as enable more advanced features like auto-scaling and self-healing. In the future, we can expect Kubernetes operators to play a critical role in enabling advanced data modelling and management capabilities for Kubernetes-based applications and services.
+
 ### References
 
 \[1\] https://olm.operatorframework.io/
@@ -953,8 +1088,10 @@ There is precedent for Operators[2] to allow for privileged creation of resource
 \[3\] https://oam.dev/
 
 ## Conclusion
-Originally, operators were a first-class solution for onboarding stateful applications into orchestrators that usually tackled the operation of stateless workloads. They enhanced their APIs and increased the power of container orchestrators further but didn’t resolve all problems of application configuration and “Day 2” operations. It is important to keep in mind that Operators are a pattern to manage specific requirements and facilitate operations but they also bring complexities that should be weighed up before being implemented.
 
+Kubernetes operators are a crucial tool for managing complex applications running on Kubernetes. As we have explored in this whitepaper, there are several popular operator frameworks available, each with its own set of strengths and weaknesses. To determine which operator framework is right for your organization, it's important to evaluate your specific needs and consider factors such as development complexity, deployment scalability, and maintenance requirements.
+
+Looking to the future, we can expect Kubernetes operators to continue to evolve and become even more sophisticated, automated, and integrated with other Kubernetes tools and services. The use of data modelling may play a key role in this evolution, enabling more advanced features such as auto-scaling and self-healing. As Kubernetes adoption continues to grow, it is clear that operators will become an increasingly critical component of Kubernetes-based application development and deployment. By understanding the pros and cons of different operator frameworks and evaluating the specific needs of your organization, you can effectively leverage Kubernetes operators to automate and manage your applications with ease and efficiency.
 
 ## Related Work
 Initially, Operators were introduced by a blog post on the CoreOS Blog. This article provides a rough overview of what operators are, why the concept has been developed and how they are built. The insights of this article are mainly used for the definition of operators in this document. As the blog post only provided a concise overview, additional terms as capabilities, security and additional concepts are described more in-depth in this document.
@@ -985,7 +1122,17 @@ https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
 ## Acknowledgements
 This document is a community-driven effort of the CNCF TAG App-Delivery Operator Working Group. Thanks to everyone who contributed to this document, joined discussions and reviewed this document.
 
-### Contributors
+### V1.1
+#### Contributors
+
+- Alex Jones (github.com/AlexsJones)
+
+#### Reviewers
+
+### V1.0
+
+#### Contributors
+
 - Omer Kahani (github.com/OmerKahani)
 - Jennifer Strejevitch (github.com/Jenniferstrej)
 - Thomas Schuetz (github.com/thschue)
@@ -999,7 +1146,8 @@ This document is a community-driven effort of the CNCF TAG App-Delivery Operator
 - Roland Pellegrini (github.com/friendlydevops)
 - Cameron Seader (github.com/cseader)
 
-### Reviewers
+#### Reviewers
+
 - Umanga Chapagain (github.com/umangachapagain)
 - Michael Hrivnak (github.com/mhrivnak)
 - Andy Jeffries (github.com/andyjeffries)
