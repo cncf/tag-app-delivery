@@ -422,7 +422,7 @@ significant/administrative access - is not always malicious in
 intent. The developer might not know better or have had the time
 to tune the required permissions to the concept of least privilege.
 Even in the most innocent case, though, it is still a red flag:
-Perhaps the operator is reached enough adoption for others to find and
+Perhaps the operator has reached enough adoption for others to find and
 raise concerns about the overuse of privileges, and perhaps it is a
 sign of other security weaknesses within the operator. It is advisable
 to proceed with caution if such a “land grab” is found.
@@ -474,7 +474,7 @@ It aims at Operator Developers with an SDK to streamline Operator development wi
 
 It also caters for Kubernetes administrators that require a central point to install, configure and update Operators in a multi-tenant environment with potentially dozens of Operators installed. It covers the following aspects of Operator lifecycle:
 
-- Continuous over-the-Air Updates and Catalogs of Operators a publishing mechanism and source of updates
+- Continuous over-the-Air Updates and Catalogs of Operators as a publishing mechanism and source of updates
 - Dependency Model so Operator can have dependencies on cluster features or on each other
 - Discoverability for less privileged tenants that usually cannot list CRDs or see Operators installed in separate namespaces
 - Cluster Stability that avoid runtime conflicts of Operators on multi-tenant clusters while honoring the global nature of CRDs, and the subtleties of CRD versioning and CRD conversion
@@ -628,7 +628,7 @@ An operator is used to install an application, or to provision another object wh
 
 To achieve this, an operator watches the current state and the definitions made in the custom resource or external events. Comparing them and starting to reconcile the application to get to the desired state when it is needed. Changes in the custom resource could be enabling a feature or changing a version, external events could be the availability of an application update reported by an API. The current state of the application could also differ when objects managed by the operator get deleted and so they also get recreated to get to the desired state.
 
-When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating and updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
+When updating an application, the operator contains the logic which is needed to get to the new application version and how to transition. As described in the last chapter, these could be mechanisms to backup data before updating the database schema. Therefore, the logic included in the operator knows which prerequisites are necessary to build a consistent backup, how to backup the data and how to get back to the normal state.
 
 Finally, the operator is able to remove the application and the resulting objects.
 
@@ -723,7 +723,7 @@ and many other best practices might be found on the internet. More of them could
 ## Designing Operators
 
 The previous chapter describes a use case for an operator that was one of the first operators ever. With no claim
-of completeness, this chapter deals with some best practice when writing
+of completeness, this chapter deals with some best practices when writing
 own Operators, based on our own experience or described by the
 community. However, without clear knowledge of the actual state and
 without clear ideas of what we want to achieve, we also need some
