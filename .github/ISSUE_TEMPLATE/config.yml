@@ -1,3 +1,10 @@
 # see https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
 
 blank_issues_enabled: true
+contact_links:
+- name: TAG Slack Channel
+  url: https://cloud-native.slack.com/archives/CL3SL0CP5
+  about: Talk to us here
+- name: TAG Mailing List
+  url: https://lists.cncf.io/g/cncf-tag-app-delivery
+  about: Join our mailing list
