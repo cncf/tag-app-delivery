@@ -1,14 +1,12 @@
 ---
 title:  "CNCF Operator White Paper"
 pdf: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/v1/CNCF_Operator_WhitePaper_v1-0_20210715.pdf
-version_info: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/v1/README.md
+version_info: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/latest/README.md
 description: "In this document, we outline not only the taxonomy of an operator but the recommended configuration, implementation and use cases for an operator application management system."
 ---
 
-_This is just a copy of the whitepaper MD file, however, it should really be the exact published version from GitHub. I wonder if we can relocate whitepaper files to within the /website/content/whitepapers/ directory and/or add frontmatter to the top of them?_
 
-Table of Contents
-=================
+## Table of Contents
 
 - [Table of Contents](#table-of-contents)
   - [Executive Summary](#executive-summary)
@@ -142,7 +140,7 @@ When using an operator design pattern the user should only be required to descri
 
 A general diagram of an operator will have software that can read the desired spec and can create and manage the resources that were described.
 
-![Operator Design Pattern](img/02_1_operator_pattern.png)
+![Operator Design Pattern](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/02_1_operator_pattern.png)
 
 The Operator pattern consists of three components:
 
@@ -180,7 +178,7 @@ An operator can monitor its application and react to errors with specific behavi
 *“An operator is a Kubernetes controller that understands 2 domains: Kubernetes and something else. By combining knowledge of both domains, it can automate tasks that usually require a human operator that understands both domains”*
 (Jimmy Zelinskie, https://github.com/kubeflow/tf-operator/issues/300#issuecomment-357527937)
 
-![Operator Big Picture](img/02_2_operator.png)
+![Operator Big Picture](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/02_2_operator.png)
 Operators enable the extension of the Kubernetes API with operational knowledge.
 This is achieved by combining Kubernetes controllers and watched objects that describe the desired state. The controller can watch one or more objects and the objects can be either Kubernetes primitives such as Deployments, Services or things that reside outside of the cluster such as Virtual Machines or Databases.
 
@@ -257,7 +255,7 @@ An operator should report the version of the resources and their health status d
 
 This capability is for operators that manage data and ensure that the operator is able to create consistent backups. This backup should be done in a way that the user of the operator can be certain that the previous version can be restored if data is lost or compromised. Furthermore, the status information provided should give insights about when the backup last ran and where it is located.
 
-![Example Backup Process](plantuml/backup-sequence.png)
+![Example Backup Process](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/plantuml/backup-sequence.png)
 
 The above illustration shows how such a process could look like. At first, the backup gets triggered either by a human or another trigger (e.g. time-trigger). The operator instructs its watched resource (application) to set up a consistent state (like a consistent snapshot). Afterwards, the data of the application gets backed up to external storage using appropriate tools. This could either be a one-step process (backup directly to external storage) or in multiple steps, like writing to a persistent volume at first and to the external storage afterwards. The external storage might be an NFS/CIFS share (or any other network file system) on-premises, but also an object store/bucket on a cloud provider infrastructure. Whether the backup failed or succeeded, the state (of the backup) including the backed-up application version and the location of the backup might be written to the status section of the custom resource.
 
@@ -309,7 +307,7 @@ Both processes should be applied to every resource that the operator directly pr
 An operator should report any failure in the process in a declarative way (using the [status field](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#object-spec-and-status) for example).
 
 ## Security
-![operator model](img/04_1_operator_model.png)
+![operator model](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/04_1_operator_model.png)
 
 Operators are intended to manage their state and configuration via the Kubernetes API server using the Custom Resource Definition. The subordinate API resources they manage (often pods running stateful applications) also have their lifecycle and supporting RBAC, services, etc. managed via the Kubernetes API. In some cases, the operator will also interact with the application’s API across the network. All of these routes offer the potential to compromise the operator and its resources and should be protected in line with best practices laid out below.
 
@@ -667,7 +665,7 @@ spec:
 
 ```
 With above configuration :
-* `metacontroller`, for every object matching `spec.resources` description (in this case - `apps/v1/statefulsets` with `service` and `port` annotations), will watch for any change in matching objects (create/update/delete) and invoke `hooks.sync` on each of those
+* `metacontroller`, for every object matching `spec.resources` description (in this case - `apps/latest/statefulsets` with `service` and `port` annotations), will watch for any change in matching objects (create/update/delete) and invoke `hooks.sync` on each of those
 * the `hooks.sync` can return objects which are described in `spec.attachments` (in this case - `v1/services`) which will be created/updated/deleted by `metacontroller`, according to `hook` response
   For example, if below `StatefulSet` will be deployed:
 ```yaml
@@ -791,7 +789,7 @@ Often, operators are associated with installing, upgrading and operating applica
 
 There might be the case that an - mainly imperatively managed - application should be orchestrated in a more declarative and Git-driven way. Therefore, an operator could assist in fetching the configuration from a git-repository, analyze configurations to find out if something has to be changed and which actions should be taken and takes the according actions.
 
-![GitOps Example](img/071_GitOps_UseCase.png)
+![GitOps Example](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/071_GitOps_UseCase.png)
 
 The above example illustrates such a case:
 
@@ -808,7 +806,7 @@ Over time, lots of best practices for writing operators have been published by v
 
 Scenario: A microservice application ("The PodTato Head", https://github.com/cncf/podtato-head) should be entirely managed via operators (even if another deployment mechanism would make more sense). This application consists of 4 services and 1 database which can be illustrated as follows:
 
-![Sample Application](./img/08_1_sample.png)
+![Sample Application](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/08_1_sample.png)
 
 Best practices should be applied to this application deployment.
 
@@ -820,7 +818,7 @@ The features an operator provides, should be specific to a single application. A
 
 With a growing count of Operators typically used within the lifecycle of application workload deployment and management, there are opportunities for new interplay of resources and meta behaviors across a group of Operators. Whether the goal is to reduce the cognitive burden of managing multiple asynchronous Operators performing resource changes - or to ensure a level of continuity between release versions; the *Operator of Operators* architecture is being applied in some use cases within the industry. This paradigm typically utilizes a *Meta* Operator to create multiple resources that are in turn asynchronously created and then updated in the meta resource. It enables a single custom resource definition to express a desired state outcome and for the requirements to be partitioned and asynchronously acted upon.
 
-![distributed](./img/09_1_distributedops.png)
+![distributed](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/09_1_distributedops.png)
 
 
 Coordinating the setup and lifecycle of the whole stack can remain complex. An Operator controlling a metadata resource can help shield the user from this complexity by coordinating the various parts of the stack and exposes a CRD representing the whole stack. If this is the case, the *Meta* operator should delegate the work to the other Operators for the more specific parts.
@@ -829,7 +827,7 @@ The controllers that own these sub-components of stacks can appear in two ways:
 
 - An operator distribution package could consist of multiple separate controllers, each handling a sub-component of the stack plus a main controller ( Responsible for the end-user facing CRD, representing the stack as a whole). Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single Operator. The main benefit here is separation of concerns within an operator project.
 
-![Stack-Operator](./img/08_2_umbrella.png)
+![Stack-Operator](https://raw.githubusercontent.com/cncf/tag-app-delivery/main/operator-whitepaper/latest/img/08_2_umbrella.png)
 
 Technically, there would be a custom resource definition for the whole stack managed by an operator. This operator creates a custom resource for each of the components of the stack which are again managed by operators and managing the underlying resources.
 
