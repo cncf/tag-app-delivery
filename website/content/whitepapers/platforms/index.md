@@ -1,0 +1,1 @@
+../../../../platforms-whitepaper/v1/paper.md
