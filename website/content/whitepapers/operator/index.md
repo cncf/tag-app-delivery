@@ -1,0 +1,1 @@
+../../../../operator-whitepaper/latest/Operator-WhitePaper.md
