@@ -210,12 +210,12 @@ spec:
     storageType: “s3”
     host: “my-backup.example.com”
     bucketName: “example-backup”
-  status:
-    currentVersion: 0.0.1
-    url: https://myloadbalancer/exampleapp/
-    authSecretName: appdelivery-example-app-auth
-    backup:
-      lastBackupTime: 12:00
+status:
+  currentVersion: 0.0.1
+  url: https://myloadbalancer/exampleapp/
+  authSecretName: appdelivery-example-app-auth
+  backup:
+    lastBackupTime: 12:00
 ```
 
 This example represents a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
