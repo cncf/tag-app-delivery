@@ -60,7 +60,7 @@ Table of Contents
     - [Custom or third-party Operator](#custom-or-third-party-operator)
     - [Use the right Tool](#use-the-right-tool)
     - [Use the right programming language](#use-the-right-programming-language)
-    - [Design your Operator the according to your needs](#design-your-operator-the-according-to-your-needs)
+    - [Design your Operator according to your needs](#design-your-operator-according-to-your-needs)
     - [References](#references)
   - [Emerging Patterns of the Future](#emerging-patterns-of-the-future)
     - [Operator Lifecycle Management](#operator-lifecycle-management-1)
@@ -233,9 +233,9 @@ An operator is able to assist with operating an application or other managed com
 The following sections should give an overview about capabilities an operator could have and what a user can expect if an operator implements these capabilities.
 
 #### Install an Application / Take Ownership of an Application
-An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisions are working as expected, and ready to be used.
+An operator should be able to provision and set up all the required resources, so no manual work would be required during the installation. An operator must check and verify that resources that were provisioned are working as expected, and are ready to be used.
 
-An operator should also be able to recognize resources that were provisioned before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The ownership process purpose is to enable easy migration of resources to the operator.
+An operator should also be able to recognize resources that were provisioned before the installation process, and only take ownership of them for later use. In this case, the ownership process should be seamless and not cause downtime. The purpose of the ownership process is to enable easy migration of resources to the operator.
 
 An Operator should report the version of the resources and their health status during the process.
 
@@ -244,7 +244,7 @@ An operator should be able to upgrade the version of the application/resources. 
 
 An operator should monitor the update and rollback if there was a problem during the process.
 
-An operator should report the version of the resources and their health status during the process. If there was an error, the version reported should be the version that is currently being used.
+An operator should report the version of the resources and their health status during the process. If there is an error, the reported version should be the version that is currently being used.
 
 #### Backup
 
@@ -283,7 +283,7 @@ An operator should be able to increase or decrease any resource that it owns, su
 Ideally the scaling action will be without downtime. Scaling action ends when all the resources are in consistent state and ready to be used, so an operator should verify the state of all the resources and report it.
 
 #### Auto-Scaling
-An operator should be able to perform the scaling capability based on metrics that it collects constantly and according to thresholds. An operator should be able to automatically increase and decrease every resource that it’s own.
+An operator should be able to perform the scaling capability based on metrics that it collects constantly and according to thresholds. An operator should be able to automatically increase and decrease every resource that it owns.
 
 An operator should respect basic scaling configuration of min and max.
 
@@ -350,7 +350,7 @@ questionnaire](https://github.com/cncf/sig-security/blob/master/assessments/guid
 There are many use cases for operators and there is virtually no limit
 in the scope of what you can design it for. In order to be clear about
 the secure nature of an operator there should be clear communication
-involved with each scope. The general scope’s which could be used are
+involved with each scope. The general scopes which could be used are
 cluster-wide operators, namespace operators, and external operators. In
 order to best secure them, there needs to be an understanding of the
 communication, any API’s created, controllers and their responsibility,
@@ -390,7 +390,7 @@ clear lifecycle process which defines the [layers of concern](https://github.com
 should be adhered to with a strict focus on the develop and distribute
 layers in the scope of the operator developer. There are many detailed
 guidelines in the development and distribution layers that will help
-to apply sound vulnerability analysis to supply chain to ensure
+to apply sound vulnerability analysis to the supply chain to ensure
 that the operator being developed is signed and trusted for the best
 integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
 is available at this link.
@@ -413,7 +413,7 @@ privileges than necessary for the operator to perform its role.
 
 Deployment of an operator grants third-party software some level
 of access to a Kubernetes namespace or cluster. While security
-expertise is not required to use operators, the following  Kubernetes
+expertise is not required to use operators, the following Kubernetes
 concepts highlight security preparation when using an operator:
 
 **Namespaces** are one of the primary ways of grouping and cordoning a
@@ -489,7 +489,7 @@ an organization is familiar with one of these control systems,
 writing the appropriate security configuration for the operator
 should not require significant overhead.
 
-**Operator configuration**: Ideally a project will be “secure by default” to increase the likelihood of a secure operator or application deployment. Insecure defaults require manual configuration to secure the environment. While it may seem like unnecessary work to learn the configuration parameters of a new operator, it is usually preferable to manually adjusting the configuration and/or source code of an operator itself to reach the needed level of security.
+**Operator configuration**: Ideally a project will be “secure by default” to increase the likelihood of a secure operator or application deployment. Insecure defaults require manual configuration to secure the environment. While it may seem like unnecessary work to learn the configuration parameters of a new operator, it is usually preferable to manually adjust the configuration and/or source code of an operator itself to reach the needed level of security.
 
 ## Operator Frameworks for Kubernetes
 Currently, many frameworks exist to simplify the process of bootstrapping an operator/controller project and to write operators. This chapter describes some of them without any claim to comprehensiveness.
@@ -557,7 +557,7 @@ You should consider using this framework if you want or need to make ad-hoc
 resources.
 For more features, see the [documentation](https://kopf.readthedocs.io/en/stable/).
 
-Main advantages of using kopf:
+Main advantages of using Kopf:
 - Easy to use: Kopf is designed to be easy to use and understand, making it a great choice for developers who are new to Kubernetes or building operators.
 
 - Python-based: As a Python-based framework, Kopf allows developers to leverage the vast Python ecosystem and libraries, making it easier to integrate with other tools and systems.
@@ -691,7 +691,7 @@ For any question, please visit our slack channel ([#metacontroller](https://kube
 
 ### Juju - Model-driven Operator Framework
 
-Juju Operator Framework is an open-source tool that simplifies the deployment, management, and scaling of complex applications in cloud and container environments. Juju provides a powerful model-driven approach that allows developers to create reusable and composable "charms" to encapsulate application knowledge, configuration, and logic. These charms can be easily deployed and orchestrated by Juju "operators," which are automated agents that handle the lifecycle of an application. One of the significant advantages of Juju is its ability to abstract away the underlying infrastructure, making it easier to deploy and manage applications across multiple clouds and container environments. 
+Juju Operator Framework is an open-source tool that simplifies the deployment, management, and scaling of complex applications in cloud and container environments. Juju provides a powerful model-driven approach that allows developers to create reusable and composable "charms" to encapsulate application knowledge, configuration, and logic. These charms can be easily deployed and orchestrated by Juju "operators", which are automated agents that handle the lifecycle of an application. One of the significant advantages of Juju is its ability to abstract away the underlying infrastructure, making it easier to deploy and manage applications across multiple clouds and container environments. 
 
 Below is an example of integrations between a web app and database.
 ```
@@ -820,7 +820,7 @@ Coordinating the setup and lifecycle of the whole stack can remain complex. An O
 
 The controllers that own these sub-components of stacks can appear in two ways:
 
-- An operator distribution package could consist of multiple separate controllers, each handling a sub-component of the stack plus a main controller ( Responsible for the end-user facing CRD, representing the stack as a whole). Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single Operator. The main benefit here is separation of concerns within an operator project.
+- An operator distribution package could consist of multiple separate controllers, each handling a sub-component of the stack plus a main controller (responsible for the end-user facing CRD, representing the stack as a whole). Deploying such a multi-controller operator as a single package would result in all controllers running at once (one `Pod` each), but only the end-user facing API/CRD is actually exposed and documented for public consumption. When that happens, the controller responsible for this API delegates several duties to the other controllers, that are part of it's packaged using "internal" CRDs. This is useful when the whole "stack" is owned and developed by the same group of operator authors and the "subordinate" controllers don't make sense as a standalone project. To an end-user this set of controllers still appears as a single Operator. The main benefit here is separation of concerns within an operator project.
 
 ![Stack-Operator](./img/08_2_umbrella.png)
 
@@ -838,7 +838,7 @@ Technically, there would be a custom resource definition for the whole stack man
 Every CRD managed by an operator should be implemented in a single controller. This makes code a bit more readable and should help with separation of concerns.
 
 ### Where to publish and find Operators
-There are services like operatorhub.io and artifacthub.io which help end-users to find operators including instructions on how they can be installed. These services often include information about current security issues and the sources of operators. Additionally, information about the capabilities of operators is given.
+There are services like [operatorhub.io](https://operatorhub.io/) and [artifacthub.io](https://artifacthub.io/) which help end-users to find operators including instructions on how they can be installed. These services often include information about current security issues and the sources of operators. Additionally, information about the capabilities of operators is given.
 
 ### Further reading
 There are lots of more best practices like:
@@ -1010,7 +1010,7 @@ Kubebuilder) supports the implementation of Operators in Go out-of-the-box.
 This saves developers a lot of code scaffolding and gives them code generation for
 free.
 
-### Design your Operator the according to your needs
+### Design your Operator according to your needs
 
 The last paragraph summarizes an unsorted list of best practices which
 were found and published by various sources.
@@ -1099,16 +1099,21 @@ Google provided a blog post about best practices for building Kubernetes Operato
 
 Many documents describe capability levels (also known as maturity levels) of operators. Since there could be cases where an operator that supports all features that fall on the highest capability level but does not support some lower level features, this document chooses to cover “capabilities” rather than “capability levels”. The capabilities required for each capability level, however, are taken into consideration [5].
 
-The CNCF TAG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful source when dealing with cloud native security [6].
+The CNCF TAG Security spent a lot of effort to add security related topics to this whitepaper. As the content of this whitepaper should mostly cover operator-related security measures, they wrote a cloud native security whitepaper which is a very useful resource when dealing with cloud native security [6].
 
 ### References
 
 \[1\] https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
+
 \[2\] Dobies, J., & Wood, J. (2020). Kubernetes Operators. O'Reilly.
+
 \[3\] Michael Hausenblas and Stefan Schimanski, Programming Kubernetes: Developing Cloud-Native Applications, First edition. (Sebastopol, CA: O’Reilly Media, 2019).
+
 \[4\] https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
+
 \[5\] Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
+
 \[6\] https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md
 
 
