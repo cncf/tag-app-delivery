@@ -4,7 +4,7 @@ date:   2023-04-10 01:00:00 +0000
 author: Josh Gavant, Abby Bangser 
 ---
 
-![platform layers](./assets/platforms-pyramid.png)
+![platform layers](../assets/platforms-pyramid.png)
 
 CNCF’s Platforms working group (WG) is pleased to announce the first release of
 a whitepaper to provide guidance and clarity on the nature and benefits of
@@ -38,7 +38,7 @@ standard governance policies; and as we pursue conventions for capabilities like
 secrets management, artifact storage, web portals and API frameworks, all
 potential parts of a complete platform:
 
-<img src="assets/platform_components.png" width=600px />
+<img src="../assets/platform_components.png" width=600px />
 
 Last but not least, this version of this paper will not be the last! Please
 inform future iterations by responding to our survey (to be shared soon!) and
