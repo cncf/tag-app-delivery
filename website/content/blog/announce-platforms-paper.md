@@ -4,7 +4,7 @@ date:   2023-04-10 01:00:00 +0000
 author: Josh Gavant, Abby Bangser 
 ---
 
-![platform layers](../assets/platforms-pyramid.png)
+<img src="../assets/platforms-pyramid.png" width=400px />
 
 CNCF’s Platforms working group (WG) is pleased to announce the first release of
 a whitepaper to provide guidance and clarity on the nature and benefits of
