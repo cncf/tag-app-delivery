@@ -10,7 +10,7 @@ CNCF’s Platforms working group (WG) is pleased to announce the first release o
 a whitepaper to provide guidance and clarity on the nature and benefits of
 platforms for cloud-native computing. Download it now as a
 [PDF](https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/assets/platforms-def-v1.0.pdf)
-or view it on [our website](https://appdelivery.cncf.io/whitepapers/platforms).
+or view it on [our website](https://tag-app-delivery.cncf.io/whitepapers/platforms).
 
 Thank you to our many contributors listed below for their ongoing input and
 insights!

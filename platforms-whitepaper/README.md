@@ -8,4 +8,4 @@ v1 was completed in March 2023; improvements and iterations continue in the
 [`latest`](./latest/) directory.
 
 The edition in the `latest` branch is published to TAG App Delivery's website at
-<https://appdelivery.cncf.io/whitepapers/platforms>.
+<https://tag-app-delivery.cncf.io/whitepapers/platforms>.
