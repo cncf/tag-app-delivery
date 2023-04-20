@@ -1,10 +1,10 @@
 # Operator White Paper
 
 ## Current Version
-- [Final Version (Version 1.0)](./Operator-WhitePaper_v1-0.md) 
+- [Latest Version (Version 1.0)](./index.md) 
 
 ## Proposed Schedule
-*inspired by https://github.com/cncf/sig-security/issues/138*
+*inspired by https://github.com/cncf/tag-security/issues/138*
 - [x] Due February 10th, 2021
 * Tasking Assignment - people interested in content generation for a particular topic area comment on the corresponding GitHub issue and the topic gets assigned to them
 
