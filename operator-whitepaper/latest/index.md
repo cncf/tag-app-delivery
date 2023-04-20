@@ -850,12 +850,11 @@ Every CRD managed by an operator should be implemented in a single controller. T
 There are services like operatorhub.io and artifacthub.io which help end-users to find operators including instructions on how they can be installed. These services often include information about current security issues and the sources of operators. Additionally, information about the capabilities of operators is given.
 
 ### Further reading
-There are lots of more best practices like:
-* An operator shouldn't install other operators
+There are lots of other best practices like:
 * Operators shouldn't make assumptions about the namespaces they are deployed in, but also
 * Use an SDK for writing operators
 
-and many other best practices might be found on the internet. More of them could be found on following sources:
+Additional information at the following sources:
 * https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md
 * https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
 
