@@ -12,7 +12,7 @@ toc_hide: true
         </div>
     </div>
     <div class="col-lg-6">
-        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
+        <img src="../static/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
     </div>
 </div>
 
@@ -26,7 +26,7 @@ technical domains.
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
-<p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
+<p class="mt-5"><img src="../static/images/man-using-laptop.jpg" alt="Man working on computer"></p>
 
 ## Meetings
 
