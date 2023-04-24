@@ -466,7 +466,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Infrastructure services</td>
     <td>Run application code, connect application components and persist data for applications</td>
-    <td>Kubernetes, Kubevirt, Knative, WasmEdge<br />CNI, Istio, Cilium, Envoy, Linkerd, CoreDNS<br />Rook, Longhorn, Etcd</td>
+    <td>Kubernetes, Kubevirt, Knative, WasmEdge, Keda<br />CNI, Istio, Cilium, Envoy, Linkerd, CoreDNS<br />Rook, Longhorn, Etcd</td>
   </tr>
   <tr>
     <td>Data services</td>
@@ -476,7 +476,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Messaging and event services</td>
     <td>Enable applications to communicate with each other asynchronously</td>
-    <td>Strimzi, NATS, gRPC, Knative, Dapr</td>
+    <td>Strimzi, NATS, gRPC, Knative, Dapr, Keda</td>
   </tr>
   <tr>
     <td>Identity and secret services</td>
