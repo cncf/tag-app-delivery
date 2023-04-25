@@ -466,7 +466,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Infrastructure services</td>
     <td>Run application code, connect application components and persist data for applications</td>
-    <td>Kubernetes, Kubevirt, Knative, WasmEdge, Keda<br />CNI, Istio, Cilium, Envoy, Linkerd, CoreDNS<br />Rook, Longhorn, Etcd</td>
+    <td>Kubernetes, Kubevirt, Knative, WasmEdge, KEDA<br />CNI, Istio, Cilium, Envoy, Linkerd, CoreDNS<br />Rook, Longhorn, Etcd</td>
   </tr>
   <tr>
     <td>Data services</td>
