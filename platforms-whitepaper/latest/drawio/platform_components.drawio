@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2023-04-26T19:39:16.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0" etag="ad_3C9MYBpNYsacz4K6K" version="21.2.2" type="device">
+  <diagram name="Seite-1" id="jwOedfJigzwfswF4yQoz">
+    <mxGraphModel dx="1299" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="405" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-47">
+          <mxGeometry width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-12" value="Platform Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-47">
+          <mxGeometry x="37" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-45" value="" style="group" vertex="1" connectable="0" parent="SYCVBgDnBbpWk8HGhtAz-47">
+          <mxGeometry x="128" y="10" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-42" value="data&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;databases, caches, buckets&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-45">
+          <mxGeometry x="116" y="42.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-23" value="provide environments and resources" style="swimlane;whiteSpace=wrap;html=1;rotation=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-45">
+          <mxGeometry width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-41" value="infrastructure&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font size=&quot;1&quot;&gt;compute, storage, network&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-23">
+          <mxGeometry x="10" y="42.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-43" value="messaging&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;queues, brokers&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-23">
+          <mxGeometry x="222" y="42.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-46" value="" style="group" vertex="1" connectable="0" parent="SYCVBgDnBbpWk8HGhtAz-47">
+          <mxGeometry x="469" y="10" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-32" value="identify and authorize&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;users and services&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-35" value="bind services to workflows&lt;br&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;via secrets&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry y="65" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-37" value="store artifacts&lt;br&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;in registries and repositories&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry x="110" y="65" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-38" value="automate build, test and delivery" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry x="220" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-39" value="observe workloads" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry x="220" y="65" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-40" value="scan artifacts and enforce policies" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-46">
+          <mxGeometry x="110" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="287" width="800" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry width="800" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-11" value="Platform Interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry x="37" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-14" value="Documentation,&lt;br&gt; Search" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry x="462" y="8" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-15" value="User Interfaces&lt;br&gt;(Web Portals)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry x="128" y="52" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-16" value="Project and &lt;br&gt;Environment Templates" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry x="128" y="8" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-17" value="APIs,&lt;br&gt; CLIs" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-48">
+          <mxGeometry x="462" y="52" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="560" width="980" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-10" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;size=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-49">
+          <mxGeometry width="980" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-19" value="Capability and service providers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-49">
+          <mxGeometry x="395" y="27.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-50" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="179.99999999999994" width="980" height="85.00000000000011" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-5" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;size=90;labelBackgroundColor=default;labelBorderColor=default;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-50">
+          <mxGeometry y="5.684341886080802e-14" width="980" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="SYCVBgDnBbpWk8HGhtAz-18" value="Product and application teams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="SYCVBgDnBbpWk8HGhtAz-50">
+          <mxGeometry x="395" y="27.500000000000057" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
