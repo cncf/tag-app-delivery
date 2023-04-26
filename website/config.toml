@@ -2,7 +2,6 @@ baseURL = "https://tag-app-delivery.cncf.io/"
 title = "CNCF TAG App Delivery"
 
 # Language settings
-contentDir = "content"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
@@ -50,6 +49,7 @@ anchor = "smart"
 title = "CNCF TAG App Delivery"
 description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 languageName ="English"
+content = "content/en"
 # Weight used for sorting.
 weight = 1
 
