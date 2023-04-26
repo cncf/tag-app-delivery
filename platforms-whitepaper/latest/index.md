@@ -476,7 +476,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Messaging and event services</td>
     <td>Enable applications to communicate with each other asynchronously</td>
-    <td>Strimzi, NATS, gRPC, Knative, Dapr, KEDA</td>
+    <td>Strimzi, NATS, gRPC, Knative, Dapr</td>
   </tr>
   <tr>
     <td>Identity and secret services</td>
