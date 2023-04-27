@@ -3,7 +3,7 @@ title = "CNCF TAG App Delivery"
 
 # Language settings
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
