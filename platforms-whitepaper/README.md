@@ -7,5 +7,5 @@ planning and designing such platforms.
 v1 was completed in March 2023; improvements and iterations continue in the
 [`latest`](./latest/) directory.
 
-The edition in the `latest` branch is published to TAG App Delivery's website at
+Currently, the edition in the `v1` directory is published to TAG App Delivery's website at
 <https://tag-app-delivery.cncf.io/whitepapers/platforms>.
