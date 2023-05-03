@@ -10,6 +10,7 @@ Also consider reviewing [TAG App Delivery's charter](https://github.com/cncf/toc
 - [Develop prototypes](#develop-prototypes)
 - [Manage a capability domain](#manage-a-capability-domain)
 - [Review CNCF projects](#review-cncf-projects)
+- [Present your project for sandbox review](#present-your-project-for-sandbox-review)
 - [Support TAG activities](#support-tag-activities)
 - [Your idea here!](#your-idea-here)
 
@@ -45,6 +46,10 @@ For example, the Platforms and Artifacts working groups were founded in this way
 CNCF has many existing projects and new ones are submitted to [sandbox](https://github.com/cncf/sandbox/issues) all the time. Help TAG App Delivery understand these projects, their place in the landscape, and their synergies with existing projects! Consider reviewing a new or existing CNCF project related to App delivery and operation and presenting it to the TAG.
 
 Put yourself on the agenda for an upcoming meeting to present one of these project reviews.
+
+## Present your project for sandbox review
+
+If you want to present your project in one of the next TAG meetings, please create an issue wishing to add your project to the TAG meeting agenda in this repo and tag it with `project` and `tag-discuss` linking your [sandbox issue](https://github.com/cncf/sandbox/issues in the issue description.
 
 ## Support TAG activities
 
