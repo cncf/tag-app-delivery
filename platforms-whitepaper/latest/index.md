@@ -436,7 +436,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>APIs for automatically provisioning capabilities</td>
     <td>Structured formats for automatically creating, updating, deleting and observing capabilities.</td>
-    <td>Kubernetes, Crossplane, Operator Framework, Helm, KubeVela</td>
+    <td>Kubernetes, Crossplane, Operator Framework, Helm, KubeVela, cdk8s</td>
   </tr>
   <tr>
     <td>Golden path templates and docs</td>
