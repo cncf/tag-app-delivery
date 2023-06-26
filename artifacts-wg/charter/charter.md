@@ -23,23 +23,20 @@ TAG App Delivery's charter [2] calls on the TAG to develop best practices, foste
 The work on extensions, patterns and prototypes in this CNCF TAG complements work on specifications in the Open Containers Initiative (OCI) itself.
 
 # Goals
-* Gather existing schemas used via OCI Artifacts as described in https://github.com/opencontainers/image-spec
-* Contribute to a common data model for Artifacts in OCI
-* Seek to minimize or avoid any specification changes
-* Define an Artifact Query API based on specific or common data models as an OCI distribution-spec extension
-* Publish a prototypical implementation of the Artifact Query API service within a registry and a prototypical implementation of a client for that API service
+* Research - Collect existing software packaging schemas, use-cases, and other evidence to aid in the design of a data model and search API for artifact management. 
+* Design - Define a conceptual model and search API from the lessons learned from research, that will be used to build prototypes and inform future specifications.
+* Prototype - Develop prototype implementations of a data model and search API based on the work from the design phase to validate the design and to provide a reference implementation for future specifications.
 
 # Activities
 The working group intends to carry out (but is not limited to) the following:
 * Gather stakeholders using OCI specifications distribution-spec and image-spec to package and distribute artifacts to document their bundle layouts and content schemas and seek common patterns.
-* Why? Reduce cognitive load on end users, reduce errors in configuration, and optimize ongoing development in this space.
 * Gather stakeholders using non-OCI formats to document their layout and schemas and seek synergies and opportunities. Focus on these artifacts types in priority order:
   1. Cloud-native artifact types not currently packaged in OCI, e.g. those in ArtifactHub [3]
   2. Software library artifacts such as those in npm, pyPi and Maven Central
-System package artifacts such as those in rpm, deb, brew
-  3. Advocate for and contribute to common formats to enable search and discovery of attributes and aspects of artifacts like SBOMs, attestations and other elements
-  4. Establish "duck types" [4] for common attributes
-  5. Demonstrate via prototypes use of published schemas to facilitate query and analysis of bundles and content.
+  3. System package artifacts such as those in rpm, deb, brew
+* Advocate for and contribute to common formats to enable search and discovery of attributes and aspects of artifacts like SBOMs, attestations and other elements
+* Establish "duck types" [4] for common attributes
+* Demonstrate via prototypes use of published schemas to facilitate query and analysis of bundles and content.
 
 [1]: https://artifacthub.io/docs/topics/repositories/
 [2]: https://github.com/cncf/toc/blob/main/tags/app-delivery.md#areas-considered-in-scope
