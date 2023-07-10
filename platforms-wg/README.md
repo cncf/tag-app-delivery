@@ -9,6 +9,7 @@ or the meetings described below.
 
 * Josh Gavant (@joshgav)
 * Roberth Strand (@roberthstrand)
+* Abby Bangser (@abangser)
 
 ## Meetings
 
