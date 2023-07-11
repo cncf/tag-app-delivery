@@ -2,6 +2,7 @@
 title: Operator Working Group
 list_pages: true
 ---
+## This working group is currently inactive
 
 ### Current Goal 
 Create A Whitepaper (Initially Definition of an Operator)
