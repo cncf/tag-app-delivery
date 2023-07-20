@@ -2,6 +2,9 @@
 title: About TAG App Delivery
 linkTitle: About
 toc_hide: true
+menu:
+  main:
+    weight: 20
 description: Projects and initatives maintained by TAG App Delivery
 ---
 
