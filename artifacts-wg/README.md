@@ -8,9 +8,8 @@ To contribute please join our Slack channel and/or biweekly meetings.
 
 ## Chairs
 
-- TBD
-- TBD
-
+- Alex Flom ([@afflom](https://github.com/afflom))
+- Ramkumar Chinchani ([@rchincha](https://github.com/rchincha))
 
 ## Meetings
 
