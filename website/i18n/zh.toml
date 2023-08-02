@@ -1,0 +1,8 @@
+# UI strings. Buttons and similar.
+
+# Footer text
+[footer_all_rights_reserved]
+other = " | 文档发行许可采用 CC-BY-4.0"
+
+[post_create_issue]
+other = "新建 Issue"
