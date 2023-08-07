@@ -1,6 +1,7 @@
 ---
 title: Operator Working Group
 list_pages: true
+inactive: true
 ---
 ## This working group is currently inactive
 

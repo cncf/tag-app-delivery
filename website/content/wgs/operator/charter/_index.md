@@ -5,53 +5,10 @@ description: The charter describes the mission and tactics of the Operator worki
 
 # Operator Working Group Charter
 
-## Interested Parties
-* Gerred Dillon (D2iQ)
-* Michael Hrivnak (Red Hat)
-* Matt Farina (Samsung SDS)
-* Aaron Meza (VMware)
-* Grant Miller (Replicated)
-* Chris Hein (Apple)
-* Soheil Eizadi (Infoblox)
-* Evan Cordell (Red Hat)
-* Feynman Zhou (KubeSphere)
-* Devdatta Kulkarni (CloudARK)
-* Michael Hausenblas (Amazon Web Services)
-* Omer Kahani (Riskified)
-* Nicolas Trangez (Scality)
-* Felipe Musse (SAP)
-* Vijay Kodam (Nokia)
-* Ran Xu (LINE Corp)
-* Waldemar Quevedo (NATS.io)
-* Chris Short (Red Hat)
-* Hongchao Deng (Alibaba)
-* Matt Jarvis ( D2iQ )
-* Kaiwalya Joshi (D2iQ)
-* Jay Pipes (AWS)
-* Cole Kennedy (BoxBoat)
-* Scott Nichols (VMware)
-* Ken Sipe (D2iQ)
-* Jed Record (Lenovo)
-* Kevin Fox (PNNL)
-* Guang Ya Liu (IBM)
-* Zach Taylor (IBM)
-* Ryan Bezdicek (Cray)
-* Jeremy Rickard (VMware)
-* Carlos Santana (IBM)
-* David Zager (Red Hat)
-* Joe Lanford (Red Hat)
-* Nick Schambureck (IBM)
-* Marc O’Brien (Red Hat)
-* Marc Campbell (Replicated)
-* Prakash Rudraraju (Salesforce)
-* Max Körbächer (Storm Reply)
-* Gigi Sayfan (Stealth startup)
-
 ## Chairs/Sponsors
 * Omer Kahani (@OmerKahani)
 * Jennifer Strejevich (@Jenniferstrej)
 * Thomas Schuetz (@thschue)
-
 
 ## Goals
 * Assemble and consolidate available best practices how to write operators e.g. CRDs, APIs, ….
