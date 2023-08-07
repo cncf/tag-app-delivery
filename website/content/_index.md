@@ -19,7 +19,7 @@ toc_hide: true
 
 The TAG produces guidance for and gathers feedback from cloud app users and
 developers and provides guidance and coordination to CNCF projects in the TAG's
-technical domains.
+technical domains!
 
 - [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
 - [Community events](https://community.cncf.io/tag-app-delivery/)
