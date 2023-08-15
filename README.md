@@ -35,6 +35,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - Alex Jones (@alexsjones) (TL)
 - Thomas Schuetz (@thschue) (TL)
 - Josh Gavant (@joshgav) (TL)
+- Lian Li (@lianmakesthings) (TL)
 
 ## Working Groups
 
