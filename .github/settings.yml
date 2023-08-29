@@ -17,28 +17,27 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # TOC Liasons
-  - username: cdavisafc
+  - username: kgamanji
     permission: admin
 
-  - username: resouer
+  - username: justincormack
     permission: admin
 
-
-  # SIG Chairs 
+  # TAG Chairs
   - username: AloisReitbauer
     permission: admin
 
-  - username: Jenniferstrej
+  - username: thschue
     permission: admin
     
-  - username: hongchaodeng
+  - username: joshgav
     permission: admin
 
   # Tech Leads
-    
   - username: AlexsJones
     permission: push
-    
-  - username: thschue
+
+  - username: lianmakesthings
     permission: push
+
     
