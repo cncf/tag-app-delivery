@@ -8,10 +8,7 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue @joshgav
-
-# Operator Working Group
-/operator-wg/ @Jenniferstrej @OmerKahani @thschue
+*   @AloisReitbauer @AlexsJones @thschue @joshgav @lianmakesthings
 
 # Platforms WG
 /platforms-wg/ @AlexsJones @thschue @roberthstrand @joshgav
