@@ -8,16 +8,13 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue @joshgav
-
-# Operator Working Group
-/operator-wg/ @Jenniferstrej @OmerKahani @thschue
+*   @AloisReitbauer @AlexsJones @thschue @joshgav @lianmakesthings @kgamanji @justincormack
 
 # Platforms WG
-/platforms-wg/ @AlexsJones @thschue @roberthstrand @joshgav
+/platforms-wg/ @abangser @roberthstrand @joshgav
 
 # GitOps WG
-/gitops-wg/ @todaywasawesome @chris-short @murillodigital @scottrigby @christianh814 @JaimeMagiera @niklasmtj @williamcaban @roberthstrand
+/gitops-wg/ @todaywasawesome @chris-short @scottrigby
 
 # Artifacts WG
 /artifacts-wg/ @afflom @rchincha

@@ -16,29 +16,51 @@ repository:
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
 collaborators:
-  # TOC Liasons
-  - username: cdavisafc
+  # TOC Liasons (all have admin access)
+  - username: kgamanji
     permission: admin
 
-  - username: resouer
+  - username: justincormack
     permission: admin
 
-
-  # SIG Chairs 
+  # TAG Chairs (all have admin access)
   - username: AloisReitbauer
     permission: admin
 
-  - username: Jenniferstrej
+  - username: thschue
     permission: admin
     
-  - username: hongchaodeng
+  - username: joshgav
     permission: admin
 
-  # Tech Leads
-    
+  # Tech Leads (all have maintain access)
   - username: AlexsJones
+    permission: maintain
+
+  - username: lianmakesthings
+    permission: maintain
+
+  # GitOps WG Chairs (all have push access)
+  - username: todaywasawesome
     permission: push
-    
-  - username: thschue
+
+  - username: scottrigby
     permission: push
+
+  - username: chris-short
+    permission: push
+
+  # Platforms WG Chairs (all have push access)
+  - username: roberthstrand
+    permission: push
+
+  - username: abangser
+    permission: push
+
+  # Artifacts WG Chairs (all have push access)
+  - username: afflom
+    permission: push
+  - username: rchincha
+    permission: push
+
     

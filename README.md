@@ -29,20 +29,27 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 
 ## Leads
 
-- Alois Reitbauer (@AloisReitbauer) (Chair)
-- Jennifer Strejevitch (@Jenninha) (Chair)
-- Hongchao Deng (@hongchaodeng) (Chair)
+- Alois Reitbauer (@AloisReitbauer) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
+- Josh Gavant (@joshgav) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
+- Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2023/08/29)
 - Alex Jones (@alexsjones) (TL)
-- Thomas Schuetz (@thschue) (TL)
-- Josh Gavant (@joshgav) (TL)
+- Lian Li (@lianmakesthings) (TL)
+
+## TOC Liaisons
+- Katie Gamanji (@kgamanji)
+- Justin Cormack (@justincormack)
+
+## Emeritus Leads
+- Jennifer Strejevitch (@Jenninha)
+- Hongchao Deng (@hongchaodeng)
 
 ## Working Groups
 
 The TAG has created the following working groups to investigate and discuss the following topics:
 
-| Working Group | Chairs            | Meeting Time                          |
-|---------------|-------------------|---------------------------------------|
-| [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg) | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs) | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
-| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg) | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md) | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings) |
-| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg)         |   | Inactive |
-| [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg) | | Inactive |
+| Working Group                                                                  | Chairs                                                           | Meeting Time                                                         |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
+| [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg)   | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs) | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
+| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg)         | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md)                     | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings)       |
+| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg) |                                                                  | Inactive                                                             |
+| [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                  | Inactive                                                             |
