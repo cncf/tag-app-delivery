@@ -30,11 +30,14 @@ Co-Chairs are expected to:
 * Enforce and promote diversity in TAG work.
 * Enforce and promote good communication in TAG efforts in accordance with the [CNCF CoC](https://www.cncf.io/conduct/)
 
+Permissions:
+* Chairs have admin access to the TAG GitHub repository.
+
 ## Technical Lead
 
 A technical lead (TL) expands the bandwidth of the leadership team in terms of covering technical areas, growing the community, organizing events or doing TAG communications.
 
-Proposals must have a TL or Chair working as an active sponsor. TLs are experienced contributors within the CNCF community with rooted expertise in the TAG area. 
+Proposals must have Chair as an active sponsor and the agreement of the majority of the current leadership team (Chairs, Tech Leads & Liaisons). TLs are experienced contributors within the CNCF community with rooted expertise in the TAG area. 
 
 Technical leads go through an [proposal process](./tech-lead-proposal-process.md) with a final CNCF TOC vote.
 
@@ -49,13 +52,16 @@ Technical leads go through an [proposal process](./tech-lead-proposal-process.md
 * Enforce and encourage good communication in the TAG efforts following the [CNCF CoC](https://www.cncf.io/conduct/).
 * Support the TAG Chairs.
 
-## Working Group Lead
+Permissions:
+* Tech Leads have maintain access to the TAG GitHub repository.
 
-A working group lead is an experienced contributor to the TAG that applies to lead along one or two others a working group.
+## Working Group Leads
+
+A working group chairs (usually 3) are experienced contributors to the TAG that applies to lead along one or two others a working group.
 Working groups as community governance structure are defined in the [CNCF TAG](https://github.com/cncf/toc/blob/master/tags) folder.
 TAG Chairs are responsible facilitating the working group applications and make sure that the process is done transparent, accessible and traceable for everyone.
-One of the TAG chairs serves as the working group sponsor and provides guidance to the working group leads.
-Working group leads are signed off by the TAG Chairs and the TOC Liaisons.
+At least one of the TAG chairs or Tech Leads serves as the working group sponsor and provides guidance to the working group leads.
+Working group leads are signed off by the majority of the TAG Chairs and the TOC Liaisons.
 The [leadership election process is described here](template-leadership-election-process.md#working-group-lead).
 
 **A working group lead is expected to**:
@@ -69,12 +75,18 @@ The [leadership election process is described here](template-leadership-election
 * Contribute content to the working group.
 * Onboard and setup the working group lead successor.
 
+Permissions:
+* WG Leads have write access to the TAG GitHub repository and CODEOWNERS entries for the working group folder.
+
 ## TOC Liaison
 
 The [CNCF TAG](https://github.com/cncf/toc/blob/master/tags) process identifies a TOC Liaison.
 The TAG Chairs are responsible for establishing effective communication with the TOC Liaison, including further communication to the wider TOC upon request.
 
 The TOC Liaison will occasionally prioritize TAG activities, as needed by the TOC, to further the [CNCF mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation).
+
+Permissions:
+* TOC Liaisons have admin access to the TAG GitHub repository.
 
 ## Emeritus Chair
 
