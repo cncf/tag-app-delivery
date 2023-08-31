@@ -21,8 +21,7 @@ successful.
 ## Process of nominations
 
 Depending on the needs of the community, as determined by the App Delivery TAG
-leadership team, technical lead nominations may come in the form of "Nominees by
-community", "Nominees by co-chairs", or both.
+leadership team, technical lead nominations may come in the form of "Nominees by co-chairs" at the moment.
 
 The App Delivery TAG does not have a current limit on the amount of technical leads.
 
