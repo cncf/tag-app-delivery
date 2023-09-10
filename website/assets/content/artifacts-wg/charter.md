@@ -1,0 +1,1 @@
+../../../../artifacts-wg/charter/charter.md
