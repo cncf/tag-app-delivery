@@ -69,3 +69,9 @@ npm install
 
 You can then run the site using `hugo server`.
 
+## Create a new blogpost
+
+```
+cd website
+AUTHOR=ll hugo new content blog/test.md
+```
