@@ -10,9 +10,9 @@ Update layouts for each content type in [./layouts](./layouts/).
 
 Configuration is set in [config.toml](./config.toml).
 
-## Setting up a local dev instance
+## Setting up a dev instance
 
-There are two ways to modify the website locally.
+There a two ways to run the webserver for developing the site.
 
 ### Run in Dev Container
 With a development container (called workspace), the entire toolchain can be bundled up and run in any environment that can run containers.
@@ -21,11 +21,16 @@ Requirements:
 - [DevPod](https://devpod.sh/docs/getting-started/install)
 - An environment with a [DevPod provider](https://devpod.sh/docs/managing-providers/what-are-providers), e.g. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-DevPod can be run with a GUI or as a CLI.
+DevPod can be run with a GUI or via CLI.
+
+#### GUI
+
 To start a workspace through the GUI click the below button.
 Then choose the desired provider and IDE.
+
 [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open)
 
+#### CLI
 To startup a devcontainer through the CLI, follow below steps
 ```
 # Add a provider for your environment, e.g. docker (this only needs to be done once)
