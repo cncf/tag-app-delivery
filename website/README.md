@@ -17,13 +17,16 @@ There are two ways to modify the website locally.
 ### Run in Dev Container
 With a development container (called workspace), the entire toolchain can be bundled up and run in any environment that can run containers.
 
-[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open)
-
 Requirements:
 - [DevPod](https://devpod.sh/docs/getting-started/install)
 - An environment with a [DevPod provider](https://devpod.sh/docs/managing-providers/what-are-providers), e.g. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-DevPod can be run with a GUI or as a CLI. Below are the steps necessary to startup a devcontainer through the CLI
+DevPod can be run with a GUI or as a CLI.
+To start a workspace through the GUI click the below button.
+Then choose the desired provider and IDE.
+[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open)
+
+To startup a devcontainer through the CLI, follow below steps
 ```
 # Add a provider for your environment, e.g. docker (this only needs to be done once)
 devpod provider add docker
