@@ -69,6 +69,15 @@ npm install
 
 You can then run the site using `hugo server`.
 
+## Add content to website
+Generally speaking, there are three types of content we feature on the website:
+1. **Projects looking for contributions**  
+These are strictly scoped in both time and content. People can contribute without the need for committing long-term.
+1. **Blogposts**  
+Updates about the TAG.
+1. **Working Groups**  
+Longrunning interest groups, the scope of which might change. A working group can create multiple projects.
+
 ## Create new call for contribution
 ```
 cd website
