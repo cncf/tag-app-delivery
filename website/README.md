@@ -69,7 +69,14 @@ npm install
 
 You can then run the site using `hugo server`.
 
-## Create a new blogpost
+## Create new call for contribution
+
+```
+cd website
+hugo new content contribute/<project title>.md
+```
+
+## Create new blogpost
 
 ```
 cd website
