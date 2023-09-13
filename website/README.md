@@ -70,21 +70,18 @@ npm install
 You can then run the site using `hugo server`.
 
 ## Create new call for contribution
-
 ```
 cd website
 hugo new content contribute/<project title>.md
 ```
 
 ## Create new blogpost
-
 ```
 cd website
 AUTHOR=ll hugo new content blog/<post title>.md
 ```
 
 ## Create new working group
-
 ```
 cd website
 hugo new wgs/<working group name>
