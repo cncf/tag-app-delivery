@@ -142,3 +142,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/cncf/cartografos/is
 [params.ui.readingtime]
 enable = false
 
+[security]
+ [security.funcs]
+    getenv = ['^HUGO_', '^CI$', 'AUTHOR']
