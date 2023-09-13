@@ -73,5 +73,5 @@ You can then run the site using `hugo server`.
 
 ```
 cd website
-AUTHOR=ll hugo new content blog/test.md
+AUTHOR=ll hugo new content blog/<post title>.md
 ```
