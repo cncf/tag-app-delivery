@@ -45,23 +45,18 @@ devpod up tag-app-delivery --ide openvscode
 Once the workspace is up, DevPod will start your IDE. Open up a terminal to execute the server startup script
 
 ```
-/bin/bash .devcontainer/start.sh
+/bin/bash .devcontainer/start-server.sh
 ```
-Navigate to localhost:1313 with your browser to view the site.
+Navigate to http://localhost:1313 with your browser to view the site.
 
 ### Run directly on machine
 
-To set up a local dev environment make sure you have [Hugo Extended](https://gohugo.io/installation/linux/#editions) and [npm](https://www.npmjs.com/) installed, then run the following:
+To set up a local dev environment make sure you have [Hugo Extended](https://gohugo.io/installation/linux/#editions) and [npm](https://www.npmjs.com/) installed, then run the server startup script:
 
 ```
-git clone git@github.com:cncf/tag-app-delivery.git
-cd tag-app-delivery
-git submodule update --init --recursive
-cd website
-npm install
+/bin/bash .devcontainer/start-server.sh
 ```
-
-You can then run the site using `hugo server`.
+the output will tell you which port the webserver is serving.
 
 ## Add content to website
 Generally speaking, there are three types of content we feature on the website:
@@ -72,19 +67,19 @@ Updates about the TAG.
 1. **Working Groups**  
 Longrunning interest groups, the scope of which might change. A working group can create multiple projects.
 
-## Create new call for contribution
+### Create new call for contribution
 ```
 cd website
 hugo new content contribute/<project title>.md
 ```
 
-## Create new blogpost
+### Create new blogpost
 ```
 cd website
 AUTHOR=ll hugo new content blog/<post title>.md
 ```
 
-## Create new working group
+### Create new working group
 ```
 cd website
 hugo new wgs/<working group name>
