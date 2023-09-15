@@ -8,7 +8,7 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @AlexsJones @thschue @joshgav @lianmakesthings @kgamanji @justincormack
+*   @AloisReitbauer @AlexsJones @thschue @joshgav @lianmakesthings @kgamanji @justincormack @angellk
 
 # Platforms WG
 /platforms-wg/ @abangser @roberthstrand @joshgav
