@@ -53,3 +53,4 @@ The TAG has created the following working groups to investigate and discuss the 
 | [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg)         | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md)                     | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings)       |
 | [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg) |                                                                  | Inactive                                                             |
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                  | Inactive                                                             |
+|[Artifacts](artifacts-wg/README.md) | [artifacts-wg/README.md#chairs](./artifacts-wg/README.md#chairs) | [artifacts-wg/README.md#meetings](./artifacts-wg/README.md#meetings) |
