@@ -861,7 +861,7 @@ Operators are programs that can be written in any language of choice.
 This works because Kubernetes provides a REST API that allows
 communication with clients using lightweight protocols such as HTTP.
 Consequently, software developers can write Operators in their preferred
-programming language as long as long as the REST API specifications are
+programming language as long as the REST API specifications are
 followed.
 
 However, if developers are free to choose their programming language,
