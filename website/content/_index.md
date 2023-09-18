@@ -45,8 +45,8 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 ## Leads
 
 - [Alois Reitbauer](https://github.com/AloisReitbauer) (Chair)
-- [Jennifer Strejevitch](https://github.com/jenniferstrej) (Chair)
-- [Hongchao Deng](https://github.com/hongchaodeng) (Chair)
+- [Josh Gavant](https://github.com/joshgav) (Chair)
+- [Thomas Schuetz](https://github.com/thschue) (Chair)
 - [Alex Jones](https://github.com/alexsjones) (TL)
-- [Thomas Schuetz](https://github.com/thschue) (TL)
-- [Josh Gavant](https://github.com/joshgav) (TL)
+- [Lian Li] (https://github.com/lianmakesthings) (TL)
+- [Karena Angell] (https://github.com/angellk) (TL)
