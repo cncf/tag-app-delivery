@@ -34,6 +34,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2023/08/29)
 - Alex Jones (@alexsjones) (TL)
 - Lian Li (@lianmakesthings) (TL)
+- Karena Angell (@angellk) (TL)
 
 ## TOC Liaisons
 - Katie Gamanji (@kgamanji)
