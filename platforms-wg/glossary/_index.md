@@ -1,10 +1,6 @@
 ---
 title: Glossary
-list_pages: true
-menu:
-  main:
-    weight: 30
-description: "A collection of terms and used within the TAG published papers."
+description: "A collection of terms used in the Platform Working Group published papers."
 ---
 
 See also <https://glossary.cncf.io/>.
