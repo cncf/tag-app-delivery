@@ -18,14 +18,14 @@ url: /whitepapers/platform-eng-maturity-model
 
 Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common infrastructure capabilities, frameworks, and experiences that facilitate and accelerate the work of internal users such as product and application teams.
 
-CNCF's initial "Platforms Definition" white paper describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every platform is an internal platform crafted for its own organization. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every platform is an internal platform crafted for its own organization. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
-As an organization learns and evolves, so will its platform practices mature and develop. But most organizations should not strive for "Level 4" maturity - instead every organization needs to evaluate its requirements and invest accordingly in shared platform capabilities. Said another way, this model is not a ruler by which to measure platforms success for any given person, team, or organization. It is instead offered as a tool for users to identify and articulate opportunities for enhancement and to solicit support to optimize software delivery and platform practices.
+As an organization learns and evolves, so will its platform practices mature and develop. However, an organization should not strive for "Level 4" maturity "just because" - instead, each organization should evaluate its own particular requirements and invest accordingly in the platform capabilities that are most appropriate for its needs. Said another way, this model is not a ruler by which the success for any given platform, person, team, or organization should be measured. It is instead offered as a tool for users to identify and articulate opportunities for enhancement and to solicit support to optimize software delivery and platform practices.
 The most important piece of any content is the context it was written in. The following sections lay out some context behind the model as well as some expectations for you, the reader.
 
 ### Target Audience
 
-Each reader brings a unique context and will take unique learnings from this model. Following are some personas we have in mind:
+Each reader brings a unique context and will take unique learnings from this model. Following are some personas we have in mind, along with their possible motivations for engaging with this model:
 
 * **CTOs, VPs and directors of technology**: Leaders looking to map a path to digital transformation and greater developer productivity
 * **Engineering managers**: Groups and individuals seeking to empower engineers to provide value with less overhead and higher efficiency
@@ -41,7 +41,7 @@ The use of this model to evaluate organizational maturity and opportunities for 
 
 **Platform engineering** encompasses all parts of building platforms and their capabilities - the people, processes, policy, technology, and business outcomes that drive the need for, and delivery of, internal platforms.
 
-More specifically, **platforms** are the implementation of a foundation on which to build digital products. Its goal is to provide consistency and efficiency for software development and operations. Platform engineering refers to the greater practice of planning and providing the necessary platforms for organizations by people who specialize in their capabilities and the user experiences surrounding them.
+More specifically, **platforms** are the implementation of a foundation on which to build digital products. Their goals are to provide consistency and efficiency for software development and operations. Platform engineering refers to the greater practice of planning and providing the necessary platforms for organizations by people who specialize in their capabilities and the user experiences surrounding them.
 
 ### What does maturity mean?
 
@@ -59,9 +59,9 @@ This model encourages organizations to mature both their platform engineering di
 
 The top-level Platforms white paper introduces a number of [attributes that define successful platforms](https://tag-app-delivery.cncf.io/whitepapers/platforms/#attributes-of-platforms); and the aspects of this maturity model are inspired by and correlated with those attributes. Each aspect in this maturity model is then described by a continuum of characteristics of teams and organizations at that aspect.
 
-This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4.” Each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being used across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
+This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4” - each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but are not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being used across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
 
-The labels for each level intend to reflect the impact of platform engineering at your organization. As you recognize your organization at a given level you will gain insight into opportunities which follow at the next ones. Lower-numbered levels comprise mostly tactical, temporary solutions while higher-numbered ones are more strategic and sustainable.
+The labels for each level are intended to reflect the impact of platform engineering at your organization. As you recognize your organization at a given level you will gain insight into opportunities which follow at the next ones. Lower-numbered levels comprise mostly tactical solutions while higher-numbered ones are more strategic.
 
 The process of platform development and maturity this yields is similar to any digital product development: first recognize a problem and need for a new solution, next develop minimally-viable products as hypothesized solutions, third iterate to better solve the problem and ensure fit for your customers and finally scale and optimize the product to solve the problem for many teams and users.
 
@@ -73,11 +73,11 @@ That’s perfectly fine! All organizations and groups have dynamics and paramete
 
 Keep in mind that the goal of this paper isn’t to prescribe a rigid formula, but rather a framework that you can apply to your circumstances.  Every single word may not be relevant to you, but we hope the content will inspire you to introspect on your own platform journey, taking what makes sense and leaving the rest.
 
-The objective of this model is to provide a tool to help guide you on your journey. Platform design and implementation is not an exact science, but rather depends on the needs of your project, your organization and your time and place.
+The objective of this model is to provide a tool to help guide platform engineering practitioners, stakeholders, and other interested parties on their journeys. Platform design and implementation is not an exact science, but rather depends on the needs of an individual project, an organization and a particular time and place.
 
 ### A final introductory note
 
-As you review this model, keep in mind that each aspect is meant to be rated and evolved independently. However, like any socio-technical system, these aspects are complex and connected. Therefore, you may find that in order to improve one aspect of your platform, you have to reach a minimum requirement in another aspect.
+As you review this model, keep in mind that each aspect is meant to be rated and evolved independently. However, like any socio-technical system, these aspects are complex and connected. Therefore, you may find that in order to improve one aspect of your platform, you have to reach a minimum requirement in another aspect. For example, engineering teams may self-organize and adopt product thinking around their platform ("Level 3" investment) before their organization has staffed a dedicated platform engineering team ("Level 2" investment). On the other hand, to achieve that product thinking level of investment, organizations may benefit in building operational scale of consistency in measurement collection and use.
 
 Implementations of platforms will vary from organization to organization; make sure to evaluate the current state of your group’s overall cloud native transformation. A phenomenal resource to leverage for this evaluation is the Cloud Native Maturity Model.
 
@@ -134,8 +134,8 @@ Budget and people are allocated for persistent people and resource support. The 
 * The team is made up of nearly all technical generalists
 * Team budget may include the infrastructure costs associated with their work leading to often being a key point in budget conversations
 * Backlog items range a number of technologies, leading to frequent and large context switches. 
-* This team is often the first to fill a gap that is not yet being addressed, even if not in the declared scope for the team
-* Assigned people rarely has the time or experience with customer research to validate their designs or implementations
+* This team is often the first to fill a gap that is not yet being addressed, even if not in the declared scope for the team - this team takes ownership of resources that don't have an owner
+* Assigned people rarely have the time or experience with customer research to validate their designs or implementations
 
 ###### Examples Scenarios:
 
@@ -147,7 +147,7 @@ Investment in internal platforms and their capabilities is similar to investment
 
 ###### Characteristics:
 
-* Platform teams staff roles not traditionally in technical teams, for example product management and user experience
+* Platform teams staff roles not traditionally found in internal serving or technical teams, for example, product management and user experience
 * The team provides a public roadmap which indicates the value delivered and high level feature targets
 * Features are tested for both implementation quality and user experience during design, delivery, and post deployment
 * Feature removal is a key part of the conversation, the goal is to have a well supported, well used suite of capabilities instead of a sprawling estate that may not be maintained
@@ -156,7 +156,7 @@ Investment in internal platforms and their capabilities is similar to investment
 
 * Data derived from platform usage metrics inform decisions to allocate funds and staff to the most impactful initiatives.
 
-##### Level 4, Optimized - Enabled ecosystem
+##### Level 4, Optimizing - Enabled ecosystem
 
 Platform teams find ways to increase organization-wide efficiency and effectiveness beyond basic capabilities. Core platform maintainers intentionally strive to optimize time-to-market for new products, reduce costs across the enterprise, enable efficient governance and compliance for new services, scale workloads quickly and easily, and other cross-cutting requirements. These core maintainers are focused on enabling capability specialists to seamlessly integrate their requirements and offerings into existing and new parts of platforms. Further, the organization focuses people and resources from specialist domains like security, performance, quality on engaging with provided platform frameworks to introduce advanced features that can enable product teams to accelerate their adherence to company goals without depending on a centralized team backlog.
 
@@ -191,10 +191,10 @@ Adoption of shared platforms and capabilities is sporadic and inconsistent. No o
 
 ###### Characteristics:
 
-* One-off tools, services, and capabilities managed by and consumed from various teams and departments in the organization
-* Provider-managed (aka "cloud") services adopted and used inconsistently and without standard practices and policies as internal configurations are hard to find or use
-* App and service teams discover tools and capabilities haphazardly and via rumors and other people
-* Coordination and reuse of components and capabilities is driven only by users, if at all
+* One-off tools, services, and capabilities are managed by and consumed by from various teams and departments in the organization
+* Provider-managed (aka "cloud") services are adopted and used inconsistently and without standard practices and policies, as internal configurations are hard to find or use
+* App and service teams discover tools and capabilities haphazardly, via rumors and chance conversations rather than through a more centralized process
+* Coordination and reuse of components and capabilities is driven only by end users (application teams), if at all
 * Product teams each maintain their own set of scripts or tools to deploy their applications
 
 ###### Examples Scenarios:
@@ -209,10 +209,10 @@ User discovery of capabilities and how to use them is inconsistent; it is possib
 
 ###### Characteristics:
 
-* Some degree of external impetus leads to use of platform capabilities, such as:
+* Some degree of external impetus leads to use of platform capabilities, for example:
   * Incentives such as personal reviews
   * Mandates such as requiring use for production releases or receiving funding
-* Despite using one capability, users fail to correspond their experience with wanting additional capabilities
+* The utilization of platform capabilities is fragmented - users may take advantage of one capability but not be aware of, or interested in adopting, others that are available.
 * Users have low motivation to learn how to use platform capabilities and rely heavily on collaboration with the providers through forums like office hours or help desk
 * Platform users are encouraged to join informal communities of practice to their share problems and solutions
 
@@ -227,24 +227,24 @@ Users on product and service teams choose to use platforms and their capabilitie
 ###### Characteristics:
 
 * Platform adoption is self-sustaining –The primary driver for core adoption is not an external impetus or incentive which mandates users use the platform – rather it is the values of these platform offerings themselves which draws users to them.
-* After using and appreciating one or some platform capabilities, users seek out others and find the experience is similar across capabilities
+* After using and appreciating one or some platform capabilities, users seek out others and find the experience is similar across capabilities - there is an expectation that an individual capability is not isolated, but one feature among a larger platform feature set.
 * Platform teams encourage the natural adoption of platforms by gathering user feedback, sharing roadmaps and maintaining open forums for conversation with users
 * Application and product teams value platform capabilities enough to pay for them, e.g., via a chargeback system
-* Users can share feedback and learn of upcoming features through open forums and shared roadmaps
-* Portals, golden path templates and other documents enable rapid use
+* Users can share feedback and learn about upcoming features through open forums and shared roadmaps
+* Self-serve portals, golden-path templates and other documents enable rapid use
 
 ###### Examples Scenarios:
 
 * An application team previously had success requesting a new database. Their process was easy to understand and required almost no waiting time. In addition, key capabilities like backups and monitoring that allowed the team to progress their use all the way to production without issue were included. This experience meant that when the team later needed a queue, their first instinct was to check for an internal platform option. While they originally intended to use a specific queue technology, in the end, they chose to use the one offered internally since they knew how well integrated the solution would be for their organization.
 
-##### Level 4, Optimized - Participatory
+##### Level 4, Optimizing - Participatory
 
 Users from product teams further invest in platform capabilities by joining the ecosystem and contributing back to it. Some contributions improve and fix existing capabilities; others introduce new capabilities and features to address new use cases. Processes and services are defined and enable users to identify requirements and coordinate contributions amongst several product and platform teams. New capabilities are published via consistent interfaces and portals and with complete documentation and standard versioning.
 
 ###### Characteristics:
 
-* Users in app/service teams are enabled contribute fixes, features and feedback for platform capabilities
-* External projects and standards are used when feasible to reduce maintenance costs and accelerate new feature delivery
+* Users in app/service teams are empowered to contribute fixes, features and feedback for platform capabilities
+* External projects and standards are strategically leveraged to reduce maintenance costs, accelerate new feature delivery, and use organization headcount most effectively
 * New capabilities and enhancements are coordinated asynchronously through issue boards and pull requests. Documents and checklists enable self-driven development by contributors.
 * Developer advocates and internal ambassadors build and support an internal user community that extends platform ownership to app and service team contributors too
 * Use of platform capabilities is viewed as the best way of working at the organization by both leadership and individual contributors
@@ -263,7 +263,7 @@ Key characteristics of an interface include how discoverable and user-friendly i
 
 ##### Level 1, Provisional - Custom processes
 
-A collection of varying processes exists to provision different capabilities and services, but consistency of interface is not considered. Custom processes address immediate needs and are reliant on manual intervention even if the provider uses some automated implementation scripts.
+A collection of varying processes exists to provision different capabilities and services, but the consistency of the interface is not considered. Custom tailor-made processes address the immediate needs of individuals or teams and are reliant on manual intervention even if the provider uses some automated implementation scripts.
 
 Knowledge of how to request these solutions is shared from person to person. The process for requesting a service lacks standardization and consistency. Provisioning and using a platform service likely requires deep support from the capability provider.
 
@@ -285,37 +285,37 @@ Lack of central requirements and standards makes this level appropriate when the
 
 Consistent, standard interfaces for provisioning and observing platforms and capabilities exist and meet broad needs. Users are able to identify what capabilities are available and are enabled to request capabilities that they require.
 
-"Paved paths" - in the form of docs and templates -are provided to define how to provision and manage typical capabilities using compliant and tested patterns. While some users are able to use these solutions on their own, the solutions often still require deep domain expertise and therefore support from maintainers is still vital.
+"Paved roads" or "golden paths", in the form of documentation and templates, are provided. These resources define how to provision and manage typical capabilities using compliant and tested patterns. While some users are able to use these solutions on their own, the solutions often still require deep domain expertise and therefore support from maintainers is still vital.
 
 ###### Characteristics:
 
-* Technical solutions are built in tools specific to their problem domain, not always tools familiar to the users
+* Technical solutions are built-in tools specific to their problem domain, not always tools familiar to the users
 * There is investment in a common path, however deviating from that path quickly uncovers few customization options as the focus was on building a single option
 * Given standardization, informal internal groups are able to form and gather to share good practices and overcome shared problems
-* There may be drift on capability implementation as teams take templates, customize them and then can not merge in changes from the centralized team
+* There may be drift on capability implementation as teams take templates, customize them, and then can not merge in changes from the centralized team
 
 ###### Examples Scenarios:
 
-* A centralized team curates a library of Terraform modules, Kubernetes controllers and CRDs for provisioning different types of infrastructure
+* A centralized team curates a library of Terraform modules, Kubernetes controllers, and CRDs for provisioning different types of infrastructure
 * A shared location includes comprehensive documents about solutions across the organization
 
 ##### Level 3, Scalable - Self-service solutions
 
-Solutions are offered in a way that provides autonomy to users and requires little support by maintainers. The organization encourages and enables solutions to provide consistent interfaces which enables discoverability and portability of user experience from one capability to another. While self-service, the solutions do require team awareness and implementation. In order to improve this experience there may be a guided and simplified internal language which enables users to adopt and integrate platform capabilities more quickly. This generates a user-centric, self-serviceable, and consistent collection of capabilities.
+Solutions are offered in a way that provides autonomy to users and requires little support from maintainers. The organization encourages and enables solutions to provide consistent interfaces that enable discoverability and portability of user experience from one capability to another. While self-service, the solutions do require team awareness and implementation. In order to improve this experience there may be a guided and simplified internal language which enables users to adopt and integrate platform capabilities more quickly. This generates a user-centric, self-serviceable, and consistent collection of capabilities.
 
 ###### Characteristics:
 
-Solutions are provided as “one-click” implementations, enabling teams to benefit from a capability without needing to understand how they are provisioned
-While the solutions are easy to create, there may not be as much usability built into the day 2 and beyond management of the solution
-There continues to be a narrow path of available solutions, leaving users with unique requirements unsure how to proceed
+* Solutions are provided as “one-click” implementations, enabling teams to benefit from a capability without needing to understand how they are provisioned
+* While the solutions are easy to create, there may not be as much usability built into the day 2 and beyond management of the solution
+* There continues to be a narrow path of available solutions, leaving users with unique requirements unsure how to proceed
 
 ###### Examples Scenarios:
 
-An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
+* An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
 
-##### Level 4, Optimized - Managed services
+##### Level 4, Optimizing - Managed services
 
-Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks which are built into the transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
+Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks that are built into the transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
 
 ###### Characteristics:
 
@@ -333,9 +333,9 @@ Platform capabilities are transparently integrated into the tools and processes 
 ### Operations
 <h4 style="color:gray"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
 
-Operation of a computing platform means running and supporting its capabilities and their features over their whole lifetime, including acceptance of new requests, initial releases, upgrades and extensions, ongoing maintenance and operations, user support and even deprecation and termination. Organizations and their platform teams choose platforms and capabilities to create and maintain and can prioritize the most valuable and impactful initiatives.
+Operation of platforms means running and supporting its capabilities and their features over their whole lifetime, including acceptance of new requests, initial releases, upgrades and extensions, ongoing maintenance and operations, user support, and even deprecation and termination. Organizations and their platform teams choose platforms and capabilities to create and maintain and can prioritize the most valuable and impactful initiatives.
 
-Notably, most of the work to provide a capability is expended after its initial release - in providing seamless upgrades, new and improved features, operational support and end user enablement and education. Therefore an impactful, valuable platform will plan in advance and manage their platform for long-term sustainable operations and reliability.
+Notably, most of the work to provide a capability is expended after its initial release - in providing seamless upgrades, new and improved features, operational support, and end-user enablement and education. Therefore an impactful, valuable platform will plan in advance and manage their platform for long-term sustainable operations and reliability.
 
 ##### Level 1, Provisional - By request
 
@@ -389,9 +389,9 @@ Standard processes for creating and evolving new capabilities exist enabling any
 
 ###### Examples Scenarios:
 
-* The organization is going to upgrade to RHEL 9. In doing so, each application team needs to validate that their software continues to work. In order to enable this testing phase the centralized compute team is generating test environments for each team with the correct software and OS versions.
+* The organization is going to upgrade to RHEL 9. In doing so, each application team needs to validate that their software continues to work. In order to enable this testing phase the centralized compute team is setting up test environments for each team with the correct software and OS versions.
 
-##### Level 4, Optimized - Managed services
+##### Level 4, Optimizing - Managed services
 
 The lifecycle of each capability is managed in a standardized, automated way. Capabilities, features and updates are delivered continuously with no impact on users. Any large changes instigated by platform providers include migration plans for existing users with defined responsibilities and timelines.
 
@@ -400,11 +400,11 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 ###### Characteristics:
 
 * A shared ownership model clearly defines who is responsible for platforms and their capabilities and what is expected of users. 
-* Team script both the execution of the upgrade and any rollback strategies to keep risk and impact low
+* Teams script both the execution of the upgrade and any rollback strategies to keep risk and impact low
 
 ###### Examples Scenarios:
 
-* The users of virtual machines are not required to manage anything to do with version upgrades. Their only requirement is to have a stage in their delivery pipeline that contains a representative smoke test. They are then asked to declare their application as lower risk tolerance so as to wait for a fully hardened upgrade or higher tolerance to become an early adopter. The virtual machine capability then manages the automated release of upgrades including rollbacks after either smoke test or canary release failures.
+* The users of virtual machines are not required to manage anything to do with version upgrades. Their only requirement is to have a stage in their delivery pipeline that contains a representative smoke test. They are then asked to declare their application as having lower risk tolerance so as to wait for a fully hardened upgrade or higher tolerance to become an early adopter. The virtual machine capability then manages the automated release of upgrades including rollbacks after either smoke test or canary release failures.
 
 ### Measurement
 <h4 style="color:gray"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
@@ -413,7 +413,7 @@ By reacting to explicit and implicit feedback from users, organizations can incr
 
 ##### Level 1, Provisional - Ad hoc
 
-Usage and satisfaction metrics are gathered in custom ways, if at all, for each platform and capability. Outcomes and measures of success are not consistently aligned across capabilities, and therefore corresponding insights are not gathered. User feedback may be gathered informally, for example in surveys that are not built with repeatability or follow-up in mind. Decisions are made based on anecdotal requirements and incomplete data.
+Usage and satisfaction metrics are gathered in custom ways, if at all, for each platform and capability. Outcomes and measures of success are not consistently aligned across capabilities, and therefore corresponding insights are not gathered. User feedback and instrumentation of platform use may not be gathered, or if it is, it will be informal. Decisions are made based on anecdotal requirements and incomplete data.
 
 ###### Characteristics:
 
@@ -426,27 +426,29 @@ Usage and satisfaction metrics are gathered in custom ways, if at all, for each 
 ###### Examples Scenarios:
 
 * A platform tech lead wants to improve the collaboration with users by adding key topics to their next quarterly planning. They decide to run a survey on what users would like to see. The response is overwhelming, which is exciting, but also results in a difficulty organizing and responding to all of the ideas. While some ideas influence the quarterly planning, the users do not see their ideas as being accepted and are less inclined to reply to the next survey.
+* The team wants to capture more data automatically, so they look for opportunities for easy collection such as test failures in CI. However not every team uses the same CI automation so the data is only available for Java applications even though some teams have moved on to writing their services in Scala.
 
 ##### Level 2, Operationalized - Consistent collection
 
-Organization has an intentional goal to verify platform products meet the needs of their market of internal users. Actionable, structured collection of user feedback is valued. Dedicated teams or individuals might be assigned to gather feedback, ensuring a more consistent approach. Feedback channels, such as surveys or user forums, are standardized, and feedback is categorized and prioritized.
+Organization has an intentional goal to verify platform products meet the needs of their market of internal users. Actionable, structured collection of user feedback is valued. Dedicated teams or individuals might be assigned to gather feedback, ensuring a more consistent approach. Feedback channels, such as surveys or user forums, are standardized, and feedback is categorized and prioritized. Beyond user feedback, there is also an expectation that user experiences are instrumented to generate usage data over time.
 
 Challenges remain in translating feedback into actionable tasks. While there is a growing repository of user data, the organization might need help effectively understanding and integrating this feedback into a platform roadmap. It may be hard to ensure that users see tangible changes driven by their feedback.
 
 ###### Characteristics:
 
-Data collection is discussed as part of most major planning sessions or capability implementations
-Users can track their feedback in relation to platform development and can see how their feedback is incorporated into the roadmap
-May not be alignment on exactly what to measure to verify success
-Platform features can be measured for success, such as by measuring  user adoption or user time saved
+* Data collection is discussed as part of most major planning sessions or capability implementations
+* Users can track their feedback in relation to platform development and can see how their feedback is incorporated into the roadmap
+* May not be alignment on exactly what to measure to verify success
+* Platform features can be measured for success, such as by measuring  user adoption or user time saved
 
 ###### Examples Scenarios:
 
-A platform team allocates 20% of their time to user defined features, which they identify based on surveys and other interview techniques. Their findings are collected into a tool that enables additional voting and commenting to further refine priorities. During implementation the requesting users are approached for collaboration on early designs and implementations. Once implemented, there are announcements which make sure requesting users are aware of new features and supported in adopting them.
+* A platform team allocates 20% of their time to user defined features, which they identify based on surveys and other interview techniques. Their findings are collected into a tool that enables additional voting and commenting to further refine priorities. During implementation the requesting users are approached for collaboration on early designs and implementations. Once implemented, there are announcements which make sure requesting users are aware of new features and supported in adopting them.
+* The team focused on software delivery capabilities wants to capture more data automatically including cycle time which they automate through the build tool from commit to production. There is an understanding that cycle time can include other activities like PR review, but that isn’t included at this time.
 
 ##### Level 3, Scalable - Insights
 
-While robust, standard feedback mechanisms already exist, at this stage specific data is collected in specific ways to yield specific strategic insights and actions. Specific desired results and outcomes are identified and standard metrics chosen to indicate success. Industry frameworks and standards such as [DORA](https://dora.dev/), [SPACE](https://dl.acm.org/doi/10.1145/3454122.3454124), or eNPS may be used to benefit from industry research on the impact of certain behaviors.
+While robust, standard feedback mechanisms already exist, at this stage specific data is collected in specific ways to yield specific strategic insights and actions. Specific desired results and outcomes are identified and standard metrics chosen to indicate success. Industry frameworks and standards may be used to benefit from industry research on the impact of certain behaviors.
 
 Dedicated teams or tools are employed to gather and review feedback and summarize actionable insights. A symbiotic relationship between platform products and their users is established. Feedback is considered a strategic asset that guides platform operations and roadmap. Regular feedback review sessions might be instituted, where cross-functional teams come together to discuss and strategize based on user insights. 
 
@@ -459,9 +461,9 @@ Dedicated teams or tools are employed to gather and review feedback and summariz
 
 ###### Examples Scenarios:
 
-* The organization has consistently tracked build times and lead time. However, now they are investing in a complete set of data around the DORA metrics allowing for a more complete picture of how velocity and stability are interacting in regards to their delivery process.
+* The organization has consistently tracked build times and lead time. However, now realize that while easy to collect, these alone do not give a complete picture of software delivery. With this in mind, the team implements measurement for service reliability and stability.
 
-##### Level 4, Optimized - Quantitative and qualitative
+##### Level 4, Optimizing - Quantitative and qualitative
 
 Feedback and measurements are deeply integrated into the organization's culture. The entire organization, from top-level executives to engineers organization-wide, recognizes the value of data collection and feedback on product evolution. There is a democratization of data, where various stakeholders, including platform users and business leaders, are actively involved in identifying hypotheses for platform improvements, providing feedback during the design process, and then measuring the impact post delivery. All of these measurements are considered when planning platform initiatives.
 
