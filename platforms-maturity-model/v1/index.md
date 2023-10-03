@@ -85,25 +85,22 @@ In general, these models present a challenge in that they attempt to capture a p
 
 ## Model table
 
-| Aspect                      |                                                                                            | Provisional            | Operational           | Scalable               | Optimizing                   |
-|:----------------------------|:-------------------------------------------------------------------------------------------|:-----------------------|:----------------------|:-----------------------|:-----------------------------|
-| [Investment](#investment)   | _How are staff and funds allocated to platform capabilities?_                              | Voluntary or temporary | Dedicated team        | As product             | Enabled ecosystem            |
-| [Adoption](#adoption)       | _Why and how do users discover and use internal platforms and platform capabilities?_      | Erratic                | Extrinsic push        | Intrinsic pull         | Participatory                |
-| [Interfaces](#interfaces)   | _How do users interact with and consume platform capabilities?_                            | Custom processes       | Standard tooling      | Self-service solutions | Integrated services          |
-| [Operations](#operations)   | _How are platforms and their capabilities planned, prioritized, developed and maintained?_ | By request             | Centrally tracked     | Centrally enabled      | Managed services             |
-| [Measurement](#measurement) | _What is the process for gathering and incorporating feedback and learning?_               | Ad hoc                 | Consistent collection | Insights               | Quantitative and qualitative |
+| <div style="width:120px">Aspect </div> |                                                                                            | Provisional            | Operational           | Scalable               | Optimizing                   |
+|:---------------------------------------|:-------------------------------------------------------------------------------------------|:-----------------------|:----------------------|:-----------------------|:-----------------------------|
+| [Investment](#tab-text-Investment)     | _How are staff and funds allocated to platform capabilities?_                              | Voluntary or temporary | Dedicated team        | As product             | Enabled ecosystem            |
+| [Adoption](#tab-text-Adoption)         | _Why and how do users discover and use internal platforms and platform capabilities?_      | Erratic                | Extrinsic push        | Intrinsic pull         | Participatory                |
+| [Interfaces](#tab-text-Interfaces)     | _How do users interact with and consume platform capabilities?_                            | Custom processes       | Standard tooling      | Self-service solutions | Integrated services          |
+| [Operations](#tab-text-Operations)     | _How are platforms and their capabilities planned, prioritized, developed and maintained?_ | By request             | Centrally tracked     | Centrally enabled      | Managed services             |
+| [Measurement](#tab-text-Measurement)   | _What is the process for gathering and incorporating feedback and learning?_               | Ad hoc                 | Consistent collection | Insights               | Quantitative and qualitative |
 
-## Model Details
+## Model Detail
 
-The aspects are:
-* [Investment](#investment): How are staff and funds allocated to platform capabilities?
-* [Adoption](#adoption): Why and how do users discover and use internal platforms and platform capabilities?
-* [Interfaces](#interfaces): How do users interact with and consume platform capabilities?
-* [Operations](#operations): How are platforms and their capabilities planned, prioritized, developed and maintained?
-* [Measurement](#measurement): What is the process for gathering and incorporating feedback and learning?
+{{< tabs tabTotal="5">}}
+{{< tab tabName="Investment" >}}
+</br>
 
-### Investment
 <h4 style="color:gray"><i>How are staff and funds allocated to platform capabilities?</i></h4>
+</br>
 
 Investment in platforms and platform engineering is the process of allocating budget and people to build and maintain common capabilities. It is common for initiatives to be described as organically built from the bottom up, or driven through top down initiatives. In either case, it is the ability to invest sustained effort that drives high-impact work. This aspect captures how the scale and breadth of investment can impact platform success.
 
@@ -170,9 +167,13 @@ Platform teams find ways to increase organization-wide efficiency and effectiven
 * Marketing works with platform builders to introduce consistent user tracking in order to attribute marketing efforts to product outcomes. 
 * Automation initiative reduces human time to provision databases by 30 minutes per instance, saving $10m/year
 
+{{< /tab >}}
+{{< tab tabName="Adoption" >}}
 
-### Adoption
+</br>
+
 <h4 style="color:gray"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
+</br>
 
 Adoption describes not only how and how much an organization uses platform capabilities, but also what motivates them to do so. In the early stages,  many target users may not realize they are using a platform at all, rather they see their tools as an ad hoc collection of capabilities from various internal sources. This may mature into a group of capabilities that is consistently managed and presented to users - that is, one or more platforms. As the capabilities become more refined and discoverable, it is common that the drive for platform use moves away from more external motivations like mandates or incentives. Allowing users to self-select into platform capabilities and ideally even invest their own efforts into the wider platform ecosystem.
 
@@ -182,7 +183,6 @@ Adoption describes not only how and how much an organization uses platform capab
 <br/>
 <em>A diagram to indicate a common growth pattern for platform</br>adoption. This showcases the often slow start driven mainly by platform builders.</br></br>Once platforms provides enough value to users, growth becomes more pulled by</br>the users causing a steeper adoption curve.</em>
 </p>
-
 
 
 ##### Level 1, Provisional - Erratic
@@ -254,9 +254,14 @@ Users from product teams further invest in platform capabilities by joining the 
 
 * A team contributes alternative backup plans for different requirements and platform teams provide a new way for users to select one of these. This offering is originally introduced as an alpha offering until it meets all of the operational requirements for a more stable version.
 
-### Interface
-<h4 style="color:gray"><i>How do users interact with and consume platform capabilities?</i></h4>
 
+{{< /tab >}}
+{{< tab tabName="Interfaces">}}
+
+</br>
+
+<h4 style="color:gray"><i>How do users interact with and consume platform capabilities?</i></h4>
+</br>
 The interfaces provided by platforms affect how users interact with these platform offerings to provision, manage, and observe capabilities. Interfaces can include ticketing systems, project templates, and graphical portals as well as automatable APIs and command-line (CLI) tools.
 
 Key characteristics of an interface include how discoverable and user-friendly it is during key user journeys like initial request, maintenance, or incident triage. Higher levels of maturity here reflect more integrated, consistent, automated, and supported interfaces.
@@ -330,9 +335,13 @@ Platform capabilities are transparently integrated into the tools and processes 
 * By default every new project receives a space in a task runner (pipelines) and a runtime environment (K8s namespace), however a project can opt into other options such as serverless runtime.
 * From a catalog in a Service Now portal a user selects "Provision a Database". Automation provisions an RDS database and sends a URL and credentials to the user.
 
-### Operations
-<h4 style="color:gray"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
+{{< /tab >}}
+{{< tab tabName="Operations">}}
 
+</br>
+
+<h4 style="color:gray"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
+</br>
 Operation of platforms means running and supporting its capabilities and their features over their whole lifetime, including acceptance of new requests, initial releases, upgrades and extensions, ongoing maintenance and operations, user support, and even deprecation and termination. Organizations and their platform teams choose platforms and capabilities to create and maintain and can prioritize the most valuable and impactful initiatives.
 
 Notably, most of the work to provide a capability is expended after its initial release - in providing seamless upgrades, new and improved features, operational support, and end-user enablement and education. Therefore an impactful, valuable platform will plan in advance and manage their platform for long-term sustainable operations and reliability.
@@ -406,9 +415,13 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 
 * The users of virtual machines are not required to manage anything to do with version upgrades. Their only requirement is to have a stage in their delivery pipeline that contains a representative smoke test. They are then asked to declare their application as having lower risk tolerance so as to wait for a fully hardened upgrade or higher tolerance to become an early adopter. The virtual machine capability then manages the automated release of upgrades including rollbacks after either smoke test or canary release failures.
 
-### Measurement
-<h4 style="color:gray"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
+{{< /tab >}}
+{{< tab tabName="Measurement">}}
 
+</br>
+
+<h4 style="color:gray"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
+</br>
 By reacting to explicit and implicit feedback from users, organizations can increase user satisfaction and ensure long-term platform sustainability. Organizations must balance innovation and meeting user demands to keep platform relevance. As technology and user preferences change, platforms that are agile and responsive to these changes will stand out. Regularly revisiting and refining the feedback mechanism can further optimize platform development and improve user engagement.
 
 ##### Level 1, Provisional - Ad hoc
@@ -480,3 +493,6 @@ Not only are standard frameworks leveraged, but there is an understanding that m
 ###### Examples Scenarios:
 
 * Over time the organization has collected data indicating a rise in build time of over 15% triggers negative developer experiences and that once triggered, even if the build time is reduced below the original time developers stay frustrated for longer. This allows the build team to set a Service Level Objective (SLO) which enables early identification and improvement before instigating the negative cycle with their users.
+
+{{< /tab >}}
+{{< /tabs >}}
