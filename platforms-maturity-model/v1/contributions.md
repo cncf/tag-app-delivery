@@ -11,3 +11,5 @@ Many apologies if this list is inaccurate in any way. If anyone feels they have 
 [Version 0.2.0](https://docs.google.com/document/d/11J_RpaUwydNNBg5aVjH5Uzn8i-b4urEtJzwR86XezFQ/edit) reviewers: Abby Bangser, Asare Nikansah, Atulpriya Sharma, Colin Griffin, John Gardner, Josh Gavant, Kirstin Slevin, Marsh Gardiner, Matt Menzenski, Puja Abbassi, Puneet Kandhari, Roberth Strand, Saim Safdar, Tsahi Duek, Victor Lu, Vijay Chintha, Vishal Biyani
 
 [Version 0.3.0](https://docs.google.com/document/d/1yhvT1dZ78JQyKs3Kb64V098XgIFG0N3IXAAX6O67Ju0/edit) reviewers: Abby Bangser, Asare Nkansah, Bob Hong, Bruno Dias, Colin Griffin, Daniel Bryant, Josh Gavant, Marsh Gardiner, Matt Menzenski, Nicki Watt, Ramanujan Iyengar, Roberth Strand, Saim Safdar, Tsahi Duek
+
+Version 1.0.0 reviewers: Abby Bangser, Atulpriya Sharma, David Sandilands, Jennifer Riggins, Josh Gavant, Marsh Gardiner, Matt Menzenski
