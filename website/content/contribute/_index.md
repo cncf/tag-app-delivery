@@ -1,7 +1,8 @@
 ---
 title: Contribute
+list_pages: true
 menu:
   main:
     weight: 20
-description: How to get involved with the TAG app delivery
+description: Ways to get involved with the TAG
 ---
