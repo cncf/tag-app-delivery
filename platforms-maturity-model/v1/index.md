@@ -95,6 +95,7 @@ In general, these models present a challenge in that they attempt to capture a p
 
 ## Model Detail
 
+<div style="min-width:620px">
 {{< tabs tabTotal="5">}}
 {{< tab tabName="Investment" >}}
 
@@ -427,7 +428,7 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 <h4 style="color:gray"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
 </br>
 By reacting to explicit and implicit feedback from users, organizations can increase user satisfaction and ensure long-term platform sustainability. Organizations must balance innovation and meeting user demands to keep platform relevance. As technology and user preferences change, platforms that are agile and responsive to these changes will stand out. Regularly revisiting and refining the feedback mechanism can further optimize platform development and improve user engagement.
-
+</br>
 #### Level 1, Provisional - Ad hoc
 
 Usage and satisfaction metrics are gathered in custom ways, if at all, for each platform and capability. Outcomes and measures of success are not consistently aligned across capabilities, and therefore corresponding insights are not gathered. User feedback and instrumentation of platform use may not be gathered, or if it is, it will be informal. Decisions are made based on anecdotal requirements and incomplete data.
@@ -500,7 +501,10 @@ Not only are standard frameworks leveraged, but there is an understanding that m
 {{< /tab >}}
 {{< /tabs >}}
 
-## In summery
+</div>
+---
+
+## In summary
 
 Platforms serve as the foundational framework for agile product development. They enable consistency and efficiency in software development and operations. This maturity model can serve as the way to map your platform journey.
 
