@@ -9,8 +9,8 @@ author: Josh Gavant
 
 At Kubecon Chicago TAG App Delivery will bring together maintainers and users of
 projects that enable cloud-native application delivery to meet and learn from
-each other. The TAG's goal as always is to enable CNCF's app delivery projects
-to learn from each other and from cloud application developers and to make
+each other. The TAG's goals as always are to a) enable application delivery projects
+to learn from each other and from cloud application developers and b) make
 application delivery faster and more efficient for end users.
  
 To this end the TAG will host
