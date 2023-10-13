@@ -39,9 +39,7 @@ Each reader brings a unique context and will take unique learnings from this mod
 
 The use of this model to evaluate organizational maturity and opportunities for enhancement depends on a common understanding of its aspects. Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
 
-[**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) encompasses all parts of building platforms and their capabilities - the people, processes, policy, technology, and business outcomes that drive the need for, and delivery of, internal platforms.
-
-More specifically, [**platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) are the implementation of a foundation on which to build digital products. Their goals are to provide consistency and efficiency for software development and operations. Platform engineering refers to the greater practice of planning and providing the necessary platforms for organizations by people who specialize in their capabilities and the user experiences surrounding them.
+[**platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) aggregate capabilities needed for development and operation of digital products and applications. They provide consistency and efficiency for software development and delivery. [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of planning and providing platforms and their capabilities - the people, processes, policy, technology, and business outcomes that define the need for and delivery of internal platforms.
 
 ### What does maturity mean?
 
@@ -51,7 +49,7 @@ Each additional level of maturity is accompanied by greater requirements for fun
 
 For example, if your organization is large enough to benefit from scaling platform use to many product teams, then you will probably find it useful to grow and invest in your platform like you do customer-facing products. You will probably consider levels 1 and 2 to be steps in your organization's journey - opportunities to research and develop solutions and prepare for later levels. Levels 3 and 4 would likely be your desired ultimate state for your platforms, when you'll be prepared to scale to broad use while sustainably updating and maintaining them.
 
-In contrast, if your organization is just a handful of engineers working on a pre-product market fit idea, it may be best to rely on one-off processes and ask product teams to own any platform capabilities they require.
+In contrast, if your organization is just a handful of engineers working on an early product prototype, it may be best to rely on one-off processes and ask product teams to own any platform capabilities they require.
 
 This model encourages organizations to mature both their platform engineering discipline and the resulting platform through intentional planning. This effective planning and discipline is itself a precursor to effective platform evolution as organizational requirements change.
 
@@ -108,14 +106,14 @@ Investment in platforms and platform engineering is the process of allocating bu
 
 #### Level 1, Provisional - Voluntary or temporary
 
-Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentional funding. 
+Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentionally funded. 
 
 These capabilities are built and maintained by people assigned temporarily or voluntarily; no central funding or staffing are intentionally allocated to them. They depend on the current tactical requirements of their users.
 
 ##### Characteristics:
 
-* Capabilities may be supported by individual employees rather than groups or teams as the original implementation was never adopted by a permanent team
-* Upgrades and improvements are rarely prioritized, and when they are they do not include migration plans for all users of the capability
+* "Hit" or "tiger" teams are built to tackle urgent technical requirements. These teams are short lived and not assigned nor granted the time to provide long term planning and support.
+* Migrations, improvements, or enhancements are often considered "nice to have" work items and rely on "research" or "hack day" efforts.
 * Security patches are not tracked or managed, only being applied when there is a specific breach or industry wide concern
 * Employees complain of burn out and frustration with the amount of work they are doing outside their core role
 
@@ -512,4 +510,6 @@ Not only are standard frameworks leveraged, but there is an understanding that m
 
 Platforms serve as the foundational framework for agile product development. They enable consistency and efficiency in software development and operations. This maturity model can serve as the way to map your platform journey.
 
-Beginning with gauging your current platform maturity, then invest with precision and intention. Only you can decide to begin with incentivizing adoption, enhancing interfaces, fine-tuning operations, or maintaining a continuous cycle of progress assessment. Where ever you begin, your journey to platform excellence is an ongoing process and this maturity model will support your organization in today's dynamic landscape.
+Start by assessing your own organization's current platform engineering maturity then invest with precision and intent. Only you can decide to begin with incentivizing adoption, enhancing interfaces, fine-tuning operations, or maintaining a continuous cycle of progress assessment. Where ever you begin, your journey to platform engineering excellence is an ongoing process and this maturity model will support your organization in today's dynamic landscape.
+
+Platforms, and the platform engineers that maintain them, serve as a foundation for agile digital product development. They provide a consistent collection of capabilities that enable efficiency in software development and delivery. This maturity model provides a map for your platform engineering journey.
