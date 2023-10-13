@@ -16,7 +16,7 @@ url: /whitepapers/platform-eng-maturity-model
 
 ## Introduction
 
-Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common infrastructure capabilities, frameworks, and experiences that facilitate and accelerate the work of internal users such as product and application teams.
+Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common infrastructure capabilities, frameworks, and experiences that facilitate and accelerate the work of [internal users]({{< ref "/wgs/platforms/glossary#platform-users" >}}) such as product and application teams.
 
 CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every platform is an internal platform crafted for its own organization. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
@@ -39,13 +39,13 @@ Each reader brings a unique context and will take unique learnings from this mod
 
 The use of this model to evaluate organizational maturity and opportunities for enhancement depends on a common understanding of its aspects. Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
 
-**Platform engineering** encompasses all parts of building platforms and their capabilities - the people, processes, policy, technology, and business outcomes that drive the need for, and delivery of, internal platforms.
+[**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) encompasses all parts of building platforms and their capabilities - the people, processes, policy, technology, and business outcomes that drive the need for, and delivery of, internal platforms.
 
-More specifically, **platforms** are the implementation of a foundation on which to build digital products. Their goals are to provide consistency and efficiency for software development and operations. Platform engineering refers to the greater practice of planning and providing the necessary platforms for organizations by people who specialize in their capabilities and the user experiences surrounding them.
+More specifically, [**platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) are the implementation of a foundation on which to build digital products. Their goals are to provide consistency and efficiency for software development and operations. Platform engineering refers to the greater practice of planning and providing the necessary platforms for organizations by people who specialize in their capabilities and the user experiences surrounding them.
 
 ### What does maturity mean?
 
-Durable systems evolve over time. As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient platform teams to the challenges they may face and opportunities to aim for.
+Durable systems evolve over time. As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for.
 
 Each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal! Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
 
@@ -473,7 +473,7 @@ Dedicated teams or tools are employed to gather and review feedback and summariz
 
 * Before delivering any new platform feature, the team discusses how to evaluate the outcome from their work
 * Broad alignment on measures that indicate success of platform initiatives
-* A product manager or dedicated team member drives an ongoing and consistent feedback collection and analysis process
+* A [product manager]({{< ref "/wgs/platforms/glossary#platform-product-managers" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process
 * The organization has established metrics and goals to observe and target to indicate success.
 
 ##### Examples Scenarios:
