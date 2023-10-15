@@ -236,7 +236,7 @@ Users on product and service teams choose to use platforms and their capabilitie
 * Users can share feedback and learn about upcoming features through open forums and shared roadmaps.
 * Self-serve portals, golden-path templates, and other documents enable rapid use.
 
-##### Examples Scenarios:
+##### Example Scenarios:
 
 * An application team previously had success requesting a new database. Their process was easy to understand and required almost no waiting time. In addition, key capabilities like backups and monitoring that allowed the team to progress their use all the way to production without issue were included. This experience meant that when the team later needed a queue, their first instinct was to check for an internal platform option. While they originally intended to use a specific queue technology, in the end, they chose to use the one offered internally since they knew how well integrated the solution would be for their organization.
 
