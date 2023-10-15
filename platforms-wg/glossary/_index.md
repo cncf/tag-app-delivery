@@ -30,7 +30,7 @@ and capabilities can be infrastructure, runtime, or other supporting services.
 An explicit form of DevOps cooperation between teams
 where a team offers an internal service as a product. This focus on providing
 a service means platform engineering requires investment in all parts of building
-platforms and their capabilities - the people, processes, policy, technology,
+platforms and their capabilities — the people, processes, policy, technology,
 and business outcomes.
 
 ## Platform engineers
