@@ -14,19 +14,12 @@ connotations of the older term "Platform-as-a-Service", or PaaS, are also
 influential.
 _See also [Platforms](#platforms)_
 
-## Platforms
-Platforms enable developers and operators to deliver applications and
-services faster by providing and managing common capabilities. It is common for
-organisations to have more than one platform though it can be useful to maintain
-similar user experience across them.
-_See also [Platform](#platform)_
-
 ## Platform capability providers
-The companies and people who develop and maintain the capabilities offered
-by the platform. Providers can be both external organizations or internal teams,
+The projects and systems that provide the core capabilities offered by the platform.
+Providers can be maintained by either external organizations or internal teams,
 and capabilities can be infrastructure, runtime, or other supporting services.
 
-## platform engineering
+## Platform engineering
 An explicit form of DevOps cooperation between teams
 where a team offers an internal service as a product. This focus on providing
 a service means platform engineering requires investment in all parts of building
@@ -34,20 +27,19 @@ platforms and their capabilities — the people, processes, policy, technology,
 and business outcomes.
 
 ## Platform engineers
-The role who is focused on developing and 
+The role focused on developing and 
 maintaining interfaces and tools to enable provisioning and integration of platform 
 capabilities in applications, according to the requirements and instructions provided 
 by platform product managers. Platform developers are usually grouped in platform teams.
 
 ## Platform product managers
-The role who is chiefly responsible for understanding the experience of
+The role chiefly responsible for understanding the experience of
 platform users, building a roadmap that addresses platform product gaps, requirements, 
 and opportunities, and managing platform teams in their daily work.
 
 ## Platform teams
-A cross functional team who develope and maintaine the interfaces to 
-and experiences with platform capabilities - like Web portals, custom APIs, and 
-golden path templates.  
+A cross-functional team that develops and maintains interfaces to and experiences with
+platform capabilities - like Web portals, custom APIs, and golden path templates.  
 
 Platform teams are managed by platform product managers and involve
 platform developers. As the platform evolves and become more advanced, other roles 
@@ -55,7 +47,7 @@ can become part of a platform team, including, but not limited to, operators,
 QA analysts, UI/UX designers, technical writers, developer advocates.
 
 ## Platform users
-The target audience for a Platform which includes but is not limited to app developers and operators, data
+The target audience for a platform which includes but is not limited to app developers and operators, data
 scientists, COTS software operators, and information workers - whoever runs
 software on the platform or uses platform provided capabilities.
 

@@ -39,7 +39,7 @@ Each reader brings a unique context and will take unique learnings from this mod
 
 The use of this model to evaluate organizational maturity and opportunities for enhancement depends on a common understanding of its aspects. Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
 
-[**platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) aggregate capabilities needed for development and operation of digital products and applications. They provide consistency and efficiency for software development and delivery. [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of planning and providing platforms and their capabilities — the people, processes, policy, technology, and business outcomes that define the need for and delivery of internal platforms.
+[**Platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) aggregate capabilities needed for development and operation of digital products and applications. They provide consistency and efficiency for software development and delivery. [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of planning and providing platforms and their capabilities — the people, processes, policy, technology, and business outcomes that define the need for and delivery of internal platforms.
 
 ### What does maturity mean?
 
@@ -513,3 +513,4 @@ Platforms serve as the foundational framework for agile product development. The
 Start by assessing your own organization's current platform engineering maturity then invest with precision and intent. Only you can decide to begin with incentivizing adoption, enhancing interfaces, fine-tuning operations, or maintaining a continuous cycle of progress assessment. Where ever you begin, your journey to platform engineering excellence is an ongoing process and this maturity model will support your organization in today's dynamic landscape.
 
 Platforms, and the platform engineers that maintain them, serve as a foundation for agile digital product development. They provide a consistent collection of capabilities that enable efficiency in software development and delivery. This maturity model provides a map for your platform engineering journey.
+
