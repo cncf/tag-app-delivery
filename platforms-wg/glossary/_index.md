@@ -12,7 +12,6 @@ scenarios it aims to support, a platform may be named a "Developer Platform", a
 "Delivery Platform", an "App Platform" or even a "Cloud Platform." The
 connotations of the older term "Platform-as-a-Service", or PaaS, are also
 influential.
-_See also [Platforms](#platforms)_
 
 ## Platform capability providers
 The projects and systems that provide the core capabilities offered by the platform.
@@ -20,11 +19,7 @@ Providers can be maintained by either external organizations or internal teams,
 and capabilities can be infrastructure, runtime, or other supporting services.
 
 ## Platform engineering
-An explicit form of DevOps cooperation between teams
-where a team offers an internal service as a product. This focus on providing
-a service means platform engineering requires investment in all parts of building
-platforms and their capabilities — the people, processes, policy, technology,
-and business outcomes.
+The practice of building and maintaining shared platforms and capabilities and presenting them to end users. Emerging from the DevOps movement's goal of cooperation between application developers and operators, platform engineering proposes using common platforms as the foundation of that cooperation. The decision to use shared platforms impacts not only the technology but also the people, processes, policies and expected business outcomes at an organization.
 
 ## Platform engineers
 The role focused on developing and 
@@ -35,7 +30,7 @@ by platform product managers. Platform developers are usually grouped in platfor
 ## Platform product managers
 The role chiefly responsible for understanding the experience of
 platform users, building a roadmap that addresses platform product gaps, requirements, 
-and opportunities, and managing platform teams in their daily work.
+and opportunities, and managing platform teams as a part of daily work.
 
 ## Platform teams
 A cross-functional team that develops and maintains interfaces to and experiences with

@@ -275,7 +275,7 @@ A collection of varying processes exists to provision different capabilities and
 
 Knowledge of how to request these solutions is shared from person to person. The process for requesting a service lacks standardization and consistency. Provisioning and using a platform service likely requires deep support from the capability provider.
 
-Lack of central requirements and standards makes this level appropriate when the company has not yet identified and documented expectations. It can particularly effective for teams at early stage companies or platform efforts. In these environments teams are provided the freedom to evolve processes and capabilities to their needs, allowing them to deliver more quickly and pay the price of standardization only when necessary later on
+Lack of central requirements and standards makes this level appropriate when the company has not yet identified and documented expectations. It can be particularly effective for teams at early stage companies or platform efforts. In these environments teams are provided the freedom to evolve processes and capabilities to their needs, allowing them to deliver more quickly and pay the price of standardization only when necessary later on.
 
 ##### Characteristics:
 
@@ -513,4 +513,3 @@ Platforms serve as the foundational framework for agile product development. The
 Start by assessing your own organization's current platform engineering maturity then invest with precision and intent. Only you can decide to begin with incentivizing adoption, enhancing interfaces, fine-tuning operations, or maintaining a continuous cycle of progress assessment. Where ever you begin, your journey to platform engineering excellence is an ongoing process and this maturity model will support your organization in today's dynamic landscape.
 
 Platforms, and the platform engineers that maintain them, serve as a foundation for agile digital product development. They provide a consistent collection of capabilities that enable efficiency in software development and delivery. This maturity model provides a map for your platform engineering journey.
-
