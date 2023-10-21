@@ -2,13 +2,9 @@
 title:  "Platform Engineering Maturity Model"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-maturity-model/README.md
-description: "This maturity model intends to provide tactical guidance to users seeking to adopt the patterns discussed in the Platforms Definition White Paper. That paper suggests why and what to build; this document will begin to describe how to plan to build it. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.
-<br/>
-<br/>
-This document refers to, enhances, and follows similar standards as the following related documents:
-<br/>
-[Cloud Maturity Model](https://maturitymodel.cncf.io/)
-<br/>
+description: "This maturity model intends to provide tactical guidance to users seeking to adopt the patterns discussed in the Platforms Definition White Paper. That paper suggests why and what to build; this document will begin to describe how to plan to build it. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.<br/><br/>
+This document refers to, enhances, and follows similar standards as the following related documents:<br/>
+[Cloud Maturity Model](https://maturitymodel.cncf.io/)<br/>
 [Platforms Definition White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
 type: whitepapers
 url: /whitepapers/platform-eng-maturity-model
@@ -16,70 +12,69 @@ url: /whitepapers/platform-eng-maturity-model
 
 ## Introduction
 
-Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common infrastructure capabilities, frameworks, and experiences that facilitate and accelerate the work of [internal users]({{< ref "/wgs/platforms/glossary#platform-users" >}}) such as product and application teams.
+CNCF's [Platforms Definition paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)
+describes what internal platforms for cloud computing are and the values they
+promise to deliver to enterprises. But to achieve those values an organization
+must reflect and deliberately pursue outcomes and practices that are impactful
+for them, keeping in mind that each platform is custom-crafted and maintained
+for its own organization. This maturity model provides a framework for that
+reflection and for identifying opportunities for improving platforms in any
+organization.
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every platform is an internal platform crafted for its own organization. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+## What is platform engineering?
 
-As an organization learns and evolves, so will its platform practices mature and develop. However, an organization should not strive for "Level 4" maturity "just because." Instead, each organization should evaluate its own particular requirements and invest accordingly in platform capabilities that are most appropriate for its needs. Said another way, this model is not a ruler by which the success for any given platform, person, team, or organization should be measured. It is instead offered as a tool for users to identify and articulate opportunities for enhancement and to solicit support to optimize software delivery and platform practices.
-The most important piece of any content is the context it was written in. The following sections lay out some context behind the model as well as some expectations for you, the reader.
+Inspired by the cross-functional cooperation promised by DevOps, platforms and
+platform engineering have emerged in enterprises as an explicit form of that
+cooperation. Platforms curate and present common capabilities, frameworks and
+experiences that facilitate and accelerate the work of [internal users]({{< ref
+"/wgs/platforms/glossary#platform-users" >}}) such as product and application
+teams.
 
-### Target Audience
+[**Platform engineering**]({{< ref
+"/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning
+and providing such computing platforms to developers and users and encompasses
+all parts of platforms and their capabilities — their people, processes,
+policies and technologies; as well as the desired business outcomes that drive them.
 
-Each reader brings a unique context and will take unique learnings from this model. Following are some personas we have in mind, along with their possible motivations for engaging with this model:
+Please read the
+[CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)
+first for complete context.
 
-* **CTOs, VPs, and directors of technology**: Leaders looking to map a path to digital transformation and greater developer productivity
-* **Engineering managers**: Groups and individuals seeking to empower engineers to provide value with less overhead and higher efficiency
-* **Enterprise architects**: Individuals navigating the modern technology landscape who seek a value- and solution-oriented perspective on technology problems
-* **Platform engineers and platform product managers**: Teams and people seeking to build the best possible experience for platform builders and platform users
-* **Product vendors and project maintainers**: Organizations and engineers wishing to design tools and deliver messages to enable users to succeed with platforms and capabilities
-* **Application and product developers**: Platform users seeking to understand in more detail what they might expect of an internal platform
+## How to use this model
 
+As platform engineering has risen in prominence over the last few years, some
+patterns have become apparent. By organizing those patterns and observations
+into a progressive maturity model, we aim to orient [platform teams]({{< ref
+"/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face
+and opportunities to aim for. Each aspect is described by a continuum of
+characteristics of different teams and organizations at each level within the
+aspect.
 
-### What are platforms and platform engineering?
+Each additional level of maturity is accompanied by greater requirements for
+funding and people's time. Therefore, reaching the highest level should not be a
+goal. Each level describes qualities that should appear at that stage. Readers
+must consider if their organization and their current context would benefit from
+these qualities given the required investment.
 
-The use of this model to evaluate organizational maturity and opportunities for enhancement depends on a common understanding of its aspects. Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
+Keep in mind that each aspect is meant to be evaluated and evolved independently.
+However, as in any socio-technical system these aspects are complex and
+interrelated. Thus you may find that to improve in one aspect you must reach a
+minimum level in another aspect too.
 
-[**Platforms**]({{< ref "/wgs/platforms/glossary#platforms" >}}) aggregate capabilities needed for development and operation of digital products and applications. They provide consistency and efficiency for software development and delivery. [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of planning and providing platforms and their capabilities — the people, processes, policy, technology, and business outcomes that define the need for and delivery of internal platforms.
+It's also important to recognize that implementations of platforms vary from
+organization to organization. Make sure to evaluate the current state of _your_
+group’s overall cloud native transformation. A phenomenal resource to leverage
+for this evaluation is the [Cloud Native Maturity
+Model](https://maturitymodel.cncf.io/).
 
-### What does maturity mean?
-
-Durable systems evolve over time. As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for.
-
-Each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal! Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
-
-For example, if your organization is large enough to benefit from scaling platform use to many product teams, then you will probably find it useful to grow and invest in your platform like you do customer-facing products. You will probably consider levels 1 and 2 to be steps in your organization's journey — opportunities to research and develop solutions and prepare for later levels. Levels 3 and 4 would likely be your desired ultimate state for your platforms, when you'll be prepared to scale to broad use while sustainably updating and maintaining them.
-
-In contrast, if your organization is just a handful of engineers working on an early product prototype, it may be best to rely on one-off processes and ask product teams to own any platform capabilities they require.
-
-This model encourages organizations to mature both their platform engineering discipline and the resulting platform through intentional planning. This effective planning and discipline is itself a precursor to effective platform evolution as organizational requirements change.
-
-## Approaching this model
-
-The top-level Platforms white paper introduces a number of [attributes that define successful platforms](https://tag-app-delivery.cncf.io/whitepapers/platforms/#attributes-of-platforms); and the aspects of this maturity model are inspired by and correlated with those attributes. Each aspect in this maturity model is then described by a continuum of characteristics of teams and organizations at that aspect.
-
-This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4.” Each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but are not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being used across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
-
-The labels for each level are intended to reflect the impact of platform engineering at your organization. As you recognize your organization at a given level you will gain insight into opportunities which follow at the next ones. Lower-numbered levels comprise mostly tactical solutions while higher-numbered ones are more strategic.
-
-The process of platform development and maturity this yields is similar to any digital product development: first recognize a problem and need for a new solution, next develop minimally-viable products as hypothesized solutions, third iterate to better solve the problem and ensure fit for your customers and finally scale and optimize the product to solve the problem for many teams and users.
-
-Similar to the [CNCF Cloud Native Maturity Model](https://maturitymodel.cncf.io/), this model highlights that successful business outcomes can only be achieved through balancing people, process, and policy alongside technology. Notably, this model introduces aspects which are often not fully in the remit of a single internal team, but rather require cooperation across the engineering department and quite often the wider organization.
-
-### But we don’t fit this model…
-
-That’s perfectly fine! All organizations and groups have dynamics and parameters that are specific to them.
-
-Keep in mind that the goal of this paper isn’t to prescribe a rigid formula, but rather a framework that you can apply to your circumstances.  Every single word may not be relevant to you, but we hope the content will inspire you to introspect on your own platform journey, taking what makes sense and leaving the rest.
-
-The objective of this model is to provide a tool to help guide platform engineering practitioners, stakeholders, and other interested parties on their journeys. Platform design and implementation is not an exact science, but rather depends on the needs of an individual project, an organization and a particular time and place.
-
-### A final introductory note
-
-As you review this model, keep in mind that each aspect is meant to be rated and evolved independently. However, like any socio-technical system, these aspects are complex and connected. Therefore, you may find that in order to improve one aspect of your platform, you have to reach a minimum requirement in another aspect. For example, engineering teams may self-organize and adopt product thinking around their platform ("Level 3" investment) before their organization has staffed a dedicated platform engineering team ("Level 2" investment). On the other hand, to achieve that product thinking level of investment, organizations may benefit in building operational scale of consistency in measurement collection and use.
-
-Implementations of platforms will vary from organization to organization; make sure to evaluate the current state of your group’s overall cloud native transformation. A phenomenal resource to leverage for this evaluation is the Cloud Native Maturity Model.
-
-In general, these models present a challenge in that they attempt to capture a point in time state as well as a progressive motion. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) says it well: "The true outcome of a maturity model assessment isn't what level you are at but the list of things you need to work on to improve. Your current level is merely a piece of intermediate work in order to determine that list of skills to acquire next."
+Generally, keep in mind that mapping your organization into a model captures
+current state _to enable_ progressive iteration and improvement. [Martin
+Fowler](https://martinfowler.com/bliki/MaturityModel.html) says it well: "The
+true outcome of a maturity model assessment isn't what level you are at but the
+list of things you need to work on to improve. Your current level is merely a
+piece of intermediate work in order to determine that list of skills to acquire
+next." In that vein, seek to find yourself in the model then identify
+opportunities in adjacent levels.
 
 ## Model table
 
@@ -93,22 +88,27 @@ In general, these models present a challenge in that they attempt to capture a p
 
 ## Model Detail
 
-<div style="min-width:620px">
-{{< tabs tabTotal="5">}}
+{{< tabs tabTotal="6">}}
 {{< tab tabName="Investment" >}}
 
-</br>
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
 
-<h4 style="color:gray"><i>How are staff and funds allocated to platform capabilities?</i></h4>
-</br>
+Investment in platforms and platform engineering is the process of allocating
+budget and people to build and maintain common capabilities. It is common for
+initiatives to be described as organically built from the bottom up, or driven
+through top down initiatives. In either case, it is the ability to invest
+sustained effort that drives high-impact work. This aspect captures how the
+scale and breadth of investment can impact platform success.
 
-Investment in platforms and platform engineering is the process of allocating budget and people to build and maintain common capabilities. It is common for initiatives to be described as organically built from the bottom up, or driven through top down initiatives. In either case, it is the ability to invest sustained effort that drives high-impact work. This aspect captures how the scale and breadth of investment can impact platform success.
+## Level 1, Provisional - Voluntary or temporary
 
-#### Level 1, Provisional - Voluntary or temporary
+Individual capabilities may exist to provide common foundations for common or
+critical functionality. These capabilities are built and maintained out of
+necessity rather than planned and intentionally funded. 
 
-Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentionally funded. 
-
-These capabilities are built and maintained by people assigned temporarily or voluntarily; no central funding or staffing are intentionally allocated to them. They depend on the current tactical requirements of their users.
+These capabilities are built and maintained by people assigned temporarily or
+voluntarily; no central funding or staffing are intentionally allocated to them.
+They depend on the current tactical requirements of their users.
 
 ##### Characteristics:
 
@@ -122,9 +122,18 @@ These capabilities are built and maintained by people assigned temporarily or vo
 * There is a specific employee who is viewed as the test environment expert. While this employee means well, their attempt to enable better test environments despite limited investment has led to increased risk since there is no maintenance of their solution and no shared understanding of how to triage a broken test environment.
 * Engineers are encouraged to invest in capability improvements when there is no pressure from management for revenue generating features. This translates to the last few days of some sprints where they prioritize automating and improving parts of their CI/CD pipeline. It is not uncommon for these improvements to come in bursts as there can be months of overly full sprints not allowing for time on these side endeavors.
 
-#### Level 2, Operationalized -  Dedicated team
+## Level 2, Operationalized -  Dedicated team
 
-Budget and people are allocated for persistent people and resource support. The assigned people are tasked with providing a set of commonly-required capabilities to speed up software delivery. Often these teams focus on meeting reactive technical requirements. They may be called DevOps, Engineering Enablement, Developer Experience (DevEx or DevX), Shared Tools, a Centre-Of-Excellence, or even Platform. They're funded centrally and treated as cost centers; their impact on direct value streams and application teams is not measured. It can be hard to map the impact of platform teams at this level on the organization and its value streams, which can make it hard to sustain and continue funding such teams.
+Budget and people are allocated for persistent people and resource support. The
+assigned people are tasked with providing a set of commonly-required
+capabilities to speed up software delivery. Often these teams focus on meeting
+reactive technical requirements. They may be called DevOps, Engineering
+Enablement, Developer Experience (DevEx or DevX), Shared Tools, a
+Centre-Of-Excellence, or even Platform. They're funded centrally and treated as
+cost centers; their impact on direct value streams and application teams is not
+measured. It can be hard to map the impact of platform teams at this level on
+the organization and its value streams, which can make it hard to sustain and
+continue funding such teams.
 
 ##### Characteristics:
 
@@ -138,9 +147,17 @@ Budget and people are allocated for persistent people and resource support. The 
 
 * Application developers raise an issue with the long build time for their applications. A centralized team is tasked with reducing the build time by 50%. They solve this by doubling the size and quantity of the CI runners given they are not close enough to the software to individually improve the application builds. This creates a budget concern for their centralized team as the productivity gain is not directly measurable against this increased infrastructure cost.
 
-#### Level 3, Scalable - As product
+## Level 3, Scalable - As product
 
-Investment in internal platforms and their capabilities is similar to investment in an enterprise's outbound products and value streams: based on the value they are expected to provide to their customers. Product management and user experience are explicitly considered and invested in. A chargeback system may be used to reflect platforms' impact on their customers' own direct value streams and products. The enterprise allocates funds and staff to the appropriate initiatives by using data-driven performance indicators and feedback loops. Platform teams can ultimately optimize the business itself and contribute to increased profitability.
+Investment in internal platforms and their capabilities is similar to investment
+in an enterprise's outbound products and value streams: based on the value they
+are expected to provide to their customers. Product management and user
+experience are explicitly considered and invested in. A chargeback system may be
+used to reflect platforms' impact on their customers' own direct value streams
+and products. The enterprise allocates funds and staff to the appropriate
+initiatives by using data-driven performance indicators and feedback loops.
+Platform teams can ultimately optimize the business itself and contribute to
+increased profitability.
 
 ##### Characteristics:
 
@@ -153,9 +170,20 @@ Investment in internal platforms and their capabilities is similar to investment
 
 * Data derived from platform usage metrics inform decisions to allocate funds and staff to the most impactful initiatives.
 
-#### Level 4, Optimizing - Enabled ecosystem
+## Level 4, Optimizing - Enabled ecosystem
 
-Platform teams find ways to increase organization-wide efficiency and effectiveness beyond basic capabilities. Core platform maintainers intentionally strive to optimize time-to-market for new products, reduce costs across the enterprise, enable efficient governance and compliance for new services, scale workloads quickly and easily, and other cross-cutting requirements. These core maintainers are focused on enabling capability specialists to seamlessly integrate their requirements and offerings into existing and new parts of platforms. Further, the organization focuses people and resources from specialist domains like security, performance, quality on engaging with provided platform frameworks to introduce advanced features that can enable product teams to accelerate their adherence to company goals without depending on a centralized team backlog.
+Platform teams find ways to increase organization-wide efficiency and
+effectiveness beyond basic capabilities. Core platform maintainers intentionally
+strive to optimize time-to-market for new products, reduce costs across the
+enterprise, enable efficient governance and compliance for new services, scale
+workloads quickly and easily, and other cross-cutting requirements. These core
+maintainers are focused on enabling capability specialists to seamlessly
+integrate their requirements and offerings into existing and new parts of
+platforms. Further, the organization focuses people and resources from
+specialist domains like security, performance, quality on engaging with provided
+platform frameworks to introduce advanced features that can enable product teams
+to accelerate their adherence to company goals without depending on a
+centralized team backlog.
 
 ##### Characteristics:
 
@@ -170,12 +198,18 @@ Platform teams find ways to increase organization-wide efficiency and effectiven
 {{< /tab >}}
 {{< tab tabName="Adoption" >}}
 
-</br>
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
 
-<h4 style="color:gray"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
-</br>
-
-Adoption describes not only how and how much an organization uses platform capabilities, but also what motivates them to do so. In the early stages,  many target users may not realize they are using a platform at all, rather they see their tools as an ad hoc collection of capabilities from various internal sources. This may mature into a group of capabilities that is consistently managed and presented to users — that is, one or more platforms. As the capabilities become more refined and discoverable, it is common that the drive for platform use moves away from more external motivations like mandates or incentives. This leads to users self-selecting into platform capabilities and ideally even investing their own efforts into the wider platform ecosystem.
+Adoption describes not only how and how much an organization uses platform
+capabilities, but also what motivates them to do so. In the early stages,  many
+target users may not realize they are using a platform at all, rather they see
+their tools as an ad hoc collection of capabilities from various internal
+sources. This may mature into a group of capabilities that is consistently
+managed and presented to users — that is, one or more platforms. As the
+capabilities become more refined and discoverable, it is common that the drive
+for platform use moves away from more external motivations like mandates or
+incentives. This leads to users self-selecting into platform capabilities and
+ideally even investing their own efforts into the wider platform ecosystem.
 
 
 <figure align="center">
@@ -188,9 +222,15 @@ Adoption describes not only how and how much an organization uses platform capab
 </br>
 </br>
 
-#### Level 1, Provisional - Erratic
+## Level 1, Provisional - Erratic
 
-Adoption of shared platforms and capabilities is sporadic and inconsistent. No organization-wide strategy or guidance exists for choosing and integrating required backing services and technologies. Individual teams might leverage platform and DevOps practices to improve their own processes, but there is no coordinated effort or standardization across the organization. This level of adoption is characterized by the absence of a coherent approach and the idea that external tools are more effective than those provided internally.
+Adoption of shared platforms and capabilities is sporadic and inconsistent. No
+organization-wide strategy or guidance exists for choosing and integrating
+required backing services and technologies. Individual teams might leverage
+platform and DevOps practices to improve their own processes, but there is no
+coordinated effort or standardization across the organization. This level of
+adoption is characterized by the absence of a coherent approach and the idea
+that external tools are more effective than those provided internally.
 
 ##### Characteristics:
 
@@ -204,11 +244,18 @@ Adoption of shared platforms and capabilities is sporadic and inconsistent. No o
 
 * A banking service requires a database. A developer finds out from a friend on another team that they can request an AWS account and set up an RDS database. From another team they find a Terraform script to provision that database. For monitoring they use CloudWatch on an ad hoc basis; they copy secrets from the AWS console to an instance of Hashicorp Vault manually before running the Terraform script.
 
-#### Level 2, Operationalized - Extrinsic push
+## Level 2, Operationalized - Extrinsic push
 
-The organization recognizes the value of shared platforms and capabilities and strives to encourage and nurture them. Internal directives incentivize or even require use of shared platform services for some use cases. Some product teams use platform capabilities more than others; capabilities cover typical use cases in the organization but not unusual ones; and it is difficult to add those outliers to the common platform.
+The organization recognizes the value of shared platforms and capabilities and
+strives to encourage and nurture them. Internal directives incentivize or even
+require use of shared platform services for some use cases. Some product teams
+use platform capabilities more than others; capabilities cover typical use cases
+in the organization but not unusual ones; and it is difficult to add those
+outliers to the common platform.
 
-User discovery of capabilities and how to use them is inconsistent; it is possible a user on a product team won't discover a supported capability unless directed there by a platform team.
+User discovery of capabilities and how to use them is inconsistent; it is
+possible a user on a product team won't discover a supported capability unless
+directed there by a platform team.
 
 ##### Characteristics:
 
@@ -223,9 +270,15 @@ User discovery of capabilities and how to use them is inconsistent; it is possib
 
 * An engineering organization decides on a standard deployment tool and instructs all teams to use it. New processes (communication of release notes, etc) are built around that standard. Teams are instructed to stop using other sorts of deployment scripts and use the common tool instead.
 
-#### Level 3, Scalable - Intrinsic pull
+## Level 3, Scalable - Intrinsic pull
 
-Users on product and service teams choose to use platforms and their capabilities because of the clear value they provide in reducing cognitive load on product teams while providing higher quality supporting services. Documentation and ergonomic interfaces enable product team users to quickly provision and use platform capabilities. Users choose internal platform implementations over alternatives such as developing the capability themselves or hiring a provider.
+Users on product and service teams choose to use platforms and their
+capabilities because of the clear value they provide in reducing cognitive load
+on product teams while providing higher quality supporting services.
+Documentation and ergonomic interfaces enable product team users to quickly
+provision and use platform capabilities. Users choose internal platform
+implementations over alternatives such as developing the capability themselves
+or hiring a provider.
 
 ##### Characteristics:
 
@@ -240,9 +293,15 @@ Users on product and service teams choose to use platforms and their capabilitie
 
 * An application team previously had success requesting a new database. Their process was easy to understand and required almost no waiting time. In addition, key capabilities like backups and monitoring that allowed the team to progress their use all the way to production without issue were included. This experience meant that when the team later needed a queue, their first instinct was to check for an internal platform option. While they originally intended to use a specific queue technology, in the end, they chose to use the one offered internally since they knew how well integrated the solution would be for their organization.
 
-#### Level 4, Optimizing - Participatory
+## Level 4, Optimizing - Participatory
 
-Users from product teams further invest in platform capabilities by joining the ecosystem and contributing back to it. Some contributions improve and fix existing capabilities; others introduce new capabilities and features to address new use cases. Processes and services are defined and enable users to identify requirements and coordinate contributions amongst several product and platform teams. New capabilities are published via consistent interfaces and portals and with complete documentation and standard versioning.
+Users from product teams further invest in platform capabilities by joining the
+ecosystem and contributing back to it. Some contributions improve and fix
+existing capabilities; others introduce new capabilities and features to address
+new use cases. Processes and services are defined and enable users to identify
+requirements and coordinate contributions amongst several product and platform
+teams. New capabilities are published via consistent interfaces and portals and
+with complete documentation and standard versioning.
 
 ##### Characteristics:
 
@@ -257,25 +316,40 @@ Users from product teams further invest in platform capabilities by joining the 
 
 * A team contributes alternative backup plans for different requirements and platform teams provide a new way for users to select one of these. This offering is originally introduced as an alpha offering until it meets all of the operational requirements for a more stable version.
 
-
 {{< /tab >}}
 {{< tab tabName="Interfaces">}}
 
-</br>
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>How do users interact with and consume platform capabilities?</i></h4>
 
-<h4 style="color:gray"><i>How do users interact with and consume platform capabilities?</i></h4>
-</br>
-The interfaces provided by platforms affect how users interact with these platform offerings to provision, manage, and observe capabilities. Interfaces can include ticketing systems, project templates, and graphical portals as well as automatable APIs and command-line (CLI) tools.
+The interfaces provided by platforms affect how users interact with these
+platform offerings to provision, manage, and observe capabilities. Interfaces
+can include ticketing systems, project templates, and graphical portals as well
+as automatable APIs and command-line (CLI) tools.
 
-Key characteristics of an interface include how discoverable and user-friendly it is during key user journeys like initial request, maintenance, or incident triage. Higher levels of maturity here reflect more integrated, consistent, automated, and supported interfaces.
+Key characteristics of an interface include how discoverable and user-friendly
+it is during key user journeys like initial request, maintenance, or incident
+triage. Higher levels of maturity here reflect more integrated, consistent,
+automated, and supported interfaces.
 
-#### Level 1, Provisional - Custom processes
+## Level 1, Provisional - Custom processes
 
-A collection of varying processes exists to provision different capabilities and services, but the consistency of the interface is not considered. Custom tailor-made processes address the immediate needs of individuals or teams and are reliant on manual intervention even if the provider uses some automated implementation scripts.
+A collection of varying processes exists to provision different capabilities and
+services, but the consistency of the interface is not considered. Custom
+tailor-made processes address the immediate needs of individuals or teams and
+are reliant on manual intervention even if the provider uses some automated
+implementation scripts.
 
-Knowledge of how to request these solutions is shared from person to person. The process for requesting a service lacks standardization and consistency. Provisioning and using a platform service likely requires deep support from the capability provider.
+Knowledge of how to request these solutions is shared from person to person. The
+process for requesting a service lacks standardization and consistency.
+Provisioning and using a platform service likely requires deep support from the
+capability provider.
 
-Lack of central requirements and standards makes this level appropriate when the company has not yet identified and documented expectations. It can be particularly effective for teams at early stage companies or platform efforts. In these environments teams are provided the freedom to evolve processes and capabilities to their needs, allowing them to deliver more quickly and pay the price of standardization only when necessary later on.
+Lack of central requirements and standards makes this level appropriate when the
+company has not yet identified and documented expectations. It can be
+particularly effective for teams at early stage companies or platform efforts.
+In these environments teams are provided the freedom to evolve processes and
+capabilities to their needs, allowing them to deliver more quickly and pay the
+price of standardization only when necessary later on.
 
 ##### Characteristics:
 
@@ -289,11 +363,18 @@ Lack of central requirements and standards makes this level appropriate when the
 * An application team wants to performance test their new change. To do this, they want an isolated environment that contains enough test data to get an accurate performance read. The last time they had this request a former teammate was able to get access to an environment, but they have since moved on and no one knows how to recreate it. In the end, they are connected to an engineer on the infrastructure team who is able to provision them an environment in a few days.
 * A team in the exploratory phases of product development uses a bespoke process to provision a new cloud service without needing to validate their solution warrants further investment.
 
-#### Level 2, Operationalized - Standard tooling
+## Level 2, Operationalized - Standard tooling
 
-Consistent, standard interfaces for provisioning and observing platforms and capabilities exist and meet broad needs. Users are able to identify what capabilities are available and are enabled to request capabilities that they require.
+Consistent, standard interfaces for provisioning and observing platforms and
+capabilities exist and meet broad needs. Users are able to identify what
+capabilities are available and are enabled to request capabilities that they
+require.
 
-"Paved roads" or "golden paths", in the form of documentation and templates, are provided. These resources define how to provision and manage typical capabilities using compliant and tested patterns. While some users are able to use these solutions on their own, the solutions often still require deep domain expertise and therefore support from maintainers is still vital.
+"Paved roads" or "golden paths", in the form of documentation and templates, are
+provided. These resources define how to provision and manage typical
+capabilities using compliant and tested patterns. While some users are able to
+use these solutions on their own, the solutions often still require deep domain
+expertise and therefore support from maintainers is still vital.
 
 ##### Characteristics:
 
@@ -307,9 +388,17 @@ Consistent, standard interfaces for provisioning and observing platforms and cap
 * A centralized team curates a library of Terraform modules, Kubernetes controllers, and CRDs for provisioning different types of infrastructure.
 * A shared location includes comprehensive documents about solutions across the organization.
 
-#### Level 3, Scalable - Self-service solutions
+## Level 3, Scalable - Self-service solutions
 
-Solutions are offered in a way that provides autonomy to users and requires little support from maintainers. The organization encourages and enables solutions to provide consistent interfaces that enable discoverability and portability of user experience from one capability to another. While self-service, the solutions do require team awareness and implementation. In order to improve this experience there may be a guided and simplified internal language which enables users to adopt and integrate platform capabilities more quickly. This generates a user-centric, self-serviceable, and consistent collection of capabilities.
+Solutions are offered in a way that provides autonomy to users and requires
+little support from maintainers. The organization encourages and enables
+solutions to provide consistent interfaces that enable discoverability and
+portability of user experience from one capability to another. While
+self-service, the solutions do require team awareness and implementation. In
+order to improve this experience there may be a guided and simplified internal
+language which enables users to adopt and integrate platform capabilities more
+quickly. This generates a user-centric, self-serviceable, and consistent
+collection of capabilities.
 
 ##### Characteristics:
 
@@ -321,9 +410,17 @@ Solutions are offered in a way that provides autonomy to users and requires litt
 
 * An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
 
-#### Level 4, Optimizing - Managed services
+## Level 4, Optimizing - Managed services
 
-Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks that are built into the transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
+Platform capabilities are transparently integrated into the tools and processes
+that teams already use to do their work. Some capabilities are provisioned
+automatically, such as observability or identity management for a deployed
+service. When users hit the edges of the provided services, there is an
+opportunity to move past automated solutions and customize for their needs
+without leaving the internal offerings because platform capabilities are
+considered building blocks that are built into the transparent and automatic
+compositions to meet the higher-level use cases while enabling deeper
+customization where necessary.
 
 ##### Characteristics:
 
@@ -341,19 +438,34 @@ Platform capabilities are transparently integrated into the tools and processes 
 {{< /tab >}}
 {{< tab tabName="Operations">}}
 
-</br>
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
 
-<h4 style="color:gray"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
-</br>
-Operation of platforms means running and supporting its capabilities and their features over their whole lifetime, including acceptance of new requests, initial releases, upgrades and extensions, ongoing maintenance and operations, user support, and even deprecation and termination. Organizations and their platform teams choose platforms and capabilities to create and maintain and can prioritize the most valuable and impactful initiatives.
+Operation of platforms means running and supporting its capabilities and their
+features over their whole lifetime, including acceptance of new requests,
+initial releases, upgrades and extensions, ongoing maintenance and operations,
+user support, and even deprecation and termination. Organizations and their
+platform teams choose platforms and capabilities to create and maintain and can
+prioritize the most valuable and impactful initiatives.
 
-Notably, most of the work to provide a capability is expended after its initial release — in providing seamless upgrades, new and improved features, operational support, and end-user enablement and education. Therefore an impactful, valuable platform will plan in advance and manage their platform for long-term sustainable operations and reliability.
+Notably, most of the work to provide a capability is expended after its initial
+release — in providing seamless upgrades, new and improved features, operational
+support, and end-user enablement and education. Therefore an impactful, valuable
+platform will plan in advance and manage their platform for long-term
+sustainable operations and reliability.
 
-#### Level 1, Provisional - By request
+## Level 1, Provisional - By request
 
-Platforms and capabilities are developed, published, and updated reactively, based on ad hoc product team requests and requirements. Product teams themselves may even need to plan and build the capabilities they require.
+Platforms and capabilities are developed, published, and updated reactively,
+based on ad hoc product team requests and requirements. Product teams themselves
+may even need to plan and build the capabilities they require.
 
-Teams who build a new capability, whether dedicated centralized teams or application teams meeting their own needs, take only informal responsibility for supporting others using it. They are not expected to actively maintain it and few processes exist to vet the quality of the offering. In this level, implementations are often ignored until a security vulnerability is discovered, a bug prevents use or a new requirement arrives, at which point another reactive plan may be quickly implemented.
+Teams who build a new capability, whether dedicated centralized teams or
+application teams meeting their own needs, take only informal responsibility for
+supporting others using it. They are not expected to actively maintain it and
+few processes exist to vet the quality of the offering. In this level,
+implementations are often ignored until a security vulnerability is discovered,
+a bug prevents use or a new requirement arrives, at which point another reactive
+plan may be quickly implemented.
 
 ##### Characteristics:
 
@@ -368,9 +480,17 @@ Teams who build a new capability, whether dedicated centralized teams or applica
 
 * Log4Shell security vulnerability is announced and the organization spins up a specialty team to investigate where the organization may be vulnerable and instigate patches. Once the team identifies the impact, they must work hand in hand with a number of different teams since each one manages their servers and upgrade processes differently. Even when this work is deemed complete, the confidence level is fairly low that there won’t be more instances uncovered.
 
-#### Level 2, Operationalized - Centrally tracked
+## Level 2, Operationalized - Centrally tracked
 
-Platforms and capabilities are centrally documented and discoverable, and processes for planning and managing the lifecycle of capabilities is at least lightly defined. Responsibility and ownership is documented for each service and function. Lifecycle management processes vary for different capabilities depending on their owners and their priorities. A centralized team maintains, or is able to on demand generate, an inventory of backlog capabilities to provide and the state of maintenance for current capabilities. This allows the organization to track progress towards capability offering and compliance with upgrade requirements.
+Platforms and capabilities are centrally documented and discoverable, and
+processes for planning and managing the lifecycle of capabilities is at least
+lightly defined. Responsibility and ownership is documented for each service and
+function. Lifecycle management processes vary for different capabilities
+depending on their owners and their priorities. A centralized team maintains, or
+is able to on demand generate, an inventory of backlog capabilities to provide
+and the state of maintenance for current capabilities. This allows the
+organization to track progress towards capability offering and compliance with
+upgrade requirements.
 
 ##### Characteristics:
 
@@ -386,11 +506,21 @@ Platforms and capabilities are centrally documented and discoverable, and proces
 
 * PostgreSQL 11 is going EOL by the end of the year. The organization is aware of which databases require upgrade and are scheduling the work on each team’s backlog to complete.
 
-#### Level 3, Scalable - Centrally enabled 
+## Level 3, Scalable - Centrally enabled 
 
-Platforms and capabilities are not only centrally registered but also centrally orchestrated. Platform teams take responsibility for understanding the broad needs of the organization and prioritize work across platform and infrastructure teams accordingly. Those responsible for a capability are expected to not only maintain it technically, but also provide standard user experiences for integrating the capability with other related services around the organization, ensure secure and reliable use, and even provide observability.
+Platforms and capabilities are not only centrally registered but also centrally
+orchestrated. Platform teams take responsibility for understanding the broad
+needs of the organization and prioritize work across platform and infrastructure
+teams accordingly. Those responsible for a capability are expected to not only
+maintain it technically, but also provide standard user experiences for
+integrating the capability with other related services around the organization,
+ensure secure and reliable use, and even provide observability.
 
-Standard processes for creating and evolving new capabilities exist, enabling anyone in the organization to contribute a solution that meets expectations. Continuous delivery processes for platform capabilities and features enable regular rollout and rollback. Large changes are planned and coordinated as they would be for customer-facing product changes.
+Standard processes for creating and evolving new capabilities exist, enabling
+anyone in the organization to contribute a solution that meets expectations.
+Continuous delivery processes for platform capabilities and features enable
+regular rollout and rollback. Large changes are planned and coordinated as they
+would be for customer-facing product changes.
 
 ##### Characteristics:
 
@@ -403,11 +533,17 @@ Standard processes for creating and evolving new capabilities exist, enabling an
 
 * The organization is going to upgrade to RHEL 9. In doing so, each application team needs to validate that their software continues to work. In order to enable this testing phase the centralized compute team is setting up test environments for each team with the correct software and OS versions.
 
-#### Level 4, Optimizing - Managed services
+## Level 4, Optimizing - Managed services
 
-The lifecycle of each capability is managed in a standardized, automated way. Capabilities, features and updates are delivered continuously with no impact on users. Any large changes instigated by platform providers include migration plans for existing users with defined responsibilities and timelines.
+The lifecycle of each capability is managed in a standardized, automated way.
+Capabilities, features and updates are delivered continuously with no impact on
+users. Any large changes instigated by platform providers include migration
+plans for existing users with defined responsibilities and timelines.
 
-Platform capability providers take on the brunt of responsibility for maintenance, but there is a clear contract — a "shared responsibility model" — describing the responsibilities of users, enabling both sides to operate mostly autonomously.
+Platform capability providers take on the brunt of responsibility for
+maintenance, but there is a clear contract — a "shared responsibility model" —
+describing the responsibilities of users, enabling both sides to operate mostly
+autonomously.
 
 ##### Characteristics:
 
@@ -421,15 +557,24 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 {{< /tab >}}
 {{< tab tabName="Measurement">}}
 
-</br>
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
 
-<h4 style="color:gray"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
-</br>
-By reacting to explicit and implicit feedback from users, organizations can increase user satisfaction and ensure long-term platform sustainability. Organizations must balance innovation and meeting user demands to keep platform relevance. As technology and user preferences change, platforms that are agile and responsive to these changes will stand out. Regularly revisiting and refining the feedback mechanism can further optimize platform development and improve user engagement.
-</br>
-#### Level 1, Provisional - Ad hoc
+By reacting to explicit and implicit feedback from users, organizations can
+increase user satisfaction and ensure long-term platform sustainability.
+Organizations must balance innovation and meeting user demands to keep platform
+relevance. As technology and user preferences change, platforms that are agile
+and responsive to these changes will stand out. Regularly revisiting and
+refining the feedback mechanism can further optimize platform development and
+improve user engagement.
 
-Usage and satisfaction metrics are gathered in custom ways, if at all, for each platform and capability. Outcomes and measures of success are not consistently aligned across capabilities, and therefore corresponding insights are not gathered. User feedback and instrumentation of platform use may not be gathered, or if it is, it will be informal. Decisions are made based on anecdotal requirements and incomplete data.
+## Level 1, Provisional - Ad hoc
+
+Usage and satisfaction metrics are gathered in custom ways, if at all, for each
+platform and capability. Outcomes and measures of success are not consistently
+aligned across capabilities, and therefore corresponding insights are not
+gathered. User feedback and instrumentation of platform use may not be gathered,
+or if it is, it will be informal. Decisions are made based on anecdotal
+requirements and incomplete data.
 
 ##### Characteristics:
 
@@ -444,11 +589,20 @@ Usage and satisfaction metrics are gathered in custom ways, if at all, for each 
 * A platform tech lead wants to improve the collaboration with users by adding key topics to their next quarterly planning. They decide to run a survey on what users would like to see. The response is overwhelming, which is exciting, but also results in a difficulty organizing and responding to all of the ideas. While some ideas influence the quarterly planning, the users do not see their ideas as being accepted and are less inclined to reply to the next survey.
 * The team wants to capture more data automatically, so they look for opportunities for easy collection such as test failures in CI. However, not every team uses the same CI automation so the data is only available for Java applications even though some teams have moved on to writing their services in Scala.
 
-#### Level 2, Operationalized - Consistent collection
+## Level 2, Operationalized - Consistent collection
 
-Organizations at this level have an intentional goal to verify platform products meet the needs of their market of internal users. Actionable, structured collection of user feedback is valued. Dedicated teams or individuals might be assigned to gather feedback, ensuring a more consistent approach. Feedback channels, such as surveys or user forums, are standardized, and feedback is categorized and prioritized. Beyond user feedback, there is also an expectation that user experiences are instrumented to generate usage data over time.
+Organizations at this level have an intentional goal to verify platform products
+meet the needs of their market of internal users. Actionable, structured
+collection of user feedback is valued. Dedicated teams or individuals might be
+assigned to gather feedback, ensuring a more consistent approach. Feedback
+channels, such as surveys or user forums, are standardized, and feedback is
+categorized and prioritized. Beyond user feedback, there is also an expectation
+that user experiences are instrumented to generate usage data over time.
 
-Challenges remain in translating feedback into actionable tasks. While there is a growing repository of user data, the organization might need help effectively understanding and integrating this feedback into a platform roadmap. It may be hard to ensure that users see tangible changes driven by their feedback.
+Challenges remain in translating feedback into actionable tasks. While there is
+a growing repository of user data, the organization might need help effectively
+understanding and integrating this feedback into a platform roadmap. It may be
+hard to ensure that users see tangible changes driven by their feedback.
 
 ##### Characteristics:
 
@@ -461,11 +615,21 @@ Challenges remain in translating feedback into actionable tasks. While there is 
 * A platform team allocates 20% of their time to user defined features, which they identify based on surveys and other interview techniques. Their findings are collected into a tool that enables additional voting and commenting to further refine priorities. During implementation the requesting users are approached for collaboration on early designs and implementations. Once implemented, there are announcements which make sure requesting users are aware of new features and supported in adopting them.
 * The team focused on software delivery capabilities wants to capture more data automatically including cycle time which they automate through the build tool from commit to production. There is an understanding that cycle time can include other activities like PR review, but that isn’t included at this time.
 
-#### Level 3, Scalable - Insights
+## Level 3, Scalable - Insights
 
-While robust, standard feedback mechanisms already exist, at this stage data is collected in crafted ways to yield specific strategic insights and actions. Desired results and outcomes are identified followed by standard metrics chosen to indicate progress towards those outcomes. Industry frameworks and standards may be used to benefit from industry research on the impact of certain behaviors.
+While robust, standard feedback mechanisms already exist, at this stage data is
+collected in crafted ways to yield specific strategic insights and actions.
+Desired results and outcomes are identified followed by standard metrics chosen
+to indicate progress towards those outcomes. Industry frameworks and standards
+may be used to benefit from industry research on the impact of certain
+behaviors.
 
-Dedicated teams or tools are employed to gather and review feedback and summarize actionable insights. A symbiotic relationship between platform products and their users is established. Feedback is considered a strategic asset that guides platform operations and roadmap. Regular feedback review sessions might be instituted, where cross-functional teams come together to discuss and strategize based on user insights. 
+Dedicated teams or tools are employed to gather and review feedback and
+summarize actionable insights. A symbiotic relationship between platform
+products and their users is established. Feedback is considered a strategic
+asset that guides platform operations and roadmap. Regular feedback review
+sessions might be instituted, where cross-functional teams come together to
+discuss and strategize based on user insights. 
 
 ##### Characteristics:
 
@@ -478,11 +642,23 @@ Dedicated teams or tools are employed to gather and review feedback and summariz
 
 * The organization has consistently tracked build times and lead time. However, now they realize that while easy to collect, these alone do not give a complete picture of software delivery. With this in mind, the team implements measurement for service reliability and stability.
 
-#### Level 4, Optimizing - Quantitative and qualitative
+## Level 4, Optimizing - Quantitative and qualitative
 
-Feedback and measurements are deeply integrated into the organization's culture. The entire organization, from top-level executives to engineers organization-wide, recognizes the value of data collection and feedback on product evolution. There is a democratization of data, where various stakeholders, including platform users and business leaders, are actively involved in identifying hypotheses for platform improvements, providing feedback during the design process, and then measuring the impact post delivery. All of these measurements are considered when planning platform initiatives.
+Feedback and measurements are deeply integrated into the organization's culture.
+The entire organization, from top-level executives to engineers
+organization-wide, recognizes the value of data collection and feedback on
+product evolution. There is a democratization of data, where various
+stakeholders, including platform users and business leaders, are actively
+involved in identifying hypotheses for platform improvements, providing feedback
+during the design process, and then measuring the impact post delivery. All of
+these measurements are considered when planning platform initiatives.
 
-Not only are standard frameworks leveraged, but there is an understanding that measuring from multiple angles creates a more holistic picture. There is an investment in understanding how qualitative measures change as quantitative ones are improved. There is a focus on identifying leading measures which can allow anticipation of features that would support user needs, alleviate their challenges, and stay ahead of industry trends and business requirements.
+Not only are standard frameworks leveraged, but there is an understanding that
+measuring from multiple angles creates a more holistic picture. There is an
+investment in understanding how qualitative measures change as quantitative ones
+are improved. There is a focus on identifying leading measures which can allow
+anticipation of features that would support user needs, alleviate their
+challenges, and stay ahead of industry trends and business requirements.
 
 ##### Characteristics:
 
@@ -497,19 +673,88 @@ Not only are standard frameworks leveraged, but there is an understanding that m
 * Over time the organization has collected data indicating a rise in build time of over 15%. This triggers negative developer experiences and once triggered, even if the build time is reduced below the original time, developers stay frustrated for longer. This insight drives the build team to set and adhere to a Service Level Objective (SLO), which enables early identification and improvement before instigating the negative cycle with their users.
 
 {{< /tab >}}
+{{< tab tabName="Context" >}}
+
+<h4 style="color:gray;padding-bottom:4px;padding-top:12px"><i>Context of this work</i></h4>
+
+It's valuable to understand the context a document has been written in. The
+following sections lay out some context behind the model as well as some
+expectations for you, the reader.
+
+## Why provide a maturity model?
+
+This model encourages organizations to mature both their platform engineering
+discipline and the resulting platform through intentional planning. This
+effective planning and discipline is itself a precursor to effective platform
+evolution as organizational requirements change.
+
+## How this model was constructed
+
+This model is not meant to classify an organization or platform team as wholly
+“Level 1” or “Level 4.” Each aspect should be considered independently of the
+others; the characteristics of each level represent a continuum within that
+aspect but are not necessarily coupled to other aspects at the same level. Even
+more so, many organizations will see characteristics of more than one level
+being used across their teams and work. This is because no level is inherently
+good or bad, only contextual to the team’s goals.
+
+The labels for each level are intended to reflect the impact of platform
+engineering at your organization. As you recognize your organization at a given
+level you will gain insight into opportunities which follow at the next ones.
+Lower-numbered levels comprise more tactical solutions while higher-numbered
+ones are more strategic.
+
+This yields a potential process for platform development and maturity similar to
+other digital product development: first recognize a problem and need for a new
+solution, next develop minimally-viable products as hypothesized solutions,
+third iterate to better solve the problem and ensure fit for your customers and
+finally scale and optimize the product to solve the problem for many teams and
+users.
+
+Similar to the [CNCF Cloud Native Maturity
+Model](https://maturitymodel.cncf.io/), this model highlights that successful
+business outcomes can only be achieved through balancing people, process, and
+policy alongside technology. Notably, this model introduces aspects which are
+often not fully in the remit of a single internal team, but rather require
+cooperation across the engineering department and quite often the wider
+organization.
+
+## But we don’t fit!
+
+That’s perfectly fine! All organizations and groups have dynamics and parameters
+that are specific to them.
+
+Keep in mind that the goal of this paper isn’t to prescribe a rigid formula, but
+rather a framework that you can apply to your circumstances.  Every single word
+may not be relevant to you, but we hope the content will inspire you to
+introspect on your own platform journey, taking what makes sense and leaving the
+rest.
+
+The objective of this model is to provide a tool to help guide platform
+engineering practitioners, stakeholders, and other interested parties on their
+journeys. Platform design and implementation is not an exact science, but rather
+depends on the needs of an individual project, an organization and a particular
+time and place.
+
+## Intended audiences
+
+Each reader brings a unique context and will take unique learnings from this
+model. Following are some personas we have in mind, along with their possible
+motivations for engaging with this model:
+
+* **CTOs, VPs, and directors of technology**: Leaders looking to map a path to digital transformation and greater developer productivity
+* **Engineering managers**: Groups and individuals seeking to empower engineers to provide value with less overhead and higher efficiency
+* **Enterprise architects**: Individuals navigating the modern technology landscape who seek a value- and solution-oriented perspective on technology problems
+* **Platform engineers and platform product managers**: Teams and people seeking to build the best possible experience for platform builders and platform users
+* **Product vendors and project maintainers**: Organizations and engineers wishing to design tools and deliver messages to enable users to succeed with platforms and capabilities
+* **Application and product developers**: Platform users seeking to understand in more detail what they might expect of an internal platform
+
+{{< /tab >}}
 {{< /tabs >}}
 
-</div>
+## Conclusion
 
-</br>
-</br>
-
----
-
-## In summary
-
-Platforms serve as the foundational framework for agile product development. They enable consistency and efficiency in software development and operations. This maturity model can serve as the way to map your platform journey.
-
-Start by assessing your own organization's current platform engineering maturity then invest with precision and intent. Only you can decide to begin with incentivizing adoption, enhancing interfaces, fine-tuning operations, or maintaining a continuous cycle of progress assessment. Where ever you begin, your journey to platform engineering excellence is an ongoing process and this maturity model will support your organization in today's dynamic landscape.
-
-Platforms, and the platform engineers that maintain them, serve as a foundation for agile digital product development. They provide a consistent collection of capabilities that enable efficiency in software development and delivery. This maturity model provides a map for your platform engineering journey.
+Platforms and their maintainers provide a foundation for agile digital product
+development. They provide a consistent collection of capabilities that enable
+efficient software development and delivery. This maturity model provides a map
+for your platform engineering journey.
