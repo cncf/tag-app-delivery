@@ -1,34 +1,33 @@
 ---
 title: "CNCF TAG App Delivery"
-toc_hide: true
+list_pages: true
 ---
 
 <div class="row mt-5 mb-3">
     <div class="col-lg-6">
-        <div class="lead">
-        TAG App Delivery supports projects and initiatives related to delivering
-        cloud-native applications, including building, packaging, deploying,
-        managing, and operating them.
-        </div>
+        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
     </div>
     <div class="col-lg-6">
-        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
+        <div class="lead">
+        Projects and initiatives related to delivering cloud-native
+        applications, including building, packaging, deploying, managing, and
+        operating them.
+        </div>
     </div>
 </div>
 
+The TAG gathers feedback from cloud-native application developers, platform
+engineers and end users; shares that feedback with projects in its domain; and
+produces guidance and examples for end users.
 
-The TAG produces guidance for and gathers feedback from cloud app users and
-developers and provides guidance and coordination to CNCF projects in the TAG's
-technical domains.
+The TAG supports projects relatated to its charter
+such as those in the [CNCF Landscape](https://landscape.cncf.io/card-mode) under
+[application definition and image build](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted),
+[continuous integration and delivery](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)
+and [container registry](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted).
 
-- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
-- [Community events](https://community.cncf.io/tag-app-delivery/)
-- Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
-    - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
-- [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
-
-<p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
-
+Today there are two active working groups under the TAG -
+[WG Platforms](./wgs/platforms/) and [WG Artifacts](./wgs/artifacts/).
 
 ## Meetings
 
@@ -48,5 +47,15 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - [Josh Gavant](https://github.com/joshgav) (Chair)
 - [Thomas Schuetz](https://github.com/thschue) (Chair)
 - [Alex Jones](https://github.com/alexsjones) (TL)
-- [Lian Li] (https://github.com/lianmakesthings) (TL)
-- [Karena Angell] (https://github.com/angellk) (TL)
+- [Lian Li](https://github.com/lianmakesthings) (TL)
+- [Karena Angell](https://github.com/angellk) (TL)
+
+### Additional Resources
+
+- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
+    - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
+- [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
+
+<p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
+
