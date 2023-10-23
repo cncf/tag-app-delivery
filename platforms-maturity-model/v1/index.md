@@ -12,7 +12,7 @@ url: /whitepapers/platform-eng-maturity-model
 
 ## Introduction
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organisation relies on an internal platform crafted for its own organization even if it is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organisation relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
 ## What is platform engineering?
 
@@ -24,15 +24,17 @@ Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery
 
 ## How to use this model
 
-As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for. Each aspect is described by a continuum of characteristics of different teams and organizations at each level within the aspect.
+As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for. Each aspect is described by a continuum of characteristics of different teams and organizations at each level within the aspect. We expect readers to find themselves in the model and identify opportunities in adjacent levels.
 
-Each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal in itself. Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
+Of note, each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal in itself. Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
 
 Keep in mind that each aspect is meant to be evaluated and evolved independently. However, as in any socio-technical system these aspects are complex and interrelated. Thus you may find that to improve in one aspect you must reach a minimum level in another aspect too.
 
 It's also important to recognize that implementations of platforms vary from organization to organization. Make sure to evaluate the current state of _your_ group’s overall cloud native transformation. A phenomenal resource to leverage for this evaluation is the [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
 
-Generally, keep in mind that mapping your organization into a model captures current state _to enable_ progressive iteration and improvement. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) says it well: "The true outcome of a maturity model assessment isn't what level you are at but the list of things you need to work on to improve. Your current level is merely a piece of intermediate work in order to determine that list of skills to acquire next." In that vein, seek to find yourself in the model then identify opportunities in adjacent levels.
+Finally, this model encourages organizations to mature their platform engineering discipline and their resulting platforms through intentional planning. Such planning and discipline themselves are a requirement for mature platform development and ongoing evolution.
+
+In general, keep in mind that mapping your organization into a model captures current state _to enable_ progressive iteration and improvement. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) says it well: "The true outcome of a maturity model assessment isn't what level you are at but the list of things you need to work on to improve. Your current level is merely a piece of intermediate work in order to determine that list of skills to acquire next." In that vein, seek to find yourself in the model then identify opportunities in adjacent levels.
 
 ## Model table
 
@@ -54,13 +56,9 @@ Generally, keep in mind that mapping your organization into a model captures cur
 
 It's valuable to understand the context a document has been written in. The following sections lay out some context behind the model as well as some expectations for you, the reader.
 
-## Why provide a maturity model?
-
-This model encourages organizations to mature both their platform engineering discipline and the resulting platform through intentional planning. This effective planning and discipline is itself a precursor to effective platform evolution as organizational requirements change.
-
 ## How this model was constructed
 
-This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4.” Each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but are not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being used across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
+This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4.” Each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but are not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being applicable across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
 
 The labels for each level are intended to reflect the impact of platform engineering at your organization. As you recognize your organization at a given level you will gain insight into opportunities which follow at the next ones. Lower-numbered levels comprise more tactical solutions while higher-numbered ones are more strategic.
 
