@@ -10,6 +10,25 @@ type: whitepapers
 url: /whitepapers/platform-eng-maturity-model
 ---
 
+
+<script>
+window.onhashchange = function() {
+  // get the fragment without the `#`
+  const fragment = window.location.hash.substring(1)
+  const found = Array.from(document.querySelectorAll('.nav-item'))
+    .filter(el => el.textContent === fragment)
+  if (!found) {
+    return
+  }
+
+  if (found.length > 1) {
+    console.warn(`Found multiple ` + "`.nav-item`s" + ` with the text ${parts[1]}, only opening the first one`)
+  }
+
+  found[0].click();
+}
+</script>
+
 ## Introduction
 
 CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organisation relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
@@ -40,11 +59,11 @@ In general, keep in mind that mapping your organization into a model captures cu
 
 | <div style="width:120px">Aspect </div> |                                                                                            | Provisional            | Operational           | Scalable               | Optimizing                   |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------|:-----------------------|:----------------------|:-----------------------|:-----------------------------|
-| [Investment](#tab-text-Investment)     | _How are staff and funds allocated to platform capabilities?_                              | Voluntary or temporary | Dedicated team        | As product             | Enabled ecosystem            |
-| [Adoption](#tab-text-Adoption)         | _Why and how do users discover and use internal platforms and platform capabilities?_      | Erratic                | Extrinsic push        | Intrinsic pull         | Participatory                |
-| [Interfaces](#tab-text-Interfaces)     | _How do users interact with and consume platform capabilities?_                            | Custom processes       | Standard tooling      | Self-service solutions | Integrated services          |
-| [Operations](#tab-text-Operations)     | _How are platforms and their capabilities planned, prioritized, developed and maintained?_ | By request             | Centrally tracked     | Centrally enabled      | Managed services             |
-| [Measurement](#tab-text-Measurement)   | _What is the process for gathering and incorporating feedback and learning?_               | Ad hoc                 | Consistent collection | Insights               | Quantitative and qualitative |
+| [Investment](#Investment)     | _How are staff and funds allocated to platform capabilities?_                              | Voluntary or temporary | Dedicated team        | As product             | Enabled ecosystem            |
+| [Adoption](#Adoption)         | _Why and how do users discover and use internal platforms and platform capabilities?_      | Erratic                | Extrinsic push        | Intrinsic pull         | Participatory                |
+| [Interfaces](#Interfaces)     | _How do users interact with and consume platform capabilities?_                            | Custom processes       | Standard tooling      | Self-service solutions | Integrated services          |
+| [Operations](#Operations)     | _How are platforms and their capabilities planned, prioritized, developed and maintained?_ | By request             | Centrally tracked     | Centrally enabled      | Managed services             |
+| [Measurement](#Measurement)   | _What is the process for gathering and incorporating feedback and learning?_               | Ad hoc                 | Consistent collection | Insights               | Quantitative and qualitative |
 
 ## Model Detail
 
