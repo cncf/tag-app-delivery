@@ -80,7 +80,7 @@ This yields a potential process for platform development and maturity similar to
 
 Similar to the [CNCF Cloud Native Maturity Model](https://maturitymodel.cncf.io/), this model highlights that successful business outcomes can only be achieved through balancing people, process, and policy alongside technology. Notably, this model introduces aspects which are often not fully in the remit of a single internal team, but rather require cooperation across the engineering department and quite often the wider organization.
 
-### But we don’t fit
+### But it doesn't seem to fit
 
 That’s perfectly fine! All organizations and groups have dynamics and parameters that are specific to them.
 
