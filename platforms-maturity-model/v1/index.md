@@ -35,7 +35,7 @@ CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.
 
 ## What is platform engineering?
 
-Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common capabilities, frameworks and experiences that facilitate and accelerate the work of [internal users]({{< ref "/wgs/platforms/glossary#platform-users" >}}) such as product and application teams.
+Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common capabilities, frameworks and experiences. In the context of this working group and related publications, the focus is on platforms that facilitate and accelerate the work of [internal users]({{< ref "/wgs/platforms/glossary#platform-users" >}}) such as product and application teams.
 
 [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of platforms and their capabilities — their people, processes, policies and technologies; as well as the desired business outcomes that drive them.
 
@@ -117,7 +117,7 @@ These capabilities are built and maintained by people assigned temporarily or vo
 
 #### Characteristics:
 
-* "Hit" or "tiger" teams are built to tackle urgent technical requirements. These teams are short lived and not assigned nor granted the time to provide long term planning and support.
+* "Hit" or "tiger" teams are built to tackle urgent requirements. These teams are short lived and not assigned nor granted the time to provide long term planning and support.
 * Migrations, improvements, or enhancements are often considered "nice to have" work items and rely on "research" or "hack day" efforts.
 * Process improvements or automation may be introduced while tackling a new requirement such as an urgent security patch, however there is not support to build the solutions in a reusable or sustainable way.
 * Employees complain of burn out and frustration with the amount of work they are doing outside their core role.
