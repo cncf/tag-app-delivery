@@ -31,7 +31,7 @@ window.onhashchange = function() {
 
 ## Introduction
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organisation relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
 ## What is platform engineering?
 
@@ -183,7 +183,7 @@ Adoption describes not only how and how much an organization uses platform capab
 <img src="assets/adoption-curve.jpg" width=600px />
 <br/>
 <figcaption align="center" padding="50px">
-<em>A diagram to indicate a common growth pattern for platform adoption. This showcases the often slow start driven mainly by platform builders. Once platforms provides enough value to users, growth becomes more pulled by the users causing a steeper adoption curve.</em>
+<em>A diagram to indicate a common growth pattern for platform adoption. This showcases the often slow start driven mainly by platform builders. Once platforms provide enough value to users, growth becomes more pulled by the users causing a steeper adoption curve.</em>
 </figcaption>
 </figure>
 </br>
@@ -222,7 +222,7 @@ User discovery of capabilities and how to use them is inconsistent; it is possib
 
 #### Example Scenarios:
 
-* An engineering organization decides on a standard deployment tool and instructs all teams to use it. New processes (communication of release notes, etc) are built around that standard. Teams are instructed to stop using other sorts of deployment scripts and use the common tool instead. This is difficult for some teams who's needs are not met by the new process but do not understand or are not allowed to extend it.
+* An engineering organization decides on a standard deployment tool and instructs all teams to use it. New processes (communication of release notes, etc) are built around that standard. Teams are instructed to stop using other sorts of deployment scripts and use the common tool instead. This is difficult for some teams whose needs are not met by the new process but do not understand or are not allowed to extend it.
 
 ### Level 3, Scalable — Intrinsic pull
 
