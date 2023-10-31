@@ -10,7 +10,7 @@ enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
 
-theme = ["docsy"]
+theme = ["hugo-dynamic-tabs", "docsy"]
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
