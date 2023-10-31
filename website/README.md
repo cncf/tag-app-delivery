@@ -76,20 +76,23 @@ The startup script updates gitmodules for the theme and installs all necessary d
 ```
 5. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
 
-### GUI
 
-Open the environment directly:
+#### GUI
+
+You can open the devcontainer directly in the DevPod Gui byt pressing the below button:
 
 [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/cncf/tag-app-delivery)
 
-### CLI
+Then follow above steps 4 and 5 to run the website
 
-Start the environment via CLI:
+
+#### CLI
+
+Or you can start the dev environment via CLI:
 
 1. Run `git clone git@github.com:cncf/tag-app-delivery.git && cd tag-app-delivery`
 1. Start the workspace: `devpod up .`
-1. Open a terminal and execute `.devcontainer/start-server.sh` to start the Hugo server.
-1. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
+1. Follow above steps 4 and 5 to run the website
 
 Alternatively, create a workspace directly from the repo: `devpod up
 github.com/cncf/tag-app-delivery`
