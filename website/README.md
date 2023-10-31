@@ -60,7 +60,7 @@ startup script: `./.devcontainer/start-server.sh`
 
 ### Run in a special container
 
-You can create a special "development container", also known as a "workspace",
+You can create a special "development container",
 that includes all dependencies required to build and run the site. This reduces
 potential differences between local developer environments.
 
@@ -69,6 +69,12 @@ To run the site from a development container:
 1. Install [DevPod](https://devpod.sh/docs/getting-started/install)
 1. Install a [DevPod provider](https://devpod.sh/docs/managing-providers/what-are-providers)
    such as [docker](https://www.docker.com/), using `devpod provider add docker`.
+1. Start the devcontainer (See options below)
+1. Open a terminal and execute `.devcontainer/start-server.sh` to start the Hugo server.
+```
+The startup script updates gitmodules for the theme and installs all necessary dependencies to run hugo.
+```
+5. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
 
 ### GUI
 
