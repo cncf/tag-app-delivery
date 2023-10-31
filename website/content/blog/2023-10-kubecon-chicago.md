@@ -41,21 +41,27 @@ delivery topics and learn more about the TAG.
 The schedule for the project meeting on Monday morning will be as follows. The
 meeting will be live streamed and recorded too.
 
-Time   | Topic
--------|--------
+Time   | Topic | Presenter
+-------|-------|------
 Nov 6 @ 08:00  | TAG General Review | [TAG Leads](https://tag-app-delivery.cncf.io/#leads)
-Nov 6 @ 09:00  | Sandbox submission review for [Radius](https://radapp.io/)
-Nov 6 @ 10:00  | Talks on projects, concepts and working groups
-Nov 6 @ 11:00  | Talks on projects, concepts and working groups
+Nov 6 @ 09:00  | Sandbox submission review for [Radius](https://radapp.io/) | Jonathan Smith, Microsoft
+Nov 6 @ 10:00  | Learn about and discuss [CNOE](https://cnoe.io/) | Nima Kaviani, AWS
+Nov 6 @ 11:00  | Lightning Talks
+\-             | Beyond the Bundle: Porter and CNAB | Sarah Christoff, Microsoft
+\-             | Workload Specifications: Your Best Friends In Platform Engineering | Atulpriya Sharma, InfraCloud
+\-             | Automating the Deployment of Data Workloads to Kubernetes with ArgoCD, Argo Workflows, and Hera | Matt Menzenski, Payit
+\-             | From Apps to Stacks: Delivering Reusable Analytic Stacks on Kubernetes | Richard Hodges, Altinity
 
 ## Booth meetups - Tuesday, Wednesday, Thursday
 
 The schedule for talks at the booth follows:
 
-Date/Time       | Topic
-----------------|-------
-Nov 7 @ 17:00 | Talks and discussions
+Date/Time     | Topic
+--------------|-------
+Nov 7 @ 17:00 | Chat with participants from [Platforms Panel](https://kccncna2023.sched.com/event/eb75a050355eccf96c4f1d77a831f7d4)
 Nov 8 @ 15:00 | Talks and discussions
+\-            | Speed up your API delivery with Microcks | Yacine Kheddache, Microcks
+\-            | KubeRay: Delivering Ray Applications on Kubernetes | Hongchao Deng, KubeRay
 Nov 9 @ 13:00 | Talks and discussions
 
 See you in Chicago!
