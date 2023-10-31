@@ -1,0 +1,24 @@
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+        {{ $tabTotal := .Get "tabTotal" }}
+        {{ $tabRightAlign := .Get "tabRightAlign" }}
+        {{ $tabName := .Scratch.Get "tabName" }}
+        {{ $tabID := .Scratch.Get "tabID" }}
+
+        {{ range $i, $sequence := (seq $tabTotal) }}
+
+        <a class="nav-item nav-link {{ if eq $i 0 }} active {{ end }}{{ if in $tabRightAlign (add 1 $i) }} ml-auto {{ end }}"
+            id="nav-{{ (index $tabID $i) }}" data-toggle="tab" href="#{{ (index $tabID $i) }}" role="tab"
+            aria-controls="nav-home" aria-selected="true">{{ (replaceRE "(\\s)" "" (index $tabName $i)) }}</a>
+
+        {{ end }}
+
+    </div>
+</nav>
+
+<div class="tab-content" id="nav-tab-content">
+
+    {{ .Inner }}
+
+</div>
