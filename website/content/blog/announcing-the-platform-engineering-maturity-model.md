@@ -10,7 +10,7 @@ We want to thank the almost 50 people who have contributed their time and ideas 
 
 The [platforms white paper](https://appdelivery.cncf.io/whitepapers/platforms) released in April 2023 was always aimed at providing an executive summary on the what and why behind platforms. This paper successfully defined a north star for many organizations but left questions about how they can progress. This new model presents platform engineering as the practice used to offer an internal platform as a product through investment in all parts of building platforms and their capabilities - the people, processes, policy, and technology which in turn drive business outcomes.
 
-<img src="./assets/platform-maturity-model-table.png" width=600px /><br/>
+<img src="../assets/platforms-mm-v1-table.png" width=600px /><br/>
 
 While presented as a single model with 5 aspects and 4 levels of maturity, the accompanying paper extends well beyond the black and white tick box exercise sometimes associated with maturity models.
 
