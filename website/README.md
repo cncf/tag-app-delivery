@@ -1,86 +1,101 @@
 # TAG App Delivery Website
 
-This directory contains a [Hugo](https://gohugo.io) web site published via [Netlify](https://www.netlify.com/) to <https://tag-app-delivery.cncf.io/>.
+This directory contains a [Hugo](https://gohugo.io) web site published via
+[Netlify](https://www.netlify.com/) to <https://tag-app-delivery.cncf.io/>.
 
-When the `main` branch of this repo is updated a fresh build and deploy of the website is executed. Recent Netlify builds and deployments are listed at <https://app.netlify.com/sites/tag-app-delivery>.
+When the `main` branch of this repo is updated a fresh build and deploy of the
+website is executed. Recent Netlify builds and deployments are listed at
+<https://app.netlify.com/sites/tag-app-delivery>.
 
-## Setting up a dev instance
+A preview site is generated for each PR too, with a link and other info on the
+PR build added as a comment to the related issue.
 
-There a two ways to run the webserver for developing the site.
+## Contributing
 
-### Run in Dev Container
-With a development container (called workspace), the entire toolchain can be bundled up and run in any environment that can run containers.
+We feature 3 types of content on the site:
 
-Requirements:
-- [DevPod](https://devpod.sh/docs/getting-started/install)
-- An environment with a [DevPod provider](https://devpod.sh/docs/managing-providers/what-are-providers), e.g. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+1. **Projects looking for contributions**: These are strictly scoped in both time and content. People can contribute without the need for committing long-term.
+1. **Blogposts**: Updates about the TAG.
+1. **Working Groups**: Long-running interest groups, the scope of which might change. A working group can create multiple projects.
 
-DevPod can be run with a GUI or via CLI.
-
-#### GUI
-
-To start a workspace through the GUI click the below button.
-Then choose the desired provider and IDE.
-
-[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open)
-
-#### CLI
-To startup a devcontainer through the CLI, follow below steps
-```
-# Add a provider for your environment, e.g. docker (this only needs to be done once)
-devpod provider add docker
-
-# Create workspace from local path
-git clone git@github.com:cncf/tag-app-delivery.git
-cd tag-app-delivery
-devpod up .
-
-# OR Create workspace from remote git repository
-devpod up github.com/cncf/tag-app-delivery
-
-# Start the workspace
-devpod up tag-app-delivery --ide openvscode
-```
-
-Once the workspace is up, DevPod will start your IDE. Open up a terminal to execute the server startup script
-
-```
-/bin/bash .devcontainer/start-server.sh
-```
-Navigate to http://localhost:1313 with your browser to view the site.
-
-### Run directly on machine
-
-To set up a local dev environment make sure you have [Hugo Extended](https://gohugo.io/installation/linux/#editions) and [npm](https://www.npmjs.com/) installed, then run the server startup script:
-
-```
-/bin/bash .devcontainer/start-server.sh
-```
-the output will tell you which port the webserver is serving.
-
-## Add content to website
-Generally speaking, there are three types of content we feature on the website:
-1. **Projects looking for contributions**  
-These are strictly scoped in both time and content. People can contribute without the need for committing long-term.
-1. **Blogposts**  
-Updates about the TAG.
-1. **Working Groups**  
-Longrunning interest groups, the scope of which might change. A working group can create multiple projects.
+Here's how to create templates for each type of content.
 
 ### Create new call for contribution
+
 ```
 cd website
 hugo new content contribute/<project title>.md
 ```
 
 ### Create new blogpost
+
 ```
 cd website
 AUTHOR=ll hugo new content blog/<post title>.md
 ```
 
 ### Create new working group
+
 ```
 cd website
 hugo new wgs/<working group name>
 ```
+
+## Testing locally
+
+### Run in local OS
+
+To run the site from your local OS:
+
+1. Install [Hugo Extended](https://gohugo.io/installation/linux/#editions) and [npm](https://www.npmjs.com/)
+2. Run `git clone git@github.com:cncf/tag-app-delivery.git && cd tag-app-delivery`
+3. Initialize submodules with `git submodule update --init --recursive`
+4. Change into the website directory: `cd website`
+5. Install dependencies with `npm install`
+6. Run the site using `hugo server -D`
+7. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
+
+Alternatively, once you've cloned this repo you can directly invoke the included
+startup script: `./.devcontainer/start-server.sh`
+
+### Run in a special container
+
+You can create a special "development container",
+that includes all dependencies required to build and run the site. This reduces
+potential differences between local developer environments.
+
+To run the site from a development container:
+
+1. Install [DevPod](https://devpod.sh/docs/getting-started/install)
+1. Install a [DevPod provider](https://devpod.sh/docs/managing-providers/what-are-providers)
+   such as [docker](https://www.docker.com/), using `devpod provider add docker`.
+1. Start the devcontainer (See options below)
+1. Open a terminal and execute `.devcontainer/start-server.sh` to start the Hugo server.
+```
+The startup script updates gitmodules for the theme and installs all necessary dependencies to run hugo.
+```
+5. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
+
+
+#### GUI
+
+You can open the devcontainer directly in the DevPod Gui byt pressing the below button:
+
+[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/cncf/tag-app-delivery)
+
+Then follow above steps 4 and 5 to run the website
+
+
+#### CLI
+
+Or you can start the dev environment via CLI:
+
+1. Run `git clone git@github.com:cncf/tag-app-delivery.git && cd tag-app-delivery`
+1. Start the workspace: `devpod up .`
+1. Follow above steps 4 and 5 to run the website
+
+Alternatively, create a workspace directly from the repo: `devpod up
+github.com/cncf/tag-app-delivery`
+
+Once the workspace has been created on your machine you can open up it any time
+with `devpod up tag-app-delivery --ide openvscode`
