@@ -78,4 +78,5 @@ As we reach this milestone we want to thank all the records for all their contri
 ## Resources
 
 Slack: https://cloud-native.slack.com/archives/C020RHD43BP
+
 Mailing list: https://lists.cncf.io/g/cncf-tag-app-delivery
