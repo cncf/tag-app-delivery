@@ -24,56 +24,56 @@ Finally, we want to take this opportunity to reintroduce the working group as a 
 
 As we reach this milestone we want to thank all the records for all their contributions and feedback:
 
-Abby Bangser (Project lead)
-Abby Kearns
-Abdur Rahman Mungul
-Adam Gardner
-Adrian Cockroft
-Antoine Bermon
-Areti Panou
-Asare Nikansah
-Asare Nkansah
-Atulpriya Sharma
-Blake Romano
-Bob Hong
-Bruno Dias
-Colin Griffin
-Colin Humphreys
-Daniel Bryant
-David Sandilands
-Edward (Ted) Newman
-Jennifer Riggins
-John Dietz
-John Gardner
-Josh Gavant
-Karena Angell
-Kief Morris
-Kirstin Slevin
-Luca Acquaviva
-Manuel Pais
-Marsh Gardiner
-Matt Menzenski
-Michael Coté
-Michael Kestigian
-Nadav Cohen
-Nicki Watt
-Niklas Beinghaus
-Paula Kennedy
-Puja Abbassi
-Puneet Kandhari
-Ram Iyengar
-Ramanujan Iyengar
-Rick Osowski
-Roberth Strand
-Rogerio Angeliski
-Saim Safdar
-Sam Newman
-Simon Forster
-Tsahi Duek
-Victor Lu
-Vijay Chintha
-Viktor “Bika” Nagy
-Vishal Biyani
+* Abby Bangser (Project lead)
+* Abby Kearns
+* Abdur Rahman Mungul
+* Adam Gardner
+* Adrian Cockroft
+* Antoine Bermon
+* Areti Panou
+* Asare Nikansah
+* Asare Nkansah
+* Atulpriya Sharma
+* Blake Romano
+* Bob Hong
+* Bruno Dias
+* Colin Griffin
+* Colin Humphreys
+* Daniel Bryant
+* David Sandilands
+* Edward (Ted) Newman
+* Jennifer Riggins
+* John Dietz
+* John Gardner
+* Josh Gavant
+* Karena Angell
+* Kief Morris
+* Kirstin Slevin
+* Luca Acquaviva
+* Manuel Pais
+* Marsh Gardiner
+* Matt Menzenski
+* Michael Coté
+* Michael Kestigian
+* Nadav Cohen
+* Nicki Watt
+* Niklas Beinghaus
+* Paula Kennedy
+* Puja Abbassi
+* Puneet Kandhari
+* Ram Iyengar
+* Ramanujan Iyengar
+* Rick Osowski
+* Roberth Strand
+* Rogerio Angeliski
+* Saim Safdar
+* Sam Newman
+* Simon Forster
+* Tsahi Duek
+* Victor Lu
+* Vijay Chintha
+* Viktor “Bika” Nagy
+* Vishal Biyani
 
 ## Resources
 
