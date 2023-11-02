@@ -6,3 +6,7 @@ other = " | Documentation Distributed under CC-BY-4.0"
 
 [post_create_issue]
 other = "Create issue"
+
+# TOC
+[page_contents]
+other = "Page Contents"

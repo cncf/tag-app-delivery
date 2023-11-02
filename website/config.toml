@@ -2,7 +2,7 @@ baseURL = "https://tag-app-delivery.cncf.io/"
 title = "CNCF TAG App Delivery"
 
 # Language settings
-contentDir = "content"
+contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
@@ -52,6 +52,13 @@ description = "TAG App Delivery focuses on enabling projects and initiatives rel
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+
+[languages.zh]
+title = "CNCF 应用交付 TAG"
+decscription = "应用交付 TAG 专注于支持与交付云原生应用程序相关的项目和计划，包括构建、部署、管理和运营。"
+languageName = "中文(Chinese)"
+contentDir = "content/zh"
+weight = 2
 
 [markup]
   [markup.goldmark]
