@@ -6,7 +6,7 @@ description: "This paper intends to support enterprise leaders, enterprise archi
 type: whitepapers
 ---
 
-## Introduction
+## 概述
 
 Inspired by the cross-functional cooperation promised by DevOps, platform 
 engineering has begun to emerge in enterprises as an explicit form of that 
@@ -26,7 +26,7 @@ is vital to the long-term sustainability and success of platform teams. In this
 paper we'll enable that support by discussing what the value of platforms is, how 
 to measure that value, and how to implement platform teams that maximize it.
 
-## Table of Contents
+## 目录
 
 1. Why platforms?
 1. What is a platform
@@ -36,7 +36,7 @@ to measure that value, and how to implement platform teams that maximize it.
 1. How to measure the success of platforms
 1. Capabilities of platforms
 
-## Why platforms?
+## 为什么需要平台？
 
 Platforms and platform engineering are a popular topic in today's cloud computing world. 
 Before diving into definitions, techniques, and measurements for platform building, it 
@@ -87,7 +87,7 @@ clouds and service providers for foundational but undifferentiated capabilities
 such as databases, identity access, infrastructure operations, and app
 lifecycle.
 
-## What is a platform
+## 平台是什么
 
 A platform for cloud-native computing is an integrated collection of
 capabilities defined and presented according to the needs of the platform's
@@ -132,7 +132,7 @@ systems, task runners and reconcilers and more. An internal platform provides
 these to enterprise teams in ways that make them easy to integrate in their
 applications and systems.
 
-### Platform maturity
+### 平台成熟度
 
 At their most basic, internal platforms provide consistent experiences for
 acquiring and using individual services such as a pipeline runner, a database
@@ -161,7 +161,7 @@ By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
 for their users to deliver valuable products.
 
-## Attributes of platforms
+## 平台的属性
 
 After defining what a platform is and why an organization might want to build one,
 let's identify some key attributes that affect the success of a platform.
@@ -210,7 +210,7 @@ let's identify some key attributes that affect the success of a platform.
 1. **Secure by default**. A platform should be secure by default and offer capabilities
    to ensure compliance and validation based on rules and standards defined by the organization.
 
-## Attributes of platform teams
+## 平台团队的属性
 
 Platform teams are responsible for the interfaces to and experiences with
 platform capabilities - like Web portals, custom APIs, and golden path
@@ -257,7 +257,7 @@ manage the web page and an API, but not the actual service implementation.
 Platform teams should usually consider creating and maintaining their own
 capabilities only when a required capability is not available elsewhere.
 
-## Challenges with platforms
+## 平台的挑战
 
 While platforms promise lots of value, they also bring challenges like the
 following which implementers should keep in mind.
@@ -297,7 +297,7 @@ demonstrate their direct impact on and relationships with product and value
 stream teams (see the previous two paragraphs), presenting the platform team as
 a strategic partner of product teams in delivering value to customers.
 
-### Enabling platform teams
+### 赋能平台团队
 
 It is clear from these challenges that platform teams are faced with a number of
 diverse responsibilities which lead to cognitive load. Just as with their
@@ -315,7 +315,7 @@ the platform team include the following:
 1. Ensure platform teams are staffed appropriately for their domain and number
    of customers
 
-## How to measure the success of platforms
+## 如何衡量平台的成功
 
 Enterprises will want to measure whether their platform initiatives are
 delivering the values and attributes discussed above. Also, throughout this paper we've
@@ -332,7 +332,7 @@ valuable initially.
 Categories of metrics that will help enterprises and platform teams understand
 the impact of their platforms include the following:
 
-### User satisfaction and productivity
+### 用户满意度和生产效率
 
 The first quality sought by many platforms is to improve user experience in order
 to increase productivity. Metrics that reflect user satisfaction and
@@ -342,7 +342,7 @@ productivity include the following:
 - "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
 - Metrics for developer productivity such as those discussed in the SPACE framework [[4]]
 
-### Organizational efficiency
+### 组织效率
 
 Another benefit sought from many platforms is to efficiently provide common
 needs to a large user base. This is often achieved by enabling user self-service
@@ -354,7 +354,7 @@ platform in reducing common work, consider measures such as these:
 - Latency to build and deploy a brand new service into production
 - Time for a new user to submit their first code changes to their product
 
-### Product and feature delivery
+### 产品和功能交付
 
 The ultimate objective of internal platforms is to deliver business value to
 customers faster, so measuring impact on a business's own product and feature
@@ -372,7 +372,7 @@ other IT capabilities with an enterprise's value streams - its products. And so
 ultimately the success of an organization's products and applications are the
 true measure of the success of a platform.
 
-## Capabilities of platforms
+## 平台的功能
 
 As we've described, a platform for cloud-native computing offers and composes
 capabilities and services from many supporting providers. These providers may be
