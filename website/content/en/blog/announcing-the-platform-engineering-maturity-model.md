@@ -6,9 +6,11 @@ author: Abby Bangser, Josh Gavant
 
 The CNCF Platforms Working Group (WG) is excited to present the first release of a platform engineering maturity model which provides a more concrete application of the extremely well received white paper from this past April.
 
-We want to thank the almost 50 people who have contributed their time and ideas to make this model reflect the state of companies both small and large and across both fast moving and highly regulated industries. Download now as a [PDF](https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf) or view it on our [website](https://appdelivery.cncf.io/whitepapers/platform-eng-maturity-model/).
+Download now as a [PDF](https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf) or view it on our [website](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/).
 
-The [platforms white paper](https://appdelivery.cncf.io/whitepapers/platforms) released in April 2023 was always aimed at providing an executive summary on the what and why behind platforms. This paper successfully defined a north star for many organizations but left questions about how they can progress. This new model presents platform engineering as the practice used to offer an internal platform as a product through investment in all parts of building platforms and their capabilities - the people, processes, policy, and technology which in turn drive business outcomes.
+We want to thank the almost 50 people who have contributed their time and ideas to make this model reflect the state of companies both small and large and across both fast moving and highly regulated industries; all of them are listed below.
+
+The [platforms white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) released in April 2023 was always aimed at providing an executive summary on the what and why behind platforms. This paper successfully defined a north star for many organizations but left questions about how they can progress. This new model presents platform engineering as the practice used to offer an internal platform as a product through investment in all parts of building platforms and their capabilities - the people, processes, policy, and technology which in turn drive business outcomes.
 
 <img src="../assets/platforms-mm-v1-table.png" width=600px /><br/>
 
@@ -22,7 +24,7 @@ Finally, we want to take this opportunity to reintroduce the working group as a 
 
 ## Thank you to our contributors!
 
-As we reach this milestone we want to thank all the records for all their contributions and feedback:
+As we reach this milestone we want to thank all the reviewers for all their contributions and feedback:
 
 * Abby Bangser (Project lead)
 * Abby Kearns
