@@ -1,11 +1,11 @@
 ---
 title: 术语表
-description: "A collection of terms used in the Platform Working Group published papers."
+description: "平台工作组已发表论文中使用的术语表。"
 ---
 
 See also <https://glossary.cncf.io/>.
 
-## Platform
+## 平台
 A platform aggregates capabilities to serve developers and operators in
 development and delivery of products, services and apps. In reference to the
 scenarios it aims to support, a platform may be named a "Developer Platform", a
@@ -13,26 +13,26 @@ scenarios it aims to support, a platform may be named a "Developer Platform", a
 connotations of the older term "Platform-as-a-Service", or PaaS, are also
 influential.
 
-## Platform capability providers
+## 平台能力提供者
 The projects and systems that provide the core capabilities offered by the platform.
 Providers can be maintained by either external organizations or internal teams,
 and capabilities can be infrastructure, runtime, or other supporting services.
 
-## Platform engineering
+## 平台工程
 The practice of building and maintaining shared platforms and capabilities and presenting them to end users. Emerging from the DevOps movement's goal of cooperation between application developers and operators, platform engineering proposes using common platforms as the foundation of that cooperation. The decision to use shared platforms impacts not only the technology but also the people, processes, policies and expected business outcomes at an organization.
 
-## Platform engineers
+## 平台工程师
 The role focused on developing and 
 maintaining interfaces and tools to enable provisioning and integration of platform 
 capabilities in applications, according to the requirements and instructions provided 
 by platform product managers. Platform developers are usually grouped in platform teams.
 
-## Platform product managers
+## 平台产品经理
 The role chiefly responsible for understanding the experience of
 platform users, building a roadmap that addresses platform product gaps, requirements, 
 and opportunities, and managing platform teams as a part of daily work.
 
-## Platform teams
+## 平台团队
 A cross-functional team that develops and maintains interfaces to and experiences with
 platform capabilities - like Web portals, custom APIs, and golden path templates.  
 
@@ -41,12 +41,12 @@ platform developers. As the platform evolves and become more advanced, other rol
 can become part of a platform team, including, but not limited to, operators, 
 QA analysts, UI/UX designers, technical writers, developer advocates.
 
-## Platform users
+## 平台用户
 The target audience for a platform which includes but is not limited to app developers and operators, data
 scientists, COTS software operators, and information workers - whoever runs
 software on the platform or uses platform provided capabilities.
 
-## Thinnest Viable Platform (TVP) {#tvp}
+## 最薄可用平台 (TVP) {#tvp}
 A concept originally defined in the book *Team Topologies*
 by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
 keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
