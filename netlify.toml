@@ -1,2 +1,2 @@
 [build]
-  ignore = "echo 1"
+  ignore = "exit 1"
