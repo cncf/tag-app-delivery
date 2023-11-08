@@ -26,7 +26,7 @@ The project meeting will also be [livestreamed to YouTube](https://www.youtube.c
 Here's that info again:
 
 - Project meeting on Monday 11/6 from 8am-12pm at the [Marriot Marquis](https://maps.app.goo.gl/6gczBxScup8Cn6tBA), Level 4, room name Probability and [YouTube](https://www.youtube.com/watch?v=NZCmYRVziGY).
-- Booth and meetup spot at project pavilion booth #41 on the show floor each afternoon and evening
+- Booth and meetup spot at project pavilion booth #P10 on the show floor each afternoon and evening
 - Form for presentation and discussion proposals: <https://forms.gle/ZbNxrK5f72otckvj7>
 
 The TAG will also host
