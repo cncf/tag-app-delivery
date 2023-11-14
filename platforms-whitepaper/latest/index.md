@@ -384,7 +384,7 @@ implement and enforce desired practices for security, performance, cost
 governance and consistent experience. The following graphic illustrates the
 relationships between products, platforms, and capability providers.
 
-<img src="assets/platform_components.png" width=600px />
+<img src="assets/platforms-def.drawio.png" width=600px />
 
 We've focused in this paper on how to construct a good platform and platform
 team; now in this last section we'll describe the capabilities a platform may
