@@ -20,7 +20,7 @@ We feature 3 types of content on the site:
 
 Here's how to create templates for each type of content.
 
-### Create new call for contribution
+### Create new call for contribution 
 
 ```
 cd website
