@@ -30,73 +30,77 @@ window.onhashchange = function() {
 
 ## 概述
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF 的首份 [平台定义白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/) 描述了什么是云计算下的内部平台，以及该平台应为企业带来哪些价值。 但要实现这些价值，一个组织必须反思并刻意追求对它们有影响的成果和实践，同时记住每个组织都依赖于为其自身组织量身定制的内部平台 - 即使这个平台只是关于如何使用第三方服务的文档。 这个成熟度模型提供了一个框架，用于反思和识别任何组织中改进的机会。
 
 ## 什么是平台工程？
 
-Inspired by the cross-functional cooperation promised by DevOps, platforms and platform engineering have emerged in enterprises as an explicit form of that cooperation. Platforms curate and present common capabilities, frameworks and experiences. In the context of this working group and related publications, the focus is on platforms that facilitate and accelerate the work of [internal users]({{< ref "/wgs/platforms/glossary#platform-users" >}}) such as product and application teams.
+受到 DevOps 承诺的跨职能合作的启发，平台和平台工程在企业中作为这种合作的明确形式出现。 平台策划并展示了常见的能力、框架和体验。 在这个工作组及其相关出版物的背景下，重点是那些促进和加速 [内部用户]({{< ref "/wgs/platforms/glossary#platform-users" >}})（如产品和应用团队）工作的平台。
 
-[**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of platforms and their capabilities — their people, processes, policies and technologies; as well as the desired business outcomes that drive them.
+[**平台工程**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) 是一种为开发者和用户规划和提供此类计算平台的实践，并涵盖平台及其能力的所有部分 —— 其人员、流程、政策和技术；以及驱动它们的期望商业成果。
 
-Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
+请先阅读 [CNCF 平台定义白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/)，以获得完整的背景信息。
 
 ## 如何应用此模型
 
-As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for. Each aspect is described by a continuum of characteristics of different teams and organizations at each level within the aspect. We expect readers to find themselves in the model and identify opportunities in adjacent levels.
+随着平台工程在过去几年中的重要性日益突显，一些模式已经变得明显。 通过将这些模式和观察结果组织成一个渐进的成熟度模型，我们旨在引导\[平台团队]\({{< ref "/wgs/platforms/glossary#platform-teams" >}}) 关注他们可能面临的挑战和应对的机会。 每个方面都以各级不同小组和组织在各方面的连续特征加以描述。 我们期望读者能在模型中找到自己的位置，并识别相邻层次中的机会。
 
-Of note, each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal in itself. Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
+值得注意的是，每个更高的成熟度层次都伴随着对资金和人员时间的更大需求。 因此，达到最高层次本身不应该是一个目标。 每个层次描述了在那个阶段应该出现的品质。 读者必须考虑，鉴于所需的投资，他们的组织及其当前环境是否会从这些品质中受益。
 
-Keep in mind that each aspect is meant to be evaluated and evolved independently. However, as in any socio-technical system these aspects are complex and interrelated. Thus you may find that to improve in one aspect you must reach a minimum level in another aspect too.
+请记住，每个方面都旨在独立评估和发展。 然而，如同在任何社会技术系统中一样，这些方面是复杂且相互关联的。 因此，您可能会发现，要在一个方面取得进步，您也必须在另一个方面达到最低水平。
 
-It's also important to recognize that implementations of platforms vary from organization to organization. Make sure to evaluate the current state of _your_ group’s overall cloud native transformation. A phenomenal resource to leverage for this evaluation is the [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
+同样重要的是要认识到，平台的实施方式因组织而异。 确保评估 _your_ 团队在整体云原生转型方面的当前状态。 在进行这种评估时，一个极好的资源是 [云原生成熟度模型](https://maturitymodel.cncf.io/)。
 
-Finally, this model encourages organizations to mature their platform engineering discipline and their resulting platforms through intentional planning. Such planning and discipline themselves are a requirement for mature platform development and ongoing evolution.
+最后，这个模型鼓励组织通过有意的规划，提升他们的平台工程学科和由此产生的平台的成熟度。 这样的规划和纪律本身是成熟平台开发和持续演进的要求。
 
-In general, keep in mind that mapping your organization into a model captures current state _to enable_ progressive iteration and improvement. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) says it well: "The true outcome of a maturity model assessment isn't what level you are at but the list of things you need to work on to improve. Your current level is merely a piece of intermediate work in order to determine that list of skills to acquire next." In that vein, seek to find yourself in the model then identify opportunities in adjacent levels.
+通常，请记住，将您的组织映射到一个模型中是为了抓住当前状态，_to enable_ 促进迭代和改进。 [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) 说得好：“成熟度模型评估的真正成果不是你所处的水平，而是你需要努力改进的事项清单。” 你当前的水平仅仅是为了确定下一步需要获取的技能清单而进行的一项中间工作。 遵循这一思路，寻找自己在模型中的位置，然后在相邻层次中识别机会。
 
 ## 该项工作的背景
 
-It's valuable to understand the context a document has been written in. The following sections lay out some context behind the model as well as some expectations for you, the reader.
+理解文档编写的背景是非常有价值的。 以下部分阐述了该模型背后的一些背景，以及对您这位读者的一些期望。
 
 ### 目标受众
 
-Each reader brings a unique context and will take unique learnings from this model. Following are some personas we have in mind, along with their possible motivations for engaging with this model:
+每位读者都有独特的背景，并将从这个模型中获得独特的学习成果。 下面是我们考虑到的一些人物角色，以及他们可能的动机，以便与这个模型互动：
 
-* **CTOs, VPs, and directors of technology**: Leaders looking to map a path to digital transformation and greater developer productivity
-* **Engineering managers**: Groups and individuals seeking to empower engineers to provide value with less overhead and higher efficiency
-* **Enterprise architects**: Individuals navigating the modern technology landscape who seek a value- and solution-oriented perspective on technology problems
-* **Platform engineers and platform product managers**: Teams and people seeking to build the best possible experience for platform builders and platform users
-* **Product vendors and project maintainers**: Organizations and engineers wishing to design tools and deliver messages to enable users to succeed with platforms and capabilities
-* **Application and product developers**: Platform users seeking to understand in more detail what they might expect of an internal platform
+- **首席技术官、副总裁和技术总监**：希望规划数字转型和提高开发者生产力的领导者
+
+- **工程管理者**：寻求赋能工程师以较少的开销和更高效率提供价值的团队和个人
+
+- **企业架构师**：在现代技术环境中导航的个人，他们寻求对技术问题具有价值和解决方案导向的观点
+
+- **平台工程师和平台产品经理**：努力为平台构建者和平台用户构建最佳体验的团队和个人
+
+- **产品供应商和项目维护者**：希望设计工具并传达信息以使用户能够成功使用平台和功能的组织和工程师
+
+- **应用程序和产品开发者**：作为平台用户，希望更详细地了解他们可能对内部平台有何期望
 
 ### 了解各个级别
 
-This model is not meant to classify an organization or platform team as wholly “Level 1” or “Level 4.” Each aspect should be considered independently of the others; the characteristics of each level represent a continuum within that aspect but are not necessarily coupled to other aspects at the same level. Even more so, many organizations will see characteristics of more than one level being applicable across their teams and work. This is because no level is inherently good or bad, only contextual to the team’s goals.
+该模型并不意味着要将一个组织或平台团队完全归类为“Level 1”或“Level 4”。 每个方面都应独立考虑，每个级别的特征代表该方面内的一个连续体，但不一定与其他方面在同一级别相耦合。 甚至更重要的是，许多组织会发现多个级别的特征在其团队和工作中都是适用的。 这是因为没有哪个级别本质上是好或坏的，只取决于团队的目标和背景情境。
 
-The labels for each level are intended to reflect the impact of platform engineering at your organization. As you recognize your organization at a given level you will gain insight into opportunities which follow at the next ones. Lower-numbered levels comprise more tactical solutions while higher-numbered ones are more strategic.
+每个级别的标签旨在反映您的组织中平台工程的影响。 当您将您的组织识别在特定级别时，您将获得洞察力，了解接下来的机会。 较低级别包括更具战术性质的解决方案，而较高级别的则更具战略性质。
 
-This yields a potential process for platform development and maturity similar to other digital product development: first recognize a problem and need for a new solution, next develop minimally-viable products as hypothesized solutions, third iterate to better solve the problem and ensure fit for your customers and finally scale and optimize the product to solve the problem for many teams and users.
+这导致了一种类似于其他数字产品开发的平台开发和成熟性的潜在过程：首先识别问题和对新解决方案的需求，然后开发假设的最小可行产品作为解决方案，第三步是迭代，以更好地解决问题并确保适合您的客户，最后是扩展和优化产品，以解决多个团队和用户的问题。
 
-Similar to the [CNCF Cloud Native Maturity Model](https://maturitymodel.cncf.io/), this model highlights that successful business outcomes can only be achieved through balancing people, process, and policy alongside technology. Notably, this model introduces aspects which are often not fully in the remit of a single internal team, but rather require cooperation across the engineering department and quite often the wider organization.
+类似于 [CNCF 云原生成熟度模型](https://maturitymodel.cncf.io/)，这个模型强调成功的业务结果只能通过在技术之外平衡人员、流程和政策来实现。 值得注意的是，这个模型引入了通常不完全属于单个内部团队职责范围的方面，而是需要在工程部门内和往往是整个组织内进行合作。
 
 ### 但似乎并不适用
 
-That’s perfectly fine! All organizations and groups have dynamics and parameters that are specific to them.
+这是非常完美的！ 所有组织和团队都具有特定于它们的动态和参数。
 
-Keep in mind that the goal of this paper isn’t to prescribe a rigid formula, but rather a framework that you can apply to your circumstances. Every single word may not be relevant to you, but we hope the content will inspire you to introspect on your own platform journey, taking what makes sense and leaving the rest.
+请记住，本文的目标并不是要提供一种刻板的公式，而是一个您可以应用于您的情境的框架。 也许不是每个词都与您相关，但我们希望内容能激发您反思自己的平台之旅，吸取有意义的部分，而不必纠缠于其他部分。
 
-The objective of this model is to provide a tool to help guide platform engineering practitioners, stakeholders, and other interested parties on their journeys. Platform design and implementation is not an exact science, but rather depends on the needs of an individual project, an organization and a particular time and place.
-
+这个模型的目标是为平台工程从业者、利益相关者和其他感兴趣的各方提供一个工具，以帮助他们在自己的平台工程之旅中指导方向。 平台的设计和实施并不是一门精确的科学，而是取决于个别项目、组织和特定的时间与地点的需求。
 
 ## 模型表
 
-| <div style="width:120px">Aspect </div> |                                                                                            | Provisional            | Operational           | Scalable               | Optimizing                   |
-|:---------------------------------------|:-------------------------------------------------------------------------------------------|:-----------------------|:----------------------|:-----------------------|:-----------------------------|
-| [Investment](#Investment)     | _How are staff and funds allocated to platform capabilities?_                              | Voluntary or temporary | Dedicated team        | As product             | Enabled ecosystem            |
-| [Adoption](#Adoption)         | _Why and how do users discover and use internal platforms and platform capabilities?_      | Erratic                | Extrinsic push        | Intrinsic pull         | Participatory                |
-| [Interfaces](#Interfaces)     | _How do users interact with and consume platform capabilities?_                            | Custom processes       | Standard tooling      | Self-service solutions | Integrated services          |
-| [Operations](#Operations)     | _How are platforms and their capabilities planned, prioritized, developed and maintained?_ | By request             | Centrally tracked     | Centrally enabled      | Managed services             |
-| [Measurement](#Measurement)   | _What is the process for gathering and incorporating feedback and learning?_               | Ad hoc                 | Consistent collection | Insights               | Quantitative and qualitative |
+| 方面                        |                              | 暂时性的   | 操作    | 可扩展     | 优化     |
+|:--------------------------| :--------------------------- | :----- | :---- | :------ | :----- |
+| [投入](#investment)         | _如何分配工作人员和资金给平台能力?_          | 自愿或临时的 | 专职团队  | 作为产品    | 已启用的生态 |
+| [采用](#Adoption)           | _用户为什么和如何发现和使用内部平台和平台能力？_    | 不稳定的   | 外部推动  | 内部拉力    | 参与性    |
+| [接口](#Interfaces)         | _用户如何与平台进行交互并使用平台能力？_        | 自定义程序  | 标准工具化 | 自定义解决方案 | 综合服务   |
+| [Operations](#Operations) | \_平台及其能力是如何规划、确定优先次序、开发和维护的？ | 按需求    | 集中跟踪  | 集中启用    | 管理服务   |
+| [衡量](#Measurement)        | 收集、整合反馈和学习的流程是什么？            | 临时的    | 一致的收集 | 见解      | 定量与定性  |
 
 ## 模型详情
 
@@ -105,389 +109,456 @@ The objective of this model is to provide a tool to help guide platform engineer
 {{< tab tabName="Investment" >}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
+对平台和平台工程的投资是分配预算和人员以建立和维护通用能力的过程。 通常情况下，各种举措被描述为自下而上的有机建设，或通过自上而下的举措来推动。 无论哪种情况，都是持续投入的能力推动了高影响力的工作。 这一方面体现了投资规模和广度如何影响平台的成功。
 
-Investment in platforms and platform engineering is the process of allocating budget and people to build and maintain common capabilities. It is common for initiatives to be described as organically built from the bottom up, or driven through top down initiatives. In either case, it is the ability to invest sustained effort that drives high-impact work. This aspect captures how the scale and breadth of investment can impact platform success.
+### 第一阶段，临时性——基于自愿或临时安排
 
-### Level 1, Provisional — Voluntary or temporary
+单个能力的存在可能是为通用或关键功能提供共同的基础。 这些能力的建立和维护是出于需要，而不是有计划的和有意资助的。
 
-Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentionally funded. 
+这些能力由被临时或自愿指派的人员构建和维护；没有专门为它们分配集中的资金或人员。 它们依赖于用户当前的战术需求。
 
-These capabilities are built and maintained by people assigned temporarily or voluntarily; no central funding or staffing are intentionally allocated to them. They depend on the current tactical requirements of their users.
+#### 特点
 
-#### Characteristics:
+- 为应对紧急需求，会组建“打击”或“突击”团队。 这些团队的存在时间很短，既没有被指派也没有被给予进行长期规划和支持的时间。
 
-* "Hit" or "tiger" teams are built to tackle urgent requirements. These teams are short lived and not assigned nor granted the time to provide long term planning and support.
-* Migrations, improvements, or enhancements are often considered "nice to have" work items and rely on "research" or "hack day" efforts.
-* Process improvements or automation may be introduced while tackling a new requirement such as an urgent security patch, however there is not support to build the solutions in a reusable or sustainable way.
-* Employees complain of burn out and frustration with the amount of work they are doing outside their core role.
+- 迁移、改进或增强通常被视为“锦上添花”的工作项，依赖于“研究”或“黑客松”等方式的努力。
 
-#### Example Scenarios:
+- 在处理新需求时，例如紧急安全补丁，可能会引入流程改进或自动化，但没有支持以可复用或可持续的方式构建解决方案。
 
-* There is a specific employee who is viewed as the test environment expert. While this employee means well, their attempt to enable better test environments despite limited investment has led to increased risk since there is no maintenance of their solution and no shared understanding of how to triage a broken test environment.
-* Engineers are encouraged to invest in capability improvements when there is no pressure from management for revenue generating features. This translates to the last few days of some sprints where they prioritize automating and improving parts of their CI/CD pipeline. It is not uncommon for these improvements to come in bursts as there can be months of overly full sprints not allowing for time on these side endeavors.
+- 员工抱怨因在其核心角色之外的工作量而感到疲惫和沮丧。
 
-### Level 2, Operationalized — Dedicated team
+#### 示例场景：
 
-Budget and people are allocated for persistent people and resource support. The assigned people are tasked with providing a set of commonly-required capabilities to speed up software delivery. Often these teams focus on meeting reactive technical requirements. They may be called DevOps, Engineering Enablement, Developer Experience (DevEx or DevX), Shared Tools, a Centre-Of-Excellence, or even Platform. They're funded centrally and treated as cost centers; their impact on direct value streams and application teams is not measured. It can be hard to map the impact of platform teams at this level on the organization and its value streams, which can make it hard to sustain and continue funding such teams.
+- 有一名特定的雇员被视为测试环境专家。 虽然这位员工意图良好，但他们在有限投资下努力改善测试环境的尝试导致了风险增加，因为他们的解决方案没有得到维护，且没有共享关于如何处理坏掉的测试环境的理解。
 
-#### Characteristics:
+- 当管理层对产生收入的功能没有施加压力时，工程师们被鼓励投资于提升能力的改进。 这意味着在一些sprint的最后几天，他们会优先考虑自动化和改进他们CI/CD流水线的某些部分。 这些改进往往是突发性的，因为可能有几个月的冲刺任务过于繁重，不能再这些方面花费时间
 
-* The team is made up of nearly all technical generalists.
-* Team budget may include the infrastructure costs associated with their work leading to often being a key point in budget conversations.
-* Backlog items range a number of technologies, leading to frequent and large context switches. 
-* This team is often the first to fill a gap that is not yet being addressed, even if not in the declared scope for the team. This team takes ownership of resources that don't have an owner.
-* Assigned people rarely have the time or experience with customer research to validate their designs or implementations.
+### 第二阶段，运营化 — 专职团队
 
-#### Example Scenarios:
+为持续的人力和资源支持分配预算和人员。 被指派的人员负责提供一系列常用的能力，以加快软件交付。 这些小组往往把重点放在满足被动技术要求上。 他们可能被称为DevOps、工程支持、开发者体验（DevEx 或 DevX）、共享工具、卓越中心，甚至是平台。 他们的资金来源是集中分配的，被当作一个成本中心来对待；而他们对直接产生价值的流程和应用开发团队的影响并没有进行评估。 在这个级别上，平台团队对组织及其价值流的影响可能难以衡量， 这可能使维持和继续为这种小组提供资金变得很困难。
 
-* Application developers raise an issue with the long build time for their applications. A centralized team is tasked with reducing the build time by 50%. They solve this by doubling the size and quantity of the CI runners given they are not close enough to the software to individually improve the application builds. This creates a budget concern for their centralized team as the productivity gain is not directly measurable against this increased infrastructure cost.
+#### 特点
 
-### Level 3, Scalable — As product
+- 团队几乎全部由技术通才组成。
 
-Investment in internal platforms and their capabilities is similar to investment in an enterprise's outbound products and value streams: based on the value they are expected to provide to their customers. Product management and user experience are explicitly considered and invested in. A chargeback system may be used to reflect platforms' impact on their customers' own direct value streams and products. The enterprise allocates funds and staff to the appropriate initiatives by using data-driven performance indicators and feedback loops. Platform teams can ultimately optimize the business itself and contribute to increased profitability.
+- 团队预算可能包括与他们的工作相关的基础设施成本，这通常是预算讨论中的一个关键点。
 
-#### Characteristics:
+- 待办事项涵盖多种技术，导致频繁且大规模的上下文切换。
 
-* Platform teams staff roles not traditionally found in internal serving or technical teams, for example, product management and user experience.
-* The team publicizes a roadmap internally to the organization, which indicates the value delivered and high level feature targets.
-* Features are tested for both implementation quality and user experience during design, delivery, and post deployment.
-* Feature removal is a key part of the conversation, the goal is to have a well supported, well used suite of capabilities instead of a sprawling estate that may not be maintained.
+- 这个团队通常是首个填补尚未解决的空白的团队，即使这不在团队声明的范围内。 这个团队接管了无主的资源。
 
-#### Example Scenarios:
+- 被指派的人员很少有时间或经验进行客户研究，以验证他们的设计或实现。
 
-* Data derived from platform usage metrics inform decisions to allocate funds and staff to the most impactful initiatives.
+#### 示例场景：
 
-### Level 4, Optimizing — Enabled ecosystem
+- 应用开发者提出他们的应用开发时间过长的问题。 一个核心的团队被指派任务，要将构建时间缩短50%。 他们通过将CI runner的大小和数量增加一倍来解决这个问题，因为他们离软件太远，无法单独改进应用构建。 这给他们的核心团队带来了预算上的担忧，因为生产力的提升无法直接与增加的基础设施成本进行量化对比。
 
-Platform teams find ways to increase organization-wide efficiency and effectiveness beyond basic capabilities. Core platform maintainers intentionally strive to optimize time-to-market for new products, reduce costs across the enterprise, enable efficient governance and compliance for new services, scale workloads quickly and easily, and other cross-cutting requirements. These core maintainers are focused on enabling capability specialists to seamlessly integrate their requirements and offerings into existing and new parts of platforms. Further, the organization focuses people and resources from specialist domains like security, performance, quality on engaging with provided platform frameworks to introduce advanced features that can enable product teams to accelerate their adherence to company goals without depending on a centralized team backlog.
+### 第三阶段，可扩展 — 作为产品
 
-#### Characteristics:
+对内部平台及其功能的投资类似于对企业外部产品和价值流的投资：这基于它们预期为客户提供的价值。 产品管理和用户经验得到明确考虑并投入使用。 收费制度可用于反映平台对客户本身直接价值流和产品的影响。 企业使用数据驱动的绩效指标和反馈循环，为适当的举措分配资金和员工。 平台团队最终可以优化业务本身，并有助于提高盈利能力。
 
-* It becomes a priority to enable specialists to extend platform capabilities and introduce new ones.
-* The organization can centralize specialists allowing their knowledge and support to be spread through platform capabilities.
+#### 特点
 
-#### Example Scenarios:
+- 平台团队配置的角色不仅限于传统的内部服务或技术团队，例如产品管理和用户体验。
 
-* Marketing works with platform builders to introduce consistent user tracking in order to attribute marketing efforts to product outcomes. 
-* Automation initiative reduces human time to provision databases by 30 minutes per instance, saving $10m/year.
+- 团队向组织内部公布路线图，指明提供的价值和高层次的功能目标。
+
+- 在设计、交付和部署后，功能都要经过实施质量和用户体验的测试。
+
+- 功能移除是讨论的关键部分，目标是拥有一套受到良好支持、使用频繁的能力，而不是一片可能无法维护的庞大领域。
+
+#### 示例场景：
+
+- 从平台使用度量表中得出的数据为决定将资金和工作人员分配给影响最大的举措提供了依据。
+
+### 第四阶段，优化-已启用的生态系统
+
+平台小组设法提高全组织超出基本能力的效率和效益。 核心平台维护者有意致力于优化新产品的上市时间，降低企业整体成本，实现新服务的高效治理和合规，快速且轻松地扩展工作负载，以及其他横向需求。 这些核心维护者专注于使专业能力方面的专家能够无缝地将他们的需求和产品整合到平台的现有和新部分中。 此外，本组织集中精力利用安全、业绩等专门领域的人员和资源。 通过参与提供的平台框架以引入高级功能，使产品团队能够在不依赖集中团队积压的情况下加速实现公司目标。
+
+#### 特点
+
+- 使专家能够扩大平台能力并引进新平台能力已成为一个优先任务。
+
+- 该组织可以集中专家，以便通过平台能力传播他们的知识和支持。
+
+#### 示例场景：
+
+- 市场营销团队与平台构建者合作，引入一致的用户追踪机制，以便将市场营销工作的成效归因于产品成果。
+
+- 自动化举措将数据库配置所需的人工时间每实例减少30分钟，从而每年节省1000万美元。
 
 {{< /tab >}}
 {{< tab tabName="Adoption" >}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
 
-Adoption describes not only how and how much an organization uses platform capabilities, but also what motivates them to do so. In the early stages, many target users may not realize they are using a platform at all, rather they see their tools as an ad hoc collection of capabilities from various internal sources. This may mature into a group of capabilities that is consistently managed and presented to users — that is, one or more platforms. As the capabilities become more refined and discoverable, it is common that the drive for platform use moves away from more external motivations like mandates or incentives. This leads to users self-selecting into platform capabilities and ideally even investing their own efforts into the wider platform ecosystem.
+采用不仅描述了一个组织使用平台功能的方式和程度，还描述了他们这样做的动机。 在早期阶段，许多目标用户可能根本没有意识到他们在使用一个平台。 相反，他们将他们的工具视为来自各种内部资源的功能的临时集合。 随着时间的推移，这可能会发展成为一组能力，并由一个或多个平台进行统一管理并呈现给用户。 随着功能的日益完善和可发现性的提高，平台的驱动力通常会从更多的外部动机（如授权或激励）中转移出来。 这导致用户自主选择平台功能，甚至在理想情况下将自己的精力投入到更广泛的平台生态系统中。
 
-<figure align="center">
-<img src="assets/adoption-curve.jpg" width=600px />
-<br/>
-<figcaption align="center" padding="50px">
-<em>A diagram to indicate a common growth pattern for platform adoption. This showcases the often slow start driven mainly by platform builders. Once platforms provide enough value to users, growth becomes more pulled by the users causing a steeper adoption curve.</em>
-</figcaption>
-</figure>
-</br>
-</br>
+### 第一阶段，临时-不稳定
 
-### Level 1, Provisional — Erratic
+对共享平台和功能的采用是不一致的。 在选择和整合所需的技术能力和支撑服务方面缺乏组织范围内的战略或指导思想。 个别团队可能会利用平台实践来改进自己的流程，但整个组织内没有协调或实现标准化。 这个阶段采用的特点是缺乏一致的方法论，认为外部工具比内部工具更有效。
 
-Adoption of shared platforms and capabilities is sporadic and inconsistent. No organization-wide strategy or guidance exists for choosing and integrating required backing services and technologies. Individual teams might leverage platform practices to improve their own processes, but there is no coordinated effort or standardization across the organization. This level of adoption is characterized by the absence of a coherent approach and the idea that external tools are more effective than those provided internally.
+#### 特征：
 
-#### Characteristics:
+- 由组织内不同团队或部门分别管理和使用一次性的工具、服务或能力。
 
-* One-off tools, services, and capabilities are managed by and consumed by various teams and departments in the organization.
-* Provider-managed (aka "cloud") services are adopted and used inconsistently and without standard practices and policies, as internal configurations are hard to find or use.
-* App and service teams discover tools and capabilities haphazardly, via rumors and chance conversations rather than through a more centralized process.
-* Coordination and reuse of components and capabilities is driven only by end users (application teams), if at all.
-* Product teams each maintain their own set of scripts or tools to deploy their applications.
+- 由于内部配置很难被找到或使用，供应商管理（又称“云”）服务的采用和使用前后不一致，没有标准做法和策略。
 
-#### Example Scenarios:
+- 应用程序和服务团队探索工具和功能的方式五花八门，都是通过传言和偶然的对话，而不是通过更集中的流程。
 
-* A banking service requires a database. A developer finds out from a friend on another team that they can request an AWS account and set up an RDS database. From another team they find a Terraform script to provision that database. For monitoring they use CloudWatch on an ad hoc basis; they copy secrets from the AWS console to an instance of Hashicorp Vault manually before running the Terraform script.
+- 即便组件和能力的协调和复用方式存在，也只能由最终用户（应用团队）来驱动。
 
-### Level 2, Operationalized — Extrinsic push
+- 每个产品团队各自维护一套脚本或工具来部署自己的应用程序。
 
-The organization recognizes the value of shared platforms and capabilities and strives to encourage and nurture them. Internal directives incentivize or even require use of shared platform services for some use cases. Some product teams use platform capabilities more than others; capabilities cover typical use cases in the organization but not unusual ones; and it is difficult to add those outliers to the common platform.
+#### 示例场景：
 
-User discovery of capabilities and how to use them is inconsistent; it is possible a user on a product team won't discover a supported capability unless directed there by a platform team.
+- 假设一个银行服务需要一个数据库。 一个开发者从另一个团队的朋友那里打听到他们可以通过请求创建一个AWS帐户并初始化一个RDS数据库实例。 从另一个团队那里他们打听到可以使用Terraform脚本来实现该需求。 为了使用CloudWatch来监控这个实例，在运行Terrafrom脚本之前，他们需要手动将AWS控制台中的密码复制到Hashicorp密码库中保存。
 
-#### Characteristics:
+### 第二阶段， 可操作化——外在驱动力
 
-* Some degree of external impetus leads to use of platform capabilities, for example:
-  * Incentives such as personal reviews
-  * Mandates such as requiring use for production releases or receiving funding
-* The utilization of platform capabilities is fragmented — users may take advantage of one capability but might not be aware of, or interested in adopting, others that are available.
-* Users have low motivation to learn how to use platform capabilities and rely heavily on collaboration with the providers through forums like office hours or help desk.
-* Platform users are encouraged to join informal communities of practice to share problems and solutions but attendance may be limited.
+组织认识到共享平台和能力的价值，并加以鼓励以实现不断演进和发展。 内部指令鼓励甚至要求在某些场景中使用共享平台服务 一些产品团队比其他团队更多使用平台功能；功能涵盖组织中的典型案例，但不包括特殊案例；很难将这些特殊情况添加到共享平台中。
 
-#### Example Scenarios:
+用户对能力的发现以及如何使用这些能力并不一致；除非由平台团队指导，否则产品团队的用户可能不会发现平台所支持的功能
 
-* An engineering organization decides on a standard deployment tool and instructs all teams to use it. New processes (communication of release notes, etc) are built around that standard. Teams are instructed to stop using other sorts of deployment scripts and use the common tool instead. This is difficult for some teams whose needs are not met by the new process but do not understand or are not allowed to extend it.
+#### 特征：
 
-### Level 3, Scalable — Intrinsic pull
+- 在一定程度上的外部驱动力导致平台能力的使用，例如：
 
-Users on product and service teams choose to use platforms and their capabilities because of the clear value they provide in reducing cognitive load on product teams while providing higher quality supporting services. Documentation and ergonomic interfaces enable product team users to quickly provision and use platform capabilities. Users choose internal platform implementations over alternatives such as developing the capability themselves or hiring a provider.
+  - 激励措施，如个人审查等
 
-#### Characteristics:
+  - 任务规定，如要求用于生产发布或接受赞助等
 
-* Platform adoption is self-sustaining –The primary driver for core adoption is not an external impetus or incentive which mandates users use platform offerings – rather it is the values of these platform offerings themselves which draws users to them.
-* After using and appreciating one or some platform capabilities, users seek out others and find the experience is similar across capabilities. There is an expectation that an individual capability is not isolated, rather it is one feature among a larger platform feature set.
-* Platform teams encourage the natural adoption of platforms by gathering user feedback, sharing roadmaps and maintaining open forums for conversation with users.
-* Application and product teams value platform capabilities enough to pay for them, e.g., via a chargeback system.
-* Users can share feedback and learn about upcoming features through open forums and shared roadmaps.
-* Self-serve portals, golden-path templates, and other documents enable rapid use.
+- 对平台功能的利用是分散的--用户可能会利用一种功能，但可能不知道或没有兴趣采用其他可用的功能。
 
-#### Example Scenarios:
+- 用户学习如何使用平台功能的积极性不高，在很大程度上依赖于在工作时间内通过服务台等渠道与供应商进行合作。
 
-* An application team previously had success requesting a new database. Their process was easy to understand and required almost no waiting time. In addition, key capabilities like backups and monitoring that allowed the team to progress their use all the way to production without issue were included. This experience meant that when the team later needed a queue, their first instinct was to check for an internal platform option. While they originally intended to use a specific queue technology, in the end, they chose to use the one offered internally since they knew how well integrated the solution would be for their organization.
+- 鼓励平台用户加入非正式实践社区，以分享问题和解决方案，但参加人数可能有限。
 
-### Level 4, Optimizing — Participatory
+#### 示例场景：
 
-Users from product teams further invest in platform capabilities by joining the ecosystem and contributing back to it. Some contributions improve and fix existing capabilities; others introduce new capabilities and features to address new use cases. Processes and services are defined and enable users to identify requirements and coordinate contributions amongst several product and platform teams. New capabilities are published via consistent interfaces and portals and with complete documentation and standard versioning.
+- 一个工程组织决定采用一种符合标准的部署工具，并推广所有团队使用这一工具。 新的流程（发布说明的沟通等）都是围绕该标准建立的。 各团队被要求停止使用其他类型的部署脚本，转而使用通用工具。 这对一些团队来说很困难，因为新流程无法满足他们的需求，但他们又不理解或不允许扩展新流程。
 
-#### Characteristics:
+### 第三阶段，可扩展性——内在拉力
 
-* Users in app/service teams are empowered to contribute fixes, features, and feedback for platform capabilities.
-* External projects and standards are strategically leveraged to reduce maintenance costs, accelerate new feature delivery, and use organization headcount most effectively.
-* New capabilities and enhancements are coordinated asynchronously through issue boards and pull requests. Documents and checklists enable self-driven development by contributors.
-* Developer advocates and internal ambassadors build and support an internal user community that extends platform ownership to app and service team contributors, too.
-* Use of platform capabilities is viewed as the best way of working at the organization by both leadership and individual contributors.
-* Platform engineers participate in product team planning to learn of requirements and suggest relevant existing capabilities.
+产品和服务团队的用户之所以选择使用平台及其功能，是因为它们在减轻产品团队的认知负担、提供更高质量的支持服务方面具有明显的价值。 文档和符合人体工程学的界面使产品团队用户能够快速配置和使用平台功能。 用户会选择内部平台实现，而不是自行开发功能或雇佣供应商。
 
-#### Example Scenarios:
+#### 特征：
 
-* A team wants an alternative backup plan. After proposing this as a general offering, it is deemed low priority due to minimal reuse. The proposing team chooses to integrate their solution into the platform framework and make it available to the organization. It is originally an alpha offering but once it meets all of the operational requirements can be promoted to a core platform capability.
+- 平台的采用是自我维持的 - 核心驱动力不是强制用户使用平台产品的外部动力或激励措施，而是这些平台本身的价值吸引用户使用它们。
+
+- 在使用并理解了一个或一些平台能力后，用户会寻找其他功能，并发现不同功能的体验是相似的。 人们期望某一项功能不是孤立的，而是一个较大的平台功能集中的一项功能。
+
+- 平台团队通过收集用户反馈、分享规划蓝图和维护与用户对话的开放论坛，鼓励平台的自然演进。
+
+- 应用和产品团队对平台功能的重视程度足以为其付费，例如通过付费系统。
+
+- 用户可以通过公开论坛和共享路线图分享反馈和了解即将到来的功能。
+
+- 自助服务门户、黄金路径模板和其他文档可以快速使用。
+
+#### 示例场景：
+
+- 一个应用程序团队之前曾成功申请过一个新数据库。 他们的流程简单易懂，几乎不需要等待时间。 此外，还包括备份和监控等关键功能，使该团队能够顺利地将其使用交付到生产阶段。 这种成功经历意味着，当团队后面需要一个消息队列时，他们的第一反应就是查看内部平台选项是否支持。 尽管他们最初打算使用特定的队列技术，但最终还是选择了使用内部提供的技术方案，因为他们知道该解决方案将如何很好地集成到他们的组织中。
+
+### 第四阶段 优化——参与
+
+产品团队的用户通过加入生态系统并为其做出贡献，进一步投身于平台功能发展。 有些贡献是对现有功能的改进和修复，有些则是为解决新的使用案例而引入新的功能和特性。 已定义的流程和服务使用户能够确定需求，并在多个产品和平台团队之间进行协调。 新的功能通过统一的界面和门户发布，并配有完整的文档和标准版本。
+
+#### 特征：
+
+- 应用/服务团队的用户有权为平台能力提供修复、功能和反馈。
+
+- 战略性地利用外部项目和标准，以降低维护成本，加快新功能的交付，并最有效地使用组织人员。
+
+- 新功能和增强功能通过Issues和PR进行协调。 文档和核对表使贡献者能够进行自我驱动的开发。
+
+- 开发人员倡导者和项目内部领头人建立和维护一个内部用户社区，将平台所有权扩展到应用程序和服务团队贡献者。
+
+- 领导层和个人贡献者都将使用平台功能视为在组织工作的最佳方式。
+
+- 平台工程师参与产品团队规划，了解需求并提出相关的现有功能建议。
+
+#### 示例场景：
+
+- 一个团队想要一个备份计划。 在将其作为一般提案提出后，由于复用程度极低，该方案被认为优先级较低。 提议团队选择将其解决方案集成到平台框架中，并提供给本组织使用。 该方案最初只是一个辅助方案，但一旦满足了所有业务要求，就可以提升为平台核心功能。
 
 {{< /tab >}}
 {{< tab tabName="Interfaces">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How do users interact with and consume platform capabilities?</i></h4>
 
-The interfaces provided by platforms affect how users interact with these platform offerings to provision, manage, and observe capabilities. Interfaces can include ticketing systems, project templates, and graphical portals as well as automatable APIs and command-line (CLI) tools.
+平台提供的接口会影响用户与这些平台进行配置、管理和观察的方式。 接口可以包括工单系统、项目模板、图形门户以及可自动API和命令行(CLI) 工具。
 
-Key characteristics of an interface include how discoverable and user-friendly it is during key user journeys like initial request, maintenance, or incident triage. Higher levels of maturity here reflect more integrated, consistent, automated, and supported interfaces.
+一个接口的关键特征包括在关键用户流程（如初始请求、维护或故障排除）中的可发现性和用户友好性。 较高的成熟程度反映了更加一体化、一致、自动化和支持的接口。
 
-### Level 1, Provisional — Custom processes
+### 第一阶段：临时--自定义程序
 
-A collection of varying processes exists to provision different capabilities and services, but the consistency of the interface is not considered. Custom tailor-made processes address the immediate needs of individuals or teams and are reliant on manual intervention even if the provider uses some automated implementation scripts.
+有一组不同的程序来提供不同的能力和服务，但没有考虑接口的一致性。 即使定制化程序提供者使用了一些自动化的执行脚本，定制程序能满足个人或团队的眼前需要，但是程序也需要人工干预。
 
-Knowledge of how to request these solutions is shared from person to person. The process for requesting a service lacks standardization and consistency. Provisioning and using a platform service likely requires deep support from the capability provider.
+对于如何获得这些程序问题的解决方案都是考人们口口相传 这些创建这些的自定义程序的过程缺少标准化和一致性。 配置和使用平台服务可能需要能力平台开发者的大力支持。
 
-Lack of central requirements and standards makes this level appropriate when the company has not yet identified and documented expectations. It can be particularly effective for teams at early stage companies or platform efforts. In these environments teams are provided the freedom to evolve processes and capabilities to their needs, allowing them to deliver more quickly and pay the price of standardization only when necessary later on.
+在公司尚未能明确记录程序未来需要做到什么程度的时候，这种缺少一致性要求和标准是可行的。 这种自定义程序对处于早期阶段的公司或平台工作中的团队是极其有效的。 在这些情况下，小组可以自由地根据自己的需要发展各种过程和能力。只有在必要时在做标准化， 以便能够更快地交付。
 
-#### Characteristics:
+#### 属性：
 
-* User interaction is not a key topic of discussion and rarely (if ever) are interactions tested during design and delivery of new capabilities.
-* Capabilities are mainly provided through manual requests, though providers may choose to automate some or all of the activities necessary to provision a user request.
-* Requests that are on the face “simple” become complex due to finding out the right process to follow
-* Sometimes a process appears to be sanctioned, but users run into issues when a different department or team gets involved
+- 用户互动不是讨论的一个关键主题，很少（如果有的话）在设计和交付新能力时对互动进行测试。
 
-#### Example Scenarios:
+- 能力主要是通过手工请求提供的，但平台开发者可能会选择将提供用户请求所需的部分或全部活动自动化。
 
-* An application team wants to performance test their new change. To do this, they want an isolated environment that contains enough test data to get an accurate performance read. The last time they had this request a former teammate was able to get access to an environment, but they have since moved on and no one knows how to recreate it. In the end, they are connected to an engineer on the infrastructure team who is able to provision them an environment in a few days.
-* A team in the exploratory phases of product development uses a bespoke process to provision a new cloud service without needing to validate their solution warrants further investment.
+- 表面上的“简单”请求变得复杂，是因为找出了遵循的正确过程
 
-### Level 2, Operationalized — Standard tooling
+- 有时候一个流程似乎是经过认可的，但是当不同的部门或团队介入时，用户会就遇到问题。
 
-Consistent, standard interfaces for provisioning and observing platforms and capabilities exist and meet broad needs. Users are able to identify what capabilities are available and are enabled to request capabilities that they require.
+#### 示例
 
-"Paved roads" or "golden paths", in the form of documentation and templates, are provided. These resources define how to provision and manage typical capabilities using compliant and tested patterns. While some users are able to use these solutions on their own, the solutions often still require deep domain expertise and therefore support from maintainers is still vital.
+- 一个应用程序团队想要测试他们的新更改。 要做到这一点，他们需要一个包含足够测试数据的孤立环境，以便获得准确的性能读取。 上次他们使用这个请求时，是一名前队员能够进入这个环境。 但是自从环境变化了之后，就没有人知道怎么创建这个请求了。 最后，他们与基础设施小组的一名工程师联系起来，后者能够在几天内为他们提供一个环境。
 
-#### Characteristics:
+- 在产品开发的探索阶段，一个团队使用定制流程来提供新的云服务，而无需验证他们的解决方案是否需要进一步投资
 
-* Technical solutions are built-in tools specific to their problem domain, not always tools familiar to the users.
-* There is investment in a common path; however, deviating from that path quickly uncovers few customization options as the focus was on building a single option.
-* Given standardization, informal internal groups are able to form and gather to share good practices and overcome shared problems.
-* There may be drift on capability implementation as teams take templates, customize them, and then cannot merge in changes from the centralized team.
+### 第二阶段：可操作性--标准工具化
 
-#### Example Scenarios:
+由于存在一致且标准的接口来提供和监控平台的功能，并这些接口满足了广泛的需求。 用户能够确定现有哪些能力，并能够要求具备所需能力。
 
-* A centralized team curates a library of Terraform modules, Kubernetes controllers, and CRDs for provisioning different types of infrastructure.
-* A shared location includes comprehensive documents about solutions across the organization.
+现在就有了通过文档和模板形式提供的所谓的”铺装路面“和“黄金路径”。 这些模板资源定义了如何使用合规且经过测试的模式来配置和管理型的功能。 虽然有些用户能够独自使用这些解决方案。 解决方案往往仍然需要深入的领域专业知识，因此平台开发者的支持仍然至关重要。
 
-### Level 3, Scalable — Self-service solutions
+#### 属性：
 
-Solutions are offered in a way that provides autonomy to users and requires little support from maintainers. The organization encourages and enables solutions to provide consistent interfaces that enable discoverability and portability of user experience from one capability to another. While self-service, the solutions do require team awareness and implementation. In order to improve this experience there may be a guided and simplified internal language which enables users to adopt and integrate platform capabilities more quickly. This generates a user-centric, self-serviceable, and consistent collection of capabilities.
+- 技术解决方案是专门针对其问题领域内的工具，并非总是用户熟悉的工具。
 
-#### Characteristics:
+- 在公共路径上进行了投资，但是一旦偏离这条路径，很快就会发现定制选项很少，因为重点是构建单一选项。
 
-* Solutions are provided as “one-click” implementations, enabling teams to benefit from a capability without needing to understand how they are provisioned.
-* While the solutions are easy to create, there may not be as much usability built into the day 2 and beyond management of the solution.
-* There continues to be a narrow path of available solutions, leaving users with unique requirements unsure how to proceed.
+- 由于标准化，非正式内部小组能够组织聚集在一起，团队内可以交流良好做法，克服共同的问题。
 
-#### Example Scenarios:
+- 在团队采用模板、进行定制化后，可能会出现实施的偏离，并且无法将来自核心团队的更改合并进来。
 
-* An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
+#### 示例
 
-### Level 4, Optimizing — Managed services
+- 一个核心小组管理一个Terraform单元库、Kubernetes控制器和CD，以便提供不同类型的基础设施。
 
-Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks. These building blocks are used to build transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
+- 一个包括关于整个组织解决办法的共享目录。
 
-#### Characteristics:
+### 第三阶段：自适应--自定义解决方案
 
-* It is clear what capabilities are differentiating for the organization and which are not, allowing the internal teams to invest in custom solutions only where they can not leverage industry standards.
-* While capabilities are surfaced in a consistent way, there is no one way to use a capability. Some are best suited as CLI tools for use in scripts whereas others benefit from integration into where the user is writing code in their editors and IDEs.
-* The value of individual capabilities is extended with a focus on the flow of both software development and release, leading to a focus on how to combine capabilities into higher level offerings.
-* While capabilities are often provided in packages, super users are enabled to decompose these higher level offerings in order to optimize when and where they need to.
+提供解决办法的方式为用户提供自主权，几乎不需要维护者的支助。 组织鼓励并支持解决方案提供一致的接口，以实现用户体验在不同能力之间的可发现性和可移植性。 虽然是自定义解决方案，但是这仍需要团队的能有对应的认知和实现 为了快速提升这些经验，在组织内部可能有指导性和简化的内部语言，使用户能够更快地适应和整合平台能力。 这样的平台将产生以用户为中心、可自定义和一致的能力。
 
-#### Example Scenarios:
+#### 属性：
 
-* Observability agents are injected into every workload and an OIDC proxy is placed in front of all applications.
-* By default every new project receives a space in a task runner (pipelines) and a runtime environment (K8s namespace), however a project can opt into other options such as serverless runtime.
-* From a catalog in a Service Now portal a user selects "Provision a Database." Automation provisions an RDS database and sends a URL and location to get credentials to the user.
+- 提供的解决办法是“一键式”的实施方案，使团队能够从平台的能力中受益，而不必了解如何这些能力是如何实现的。
+
+- 尽管解决方案的创建过程可能相对容易，但在解决方案的日常管理和后续阶段可能没有充分考虑可用性的建设。
+
+- 用户在面临独特需求时可能会感到困惑，因为可用的解决方案仍然相对有限。
+
+#### 示例
+
+- 提供一个 API 来提取数据库的创建和维护，并为用户提供它们所需要的任何信息，以利用平台能力，例如连接字符串， 保密数据的位置和带有观察能力数据的仪表盘。
+
+### 第四阶段：优化--可管理的服务
+
+团队已经毫无阻力的降平台能力集成到了日常的流程与工具中。 有些能力是自动提供的，例如部署服务的观察能力或身份管理能力。 由于平台的模块化构建方式，当团队在遇到超出平台能力的情况的时候，可以根据自己的需求进行定制，而不需要脱离内部提供的服务 这些构建模块被用来构建透明自动组件，以满足更高级别的用例，同时在必要时实现更深层次的定制化
+
+#### 属性：
+
+- 清楚地了解哪些能力是组织的差异化能力，哪些能力不是，使得内部团队能够在无法利用行业标准的地方专注于定制解决方案的投资。
+
+- 虽然能力以一致的方式呈现出来，但并没有一种固定的使用方式。 有些工具最适合作为CLI工具用于脚本，而另一些工具则更适合用户在编辑器和IDE中。
+
+- 通过关注软件开发和发布的流程，将个别能力的价值扩展，从而将重点放在如何将能力组合成更高级别的产品或服务上。
+
+- 虽然能力往往以一揽子方式提供， 但是超级用户能够按需提供能力，以便能在需要的时候优化。
+
+#### 示例
+
+- 每个工作负荷都注入了可观察的agent，并将一个可观察的代理置于所有应用程序的前面。
+
+- 默认情况下，每个新项目都会在任务运行器（pipelines）中获得一个空间和一个运行时环境（K8s命名空间）。然而，项目可以选择其他选项，如无服务器运行时。
+
+- 从现在的服务门户中的目录，用户选择"提供数据库"。 自动化提供了一个RDS数据库，并且发送一个 URL 和地址给用户获取账号密码。
 
 {{< /tab >}}
 {{< tab tabName="Operations">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
 
-Operation of platforms means running and supporting its capabilities and their features over their whole lifetime, including acceptance of new requests, initial releases, upgrades and extensions, ongoing maintenance and operations, user support, and even deprecation and termination. Organizations and their platform teams choose platforms and capabilities to create and maintain and can prioritize the most valuable and impactful initiatives.
+平台的运营意味着在其整个生命周期内运行和支持其功能及其特性，包括接受新请求、初始发布、升级和扩展、持续维护和运营、用户支持，甚至废弃和终止。 组织及其平台团队选择要创建和维护的平台和能力，并可以优先考虑最有价值和最有影响力的项目。
 
-Notably, most of the work to provide a capability is expended after its initial release — in providing seamless upgrades, new and improved features, operational support, and end-user enablement and education. Therefore an impactful, valuable platform will plan in advance and manage their platform for long-term sustainable operations and reliability.
+值得注意的是，提供功能的大部分工作都是在其最初发布后进行的——包括提供无缝升级、新功能和改进功能、运营支持以及用户的启用和培训。 因此，一个有影响力、有价值的平台将提前计划并管理他们的平台，以实现长期可持续运营和可靠性。
 
-### Level 1, Provisional — By request
+### 第一阶段，临时-不稳定
 
-Platforms and capabilities are developed, published, and updated reactively, based on ad hoc product team requests and requirements. Product teams themselves may even need to plan and build the capabilities they require.
+平台和能力是根据临时的产品团队请求和需求进行反应性开发、发布和更新的。 产品团队甚至可能需要规划和构建他们所需的能力。
 
-Teams who build a new capability, whether dedicated centralized teams or application teams meeting their own needs, take only informal responsibility for supporting others using it. They are not expected to actively maintain it and few processes exist to vet the quality of the offering. In this level, implementations are often ignored until a security vulnerability is discovered, a bug prevents use, or a new requirement arrives, at which point another reactive plan may be quickly implemented.
+那些构建新能力的团队，无论是专门的集中团队还是满足自身需求的应用团队，只对支持其他人使用该能力承担非正式的责任。 他们不需要积极维护它，并且很少有流程用于评估该能力的质量。 在这个级别上，实施通常被忽视，直到发现安全漏洞、错误阻止使用或出现新需求时，才会迅速实施另一个反应性计划。
 
-#### Characteristics:
+#### 特征：
 
-* Capabilities are created to meet the pressing needs of individual application teams.
-* Focus is on initial delivery of core capabilities; plans are not made for ongoing maintenance and sustainability.
-* Capability implementations are generally out of date and awaiting updates.
-* Sudden spikes of work are introduced for late-breaking high-impact changes to capabilities, such as discovery of a vulnerability.
-* Changes can result in both planned and unplanned downtime.
-* Each upgrade is done in a bespoke way, requiring time and research to devise a process on each upgrade.
+- 为满足各个应用团队的紧迫需求而创建的
 
-#### Example Scenarios:
+- 重点是初步提供核心能力；没有为持续的维持和可持续性制定计划。
 
-* Log4Shell security vulnerability is announced and the organization spins up a specialty team to investigate where the organization may be vulnerable and instigate patches. Once the team identifies the impact, they must work hand in hand with a number of different teams since each one manages their servers and upgrade processes differently. Even when this work is deemed complete, the confidence level is fairly low that there won’t be more instances uncovered.
+- 能力实施通常已经过时，等待更新。
 
-### Level 2, Operationalized — Centrally tracked
+- 突发性的工作量增加是为了应对对能力的重大变化，例如发现了漏洞。
 
-Platforms and capabilities are centrally documented and discoverable, and processes for planning and managing the lifecycle of capabilities is at least lightly defined. Responsibility and ownership is documented for each service and function. Lifecycle management processes vary for different capabilities depending on their owners and their priorities. A centralized team maintains, or is able to on demand generate, an inventory of backlog capabilities to provide the state of maintenance for current capabilities. This allows the organization to track progress towards capability offering and compliance with upgrade requirements.
+- 变化可能导致计划内和计划外的停用。
 
-#### Characteristics:
+- 每次升级都以定制方式进行，需要时间和研究来设计每次升级的流程。
+  示例剧情：
 
-* Application teams create new capabilities as needed to meet pressing needs.
-* A central team provides a register of available shared services across the organization.
-* Loose standards, such as requiring an automatable API and usage docs, are applied to capabilities.
-* Infrastructure as Code is used to allow easier traceability of deployed services.
-* Audits for compliance regulations such as PCI DSS or HIPPA are enabled through the service inventories.
-* Migration and upgrade work is tracked against a burndown chart enabling the organization to track rate of compliance and time until completion.
-* Tracking does not indicate level of support; often upgrades at this stage are still manual and bespoke.
+#### 示例场景：
 
-#### Example Scenarios:
+- 发布了Log4Shell安全漏洞，该组织成立了一个专门的团队来调查组织可能存在脆弱性并进行修补。 一旦团队确定影响范围，他们必须与多个不同的团队紧密合作，因为每个团队都以不同的方式管理其服务器和升级流程。 即使完成了此项工作，对于不会出现更多的漏洞实例，信心水平仍然相当低。
 
-* PostgreSQL 11 is going EOL by the end of the year. The organization is aware of which databases require upgrade and are scheduling the work on each team’s backlog to complete.
+### 第二阶段，运营化 — 专职团队
 
-### Level 3, Scalable — Centrally enabled 
+平台和能力的信息都有集中的文档记录和可查找性，并且规划和管理能力生命周期的流程至少有轻微的定义。 每个服务和功能的责任和所有权都有文档记录。 针对不同的能力，生命周期管理流程会因其所有者和优先级而有所不同。 一个集中的团队负责维护现有能力的待办事项清单，或者可以根据需求生成待办事项清单，以提供当前能力的维护状态。 这使得组织可以追踪能力提供和升级要求的合规性的进展情况。
 
-Platforms and capabilities are not only centrally registered but also centrally orchestrated. Platform teams take responsibility for understanding the broad needs of the organization and prioritize work across platform and infrastructure teams accordingly. Those responsible for a capability are expected to not only maintain it technically, but also provide standard user experiences for integrating the capability with other related services around the organization, ensure secure and reliable use, and even provide observability.
+#### 特征：
 
-Standard processes for creating and evolving new capabilities exist, enabling anyone in the organization to contribute a solution that meets expectations. Continuous delivery processes for platform capabilities and features enable regular rollout and rollback. Large changes are planned and coordinated as they would be for customer-facing product changes.
+- 应用小组根据需要建立新的能力，以满足迫切的需要。
 
-#### Characteristics:
+- 一个中央小组负责登记整个组织现有的共享服务。
 
-* Application teams request services from platform teams first before creating them.
-* New services must adhere to standard practices such as standard interfaces, documentation, and governance.
-* Upgrade processes are documented and consistent across versions and services.
-* Where the capability provider does not manage an upgrade, they provide tooling and support to the users for minimal impact.
+- 对于功能，采用宽松的标准，例如要求具备可自动化的API和使用文档。
 
-#### Example Scenarios:
+- 基础设施即代码（Infrastructure as Code）的目的是为了实现更轻松地追踪部署的服务。
 
-* The organization is going to upgrade to RHEL 9. In doing so, each application team needs to validate that their software continues to work. In order to enable this testing phase the centralized compute team is setting up test environments for each team with the correct software and OS versions.
+- 符合PCI DSS或HIPPA等合规性法规的审计是通过服务清单来实现的。
 
-### Level 4, Optimizing — Managed services
+- 迁移和升级工作是根据火焰图进行跟踪，使组织能够跟踪合规率和完成时间。
 
-The lifecycle of each capability is managed in a standardized, automated way. Capabilities, features and updates are delivered continuously with no impact on users. Any large changes instigated by platform providers include migration plans for existing users with defined responsibilities and timelines.
+- 跟踪不表示支持水平；通常在此阶段升级仍然是手动的，定制化的。
 
-Platform capability providers take on the brunt of responsibility for maintenance, but there is a clear contract — a "shared responsibility model" — describing the responsibilities of users, enabling both sides to operate mostly autonomously.
+#### 示例场景：
 
-#### Characteristics:
+- PostgreSQL 11将于年底结束生命周期。 组织已经意识到哪些数据库需要升级，并正在安排每个团队的工作，以完成升级。
 
-* A shared ownership model clearly defines who is responsible for platforms and their capabilities and what is expected of users. 
-* Teams script both the execution of the upgrade and any rollback strategies to keep risk and impact low.
+### 第三阶段 可扩展-集中启用
 
-#### Example Scenarios:
+平台和能力不仅是集中注册的，而且也是集中协调的。 平台小组负责了解本组织的广泛需要，并相应地确定平台和基础设施小组的工作优先次序。 负责某项能力的人不仅需要在技术上对其进行维护，还需为能力与组织中的其他相关服务进行标准用户体验的整合，确保安全稳定的使用，并提供可观测性。
 
-* The users of virtual machines are not required to manage anything to do with version upgrades. Their only requirement is to have a stage in their delivery pipeline that contains a representative smoke test. They are then asked to declare their application as having lower risk tolerance so as to wait for a fully hardened upgrade or higher tolerance to become an early adopter. The virtual machine capability then manages the automated release of upgrades including rollbacks after either smoke test or canary release failures.
+建立和发展新能力的标准进程已经存在，使本组织的任何人都能够提出符合预期的解决办法。 平台能力和功能的持续交付流程使得能够正常推出和回滚。 计划和协调大规模的变革，因为它们将用于客户面对的产品变化。
+
+#### 特性：
+
+- 应用团队在创建服务之前会先向平台团队请求服务。
+
+- 新的服务必须遵循标准接口、文件和治理等标准做法。
+
+- 升级流程已在各个版本和服务中记录并保持一致。
+
+- 如果提供者没有管理升级，他们将为用户提供工具和支持，使其达到最小影响。
+
+#### 示例场景:
+
+- 该组织将升级到RHEL 9。 在这样做的过程中，每个应用程序团队都需要验证他们的软件是否继续正常运行。 为了实现这一测试阶段，中心计算团队为每个团队建立了正确的软件和操作系统版本的测试环境。
+
+### 第四阶段：优化--可管理的服务
+
+每个能力的生命周期都以标准化、自动化的方式进行管理。 功能、特点和更新将持续不断地提供，不会对用户造成任何影响。 由平台提供商发起的任何大规模变化都包括对现有用户的迁移计划，其中包括明确的责任和时间表。
+
+平台能力提供商肩负起大部分维护责任，但存在着一个明确的合同——“共同责任模型”，该模型描述了用户的责任，并使双方能够基本上独立运作。
+
+#### 特性
+
+- 共同所有权模型清楚地定义了平台及其功能的责任人是谁，以及对用户有什么期望。
+
+- 团队脚本同时执行升级和任何回滚策略，以降低风险和影响。
+
+#### 示例场景：
+
+- 虚拟机的用户不需要管理与版本升级有关的任何事情。 他们唯一的要求是在交付流程中包含一个具有代表性的冒烟测试阶段。 然后，他们被要求将他们的应用程序声明为具有较低的风险承受能力，以等待一个完全稳定的升级或更高的承受能力来成为早期采用者。 虚拟机功能随后负责自动发布升级版本的管理，包括在烟雾测试或金丝雀发布失败后执行回滚操作。
 
 {{< /tab >}}
 {{< tab tabName="Measurement">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
 
-By reacting to explicit and implicit feedback from users, organizations can increase user satisfaction and ensure long-term platform sustainability. Organizations must balance innovation and meeting user demands to keep platform relevance. As technology and user preferences change, platforms that are agile and responsive to these changes will stand out. Regularly revisiting and refining the feedback mechanism can further optimize platform development and improve user engagement.
+通过对用户的明确和隐式反馈做出反应，组织可以提高用户满意度并确保长期的平台可持续发展。 组织必须在创新和满足用户需求之间取得平衡，以保持平台的相关性。 随着科技和用户偏好的改变，能够灵活而及时响应这些变化的平台将脱颖而出。 定期重新审视和完善反馈机制，可进一步优化平台开发，改善用户参与。
 
-### Level 1, Provisional — Ad hoc
+### 第一阶段，临时-不稳定
 
-Usage and satisfaction metrics are gathered in custom ways, if at all, for each platform and capability. Outcomes and measures of success are not consistently aligned across capabilities, and therefore corresponding insights are not gathered. User feedback and instrumentation of platform use may not be gathered, or if it is, it will be informal. Decisions are made based on anecdotal requirements and incomplete data.
+对于每个平台和功能，使用情况和满意度指标都是以自定义方式收集的（如果有的话）。 不同能力的结果和成功衡量标准并不一致，因此没有收集相应的见解。 可能不会收集用户反馈和平台使用情况，即使收集了，也将是非正式的。 决策是根据轶事要求和不完整的数据做出的。
 
-#### Characteristics:
+#### 特征：
 
-* No experience or opinions about how to measure success of platforms
-* Use familiar tools to gather common metrics with limited intent and forethought
-* Reliance on small amounts of data
-* Difficult to secure user participation — users believe their feedback isn't considered
-* If surveys are used, the questions change between runs, negating the ability to track progress
+- 对于如何衡量平台的成功没有经验或意见
 
-#### Example Scenarios:
+- 使用熟悉的工具收集具有有限意图和远见的公共指标
 
-* A platform tech lead wants to improve the collaboration with users by adding key topics to their next quarterly planning. They decide to run a survey on what users would like to see. The response is overwhelming, which is exciting, but also results in a difficulty organizing and responding to all of the ideas. While some ideas influence the quarterly planning, the users do not see their ideas as being accepted and are less inclined to reply to the next survey.
-* The team wants to capture more data automatically, so they look for opportunities for easy collection such as test failures in CI. However, not every team uses the same CI automation so the data is only available for Java applications even though some teams have moved on to writing their services in Scala.
+- 依赖少量数据
 
-### Level 2, Operationalized — Consistent collection
+- 难以确保用户参与——用户认为他们的反馈没有得到考虑
 
-Organizations at this level have an intentional goal to verify platform products meet the needs of their market of internal users. Actionable, structured collection of user feedback is valued. Dedicated teams or individuals might be assigned to gather feedback, ensuring a more consistent approach. Feedback channels, such as surveys or user forums, are standardized, and feedback is categorized and prioritized. Beyond user feedback, there is also an expectation that user experiences are instrumented to generate usage data over time.
+- 如果使用调查，问题会在运行之间发生变化，从而无法跟踪进度
 
-Challenges remain in translating feedback into actionable tasks. While there is a growing repository of user data, the organization might need help effectively understanding and integrating this feedback into a platform roadmap. It may be hard to ensure that users see tangible changes driven by their feedback.
+#### 示例场景：
 
-#### Characteristics:
+- 平台技术负责人希望通过在下一个季度计划中添加关键主题来改善与用户的协作。 他们决定对用户希望看到的内容进行调查。 反应是压倒性的，这令人兴奋，但也导致难以组织和回应所有想法。 虽然某些想法会影响季度计划，但用户并不认为他们的想法被接受，并且不太愿意回复下一次调查。
 
-* Data collection is discussed as part of most major planning sessions or capability implementations.
-* There may not be alignment on exactly what to measure to verify success.
-* Platform features can be measured for success, such as by measuring user adoption or user time saved.
+- 该团队希望自动捕获更多数据，因此他们寻找轻松收集的机会，例如 CI 中的测试失败。 然而，并非每个团队都使用相同的 CI 自动化，因此数据仅适用于 Java 应用程序，尽管有些团队已开始使用 Scala 编写服务。
 
-#### Example Scenarios:
+### 第二阶段 可操作化——一致的收集
 
-* A platform team allocates 20% of their time to user defined features, which they identify based on surveys and other interview techniques. Their findings are collected into a tool that enables additional voting and commenting to further refine priorities. During implementation the requesting users are approached for collaboration on early designs and implementations. Once implemented, there are announcements which make sure requesting users are aware of new features and supported in adopting them.
-* The team focused on software delivery capabilities wants to capture more data automatically including cycle time which they automate through the build tool from commit to production. There is an understanding that cycle time can include other activities like PR review, but that isn’t included at this time.
+此级别的组织有一个有意的目标，即验证平台产品是否满足其内部用户市场的需求。 可操作的、结构化的用户反馈收集受到重视。 可能会指派专门的团队或个人来收集反馈，以确保采取更加一致的方法。 反馈渠道（例如调查或用户论坛）是标准化的，并且反馈是分类和优先级的。 除了用户反馈之外，还期望用户体验能够随着时间的推移生成使用数据。
 
-### Level 3, Scalable — Insights
+将反馈转化为可操作的任务仍然面临挑战。 尽管用户数据存储库不断增长，但组织可能需要帮助有效地理解这些反馈并将其集成到平台路线图中。 可能很难确保用户看到由他们的反馈驱动的切实变化。
 
-While robust, standard feedback mechanisms already exist, at this stage data is collected in crafted ways to yield specific strategic insights and actions. Desired results and outcomes are identified followed by standard metrics chosen to indicate progress towards those outcomes. Industry frameworks and standards may be used to benefit from industry research on the impact of certain behaviors.
+#### 特征：
 
-Dedicated teams or tools are employed to gather and review feedback and summarize actionable insights. A symbiotic relationship between platform products and their users is established. Feedback is considered a strategic asset that guides platform operations and roadmap. Regular feedback review sessions might be instituted, where cross-functional teams come together to discuss and strategize based on user insights. 
+- 数据收集作为大多数主要规划会议或功能实施的一部分进行讨论。
 
-#### Characteristics:
+- 对于验证成功的具体衡量标准可能并不一致。
 
-* Before delivering any new platform feature, the team discusses how to evaluate the outcome from their work.
-* The organization has broad alignment on measures that indicate success of platform initiatives.
-* A [product manager]({{< ref "/wgs/platforms/glossary#platform-product-managers" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
-* The organization has established metrics and goals to observe and target to indicate success.
+- 可以衡量平台功能是否成功，例如通过衡量用户采用率或节省的用户时间。
 
-#### Example Scenarios:
+#### 示例场景：
 
-* The organization has consistently tracked build times and lead time. However, now they realize that while easy to collect, these alone do not give a complete picture of software delivery. With this in mind, the team implements measurement for service reliability and stability.
+- 平台团队将 20% 的时间分配给用户定义的功能，这些功能是他们根据调查和其他访谈技术确定的。 他们的发现被收集到一个工具中，该工具可以进行额外的投票和评论，以进一步完善优先事项。 在实施过程中，我们会联系提出请求的用户，以就早期设计和实施进行协作。 一旦实施，就会发布公告，确保请求用户了解新功能并支持采用它们。
 
-### Level 4, Optimizing — Quantitative and qualitative
+- 专注于软件交付功能的团队希望自动捕获更多数据，包括他们通过构建工具自动化从提交到生产的周期时间。 有一种理解是，周期时间可以包括其他活动，如审阅，但目前尚未包括在内。
 
-Feedback and measurements are deeply integrated into the organization's culture. The entire organization, from top-level executives to engineers organization-wide, recognizes the value of data collection and feedback on product evolution. There is a democratization of data, where various stakeholders, including platform users and business leaders, are actively involved in identifying hypotheses for platform improvements, providing feedback during the design process, and then measuring the impact post delivery. All of these measurements are considered when planning platform initiatives.
+### 第三阶段，可扩展性——内在拉力
 
-Not only are standard frameworks leveraged, but there is an understanding that measuring from multiple angles creates a more holistic picture. There is an investment in understanding how qualitative measures change as quantitative ones are improved. There is a focus on identifying leading measures which can allow anticipation of features that would support user needs, alleviate their challenges, and stay ahead of industry trends and business requirements.
+虽然已经存在强大的标准反馈机制，但在此阶段，数据是通过精心设计的方式收集的，以产生具体的战略见解和行动。 确定期望的结果和结果，然后选择标准指标来表明实现这些结果的进展 行业框架和标准可用于从对某些行为影响的行业研究中受益。
 
-#### Characteristics:
+采用专门的团队或工具来收集和审查反馈并总结可行的见解。 平台产品与其用户建立了共生关系。 反馈被视为指导平台运作和路线图的战略资产。 可以定期举办反馈审查会议，让跨职能小组聚集一堂，根据用户的见解进行讨论和制定战略。
 
-* Platform teams continuously seek ways to improve the metrics they watch and the way they gather data.
-* The organization is familiar with and sensitive to [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law): "When a measure becomes a target, it ceases to be a good measure."
-* Metrics and telemetry gathered is continuously evaluated for true insight and value.
-* Metric data management is well supported, such as standard platform capabilities to manage data lakes and derive insights.
-* Cross-departmental collaboration is encouraged to avoid data silos and enable effective feedback cycles.
+#### 特征：
 
-#### Example Scenarios:
+- 在提供任何新的平台功能之前，该小组讨论如何评价其工作成果。
 
-* Over time the organization has collected data indicating a rise in build time of over 15%. This triggers negative developer experiences and once triggered, even if the build time is reduced below the original time, developers stay frustrated for longer. This insight drives the build team to set and adhere to a Service Level Objective (SLO), which enables early identification and improvement before instigating the negative cycle with their users.
+- 该组织在表明平台计划成功的衡量标准上有着广泛的一致性。
+
+- \[产品管理员]\({{{< ref "/wgs/platforms/glossary#platform-product-managers" >}}})或专职团队成员推动持续和一致的反馈收集和分析进程。
+
+- 该组织制定了衡量尺度和目标，以观察和确定目标来表明成功。
+
+#### 示例场景：
+
+- 本组织一直在追踪构建时间和周转时间。 然而，他们现在认识到，虽然很容易收集，但仅仅收集这些数据并不能全面反映软件的交付情况。 考虑到这一点，该小组对服务的可靠性和稳定性进行衡量。
+
+### 第四阶段 优化 — 定量和定性
+
+反馈和计量已深入融入本组织的文化。 整个组织从高层行政人员到整个工程师组织都认识到收集数据和对产品演变反馈的价值。 数据实现了民主化，其中包括平台用户和企业领袖。 积极参与确定平台改进的假设，在设计过程中提供反馈，然后衡量影响后的交付情况。 在规划平台举措时将考虑到所有这些衡量标准。
+
+不仅标准框架得到了利用，而且人们认识到，从多个角度进行衡量可以产生一种更全面的情况。 需要投入精力了解定性指标如何随着定量指标的改进而变化。 重点是确定领先的措施，这些措施可以预测支持用户需求、减轻他们的挑战并领先于行业趋势和业务需求的功能。
+
+#### 特征：
+
+- 平台小组不断设法改进他们观察的衡量标准及其收集数据的方式。
+
+- 该组织熟悉[Goodhart的法律](https://en.wikipedia.org/wiki/Goodhart%27s_law)并对其敏感：“当一项措施成为目标时，它不再是一个良好的衡量标准。”
+
+- 对收集到的计量和遥测量不断进行评价，以了解真实情况和价值。
+
+- 指标数据管理得到良好支持，例如用于管理数据湖和获取见解的标准平台功能。
+
+- 鼓励跨部门协作，以避免数据收集系统，并能够建立有效的反馈周期。
+
+#### 示例场景：
+
+- 随着时间的推移，该组织收集的数据表明，构建时间增加了15%以上。 这会引发负面的开发者体验，一旦触发，即使构建时间缩短到原始时间以下，开发者仍然感到沮丧。 这种洞察力促使构建团队设置和遵守服务级别目标 (SLO)，这使得能够在引发与其成员的负循环之前尽早识别和改进。
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -498,4 +569,4 @@ Not only are standard frameworks leveraged, but there is an understanding that m
 ---
 ## 结语
 
-Platforms and their maintainers provide a foundation for agile digital product development. They provide a consistent collection of capabilities that enable efficient software development and delivery. This maturity model provides a map for your platform engineering journey.
+平台及其维护者为灵活的数字产品开发提供了基础。 他们提供了一套一致的能力，以便于能够有效的开发和交付软件。 这个成熟模型为您的平台工程旅程提供了一张地图。
