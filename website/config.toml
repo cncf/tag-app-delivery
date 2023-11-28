@@ -60,6 +60,13 @@ languageName = "中文(Chinese)"
 contentDir = "content/zh"
 weight = 2
 
+[languages.ko]
+title = "CNCF TAG 앱 제공"
+decscription = "TAG App Delivery는 구축, 배포, 관리 및 운영을 포함하여 클라우드 네이티브 애플리케이션 제공과 관련된 프로젝트 및 계획을 활성화하는 데 중점을 둡니다."
+languageName = "한국어(Korean)"
+contentDir = "content/ko"
+weight = 3
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
