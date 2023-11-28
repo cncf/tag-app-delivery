@@ -4,6 +4,7 @@ pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/a
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
 description: "This paper intends to support enterprise leaders, enterprise architects and platform team leaders to advocate for, investigate and plan internal platforms for cloud computing. We believe platforms significantly impact enterprises' actual value streams, but only indirectly, so leadership consensus and support is vital to the long-term sustainability and success of platform teams. In this paper we'll enable that support by discussing what the value of platforms is, how to measure it, and how to implement platform teams that maximize it."
 type: whitepapers
+url: /whitepapers/platforms
 ---
 
 ## 소개
@@ -257,7 +258,7 @@ manage the web page and an API, but not the actual service implementation.
 Platform teams should usually consider creating and maintaining their own
 capabilities only when a required capability is not available elsewhere.
 
-## 플랫폼 도전 과제
+## 플랫폼의 당면 과제
 
 While platforms promise lots of value, they also bring challenges like the
 following which implementers should keep in mind.
@@ -383,7 +384,7 @@ implement and enforce desired practices for security, performance, cost
 governance and consistent experience. The following graphic illustrates the
 relationships between products, platforms, and capability providers.
 
-<img src="assets/platform_components.png" width=600px />
+<img src="assets/platforms-def.drawio.png" width=600px />
 
 We've focused in this paper on how to construct a good platform and platform
 team; now in this last section we'll describe the capabilities a platform may
