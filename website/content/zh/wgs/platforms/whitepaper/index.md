@@ -87,7 +87,7 @@ clouds and service providers for foundational but undifferentiated capabilities
 such as databases, identity access, infrastructure operations, and app
 lifecycle.
 
-## 平台是什么
+## 平台是什么？
 
 A platform for cloud-native computing is an integrated collection of
 capabilities defined and presented according to the needs of the platform's
@@ -372,7 +372,7 @@ other IT capabilities with an enterprise's value streams - its products. And so
 ultimately the success of an organization's products and applications are the
 true measure of the success of a platform.
 
-## 平台的功能
+## 平台能力
 
 As we've described, a platform for cloud-native computing offers and composes
 capabilities and services from many supporting providers. These providers may be
@@ -383,7 +383,7 @@ implement and enforce desired practices for security, performance, cost
 governance and consistent experience. The following graphic illustrates the
 relationships between products, platforms, and capability providers.
 
-<img src="assets/platform_components.png" width=600px />
+<img src="assets/platforms-def.drawio.png" width=600px />
 
 We've focused in this paper on how to construct a good platform and platform
 team; now in this last section we'll describe the capabilities a platform may
