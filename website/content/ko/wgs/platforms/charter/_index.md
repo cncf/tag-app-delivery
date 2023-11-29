@@ -1,5 +1,5 @@
 ---
-title: 플랫폼 작업 그룹 헌장
+title: 플랫폼 작업 그룹(WG) 운영 규칙(charter)
 description: The charter describes the mission and tactics of the Platforms working group (WG)
 ---
 

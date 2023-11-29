@@ -1,5 +1,5 @@
 ---
-title: 플랫폼 작업 그룹
+title: 플랫폼 작업 그룹(WG)
 list_pages: true
 ---
 # 플랫폼 작업 그룹(WG)
@@ -9,7 +9,7 @@ To participate join us on Slack at
 [#platforms-wg](https://cloud-native.slack.com/archives/C020RHD43BP)
 or the meetings described below.
 
-## 의장들
+## 의장들(Chairs)
 
 * Josh Gavant (@joshgav)
 * Roberth Strand (@roberthstrand)

@@ -1,5 +1,5 @@
 ---
-title: 오퍼레이터 작업 그룹
+title: 오퍼레이터 작업 그룹(WG)
 list_pages: true
 inactive: true
 ---

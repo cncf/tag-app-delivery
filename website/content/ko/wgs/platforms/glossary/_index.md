@@ -1,6 +1,6 @@
 ---
 title: 용어집
-description: "플랫폼 작업 그룹에서 출판한 논문에서 사용된 용어 모음입니다."
+description: "플랫폼 작업 그룹(WG)에서 출판한 논문에서 사용된 용어 모음"
 ---
 
 See also <https://glossary.cncf.io/>.

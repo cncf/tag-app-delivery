@@ -1,5 +1,5 @@
 ---
-title: 오퍼레이터 작업 그룹 헌장
+title: 오퍼레이터 작업 그룹(WG) 운영 규칙(charter)
 description: The charter describes the mission and tactics of the Operator working group (WG)
 ---
 
