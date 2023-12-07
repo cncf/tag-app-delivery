@@ -1,7 +1,7 @@
 ---
 date: '2023-12-07T21:18:09+01:00'
 draft: true
-title: 'Navigating the CNCF Platform Engineering Maturity Model Through the Lens of Two-Sided Markets'
+title: 'Platform Engineering Through the Lens of Two-Sided Markets'
 author: 'Nagy Viktor'
 ---
 
