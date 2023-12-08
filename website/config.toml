@@ -67,6 +67,13 @@ languageName = "한국어(Korean)"
 contentDir = "content/ko"
 weight = 3
 
+[languages.ja]
+title = "CNCF TAG App Delivery"
+description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
+languageName = "日本語(Japanese)"
+contentDir = "content/ja"
+weight = 4
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
