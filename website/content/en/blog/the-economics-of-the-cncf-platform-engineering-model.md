@@ -9,7 +9,7 @@ _Disclaimer: The author is employed by GitLab. The article has benefited from co
 
 ## TL;DR
 
-Unveiling the parallels between the challenges of Internal Developer Platforms and the dynamics of two-sided markets, this article explores the strategic decision-making process in adopting the CNCF Platform Engineering Maturity Model. The key takeaway emphasizes the criticality of solving the right problems first, triggering a self-sustaining value loop as the platform matures. Additionally, the article sheds light on the challenges associated with switching between platforms and underscores the importance of aligning functionality expectations with market dynamics.
+Unveiling the parallels between the challenges of Internal Developer Platforms and the dynamics of two-sided markets, this article explores the strategic decision-making process when applying the CNCF Platform Engineering Maturity Model. The key takeaway emphasizes the criticality of solving the right problems first, triggering a self-sustaining value loop as the platform matures. Additionally, the article sheds light on the challenges associated with switching between platforms and underscores the importance of aligning functionality expectations with market dynamics.
 
 ## The theory of platforms
 
