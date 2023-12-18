@@ -60,6 +60,13 @@ languageName = "中文(Chinese)"
 contentDir = "content/zh"
 weight = 2
 
+[languages.ko]
+title = "CNCF 앱 딜리버리 TAG"
+description = "앱 딜리버리 TAG(Technology Advisory Group, 기술 자문 그룹)는 빌딩, 배포, 관리, 운영을 포함하여 클라우드 네이티브 애플리케이션 딜리버리에 관련된 프로젝트와 이니셔티브를 활성화하는 데 중점을 둔다."
+languageName = "한국어(Korean)"
+contentDir = "content/ko"
+weight = 3
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -140,8 +147,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/cncf/tag-app-delivery/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/cncf/tag-app-delivery/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
