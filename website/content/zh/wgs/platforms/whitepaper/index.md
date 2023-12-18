@@ -183,18 +183,73 @@ type: whitepapers
 
 以下表格旨在帮助读者通过松散相关现有 CNCF 或 CDF 项目来理解每种能力。
 
-| 能力                          | 描述                                                         | 示例 CNCF/CDF 项目                                           |
-| :---------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| 用于配置和观察能力的 Web 门户 | 发布文档、服务目录和项目模板。发布有关系统和能力的遥测数据。 | Backstage、Skooner、Ortelius                                 |
-| 自动配置能力的 API            | 用于自动创建、更新、删除和观察能力的结构化格式。             | Kubernetes、Crossplane、Operator Framework、Helm、KubeVela   |
-| 黄金路径模板和文档            | 用于快速项目开发的良好集成代码和能力的模板化组合。           | ArtifactHub                                                  |
-| 用于构建和测试产品的自动化    | 自动构建和测试数字产品和服务。                               | Tekton、Jenkins、Buildpacks、ko、Carvel                      |
-| 用于交付和验证服务的自动化    | 自动化和观察服务的交付。                                     | Argo、Flux、Keptn、Flagger、OpenFeature                      |
-| 开发环境                      | 启用应用程序和系统的研究和开发。                             | Devfile、Nocalhost、Telepresence、DevSpace                   |
-| 应用程序可观测性              | 仪表应用程序，收集和分析遥测数据，并将信息发布给利益相关者。 | OpenTelemetry、Jaeger、Prometheus、Thanos、Fluentd、Grafana、OpenCost |
-| 基础设施服务                  | 运行应用程序代码、连接应用程序组件并为应用程序持久化数据     | Kubernetes、Kubevirt、Knative、WasmEdgeCNI、Istio、Cilium、Envoy、Linkerd、CoreDNSRook、Longhorn、Etcd |
-| 数据服务                      | 持久化应用程序的结构化数据                                   | TiKV、Vitess、SchemaHero                                     |
-| 消息和事件服务                | 使应用程序异步通信                                           | Strimzi、NATS、gRPC、Knative、Dapr                           |
-| 身份和密码服务                | 确保工作负载具有定位器和密码来使用资源和能力。使服务能够向其他服务识别自己 | Dex、External Secrets、SPIFFE/SPIRE、Teller、cert-manager    |
-| 安全服务                      | 观察运行时行为并报告 / 纠正异常。验证构建和工件不包含漏洞。根据企业要求限制平台上的活动；通知和 / 或纠正异常 | Falco、In-toto、KubeArmor、OPA、Kyverno、Cloud Custodian     |
-| 工件存储                      | 存储、发布和保护用于生产的内置工件。缓存和分析第三方工件。存储源代码。 | ArtifactHub、Harbor、Distribution、Porter                    |
+<table>
+  <thead>
+    <tr><td>功能</td><td>描述</td><td>示例 CNCF/CDF 项目</td></tr>
+  </thead>
+  <tr>
+    <td>用于提供和观察功能的网络门户</td>
+    <td>发布文档、服务目录和项目模板。发布关于系统和功能的遥测数据。</td>
+    <td>Backstage、Skooner、Ortelius</td>
+  </tr>
+  <tr>
+    <td>自动提供功能的 API</td>
+    <td>用于自动创建、更新、删除和观察功能的结构化格式。</td>
+    <td>Kubernetes、Crossplane、Operator Framework、Helm、KubeVela</td>
+  </tr>
+  <tr>
+    <td>黄金路径模板和文档</td>
+    <td>用于快速项目开发的良好集成代码和功能的模板化组合。</td>
+    <td>ArtifactHub</td>
+  </tr>
+  <tr>
+    <td>构建和测试产品的自动化</td>
+    <td>自动构建和测试数字产品和服务。</td>
+    <td>Tekton、Jenkins、Buildpacks、ko、Carvel</td>
+  </tr>
+  <tr>
+    <td>交付和验证服务的自动化</td>
+    <td>自动化和观察服务的交付。</td>
+    <td>Argo、Flux、Keptn、Flagger、OpenFeature</td>
+  </tr>
+  <tr>
+    <td>开发环境</td>
+    <td>支持应用程序和系统的研发。</td>
+    <td>Devfile、Nocalhost、Telepresence、DevSpace</td>
+  </tr>
+  <tr>
+    <td>应用程序可观测性</td>
+    <td>对应用程序进行仪表化，收集和分析遥测数据，并向利益相关者发布信息。</td>
+    <td>OpenTelemetry、Jaeger、Prometheus、Thanos、Fluentd、Grafana、OpenCost</td>
+  </tr>
+  <tr>
+    <td>基础设施服务</td>
+    <td>运行应用程序代码，连接应用程序组件并为应用程序持久化数据</td>
+    <td>Kubernetes、Kubevirt、Knative、WasmEdge、KEDA<br />CNI、Istio、Cilium、Envoy、Linkerd、CoreDNS<br />Rook、Longhorn、Etcd</td>
+  </tr>
+  <tr>
+    <td>数据服务</td>
+    <td>为应用程序持久化结构化数据</td>
+    <td>TiKV、Vitess、SchemaHero</td>
+  </tr>
+  <tr>
+    <td>消息和事件服务</td>
+    <td>使应用程序异步通信</td>
+    <td>Strimzi、NATS、gRPC、Knative、Dapr</td>
+  </tr>
+  <tr>
+    <td>身份和秘密服务</td>
+    <td>确保工作负载具有定位信息和用于访问资源和功能的秘密。使服务能够向其他服务标识自己</td>
+    <td>Dex、External Secrets、SPIFFE/SPIRE、Teller、cert-manager</td>
+  </tr>
+  <tr>
+    <td>安全服务</td>
+    <td>观察运行时行为并报告/修复异常。验证构建和工件不包含漏洞。根据企业要求限制平台上的活动；通知和/或修复异常</td>
+    <td>Falco、In-toto、KubeArmor、OPA、Kyverno、Cloud Custodian</td>
+  </tr>
+  <tr>
+    <td>工件存储</td>
+    <td>存储、发布和保护用于生产的构建工件。缓存和分析第三方工件。存储源代码。</td>
+    <td>ArtifactHub、Harbor、Distribution、Porter</td>
+  </tr>
+</table>
