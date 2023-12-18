@@ -3,7 +3,7 @@ title: 术语表
 description: "平台工作组已发表论文中使用的术语表。"
 ---
 
-请参见 https://glossary.cncf.io/。
+另请参见 <https://glossary.cncf.io/>。
 
 ## 平台
 
