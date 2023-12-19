@@ -2,11 +2,11 @@
 
 # Footer text
 [footer_all_rights_reserved]
-other = " | Documentation Distributed under CC-BY-4.0"
+other = " | このドキュメントはCC-BY-4.0の下で配布されています"
 
 [post_create_issue]
-other = "Create issue"
+other = "issueの作成"
 
 # TOC
 [page_contents]
-other = "Page Contents"
+other = "目次"
