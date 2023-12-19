@@ -20,7 +20,7 @@ The TAG gathers feedback from cloud-native application developers, platform
 engineers and end users; shares that feedback with projects in its domain; and
 produces guidance and examples for end users.
 
-The TAG supports projects relatated to its charter
+The TAG supports projects related to its charter
 such as those in the [CNCF Landscape](https://landscape.cncf.io/card-mode) under
 [application definition and image build](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted),
 [continuous integration and delivery](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)
@@ -58,4 +58,3 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
 <p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
-
