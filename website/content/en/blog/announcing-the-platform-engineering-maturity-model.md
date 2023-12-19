@@ -2,6 +2,10 @@
 title: 'Announcing the Platform Engineering Maturity Model'
 date:   2023-11-01 00:00:00 +0000
 author: Abby Bangser, Josh Gavant
+categories:
+- Announcement
+tags:
+- WG Platforms
 ---
 
 The CNCF Platforms Working Group (WG) is excited to present the first release of a platform engineering maturity model which provides a more concrete application of the extremely well received white paper from this past April.
