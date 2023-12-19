@@ -3,51 +3,32 @@ title: 术语表
 description: "平台工作组已发表论文中使用的术语表。"
 ---
 
-See also <https://glossary.cncf.io/>.
+另请参见 <https://glossary.cncf.io/>。
 
 ## 平台
-A platform aggregates capabilities to serve developers and operators in
-development and delivery of products, services and apps. In reference to the
-scenarios it aims to support, a platform may be named a "Developer Platform", a
-"Delivery Platform", an "App Platform" or even a "Cloud Platform." The
-connotations of the older term "Platform-as-a-Service", or PaaS, are also
-influential.
+
+平台聚合能力，为开发人员和运营商开发和交付产品、服务和应用程序提供服务。关于它旨在支持的场景，平台可能被命名为“开发人员平台”、“交付平台”、“应用程序平台”甚至是“云平台”。较旧的术语“平台即服务”或 PaaS 的内涵也具有影响力。
 
 ## 平台能力提供者
-The projects and systems that provide the core capabilities offered by the platform.
-Providers can be maintained by either external organizations or internal teams,
-and capabilities can be infrastructure, runtime, or other supporting services.
 
-## 平台工程
-The practice of building and maintaining shared platforms and capabilities and presenting them to end users. Emerging from the DevOps movement's goal of cooperation between application developers and operators, platform engineering proposes using common platforms as the foundation of that cooperation. The decision to use shared platforms impacts not only the technology but also the people, processes, policies and expected business outcomes at an organization.
+平台能力提供者开发和维护平台提供的能力。提供者可以是外部组织或内部团队，能力可以是基础设施、运行时或其他支持服务。
 
 ## 平台工程师
-The role focused on developing and 
-maintaining interfaces and tools to enable provisioning and integration of platform 
-capabilities in applications, according to the requirements and instructions provided 
-by platform product managers. Platform developers are usually grouped in platform teams.
+
+平台工程师负责开发和维护界面和工具，以便根据平台产品经理提供的要求和说明，在应用程序中启用平台能力的配置和集成。平台开发人员通常分组在平台团队中。
 
 ## 平台产品经理
-The role chiefly responsible for understanding the experience of
-platform users, building a roadmap that addresses platform product gaps, requirements, 
-and opportunities, and managing platform teams as a part of daily work.
+
+平台产品经理负责了解平台用户的体验，建立涵盖平台产品差距、需求和机会的路线图，并管理平台团队的日常工作。
 
 ## 平台团队
-A cross-functional team that develops and maintains interfaces to and experiences with
-platform capabilities - like Web portals, custom APIs, and golden path templates.  
 
-Platform teams are managed by platform product managers and involve
-platform developers. As the platform evolves and become more advanced, other roles 
-can become part of a platform team, including, but not limited to, operators, 
-QA analysts, UI/UX designers, technical writers, developer advocates.
+平台团队负责开发和维护与平台能力的接口和体验，如 Web 门户、自定义 API 和黄金路径模板。平台团队由平台产品经理管理，并涉及平台开发人员。随着平台的发展和越来越先进，其他角色也可以成为平台团队的一部分，包括但不限于运营商、QA 分析师、UI/UX 设计师、技术作家、开发人员倡导者。
 
 ## 平台用户
-The target audience for a platform which includes but is not limited to app developers and operators, data
-scientists, COTS software operators, and information workers - whoever runs
-software on the platform or uses platform provided capabilities.
 
-## 最薄可用平台 (TVP) {#tvp}
-A concept originally defined in the book *Team Topologies*
-by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
-keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
-software delivery for teams building on the platform."
+平台用户包括但不限于应用程序开发人员和运营人员、数据科学家、COTS 软件操作员和信息工作者 - 在平台上运行软件或使用平台提供的能力的任何人。
+
+## 最薄可行平台（TVP）
+
+最薄可行平台（TVP） 是由 Matthew Skelton 和 Manuel Pais 在书籍 *Team Topologies* 中最初定义的一个概念。定义说：“TVP 是在保持平台小的同时确保平台有助于加速和简化团队构建平台的软件交付的谨慎平衡。”。
