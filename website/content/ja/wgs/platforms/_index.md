@@ -1,5 +1,5 @@
 ---
-title: Platforms Working Group
+title: プラットフォームWG
 list_pages: true
 ---
 # Platforms WG

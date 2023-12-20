@@ -1,5 +1,5 @@
 ---
-title: Operator Working Group Charter
+title: オペレーターWG憲章
 description: The charter describes the mission and tactics of the Operator working group (WG)
 ---
 

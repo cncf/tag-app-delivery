@@ -1,5 +1,5 @@
 ---
-title: "Platform Engineering Maturity Model"
+title: "プラットフォームエンジニアリングの成熟度モデル"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-maturity-model/README.md
 description: "This maturity model intends to provide tactical guidance to users seeking to adopt the patterns discussed in the Platforms Definition White Paper. That paper suggests why and what to build; this document will begin to describe how to plan to build it. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.<br/><br/>

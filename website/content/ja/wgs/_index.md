@@ -1,9 +1,8 @@
 ---
-title: Working Groups
+title: ワーキンググループ(WG)
 list_pages: true
 menu:
   main:
     weight: 30
-description: "The TAG establishes working groups (WGs) to accomplish specific projects and initiatives."
+description: "TAG App Deliveryは、特定のプロジェクトや取り組みを推進するためのワーキンググループ(WG)を組織しています。"
 ---
-

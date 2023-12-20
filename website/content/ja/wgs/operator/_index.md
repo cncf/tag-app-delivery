@@ -1,5 +1,5 @@
 ---
-title: Operator Working Group
+title: オペレーターWG
 list_pages: true
 inactive: true
 ---

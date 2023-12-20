@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: ブログ
 menu:
   main:
     weight: 40

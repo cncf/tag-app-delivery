@@ -1,5 +1,5 @@
 ---
-title: Platforms Working Group Charter
+title: プラットフォームWG憲章
 description: The charter describes the mission and tactics of the Platforms working group (WG)
 ---
 
