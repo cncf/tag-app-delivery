@@ -1,7 +1,7 @@
 ---
 title:  Getting started with contributing in WG Platforms
 slug:   contributing-to-wg-platforms
-date:   2023-12-22 12:00:00 +0000
+date:   2023-12-20 12:00:00 +0000
 author: Abby Bangser & Atulpriya Sharma
 categories:
 - Article
