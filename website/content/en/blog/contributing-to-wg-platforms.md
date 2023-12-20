@@ -2,7 +2,7 @@
 title:  Getting started with contributing in WG Platforms
 slug:   contributing-to-wg-platforms
 date:   2023-12-22 12:00:00 +0000
-author: Abby Bangser & Atul Sharma
+author: Abby Bangser & Atulpriya Sharma
 categories:
 - Article
 tags:
@@ -47,7 +47,9 @@ Please keep in mind this is not an exhaustive list and are very open to new idea
 
 We would encourage you to generate a GitHub issue and open a Slack thread with your idea. You can use [this link](https://github.com/cncf/tag-app-delivery/issues/new?template=community-contribution.md) to create an issue and also start a thread on the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) in the [#wg-platforms channel](https://cloud-native.slack.com/archives/C020RHD43BP).
 
-This will present you with a templated issue where you can follow the prompts. You will first need to write a descriptive title, then answer each of the questions in the description field. If you find one is not relevant that is OK, just write that and there is always a chance to chat more on these things after your initial submission.
+The GitHub issue will present you with a template where you can follow the prompts. First, You must write a descriptive title, then answer each question in the description field. If you find one is not relevant that is OK, write that and there is always a chance to chat more on these things after your initial submission.
+
+For Slack, you can start a new thread in this format: [Proposal]<My_New_Idea>
 
 This submission will act as two things:
 1. A call for support from others in the community. You may naturally pick up a project advocate or set of collaborators who are as passionate as you are on the topic.
@@ -75,6 +77,6 @@ During the review process, we’ll do the following checks:
 
 After the review is complete, and there’s a consensus from everyone that this is good to go, the WG lead will initiate the process of raising a PR and merging it.
 
-What next?
+## What next?
 
 Congratulations, your blog post will be live by now and a handful of people will have already read it. So what next? Well, feel free to share the blog posts on social media, and tag us (TAG App delivery). Also, don’t forget to thank everyone who helped to make the blog post live. And lastly, you should start thinking about your next blog post. So shall start again from the beginning? 
