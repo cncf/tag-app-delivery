@@ -9,53 +9,41 @@ list_pages: true
     </div>
     <div class="col-lg-6">
         <div class="lead">
-        Projects and initiatives related to delivering cloud-native
-        applications, including building, packaging, deploying, managing, and
-        operating them.
+        TAG App Deliveryは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。
         </div>
     </div>
 </div>
 
-The TAG gathers feedback from cloud-native application developers, platform
-engineers and end users; shares that feedback with projects in its domain; and
-produces guidance and examples for end users.
+TAG App Deliveryは、クラウドネイティブ・アプリケーションの開発者やプラットフォームエンジニア、エンドユーザーからのフィードバックを収集し、それらをTAGの担当分野のプロジェクトに共有します。また、エンドユーザー向けのガイダンスと事例を提供します。
 
-The TAG supports projects relatated to its charter
-such as those in the [CNCF Landscape](https://landscape.cncf.io/card-mode) under
-[application definition and image build](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted),
-[continuous integration and delivery](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)
-and [container registry](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted).
+このTAGは、チャーターに関連するプロジェクトを支援しています。これには、[アプリケーションの定義とイメージのビルド](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted)、[継続的インテグレーションとデリバリー](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)、[コンテナレジストリ](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted)の領域における[CNCFランドスケープ](https://landscape.cncf.io/card-mode)内のプロジェクトが含まれます。
 
-Today there are two active working groups under the TAG -
-[WG Platforms](./wgs/platforms/) and [WG Artifacts](./wgs/artifacts/).
+現在2つのワーキンググループ(WG)が活動しています。[プラットフォームWG](./wgs/platforms/)と[アーティファクトWG](./wgs/artifacts/)です。
 
-## Meetings
+## ミーティング
 
-1st and 3rd Wednesday of each month at 16:00 UTC ([convert to your local
-time](https://dateful.com/convert/utc?t=16)).
+毎月第1、第3水曜日の16:00 UTC ([居住地の時刻に変換](https://dateful.com/convert/utc?t=16)).
 
-Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
-as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
+ミーティングは[CNCFのカレンダー](https://www.cncf.io/calendar/)と[CNCFコミュニティカレンダー](https://community.cncf.io/tag-app-delivery/)に掲載されます。
 
-* [Agenda and Notes](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [Zoom Meeting](https://zoom.us/j/7276783015) (Passcode: 77777)
-* [Recordings of previous meetings](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [アジェンダと議事録](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
+* [Zoomミーティング](https://zoom.us/j/7276783015) (パスコード: 77777)
+* [過去のミーティングの録画](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
 
-## Leads
+## リーダー
 
-- [Alois Reitbauer](https://github.com/AloisReitbauer) (Chair)
-- [Josh Gavant](https://github.com/joshgav) (Chair)
-- [Thomas Schuetz](https://github.com/thschue) (Chair)
-- [Alex Jones](https://github.com/alexsjones) (TL)
-- [Lian Li](https://github.com/lianmakesthings) (TL)
-- [Karena Angell](https://github.com/angellk) (TL)
+- [Alois Reitbauer](https://github.com/AloisReitbauer) (チェア)
+- [Josh Gavant](https://github.com/joshgav) (チェア)
+- [Thomas Schuetz](https://github.com/thschue) (チェア)
+- [Alex Jones](https://github.com/alexsjones) (テックリード)
+- [Lian Li](https://github.com/lianmakesthings) (テックリード)
+- [Karena Angell](https://github.com/angellk) (テックリード)
 
-### Additional Resources
+### その他の資料
 
-- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
-- Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
-    - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
-- [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
+- [TAGのチャーター](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- Slackチャンネル: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
+    - [CNCF Slackにご自身を招待する](https://slack.cncf.io/)
+- [メーリングリスト](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
 <p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
-
