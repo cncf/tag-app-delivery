@@ -69,7 +69,7 @@ weight = 3
 
 [languages.ja]
 title = "CNCF TAG App Delivery"
-description = "TAG App Deliveryは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや活動の支援を行います。"
+description = "TAG App Deliveryは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。"
 languageName = "日本語(Japanese)"
 contentDir = "content/ja"
 weight = 4
