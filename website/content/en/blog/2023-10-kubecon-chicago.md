@@ -3,6 +3,10 @@ title:  TAG App Delivery at Kubecon Chicago
 slug:   tag-app-delivery-at-kubecon-chicago
 date:   2023-10-09 12:00:00 +0000
 author: Josh Gavant
+categories:
+- Announcement
+tags:
+- Event
 ---
 
 ![Kubecon Chicago 2023](/images/kubecon-chicago-2023.jpg)

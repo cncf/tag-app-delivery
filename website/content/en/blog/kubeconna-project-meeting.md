@@ -2,6 +2,10 @@
 title:  TAG App Delivery at Kubecon NA 2022
 date:   2022-09-12 12:00:00 +0000
 author: Jennifer Strejevitch and Josh Gavant
+categories:
+- Announcement
+tags:
+- Event
 ---
 
 Join CNCF TAG App Delivery and our working groups at Kubecon in Detroit October 24-28.

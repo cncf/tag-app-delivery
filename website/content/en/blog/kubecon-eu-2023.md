@@ -2,6 +2,10 @@
 title:  TAG App Delivery at Kubecon EU 2023
 date:   2023-04-14 12:00:00 +0000
 author: Josh Gavant
+categories:
+- Announcement
+tags:
+- Event
 ---
 
 ![Kubecon EU 2023](/images/kubecon-eu-2023.jpg)
