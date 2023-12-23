@@ -1,0 +1,124 @@
+// Hide the sidebar on Taxonomy Search/Browse page.
+.td-taxonomy .td-sidebar-nav {
+    display: none !important;
+}
+
+// Adding padding to bottom of Taxonomy Browse page.
+.td-taxonomy .td-main main {
+    padding-bottom: 6rem;
+}
+
+// Tags container.
+.canonical-tag-container {
+    margin-top: 1.5625rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    gap: 20px;
+    @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    @media (max-width: 767px) {
+        > span {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+    }
+}
+
+// Tag item. Default gray.
+.canonical-tag {
+    // button reset
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    // button sizing.
+    min-width: 96px;
+    // style to match _taxonomy/.tax-term
+    display: block;
+    background: #efefef;
+    color: black;
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    // Turn pink when selected is-active.
+    &.is-active {
+        background-color: $link-color;
+        color: white;
+        @media (hover: hover) {
+            &:hover {
+                background-color: $link-color;
+                color: white;
+            }
+        }
+    }
+    @media (hover: hover) {
+        // Hover default state.
+        &:hover {
+            background-color: #d2d2d2;
+        }
+    }
+}
+
+// Reset buttons to look like text.
+.button-reset-to-text {
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    margin-left: initial;
+    margin-right: initial;
+    width: unset;
+    // styling.
+    font-size: 10px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: black;
+    &:active {
+        color: inherit;
+    }
+    &:hover {
+        color: $link-color;
+    }
+}
+
+// Results
+#posts-by-tag {
+    margin-top: 1rem;
+    > div {
+        margin-top: 2.5rem;
+    }
+    h3 {
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        a {
+            color: black;
+            &:hover {
+                color: $link-color;
+            }
+        }
+    }
+}
+
+// Tag results.
+.invisible {
+    visibility: hidden;
+}
+
+.hide {
+    display: none;
+}

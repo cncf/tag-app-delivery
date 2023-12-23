@@ -1,35 +1,53 @@
-// Container for Taxonomy items.
 .article-meta {
 	margin-bottom: 3rem;
-}
-
-.tax-term {
-	background-color: $link-color;
-	border-radius: 50px;
-	font-weight: 500;
-	font-size: 10px;
-	line-height: 140%;
-	text-align: center;
-	letter-spacing: 0.02em;
-	color: $white;
-	padding: 5px 12px;
-	margin-right: 8px;
-	&:hover {
-		color: $white;
-		text-decoration: none;
-		background-color: $primary-300;
-	}
 }
 
 .taxonomy-terms {
 	list-style: none;
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
+	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
+	gap: 13px;
 }
 
+.taxo-tags {
+	.tax-term {
+		display: block;
+		color: $white;
+		background-color: $link-color;
+		border-radius: 50px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 120%;
+		text-align: center;
+		letter-spacing: 0.02em;
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: $primary-300;
+		}
+	}
+}
+
+.taxo-categories {
+	.tax-term {
+		color: #747474;
+		display: inline-block;
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: .15em;
+		line-height: 9px;
+		text-transform: uppercase;
+	}
+}
+
+// Used in Tax Terms Cloud
 .tax-terms {
 	list-style: none;
 	margin: 60px 0;
@@ -39,6 +57,7 @@
 	}
 }
 
+// Used in Tax Terms Cloud
 .taxonomy-count {
 	padding-left: 0;
 	margin-left: 0;

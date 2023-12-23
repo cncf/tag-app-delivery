@@ -1,0 +1,15 @@
+{{ $context := .context  }}
+{{ $taxo := .taxo  }}
+{{ if (gt (len ($context.GetTerms $taxo)) 0)}}
+<div class="taxonomy taxonomy-terms-article taxo-{{ urlize $taxo }}">
+  <ul class="taxonomy-terms">
+    {{ range ($context.GetTerms $taxo) }}
+      {{ if eq $taxo "tags" }}
+        <li><a class="tax-term" href="{{ relref . "/tags" }}?{{ replace .LinkTitle " " "-" }}=true">{{ title .LinkTitle }}</a></li>
+      {{ else }}
+        <li><span class="tax-term">{{ title .LinkTitle }}</span></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
