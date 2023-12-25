@@ -9,7 +9,7 @@ list_pages: true
     </div>
     <div class="col-lg-6">
         <div class="lead">
-        TAG App Deliveryは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。
+        TAG App Deliveryは、構築、パッケージング、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。
         </div>
     </div>
 </div>
