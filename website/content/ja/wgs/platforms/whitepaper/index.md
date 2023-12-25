@@ -2,7 +2,7 @@
 title:  "CNCFプラットフォームホワイトペーパー"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/assets/platforms-def-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
-description: "This paper intends to support enterprise leaders, enterprise architects and platform team leaders to advocate for, investigate and plan internal platforms for cloud computing. We believe platforms significantly impact enterprises' actual value streams, but only indirectly, so leadership consensus and support is vital to the long-term sustainability and success of platform teams. In this paper we'll enable that support by discussing what the value of platforms is, how to measure it, and how to implement platform teams that maximize it."
+description: "この論文は、エンタープライズのリーダー、エンタープライズアーキテクト、およびプラットフォームチームのリーダーが、クラウドコンピューティングのための内部プラットフォームの提唱、調査、計画するのをサポートすることを目的としています。私たちは、プラットフォームが企業の実際のバリューストリームに大きな影響を与えると信じていますが、それは間接的なものなので、プラットフォームチームの長期的な持続と成功にはリーダーシップの合意と支援が不可欠です。この論文では、プラットフォームの価値が何であるか、それをどのように測定するか、そしてそれを最大化するプラットフォームチームをどのように実現するかについて議論することで、その支援を促進します。"
 type: whitepapers
 ---
 

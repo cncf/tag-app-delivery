@@ -1,6 +1,6 @@
 ---
 title: オペレーターWG憲章
-description: The charter describes the mission and tactics of the Operator working group (WG)
+description: この憲章はオペレーターWGのミッションと戦術について述べます。
 ---
 
 # Operator Working Group Charter

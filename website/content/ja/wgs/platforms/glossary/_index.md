@@ -1,6 +1,6 @@
 ---
 title: 用語集
-description: "A collection of terms used in the Platform Working Group published papers."
+description: "プラットフォームWGが発表した論文等で使用される用語の一覧です。"
 ---
 
 See also <https://glossary.cncf.io/>.

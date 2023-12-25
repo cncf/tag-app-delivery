@@ -2,10 +2,10 @@
 title: "プラットフォームエンジニアリングの成熟度モデル"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-maturity-model/README.md
-description: "This maturity model intends to provide tactical guidance to users seeking to adopt the patterns discussed in the Platforms Definition White Paper. That paper suggests why and what to build; this document will begin to describe how to plan to build it. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.<br/><br/>
-This document refers to, enhances, and follows similar standards as the following related documents:<br/>
-[Cloud Maturity Model](https://maturitymodel.cncf.io/)<br/>
-[Platforms Definition White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
+description: "この成熟度モデルは、プラットフォームホワイトペーパーにおいて議論されているパターンを採用しようとするユーザーに、戦略的なガイドを提供することを目的としています。ホワイトペーパーは、何を、なぜ構築するべきかを提案しますが、このドキュメントはそれを構築するためにどのように計画するべきかを解説します。対象読者は、現在の状態や環境を評価し、改善の機会を見つけたいと考えているCTO、エンジニアリングディレクター、リードエンジニア、アーキテクトです。<br/><br/>
+この文書は、以下の関連文書を参照し、発展させ、同様の基準に従います。<br/>
+[クラウド成熟度モデル](https://maturitymodel.cncf.io/)<br/>
+[プラットフォームホワイトペーパー](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
 type: whitepapers
 ---
 
