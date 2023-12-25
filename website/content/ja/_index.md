@@ -1,5 +1,5 @@
 ---
-title: "CNCF TAG App Delivery"
+title: "CNCF TAG Appデリバリー"
 list_pages: true
 ---
 
@@ -9,12 +9,12 @@ list_pages: true
     </div>
     <div class="col-lg-6">
         <div class="lead">
-        TAG App Deliveryは、構築、パッケージング、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。
+        TAG Appデリバリーは、構築、パッケージング、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。
         </div>
     </div>
 </div>
 
-TAG App Deliveryは、クラウドネイティブ・アプリケーションの開発者やプラットフォームエンジニア、エンドユーザーからのフィードバックを収集し、それらをTAGの担当分野のプロジェクトに共有します。また、エンドユーザー向けのガイダンスと事例を提供します。
+TAG Appデリバリーは、クラウドネイティブ・アプリケーションの開発者やプラットフォームエンジニア、エンドユーザーからのフィードバックを収集し、それらをTAGの担当分野のプロジェクトに共有します。また、エンドユーザー向けのガイダンスと事例を提供します。
 
 このTAGは、チャーターに関連するプロジェクトを支援しています。これには、[アプリケーションの定義とイメージのビルド](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted)、[継続的インテグレーションとデリバリー](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)、[コンテナレジストリ](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted)の領域における[CNCFランドスケープ](https://landscape.cncf.io/card-mode)内のプロジェクトが含まれます。
 
