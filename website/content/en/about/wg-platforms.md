@@ -5,7 +5,7 @@ description: Work to enable adoption of platforms for cloud-native computing.
 ---
 
 * [Charter](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg/charter)
-* Slack channel: [#platforms-wg](https://cloud-native.slack.com/archives/C020RHD43BP)
+* Slack channel: [#wg-platforms](https://cloud-native.slack.com/archives/C020RHD43BP)
 
 ## Chairs
 
