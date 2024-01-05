@@ -19,6 +19,18 @@ body:
       required: true
   - type: dropdown
     attributes:
+      label: Related Working Group (WG)
+      description: Which, if any, WG does this particular proposal relate to?
+      options:
+        - None, this is TAG level (Default)
+        - Artifacts
+        - Operator
+        - Platforms
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
       label: Contribution type
       description: What is your target output from this contribution?
       options:

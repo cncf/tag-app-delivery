@@ -1,6 +1,6 @@
 ---
 title: Contribute
-list_pages: true
+list_pages: false
 menu:
   main:
     weight: 20
@@ -24,6 +24,10 @@ There’s everything from code-specific issues to documentation issues and every
 **Join a meeting**
 
 This may seem scary at first, especially if you’re new, but it’s a great way to dive in and see friendly faces after chatting with folks on Slack when you’re more comfortable. The meetings are structured with talking points in a shared google doc. You may be given time to introduce yourself (if you want!) and you are welcome to bring a topic to the meeting.
+
+**Contribute a new idea**
+
+While there are always a number of ongoing topics in the TAG, they all started as new ideas. If you have a new proposal we encourage you to [open an issue using the `community contribution` template](https://github.com/cncf/tag-app-delivery/issues/new) and start to build the community of people who would want to work with you on it!
 
 **In conclusion, get started your way**
 
