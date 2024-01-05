@@ -16,7 +16,7 @@ theme = ["hugo-dynamic-tabs", "docsy"]
 enableGitInfo = true
 
 # Comment out to enable taxonomies in Docsy
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
 # Highlighting config
