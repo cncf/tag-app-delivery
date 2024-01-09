@@ -67,6 +67,13 @@ languageName = "한국어(Korean)"
 contentDir = "content/ko"
 weight = 3
 
+[languages.ja]
+title = "CNCF TAG Appデリバリー"
+description = "TAG Appデリバリーは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。"
+languageName = "日本語(Japanese)"
+contentDir = "content/ja"
+weight = 4
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
