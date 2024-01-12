@@ -1,6 +1,7 @@
 ---
 title: Community Post Guidelines
 list_pages: false
+weight: 100 # Makes sure this sorts to the top of the list always
 ---
 
 ## Introduction
