@@ -1,6 +1,7 @@
 ---
 title: Community Post Guidelines
 list_pages: false
+weight: 100 # Makes sure this sorts to the top of the list always
 ---
 
 ## Introduction
@@ -22,7 +23,7 @@ Each post will include a short disclaimer, This blog post represents the viewpoi
 ## Submission, Review and Acceptance Criteria
 
 ### Submission Process
-Contributors are required to submit their blog posts as pull requests (PRs). 
+Contributors are required to submit their blog posts as pull requests (PRs).
 
 ### Review Process
 The TAG content is open for review from anyone with good intentions across the open source community. These reviews can be used to refine the content and help TAG leaders determine if the blog will be posted.

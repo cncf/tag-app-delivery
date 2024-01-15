@@ -1,0 +1,40 @@
+---
+name: Website translation
+description: The introduction, or extension, of a website translation
+title: "[Website Translation] <Language name> (<Short language code>)"
+labels: [website, translation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome, we are excited to support translations of the website to languages around the world!
+
+        _Note: While each translation is unique, we encourage you to familiarlize yourself with [past translation PRs](https://github.com/cncf/tag-app-delivery/issues?q=label%3Atranslation+) and the [Kubernetes SIG-Docs localization documentation](https://kubernetes.io/docs/contribute/localization) for general guidelines and lessons learned._
+  - type: dropdown
+    attributes:
+      label: New language
+      description: Is this a completely new translation or extension/improvement of an existing one?
+      options:
+        - First translation (default)
+        - Extending an existing translation to new pages
+        - Updating an existing translation
+      default: 0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Language code to be used
+      description: Please reference the [SIG-Docs instructions for finding your code](https://kubernetes.io/docs/contribute/localization/#find-your-two-letter-language-code)
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        If this is a new translation, please complete the following items:
+        - [ ] Enable i18n by update website/config.toml and website/i18n/<short-language-code>.toml
+        - [ ] Copy all contents to content/<short-language-code>
+
+        All translations require the following items:
+        - [ ] Translate some key pages (e.g. content/<short-language-code>/_index.md)
+        - [ ] Local testing
+        - [ ] Reviews by additional native speakers
