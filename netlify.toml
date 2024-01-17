@@ -1,10 +1,6 @@
 [build]
   ignore = "exit 1"
 
-[build.environment]
-NODE_VERSION = "18.16.1"
-HUGO_VERSION = "0.115.2"
-
 [context.production.environment]
 HUGO_ENV = "production"
 
