@@ -1,8 +1,2 @@
 [build]
   ignore = "exit 1"
-
-[context.production.environment]
-HUGO_ENV = "production"
-
-[context.deploy-preview.environment]
-HUGO_ENV = "preview"
