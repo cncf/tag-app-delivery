@@ -482,7 +482,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Identity and secret services</td>
     <td>Ensure workloads have locators and secrets to use resources and capabilities. Enable services to identify themselves to other services</td>
-    <td>Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager</td>
+    <td>Keycloak, Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager</td>
   </tr>
   <tr>
     <td>Security services</td>

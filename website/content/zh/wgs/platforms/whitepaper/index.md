@@ -242,7 +242,7 @@ type: whitepapers
   <tr>
     <td>身份和秘密服务</td>
     <td>确保工作负载具有定位信息和用于访问资源和功能的秘密。使服务能够向其他服务标识自己</td>
-    <td>Dex、External Secrets、SPIFFE/SPIRE、Teller、cert-manager</td>
+    <td>Keycloak, Dex、External Secrets、SPIFFE/SPIRE、Teller、cert-manager</td>
   </tr>
   <tr>
     <td>安全服务</td>
