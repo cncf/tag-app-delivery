@@ -21,6 +21,6 @@ Whether you start with a single white paper, or want to expand on an existing la
 
 ## Contributing
 
-To get started, please [open an issue](https://github.com/abangser/tag-app-delivery/issues/new/choose) on the TAG App Delivery GitHub repository using the `Website Translation` issue type.
+To get started, please [open an issue](https://github.com/cncf/tag-app-delivery/issues/new/choose) on the TAG App Delivery GitHub repository using the `Website Translation` issue type.
 
 This issue type will provide context on the scope of your work and provide guidance on the steps required to complete a translations.
