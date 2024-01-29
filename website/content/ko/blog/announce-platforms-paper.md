@@ -1,7 +1,11 @@
 ---
 title:  "Announcing a Whitepaper on Platforms for Cloud-native Computing"
 date:   2023-04-10 01:00:00 +0000
-author: Josh Gavant, Abby Bangser 
+author: Josh Gavant, Abby Bangser
+categories:
+- Announcement
+tags:
+- WG Platforms
 ---
 
 <img src="../assets/platforms-pyramid.png" width=400px />

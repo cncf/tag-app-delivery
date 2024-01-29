@@ -2,6 +2,11 @@
 title:  "Infrastructure for Apps: Platforms for Cooperative Delivery"
 date:   2022-09-22 00:00:00 +0000
 author: Josh Gavant
+categories:
+- Announcement
+tags:
+- WG Platforms
+- Event
 ---
 
 ![infrastructure integration](/images/infrastructure-integration.png)
