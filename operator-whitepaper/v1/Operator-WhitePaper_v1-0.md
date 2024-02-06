@@ -973,8 +973,7 @@ The CNCF TAG Security spent a lot of effort to add security related topics to th
 \[4\] https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
 \[5\] Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
-\[6\] https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md
-
+\[6\] https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md
 
 ## Acknowledgements
 This document is a community-driven effort of the CNCF TAG App-Delivery Operator Working Group. Thanks to everyone who contributed to this document, joined discussions and reviewed this document.
