@@ -183,4 +183,3 @@ your environment. While it may seem like unnecessary work to learn
 configuration  parameters of a new operator, it is usually preferable
 manually adjusting the configuration and/or source code of an
 operator itself to reach the needed level of security.
-
