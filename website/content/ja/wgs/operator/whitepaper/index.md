@@ -353,7 +353,7 @@ about if they should use an operator:
 
 For further ideas around the security of the development process,
 the reader may wish to review the CNCF Security TAG's [self-assessment
-questionnaire](https://github.com/cncf/sig-security/blob/master/assessments/guide/self-assessment.md).
+questionnaire](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md).
 
 #### Operator Scope
 
@@ -396,13 +396,13 @@ Being focused on the development and security of the operator,
 there are steps that must be taken as an operator developer to ensure
 validation and proper security analysis has been done. Following the
 guidelines in the CNCF Cloud Native Security Whitepaper there is a
-clear lifecycle process which defines the [layers of concern](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
+clear lifecycle process which defines the [layers of concern](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper-ja.md#cloud-native-layers) for the operator developer. All three layers
 should be adhered to with a strict focus on the develop and distribute
 layers in the scope of the operator developer. There are many detailed
 guidelines in the development and distribution layers that will help
 to apply sound vulnerability analysis to supply chain to ensure
 that the operator being developed is signed and trusted for the best
-integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md)
+integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper-ja.md)
 is available at this link.
 
 In addition to the supply chain there needs to be a focus on
@@ -410,7 +410,7 @@ performing a threat model of the operator to keep the developer
 in check and also make sure that there was nothing incidentally missed
 that could leave the door open for attack. The foundational model for
 checking for threats can be observed in the CNCF Cloud Native Security
-Whitepaper on [Threat Modeling](https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md#threat-modeling).
+Whitepaper on [Threat Modeling](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper-ja.md#threat-modeling).
 
 ### Application Developer (Operator-"Users")
 
@@ -1118,7 +1118,7 @@ The CNCF TAG Security spent a lot of effort to add security related topics to th
 \[4\] https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
 \[5\] Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
-\[6\] https://github.com/cncf/sig-security/blob/master/security-whitepaper/cloud-native-security-whitepaper.md
+\[6\] https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper-ja.md
 
 
 ## Acknowledgements
