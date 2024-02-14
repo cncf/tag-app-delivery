@@ -1,53 +1,35 @@
 ---
-title: 용어집
-description: "플랫폼 작업 그룹(WG)에서 출판한 논문에서 사용된 용어 모음"
+제목: 용어집
+설명: "플랫폼 작업 그룹(WG)에서 출판한 논문에서 사용된 용어 모음"
 ---
 
-See also <https://glossary.cncf.io/>.
+[https://glossary.cncf.io/ ](https://glossary.cncf.io/) 참조
 
-## 플랫폼
-A platform aggregates capabilities to serve developers and operators in
-development and delivery of products, services and apps. In reference to the
-scenarios it aims to support, a platform may be named a "Developer Platform", a
-"Delivery Platform", an "App Platform" or even a "Cloud Platform." The
-connotations of the older term "Platform-as-a-Service", or PaaS, are also
-influential.
+**플랫폼**은 제품, 서비스 및 앱의 개발과 제공에 있어 개발자와 운영자에게 서비스를 제공하기 위한 기능을 통합한 것입니다. 
+플랫폼은 지원하고자 하는 시나리오에 따라 "개발자 플랫폼", "전달 플랫폼", "앱 플랫폼" 또는 "클라우드 플랫폼"으로 명명될 수 있습니다. 
+더 오래된 용어인 "서비스형 플랫폼"(PaaS)의 의미도 영향을 줍니다.
 
-## 플랫폼 기능 제공자
-The projects and systems that provide the core capabilities offered by the platform.
-Providers can be maintained by either external organizations or internal teams,
-and capabilities can be infrastructure, runtime, or other supporting services.
+**플랫폼들**은 개발자와 운영자가 공통 기능을 제공하고 관리함으로써 애플리케이션과 서비스를 더 빠르게 제공할 수 있도록 지원합니다. 
+플랫폼들은 플랫폼 사용자와 플랫폼 기능 제공자 사이를 연결하며, 플랫폼 팀에 의해 구축 및 유지 관리됩니다.
 
-## 플랫폼 엔지니어링
-The practice of building and maintaining shared platforms and capabilities and presenting them to end users. Emerging from the DevOps movement's goal of cooperation between application developers and operators, platform engineering proposes using common platforms as the foundation of that cooperation. The decision to use shared platforms impacts not only the technology but also the people, processes, policies and expected business outcomes at an organization.
+**플랫폼 기능 제공자**는 플랫폼에서 제공하는 기능을 개발하고 유지 관리합니다. 
+제공자는 외부 조직 또는 내부 팀일 수 있으며, 기능은 인프라, 런타임 또는 기타 지원 서비스일 수 있습니다.
 
-## 플랫폼 엔지니어
-The role focused on developing and 
-maintaining interfaces and tools to enable provisioning and integration of platform 
-capabilities in applications, according to the requirements and instructions provided 
-by platform product managers. Platform developers are usually grouped in platform teams.
+**플랫폼 엔지니어**는 플랫폼 제품 관리자가 제공하는 요구 사항과 지침에 따라 애플리케이션에서 플랫폼 기능을 프로비저닝하고 통합할 수 있도록 
+인터페이스와 도구를 개발하고 유지 관리하는 업무를 담당합니다. 
+플랫폼 개발자는 일반적으로 플랫폼 팀에 속해 있습니다.
 
-## 플랫폼 제품 관리자
-The role chiefly responsible for understanding the experience of
-platform users, building a roadmap that addresses platform product gaps, requirements, 
-and opportunities, and managing platform teams as a part of daily work.
+**플랫폼 제품 관리자**는 플랫폼 사용자의 경험을 이해하고, 플랫폼 제품의 격차, 요구 사항 및 기회를 해결하는 로드맵을 구축하며, 
+일상 업무에서 플랫폼 팀을 관리하는 역할을 담당합니다.
 
-## 플랫폼 팀
-A cross-functional team that develops and maintains interfaces to and experiences with
-platform capabilities - like Web portals, custom APIs, and golden path templates.  
+**플랫폼 팀**은 웹 포털, 사용자 지정 API, 가장 빠른 적용을 위한 템플릿과 같은 플랫폼 기능에 대한 인터페이스와 경험을 개발하고 유지 관리할 책임이 있습니다. 
+플랫폼 팀은 플랫폼 제품 관리자가 관리하며 플랫폼 개발자가 참여합니다. 
+플랫폼이 발전하고 고도화됨에 따라 운영자, QA 분석가, UI/UX 디자이너, 테크니컬 라이터, 개발자 옹호자 등 다른 역할도 플랫폼 팀의 일원이 될 수 있습니다.
 
-Platform teams are managed by platform product managers and involve
-platform developers. As the platform evolves and become more advanced, other roles 
-can become part of a platform team, including, but not limited to, operators, 
-QA analysts, UI/UX designers, technical writers, developer advocates.
+**플랫폼 사용자**에는 애플리케이션 개발자 및 운영자, 데이터 과학자, 상용(COTS, Commercial, off-the-shelf) 소프트웨어 운영자, 정보 작업자 등 
+플랫폼에서 소프트웨어를 실행하거나 플랫폼에서 제공하는 기능을 사용하는 모든 사람이 포함되나 이에 국한되지 않습니다.
 
-## 플랫폼 사용자
-The target audience for a platform which includes but is not limited to app developers and operators, data
-scientists, COTS software operators, and information workers - whoever runs
-software on the platform or uses platform provided capabilities.
+**가장 얇은 실행 가능한 플랫폼(TVP, Thinnest viable platform)**은 원래 Matthew Skelton과 Manuel Pais가 저술한 책 '_팀 토폴로지(Team Topologies)_'에서 정의한 개념입니다. 
+이 정의에 따르면 "TVP는 플랫폼을 가능한 가볍게 유지하는 것과 플랫폼을 사용하는 팀의 소프트웨어가 충분히 빠르고 사용성에 문제가 없는 상태 사이에서 균형을 이루어 서비스를 제공하는 것입니다. 
+TVP에 대해서 더 궁금하다면 다음의 [영상](https://teamtopologies.com/key-concepts-content/what-is-a-thinnest-viable-platform-tvp)을 참고하세요.
 
-## 가장 얇은 실행 가능한 플랫폼 (TVP) {#tvp}
-A concept originally defined in the book *Team Topologies*
-by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
-keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
-software delivery for teams building on the platform."
