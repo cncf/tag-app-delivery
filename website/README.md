@@ -31,7 +31,7 @@ hugo new content contribute/<project title>.md
 
 ```
 cd website
-AUTHOR=ll hugo new content blog/<post title>.md
+AUTHOR=ll hugo new blog/<post title>.md
 ```
 
 ### Create new working group
