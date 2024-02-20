@@ -19,7 +19,7 @@ finding synergies and guiding both users and projects.
 You can find the TAG App Delivery at our booth in the project pavilion (booth number tbd),
 where we will have lightning talks and showcase the work of the platforms and artifact working groups.
 
-If you want to speak about your ideas, initiatices or projects relating to app delivery,
+If you want to speak about your ideas, initiatives or projects relating to app delivery,
 you can now [submit your proposals](https://forms.gle/VxtPJs3t8Ezfnq928) for lightning talks
 at the TAG app-delivery booth.
 
