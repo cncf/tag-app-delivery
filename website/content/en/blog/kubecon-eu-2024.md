@@ -1,6 +1,5 @@
 ---
 date: '2024-02-15T13:04:39+01:00'
-draft: true
 title: 'Tag App Delivery at Kubecon EU 2024'
 author: 'Lian Li'
 categories:
