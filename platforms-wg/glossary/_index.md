@@ -41,7 +41,3 @@ A quantification of the mental costs to a user before they can benefit from a pl
 
 ## Thinnest Viable Platform (TVP)
 A concept initially defined in the book _Team Topologies_ by Matthew Skelton and Manuel Pais, which encourages organizations to strike a careful balance between a small yet effective platform. By doing so, they can accelerate and simplify software delivery for teams building on the platform while achieving their broader business goals. They encourage platforms to focus on the unique requirements of the business and to routinely integrate 3rd party capability providers which can reduce the complexity and operational cost of the platform.
-
-## Platform users
-The target audience for a platform which includes but is not limited to app developers and operators, data scientists, COTS software operators, and information workers - whoever runs
-software on the platform or uses platform provided capabilities.
