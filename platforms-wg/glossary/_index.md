@@ -40,13 +40,8 @@ Refers to **_how_** the platform and its capabilities perform and what can be ex
 A quantification of the mental costs to a user before they can benefit from a platform capability. Within the umbrella term cognitive load there are actually three types of load: germane, intrinsic, and extraneous. Organizations are healthiest when platforms enable users to focus on the germane load (job-specific problem solving) challenges while simplifying the intrinsic (onboarding of new information or processes to complete their task) and minimizing the extraneous (distractions from the focused task, sometimes nicknamed “[yak shaving](https://en.wiktionary.org/wiki/yak_shaving#:~:text=yak%20shaving%20(uncountable),to%20solve%20a%20larger%20problem.)”) loads.
 
 ## Thinnest Viable Platform (TVP)
-A concept initially defined in the book _Team Topologies_ by Matthew Skelton and Manuel Pais, which encourages organizations to strike a careful balance between a small yet effective platform. By doing so, they can accelerate and simplify software delivery for teams building on the platform while achieving their broader business goals. They encourage platforms to focus on the unique requirements of the business and to routinely integrate 3rd party capability providers which can reduce the complexity and operational cost of the platform. 
+A concept initially defined in the book _Team Topologies_ by Matthew Skelton and Manuel Pais, which encourages organizations to strike a careful balance between a small yet effective platform. By doing so, they can accelerate and simplify software delivery for teams building on the platform while achieving their broader business goals. They encourage platforms to focus on the unique requirements of the business and to routinely integrate 3rd party capability providers which can reduce the complexity and operational cost of the platform.
+
 ## Platform users
 The target audience for a platform which includes but is not limited to app developers and operators, data scientists, COTS software operators, and information workers - whoever runs
 software on the platform or uses platform provided capabilities.
-
-## Thinnest Viable Platform (TVP) {#tvp}
-A concept originally defined in the book *Team Topologies*
-by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
-keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
-software delivery for teams building on the platform."
