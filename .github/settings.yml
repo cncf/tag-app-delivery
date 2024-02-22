@@ -20,9 +20,6 @@ collaborators:
   - username: kgamanji
     permission: admin
 
-  - username: justincormack
-    permission: admin
-
   # TAG Chairs (all have admin access)
   - username: AloisReitbauer
     permission: admin
@@ -34,7 +31,7 @@ collaborators:
     permission: admin
 
   # Tech Leads (all have maintain access)
-  - username: AlexsJones
+  - username: angellk
     permission: maintain
 
   - username: lianmakesthings
