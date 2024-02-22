@@ -31,18 +31,17 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 
 - Alois Reitbauer (@AloisReitbauer) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
 - Josh Gavant (@joshgav) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
-- Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2023/08/29)
-- Alex Jones (@alexsjones) (TL)
+- Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
 - Lian Li (@lianmakesthings) (TL)
 - Karena Angell (@angellk) (TL)
 
 ## TOC Liaisons
 - Katie Gamanji (@kgamanji)
-- Justin Cormack (@justincormack)
 
 ## Emeritus Leads
 - Jennifer Strejevitch (@Jenninha)
 - Hongchao Deng (@hongchaodeng)
+- Alex Jones (@AlexsJones)
 
 ## Working Groups
 
