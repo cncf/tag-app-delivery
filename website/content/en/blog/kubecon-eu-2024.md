@@ -45,10 +45,10 @@ We will continuously update the below schedule as more information becomes avail
 ### Tuesday: Co-located Events
 Time | Location | Topic  | Presenter
 -----|----------|--------|----
-09:00 - 19:00 | Level 7.1 Room B | [Platform Engineering Day](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/platform-engineering-day/)
+09:00 - 19:00 | Level 7.1 Room B | [Platform Engineering Day](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/platform-engineering-day/) | [Abby Bangser](https://linkedin.com/in/abbybangser), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/), [Colin Griffin](https://www.linkedin.com/in/colin-e-griffin/)
 09:00 - 17:30 | Level 7.1 Room C | [BackstageCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/)
-09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/)
-09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/)
+09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
+09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
 15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
