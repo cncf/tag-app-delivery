@@ -45,6 +45,7 @@ We will continuously update the below schedule as more information becomes avail
 ### Tuesday: Co-located Events
 Time | Location | Topic  | Presenter
 -----|----------|--------|----
+07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [GitPod](https://www.gitpod.io/)
 09:00 - 19:00 | Level 7.1 Room B | [Platform Engineering Day](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/platform-engineering-day/) | [Abby Bangser](https://linkedin.com/in/abbybangser), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/), [Colin Griffin](https://www.linkedin.com/in/colin-e-griffin/)
 09:00 - 17:30 | Level 7.1 Room C | [BackstageCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/)
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
@@ -54,6 +55,7 @@ Time | Location | Topic  | Presenter
 ### Wednesday: Conference Day 1
 Time | Location | Topic | Presenter
 -----|----------|-------|----
+07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Kratix](https://kratix.io)
 10:45 - 12:00 | Booth | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
 12:00 - 13:00 | Booth | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
 13:00 - 15:00 | Booth | Lightning Talks
@@ -61,6 +63,7 @@ Time | Location | Topic | Presenter
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
 -----|----------|-------|----
+07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
 10:30 - 12:30 | Booth | Lightning Talks
 12:30 - 13:30 | Booth | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
 15:25 - 16:00 | Level 7.3 Room E05 - E06 | Navigating the Depth of App Delivery Through Memes | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
