@@ -1,8 +1,8 @@
 ---
-제목:  "CNCF 플랫폼 백서(White Paper)"
+title:  "CNCF 플랫폼 백서(White Paper)"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/assets/platforms-def-v1.0.pdf
-버전_정보: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
-설명: "이 백서는 기업 리더, 엔터프라이즈 아키텍트, 플랫폼 팀 리더가 클라우드 컴퓨팅을 위한 내부 플랫폼을 옹호하고, 조사하고, 계획할 수 있도록 지원하고자 합니다. 플랫폼은 기업의 실제 가치 흐름에 큰 영향을 미치지만 간접적으로만 영향을 미치므로 플랫폼 팀의 장기적인 지속 가능성과 성공을 위해서는 경영진의 합의와 지원이 필수적입니다. 이 백서에서는 플랫폼의 가치가 무엇인지, 이를 측정하는 방법, 그리고 이를 극대화하는 플랫폼 팀을 구현하는 방법에 대해 논의함으로써 이러한 지원을 가능하게 할 것입니다."
+version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
+description: "이 백서는 기업 리더, 엔터프라이즈 아키텍트, 플랫폼 팀 리더가 클라우드 컴퓨팅을 위한 내부 플랫폼을 옹호하고, 조사하고, 계획할 수 있도록 지원하고자 합니다. 플랫폼은 기업의 실제 가치 흐름에 큰 영향을 미치지만 간접적으로만 영향을 미치므로 플랫폼 팀의 장기적인 지속 가능성과 성공을 위해서는 경영진의 합의와 지원이 필수적입니다. 이 백서에서는 플랫폼의 가치가 무엇인지, 이를 측정하는 방법, 그리고 이를 극대화하는 플랫폼 팀을 구현하는 방법에 대해 논의함으로써 이러한 지원을 가능하게 할 것입니다."
 ---
 
 ## 소개
