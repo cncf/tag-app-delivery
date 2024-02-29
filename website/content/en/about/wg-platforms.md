@@ -9,6 +9,7 @@ description: Work to enable adoption of platforms for cloud-native computing.
 
 ## Chairs
 
+* [Abby Bangser](https://github.com/abangser)
 * [Josh Gavant](https://github.com/joshgav)
 * [Roberth Strand](https://github.com/roberthstrand)
 
