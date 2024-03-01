@@ -11,5 +11,5 @@ repository:
   homepage: https://cncf.io/projects
   
   # Collaborators: give specific users access to this repository.
-  # Note that the permissions are controlled in the https://github.com/cncf/people/blob/main/config.yaml file
+  # Note that the permissions are controlled using CLOWarden in the https://github.com/cncf/people/blob/main/config.yaml file
   # Please create a PR in the https://github.com/cncf/people/ repo to change user access
