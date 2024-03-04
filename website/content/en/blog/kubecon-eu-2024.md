@@ -8,6 +8,8 @@ tags:
 - Event
 ---
 
+![Kubecon EU 2024](/images/kubecon-eu-2024.png)
+
 KubeCon EU 2024 is only four more weeks away!  
 The TAG App Delivery is excited to bring together cloud-native application developers
 and framework builders to meet each other and share insights and knowledge.
@@ -15,12 +17,10 @@ Our goal is to make cloud development better for all by gathering feedback,
 finding synergies and guiding both users and projects.
 
 ## TAG booth
-You can find the TAG App Delivery at our booth in the project pavilion (booth number tbd),
+You can find the TAG App Delivery at our booth **PP19-A** in the project pavilion,
 where we will have lightning talks and showcase the work of the platforms and artifact working groups.
 
-If you want to speak about your ideas, initiatives or projects relating to app delivery,
-you can now [submit your proposals](https://forms.gle/VxtPJs3t8Ezfnq928) for lightning talks
-at the TAG app-delivery booth.
+**The CfP for lightning talks is now closed.**
 
 Please note the following requirements to submit a talk propsal
 - The topic should be relevant to the TAG app-delivery. If in doubt, refer to [our charter](https://tag-app-delivery.cncf.io/)
