@@ -8,6 +8,8 @@ tags:
 - Event
 ---
 
+![Kubecon EU 2024](/images/kubecon-eu-2024.png)
+
 KubeCon EU 2024 is only four more weeks away!  
 The TAG App Delivery is excited to bring together cloud-native application developers
 and framework builders to meet each other and share insights and knowledge.
