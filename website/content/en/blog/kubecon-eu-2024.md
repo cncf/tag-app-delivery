@@ -17,7 +17,7 @@ Our goal is to make cloud development better for all by gathering feedback,
 finding synergies and guiding both users and projects.
 
 ## TAG booth
-You can find the TAG App Delivery at our booth in the project pavilion (booth number tbd),
+You can find the TAG App Delivery at our booth **PP19-A** in the project pavilion,
 where we will have lightning talks and showcase the work of the platforms and artifact working groups.
 
 If you want to speak about your ideas, initiatives or projects relating to app delivery,
