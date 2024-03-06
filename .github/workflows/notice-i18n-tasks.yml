@@ -1,0 +1,41 @@
+name: Notice i18n Tasks
+on:
+  pull_request:
+    types:
+    - opened
+    - reopened
+    - synchronize
+
+jobs:
+  notice-i18n-tasks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+
+    - name : Check the diffs when the issue is opened
+      id: diff-check-opened
+      if: github.event.action == 'opened' || github.event.action == 'reopened'
+      run: |
+        echo "diff-count=$(.github/workflows/deep-diff.sh hoge | wc -l)" >> $GITHUB_OUTPUT
+
+    - name: Check the diffs when the content in the PR updated
+      id: diff-check-updated
+      if: github.event.action == 'synchronize'
+      run: |
+        echo "diff-count=$(.github/workflows/deep-diff.sh hoge ${{ github.event.before }} ${{ github.event.after }} | wc -l)" >> $GITHUB_OUTPUT
+
+    - name: Send notice on the issue
+      if: steps.diff-check-opened.outputs.diff-count > 0 || steps.diff-check-updated.outputs.diff-count > 0
+      uses: thollander/actions-comment-pull-request@v2
+      with:
+        message: |
+          ### Action Required
+          You are adding or updating English content so please take the following actions for other languages.
+          - If you add new content under `website/content/en` or targets of the symbolic links in the same directory, please replicate it in the corresponding directories of all other languages. (e.g. If you create `website/content/en/blog/new-post.md`, you should copy it to `website/content/ja/blog/new-post.md`, etc.)
+          - If you update the content in the same location, please perform the following actions for the corresponding content in other languages.
+            - If the content has not been translated yet, replace the files with the updated English version.
+            - If the content has already been translated, include a note suggesting that users check the English page for the most recent updates.
