@@ -56,19 +56,19 @@ Time | Location | Topic  | Presenter
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Kratix](https://kratix.io)
-10:45 - 12:00 | Booth | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
-12:00 - 13:00 | Booth | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
-13:00 - 15:00 | Booth | Lightning Talks
+10:45 - 12:00 | Booth PP19-A | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
+12:00 - 13:00 | Booth PP19-A | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
+13:00 - 15:00 | Booth PP19-A | Lightning Talks
 
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
-10:30 - 12:30 | Booth | Lightning Talks
-12:30 - 13:30 | Booth | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
+10:30 - 12:30 | Booth PP19-A | Lightning Talks
+12:30 - 13:30 | Booth PP19-A | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
 15:25 - 16:00 | Level 7.3 Room E05 - E06 | [Navigating the Depth of App Delivery Through Memes](https://sched.co/1YhhV) | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
 
 ### Friday: Conference Day 3
 Time | Location | Topic | Presenter
 -----|----------|-------|----
-10:30 - 12:30 | Booth | Open Booth
+10:30 - 12:30 | Booth PP19-A | Open Booth
