@@ -39,7 +39,7 @@ Another lightning talk on behalf of the TAG is currently in the works.
 
 
 ## Schedule
-We will continuously update the below schedule as more information becomes available:
+We will continuously update the below schedule as more information becomes available. You can also subscribe to the [TAG KubeCon Calendar](https://calendar.google.com/calendar/ical/0305ac2530d63cc0a217362e93ff74be61ee91c8afa750cf8b29aaf7ab3b23ab%40group.calendar.google.com/public/basic.ics) to conveniently keep up to date with our activites.
 
 
 ### Tuesday: Co-located Events
