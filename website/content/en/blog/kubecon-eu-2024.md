@@ -62,6 +62,7 @@ Time | Location | Topic | Presenter
 10:45 - 12:00 | Booth PP19-A | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
 12:00 - 13:00 | Booth PP19-A | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
 13:00 - 13:10 | Booth PP19-A | OpenGitOps: Who we are and what we do | [Christian Hernandez](https://www.linkedin.com/in/chernandez1982/)
+13:17 - 13:27 | Booth PP19-A | The state of GitOps Progressive Delivery 2024 | [Anton Weiss](https://www.linkedin.com/in/antonweiss/)
 13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
 
 ### Thursday: Conference Day 2
