@@ -50,7 +50,7 @@ The TAG has created the following working groups to investigate and discuss the 
 | Working Group                                                                  | Chairs                                                           | Meeting Time                                                         |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
 | [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg)   | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs) | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
-| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg)         | [gitops-wg/CHAIRS.md](./gitops-wg/CHAIRS.md)                     | [gitops-wg/README.md#meetings](./gitops-wg/README.md#meetings)       |
+| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg) | | Merged into [OpenGitOps meetings](https://github.com/open-gitops/.github/blob/main/CONTRIBUTING.md#meetings) |
 | [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg) |                                                                  | Inactive                                                             |
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                  | Inactive                                                             |
 |[Artifacts](artifacts-wg/README.md) | [artifacts-wg/README.md#chairs](./artifacts-wg/README.md#chairs) | [artifacts-wg/README.md#meetings](./artifacts-wg/README.md#meetings) |
