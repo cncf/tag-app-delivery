@@ -58,13 +58,16 @@ Time | Location | Topic | Presenter
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Kratix](https://kratix.io)
 10:45 - 12:00 | Booth PP19-A | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
 12:00 - 13:00 | Booth PP19-A | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
-13:00 - 15:00 | Booth PP19-A | Lightning Talks
+13:00 - 13:10 | Booth PP19-A | OpenGitOps: Who we are and what we do | [Christian Hernandez](https://www.linkedin.com/in/chernandez1982/)
+13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
 
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
-10:30 - 12:30 | Booth PP19-A | Lightning Talks
+10:30 - 10:40 | Booth PP19-A | ArgoCD GitOps Bridge Pattern | [Carlos Santana](https://www.linkedin.com/in/csantanapr/)
+11:38 - 11:48 | Booth PP19-A | Bringing an Internal Developer Platform to Life | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/)
+12:12 - 12:22 | Booth PP19-A | Trace It Right: Observability-Powered Testing at the Speed of Light | [Ken Hamric](https://www.linkedin.com/in/ken-hamric-016b1420/)
 12:30 - 13:30 | Booth PP19-A | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
 15:25 - 16:00 | Level 7.3 Room E05 - E06 | [Navigating the Depth of App Delivery Through Memes](https://sched.co/1YhhV) | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
 
