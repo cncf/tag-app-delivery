@@ -19,7 +19,7 @@ The intention of these contributions is to make these examples more grounded in 
 
 ## Contributing
 
-To get started, review [the current model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) are scroll down to the `Model Detail` section. In this section there is a page per aspect, and each level provides `Example Scenario` section (e.g. [Investment Provisional level](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/#example-scenarios)).
+To get started, review [the current model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) and scroll down to the `Model Detail` section. In this section there is a page per aspect, and each level provides `Example Scenario` section (e.g. [Investment Provisional level](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/#example-scenarios)).
 
 We are asking for community members to please open a [Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) adding your example to the current model version. PRs should be limited to just examples, as other changes such as vocabulary, content, or even formatting of the wider maturity model can be submitted as a separate issue.
 
