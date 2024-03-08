@@ -25,6 +25,7 @@ jobs:
       id: check-diffs
       run: |
         updated_files="$(.github/workflows/deep-diff.sh website/content/en ${{ github.sha }} ${{ github.event.pull_request.head.sha }})"
+        echo "${updated_files}" # for debugging
         echo "count=$(echo $updated_files | grep -v '^$' | wc -l)" >> $GITHUB_OUTPUT
 
     - name: Send notice on the issue
