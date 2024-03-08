@@ -66,7 +66,7 @@ Time | Location | Topic | Presenter
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
 10:30 - 12:30 | Booth | Lightning Talks
 12:30 - 13:30 | Booth | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
-15:25 - 16:00 | Level 7.3 Room E05 - E06 | Navigating the Depth of App Delivery Through Memes | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
+15:25 - 16:00 | Level 7.3 Room E05 - E06 | [Navigating the Depth of App Delivery Through Memes](https://sched.co/1YhhV) | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
 
 ### Friday: Conference Day 3
 Time | Location | Topic | Presenter
