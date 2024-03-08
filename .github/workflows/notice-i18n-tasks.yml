@@ -1,6 +1,6 @@
 name: Notice i18n Tasks
 on:
-  pull_request:
+  pull_request_target:
     types:
     - opened
     - reopened
@@ -9,29 +9,29 @@ on:
 jobs:
   notice-i18n-tasks:
     runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
     steps:
-    - name: Check out
+    - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: ${{ github.head_ref }}
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
         fetch-depth: 0
 
-    - name : Check the diffs when the issue is opened
-      id: diff-check-opened
-      if: github.event.action == 'opened' || github.event.action == 'reopened'
+    - name: Check diffs
+      id: check-diffs
       run: |
-        echo "diff-count=$(.github/workflows/deep-diff.sh hoge | wc -l)" >> $GITHUB_OUTPUT
-
-    - name: Check the diffs when the content in the PR updated
-      id: diff-check-updated
-      if: github.event.action == 'synchronize'
-      run: |
-        echo "diff-count=$(.github/workflows/deep-diff.sh hoge ${{ github.event.before }} ${{ github.event.after }} | wc -l)" >> $GITHUB_OUTPUT
+        updated_files="$(.github/workflows/deep-diff.sh website/content/en ${{ github.sha }} ${{ github.event.pull_request.head.sha }})"
+        echo "count=$(echo $updated_files | grep -v '^$' | wc -l)" >> $GITHUB_OUTPUT
 
     - name: Send notice on the issue
-      if: steps.diff-check-opened.outputs.diff-count > 0 || steps.diff-check-updated.outputs.diff-count > 0
+      if: steps.check-diffs.outputs.count > 0
       uses: thollander/actions-comment-pull-request@v2
       with:
+        comment_tag: i18n-notice
         message: |
           ### Action Required
           You are adding or updating English content so please take the following actions for other languages.
