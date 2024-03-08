@@ -33,9 +33,9 @@ If you did not hear back from us, your submission has unfortunately not been acc
 ## TAG presentations
 We will also have two presentations at KubeCon itself.
 
-TAG chair Thomas Schuetz and Tech Lead Lian Li will talk about [the everchanging landscape
-of cloud-native application delivery](https://sched.co/1YhhV) and how that influences the scope of our work in the TAG.  
-Another lightning talk on behalf of the TAG is currently in the works.
+On Tuesday, Tech Lead Lian Li will give [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) in the form of a lightning talk.
+
+On Thursday, TAG chair Thomas Schuetz and Tech Lead Lian Li will talk about [the everchanging landscape of cloud-native application delivery](https://sched.co/1YhhV) and how that influences the scope of our work in the TAG.
 
 
 ## Schedule
@@ -50,6 +50,9 @@ Time | Location | Topic  | Presenter
 09:00 - 17:30 | Level 7.1 Room C | [BackstageCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/)
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
+12:30 - 12:37 | Level 7.1 Room D | [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) | [Lian Li](https://www.linkedin.com/in/lian-li/)
+
+
 15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
