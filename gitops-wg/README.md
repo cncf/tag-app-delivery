@@ -4,7 +4,7 @@
 # GitOps Working Group
 
 <!-- markdownlint-disable MD033 -->
-<p><img src="https://raw.githubusercontent.com/cncf/tag-app-delivery/main/gitops-wg/artwork/GWG/icon/color/gitopswg-icon-color.svg" alt="GitOps Working Group logo icon color" width="200"></p>
+<p><img src="https://raw.githubusercontent.com/cncf/tag-app-delivery/main/gitops-wg/artwork/icon/color/gitopswg-icon-color.svg" alt="GitOps Working Group logo icon color" width="200"></p>
 
 The GitOps WG focus was to clearly define a vendor-neutral, principle-led meaning of GitOps, which will establish a foundation for interoperability between tools, conformance, and certification.
 Lasting GitOps programs, documents, and code live within the CNCF OpenGitOps project.
