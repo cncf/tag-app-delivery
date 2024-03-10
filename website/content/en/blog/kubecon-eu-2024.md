@@ -72,6 +72,7 @@ Time | Location | Topic | Presenter
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
 10:30 - 10:40 | Booth PP19-A | ArgoCD GitOps Bridge Pattern | [Carlos Santana](https://www.linkedin.com/in/csantanapr/)
 10:47 - 10:57 | Booth PP19-A | Empowering and Accelerating Cloud-Native Development with Buildpacks.io | [Michael Murabito](https://www.linkedin.com/in/mich-murabito/)
+11:21 - 11:31 | Booth PP19-A | Sustainable software development in Kubernetes | [Davide Bianchi](https://www.linkedin.com/in/davide-bianchi-929a74b9/)
 11:38 - 11:48 | Booth PP19-A | Bringing an Internal Developer Platform to Life | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/)
 11:55 - 12:05 | Booth PP19-A | Seamless service tracing with OpenTelemetry | [Javier Fernandez Rodriguez](https://www.linkedin.com/in/javierfr/)
 12:12 - 12:22 | Booth PP19-A | Trace It Right: Observability-Powered Testing at the Speed of Light | [Ken Hamric](https://www.linkedin.com/in/ken-hamric-016b1420/)
