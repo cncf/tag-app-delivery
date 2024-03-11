@@ -1,6 +1,6 @@
 ---
 date: '2024-02-15T13:04:39+01:00'
-title: 'Tag App Delivery at Kubecon EU 2024'
+title: 'TAG App Delivery at Kubecon EU 2024'
 author: 'Lian Li'
 categories:
 - Announcement
@@ -33,13 +33,13 @@ If you did not hear back from us, your submission has unfortunately not been acc
 ## TAG presentations
 We will also have two presentations at KubeCon itself.
 
-TAG chair Thomas Schuetz and Tech Lead Lian Li will talk about [the everchanging landscape
-of cloud-native application delivery](https://sched.co/1YhhV) and how that influences the scope of our work in the TAG.  
-Another lightning talk on behalf of the TAG is currently in the works.
+On Tuesday, Tech Lead Lian Li will give [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) in the form of a lightning talk.
+
+On Thursday, TAG chair Thomas Schuetz and Tech Lead Lian Li will talk about [the everchanging landscape of cloud-native application delivery](https://sched.co/1YhhV) and how that influences the scope of our work in the TAG.
 
 
 ## Schedule
-We will continuously update the below schedule as more information becomes available:
+We will continuously update the below schedule as more information becomes available. You can also subscribe to the [TAG KubeCon Calendar](https://calendar.google.com/calendar/ical/0305ac2530d63cc0a217362e93ff74be61ee91c8afa750cf8b29aaf7ab3b23ab%40group.calendar.google.com/public/basic.ics) to conveniently keep up to date with our activites.
 
 
 ### Tuesday: Co-located Events
@@ -50,25 +50,36 @@ Time | Location | Topic  | Presenter
 09:00 - 17:30 | Level 7.1 Room C | [BackstageCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/)
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
+12:30 - 12:37 | Level 7.1 Room D | [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) | [Lian Li](https://www.linkedin.com/in/lian-li/)
+
+
 15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Kratix](https://kratix.io)
-10:45 - 12:00 | Booth | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
-12:00 - 13:00 | Booth | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
-13:00 - 15:00 | Booth | Lightning Talks
+10:45 - 12:00 | Booth PP19-A | Public Project Meeting | [TAG leads](https://tag-app-delivery.cncf.io/#leads)
+12:00 - 13:00 | Booth PP19-A | Open Booth: WG Artifacts | [Andrew Block](https://www.linkedin.com/in/andrewsblock/)
+13:00 - 13:10 | Booth PP19-A | OpenGitOps: Who we are and what we do | [Christian Hernandez](https://www.linkedin.com/in/chernandez1982/)
+13:17 - 13:27 | Booth PP19-A | The state of GitOps Progressive Delivery 2024 | [Anton Weiss](https://www.linkedin.com/in/antonweiss/)
+13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
+14:25 - 14:35 | Booth PP19-A | Knative for App Delivery | [Ali Ok](https://www.linkedin.com/in/aliok/)
 
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
-10:30 - 12:30 | Booth | Lightning Talks
-12:30 - 13:30 | Booth | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
-15:25 - 16:00 | Level 7.3 Room E05 - E06 | Navigating the Depth of App Delivery Through Memes | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
+10:30 - 10:40 | Booth PP19-A | ArgoCD GitOps Bridge Pattern | [Carlos Santana](https://www.linkedin.com/in/csantanapr/)
+10:47 - 10:57 | Booth PP19-A | Empowering and Accelerating Cloud-Native Development with Buildpacks.io | [Michael Murabito](https://www.linkedin.com/in/mich-murabito/)
+11:21 - 11:31 | Booth PP19-A | Sustainable software development in Kubernetes | [Davide Bianchi](https://www.linkedin.com/in/davide-bianchi-929a74b9/)
+11:38 - 11:48 | Booth PP19-A | Bringing an Internal Developer Platform to Life | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/)
+11:55 - 12:05 | Booth PP19-A | Seamless service tracing with OpenTelemetry | [Javier Fernandez Rodriguez](https://www.linkedin.com/in/javierfr/)
+12:12 - 12:22 | Booth PP19-A | Trace It Right: Observability-Powered Testing at the Speed of Light | [Ken Hamric](https://www.linkedin.com/in/ken-hamric-016b1420/)
+12:30 - 13:30 | Booth PP19-A | Open Booth: WG Platforms | [David Stenglein](https://www.linkedin.com/in/davidstenglein/), [Bryan Oliver](https://www.linkedin.com/in/olivercodes/)
+15:25 - 16:00 | Level 7.3 Room E05 - E06 | [Navigating the Depth of App Delivery Through Memes](https://sched.co/1YhhV) | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/)
 
 ### Friday: Conference Day 3
 Time | Location | Topic | Presenter
 -----|----------|-------|----
-10:30 - 12:30 | Booth | Open Booth
+10:30 - 12:30 | Booth PP19-A | Open Booth
