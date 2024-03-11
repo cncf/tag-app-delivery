@@ -62,7 +62,9 @@ Time | Location | Topic | Presenter
 13:00 - 13:10 | Booth PP19-A | OpenGitOps: Who we are and what we do | [Christian Hernandez](https://www.linkedin.com/in/chernandez1982/)
 13:17 - 13:27 | Booth PP19-A | The state of GitOps Progressive Delivery 2024 | [Anton Weiss](https://www.linkedin.com/in/antonweiss/)
 13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
+13:51 - 14:01 | Booth PP19-A | Revolutionizing Container Image Building with kpack | [Timo Salm](https://www.linkedin.com/in/timosalm/)
 14:25 - 14:35 | Booth PP19-A | Knative for App Delivery | [Ali Ok](https://www.linkedin.com/in/aliok/)
+14:42 - 14:52 | Booth PP19-A | Delivering next-gen applications with WebAssembly | [Joonas Bergius](https://www.linkedin.com/in/joonasbergius/)
 
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
