@@ -51,8 +51,6 @@ Time | Location | Topic  | Presenter
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
 12:30 - 12:37 | Level 7.1 Room D | [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) | [Lian Li](https://www.linkedin.com/in/lian-li/)
-
-
 15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
@@ -64,7 +62,9 @@ Time | Location | Topic | Presenter
 13:00 - 13:10 | Booth PP19-A | OpenGitOps: Who we are and what we do | [Christian Hernandez](https://www.linkedin.com/in/chernandez1982/)
 13:17 - 13:27 | Booth PP19-A | The state of GitOps Progressive Delivery 2024 | [Anton Weiss](https://www.linkedin.com/in/antonweiss/)
 13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
+13:51 - 14:01 | Booth PP19-A | Revolutionizing Container Image Building with kpack | [Timo Salm](https://www.linkedin.com/in/timosalm/)
 14:25 - 14:35 | Booth PP19-A | Knative for App Delivery | [Ali Ok](https://www.linkedin.com/in/aliok/)
+14:42 - 14:52 | Booth PP19-A | Delivering next-gen applications with WebAssembly | [Joonas Bergius](https://www.linkedin.com/in/joonasbergius/)
 
 ### Thursday: Conference Day 2
 Time | Location | Topic | Presenter
