@@ -51,7 +51,8 @@ Time | Location | Topic  | Presenter
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
 12:30 - 12:37 | Level 7.1 Room D | [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) | [Lian Li](https://www.linkedin.com/in/lian-li/)
-15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
+15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) From Platform Engineering to Developer Success
+ | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
 Time | Location | Topic | Presenter
