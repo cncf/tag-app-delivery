@@ -51,7 +51,8 @@ Time | Location | Topic  | Presenter
 09:00 - 17:35 | Level 7.3 Room S04 | [AppDeveloperCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/appdevelopercon/) | [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 09:00 - 17:30 | Level 7.3 Room N03 |  [ArgoCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/) | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/), [Andrew Block](https://www.linkedin.com/in/andrewsblock/), [Scott Rigby](https://www.linkedin.com/in/scottrigby/)
 12:30 - 12:37 | Level 7.1 Room D | [A Quick Look at the TAG App Delivery](https://sched.co/1aQgL) | [Lian Li](https://www.linkedin.com/in/lian-li/)
-15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) Cloud Native Platforms: Tools and Abstractions for teams | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
+15:30 - 15:50 | [Gaumont Aquaboulevard](https://maps.app.goo.gl/amQ4598RT1ouB5nd8) | [Openshift Commons panel](https://commons.openshift.org/gatherings/kubecon-24-mar-19/) From Platform Engineering to Developer Success
+ | [Lian Li](https://www.linkedin.com/in/lian-li/), [Thomas Schuetz](https://www.linkedin.com/in/thschue/), [Atul Sharma](https://www.linkedin.com/in/atulpriyasharma/), [Mauricio Salatino](https://www.linkedin.com/in/salaboy/)
 
 ### Wednesday: Conference Day 1
 Time | Location | Topic | Presenter
@@ -63,6 +64,7 @@ Time | Location | Topic | Presenter
 13:17 - 13:27 | Booth PP19-A | The state of GitOps Progressive Delivery 2024 | [Anton Weiss](https://www.linkedin.com/in/antonweiss/)
 13:34 - 13:44 | Booth PP19-A | Self-service infrastructure with Backstage | [Engin Diri](https://www.linkedin.com/in/engin-diri/)
 13:51 - 14:01 | Booth PP19-A | Revolutionizing Container Image Building with kpack | [Timo Salm](https://www.linkedin.com/in/timosalm/)
+14:08 - 14:18 | Booth PP19-A | Kubernetes Developer Experience Patterns | [Lou Bichard](https://www.linkedin.com/in/loujaybee/)
 14:25 - 14:35 | Booth PP19-A | Knative for App Delivery | [Ali Ok](https://www.linkedin.com/in/aliok/)
 14:42 - 14:52 | Booth PP19-A | Delivering next-gen applications with WebAssembly | [Joonas Bergius](https://www.linkedin.com/in/joonasbergius/)
 
@@ -71,7 +73,8 @@ Time | Location | Topic | Presenter
 -----|----------|-------|----
 07:15 - 08:45 | [Le Bellune](https://www.lebelluneparis.com/) 35 Boulevard Victor 75015 | Platform Lean Coffee | Coffee and pastries sponsored by [Krumware](https://www.krum.io/)
 10:30 - 10:40 | Booth PP19-A | ArgoCD GitOps Bridge Pattern | [Carlos Santana](https://www.linkedin.com/in/csantanapr/)
-10:47 - 10:57 | Booth PP19-A | Empowering and Accelerating Cloud-Native Development with Buildpacks.io | [Michel Murabito](https://www.linkedin.com/in/mich-murabito/)
+10:47 - 10:57 | Booth PP19-A | Empowering and Accelerating Cloud-Native Development with Buildpacks.io | [Michael Murabito](https://www.linkedin.com/in/mich-murabito/)
+11:04 - 11:14 | Booth PP19-A | The BACK Stack | David Murphy
 11:21 - 11:31 | Booth PP19-A | Sustainable software development in Kubernetes | [Davide Bianchi](https://www.linkedin.com/in/davide-bianchi-929a74b9/)
 11:38 - 11:48 | Booth PP19-A | Bringing an Internal Developer Platform to Life | [Andre Marcelo-Tanner](https://www.linkedin.com/in/andremarcelotanner/)
 11:55 - 12:05 | Booth PP19-A | Seamless service tracing with OpenTelemetry | [Javier Fernandez Rodriguez](https://www.linkedin.com/in/javierfr/)
