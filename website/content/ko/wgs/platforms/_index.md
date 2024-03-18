@@ -14,6 +14,7 @@ or the meetings described below.
 * Josh Gavant (@joshgav)
 * Roberth Strand (@roberthstrand)
 * Abby Bangser (@abangser)
+* Colin Griffin (@krumware)
 
 ## 회의
 
