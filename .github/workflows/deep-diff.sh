@@ -6,7 +6,7 @@ set -e
 
 if [ "$#" -ne 3 ]; then
     echo "The number of arguments must be 3." >&2
-    echo "Usage: ./list-targets.sh [path] [commit-before] [commit-after]" >&2
+    echo "Usage: ./deep-diff.sh [path] [commit-before] [commit-after]" >&2
     exit 1
 fi
 
