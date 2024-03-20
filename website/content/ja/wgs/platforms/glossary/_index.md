@@ -1,43 +1,43 @@
 ---
-title: Glossary
-description: "Defines key terms used in the Platforms Working Group's writings."
+title: 用語集
+description: "プラットフォームWGの文書で使用される主要な用語を定義します。"
 ---
 
-See also: [Cloud Native Glossary](https://glossary.cncf.io/)
+[クラウドネイティブ用語集](https://glossary.cncf.io/ja/)も併せて参照してください。
 
-If you wish to refer to these definitions outside the scope of the working group's papers, please note that they have been written in the context of both the CNCF and application delivery.
+もしこれらの用語の定義をワーキンググループの文書の範囲外で参照したい場合は、CNCFとアプリケーションデリバリーの両方の文脈で書かれていることに注意してください。
 
-## Platform
-A collection of capabilities, documentation, and tools that support developing, deploying, operating, and/or managing the delivery of products and services. A platform may include web portals, APIs, CLIs, protocol definitions, documentation, standards, and/or golden path templates. When done well, platforms enable faster and more reliable delivery of an organization's applications and services.
+## プラットフォーム
+機能、ドキュメント、およびツールのコレクションで、製品やサービスの開発、デプロイ、運用、および/またはデリバリーを支援するもの。プラットフォームには、ウェブポータル、API、CLI、プロトコルの定義、ドキュメント、標準、および/またはゴールデンパスのひな形が含まれる場合があります。プラットフォームを適切に実現すると、組織におけるアプリケーションやサービスの、迅速かつ信頼性の高いデリバリーが可能になります。
 
-Depending on the scope and audience for a platform, it may sometimes be referred to as a “Developer Platform,” an “Internal Developer Platform (IDP),"  a “Delivery Platform,” an “App Platform,” or even a “Cloud Platform.” The term “Platform-as-a-Service (PaaS)” is also often used to describe platforms that are purchased or otherwise adopted from outside an organization, providing a more managed but often less customizable platform solution.
+プラットフォームのスコープや対象者に応じて、「開発者プラットフォーム」、「内部開発者プラットフォーム（IDP: Internal Developer Platform）」、「デリバリープラットフォーム」、「アプリケーションプラットフォーム」、または「クラウドプラットフォーム」と呼ばれることがあります。また、「Platform-as-a-Service（PaaS）」という用語も頻繁に使用され、購入したり、組織外のものを利用するプラットフォームを説明するために使用されます。これはよりマネージドで、しばしばカスタマイズ性が低いプラットフォームソリューションを提供します。
 
-## Platform engineering
-The design, construction, operation, and evolution of a platform. One way to view the practice is as an empathy-driven approach towards sociotechnical organizational design<sup><a href="https://hazelweakly.me/talks/qcon-sf-2023/slides#22">1</a></sup>. In this light, it is a continuous process by which an organization learns how and where to invest and to make strategic business bets internally, rather than just externally.
+## プラットフォームエンジニアリング
+プラットフォームの設計、構築、運用、および進化の営み。プラットフォームエンジニアリングの実践例を見る一つの方法は、社会技術的な組織設計に対する共感駆動のアプローチとしてです。<sup><a href="https://hazelweakly.me/talks/qcon-sf-2023/slides#22">1</a></sup> このような観点から見れば、これは組織がどこに、どのように投資し、戦略的なビジネス判断をするかを学ぶ連続的なプロセスです。これは組織の外部だけでなく、内部にも及びます。
 
-## Platform team
-The people responsible for building and managing the platform(s). Platform team members include **platform engineers**, who focus on building the tool and capabilities that comprise the platform experiences. It may include dedicated **platform product manager** roles that focus on meeting internal customer needs while also supporting the organization’s broader strategic goals. As the platform evolves, other specialist roles, such as operators, QA analysts, UI/UX designers, technical writers, and developer advocates, may be added to platform teams.
+## プラットフォームチーム
+プラットフォームを構築および管理する責任を持つ人々。プラットフォームチームのメンバーには、プラットフォームの利用体験を構成するツールや機能を開発する、 **プラットフォームエンジニア** が含まれます。また、内部顧客のニーズを満たすことに焦点を当てつつ、組織の広範な戦略的目標もサポートする **プラットフォームプロダクトマネージャ** の役割が専任される場合もあります。プラットフォームが進化するにつれて、オペレータ、QAアナリスト、UI/UXデザイナー、技術ライター、およびデベロッパーアドボケイトなど、その他の専門的役割がプラットフォームチームに追加されることがあります。
 
 ## DevOps
-“DevOps is a methodology in which teams own the entire process from application development to production operations.”<sup><a href="https://glossary.cncf.io/devops/">2</a></sup> While DevOps practices can be implemented by teams without developing a dedicated platform, it can be useful to view platform engineering as an approach to scaling DevOps principles through the delivery and management of a unified platform that serves the entire organization. This shared platform aims to streamline the development, deployment, and operational processes, providing a standardized and efficient environment for software delivery. Although DevOps and platform engineering converge on the objectives of optimizing software delivery and operational performance, platform engineering distinctively focuses on the development of a tangible product—the platform itself—to facilitate these goals.
+DevOpsは、「チームがアプリケーション開発から本番運用までの全プロセスを所有する方法論」です。 <sup><a href="https://glossary.cncf.io/ja/devops/">2</a></sup> DevOpsのプラクティスは、専用のプラットフォームを開発せずとも実現されうるものです。しかし、プラットフォームエンジニアリングを、組織全体に渡る統合されたプラットフォームの提供と管理により、DevOpsの原則をスケールさせるアプローチとみなすことは有益です。この共通プラットフォームは、標準化された効率的なソフトウェアデリバリーの環境を提供することで、開発、デプロイ、および運用プロセスを効率化することを目指しています。DevOpsとプラットフォームエンジニアリングは、ソフトウェアのデリバリーと運用パフォーマンスの最適化を目的とする点で一致していますが、プラットフォームエンジニアリングは、この目的を達成するために、具体的な製品であるプラットフォーム自体の開発に焦点を当てています。
 
-## Platform users
-The people who directly use capabilities of the platform, including but not limited to app developers, app operators, data scientists, commercial off-the-shelf (COTS) software operators, and information workers — whoever runs software on the platform, uses platform-provided capabilities, or requires insights into platform use. Platform users may include other platform engineers creating higher level platform services on top of lower level capabilities.
+## プラットフォームのユーザー
+プラットフォームの機能を直接利用する人々は、アプリケーション開発者および運用者、データサイエンティスト、商用ソフトウェアの運用者、およびインフォメーションワーカーなどが含まれます。つまり、プラットフォーム上でソフトウェアを実行する人々、プラットフォームが提供する機能を利用する人々、またはプラットフォームの使用状況に関する洞察が必要な人々です。プラットフォームのユーザーには、低レイヤの機能の上に上位レイヤのプラットフォームサービスを構築する他のプラットフォームエンジニアも含まれる場合があります。
 
-## Portal
-A web-based interface that provides centralized access to a variety of resources, tools, and services. It can serve as a jumping off point for a wide range of users in order to efficiently manage and interact with the underlying platform's capabilities. A portal exists to enhance user experience through a user-friendly interface that simplifies complex processes and promotes self-service capabilities.
+## ポータル
+さまざまなリソース、ツール、およびサービスに対して統合的なアクセス手段を提供するウェブベースのインターフェース。ポータルは、幅広いユーザーがプラットフォームの機能を効率的に管理および操作するための出発点として機能します。また、複雑なプロセスを簡素化し、セルフサービスを促進するユーザーフレンドリーなインターフェースを通じて、ユーザー体験を向上させるために存在します。
 
-## Platform capabilities
-The specific user outcomes, or **_what_** a platform provides. These should not be confused with platform qualities that describe **_how_** the capabilities perform. These capabilities can be at different levels of abstraction (e.g., a single database versus a test environment that includes a database) and provided by different capability providers. As platforms mature, they generally aspire to offer capabilities via self-service, starting with discoverability of available capabilities and including consistency of experience across capabilities. Capabilities themselves are often quite durable while the providers and implementation can evolve more rapidly. For example, it is unlikely an organization stops requiring test environments, but they may evolve to provide containerized solutions instead of VM based solutions.
+## プラットフォームの機能
+プラットフォームが提供する具体的なアウトカム、または **_何を_** 提供するかに関する情報です。これらは、 **_どのように_** 機能が動作するかを表す、プラットフォームの品質と混同してはいけません。これらの機能は、複数の異なる抽象化レベルになり得ますし（例えば、単一のデータベースとデータベースを内包するテスト環境の場合）、異なる機能提供者によって提供されることもあります。プラットフォームが成熟するにつれて、一般的に、セルフサービスで機能を提供することを目指します。これは、ユーザーが機能を見つけられるようにすることに始まり、機能間で一貫した体験を提供することも含みます。機能自体は変化が少ないのに対し、機能提供者や実装はより早く進化することがあります。たとえば、組織がテスト環境を必要としなくなる可能性は低いですが、VMベースのソリューションの代わりにコンテナを利用したソリューションを提供するように進化する可能性があります。
 
-## Platform capability provider
-A group of people who develop and maintain a capability offered by the platform. Providers can be external organizations or internal teams and in smaller organizations can often be the same individuals who also develop the wider platform. As platforms mature, they benefit from maintaining abstractions for providers to discourage lock-in and to continue driving towards their Thinnest Viable Platform.
+## プラットフォームの機能提供者
+プラットフォームが提供する機能を、開発および維持する人々。機能提供者は外部組織または内部チームであり、小規模な組織では、広範なプラットフォームを同じ人々が開発していることがよくあります。プラットフォームが成熟するにつれて、機能提供者がロックインされないように抽象化を維持し、Thinnest Viable Platformを目指し続けることができるようになります。
 
-## Platform qualities
-Refers to **_how_** the platform and its capabilities perform and what can be expected in terms of cross-functional requirements, non-functional requirements, or simply “-ilities.” Examples include the reliability or performance of managed services which might be measured with Service Level Objectives (SLOs), security which might be measured with time to mitigation of identified risks, or observability which can be used to both debug and report on platform use. Qualities are often confused with capabilities, as some concepts such as observability, which can be offered as a capability (e.g., OTel Operator provided to collect application telemetry) and a declared quality (e.g., platform metrics to measure and alert on the uptime of that provided OTel Operator).
+## プラットフォームの品質
+プラットフォームとその機能が **_どのように_** 動作するか、また、機能横断的な要件、非機能要件、あるいは単に「～可能性」の観点から期待されることを指します。例としては、サービスレベル目標（SLO）で測定されうるマネージドサービスの信頼性や性能、リスクの緩和までの時間で測定されるセキュリティレベル、およびデバッグやプラットフォームの使用状況のレポートに使用できるオブザーバビリティが含まれます。オブザーバビリティなどの概念は、機能として提供されることもあれば（例えば、アプリケーションテレメトリを収集するために提供されるOTel Operator）、宣言された品質として提供されることもある（例えば、提供されたOTel Operatorの稼働時間を測定し、アラーティングするためのプラットフォームメトリクス）ため、品質と機能とがしばしば混同されます。
 
-## Cognitive load
-A quantification of the mental costs to a user before they can benefit from a platform capability. Within the umbrella term cognitive load there are actually three types of load: germane, intrinsic, and extraneous. Organizations are healthiest when platforms enable users to focus on the germane load (job-specific problem solving) challenges while simplifying the intrinsic (onboarding of new information or processes to complete their task) and minimizing the extraneous (distractions from the focused task, sometimes nicknamed “[yak shaving](https://en.wiktionary.org/wiki/yak_shaving#:~:text=yak%20shaving%20(uncountable),to%20solve%20a%20larger%20problem.)”) loads.
+## 認知負荷
+ユーザーがプラットフォームの機能を利用するより以前の、精神的なコストの量を指します。認知負荷と総称されるものには、実際には3つのタイプの負荷があります。学習関連負荷、課題内在性負荷、課題外在性負荷です。プラットフォームによって、ユーザーが学習関連負荷（ジョブ固有の問題解決）に集中でき、課題内在性負荷（新しい情報やプロセスの理解）を簡素化し、課題外在性負荷（取り組んでいるタスクから気を散らすもの。しばしば「[yak shaving](https://en.wiktionary.org/wiki/yak_shaving#:~:text=yak%20shaving%20(uncountable),to%20solve%20a%20larger%20problem)」と呼ばれます）を最小限に抑えるとき、組織が最も健全と言えます。
 
 ## Thinnest Viable Platform (TVP)
-A concept initially defined in the book _Team Topologies_ by Matthew Skelton and Manuel Pais, which encourages organizations to strike a careful balance between a small yet effective platform. By doing so, they can accelerate and simplify software delivery for teams building on the platform while achieving their broader business goals. They encourage platforms to focus on the unique requirements of the business and to routinely integrate 3rd party capability providers which can reduce the complexity and operational cost of the platform.
+マシュー・スケルトンとマヌエル・パイスによる書籍「_Team Topologies_」で最初に定義された概念で、これは組織に対して、プラットフォームを小規模にすることと、その効果の間で慎重にバランスをとることを奨励しています。それにより、プラットフォームを使用するチームのソフトウェアデリバリーを加速、簡素化でき、より広範なビジネス目標を達成できます。彼らは、プラットフォームがビジネス独自の要件に集中し、プラットフォームの複雑さと運用コストを削減できるサードパーティの機能提供者を日常的に統合することを奨励しています。
