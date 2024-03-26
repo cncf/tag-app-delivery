@@ -77,6 +77,13 @@ languageName = "日本語(Japanese)"
 contentDir = "content/ja"
 weight = 4
 
+[languages.es]
+title = "CNCF TAG App Delivery"
+description = "El TAG App Delivery se centra en habilitar proyectos e iniciativas relacionadas con la entrega de aplicaciones nativas en la nube, incluyendo su construcción, manejo y operativa."
+languageName = "Español(Spanish)"
+contentDir = "content/es"
+weight = 5
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
