@@ -2,10 +2,10 @@
 
 # Footer text
 [footer_all_rights_reserved]
-other = " | Documentación distribuida bajo CC-BY-4.0"
+other = " | Documentación distribuida bajo la Licencia CC-BY-4.0"
 
 [post_create_issue]
-other = "Crear asunto"
+other = "Crear issue"
 
 # TOC
 [page_contents]
