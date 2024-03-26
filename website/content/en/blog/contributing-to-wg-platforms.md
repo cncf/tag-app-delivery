@@ -45,7 +45,7 @@ Please keep in mind this is not an exhaustive list and are very open to new idea
 
 ## Step 1 - Submission
 
-We would encourage you to generate a GitHub issue and open a Slack thread with your idea. You can use the [`community contribution` template](https://github.com/cncf/tag-app-delivery/issues/new) to create an issue and also start a thread on the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) in the [#wg-platforms channel](https://cloud-native.slack.com/archives/C020RHD43BP).
+We would encourage you to generate a GitHub issue and open a Slack thread with your idea. You can use the [`community contribution` template]([https://github.com/cncf/tag-app-delivery/issues/new](https://github.com/cncf/tag-app-delivery/issues/new?assignees=&labels=proposals&projects=&template=community-contribution.yml&title=%5BCommunity%5D+%3CShort+description%3E)) to create an issue and also start a thread on the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) in the [#wg-platforms channel](https://cloud-native.slack.com/archives/C020RHD43BP).
 
 The GitHub issue will present you with a template where you can follow the prompts. First, You must write a descriptive title, then answer each question in the description field. If you find one is not relevant that is OK, write that and there is always a chance to chat more on these things after your initial submission.
 
