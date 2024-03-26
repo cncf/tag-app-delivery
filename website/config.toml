@@ -79,7 +79,7 @@ weight = 4
 
 [languages.es]
 title = "CNCF TAG App Delivery"
-description = "El TAG App Delivery se centra en habilitar proyectos e iniciativas relacionadas con la entrega de aplicaciones nativas en la nube, incluyendo su construcción, manejo y operativa."
+description = "El TAG App Delivery se centra en habilitar proyectos e iniciativas relacionados con el despliegue de aplicaciones cloud-native, incluyendo su construcción, manejo y operativa."
 languageName = "Español(Spanish)"
 contentDir = "content/es"
 weight = 5
