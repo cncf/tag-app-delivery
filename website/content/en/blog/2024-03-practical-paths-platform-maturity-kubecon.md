@@ -1,5 +1,5 @@
 ---
-title:  Practical Paths to Platform Maturity: Insights from KubeCon Paris
+title:  'Practical Paths to Platform Maturity: Insights from KubeCon Paris'
 slug:   practical-paths-to-platform-maturity
 date:   2024-03-27 12:00:00 +0000
 author: Marsh Gardiner
