@@ -16,7 +16,7 @@ theme = ["hugo-dynamic-tabs", "docsy"]
 enableGitInfo = true
 
 # Comment out to enable taxonomies in Docsy
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
 # Highlighting config
@@ -48,24 +48,41 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "CNCF TAG App Delivery"
-description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
+description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 
 [languages.zh]
 title = "CNCF 应用交付 TAG"
-decscription = "应用交付 TAG 专注于支持与交付云原生应用程序相关的项目和计划，包括构建、部署、管理和运营。"
 languageName = "中文(Chinese)"
 contentDir = "content/zh"
 weight = 2
+[languages.zh.params]
+description = "应用交付 TAG 专注于支持与交付云原生应用程序相关的项目和计划，包括构建、部署、管理和运营。"
 
 [languages.ko]
 title = "CNCF 앱 딜리버리 TAG"
-description = "앱 딜리버리 TAG(Technology Advisory Group, 기술 자문 그룹)는 빌딩, 배포, 관리, 운영을 포함하여 클라우드 네이티브 애플리케이션 딜리버리에 관련된 프로젝트와 이니셔티브를 활성화하는 데 중점을 둔다."
 languageName = "한국어(Korean)"
 contentDir = "content/ko"
 weight = 3
+[languages.ko.params]
+description = "앱 딜리버리 TAG(Technology Advisory Group, 기술 자문 그룹)는 빌딩, 배포, 관리, 운영을 포함하여 클라우드 네이티브 애플리케이션 딜리버리에 관련된 프로젝트와 이니셔티브를 활성화하는 데 중점을 둔다."
+
+[languages.ja]
+title = "CNCF TAG Appデリバリー"
+description = "TAG Appデリバリーは、構築、実行、管理、運用を含む、クラウドネイティブアプリケーションのデリバリーに関連するプロジェクトや取り組みの支援を行います。"
+languageName = "日本語(Japanese)"
+contentDir = "content/ja"
+weight = 4
+
+[languages.es]
+title = "CNCF TAG App Delivery"
+description = "El TAG App Delivery se centra en habilitar proyectos e iniciativas relacionados con el despliegue de aplicaciones cloud-native, incluyendo su construcción, manejo y operativa."
+languageName = "Español(Spanish)"
+contentDir = "content/es"
+weight = 5
 
 [markup]
   [markup.goldmark]

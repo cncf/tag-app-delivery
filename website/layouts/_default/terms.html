@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ title ( T "ui_search_by_tags" ) }}</h1>
+
+    <p>{{ ( T "ui_tags_intro" ) }}</p>
+
+    <script src="{{ "js/tag-search.js" | relURL }}"></script>
+
+    {{ $tags := index .Site.Taxonomies "tags" }}
+
+    <div class="canonical-tag-container">
+        {{ range $tags }}
+            {{ $tagid := printf "tag-%s" ( replace .Page.Title " " "-" ) }}
+            <button id="{{ $tagid  }}" class="canonical-tag" data-target="{{ $tagid  }}">{{ title .Page.Title }}</button>
+        {{ end }}
+        <span><button class="button-reset-to-text" id="select-all-tags">{{ T "ui_select_all" }}</button></span>
+        <span><button class="button-reset-to-text" id="deselect-all-tags">{{ T "ui_deselect_all" }}</button></span>
+    </div>
+    
+    <div id="posts-by-tag">
+        {{ $sortedPages := sort .Site.Pages "Date" "desc" }}
+        {{ range $sortedPages }}
+            {{ if eq .Section "blog" }}
+                {{ $.Scratch.Set "tag_classes" "" }}
+                {{ range .Params.tags }}
+                    {{ with . }}
+                        {{ $.Scratch.Add "tag_classes" (printf "tag-%s " ( replace . " " "-" ) )  }}
+                    {{ end }}
+                {{ end }}
+                
+                <div class="mb-5 mt-5 {{ $.Scratch.Get "tag_classes" }} hide" data-show-count="0">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="td-byline mb-3 mt-3 text-muted">
+                        {{ with .Params.author }}{{ T "post_byline_by" }} {{ . | markdownify }} |{{ end}}
+                        <time datetime="{{  .Date.Format "2006-01-02" }}" class="text-muted">{{ .Date.Format $.Site.Params.time_format_blog  }}</time>
+                    </div>                
+                    <div>
+                        <p>
+                        {{ .Summary }}..
+                        </p>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+
+</div>
+{{ end }}

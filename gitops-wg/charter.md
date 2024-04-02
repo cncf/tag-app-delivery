@@ -48,7 +48,7 @@ The GitOps WG works to enable widespread and successful adoption of the GitOps p
 - Additionally aligns with the other working groups within this TAG:
   - Air Gapped WG: An important use case for GitOps
   - Operator WG: See the [Operator whitepaper](https://github.com/cncf/tag-app-delivery/blob/master/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md#operator-for-gitops) section on GitOps
-  - Platforms WG: See notes on GitOps in [their charter](https://github.com/cncf/tag-app-delivery/blob/master/platforms-wg/charter.md)
+  - Platforms WG: See notes on GitOps in [their charter](https://github.com/cncf/tag-app-delivery/blob/master/platforms-wg/charter)
 
 ## Other Related Groups
 

@@ -8,7 +8,7 @@ To contribute please join our Slack channel and/or biweekly meetings.
 
 ## Chairs
 
-- Alex Flom ([@afflom](https://github.com/afflom))
+- Andrew Block ([@sabre1041](https://github.com/sabre1041))
 - Ramkumar Chinchani ([@rchincha](https://github.com/rchincha))
 
 ## Meetings

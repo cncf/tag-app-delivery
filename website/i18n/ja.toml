@@ -1,0 +1,30 @@
+# UI strings. Buttons and similar.
+
+# Footer text
+[footer_all_rights_reserved]
+other = " | このドキュメントはCC-BY-4.0の下で配布されています"
+
+[post_create_issue]
+other = "issueの作成"
+
+# TOC
+[page_contents]
+other = "目次"
+
+# Phrases for tags
+[ui_see_all_tags]
+other = "See all tags"
+[ui_tag]
+other = "Tag"
+[ui_tags]
+other = "Tags"
+[ui_search_by_tags]
+other = "Browse by Tags"
+[ui_tags_intro]
+other = "We've categorized the glossary terms. Use the filters to browse terms by tag."
+[ui_or_search_by_tags]
+other = "...or browse by tag"
+[ui_select_all]
+other = "Select All"
+[ui_deselect_all]
+other = "Deselect All"

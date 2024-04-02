@@ -2,6 +2,10 @@
 title: 'Announcing the Platform Engineering Maturity Model'
 date:   2023-11-01 00:00:00 +0000
 author: Abby Bangser, Josh Gavant
+categories:
+- Announcement
+tags:
+- WG Platforms
 ---
 
 The CNCF Platforms Working Group (WG) is excited to present the first release of a platform engineering maturity model which provides a more concrete application of the extremely well received white paper from this past April.
@@ -16,7 +20,7 @@ The [platforms white paper](https://tag-app-delivery.cncf.io/whitepapers/platfor
 
 While presented as a single model with 5 aspects and 4 levels of maturity, the accompanying paper extends well beyond the black and white tick box exercise sometimes associated with maturity models.
 
-Clear explanations of each aspect and each level within an aspect are provided and  characteristics and scenarios are provided for each model item. These details have been collected from diverse working group members' experiences to provide readers a chance to see real world applications hand in hand with the theory behind each progression. In addition, we want _your_ stories to help decorate this model by including examples that you are happy to share. To introduce a new example, please [open an issue](https://github.com/cncf/tag-app-delivery/issues/new?assignees=&labels=&projects=&template=platform-maturity-model-example.md) and share your story.
+Clear explanations of each aspect and each level within an aspect are provided and  characteristics and scenarios are provided for each model item. These details have been collected from diverse working group members' experiences to provide readers a chance to see real world applications hand in hand with the theory behind each progression. In addition, we want _your_ stories to help decorate this model by including examples that you are happy to share. To introduce a new example, please [follow the contribution guide](https://tag-app-delivery.cncf.io/contribute/platform-maturity-model-examples/) and share your story.
 
 As readers, we encourage you to remember that it is not only costly, but sometimes actively detrimental to blindly follow any model to the highest level of maturity. Instead, we hope you will use this model to identify both your current and desired characteristics, enabling you to target your investment in the areas you will most benefit from.
 
