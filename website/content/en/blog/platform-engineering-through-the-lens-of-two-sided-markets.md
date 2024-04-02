@@ -19,7 +19,7 @@ While physical markets might have similar characteristics, because of the nature
 
 To summarise the economics: In two or multi-sided markets, the products are platforms with users and suppliers who evaluate the platform: the more or higher quality users make a platform more compelling to enter for the suppliers; the more or higher quality suppliers make the platform more compelling to enter for the users.
 
-For the rest of the article, I’ll speak about multi-sided markets as they better capture the world of DevOps platforms, and the economics in our case is very similar to two-sided markets.
+For the rest of the article, I’ll speak about multi-sided markets as they better capture the world of DevOps platforms. I use two-sided and multi-sided markets interchangably as the economics are very similar.
 
 ## Application to platform engineering
 
