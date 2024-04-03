@@ -33,7 +33,7 @@ El resultado específico para el usuario, o **_qué_** proporciona una plataform
 ## Proveedor de capacidades de la Platafora
 Grupo de personas que desarrollan y mantienen una capacidad ofrecida por la plataforma. Los proveedores pueden ser organizaciones externas o equipos internos y en organizaciones más pequeñas a menudo pueden ser los mismos individuos que también desarrollan la plataforma más amplia. A medida que las plataformas maduran, se benefician de mantener abstracciones para los proveedores para desalentar el bloqueo y seguir avanzando hacia su Thinnest Viable Platform (plataforma más fina viable).
 
-## Cualidades de la Plataforma
+## Calidades de la Plataforma
 Se refiere a **_cómo_** la plataforma y sus capacidades funcionan y qué se puede esperar en términos de requisitos multifuncionales, requisitos no funcionales o simplemente “-idades”. Ejemplos incluyen la fiabilidad o el rendimiento de los servicios gestionados que pueden medirse con Service Level Objectives (SLOs), la seguridad que puede medirse con el tiempo de mitigación de los riesgos identificados, o la observabilidad que se puede utilizar tanto para depurar como para informar sobre el uso de la plataforma. A menudo se confunden las cualidades con las capacidades, ya que algunos conceptos, como la observabilidad, que se pueden ofrecer como una capacidad (por ejemplo, el Operador OTel proporcionado para recopilar la telemetría de la aplicación) y una calidad declarada (por ejemplo, métricas de la plataforma para medir y alertar sobre el tiempo de actividad de ese Operador OTel proporcionado).
 
 ## Carga cognitiva
