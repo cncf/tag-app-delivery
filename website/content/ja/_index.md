@@ -41,7 +41,7 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 
 ### その他の資料
 
-- [TAGのチャーター](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- [TAGのチャーター](https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md)
 - Slackチャンネル: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
     - [CNCF Slackにご自身を招待する](https://slack.cncf.io/)
 - [メーリングリスト](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)

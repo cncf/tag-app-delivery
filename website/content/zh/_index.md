@@ -44,7 +44,7 @@ list_pages: true
 
 ### 更多资源
 
-- [TAG 章程](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- [TAG 章程](https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md)
 - Slack 频道： [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
     - [邀请你自己加入 CNCF Slack](https://slack.cncf.io/)
 - [邮件列表](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
