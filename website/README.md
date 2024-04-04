@@ -52,7 +52,7 @@ To run the site from your local OS:
 3. Initialize submodules with `git submodule update --init --recursive`
 4. Change into the website directory: `cd website`
 5. Install dependencies with `npm install`
-6. Run the site using `hugo server -D`
+6. Run the site using `npm run serve`. To have the site run locally with a functioning local search, run `npm run serve:with-pagefind`.
 7. Output from the previous command includes the address to browse to preview the site, by default <http://localhost:1313/>.
 
 Alternatively, once you've cloned this repo you can directly invoke the included
