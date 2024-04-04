@@ -1,53 +1,43 @@
 ---
 title: 用語集
-description: "プラットフォームWGが発表した論文等で使用される用語の一覧です。"
+description: "プラットフォームWGの文書で使用される主要な用語を定義します。"
 ---
 
-See also <https://glossary.cncf.io/>.
+[クラウドネイティブ用語集](https://glossary.cncf.io/ja/)も併せて参照してください。
 
-## Platform
-A platform aggregates capabilities to serve developers and operators in
-development and delivery of products, services and apps. In reference to the
-scenarios it aims to support, a platform may be named a "Developer Platform", a
-"Delivery Platform", an "App Platform" or even a "Cloud Platform." The
-connotations of the older term "Platform-as-a-Service", or PaaS, are also
-influential.
+もしこれらの用語の定義をワーキンググループの文書の範囲外で参照したい場合は、CNCFとアプリケーションデリバリーの両方の文脈で書かれていることに注意してください。
 
-## Platform capability providers
-The projects and systems that provide the core capabilities offered by the platform.
-Providers can be maintained by either external organizations or internal teams,
-and capabilities can be infrastructure, runtime, or other supporting services.
+## プラットフォーム
+機能、ドキュメント、およびツールのコレクションで、製品やサービスの開発、デプロイ、運用、および/またはデリバリーを支援するもの。プラットフォームには、ウェブポータル、API、CLI、プロトコルの定義、ドキュメント、標準、および/またはゴールデンパスのひな形が含まれる場合があります。プラットフォームを適切に実現すると、組織におけるアプリケーションやサービスの、迅速かつ信頼性の高いデリバリーが可能になります。
 
-## Platform engineering
-The practice of building and maintaining shared platforms and capabilities and presenting them to end users. Emerging from the DevOps movement's goal of cooperation between application developers and operators, platform engineering proposes using common platforms as the foundation of that cooperation. The decision to use shared platforms impacts not only the technology but also the people, processes, policies and expected business outcomes at an organization.
+プラットフォームのスコープや対象者に応じて、「開発者プラットフォーム」、「内部開発者プラットフォーム（IDP: Internal Developer Platform）」、「デリバリープラットフォーム」、「アプリケーションプラットフォーム」、または「クラウドプラットフォーム」と呼ばれることがあります。また、「Platform-as-a-Service（PaaS）」という用語も頻繁に用いられ、購入もしくは組織外のものを利用するプラットフォームを説明するために使用されます。これはよりマネージドで、しばしばカスタマイズ性が低いプラットフォームソリューションを提供します。
 
-## Platform engineers
-The role focused on developing and 
-maintaining interfaces and tools to enable provisioning and integration of platform 
-capabilities in applications, according to the requirements and instructions provided 
-by platform product managers. Platform developers are usually grouped in platform teams.
+## プラットフォームエンジニアリング
+プラットフォームの設計、構築、運用、および進化の営み。プラットフォームエンジニアリングの実践例を見る一つの方法は、社会技術的な組織設計に対する共感駆動のアプローチとしてです。<sup><a href="https://hazelweakly.me/talks/qcon-sf-2023/slides#22">1</a></sup> このような観点から見れば、これは組織がどこに、どのように投資し、戦略的なビジネス判断をするかを学ぶ連続的なプロセスです。これは組織の外部だけでなく、内部にも及びます。
 
-## Platform product managers
-The role chiefly responsible for understanding the experience of
-platform users, building a roadmap that addresses platform product gaps, requirements, 
-and opportunities, and managing platform teams as a part of daily work.
+## プラットフォームチーム
+プラットフォームを構築および管理する責任を持つ人々。プラットフォームチームのメンバーには、プラットフォームの利用体験を構成するツールや機能を開発する、 **プラットフォームエンジニア** が含まれます。また、内部顧客のニーズを満たすことに焦点を当てつつ、組織の広範な戦略的目標もサポートする **プラットフォームプロダクトマネージャ** の役割が専任される場合もあります。プラットフォームが進化するにつれて、オペレータ、QAアナリスト、UI/UXデザイナー、技術ライター、およびデベロッパーアドボケイトなど、その他の専門的役割がプラットフォームチームに追加されることがあります。
 
-## Platform teams
-A cross-functional team that develops and maintains interfaces to and experiences with
-platform capabilities - like Web portals, custom APIs, and golden path templates.  
+## DevOps
+DevOpsは、「チームがアプリケーション開発から本番運用までの全プロセスを所有する方法論」です。 <sup><a href="https://glossary.cncf.io/ja/devops/">2</a></sup> DevOpsのプラクティスは、専用のプラットフォームを開発せずとも実現されうるものです。しかし、プラットフォームエンジニアリングを、組織全体に渡る統合されたプラットフォームの提供と管理により、DevOpsの原則をスケールさせるアプローチとみなすことは有益です。この共通プラットフォームは、標準化された効率的なソフトウェアデリバリーの環境を提供することで、開発、デプロイ、および運用プロセスを効率化することを目指しています。DevOpsとプラットフォームエンジニアリングは、ソフトウェアのデリバリーと運用パフォーマンスの最適化を目的とする点で一致していますが、プラットフォームエンジニアリングは、この目的を達成するために、具体的な製品であるプラットフォーム自体の開発に焦点を当てています。
 
-Platform teams are managed by platform product managers and involve
-platform developers. As the platform evolves and become more advanced, other roles 
-can become part of a platform team, including, but not limited to, operators, 
-QA analysts, UI/UX designers, technical writers, developer advocates.
+## プラットフォームのユーザー
+プラットフォームの機能を直接利用する人々は、アプリケーション開発者および運用者、データサイエンティスト、商用ソフトウェアの運用者、およびインフォメーションワーカーなどが含まれますが、これに限定しません。つまり、プラットフォーム上でソフトウェアを実行する人々、プラットフォームが提供する機能を利用する人々、またはプラットフォームの使用状況に関する洞察が必要な人々です。プラットフォームのユーザーには、低レイヤの機能の上に上位レイヤのプラットフォームサービスを構築する他のプラットフォームエンジニアも含まれる場合があります。
 
-## Platform users
-The target audience for a platform which includes but is not limited to app developers and operators, data
-scientists, COTS software operators, and information workers - whoever runs
-software on the platform or uses platform provided capabilities.
+## ポータル
+さまざまなリソース、ツール、およびサービスに対して統合的なアクセス手段を提供するウェブベースのインターフェース。ポータルは、幅広いユーザーがプラットフォームの機能を効率的に管理および操作するための出発点として機能します。また、複雑なプロセスを簡素化し、セルフサービスを促進するユーザーフレンドリーなインターフェースを通じて、ユーザー体験を向上させるために存在します。
 
-## Thinnest Viable Platform (TVP) {#tvp}
-A concept originally defined in the book *Team Topologies*
-by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
-keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
-software delivery for teams building on the platform."
+## プラットフォームの機能
+プラットフォームが提供する具体的なアウトカム、または **_何を_** 提供するかに関する情報です。これらは、 **_どのように_** 機能が動作するかを表す、プラットフォームの品質と混同してはいけません。これらの機能は、複数の異なる抽象化レベルになり得ますし（例えば、単一のデータベースとデータベースを内包するテスト環境の場合）、異なる機能提供者によって提供されることもあります。プラットフォームが成熟するにつれて、一般的に、セルフサービスで機能を提供することを目指します。これは、ユーザーが機能を見つけられるようにすることに始まり、機能間で一貫した体験を提供することも含みます。機能自体は変化が少ないのに対し、機能提供者や実装はより早く進化することがあります。たとえば、組織がテスト環境を必要としなくなる可能性は低いですが、VMベースのソリューションの代わりにコンテナを利用したソリューションを提供するように進化する可能性があります。
+
+## プラットフォームの機能提供者
+プラットフォームが提供する機能を、開発および維持する人々。機能提供者は外部組織または内部チームであり、小規模な組織では、広範なプラットフォームを同じ人々が開発していることがよくあります。プラットフォームが成熟するにつれて、機能提供者がロックインされないように抽象化を維持し、Thinnest Viable Platformを目指し続けることができるようになります。
+
+## プラットフォームの品質
+プラットフォームとその機能が **_どのように_** 動作するか、また、機能横断的な要件、非機能要件、あるいは単に「～可能性」の観点から期待されることを指します。例としては、サービスレベル目標（SLO）で測定されうるマネージドサービスの信頼性や性能、リスクの緩和までの時間で測定されるセキュリティレベル、およびデバッグやプラットフォームの使用状況のレポートに使用できるオブザーバビリティが含まれます。オブザーバビリティなどの概念は、機能として提供されることもあれば（例えば、アプリケーションテレメトリを収集するために提供されるOTel Operator）、宣言された品質として提供されることもある（例えば、提供されたOTel Operatorの稼働時間を測定し、アラーティングするためのプラットフォームメトリクス）ため、品質と機能とがしばしば混同されます。
+
+## 認知負荷
+ユーザーがプラットフォームの機能を利用するより以前の、精神的なコストの量を指します。認知負荷と総称されるものには、実際には3つのタイプの負荷があります。学習関連負荷、課題内在性負荷、課題外在性負荷です。プラットフォームによって、ユーザーが学習関連負荷（ジョブ固有の問題解決）に集中でき、課題内在性負荷（新しい情報やプロセスの理解）を簡素化し、課題外在性負荷（取り組んでいるタスクから気を散らすもの。しばしば「[yak shaving](https://en.wiktionary.org/wiki/yak_shaving#:~:text=yak%20shaving%20(uncountable),to%20solve%20a%20larger%20problem)」と呼ばれます）を最小限に抑えるとき、組織が最も健全と言えます。
+
+## Thinnest Viable Platform (TVP)
+マシュー・スケルトンとマヌエル・パイスによる書籍「_Team Topologies_」で最初に定義された概念で、これは組織に対して、プラットフォームを小規模にすることと、その効果の間で慎重にバランスをとることを奨励しています。それにより、プラットフォームを使用するチームのソフトウェアデリバリーを加速、簡素化でき、より広範なビジネス目標を達成できます。彼らは、プラットフォームがビジネス独自の要件に集中し、プラットフォームの複雑さと運用コストを削減できるサードパーティの機能提供者を日常的に統合することを奨励しています。
