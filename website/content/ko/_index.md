@@ -46,7 +46,7 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 
 ### 추가 자료
 
-- [TAG 운영 원칙](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- [TAG 운영 원칙](https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md)
 - 슬랙 채널: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
     - [CNCF Slack 가입](https://slack.cncf.io/)
 - [이메일 목록](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
