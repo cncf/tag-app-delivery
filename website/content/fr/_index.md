@@ -52,7 +52,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 
 ### Additional Resources
 
-- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
+- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md)
 - Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
     - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
