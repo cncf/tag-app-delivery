@@ -22,7 +22,7 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 
 ## ミーティング
 
-毎月第1、第3水曜日の16:00 UTC ([居住地の時刻に変換](https://dateful.com/convert/utc?t=16)).
+隔週水曜日16:00 UTC ([居住地の時刻に変換](https://dateful.com/convert/utc?t=16)).
 
 ミーティングは[CNCFのカレンダー](https://www.cncf.io/calendar/)と[CNCFコミュニティカレンダー](https://community.cncf.io/tag-app-delivery/)に掲載されます。
 
