@@ -1,24 +1,13 @@
 {
-  "name": "tag-app-delivery-website",
-  "version": "1.0.0",
-  "description": "TAG website based on Hugo",
-  "main": "none.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "hugo serve --minify -DFE -w",
+    "serve:with-pagefind": "hugo --baseURL=/ && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cncf/tag-app-delivery"
-  },
-  "author": "CNCF TAG App Delivery",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cncf/tag-app-delivery/issues"
-  },
-  "homepage": "https://github.com/cncf/tag-app-delivery",
-  "devDependencies": {
-    "autoprefixer": "^10.4",
-    "postcss": "^8.4",
-    "postcss-cli": "^10.1"
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "hugo-extended": "^0.115.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^9.1.0"
   }
 }
