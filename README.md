@@ -6,7 +6,7 @@ and operating them. The TAG produces guidance for and gathers feedback from
 cloud app users and developers and provides guidance and coordination to CNCF
 projects in the TAG's technical domains.
 
-Full charter here: <https://github.com/cncf/toc/blob/main/tags/app-delivery.md>
+Full charter here: <https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md>
 
 ## Community
 
