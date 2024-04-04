@@ -27,7 +27,7 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 
 ## 회의
 
-매월 첫째 주, 셋째 주 수요일 16:00 UTC ([현지 시간으로 변환](https://dateful.com/convert/utc?t=16)).
+2주마다 수요일 16:00 UTC ([현지 시간으로 변환](https://dateful.com/convert/utc?t=16)).
 
 회의는 일정은 [CNCF 커뮤니티 캘린더](https://community.cncf.io/tag-app-delivery/) 또는 [메인 CNCF 캘린더](https://www.cncf.io/calendar/)에서 확인 가능하다.
 
