@@ -31,8 +31,7 @@ body:
     attributes:
       value: |
         If this is a new translation, please complete the following items:
-        - [ ] Enable i18n by update website/config.toml and website/i18n/<short-language-code>.toml
-        - [ ] Copy all contents to content/<short-language-code>
+        - [ ] Enable i18n by update website/config.toml and website/i18n/<short-language-code>.toml>
 
         All translations require the following items:
         - [ ] Translate some key pages (e.g. content/<short-language-code>/_index.md)
