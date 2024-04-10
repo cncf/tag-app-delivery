@@ -25,7 +25,7 @@ list_pages: true
 
 ## 会议
 
-每月第 1 和第 3 个星期三 16:00 UTC（[转换为当地时间](https://dateful.com/convert/utc?t=16)）。
+每两周的星期三 16:00 UTC（[转换为当地时间](https://dateful.com/convert/utc?t=16)）。
 
 会议会在 [CNCF 主日历](https://www.cncf.io/calendar/) 和 [CNCF 社区日历](https://community.cncf.io/tag-app-delivery/)上列出。
 
