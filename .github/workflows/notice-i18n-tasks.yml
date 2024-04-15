@@ -36,7 +36,5 @@ jobs:
         message: |
           ### Action Required
           You are adding or updating English content so please take the following actions for other languages.
-          - If you add new content under `website/content/en` or targets of the symbolic links in the same directory, please replicate it in the corresponding directories of all other languages. (e.g. If you create `website/content/en/blog/new-post.md`, you should copy it to `website/content/ja/blog/new-post.md`, etc.)
-          - If you update the content in the same location, please perform the following actions for the corresponding content in other languages.
-            - If the content has not been translated yet, replace the files with the updated English version.
-            - If the content has already been translated, include a note suggesting that users check the English page for the most recent updates.
+          - If you update content, that has corresponding files in other languages, include a note suggesting that users check the English page for the most recent updates in those translated pages.
+          - If you add new content under `website/content/en` there is nothing you need to do.

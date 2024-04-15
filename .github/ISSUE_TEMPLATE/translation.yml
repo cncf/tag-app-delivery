@@ -32,9 +32,8 @@ body:
       value: |
         If this is a new translation, please complete the following items:
         - [ ] Enable i18n by update website/config.toml and website/i18n/<short-language-code>.toml
-        - [ ] Copy all contents to content/<short-language-code>
 
         All translations require the following items:
-        - [ ] Translate some key pages (e.g. content/<short-language-code>/_index.md)
+        - [ ] Translate some key pages (e.g. content/_short-language-code_/_index.md)
         - [ ] Local testing
         - [ ] Reviews by additional native speakers
