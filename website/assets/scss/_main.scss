@@ -10,8 +10,7 @@ html .row {
 // Stops links pushing out container.
 // Experimental usage on P tag.
 // Due to Archived project github link.
-a,
-p {
+a {
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 	word-break: break-all;
