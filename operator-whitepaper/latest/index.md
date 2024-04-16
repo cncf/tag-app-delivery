@@ -4,7 +4,6 @@ pdf: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/v1/C
 version_info: https://github.com/cncf/tag-app-delivery/blob/main/operator-whitepaper/latest/README.md
 description: "In this document, we outline not only the taxonomy of an operator but the recommended configuration, implementation and use cases for an operator application management system."
 type: whitepapers
-url: /whitepapers/operator
 ---
 
 ## Table of Contents
