@@ -35,11 +35,9 @@ list_pages: true
 
 ## 领导者
 
-- [Alois Reitbauer](https://github.com/AloisReitbauer) （主席）
 - [Josh Gavant](https://github.com/joshgav) （主席）
 - [Thomas Schuetz](https://github.com/thschue) （主席）
-- [Alex Jones](https://github.com/alexsjones) (TL)
-- [Lian Li](https://github.com/lianmakesthings) (TL)
+- [Lian Li](https://github.com/lianmakesthings) (主席)
 - [Karena Angell](https://github.com/angellk) (TL)
 
 ### 更多资源
