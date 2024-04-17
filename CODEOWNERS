@@ -10,13 +10,10 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @thschue @joshgav @lianmakesthings @kgamanji @angellk
+*   @thschue @joshgav @lianmakesthings @kgamanji @angellk @linsun
 
 # Platforms WG
-/platforms-*/ @AloisReitbauer @thschue @joshgav @lianmakesthings @kgamanji  @angellk @abangser @roberthstrand @krumware
-
-# GitOps WG
-/gitops-*/ @AloisReitbauer @thschue @joshgav @lianmakesthings @kgamanji @angellk @todaywasawesome @chris-short @scottrigby
+/platforms-*/ @thschue @joshgav @lianmakesthings @kgamanji  @angellk @abangser @roberthstrand @krumware @linsun
 
 # Artifacts WG
-/artifacts-*/ @AloisReitbauer @thschue @joshgav @lianmakesthings @kgamanji @angellk @sabre1041 @rchincha
+/artifacts-*/ @thschue @joshgav @lianmakesthings @kgamanji @angellk @sabre1041 @rchincha @linsun
