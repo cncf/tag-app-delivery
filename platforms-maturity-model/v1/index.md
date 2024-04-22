@@ -5,7 +5,7 @@ version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-matur
 description: "This maturity model intends to provide tactical guidance to users seeking to adopt the patterns discussed in the Platforms Definition White Paper. That paper suggests why and what to build; this document will begin to describe how to plan to build it. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.<br/><br/>
 This document refers to, enhances, and follows similar standards as the following related documents:<br/>
 [Cloud Maturity Model](https://maturitymodel.cncf.io/)<br/>
-[Platforms Definition White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
+[Platforms Definition White Paper](https://tag-app-delivery.cncf.io/wgs/platforms/whitepaper/)"
 type: whitepapers
 ---
 
@@ -30,7 +30,7 @@ window.onhashchange = function() {
 
 ## Introduction
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/wgs/platforms/whitepaper/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
 ## What is platform engineering?
 
@@ -38,7 +38,7 @@ Inspired by the cross-functional cooperation promised by DevOps, platforms and p
 
 [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of platforms and their capabilities — their people, processes, policies and technologies; as well as the desired business outcomes that drive them.
 
-Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
+Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/wgs/platforms/whitepaper/) first for complete context.
 
 ## How to use this model
 
