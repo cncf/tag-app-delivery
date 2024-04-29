@@ -156,6 +156,10 @@ following:
    cost of deployed services through automatic instrumentation and standard
    dashboards.
 
+{{% pageinfo color="info" %}}
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+{{% /pageinfo %}}
+
 By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
 for their users to deliver valuable products.
