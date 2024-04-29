@@ -162,7 +162,7 @@ sets of them, internal platforms ultimately make it easier and more efficient
 for their users to deliver valuable products.
 
 {{% pageinfo color="info" %}}
-Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/ja/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
 {{% /pageinfo %}}
 
 ## Attributes of platforms
