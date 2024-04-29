@@ -1,8 +1,8 @@
 {{ $path := "" }}
 {{ with .File }}
-  {{ $path = .Path }}
+  {{ $path = printf "%s/%s" .Lang .Path }}
 {{ else }}
-  {{ $path = .Path }}
+  {{ $path = printf "%s/%s" .Lang .Path }}
 {{ end }}
 {{ $pathFormatted := replace $path "\\" "/" }}
 {{- $prefix := index (split $path "/") 0 -}}
