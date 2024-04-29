@@ -76,7 +76,7 @@ Atlassian\[[1](https://www.atlassian.com/devops/frameworks/team-topologies)]에 
 내부 플랫폼은 개별 기능 또는 기능 세트에 대해 규정을 준수할 뿐만 아니라 일관된 경험을 제공함으로써 궁극적으로 사용자에게 가치 있는 제품을 보다 쉽고 효율적으로 제공할 수 있도록 지원합니다.
 
 {{% pageinfo color="info" %}}
-Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/ko/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
 {{% /pageinfo %}}
 
 ## 플랫폼의 속성

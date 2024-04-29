@@ -71,7 +71,7 @@ type: whitepapers
 通过为单个能力或它们的集合提供一致、合规的体验，内部平台最终使用户更轻松、更有效地交付有价值的产品。
 
 {{% pageinfo color="info" %}}
-Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/zh/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
 {{% /pageinfo %}}
 
 ## 平台的属性
