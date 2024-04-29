@@ -19,7 +19,7 @@
   - If yes, what other roles are on the team? *need questions when they have PO/PM as it relates to….
 - What is the name of your team within the org?
 - How is the platform defined in your organization? (**Nudge**: What’s its purpose? Its boundaries?)
-- Who are your customers? (**Nudge**: Who are the people and teams that use your platform and its capabilities?)
+- How many developers are in your organization and what percentage use your platform? (**Nudge**: Who are the people and teams that use your platform and its capabilities?)
 
 ## Operations and Interfaces
 - Describe the last feature or capability that you released to your users.
@@ -36,10 +36,10 @@
 - How often do you revisit your priorities?  (**Nudge**: When was your last planning meeting?)
 - How would another team or a platform user know what you're working on? (**Nudge**: do they have a roadmap?)
 
-## Feedback
-- Do you collect feedback from platform users?
-- When was the last time?
-- What form did the feedback take? (**Nudge**: surveys, interviews, etc…)
+## Communication
+- How do you communicate platform changes to users? (**Nudge**: newsletters, website, feedback groups, etc)
+- What forms of help are available to users when adopting your platform? (**Nudge**: docs (quickstart, howto, knowledgebase), videos, slack, roadshows, etc)
+- How often do you collect feedback from platform users and what format(s) do you use? (**Nudge**: surveys, interviews, etc…)
 - What did you do with the collected feedback? (**Nudge**: was there any synthesis to get insights? Did those insights shape prioritization?)
 
 ## Platform Success
