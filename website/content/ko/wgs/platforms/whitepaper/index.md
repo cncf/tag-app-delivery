@@ -75,7 +75,9 @@ Atlassian\[[1](https://www.atlassian.com/devops/frameworks/team-topologies)]에 
 
 내부 플랫폼은 개별 기능 또는 기능 세트에 대해 규정을 준수할 뿐만 아니라 일관된 경험을 제공함으로써 궁극적으로 사용자에게 가치 있는 제품을 보다 쉽고 효율적으로 제공할 수 있도록 지원합니다.
 
-
+{{% pageinfo color="info" %}}
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+{{% /pageinfo %}}
 
 ## 플랫폼의 속성
 
@@ -214,4 +216,3 @@ Atlassian\[[1](https://www.atlassian.com/devops/frameworks/team-topologies)]에 
 | 신원인증 및 시크릿(Secret) 서비스 | 워크로드에 리소스와 기능을 사용할 수 있는 로케이터와 암호가 있는지 확인합니다. 서비스가 다른 서비스에 자신을 식별할 수 있도록 지원                               | Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager                                                |
 | 보안 서비스                 | 런타임 동작을 관찰하고 이상 징후 를 보고/수정합니다. 빌드 및 아티팩트에 취약점이 없는지 확인합니다. 엔터프라이즈 요구 사항에 따라 플랫폼에서 활동을 제한하고 이상 징후를 알리거나 수정 | Falco, In-toto, KubeArmor, OPA, Kyverno, Cloud Custodian                                                 |
 | 아티팩트 스토리지              | 프로덕션에서 사용할 수 있도록 빌드된 아티팩트를 저장, 게시 및 보호합니다. 타사 아티팩트를 캐시하고 분석합니다. 그리고 소스 코드를 저장하는 기능도 제공                   | ArtifactHub, Harbor, Distribution, Porter                                                                |
-
