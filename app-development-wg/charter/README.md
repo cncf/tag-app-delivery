@@ -104,10 +104,10 @@ These are topics or initiatives that this WG will not target and work on. We mig
 
 This working group aims to bring developers closer to the App Delivery TAG. Creating resources and collaborating on initiatives that matter to cloud-native developers and architects. Concrete initiatives and deliverables that this working group will concentrate on: 
 
-Complementing the CNCF landscape with a view targeted for cloud-native developers and architects
-Complementing the Platform WG Glossary for Application Development
-Complementing other working groups under the TAG App Delivery personas definitions
-Helping with the organization and selection of proposals for AppDeveloperCon
+* Complementing the CNCF landscape with a view targeted for cloud-native developers and architects
+* Complementing the Platform WG Glossary for Application Development
+* Complementing other working groups under the TAG App Delivery personas definitions
+* Helping with the organization and selection of proposals for AppDeveloperCon
 
 
 ## Interface with other TAGs and Interested parties
