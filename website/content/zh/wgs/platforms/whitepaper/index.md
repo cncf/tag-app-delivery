@@ -70,6 +70,10 @@ type: whitepapers
 
 通过为单个能力或它们的集合提供一致、合规的体验，内部平台最终使用户更轻松、更有效地交付有价值的产品。
 
+{{% pageinfo color="info" %}}
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/zh/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+{{% /pageinfo %}}
+
 ## 平台的属性
 
 在定义平台是什么以及组织为什么要建立一个平台之后，让我们识别一些影响平台成功的关键属性。
