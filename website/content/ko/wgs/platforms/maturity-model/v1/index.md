@@ -2,10 +2,10 @@
 title: "플랫폼 엔지니어링 성숙도 모델"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-maturity-model/README.md
-description: "이 성숙도 모델은 플랫폼 정의 백서에서 논의된 패턴을 채택하려는 사용자에게 전술적 지침을 제공하기 위한 것이다. 해당 백서는 왜 그리고 무엇을 구축해야 하는지를 제안하며; 이 문서는 어떻게 구축을 계획하는지를 설명하기 시작할 것이다. The target audience is CTOs, Directors of engineering, lead engineers, and architects seeking to evaluate their current state and environment and identify opportunities for improvement.<br/><br/>
-This document refers to, enhances, and follows similar standards as the following related documents:<br/>
-[Cloud Maturity Model](https://maturitymodel.cncf.io/)<br/>
-[Platforms Definition White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
+description: "이 성숙도 모델은 플랫폼 정의 백서에서 논의된 패턴을 채택하려는 사용자에게 전술적 지침을 제공하기 위한 것이다. 해당 백서는 왜 그리고 무엇을 구축해야 하는지를 제안하며; 이 문서는 어떻게 구축을 계획하는지를 설명하기 시작할 것이다. 대상 청중은 현재 상태와 환경을 평가하고 개선 기회를 파악하고자 하는 CTO, 엔지니어링 책임자, 수석 엔지니어와 아키텍트이다.<br/><br/>
+이 문서는 다음 관련 문서를 참조하고 개선하며 유사한 표준을 따른다:<br/>
+[클라우드 성숙도 모델](https://maturitymodel.cncf.io/)<br/>
+[플랫폼 정의 백서](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
 type: whitepapers
 ---
 
