@@ -8,8 +8,8 @@ or the meetings described below.
 ## Chairs
 
 * Mauricio Salatino (@salaboy)
-* Daniel Oh (@)
-* Thomas Vitale (@vitalethomas)
+* Daniel Oh (@danieloh30)
+* Thomas Vitale (@thomasvitale)
 
 
 ## Meetings
