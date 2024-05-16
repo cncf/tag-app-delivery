@@ -94,7 +94,7 @@ Assist with the organization of AppDeveloperCon, reviewing and proposing topics.
 These are topics or initiatives that this WG will not target and work on. We might add new items or update this list if we find projects, standards, or initiatives this WG finds interesting to work on in future iterations. 
 - Create new standards.
 - Define how application development should be done.
-- Creation of a new CNCF open-source project.
+- Creation of a new CNCF open source project.
 - Promote tools that are only useful for a specific stack/programming language.
 - Promote adopting security best practices throughout the development lifecycle, secure coding standards, and vulnerability scanning to mitigate risks and protect applications from potential threats.
 - Promote sustainability and efficiency in application development and tooling to optimize resource utilization and minimize environmental impact.
