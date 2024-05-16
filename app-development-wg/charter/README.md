@@ -12,7 +12,7 @@ Containers helped to streamline bootstrapping application infrastructure. Databa
 
 ![](imgs/cloud-native-runtimes.png)
 
-Popular programming languages and communities, including Go, C#, Java, DotNet, Javascript (Node.js), and Rust, have embraced common patterns and best practices to create applications that will run as containers. This means that regardless of your language choice, frameworks, and tools exist to help developers follow well-established principles like the “12-factor principles” (https://12factor.net). These principles align with the container’s best practices, simplifying the transition and ensuring your applications are designed from the ground up to run on  cloud-native runtime environments.
+Popular programming languages and communities, including Go, C#, Java, DotNet, Javascript (Node.js), and Rust, have embraced common patterns and best practices to create applications that will run as containers. This means that regardless of your language choice, frameworks, and tools exist to help developers follow well-established principles like the “12-factor principles” (https://12factor.net). These principles align with the container’s best practices, simplifying the transition and ensuring your applications are designed from the ground up to run on  cloud native runtime environments.
 
 Developing complex and distributed applications introduces challenges for inner-loop development practices and directly impacts developers’ productivity. The mismatch between development and production environments adds unnecessary complexities to developer workflows and pushes teams to develop different approaches to accelerate their feedback loops. Several options exist to bridge the gap:
 
