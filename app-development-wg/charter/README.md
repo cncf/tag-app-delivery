@@ -16,7 +16,7 @@ Popular programming languages and communities, including Go, C#, Java, DotNet, J
 
 Developing complex and distributed applications introduces challenges for inner-loop development practices and directly impacts developers’ productivity. The mismatch between development and production environments adds unnecessary complexities to developer workflows and pushes teams to develop different approaches to accelerate their feedback loops. Several options exist to bridge the gap:
 
-- Local cloud-native runtime: a scaled-down version of the runtime is provided for developers to run locally in their workstations. 
+- Local cloud native runtime: a scaled-down version of the runtime is provided for developers to run locally in their workstations. 
   - Using Kubernetes as the base for a cloud-native runtime, teams can run a scaled-down Kubernetes cluster locally with enough services to mimic production behavior for development tasks. Tools like MiniKube, KinD, and K3s are popular in this space. 
 - Ephemeral (remote) cloud-native runtime: a virtual scaled-down environment can be provisioned on-demand for a team to work on their development tasks. These environments are easy to create and easy to dispose of when they are no longer needed.
   - If Kubernetes is being used, a platform team will be in charge of making the process simple and cost-efficient. 
