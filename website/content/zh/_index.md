@@ -39,6 +39,7 @@ list_pages: true
 - [Thomas Schuetz](https://github.com/thschue) （主席）
 - [Lian Li](https://github.com/lianmakesthings) (主席)
 - [Karena Angell](https://github.com/angellk) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (TL)
 
 ### 更多资源
 

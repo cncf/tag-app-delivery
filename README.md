@@ -35,6 +35,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - Josh Gavant (@joshgav) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
 - Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
 - Karena Angell (@angellk) (TL)
+- Roberth Strand (@roberthstrand) (TL)
 
 ## TOC Liaisons
 - Katie Gamanji (@kgamanji)
