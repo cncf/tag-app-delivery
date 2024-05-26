@@ -31,7 +31,7 @@ This matrix format means that, as the IDP evolves, some aspects might mature bef
 
 This scenario becomes likely once your IDP includes cost optimization capabilities; unlike other managed SaaS, those typically repay their subscription price and beyond. So, no need to wait until a fully “scalable” stage before they’re introduced. Let’s illustrate it with a hypothetical example:
 
-Example: soonicorn.io IDP status
+#### Example: soonicorn.io IDP status
 
 |             |                                                                                                                                                                                                                                                                           |             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
