@@ -47,6 +47,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - [Thomas Schuetz](https://github.com/thschue) (Chair)
 - [Lian Li](https://github.com/lianmakesthings) (Chair)
 - [Karena Angell](https://github.com/angellk) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (TL)
 
 ### Emeritus Leads
 - [Alois Reitbauer](https://github.com/AloisReitbauer)

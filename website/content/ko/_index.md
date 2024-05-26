@@ -41,6 +41,7 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 - [Thomas Schuetz](https://github.com/thschue) (의장)
 - [Lian Li](https://github.com/lianmakesthings) (의장)
 - [Karena Angell](https://github.com/angellk) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (TL)
 
 ### 추가 자료
 
