@@ -3,7 +3,9 @@ title: Operator Working Group
 list_pages: true
 inactive: true
 ---
-## This working group is currently inactive
+{{% alert color="warning" %}}
+  This working group is currently inactive
+{{% /alert %}}
 
 ### Current Goal 
 Create A Whitepaper (Initially Definition of an Operator)
