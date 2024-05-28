@@ -1,7 +1,7 @@
 ---
 title:  Enterprise IDPs must mature fast. Here’s how infrastructure optimization can help
 slug:   enterprise-idp-maturity-hack
-date:   2024-05-20 12:00:00 +0000
+date:   2024-05-28 12:00:00 +0000
 author: Li-Or Amir
 categories:
 - Article
