@@ -374,7 +374,7 @@ Platforms and capabilities are centrally documented and discoverable, and proces
 * A central team provides a register of available shared services across the organization.
 * Loose standards, such as requiring an automatable API and usage docs, are applied to capabilities.
 * Infrastructure as Code is used to allow easier traceability of deployed services.
-* Audits for compliance regulations such as PCI DSS or HIPPA are enabled through the service inventories.
+* Audits for compliance regulations such as PCI DSS or HIPAA are enabled through the service inventories.
 * Migration and upgrade work is tracked against a burndown chart enabling the organization to track rate of compliance and time until completion.
 * Tracking does not indicate level of support; often upgrades at this stage are still manual and bespoke.
 
