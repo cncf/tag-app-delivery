@@ -103,7 +103,6 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 <div style="min-width:620px">
 {{< tabs tabTotal="6">}}
-
 {{< tab tabName="Investment" >}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
