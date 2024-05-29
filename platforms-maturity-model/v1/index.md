@@ -319,7 +319,7 @@ Solutions are offered in a way that provides autonomy to users and requires litt
 
 * An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
 
-### Level 4, Optimizing — Managed services
+### Level 4, Optimizing — Integrated services
 
 Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks. These building blocks are used to build transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
 
