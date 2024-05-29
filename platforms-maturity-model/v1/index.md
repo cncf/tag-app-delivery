@@ -465,7 +465,7 @@ Dedicated teams or tools are employed to gather and review feedback and summariz
 
 * Before delivering any new platform feature, the team discusses how to evaluate the outcome from their work.
 * The organization has broad alignment on measures that indicate success of platform initiatives.
-* A [product manager]({{< ref "/wgs/platforms/glossary#platform-product-managers" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
+* A [product manager]({{< ref "/wgs/platforms/glossary#platform-team" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
 * The organization has established metrics and goals to observe and target to indicate success.
 
 #### Example Scenarios:
