@@ -83,7 +83,7 @@ To complete the picture, here are some grave open-source concerns I heard direct
 
 4. **Inability to measure added value** – in the case of cloud-native SaaS which serves as part of a stack, or does something specific along the software supply chain, its  contribution to metrics improvement cannot always be isolated.
 
-**One takeaway:** in the previous section we established the importance of cost optimization as an IDP’s day-1 capability. To realize this according to CNoE tenets, we want to integrate into our IDP a cost optimization solution that is managed, converged, highly automated, and suits all containerized and non-containerized settings.
+**One takeaway:** in the previous section we established the importance of [cost optimization as an IDP’s day-1 capability](https://spot.io/blog/platform-engineers-should-prioritize-infrastructure-optimization/). To realize this according to CNoE tenets, we want to integrate into our IDP a cost optimization solution that is managed, converged, highly automated, and suits all containerized and non-containerized settings.
 
 
 ### Well-architected AWS, Azure, and GCP
@@ -100,13 +100,13 @@ Cost optimization is a Well-Architected pillar in [AWS](https://docs.aws.amazon.
 
 5. Monitor and optimize over time
 
-Intuitively, what’s right for your entire public cloud estate is right for an IDP that runs in it. This leads to a two-fold conclusion: the IDP itself must run cost-efficiently on cloud resources; and it should help cultivate the same cost efficiency practices in the entire Dev organization. 
+Intuitively, what’s right for your entire public cloud estate [is right for an IDP that runs in it](https://spot.io/blog/fresh-from-paris-platform-engineering-wisdom-from-kubecon/). This leads to a two-fold conclusion: the IDP itself must run cost-efficiently on cloud resources; and it should help cultivate the same cost efficiency practices in the entire Dev organization. 
 
 From a FinOps standpoint, you want your IDP to provide visualized cost observability and accurate usage attribution of each node’s components by label, namespace etc. This means it will facilitate collaboration between the engineering body and other cost stakeholders, FinOps first.
 
 From an activity standpoint, you want it to leverage discount compute (spots, RIs, SPs) and to continuously “squeeze the lemon” of each machine’s CPU, memory, storage, and network capacity. This is achievable by automating Kubernetes optimization techniques like [bin packing, rightsizing,](https://spot.io/blog/beyond-savings-overlooked-aspects-of-container-optimization/) shutdown scheduling, and dynamic storage.
 
-**One takeaway:** Your IDP’s ideal integrated cost optimization solution has dual DevOps/FinOps qualities: On one hand, it has workable IaC integrations to automate the actions needed to lower cloud spend and minimize it going forward; On the other hand, it provides cost visibility & analysis that support cloud cost attribution and accountability. 
+**One takeaway:** Your IDP’s ideal integrated cost optimization solution has [dual DevOps/FinOps qualities](https://spot.io/blog/top-5-limitations-tactical-cloud-cost-management-finops/): On one hand, it has workable IaC integrations to automate the actions needed to lower cloud spend and minimize it going forward; On the other hand, it provides cost visibility & analysis that support cloud cost attribution and accountability. 
 
 
 ## How do I make this my own?
@@ -115,10 +115,10 @@ If you work with external platform or portal tooling, e.g. Backstage, Port, Cros
 
 1. Check integration catalog for cloud resource management solutions. These might also be classified as provisioning, autoscaling & optimization. 
 
-2. Consider starting with open-source reporting tools like Kubecost to learn about your optimization potential. 
+2. Consider starting with open-source reporting tools like Opencost to learn about your optimization potential. 
 
 3. Research externally for tools capable of automating the heavy lifting of continuous optimization. Today, these are nearly non-existent in the integration catalogs of platform vendors – because they are considered day-2 capabilities, and most platforms are simply not there. No reason to worry though – autoscaling & co. is a saturated, competitive segment. Once you start a POC, it’s in the vendor’s best interest to develop a plugin or provider for your chosen platform tool. Such a plugin might help put them in front of many other users.
 
 Platforming from scratch? Start off from step 2 above. When you hit step 3, look for the vendor’s GitHub repo, or Terraform module, to create the integration. If you don’t have Dev resources to dedicate, you may request it from the vendor once your POC becomes a paid subscription.
 
-_Special thanks to Artem Lajko and Abby Bangser for their insightful reviews._
+_Special thanks to [Artem Lajko](https://www.linkedin.com/in/artem-lajko-%E2%98%81%EF%B8%8F-%E2%8E%88-82139918a/) and [Abby Bangser](https://www.linkedin.com/in/abbybangser/) for their insightful reviews._
