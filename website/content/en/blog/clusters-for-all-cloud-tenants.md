@@ -6,7 +6,6 @@ categories:
 - Article
 tags:
 - WG Multi-tenancy
-- Community Contribution
 ---
 
 A decision which faces many large organizations as they adopt cloud architecture is how to provide isolated spaces within the same environments and clusters for various teams and purposes. For example, marketing and sales applications may need to be isolated from an organization's customer-facing applications; and development teams building any app usually require extra spaces for tests and verification.
