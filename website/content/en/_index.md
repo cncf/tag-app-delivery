@@ -32,7 +32,7 @@ Today there are two active working groups under the TAG -
 ## Meetings
 
 Every two weeks on Wednesday at 11:00am EDT ([convert to your local
-time](https://www.worldtimebuddy.com/?qm=1&lid=100,5,8,12&h=100&date=2024-5-30&sln=15-16&hf=1)).
+time](https://dateful.com/convert/est-edt-eastern-time?t=11)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
