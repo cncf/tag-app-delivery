@@ -83,7 +83,7 @@ The following list of goals will drive the working group agenda:
 - Identify and promote developer productivity tools within the cloud-native ecosystem. Raise awareness and facilitate the adoption of tools supporting and enhancing developer workflows in the cloud-native space.
 - Promote interoperability and standards across tools. Leverage shared APIs and SDKs across the industry to map the development ecosystem, document existing functionalities, and pinpoint areas for improvement.
 - Advocate for developer experience (DevEx) tools that streamline cloud-native development workflows.
-Assist with the organization of AppDeveloperCon, reviewing and proposing topics.
+Assist with the organization of Linux Foundation and CNCF events such as AppDeveloperCon, reviewing and proposing topics.
 - Identify how tools contribute to improving developer productivity metrics.
 - Provide early feedback and recommendations for projects and tools seeking CNCF adoption around cloud-native app development. 
 
