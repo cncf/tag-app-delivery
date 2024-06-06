@@ -76,7 +76,7 @@ In addition to uncovering tools, this group should champion best practices for b
 
 A core objective of this group is to identify and promote existing tools, standards, and practices within the CNCF ecosystem. By showcasing how these elements work together, we aim to map how existing tools and standards can enhance and complement practices and tools already familiar to developers and architects.
 
-In addition to identifying best practices, this group should champion open-source tools that promote seamless integration between development tools and adopt standards. These tools empower teams to construct custom interfaces tailored to their specific domains, ultimately reducing cognitive load and boosting developer productivity.
+In addition, this group should go beyond identifying best practices. They should actively advocate for open source tools that enable frictionless integration between development tools and adherence to established specifications. These tools empower teams to build custom interfaces specific to their domains, which ultimately reduces mental strain (cognitive load) and significantly boosts developer productivity.
 
 The following list of goals will drive the working group agenda:
 
@@ -85,8 +85,10 @@ The following list of goals will drive the working group agenda:
 - Advocate for developer experience (DevEx) tools that streamline cloud-native development workflows.
 Assist with the organization of Linux Foundation and CNCF events such as AppDeveloperCon, reviewing and proposing topics.
 - Identify how tools contribute to improving developer productivity metrics.
-- Provide early feedback and recommendations for projects and tools seeking CNCF adoption around cloud-native app development. 
-
+- Provide early feedback and recommendations for projects and tools seeking CNCF adoption around cloud-native app development.
+- Align and research practices for AI-infused application development by collaborating with the TAG Runtime - AI Working Group 
+- Advocate for secure application development practices as defined by TAG Security alongside any recommendations or material this group produces.
+- Advocate for sustainable and efficient application development practices as defined by TAG Environmental Sustainability alongside any recommendations or material this group produces.
 
 
 ### Areas Out of Scope
@@ -96,9 +98,6 @@ These are topics or initiatives that this WG will not target and work on. We mig
 - Define how application development should be done.
 - Creation of a new CNCF open source project.
 - Promote tools that are only useful for a specific stack/programming language.
-- Promote adopting security best practices throughout the development lifecycle, secure coding standards, and vulnerability scanning to mitigate risks and protect applications from potential threats.
-- Promote sustainability and efficiency in application development and tooling to optimize resource utilization and minimize environmental impact.
-
 
 ### Deliverables to the TAG
 
