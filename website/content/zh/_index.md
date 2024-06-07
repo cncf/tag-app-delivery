@@ -31,7 +31,7 @@ list_pages: true
 
 * [议程和说明](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
 * [Zoom 会议](https://zoom.us/j/7276783015) (密码：77777)
-* [历史会议纪要](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [历史会议纪要](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## 领导者
 
