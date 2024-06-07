@@ -26,7 +26,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 * Zoom Meeting: <https://zoom.us/j/7276783015>
     * Passcode: 77777
 * Recordings of previous meetings:
-    * <https://www.youtube.com/@cncf-tag-app-delivery/videos>
+    * <https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT>
     * Prior to April 2021: <https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci>
 
 ## Leads
