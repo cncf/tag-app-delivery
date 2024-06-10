@@ -51,10 +51,11 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 
 The TAG has created the following working groups to investigate and discuss the following topics:
 
-| Working Group                                                                  | Chairs                                                           | Meeting Time                                                         |
-|--------------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
-| [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg)   | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs) | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
-| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg) | | Merged into [OpenGitOps meetings](https://github.com/open-gitops/.github/blob/main/CONTRIBUTING.md#meetings) |
-| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg) |                                                                  | Inactive                                                             |
-| [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                  | Inactive                                                             |
-|[Artifacts](artifacts-wg/README.md) | [artifacts-wg/README.md#chairs](./artifacts-wg/README.md#chairs) | [artifacts-wg/README.md#meetings](./artifacts-wg/README.md#meetings) |
+| Working Group                                                                  | Chairs                                                                 | Meeting Time                                                         |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [Platforms](https://github.com/cncf/tag-app-delivery/tree/main/platforms-wg)   | [platforms-wg/README.md#chairs](./platforms-wg/README.md#chairs)       | [platforms-wg/README.md#meetings](./platforms-wg/README.md#meetings) |
+| [GitOps](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg)         |                                                                        | Merged into [OpenGitOps meetings](https://github.com/open-gitops/.github/blob/main/CONTRIBUTING.md#meetings) |
+| [Air Gapped](https://github.com/cncf/tag-app-delivery/tree/main/air-gapped-wg) |                                                                        | Inactive                                                             |
+| [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                        | Inactive                                                             |
+| [Artifacts](artifacts-wg/README.md)                                            | [artifacts-wg/README.md#chairs](./artifacts-wg/README.md#chairs)       | [artifacts-wg/README.md#meetings](./artifacts-wg/README.md#meetings) |
+| [App Development](app-development-wg/README.md)                                | [app-development-wg/README.md#chairs](./app-development-wg/README.md#chairs) | [app-development-wg/README.md#meetings](./app-development-wg/README.md#meetings) |
