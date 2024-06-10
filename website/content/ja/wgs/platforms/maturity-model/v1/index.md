@@ -30,7 +30,7 @@ window.onhashchange = function() {
 
 ## Introduction
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
 ## What is platform engineering?
 
@@ -38,7 +38,7 @@ Inspired by the cross-functional cooperation promised by DevOps, platforms and p
 
 [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of platforms and their capabilities — their people, processes, policies and technologies; as well as the desired business outcomes that drive them.
 
-Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
+Please read the [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
 
 ## How to use this model
 
@@ -110,7 +110,7 @@ Investment in platforms and platform engineering is the process of allocating bu
 
 ### Level 1, Provisional — Voluntary or temporary
 
-Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentionally funded. 
+Individual capabilities may exist to provide common foundations for common or critical functionality. These capabilities are built and maintained out of necessity rather than planned and intentionally funded.
 
 These capabilities are built and maintained by people assigned temporarily or voluntarily; no central funding or staffing are intentionally allocated to them. They depend on the current tactical requirements of their users.
 
@@ -134,7 +134,7 @@ Budget and people are allocated for persistent people and resource support. The 
 
 * The team is made up of nearly all technical generalists.
 * Team budget may include the infrastructure costs associated with their work leading to often being a key point in budget conversations.
-* Backlog items range a number of technologies, leading to frequent and large context switches. 
+* Backlog items range a number of technologies, leading to frequent and large context switches.
 * This team is often the first to fill a gap that is not yet being addressed, even if not in the declared scope for the team. This team takes ownership of resources that don't have an owner.
 * Assigned people rarely have the time or experience with customer research to validate their designs or implementations.
 
@@ -168,7 +168,7 @@ Platform teams find ways to increase organization-wide efficiency and effectiven
 
 #### Example Scenarios:
 
-* Marketing works with platform builders to introduce consistent user tracking in order to attribute marketing efforts to product outcomes. 
+* Marketing works with platform builders to introduce consistent user tracking in order to attribute marketing efforts to product outcomes.
 * Automation initiative reduces human time to provision databases by 30 minutes per instance, saving $10m/year.
 
 {{< /tab >}}
@@ -318,7 +318,7 @@ Solutions are offered in a way that provides autonomy to users and requires litt
 
 * An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
 
-### Level 4, Optimizing — Managed services
+### Level 4, Optimizing — Integrated services
 
 Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks. These building blocks are used to build transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
 
@@ -373,7 +373,7 @@ Platforms and capabilities are centrally documented and discoverable, and proces
 * A central team provides a register of available shared services across the organization.
 * Loose standards, such as requiring an automatable API and usage docs, are applied to capabilities.
 * Infrastructure as Code is used to allow easier traceability of deployed services.
-* Audits for compliance regulations such as PCI DSS or HIPPA are enabled through the service inventories.
+* Audits for compliance regulations such as PCI DSS or HIPAA are enabled through the service inventories.
 * Migration and upgrade work is tracked against a burndown chart enabling the organization to track rate of compliance and time until completion.
 * Tracking does not indicate level of support; often upgrades at this stage are still manual and bespoke.
 
@@ -381,7 +381,7 @@ Platforms and capabilities are centrally documented and discoverable, and proces
 
 * PostgreSQL 11 is going EOL by the end of the year. The organization is aware of which databases require upgrade and are scheduling the work on each team’s backlog to complete.
 
-### Level 3, Scalable — Centrally enabled 
+### Level 3, Scalable — Centrally enabled
 
 Platforms and capabilities are not only centrally registered but also centrally orchestrated. Platform teams take responsibility for understanding the broad needs of the organization and prioritize work across platform and infrastructure teams accordingly. Those responsible for a capability are expected to not only maintain it technically, but also provide standard user experiences for integrating the capability with other related services around the organization, ensure secure and reliable use, and even provide observability.
 
@@ -406,7 +406,7 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 
 #### Characteristics:
 
-* A shared ownership model clearly defines who is responsible for platforms and their capabilities and what is expected of users. 
+* A shared ownership model clearly defines who is responsible for platforms and their capabilities and what is expected of users.
 * Teams script both the execution of the upgrade and any rollback strategies to keep risk and impact low.
 
 #### Example Scenarios:
@@ -458,13 +458,13 @@ Challenges remain in translating feedback into actionable tasks. While there is 
 
 While robust, standard feedback mechanisms already exist, at this stage data is collected in crafted ways to yield specific strategic insights and actions. Desired results and outcomes are identified followed by standard metrics chosen to indicate progress towards those outcomes. Industry frameworks and standards may be used to benefit from industry research on the impact of certain behaviors.
 
-Dedicated teams or tools are employed to gather and review feedback and summarize actionable insights. A symbiotic relationship between platform products and their users is established. Feedback is considered a strategic asset that guides platform operations and roadmap. Regular feedback review sessions might be instituted, where cross-functional teams come together to discuss and strategize based on user insights. 
+Dedicated teams or tools are employed to gather and review feedback and summarize actionable insights. A symbiotic relationship between platform products and their users is established. Feedback is considered a strategic asset that guides platform operations and roadmap. Regular feedback review sessions might be instituted, where cross-functional teams come together to discuss and strategize based on user insights.
 
 #### Characteristics:
 
 * Before delivering any new platform feature, the team discusses how to evaluate the outcome from their work.
 * The organization has broad alignment on measures that indicate success of platform initiatives.
-* A [product manager]({{< ref "/wgs/platforms/glossary#platform-product-managers" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
+* A [product manager]({{< ref "/wgs/platforms/glossary#platform-team" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
 * The organization has established metrics and goals to observe and target to indicate success.
 
 #### Example Scenarios:
