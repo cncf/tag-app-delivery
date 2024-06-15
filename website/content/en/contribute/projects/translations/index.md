@@ -1,15 +1,15 @@
 ---
-title: Translations
+title: Localizations
 list_pages: false
 ---
 
 ## Introduction
 
-Part of what makes the CNCF so amazing is the diversity of people involved and supported by the community. One way we make this community more inclusive is by providing translations for content where possible. Translations of course require native speakers to create and maintain them and this post is about how you can do that within the TAG App Delivery content.
+Part of what makes the CNCF so amazing is the diversity of people involved and supported by the community. One way we make this community more inclusive is by providing localizations for content where possible. Localizations of course require native speakers to create and maintain them and this post is about how you can do that within the TAG App Delivery content.
 
 ## Guidelines
 
-While each translation is unique, we encourage you to familiarlize yourself with [past translation PRs](https://github.com/cncf/tag-app-delivery/issues?q=label%3Atranslation+) and the [Kubernetes SIG-Docs localization documentation](https://kubernetes.io/docs/contribute/localization) for general guidelines and lessons learned.
+While each localization is unique, we encourage you to familiarlize yourself with [past localization PRs](https://github.com/cncf/tag-app-delivery/issues?q=label%3Alocalization+) and the [Kubernetes SIG-Docs localization documentation](https://kubernetes.io/docs/contribute/localization) for general guidelines and lessons learned.
 
 The SIG-Docs team has a much broader remit than this TAG requires, so be aware that the workflow including slack channels, opening PRs, and website owner reviews will be done via the same process as all other TAG postings, just with the added requirement of a native language speaker review.
 
@@ -21,6 +21,6 @@ Whether you start with a single white paper, or want to expand on an existing la
 
 ## Contributing
 
-To get started, please [open an issue](https://github.com/cncf/tag-app-delivery/issues/new/choose) on the TAG App Delivery GitHub repository using the `Website Translation` issue type.
+To get started, please [open an issue](https://github.com/cncf/tag-app-delivery/issues/new/choose) on the TAG App Delivery GitHub repository using the `Website Localization` issue type.
 
-This issue type will provide context on the scope of your work and provide guidance on the steps required to complete a translations.
+This issue type will provide context on the scope of your work and provide guidance on the steps required to complete a localizations.
