@@ -31,7 +31,7 @@ Today there are two active working groups under the TAG -
 
 ## Meetings
 
-Every two weeks on Wednesday at 11:00am EDT ([convert to your local
+Every two weeks on Wednesday at 11:00am ET ([convert to your local
 time](https://dateful.com/convert/est-edt-eastern-time?t=11)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
