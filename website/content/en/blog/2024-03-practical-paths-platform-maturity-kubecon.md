@@ -7,7 +7,7 @@ categories:
 - Article
 tags:
 - WG Platforms
-- Community
+- Community Contributions
 ---
 
 If you were lucky enough to be at KubeCon in Paris last week, you might have heard [Nicki Watt from OpenCredo](https://opencredo.com/authors/nicki-watt/) give a practical walkthrough of the CNCF’s [Platform Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/). Nicki was an early contributor to the development of the model, and she spoke about her experience using it with client organizations.

@@ -28,7 +28,7 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 
 * [アジェンダと議事録](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
 * [Zoomミーティング](https://zoom.us/j/7276783015) (パスコード: 77777)
-* [過去のミーティングの録画](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [過去のミーティングの録画](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## リーダー
 
@@ -36,6 +36,7 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 - [Thomas Schuetz](https://github.com/thschue) (チェア)
 - [Lian Li](https://github.com/lianmakesthings) (チェア)
 - [Karena Angell](https://github.com/angellk) (テックリード)
+- [Roberth Strand](https://github.com/roberthstrand) (テックリード)
 
 ### その他の資料
 

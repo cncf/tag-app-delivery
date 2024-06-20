@@ -8,6 +8,7 @@ categories:
 tags:
 - Event
 - WG Platforms
+- Community Contribution
 ---
 
 Exactly a month ago, Kubernetes users and experts gathered in the City of Lights, Paris, for KubeCon’s Europe edition. [With over 12,000 in-person attendees, this KubeCon was amongst the largest in recent times](https://www.cncf.io/blog/2024/03/28/missed-kubecon-cloudnativecon-europe-2024-heres-everything-you-need-to-know/).

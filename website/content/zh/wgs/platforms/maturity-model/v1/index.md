@@ -28,6 +28,8 @@ window.onhashchange = function() {
 }
 </script>
 
+{{< translation-note >}}
+
 ## 概述
 
 CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/) 描述了什么是云计算下的内部平台，以及该平台应为企业带来哪些价值。但要实现这些价值，一个组织必须反思并刻意追求对它们有影响的成果和实践，同时记住每个组织都依赖于为其自身组织量身定制的内部平台 - 即使这个平台只是关于如何使用第三方服务的文档。这个成熟度模型提供了一个框架，用于反思和识别任何组织中改进的机会。

@@ -33,7 +33,7 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 
 * [아젠다 및 메모](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
 * [줌 회의](https://zoom.us/j/7276783015) (Passcode: 77777)
-* [이전 회의 영상](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [이전 회의 영상](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## 리드(leads)
 
@@ -41,6 +41,7 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 - [Thomas Schuetz](https://github.com/thschue) (의장)
 - [Lian Li](https://github.com/lianmakesthings) (의장)
 - [Karena Angell](https://github.com/angellk) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (TL)
 
 ### 추가 자료
 
