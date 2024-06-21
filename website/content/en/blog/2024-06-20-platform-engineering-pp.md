@@ -51,7 +51,7 @@ You can represent a Library as a Platform where Assets are provided in the form 
 
 Library users are not only readers, but also potential writers. They may draw inspiration, gather facts, and formulate thesis from other books they find in the library, which they can use to create new works.
 
-## Internal Platforms
+## Internal Developer Platforms
 
 In this analogy, we can liken Librarians to Platform Engineers. Their primary objective is to make sure that users of the platform receive top-notch services and have a delightful experience while interacting with it.
 In the realm of metaphors, books can be likened to various resources and tools (just some examples):
@@ -73,7 +73,7 @@ The facilities of a library can be (just some examples):
 - A monitoring system to see microservice metrics.
 - A set of scorecards to gather information about team metrics.
 
-The library, which I like to call the **Internal Platform**, is where all the technological magic happens. **Platform Engineers** manage this platform, ensuring that all Internal Platform Users have an exceptional experience. Their approach is product-oriented, focused on delivering a seamless and intuitive user experience.
+The library, which I like to call the **Internal Platform** (or Internal Developer Platform), is where all the technological magic happens. **Platform Engineers** manage this platform, ensuring that all Internal Platform Users have an exceptional experience. Their approach is product-oriented, focused on delivering a seamless and intuitive user experience.
 
 Depending on the usage patterns of the platform users and the organization's specific requirements, Platform Engineers fine-tune the platform to deliver the necessary services.
 
