@@ -5,6 +5,8 @@ To participate join us on Slack at
 [#wg-platforms](https://cloud-native.slack.com/archives/C020RHD43BP)
 or the meetings described below.
 
+To register for updates and to "Join" the group, please also consider joining the [TAG App Delivery CNCF Community Group](https://community.cncf.io/tag-app-delivery/)
+
 ## Chairs
 
 * Josh Gavant (@joshgav)
@@ -14,6 +16,7 @@ or the meetings described below.
 
 ## Meetings
 
+* Please RSVP for meetings on the [TAG App Delivery Community Groups Page](https://community.cncf.io/tag-app-delivery/)
 * Meeting schedule: 2nd and 4th Tuesday of each month at [1600 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20221213T160000&p1=1440)
     * [2nd Tuesday event](https://calendar.google.com/calendar/u/0/r/week/2022/12/13?eid=MDAxZmVpMGE5aDc3a283dGd2Y2YwcnZuYTFfMjAyMjEyMTNUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc)
     * [4th Tuesday event](https://calendar.google.com/calendar/u/0/r/week/2022/12/27?eid=NGhyOHY1ZWVrbDliODY3bXU5ZnRtYWo0ZGdfMjAyMjEyMjdUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc)
