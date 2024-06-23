@@ -9,7 +9,7 @@ CNCFの素晴らしさの一端は関わっている人々の多様性とコミ�
 
 ## ガイドライン
 
-各ローカライゼーションで異なりますが、一般的なガイドラインやノウハウは[過去のローカライゼーションPR](https://github.com/cncf/tag-app-delivery/issues?q=label%3Atranslation+)や[Kubernetes SIG-Docsローカライゼーションドキュメント](https://kubernetes.io/ja/docs/contribute/localization/)を参考にすることをおすすめします。
+ローカライゼーションごとに異なりますが、一般的なガイドラインやノウハウは[過去のローカライゼーションのPR](https://github.com/cncf/tag-app-delivery/issues?q=label%3Atranslation+)や[Kubernetes SIG-Docsローカライゼーションドキュメント](https://kubernetes.io/ja/docs/contribute/localization/)を参考にすることをおすすめします。
 
 SIG-DocsチームはこのTAGに比べ、広い責任範囲を持ちます。Slackチャネルへの投稿、PRの作成、ウェブサイトのレビューなどのワークフローはその他のTAGの投稿と同一のプロセスで進められることに注意して下さい。そこに母国話者のレビューが追加されます。
 
