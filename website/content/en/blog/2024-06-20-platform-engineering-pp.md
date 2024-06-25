@@ -119,7 +119,7 @@ I propose referring to this as **"Conversational DevX”**, which will be the fo
 
 ## Internal Developer Platform or Platform of Platforms or Internal Platform?
 
-I don’t know if it should be better to say that an Internal Developer Platform is an ensemble of different platforms or that it’s just one of the platforms. This is an open discussion (https://github.com/cncf/tag-app-delivery/issues/586).
+I don’t know if it should be better to say that an Internal Developer Platform is an ensemble of different platforms or that it’s just one of the platforms. This is an [open discussion](https://github.com/cncf/tag-app-delivery/issues/586) where we welcome conversation and other ideas.
 
 Names are important but in this blog post I don’t want to focus on the name but on the content and I hope that together with the tag-app-delivery (https://github.com/cncf/tag-app-delivery) people we will figure out a standard nomenclature. 
 
