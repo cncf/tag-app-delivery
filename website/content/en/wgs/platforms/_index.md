@@ -9,6 +9,8 @@ To participate join us on Slack at
 [#wg-platforms](https://cloud-native.slack.com/archives/C020RHD43BP)
 or the meetings described below.
 
+To register for updates and to "Join" the group, please also consider joining the [TAG App Delivery CNCF Community Group](https://community.cncf.io/tag-app-delivery/)
+
 ## Chairs
 
 * Josh Gavant (@joshgav)
@@ -18,6 +20,7 @@ or the meetings described below.
 
 ## Meetings
 
+* Please RSVP for meetings on the [TAG App Delivery Community Groups Page](https://community.cncf.io/tag-app-delivery/)
 * Meeting schedule: 2nd and 4th Tuesday of each month at [1600 Europe/London time](https://www.timeanddate.com/worldclock/converter.html?iso=20240514T150000&p1=136)
     * [2nd Tuesday event](https://www.google.com/calendar/event?eid=cWE0ZHMyMThicDF1dDZsa3N2ZGlqYmt2Z2pfMjAyNDA1MTRUMTUwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc&ctz=UTC)
     * [4th Tuesday event](https://www.google.com/calendar/event?eid=NGhyOHY1ZWVrbDliODY3bXU5ZnRtYWo0ZGdfMjAyNDA1MjhUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc&ctz=UTC)
@@ -25,3 +28,4 @@ or the meetings described below.
 * Zoom: https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09
     * Passcode: 77777
 * Agendas and notes: <https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg>
+
