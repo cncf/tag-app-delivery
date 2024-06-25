@@ -1,7 +1,7 @@
 ---
 title:  Platform Engineering in 2024, Industry Trends and Emerging Focus (An holistic proposal for Internal Developer Platforms named Platform Engineering ++)
-slug:   platform-engineering-in-2024-industry-trends-and-emerging-focus-an-holistic-proposal-for-internal-developer-platforms-platform-engineering-++
-date:   2024-06-20 12:00:00 +0000
+slug:   proposal-platform-engineering-++
+date:   2024-06-25 15:21:00 +0000
 author: Giulio Roggero
 categories:
 - Article
