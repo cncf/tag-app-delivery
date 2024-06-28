@@ -12,6 +12,8 @@ tags:
 
 In this blog post, I'll explore Platform Engineering, covering its diverse interpretations and implementations across organizations.
 
+I'm trying to answer to the following question: *"Should Internal Developer Platforms be limited to self-service infrastructure provisioning and application deployment?"*
+
 Organizations approach Platform Engineering in different ways:
 
 - Some build self-service tools for infrastructure provisioning, giving developers autonomy over infrastructure management.
@@ -186,4 +188,4 @@ This is an original blog post written for the CNCF TAG App Delivery community. I
 
 I express my sincere gratitude to the CNCF TAG App Delivery community for establishing a virtual place that fosters open-minded discussions and inclusivity.
 
-_Special thanks to who has reviewed this post! Atulpriya Sharma, Lou Bichard, Tyler Pate, Abby Bangser,  Stefan Daugaard Poulsen, Chris Plank, Marsh Gardiner and Rob White for their insightful reviews._
+_Special thanks to who has reviewed this post! Atulpriya Sharma, Lou Bichard, Tyler Pate, Abby Bangser,  Stefan Daugaard Poulsen, Chris Plank, Marsh Gardiner, Rob White and David Stenglein for their insightful reviews._
