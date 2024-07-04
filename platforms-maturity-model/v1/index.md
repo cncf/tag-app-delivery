@@ -16,7 +16,7 @@ window.onhashchange = function() {
   // get the fragment without the `#`
   const fragment = window.location.hash.substring(1)
   const found = Array.from(document.querySelectorAll('.nav-item'))
-    .filter(el => el.textContent === fragment)
+    .filter(el => el.textContent === decodeURI(fragment))
   if (!found) {
     return
   }
