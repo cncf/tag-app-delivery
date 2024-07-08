@@ -25,12 +25,12 @@ list_pages: true
 
 ## 会议
 
-每两周的星期三 16:00 UTC（[转换为当地时间](https://dateful.com/convert/utc?t=16)）。
+每两周的星期三 11:00 ET（[转换为当地时间](https://dateful.com/eventlink/3349070794)）。
 
 会议会在 [CNCF 主日历](https://www.cncf.io/calendar/) 和 [CNCF 社区日历](https://community.cncf.io/tag-app-delivery/)上列出。
 
 * [议程和说明](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [Zoom 会议](https://zoom.us/j/7276783015) (密码：77777)
+* [Zoom 会议](https://zoom-lfx.platform.linuxfoundation.org/meeting/98590236563?password=b0335b64-4162-4499-bb61-ff2c7dec2724)
 * [历史会议纪要](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## 领导者
