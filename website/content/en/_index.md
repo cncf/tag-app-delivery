@@ -38,7 +38,7 @@ Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
 
 * [Agenda and Notes](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [Zoom Meeting](https://zoom.us/j/7276783015) (Passcode: 77777)
+* [Zoom Meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/98590236563?password=b0335b64-4162-4499-bb61-ff2c7dec2724)
 * [Recordings of previous meetings](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## Leads
