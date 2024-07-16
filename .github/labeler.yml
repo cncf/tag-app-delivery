@@ -1,0 +1,55 @@
+governance:
+  - changed-files:
+      - any-glob-to-any-file:
+          - governance/**
+
+wg-appdev:
+  - changed-files:
+      - any-glob-to-any-file:
+          - app-development-wg/**
+
+wg-gitops:
+  - changed-files:
+      - any-glob-to-any-file:
+          - gitops-wg/**
+
+wg-infra-lifecycle:
+  - changed-files:
+      - any-glob-to-any-file:
+          - infra-lifecycle-wg/**
+
+wg-platforms:
+  - changed-files:
+      - any-glob-to-any-file:
+          - platforms-wg/**
+
+website:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/**
+
+# Language-specific labels
+language/en:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/content/en/**
+
+language/es:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/content/es/**
+
+language/ja:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/content/ja/**
+
+language/ko:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/content/ko/**
+
+language/zh:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/content/zh/**

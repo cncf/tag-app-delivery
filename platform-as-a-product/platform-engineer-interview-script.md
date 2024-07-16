@@ -1,15 +1,9 @@
 # Platform Engineer Script
 
-## Platform Engineer Pre-Interview Survey
-- What does your company do?
-- How long have you worked in the technology industry? 
-- What is your title?
-- What is your team called?
-
-## Intro [Placeholder until we confirm GDPR reqs]
-- Thanks for your time
-- The purpose of this interview is to understand what platform engineering looks like at your company?
-- Legal: how will we use their data & who will see it? (We want them to be candid and we want to be compliant with GDPR)
+## Intro
+- Thank you for your time!
+- Goals: The aim of today's interview is to understand the platform engineering practices at your company. The goal of this project is to gain insights across the community.
+- Legal: We will be recording today's interview, and a small group of leads will have access to it during the research process. Only an anonymized transcript will be shared with the wider research team.
 
 ## Background
 - How long have you been working on platforms?
@@ -23,15 +17,17 @@
 
 ## Operations and Interfaces
 - Describe the last feature or capability that you released to your users.
-- Why did you choose to deliver this capability?
-- How did you know if the new capability was successful?
-- How did you release this capability? (**Nudge**: Was there any solution discovery prior to implementation?)
+- Why did you choose to deliver this capability? (**Nudge**: Why did you choose to work on it over other things?)
+- Can you walk me through the process of working on this capability, from deciding to work on it to delivery? (**Nudge**: Did you take any steps to understand the problem that you were solving before starting to code)
+- How did you know if the new capability was successful? (**Nudge**: Did you use any metrics?)
+- Do you communicate the release of new capabilities and platform changes to users? (Nudge: chat, emails, newsletters, website, feedback groups, etc) 
 - What other capabilities does your platform provide?
 - How can a user access platform capabilities? (**Nudge**: eg. tickets, cli, portals, etc…)
+- Do you provide support for using the platform? (**Nudge**: docs (quickstart, howto, knowledgebase), videos, slack, roadshows, etc)
 
 ## Planning and Prioritizing
 - Can a user request a new capability?
-- How do you set your team's priorities? (**Nudge**: How do you define and measure success? Is there any discovery work to understand problems & opportunities that inform priorities?)
+- How do you set your team's priorities? (**Nudge**: Do you use any kind of prioritization framework? How do you define and measure success? Is there any discovery work to understand problems & opportunities that inform priorities?)
 - Who’s involved in shaping priorities? (**Nudge**: Which stakeholders are in the conversation and how are decisions made?)
 - How often do you revisit your priorities?  (**Nudge**: When was your last planning meeting?)
 - How would another team or a platform user know what you're working on? (**Nudge**: do they have a roadmap?)
@@ -54,7 +50,8 @@
 
 ## Conclusion
 - Thank them for their time!
-- Legal: "We'll share the notes with you to review and then upload them to GitHub. All notes will be anonymized - all references to you and your company will be removed."
+- Do you have any questions for us?
+- Legal Reminder: Only the anonymized transcript will be shared with the wider research team; all references to you and your company will be removed. Only a small group of leads will have access to the video to ensure the integrity of the transcript for the duration of the project, after which the video will be deleted.
 - Join the conversation: "Join the ongoing conversation at TAG App Delivery: https://tag-app-delivery.cncf.io/wgs/platforms/"
 
 
