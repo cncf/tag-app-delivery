@@ -8,7 +8,7 @@ The aim of this research project is to understand the degree of product thinking
 - Consumer: End-users of the platform within the organization.[Link to Script - TBD] 
 
 ## Methodology 
-- Same Size: We’re starting organically through the CNCF platform members who’ve demonstrated an interest in recruiting and interviewing participants. Once we kick-off in earnest, we’re going to check in on the number of interviews conducted and across company size and industry. We’ll use that baseline to decide on how best to leverage the CNCF end user group and the need for more interviews.   
+- Sample Size: We’re starting organically through the CNCF platform members who’ve demonstrated an interest in recruiting and interviewing participants. Once we kick-off in earnest, we’re going to check in on the number of interviews conducted and across company size and industry. We’ll use that baseline to decide on how best to leverage the CNCF end user group and the need for more interviews.   
 - User Interviews: Primary method of qualitive inquiry.
 - Multiple Perspective Analysis: Triangulating between builders, leaders, and consumers should allow for a more comprehensive and accurate understanding of the platform.
 - Synthesis: TBD - thematic analysis; comparative analysis; affinity mapping.
@@ -20,7 +20,7 @@ The aim of this research project is to understand the degree of product thinking
 - Ask main questions and guide the conversation flow
 - Ensure all key topics are covered
 - Manage time and pacing of the interview
-∏
+
 ### Secondary Interviewer:
 - Take detailed notes during the interview
 - Observe non-verbal cues and overall dynamics
