@@ -1,0 +1,53 @@
+name: Notice i18n Tasks
+on:
+  pull_request_target:
+    types:
+    - opened
+    - reopened
+    - synchronize
+
+jobs:
+  notice-i18n-tasks:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        fetch-depth: 0
+
+    - name: Check diffs
+      id: check-diffs
+      run: |
+        git remote add --fetch upstream "https://github.com/${{ github.repository }}.git"
+        ancestor="$(git show-branch --merge-base upstream/${{ github.event.pull_request.base.ref }} ${{ github.event.pull_request.head.sha }})"
+
+        echo "==== ancestor ===="
+        echo "${ancestor}"
+
+        updated_files="$(.github/workflows/deep-diff.sh website/content/en ${ancestor} ${{ github.event.pull_request.head.sha }})"
+        echo "count=$(echo $updated_files | grep -v '^$' | wc -l)" >> $GITHUB_OUTPUT
+
+        echo "==== updated files ===="
+        echo "${updated_files}"
+
+    - name: Send notice on the issue
+      if: steps.check-diffs.outputs.count > 0
+      uses: thollander/actions-comment-pull-request@v2
+      with:
+        comment_tag: i18n-notice
+        message: |
+          ### Action Required
+          You are adding or updating English content so please take the following actions for other languages.
+          - If you update content, that has corresponding files in other languages, include a note suggesting that users check the English page for the most recent updates in those translated pages.
+          - If you add new content under `website/content/en` there is nothing you need to do.

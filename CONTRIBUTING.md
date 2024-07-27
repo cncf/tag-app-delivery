@@ -2,7 +2,7 @@
 
 Thank you for considering contributing to CNCF's TAG App Delivery! Here we'll describe some options you can pursue. Ultimately our work is defined by the passion and commitment of our contributors, so seek something valuable to you and valuable to the community and pursue it! Consider opening [a GitHub issue](https://github.com/cncf/tag-app-delivery/issues/new) to let everyone know about and support your work.
 
-Also consider reviewing [TAG App Delivery's charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md) to be sure your work is in scope.
+Also consider reviewing [TAG App Delivery's charter](https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md) to be sure your work is in scope.
 
 ## Opportunities
 

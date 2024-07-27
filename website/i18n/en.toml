@@ -6,3 +6,25 @@ other = " | Documentation Distributed under CC-BY-4.0"
 
 [post_create_issue]
 other = "Create issue"
+
+# TOC
+[page_contents]
+other = "Page Contents"
+
+# Phrases for tags
+[ui_see_all_tags]
+other = "See all tags"
+[ui_tag]
+other = "Tag"
+[ui_tags]
+other = "Tags"
+[ui_search_by_tags]
+other = "Browse by Tags"
+[ui_tags_intro]
+other = "Use the filters to browse blog posts by tag."
+[ui_or_search_by_tags]
+other = "...or browse by tag"
+[ui_select_all]
+other = "Select All"
+[ui_deselect_all]
+other = "Deselect All"

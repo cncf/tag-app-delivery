@@ -11,34 +11,5 @@ repository:
   homepage: https://cncf.io/projects
   
   # Collaborators: give specific users access to this repository.
-  # see /governance/roles.md for details on write access policy
-  # note that the permissions below may provide wider access than needed for
-  # a specific role, and we trust these individuals to act according to their
-  # role. If there are questions, please contact one of the chairs.
-collaborators:
-  # TOC Liasons
-  - username: cdavisafc
-    permission: admin
-
-  - username: resouer
-    permission: admin
-
-
-  # SIG Chairs 
-  - username: AloisReitbauer
-    permission: admin
-
-  - username: Jenniferstrej
-    permission: admin
-    
-  - username: hongchaodeng
-    permission: admin
-
-  # Tech Leads
-    
-  - username: AlexsJones
-    permission: push
-    
-  - username: thschue
-    permission: push
-    
+  # Note that the permissions are controlled using CLOWarden in the https://github.com/cncf/people/blob/main/config.yaml file
+  # Please create a PR in the https://github.com/cncf/people/ repo to change user access

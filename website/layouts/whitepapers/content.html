@@ -1,4 +1,4 @@
-<div class="td-content">
+<div data-pagefind-body class="td-content">
 	<h1>{{ .Title }}</h1>
 	<div class="td-byline mb-5">
 		{{ with .Params.pdf }}
@@ -13,4 +13,8 @@
 		{{ end}}
 	</div>
 	{{ .Content }}
+	{{ if (and (not .Params.hide_feedback) (.Site.Params.ui.feedback.enable)) }}
+		{{ partial "feedback.html" .Site.Params.ui.feedback }}
+		<br />
+	{{ end }}
 </div>

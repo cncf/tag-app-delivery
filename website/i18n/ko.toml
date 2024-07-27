@@ -1,0 +1,28 @@
+# Footer text
+[footer_all_rights_reserved]
+other = " | CC-BY-4.0에 따라 배포되는 문서"
+
+[post_create_issue]
+other = "issue 생성"
+
+# TOC
+[page_contents]
+other = "페이지 내용"
+
+# Phrases for tags
+[ui_see_all_tags]
+other = "See all tags"
+[ui_tag]
+other = "Tag"
+[ui_tags]
+other = "Tags"
+[ui_search_by_tags]
+other = "Browse by Tags"
+[ui_tags_intro]
+other = "We've categorized the glossary terms. Use the filters to browse terms by tag."
+[ui_or_search_by_tags]
+other = "...or browse by tag"
+[ui_select_all]
+other = "Select All"
+[ui_deselect_all]
+other = "Deselect All"

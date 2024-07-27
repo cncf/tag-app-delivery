@@ -4,7 +4,7 @@ pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/a
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
 description: "This paper intends to support enterprise leaders, enterprise architects and platform team leaders to advocate for, investigate and plan internal platforms for cloud computing. We believe platforms significantly impact enterprises' actual value streams, but only indirectly, so leadership consensus and support is vital to the long-term sustainability and success of platform teams. In this paper we'll enable that support by discussing what the value of platforms is, how to measure it, and how to implement platform teams that maximize it."
 type: whitepapers
-url: /whitepapers/platforms
+url: whitepapers/platforms
 ---
 
 ## Introduction
@@ -157,6 +157,10 @@ following:
 1. Product developers and managers can observe functionality, performance, and
    cost of deployed services through automatic instrumentation and standard
    dashboards.
+
+{{% pageinfo color="info" %}}
+Please refer to the [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) created after this paper was originally published.
+{{% /pageinfo %}}
 
 By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
@@ -384,7 +388,7 @@ implement and enforce desired practices for security, performance, cost
 governance and consistent experience. The following graphic illustrates the
 relationships between products, platforms, and capability providers.
 
-<img src="assets/platform_components.png" width=600px />
+<img src="assets/platforms-def.drawio.png" width=600px />
 
 We've focused in this paper on how to construct a good platform and platform
 team; now in this last section we'll describe the capabilities a platform may
@@ -483,7 +487,7 @@ relating it to existing CNCF or CDF projects.
   <tr>
     <td>Identity and secret services</td>
     <td>Ensure workloads have locators and secrets to use resources and capabilities. Enable services to identify themselves to other services</td>
-    <td>Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager</td>
+    <td>Keycloak, Dex, External Secrets, SPIFFE/SPIRE, Teller, cert-manager</td>
   </tr>
   <tr>
     <td>Security services</td>
@@ -496,52 +500,6 @@ relating it to existing CNCF or CDF projects.
     <td>ArtifactHub, Harbor, Distribution, Porter</td>
   </tr>
 </table>
-
-## Glossary
-
-See also <https://glossary.cncf.io/>.
-
-A **platform** aggregates capabilities to serve developers and operators in
-development and delivery of products, services and apps. In reference to the
-scenarios it aims to support, a platform may be named a "Developer Platform", a
-"Delivery Platform", an "App Platform" or even a "Cloud Platform." The
-connotations of the older term "Platform-as-a-Service", or PaaS, are also
-influential.
-
-**Platforms** enable developers and operators to deliver applications and
-services faster by providing and managing common capabilities. Platforms bridge
-between platform users and platform capability providers, and are built and
-maintained by platform teams.
-
-**Platform capability providers** develop and maintain the capabilities offered
-by the platform. Providers can be both external organizations or internal teams,
-and capabilities can be infrastructure, runtime, or other supporting services.
-
-**Platform engineers** are responsible for developing and 
-maintaining interfaces and tools to enable provisioning and integration of platform 
-capabilities in applications, according to the requirements and instructions provided 
-by platform product managers. Platform developers are usually grouped in platform teams.
-
-**Platform product managers** are responsible for understanding the experience of
-platform users, building a roadmap that addresses platform product gaps, requirements, 
-and opportunities, and managing platform teams in their daily work.
-
-**Platform teams** are responsible for developing and maintaining the interfaces to 
-and experiences with platform capabilities - like Web portals, custom APIs, and 
-golden path templates.  
-Platform teams are managed by platform product managers and involve
-platform developers. As the platform evolves and become more advanced, other roles 
-can become part of a platform team, including, but not limited to, operators, 
-QA analysts, UI/UX designers, technical writers, developer advocates.
-
-**Platform users** include but aren't limited to app developers and operators, data
-scientists, COTS software operators, and information workers - whoever runs
-software on the platform or uses platform provided capabilities.
-
-**Thinnest viable platform (TVP)** is a concept originally defined in the book *Team Topologies*
-by Matthew Skelton and Manuel Pais. The definition says: "A TVP is a careful balance between 
-keeping the platform small and ensuring that the platform is helping to accelerate and simplify 
-software delivery for teams building on the platform."
 
 <!-- ## Footnotes -->
 

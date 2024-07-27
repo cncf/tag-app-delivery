@@ -1,0 +1,30 @@
+# UI strings. Buttons and similar.
+
+# Footer text
+[footer_all_rights_reserved]
+other = " | Documentation distribuée sous la license CC-BY-4.0"
+
+[post_create_issue]
+other = "Création d'un problème"
+
+# TOC
+[page_contents]
+other = "Contenu de la page"
+
+# Phrases for tags
+[ui_see_all_tags]
+other = "Voir toutes les étiquettes"
+[ui_tag]
+other = "Étiquettes"
+[ui_tags]
+other = "Étiquettes"
+[ui_search_by_tags]
+other = "Parcourir par étiquettes"
+[ui_tags_intro]
+other = "Utiliser les filtres pour parcourir les articles de blog par étiquette."
+[ui_or_search_by_tags]
+other = "...ou parcourir par étiquettes"
+[ui_select_all]
+other = "Sélectionner tout"
+[ui_deselect_all]
+other = "Désélectionner tout"

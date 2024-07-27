@@ -1,0 +1,73 @@
+---
+name: Community Contribution
+description: Proposal for community publication or other work
+title: "[Community] <Short description>"
+labels: [proposals]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new activity or publication for TAG App Delivery and associated Working Groups!
+
+        You are welcome to review the [contribute pages](https://tag-app-delivery.cncf.io/contribute/) to understand more about how you can get started and what is expected of any suggested publications.
+  - type: textarea
+    attributes:
+      label: Contribution Description
+      description: Provide a brief, 100-300 word description of the contribution that explains what your idea is and why you are excited to introduce it to the community.
+      placeholder: Describe your idea and why it is exciting.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Related Working Group (WG)
+      description: Which, if any, WG does this particular proposal relate to?
+      options:
+        - None, this is TAG level (Default)
+        - Artifacts
+        - Operator
+        - Platforms
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Contribution type
+      description: What is your target output from this contribution?
+      options:
+        - Blog (Default)
+        - White paper
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why TAG App Delivery?
+      description: Why do you think this contribution fits into the TAG or one of its WGs? This should detail how the contribution relates to App Delivery or more specifically one of the current WGs, which elements of App Delivery the contribution embodies or exemplifies.
+      placeholder: This fits with the TAG because...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Related projects/technologies
+      description: If this project will compare or detail any specific technologies, please include a complete list of both CNCF, other OSS, and proprietary technologies that you intend to include.
+      placeholder: Related projects/technologies
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Affiliation disclosure
+      description: Affiliations with products or organisations are only relevant if the product or organisation, or any of its competitors, are referenced in the contribution. If you plan to speak about a product or organisation that could be a conflict of interest, please let us know here. Note - this does not preclude you from contributing, it just helps us stay neutral across vendors and products.
+  - type: input
+    attributes:
+      label: Additional collaborators
+      description: Provide the github handles (or email addresses if not on GitHub) of anyone else who should be included in this project. This can include (but does not require) any TAG leadership who you have spoken to in regards to championing this work.
+      placeholder: Add collaborators here
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Any additional information you would like share with the TAG? This can include (but does not require) a more detailed outline, link to a rough draft, or other content that you would use as inspiration if you have already started something.
+    validations:
+      required: false

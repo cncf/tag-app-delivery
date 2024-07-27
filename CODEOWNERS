@@ -1,3 +1,5 @@
+# NOTE: The error in GitHub is for users that have not yet accepted invites to this repository; it is expected.
+
 # CODEOWNERS file indicates code owners for certain files
 #
 # Code owners will automatically be added as a reviewer for PRs that touch
@@ -8,16 +10,13 @@
 #
 # Unless a later match takes precedence, these owners will be requested for
 # review when someone opens a pull request.
-*   @AloisReitbauer @Jenniferstrej @hongchaodeng @AlexsJones @thschue @joshgav
-
-# Operator Working Group
-/operator-wg/ @Jenniferstrej @OmerKahani @thschue
+*   @thschue @lianmakesthings @kgamanji @linsun @AloisReitbauer @roberthstrand
 
 # Platforms WG
-/platforms-wg/ @AlexsJones @thschue @roberthstrand @joshgav
-
-# GitOps WG
-/gitops-wg/ @todaywasawesome @chris-short @murillodigital @scottrigby @christianh814 @JaimeMagiera @niklasmtj @williamcaban @roberthstrand
+/platforms-*/ @thschue @lianmakesthings @kgamanji @abangser @roberthstrand @krumware @linsun @AloisReitbauer
 
 # Artifacts WG
-/artifacts-wg/ @afflom @rchincha
+/artifacts-*/ @thschue @lianmakesthings @kgamanji @sabre1041 @rchincha @linsun @AloisReitbauer @roberthstrand
+
+# App Development WG
+/app-development-*/ @thschue @lianmakesthings @kgamanji @linsun @AloisReitbauer @roberthstrand @salaboy @danieloh30 @ThomasVitale
