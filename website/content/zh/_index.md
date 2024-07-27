@@ -25,7 +25,7 @@ list_pages: true
 
 ## 会议
 
-每两周的星期三 11:00 ET（[转换为当地时间](https://dateful.com/eventlink/3349070794)）。
+每两周的星期三 11:00 ET（[转换为当地时间](https://dateful.com/convert/eastern-time-et?t=11)）。
 
 会议会在 [CNCF 主日历](https://www.cncf.io/calendar/) 和 [CNCF 社区日历](https://community.cncf.io/tag-app-delivery/)上列出。
 
