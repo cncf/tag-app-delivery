@@ -8,20 +8,10 @@ The aim of this research project is to understand the degree of product thinking
 - Consumer: End-users of the platform within the organization.[Link to Script - TBD] 
 
 ## Methodology 
-- Same Size: We’re starting organically through the CNCF platform members who’ve demonstrated an interest in recruiting and interviewing participants. Once we kick-off in earnest, we’re going to check in on the number of interviews conducted and across company size and industry. We’ll use that baseline to decide on how best to leverage the CNCF end user group and the need for more interviews.   
-- Survey: Sent to participants before the interview to understand their top-of-mind challenges as they relate to the platform & their work. During synthesis we will look for correlation between reported challenges and level of product thinking.
+- Sample Size: We’re starting organically through the CNCF platform members who’ve demonstrated an interest in recruiting and interviewing participants. Once we kick-off in earnest, we’re going to check in on the number of interviews conducted and across company size and industry. We’ll use that baseline to decide on how best to leverage the CNCF end user group and the need for more interviews.   
 - User Interviews: Primary method of qualitive inquiry.
 - Multiple Perspective Analysis: Triangulating between builders, leaders, and consumers should allow for a more comprehensive and accurate understanding of the platform.
 - Synthesis: TBD - thematic analysis; comparative analysis; affinity mapping.
-
-## Interview Approach
-- Find a secondary interviewer from the paap-research-group in slack or invite your own. In the event that you’re unable to lead one or more of the remaining interviews, the secondary can take over.
-- Reach out to your network to set up interviews with platform builders.
-- Send out a short pre-interview survey to understand their immediate platform-specific and work challenges. [Link to Survey - TBD] 
-- Conduct your first interview. It’ll most likely be with the platform builder or leader.
-- Get a referral to a platform leader and consumer within the same company.
-- Repeat with survey and interview.
-- After all 3 interviews, we’ll have a more holistic understanding of the current state of the platform within their organization. 
 
 ## Interviewer Roles & Responsibilities
 
@@ -37,6 +27,9 @@ The aim of this research project is to understand the degree of product thinking
 - Ask follow-up or clarifying questions as needed
 - Keep track of time and signal to the primary interviewer if necessary
 - Take over for the primary interviewer if they're unable to continue will all interviews (recruit a new secondary interviewer)
+
+## Interview Scheduling 
+![PaaP Schedule Process](/platform-as-a-product/assets/PaaP_Interview_Scheduling.png)
 
 ## Before the Interview
 - Coordinate with your secondary interviewer and run through the interview script
