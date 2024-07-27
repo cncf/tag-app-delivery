@@ -17,7 +17,7 @@ Full charter here: <https://github.com/cncf/toc/blob/main/tags/tag-charters/app-
 ## Meetings
 
 Every two weeks on Wednesday at 11:00 ET ([convert to your local
-time](https://dateful.com/eventlink/3349070794)).
+time](https://dateful.com/convert/eastern-time-et?t=11)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
