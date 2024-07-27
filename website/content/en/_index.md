@@ -31,15 +31,15 @@ Today there are two active working groups under the TAG -
 
 ## Meetings
 
-Every two weeks on Wednesday at 16:00 UTC ([convert to your local
-time](https://dateful.com/convert/utc?t=16)).
+Every two weeks on Wednesday at 11:00am ET ([convert to your local
+time](https://dateful.com/convert/eastern-time-et?t=11)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
 
 * [Agenda and Notes](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
 * [Zoom Meeting](https://zoom.us/j/7276783015) (Passcode: 77777)
-* [Recordings of previous meetings](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [Recordings of previous meetings](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## Leads
 

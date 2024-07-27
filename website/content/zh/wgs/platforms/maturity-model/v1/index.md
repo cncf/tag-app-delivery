@@ -15,7 +15,7 @@ window.onhashchange = function() {
   // get the fragment without the `#`
   const fragment = window.location.hash.substring(1)
   const found = Array.from(document.querySelectorAll('.nav-item'))
-    .filter(el => el.textContent === fragment)
+    .filter(el => el.textContent === decodeURI(fragment))
   if (!found) {
     return
   }
@@ -91,11 +91,11 @@ CNCF 的首份[平台白皮书](https://tag-app-delivery.cncf.io/whitepapers/pla
 
 | 方面                        |                              | 暂时性的   | 可操作   | 可扩展     | 可优化    |
 |:--------------------------|:-----------------------------| :----- |:------| :------ |:-------|
-| [投入](#investment)         | _如何分配工作人员和资金给平台能力?_          | 自愿或临时的 | 专职团队  | 作为产品    | 已启用的生态 |
-| [采用](#Adoption)           | _用户为什么和如何发现和使用内部平台和平台能力？_    | 不稳定的   | 外部推动  | 内部拉力    | 参与性    |
-| [接口](#Interfaces)         | _用户如何与平台进行交互并使用平台能力？_        | 自定义程序  | 标准工具化 | 自定义解决方案 | 综合服务   |
+| [投入](#投入)         | _如何分配工作人员和资金给平台能力?_          | 自愿或临时的 | 专职团队  | 作为产品    | 已启用的生态 |
+| [采用](#采用)           | _用户为什么和如何发现和使用内部平台和平台能力？_    | 不稳定的   | 外部推动  | 内部拉力    | 参与性    |
+| [接口](#接口)         | _用户如何与平台进行交互并使用平台能力？_        | 自定义程序  | 标准工具化 | 自定义解决方案 | 综合服务   |
 | [Operations](#Operations) | _平台及其能力是如何规划、确定优先次序、开发和维护的？_ | 按需求    | 集中跟踪  | 集中启用    | 管理服务   |
-| [衡量](#Measurement)        | -收集、整合反馈和学习的流程是什么？_          | 临时的    | 一致的收集 | 见解      | 定量与定性  |
+| [衡量](#衡量)        | -收集、整合反馈和学习的流程是什么？_          | 临时的    | 一致的收集 | 见解      | 定量与定性  |
 
 ## 模型详情
 
