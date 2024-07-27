@@ -22,12 +22,12 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 
 ## ミーティング
 
-隔週水曜日16:00 UTC ([居住地の時刻に変換](https://dateful.com/convert/utc?t=16)).
+隔週水曜日11:00 ET ([居住地の時刻に変換](https://dateful.com/eventlink/3349070794)).
 
 ミーティングは[CNCFのカレンダー](https://www.cncf.io/calendar/)と[CNCFコミュニティカレンダー](https://community.cncf.io/tag-app-delivery/)に掲載されます。
 
 * [アジェンダと議事録](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [Zoomミーティング](https://zoom.us/j/7276783015) (パスコード: 77777)
+* [Zoomミーティング](https://zoom-lfx.platform.linuxfoundation.org/meeting/98590236563?password=b0335b64-4162-4499-bb61-ff2c7dec2724)
 * [過去のミーティングの録画](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## リーダー
