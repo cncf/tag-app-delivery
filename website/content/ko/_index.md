@@ -27,12 +27,12 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 
 ## 회의
 
-2주마다 수요일 16:00 UTC ([현지 시간으로 변환](https://dateful.com/convert/utc?t=16)).
+2주마다 수요일 11:00 ET ([현지 시간으로 변환](https://dateful.com/convert/eastern-time-et?t=11)).
 
 회의는 일정은 [CNCF 커뮤니티 캘린더](https://community.cncf.io/tag-app-delivery/) 또는 [메인 CNCF 캘린더](https://www.cncf.io/calendar/)에서 확인 가능하다.
 
 * [아젠다 및 메모](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [줌 회의](https://zoom.us/j/7276783015) (Passcode: 77777)
+* [줌 회의](https://zoom-lfx.platform.linuxfoundation.org/meeting/98590236563?password=b0335b64-4162-4499-bb61-ff2c7dec2724)
 * [이전 회의 영상](https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT)
 
 ## 리드(leads)
