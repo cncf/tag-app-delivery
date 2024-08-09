@@ -8,13 +8,13 @@ To contribute please join our Slack channel and/or biweekly meetings.
 
 ## Chairs
 
-- Dylan Page (@genpage)
-- Ryan Nowak (@rynowak)
 - Bruno Schaatsbergen (@bschaatsbergen)
+- Dylan Page (@genpage)
 - Jochen Zehnder (@elft3r)
+- Ryan Nowak (@rynowak)
 
 ## Meetings
 
-* Meeting schedule: Bi-weekly on Friday at [1600 UTC](https://dateful.com/convert/utc?t=16)
+* Meeting schedule: Bi-weekly on Friday at [1700 GMT+1](https://dateful.com/convert/utc?t=16)
     * [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/96148400770?password=767d45df-c7cf-4400-9239-e789115cc85e&invite=true)
 * Agendas and notes: <https://docs.google.com/document/d/1KvNAY8hYZ_PXzyLC3BSnzWBl8w8glpLYuqDIa-Z6Stk/edit>
