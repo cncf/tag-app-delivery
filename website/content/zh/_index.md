@@ -35,11 +35,9 @@ list_pages: true
 
 ## 领导者
 
-- [Josh Gavant](https://github.com/joshgav) （主席）
-- [Thomas Schuetz](https://github.com/thschue) （主席）
+- [Thomas Schuetz](https://github.com/thschue) （主席
 - [Lian Li](https://github.com/lianmakesthings) (主席)
-- [Karena Angell](https://github.com/angellk) (TL)
-- [Roberth Strand](https://github.com/roberthstrand) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (主席)
 
 ### 更多资源
 
@@ -49,4 +47,3 @@ list_pages: true
 - [邮件列表](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
 <p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="使用电脑工作的人"></p>
-
