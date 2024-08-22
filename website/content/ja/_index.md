@@ -32,11 +32,9 @@ TAG Appデリバリーは、クラウドネイティブ・アプリケーショ�
 
 ## リーダー
 
-- [Josh Gavant](https://github.com/joshgav) (チェア)
 - [Thomas Schuetz](https://github.com/thschue) (チェア)
 - [Lian Li](https://github.com/lianmakesthings) (チェア)
-- [Karena Angell](https://github.com/angellk) (テックリード)
-- [Roberth Strand](https://github.com/roberthstrand) (テックリード)
+- [Roberth Strand](https://github.com/roberthstrand) (チェア)
 
 ### その他の資料
 
