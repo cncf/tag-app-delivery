@@ -14,13 +14,13 @@ list_pages: true
     </div>
 </div>
 
-TAG(Technology Advisory Group, 기술 자문 그룹)는 클라우드 네이티브 애플리케이션 개발자, 플랫폼 
+TAG(Technology Advisory Group, 기술 자문 그룹)는 클라우드 네이티브 애플리케이션 개발자, 플랫폼
 엔지니어, 최종 사용자로부터 피드백을 수집한다. 또한, 해당 피드백을 관련 도메인의 프로젝트와 공유하며,
 최종 사용자를 위한 지침과 예시를 제공한다.
 
-TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다. 
-예를 들면, [CNCF Landscape](https://landscape.cncf.io/card-mode)의 [애플리케이션 정의 및 이미지 빌드](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted), 
-[지속적인 통합 및 배포](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted), 
+TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
+예를 들면, [CNCF Landscape](https://landscape.cncf.io/card-mode)의 [애플리케이션 정의 및 이미지 빌드](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted),
+[지속적인 통합 및 배포](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted),
 [컨테이너 레지스트리(컨테이너 저장소)](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted) 분류에 속한 프로젝트들이 그 대상이 될 수 있다.
 
 현재 TAG에는 두 개의 활발한 작업 그룹(WG)이 포함되어 있다. TAG - [플랫폼 작업 그룹(WG Platforms)](./wgs/platforms/) 및 [아티팩트 작업 그룹(WG Artifacts)](./wgs/artifacts/).
@@ -37,11 +37,9 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 
 ## 리드(leads)
 
-- [Josh Gavant](https://github.com/joshgav) (의장)
 - [Thomas Schuetz](https://github.com/thschue) (의장)
 - [Lian Li](https://github.com/lianmakesthings) (의장)
-- [Karena Angell](https://github.com/angellk) (TL)
-- [Roberth Strand](https://github.com/roberthstrand) (TL)
+- [Roberth Strand](https://github.com/roberthstrand) (의장)
 
 ### 추가 자료
 
@@ -51,4 +49,3 @@ TAG는 운영 원칙(charter)에 따라 관련된 프로젝트를 지원한다.
 - [이메일 목록](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
 <p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="컴퓨터를 하고 있는 남자"></p>
-
