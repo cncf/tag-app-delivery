@@ -11,7 +11,7 @@ Aqui estão algumas maneiras de começar a se envolver com o CNCF Technical Advi
 
 **Explore os tópicos que mais te interessam.**
 
-O TAG abrange diversos temas relacionados à Entrega de Aplicações. Alguns desses temas maiores se tornaram Grupos de Trabalho (Working Groups/WGs), mas ainda há muito a discutir no nível do TAG. Os títulos dos WGs e projetos podem parecer claros, mas às vezes não são. Continue lendo para descobrir como encontrar o projeto certo para você.
+O TAG abrange diversos temas relacionados à Entrega de Aplicações. Alguns desses temas maiores se tornaram Grupos de Trabalho (Working Groups/WGs), mas ainda há muito a discutir no nível do TAG. Os títulos dos WGs e projetos podem parecer claros, mas às vezes não são.
 
 **Participe do Slack**
 
