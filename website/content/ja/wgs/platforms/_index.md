@@ -22,6 +22,6 @@ or the meetings described below.
     * [2nd Tuesday event](https://www.google.com/calendar/event?eid=cWE0ZHMyMThicDF1dDZsa3N2ZGlqYmt2Z2pfMjAyNDA1MTRUMTUwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc&ctz=UTC)
     * [4th Tuesday event](https://www.google.com/calendar/event?eid=NGhyOHY1ZWVrbDliODY3bXU5ZnRtYWo0ZGdfMjAyNDA1MjhUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX281YXZqbHZ0MmNhZTlicTdhOTVlbWM0NzQwQGc&ctz=UTC)
     * [Full CNCF calendar](https://calendar.google.com/calendar/u/0/embed?src=linuxfoundation.org_o5avjlvt2cae9bq7a95emc4740@group.calendar.google.com)
-* Zoom: https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09
+* Zoom: https://zoom-lfx.platform.linuxfoundation.org/meeting/94326372364?password=0681764d-b152-4295-8bd2-6b9fcf77bff1
     * Passcode: 77777
 * Agendas and notes: <https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg>
