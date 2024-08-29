@@ -9,7 +9,6 @@ To contribute please join our Slack channel and/or biweekly meetings.
 ## Chairs
 
 - Bruno Schaatsbergen (@bschaatsbergen)
-- Dylan Page (@genpage)
 - Jochen Zehnder (@elft3r)
 - Ryan Nowak (@rynowak)
 
