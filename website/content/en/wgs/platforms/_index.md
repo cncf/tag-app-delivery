@@ -11,9 +11,12 @@ or the meetings described below.
 
 To register for updates and to "Join" the group, please also consider joining the [TAG App Delivery CNCF Community Group](https://community.cncf.io/tag-app-delivery/)
 
+## Technical Lead
+
+* Roberth Strand (@roberthstrand)
+
 ## Chairs
 
-* Technical Lead - Roberth Strand (@roberthstrand)
 * Abby Bangser (@abangser)
 * Colin Griffin (@krumware)
 * Atulpriya Sharma (@techmaharaj)
