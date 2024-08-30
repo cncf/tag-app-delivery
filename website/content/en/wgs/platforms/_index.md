@@ -13,10 +13,10 @@ To register for updates and to "Join" the group, please also consider joining th
 
 ## Chairs
 
-* Josh Gavant (@joshgav)
-* Roberth Strand (@roberthstrand)
+* Technical Lead - Roberth Strand (@roberthstrand)
 * Abby Bangser (@abangser)
 * Colin Griffin (@krumware)
+* Atulpriya Sharma (@techmaharaj)
 
 ## Meetings
 
