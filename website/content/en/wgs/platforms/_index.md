@@ -11,19 +11,21 @@ or the meetings described below.
 
 To register for updates and to "Join" the group, please also consider joining the [TAG App Delivery CNCF Community Group](https://community.cncf.io/tag-app-delivery/)
 
+## Technical Lead
+
+* Roberth Strand (@roberthstrand)
+
 ## Chairs
 
-* Josh Gavant (@joshgav)
-* Roberth Strand (@roberthstrand)
 * Abby Bangser (@abangser)
 * Colin Griffin (@krumware)
+* Atulpriya Sharma (@techmaharaj)
 
 ## Meetings
 
 * Meeting schedule: 2nd and 4th Tuesday of each month at [1600 Europe/London time](https://www.timeanddate.com/worldclock/converter.html?iso=20240514T150000&p1=136)
 * Please RSVP for meetings on the [TAG App Delivery Community Groups Page](https://community.cncf.io/tag-app-delivery/). This will also provide a calendar entry.
 * Meeting Location, Zoom: https://zoom-lfx.platform.linuxfoundation.org/meeting/94326372364?password=0681764d-b152-4295-8bd2-6b9fcf77bff1
-* Zoom: https://zoom-lfx.platform.linuxfoundation.org/meeting/94326372364?password=0681764d-b152-4295-8bd2-6b9fcf77bff1
     * Passcode: 77777
 * Agendas and notes: <https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg>
 * Previous meetings can be viewed on the [TAG YouTube Channel](https://www.youtube.com/watch?v=eZYSQnsWRco&list=PLjNzvzqUSpxKH8X7wNfYZtkH_ARSeeQH0)
