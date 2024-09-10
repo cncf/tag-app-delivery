@@ -17,6 +17,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+        fetch-depth: 1
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
         repository: ${{ github.event.pull_request.head.repo.full_name }}
         ref: ${{ github.event.pull_request.head.ref }}
         fetch-depth: 0
@@ -24,9 +29,17 @@ jobs:
     - name: Check diffs
       id: check-diffs
       run: |
-        updated_files="$(.github/workflows/deep-diff.sh website/content/en ${{ github.sha }} ${{ github.event.pull_request.head.sha }})"
-        echo "${updated_files}" # for debugging
+        git remote add --fetch upstream "https://github.com/${{ github.repository }}.git"
+        ancestor="$(git show-branch --merge-base upstream/${{ github.event.pull_request.base.ref }} ${{ github.event.pull_request.head.sha }})"
+
+        echo "==== ancestor ===="
+        echo "${ancestor}"
+
+        updated_files="$(.github/workflows/deep-diff.sh website/content/en ${ancestor} ${{ github.event.pull_request.head.sha }})"
         echo "count=$(echo $updated_files | grep -v '^$' | wc -l)" >> $GITHUB_OUTPUT
+
+        echo "==== updated files ===="
+        echo "${updated_files}"
 
     - name: Send notice on the issue
       if: steps.check-diffs.outputs.count > 0

@@ -16,7 +16,7 @@ window.onhashchange = function() {
   // get the fragment without the `#`
   const fragment = window.location.hash.substring(1)
   const found = Array.from(document.querySelectorAll('.nav-item'))
-    .filter(el => el.textContent === fragment)
+    .filter(el => el.textContent === decodeURI(fragment))
   if (!found) {
     return
   }
@@ -31,7 +31,7 @@ window.onhashchange = function() {
 
 ## Introduction
 
-CNCF's initial [Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
+CNCF's initial [Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) describes what internal platforms for cloud computing are and the values they promise to deliver to enterprises. But to achieve those values an organization must reflect and deliberately pursue outcomes and practices that are impactful for them, keeping in mind that every organization relies on an internal platform crafted for its own organization - even if that platform is just documentation on how to use third party services. This maturity model provides a framework for that reflection and for identifying opportunities for improvement in any organization.
 
 ## What is platform engineering?
 
@@ -39,11 +39,11 @@ Inspired by the cross-functional cooperation promised by DevOps, platforms and p
 
 [**Platform engineering**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) is the practice of planning and providing such computing platforms to developers and users and encompasses all parts of platforms and their capabilities — their people, processes, policies and technologies; as well as the desired business outcomes that drive them.
 
-Please read the [CNCF Platforms Definition white paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
+Please read the [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) first for complete context.
 
 ## How to use this model
 
-As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-teams" >}}) to the challenges they may face and opportunities to aim for. Each aspect is described by a continuum of characteristics of different teams and organizations at each level within the aspect. We expect readers to find themselves in the model and identify opportunities in adjacent levels.
+As platform engineering has risen in prominence over the last few years, some patterns have become apparent. By organizing those patterns and observations into a progressive maturity model, we aim to orient [platform teams]({{< ref "/wgs/platforms/glossary#platform-team" >}}) to the challenges they may face and opportunities to aim for. Each aspect is described by a continuum of characteristics of different teams and organizations at each level within the aspect. We expect readers to find themselves in the model and identify opportunities in adjacent levels.
 
 Of note, each additional level of maturity is accompanied by greater requirements for funding and people's time. Therefore, reaching the highest level should not be a goal in itself. Each level describes qualities that should appear at that stage. Readers must consider if their organization and their current context would benefit from these qualities given the required investment.
 
@@ -319,7 +319,7 @@ Solutions are offered in a way that provides autonomy to users and requires litt
 
 * An API is provided which abstracts the creation and maintenance of databases and provides users with any information they require to leverage that platform capability such as a connection string, location for secret data, and dashboard with observability data.
 
-### Level 4, Optimizing — Managed services
+### Level 4, Optimizing — Integrated services
 
 Platform capabilities are transparently integrated into the tools and processes that teams already use to do their work. Some capabilities are provisioned automatically, such as observability or identity management for a deployed service. When users hit the edges of the provided services, there is an opportunity to move past automated solutions and customize for their needs without leaving the internal offerings because platform capabilities are considered building blocks. These building blocks are used to build transparent and automatic compositions to meet the higher-level use cases while enabling deeper customization where necessary.
 
@@ -374,7 +374,7 @@ Platforms and capabilities are centrally documented and discoverable, and proces
 * A central team provides a register of available shared services across the organization.
 * Loose standards, such as requiring an automatable API and usage docs, are applied to capabilities.
 * Infrastructure as Code is used to allow easier traceability of deployed services.
-* Audits for compliance regulations such as PCI DSS or HIPPA are enabled through the service inventories.
+* Audits for compliance regulations such as PCI DSS or HIPAA are enabled through the service inventories.
 * Migration and upgrade work is tracked against a burndown chart enabling the organization to track rate of compliance and time until completion.
 * Tracking does not indicate level of support; often upgrades at this stage are still manual and bespoke.
 
@@ -465,7 +465,7 @@ Dedicated teams or tools are employed to gather and review feedback and summariz
 
 * Before delivering any new platform feature, the team discusses how to evaluate the outcome from their work.
 * The organization has broad alignment on measures that indicate success of platform initiatives.
-* A [product manager]({{< ref "/wgs/platforms/glossary#platform-product-managers" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
+* A [product manager]({{< ref "/wgs/platforms/glossary#platform-team" >}}) or dedicated team member drives an ongoing and consistent feedback collection and analysis process.
 * The organization has established metrics and goals to observe and target to indicate success.
 
 #### Example Scenarios:

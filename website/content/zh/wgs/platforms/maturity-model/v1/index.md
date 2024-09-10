@@ -15,7 +15,7 @@ window.onhashchange = function() {
   // get the fragment without the `#`
   const fragment = window.location.hash.substring(1)
   const found = Array.from(document.querySelectorAll('.nav-item'))
-    .filter(el => el.textContent === fragment)
+    .filter(el => el.textContent === decodeURI(fragment))
   if (!found) {
     return
   }
@@ -27,6 +27,8 @@ window.onhashchange = function() {
   found[0].click();
 }
 </script>
+
+{{< translation-note >}}
 
 ## 概述
 
@@ -91,17 +93,17 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 | 方面                        |                              | 暂时性的   | 可操作   | 可扩展     | 可优化    |
 |:--------------------------|:-----------------------------| :----- |:------| :------ |:-------|
-| [投入](#investment)         | _如何分配工作人员和资金给平台能力?_          | 自愿或临时的 | 专职团队  | 作为产品    | 已启用的生态 |
-| [采用](#Adoption)           | _用户为什么和如何发现和使用内部平台和平台能力？_    | 不稳定的   | 外部推动  | 内部拉力    | 参与性    |
-| [接口](#Interfaces)         | _用户如何与平台进行交互并使用平台能力？_        | 自定义程序  | 标准工具化 | 自定义解决方案 | 综合服务   |
+| [投入](#投入)         | _如何分配工作人员和资金给平台能力?_          | 自愿或临时的 | 专职团队  | 作为产品    | 已启用的生态 |
+| [采用](#采用)           | _用户为什么和如何发现和使用内部平台和平台能力？_    | 不稳定的   | 外部推动  | 内部拉力    | 参与性    |
+| [接口](#接口)         | _用户如何与平台进行交互并使用平台能力？_        | 自定义程序  | 标准工具化 | 自定义解决方案 | 综合服务   |
 | [Operations](#Operations) | _平台及其能力是如何规划、确定优先次序、开发和维护的？_ | 按需求    | 集中跟踪  | 集中启用    | 管理服务   |
-| [衡量](#Measurement)        | -收集、整合反馈和学习的流程是什么？_          | 临时的    | 一致的收集 | 见解      | 定量与定性  |
+| [衡量](#衡量)        | -收集、整合反馈和学习的流程是什么？_          | 临时的    | 一致的收集 | 见解      | 定量与定性  |
 
 ## 模型详情
 
 <div style="min-width:620px">
 {{< tabs tabTotal="6">}}
-{{< tab tabName="Investment" >}}
+{{< tab tabName="投入" >}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
 对平台和平台工程的投资是分配预算和人员以建立和维护通用能力的过程。通常情况下，各种举措被描述为自下而上的有机建设，或通过自上而下的举措来推动。无论哪种情况，都是持续投入的能力推动了高影响力的工作。这一方面体现了投资规模和广度如何影响平台的成功。
@@ -183,7 +185,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 - 自动化举措将数据库配置所需的人工时间每实例减少30分钟，从而每年节省1000万美元。
 
 {{< /tab >}}
-{{< tab tabName="Adoption" >}}
+{{< tab tabName="采用" >}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
 
@@ -278,7 +280,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 - 一个团队想要一个备份计划。在将其作为一般提案提出后，由于复用程度极低，该方案被认为优先级较低。提议团队选择将其解决方案集成到平台框架中，并提供给本组织使用。该方案最初只是一个辅助方案，但一旦满足了所有业务要求，就可以提升为平台核心功能。
 
 {{< /tab >}}
-{{< tab tabName="Interfaces">}}
+{{< tab tabName="接口">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How do users interact with and consume platform capabilities?</i></h4>
 
@@ -465,7 +467,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 - 虚拟机的用户不需要管理与版本升级有关的任何事情。他们唯一的要求是在交付流程中包含一个具有代表性的冒烟测试阶段。然后，他们被要求将他们的应用程序声明为具有较低的风险承受能力，以等待一个完全稳定的升级或更高的承受能力来成为早期采用者。虚拟机功能随后负责自动发布升级版本的管理，包括在烟雾测试或金丝雀发布失败后执行回滚操作。
 
 {{< /tab >}}
-{{< tab tabName="Measurement">}}
+{{< tab tabName="衡量">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
 
