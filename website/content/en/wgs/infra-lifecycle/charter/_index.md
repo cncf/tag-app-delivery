@@ -1,3 +1,8 @@
+---
+title: Infrastructure Lifecycle Working Group Charter
+description: This charter outlines the mission and strategies of the Infrastructure Lifecycle Working Group (WG).
+---
+
 # Infrastructure Lifecycle Working Group Charter
 
 ## Problem Statement
