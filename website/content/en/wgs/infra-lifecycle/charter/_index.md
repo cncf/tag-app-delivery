@@ -3,8 +3,6 @@ title: Infrastructure Lifecycle Working Group Charter
 description: This charter outlines the mission and strategies of the Infrastructure Lifecycle Working Group (WG).
 ---
 
-# Infrastructure Lifecycle Working Group Charter
-
 ## Problem Statement
 
 As the cloud native approach matures, the workloads we run have increasingly complex infrastructure needs. While we all strive to control costs, enforce best practices, and ensure secure configurations, the reality is often fragmented. Today's workloads reside in complex hybrid environments spanning on-premises physical infrastructure, public/private cloud, and Edge/IoT. This heterogeneity creates a significant burden for infrastructure engineers, particularly when it comes to maintaining workloads in production ("Day 10 and beyond"). The complexity for those managing infrastructure is growing rapidly across multiple dimensions.
