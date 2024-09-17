@@ -1,3 +1,7 @@
+---
+title: Infrastructure Lifecycle Working Group
+list_pages: true
+---
 # Infrastructure Lifecycle WG
 
 The [charter](./charter/charter.md) describes the goals and activites of this group.
