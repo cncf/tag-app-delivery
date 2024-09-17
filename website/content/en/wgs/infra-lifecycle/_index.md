@@ -12,9 +12,9 @@ To contribute please join our Slack channel and/or biweekly meetings.
 
 ## Chairs
 
-- Bruno Schaatsbergen (@bschaatsbergen)
-- Jochen Zehnder (@elft3r)
-- Ryan Nowak (@rynowak)
+- Bruno Schaatsbergen ([@bschaatsbergen](https://github.com/bschaatsbergen))
+- Jochen Zehnder ([@elft3r](https://github.com/elft3r))
+- Ryan Nowak ([@rynowak](https://github.com/rynowak))
 
 ## Meetings
 
