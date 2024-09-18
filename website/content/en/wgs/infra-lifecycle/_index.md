@@ -3,7 +3,7 @@ title: Infrastructure Lifecycle Working Group
 list_pages: true
 ---
 
-The [charter](./charter/charter.md) describes the goals and activites of this group.
+The [charter](./charter) describes the goals and activities of this group.
 
 To contribute please join our Slack channel and/or biweekly meetings.
 
