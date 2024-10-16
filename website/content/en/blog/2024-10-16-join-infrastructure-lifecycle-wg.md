@@ -2,7 +2,7 @@
 title: Join the Infrastructure Lifecycle Working Group 💙
 slug: join-infrastructure-lifecycle-wg
 date: 2024-10-16 12:00:00 +0000
-author: Ryan Nowak, Bruno Schaatsbergen, and Jochen Zehnder.
+author: Ryan Nowak, Bruno Schaatsbergen, and Jochen Zehnder
 categories:
   - Article
 tags:
@@ -31,7 +31,7 @@ Co-chaired by [Ryan Nowak](https://github.com/rynowak) (Microsoft), [Bruno Schaa
 
 ## Excited?
 
-Are you a developer interested in shaping the future of cloud-native infrastructure lifecycle management? We’d love for you to be part of it\! 💙 The [charter](https://tag-app-delivery.cncf.io/wgs/infra-lifecycle/charter/charter.md/) provides more information about the working group’s goals and direction.
+Are you a developer interested in shaping the future of cloud-native infrastructure lifecycle management? We’d love for you to be part of it\! 💙 The [charter](https://tag-app-delivery.cncf.io/wgs/infra-lifecycle/charter/) provides more information about the working group’s goals and direction.
 
 - [Bi-weekly meetings](https://zoom-lfx.platform.linuxfoundation.org/meeting/96148400770?password=767d45df-c7cf-4400-9239-e789115cc85e&invite=true): Participate in our discussions on each month’s first and third Fridays.
 - [CNCF Slack Channel](https://cloud-native.slack.com/archives/C06USDTN683): Connect with us on the \#wg-infra-lifecycle channel on the [CNCF Slack workspace](https://www.cncf.io/membership-faq/#how-do-i-join-cncfs-slack).
