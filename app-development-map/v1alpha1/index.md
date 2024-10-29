@@ -125,11 +125,11 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Incubating |
 | Website                         | [opentelemetry.io](https://opentelemetry.io) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | Developers use OpenTelemetry to instrument their code to generate, collect, and export telemetry data (metrics, logs, and traces). |
 | How is the project best described? | Specification, SDK, Library |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | Once a month. By using the OpenTelemetry SDKs developers can externalize metrics, traces, and logs that can be used to troubleshoot issues when things go wrong. This is usually done once when teams decide to provide better observability for their services/applications. |
-| How does this tool help/improve developer productivity? | _TODO_ |
+| How does this tool help/improve developer productivity? | OpenTelemetry enables observability of applications, increases visibility and helps developers troubleshoot and understand their applications |
 | Which cloud-native principles and good practices does this project promote? | It assists teams with key tools to make complex systems more observable. |
 | When and why did a developer learn about this tool/project/spec? | Teams building complex applications want to understand how these services interact with each other to understand their performance or to troubleshoot when things go wrong. Developers might need to learn to instrument their applications to produce logs, metrics, and traces using the OpenTelemetry SDKs provided for all major programming languages or a library supporting the OpenTelemetry specification. |
 | Does this tool help other teams/roles to collaborate with developers? | Yes. OpenTelemetry helps operation and platform teams share data with developers for troubleshooting scenarios, performance and improvement, and profiling tasks. |
