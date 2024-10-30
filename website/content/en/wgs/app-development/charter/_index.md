@@ -1,6 +1,6 @@
 ---
 title: App Development Working Group Charter
-url: 'wgs/app-development/charter/charter.md/'
+description: The charter describes the mission and tactics of the Application Development working group (WG)
 ---
 
 The charter describes the mission and tactics of the Application Development Working Group (WG). 
