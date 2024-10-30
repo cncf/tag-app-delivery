@@ -10,7 +10,7 @@ The rise of cloud native runtimes (including Kubernetes and containers) revoluti
 
 Containers helped to streamline bootstrapping application infrastructure. Databases, message brokers, and other services can be spun up quickly alongside your code. Tools like Docker Compose, which is agnostic to programming language, allow developers to define their application and its dependencies in a single file. While containers simplify deployment, crafting production-ready, secure images requires more effort than creating a basic Dockerfile. While other teams often package and distribute these containers, developers must understand how to design and leverage best practices for containerized workloads correctly.
 
-![](imgs/cloud-native-runtimes.png)
+![Cloud Native Runtimes](imgs/cloud-native-runtimes.png)
 
 Popular programming languages and communities, including Go, C#, Java, DotNet, Javascript (Node.js), and Rust, have embraced common patterns and best practices to create applications that will run as containers. This means that regardless of your language choice, frameworks, and tools exist to help developers follow well-established principles like the “12-factor principles” (https://12factor.net). These principles align with the container’s best practices, simplifying the transition and ensuring your applications are designed from the ground up to run on  cloud native runtime environments.
 
@@ -23,7 +23,7 @@ Developing complex and distributed applications introduces challenges for inner-
 - Full remote cloud-native runtime: provide developers access to remote cloud-native runtime, where all the tools needed for their tasks are hosted remotely.
   - Similar to cloud provider tooling, tools, including Kubernetes clusters, build tools, and code editors (IDEs), can all be hosted remotely, removing the need for developers to install tools locally. 
 
-![](imgs/environments.png)
+![Environments](imgs/environments.png)
 
 Depending on the context, these options can improve the development experience but still expose some inherent complexity of the cloud-native runtime environment of choice (for example, Kubernetes). 
 
@@ -68,7 +68,7 @@ This working group aims to empower cloud-native developers and architects by ide
 
 The following diagram illustrates common tools, tasks, and artifacts in developer workflows.
 
-![](imgs/developer-workflows.png)
+![Developer Workflows](imgs/developer-workflows.png)
 
 In addition to uncovering tools, this group should champion best practices for building developer experiences (DevEx) that enhance productivity and minimize cognitive load. This includes promoting tools that integrate seamlessly within existing workflows and empowering teams to design custom interfaces tailored to domain-specific needs.
 
