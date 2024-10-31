@@ -27,7 +27,7 @@ Please note the following requirements to submit a talk propsal
 - The topic should be relevant to the TAG app-delivery. If in doubt, refer to [our charter](https://tag-app-delivery.cncf.io/)
 - When submitting project presentations, keep in mind that we will only accept CNCF projects, or projects submitted to CNCF sandbox.
 - Lightning talks will be a maximum of 10 minutes, a computer display can not be guaranteed.
-The call for proposals ends March 3rd. If your talk is accepted, we will notify you by March 9th.
+The call for proposals ends November 3rd. If your talk is accepted, we will notify you by November 4th.
 If you did not hear back from us, your submission has unfortunately not been accepted.
 
 
@@ -52,22 +52,22 @@ We will continuously update the below schedule as more information becomes avail
 
 Time | Location | Topic  | Presenter
 -----|----------|--------|----
-time | location | topic | presenter
+TBD | Kiosk 4A | TBD | TBD
 
 ### Wednesday: Conference Day 1
 
 Time | Location | Topic | Presenter
 -----|----------|-------|----
-time | location | topic | presenter
+TBD | Kiosk 4A | TBD | TBD
 
 ### Thursday: Conference Day 2
 
 Time | Location | Topic | Presenter
 -----|----------|-------|----
-time | location | topic | presenter
+TBD | Kiosk 4A | TBD | TBD
 
 ### Friday: Conference Day 3
 
 Time | Location | Topic | Presenter
 -----|----------|-------|----
-time | location | topic | presenter
+TBD | Kiosk 4A | TBD | TBD
