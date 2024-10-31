@@ -31,8 +31,9 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 ## Leads
 
 - Lian Li (@lianmakesthings) (Co-Chair, Term: 2024/04/16 - 2026/04/15)
-- Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
 - Roberth Strand (@roberthstrand) (Co-Chair, Term: 2024/08/05 - 2026/08/04)
+- Sarah Christoff (@schristoff) (TL)
+- Dylan Page (@genpage) (TL)
 
 ## TOC Liaisons
 - Katie Gamanji (@kgamanji)
@@ -45,6 +46,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - Alex Jones (@AlexsJones)
 - Josh Gavant (@joshgav)
 - Karena Angell (@angellk)
+- Thomas Schuetz (@thschue)
 
 ## Working Groups
 
