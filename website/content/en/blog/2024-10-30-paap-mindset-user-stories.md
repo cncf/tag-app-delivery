@@ -1,7 +1,7 @@
 ---
 title: Platform As A Product: Getting Into The Mindset With User Stories
 slug: paap-mindset-user-stories
-date:   2024-10-30 15:00:00 +0000
+date: 2024-10-30 15:00:00
 author: David Stenglein
 categories:
 - Article
