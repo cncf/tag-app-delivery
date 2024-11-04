@@ -32,7 +32,7 @@ Please note the following requirements to submit a talk proposal
 - When submitting project presentations, keep in mind that we will only accept CNCF projects, or projects submitted to CNCF sandbox.
 - Lightning talks will be a maximum of 10 minutes, a computer display can not be guaranteed.
 
-The call for proposals ends November 8rd. If your talk is accepted, we will notify you by November 9th.
+The call for proposals ends November 8th. If your talk is accepted, we will notify you by November 9th.
 If you did not hear back from us, your submission has unfortunately not been accepted.
 
 ## Schedule
