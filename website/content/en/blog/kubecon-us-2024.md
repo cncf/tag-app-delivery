@@ -53,8 +53,10 @@ Time | Location | Topic  | Presenter
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 7:15am MST | [Cupla Coffee](https://maps.app.goo.gl/DEvS6igyhQkJbU359) - 77 W 200 S, Salt Lake City, UT 84101 | "Platform Coffee" meetup | Platforms WG (sponsor TBD)
-TBD | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
 11:15am MST | Hyatt Regency - Level 2 - Salt Lake Ballroom C | [The State of Cloud Native Business Value in 2024](https://sched.co/1hovP) | Danielle Cook, StackGen; Simon Forster, Stackegy; Catherine Paganini, Buoyant; Colin Griffin, Krumware; Robbie Glenn, Glennium
+12:00pm - 1:30pm MST | [Platforms Working Group](https://tag-app-delivery.cncf.io/wgs/platforms/) | Platform Working Group Leads
+1:30pm - 2:30pm MST | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
+2:30pm - 4:00pm MST | [Artifacts Working Group](https://tag-app-delivery.cncf.io/wgs/artifacts/) | Artifacts Working Group Leads
 5:25pm MST | Salt Palace - Level 1 - Grand Ballroom H | [Creating Paved Paths for Platform Engineers](https://sched.co/1i7mT) | Ritesh Patel, Nirmata; Abby Bangser, Syntasso; Viktor Farcic, Upbound; Nicholas Morey, Akuity; Praseeda Sathaye, Amazon
 
 ### Thursday: Conference Day 2
@@ -62,7 +64,8 @@ TBD | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 7:15am MST | [Cupla Coffee](https://maps.app.goo.gl/DEvS6igyhQkJbU359) - 77 W 200 S, Salt Lake City, UT 84101 | "Platform Coffee" meetup | Platforms WG (sponsor TBD)
-TBD | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
+12:00pm - 1:30pm MST | [App Development Working Group](https://tag-app-delivery.cncf.io/wgs/app-development/) | App Development Working Group Leads
+1:30pm - 2:30pm MST | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
 2:30pm MST | Salt Palace - Level 3 - 355 E | [Applications, Platforms, and Infrastructure Oh My! What Is the TAG App Delivery Doing to Support You](https://sched.co/1howi) | Daniel Oh, Red Hat; Roberth Strand, Sopra Steria; Ryan Nowak, Microsoft; Abby Bangser, Syntasso
 
 ### Friday: Conference Day 3
@@ -70,5 +73,6 @@ TBD | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
 Time | Location | Topic | Presenter
 -----|----------|-------|----
 7:15am MST | [Cupla Coffee](https://maps.app.goo.gl/DEvS6igyhQkJbU359) - 77 W 200 S, Salt Lake City, UT 84101 | "Platform Coffee" meetup | Platforms WG (sponsor TBD)
-TBD | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
+12:00pm - 1:30pm MST | [Infrastructure Lifecycle Working Group](https://tag-app-delivery.cncf.io/wgs/infra-lifecycle/) | Infrastructure Lifecycle Working Group Leads
+1:30pm - 2:30pm MST | Kiosk 4A | Lighning Talks at the TAG App Delivery Booth | TBD
 11:00am MST | Salt Palace - Level 1 - Grand Ballroom H | [Platform Engineering in Financial Institutions: The Practitioner Panel](https://sched.co/1i7rP) | Paula Kennedy, Syntasso; Chris Plank, NatWest Bank; Suhail Patel, Monzo; Jinhong Brejnholt, Saxo Bank; Rachael Wonnacott, Fidelity International
