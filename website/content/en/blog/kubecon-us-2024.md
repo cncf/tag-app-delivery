@@ -57,7 +57,7 @@ Time | Location | Topic | Presenter
 10:45am - 3:15pm | Kiosk 3B | [Microcks](https://github.com/microcks/microcks), The open source, cloud native tool for API Mocking and Testing | Yacine Kheddache, Laurent Broudoux and community members 
 12:00pm - 1:30pm MST | [Platforms Working Group](https://tag-app-delivery.cncf.io/wgs/platforms/) | Platform Working Group Leads
 1:35pm MST | Kiosk 4A | Lighning Talk - "You Can Score It! Shift Down to the Platform. Do Not Shift Left to the Developers." | Mathieu Benoit
-1:55pm MST | Kiosk 4A | Lighning Talk - "A Quick Dive into ArgoCD Sync Phases & Waves" | Colin Lacey
+1:55pm MST | Kiosk 4A | Lighning Talk - "A Quick Dive into ArgoCD Sync Phases & Waves" | Colin Lacy
 2:15pm MST | Kiosk 4A | Lighning Talk - "What's Inside The Platform Fanny Pack?" | Ram Iyengar
 2:30pm - 4:00pm MST | [Artifacts Working Group](https://tag-app-delivery.cncf.io/wgs/artifacts/) | Artifacts Working Group Leads
 5:25pm MST | Salt Palace - Level 1 - Grand Ballroom H | [Creating Paved Paths for Platform Engineers](https://sched.co/1i7mT) | Ritesh Patel, Nirmata; Abby Bangser, Syntasso; Viktor Farcic, Upbound; Nicholas Morey, Akuity; Praseeda Sathaye, Amazon
