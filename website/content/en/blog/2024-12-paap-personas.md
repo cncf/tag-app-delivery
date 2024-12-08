@@ -23,33 +23,37 @@ When considering its users, we need to identify the different personas such as: 
 The personas would focus on different aspects of the platform:
 
 
-* Platform Builders (focus on platform and beneficiary experience):
+* Builders (focus on platform and beneficiary experience):
 
-** Enabling Day2 Platform Operations
-** Setting up the platform
-** Setting up security
-** Platform Capabilities for AI
-** Platform capabilities for HPC workloads
+* * Enabling Day2 Platform Operations
+* * Setting up the platform
+* * Setting up security
+* * Platform Capabilities for AI
+* * Platform capabilities for HPC workloads
 
-* Platform Enablers (focus on end-users and application capabilities):
+* Enablers (focus on end-users and application capabilities):
 
-** Enabling cloud-native and legacy workloads with best practices such as CI/CD and security guardrails.
-** Enabling user experience and self-service capabilities
-** Build automation practices to simplify onboarding experiences for end users.
-** Configuration integrations and third-party tools
+* * Enabling cloud-native and legacy workloads with best practices such as CI/CD and security guardrails.
+* * Enabling user experience and self-service capabilities
+* * Build automation practices to simplify onboarding experiences for end users.
+* * Configuration integrations and third-party tools
 
-* Platform Consumers - Platform Customers (Developers):
+* Consumers - Platform Customers (Developers):
 
-** Access the platform to maintain and build applications
-** Build any applications from legacy systems, cloud-native, AI
-** Might not interact with the platform directly.
+* * Access the platform to maintain and build applications
+* * Build any applications from legacy systems, cloud-native, AI
+* * Might not interact with the platform directly.
 
-* Platform End-Users (customers):
+* End-Users (customers):
 
-** Customers who are the end-users of the applications and systems running on top of the platform.
-** Might not interact with the platform directly.
+* * Customers who are the end-users of the applications and systems running on top of the platform.
+* * Might not interact with the platform directly.
 
 * Service Providers:
-** Organizations who are experts in building platforms and providing Platforms on top of Kubernetes.
-** Consulting organizations that help teams drive implementations and adoption around the platform
+* * Organizations who provide a Platform on top of Kubernetes.
+* * Consulting organizations that help teams drive implementations and adoption around the platform
 
+
+# Personas interactions
+
+<img src="../assets/paap_personas_interactions.png" width=400px />
