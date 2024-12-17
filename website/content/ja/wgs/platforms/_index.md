@@ -23,9 +23,8 @@ To register for updates and to "Join" the group, please also consider joining th
 
 ## Meetings
 
-* Meeting schedule: 2nd and 4th Tuesday of each month at [1600 Europe/London time](https://www.timeanddate.com/worldclock/converter.html?iso=20240514T150000&p1=136)
-* Please RSVP for meetings on the [TAG App Delivery Community Groups Page](https://community.cncf.io/tag-app-delivery/). This will also provide a calendar entry.
-* Meeting Location, Virtual: <https://zoom-lfx.platform.linuxfoundation.org/meeting/95319413756?password=a945340e-f322-437f-9653-cbf3f05ada69>
+* Meeting schedule: Every other Tuesday of each month at [1600 Europe/London time](https://www.timeanddate.com/worldclock/converter.html?iso=20240514T150000&p1=136)
+* Join the meeting via [Zoom link](https://zoom-lfx.platform.linuxfoundation.org/meeting/95319413756?password=a945340e-f322-437f-9653-cbf3f05ada69). You can also add the recurring meetings to your calendar by clicking on the **"Need an invite?"** option on the same page.
   * Passcode: 77777
-* Agendas and notes: <https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg>
+* Agendas and notes can be found in this [Google Doc](https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg)
 * Previous meetings can be viewed on the [TAG YouTube Channel](https://www.youtube.com/watch?v=eZYSQnsWRco&list=PLjNzvzqUSpxKH8X7wNfYZtkH_ARSeeQH0)
