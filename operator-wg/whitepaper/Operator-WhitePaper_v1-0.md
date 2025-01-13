@@ -315,7 +315,7 @@ about if they should use an operator:
 
 For further ideas around the security of the development process,
 the reader may wish to review the CNCF Security TAG's [self-assessment
-questionnaire](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md).
+questionnaire](https://github.com/cncf/tag-security/blob/main/community/assessments/guide/self-assessment.md).
 
 #### Operator Scope
 
