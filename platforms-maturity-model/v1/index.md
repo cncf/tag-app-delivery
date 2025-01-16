@@ -393,7 +393,7 @@ Existen procesos estándar para la creación y evolución de nuevas capacidades,
 #### Características:
 
 * Los equipos de aplicaciones solicitan servicios a los equipos de plataforma antes de crearlos.
-* Los nuevos servicios deben adherir a prácticas estándar como ser interfaces estándar, documentación y gobierno.
+* Los nuevos servicios deben adherirse a prácticas estándar como interfaces estándar, documentación y gobierno.
 * Los procesos de actualización están documentados y son consistentes entre versiones y servicios.
 * En los casos donde el proveedor de la capacidad no gestiona una actualización, provee herramientas y soporte a los usuarios para lograr impacto mínimo.
 
