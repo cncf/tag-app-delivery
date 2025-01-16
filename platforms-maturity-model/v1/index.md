@@ -438,7 +438,7 @@ Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cad
 #### Escenarios de ejemplo:
 
 * Un líder técnico de plataforma quiere mejorar la colaboración con los usuarios agregando temas principales a su próxima planificación trimestral. Se decide realizar una encuesta sobre qué les gustaría ver a los usuarios. La respuesta es abrumadora, lo que es prometedor, pero también resulta en una dificultad para organizar y responder a todas esas ideas. Si bien algunas ideas influyen en la planificación del trimestre, los usuarios no ven que sus ideas hayan sido consideradas y están menos dispuestos a responder a la próxima encuesta.
-* El equipo quiere capturar más datos automáticamente, por lo que buscan oportunidades de fácil recolección como las fallas de pruebas en CI. Sin embargo, no todo equipo usa la misma automatización de CI, por lo que los datos solo están disponibles para aplicaciones Java aún cuando algunos equipos han cambiado las codificación de sus servicios a Scala.
+* El equipo quiere capturar más datos automáticamente, por lo que buscan oportunidades de fácil recolección como las fallas de pruebas en CI. Sin embargo, no todos los equipos usan la misma automatización de CI, por lo que los datos solo están disponibles para aplicaciones Java aun cuando algunos equipos han cambiado la codificación de sus servicios a Scala.
 
 ### Nivel 2, Operativo — Recolección consistente
 
