@@ -363,7 +363,7 @@ Los equipos que construyen una nueva capacidad para cubrir sus propias necesidad
 
 #### Escenarios de ejemplo:
 
-* Se anuncia la vulnerabilidad de seguridad Log4Shell y la organización se apresura a designar un equipo de especialistas para investigar dónde podría existir una vulnerabilidad en la organización e instigar la aplicación de patches. Una vez que el equipo identifica el impacto, debe trabajar codo a codo con una cantidad de equipos diferentes dado que cada uno de ellos gestiona sus propios servidores y tienen procesos de actualización diferentes. Incluso cuando este trabajo se considera finalizado, el nivel de confianza de que no existan instancias que no se hayan cubierto, es escaso.
+* Se anuncia la vulnerabilidad de seguridad Log4Shell y la organización se apresura a designar un equipo de especialistas para investigar dónde podría existir una vulnerabilidad en la organización e instigar la aplicación de parches. Una vez que el equipo identifica el impacto, debe trabajar codo a codo con una cantidad de equipos diferentes dado que cada uno de ellos gestiona sus propios servidores y tienen procesos de actualización diferentes. Incluso cuando este trabajo se considera finalizado, el nivel de confianza de que no existan instancias que no se hayan cubierto es escaso.
 
 
 ### Nivel 2, Operativo — Registro central
