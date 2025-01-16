@@ -31,7 +31,7 @@ window.onhashchange = function() {
 
 ## Introducción
 
-El [Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) inicial de la CNCF describe qué son las plataformas internas para cloud computing y los valores que prometen entregar a las empresas. Pero para alcanzar esos valores, una organización debe reflejar y perseguir deliberadamente resultados y prácticas que tienen impacto en ellas, teniendo presente que toda organización depende de una plataforma interna elaborada para sí misma, aún si esa plataforma no fuera más que documentación sobre cómo utilizar servicios de terceras partes. Este modelo de madurez provee un marco de trabajo para esa reflexión y para identificar oportunidades de mejora en cualquier organización.
+El [Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/) inicial de la CNCF describe qué son las plataformas internas para computación en la nube y los valores que prometen entregar a las empresas. Pero para alcanzar esos valores, una organización debe reflejar y perseguir deliberadamente resultados y prácticas que tienen impacto en ellas, teniendo presente que toda organización depende de una plataforma interna elaborada para sí misma, aún si esa plataforma no fuera más que documentación sobre cómo utilizar servicios de terceras partes. Este modelo de madurez provee un marco de trabajo para esa reflexión y para identificar oportunidades de mejora en cualquier organización.
 
 ## ¿Qué es la Ingeniería de Plataforma?
 
