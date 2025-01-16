@@ -47,7 +47,7 @@ A medida que la Ingeniería de Plataforma ha ido ganando importancia durante los
 
 Como nota, cada nivel adicional de madurez, va acompañado de mayores requerimientos presupuestarios y dedicación de tiempo de las personas. Por lo tanto, alcanzar el nivel más alto no debería ser una meta en sí misma. Cada nivel describe cualidades que deberían aparecer en esa etapa. Los lectores deben considerar si su organización y contexto actual se beneficiarían de esas cualidades, en base a la inversión requerida.
 
-Mantener presente que cada aspecto está pensado para ser evaluado y evolucionado de manera independiente. Sin embargo, como en cualquier sistema técnico social, estas características son complejas e interrelacionadas. Por ello, podría ocurrir que para mejorar en un aspecto determinado, también se debe alcanzar un nivel mínimo en otro aspecto.
+Manténgase presente que cada aspecto está pensado para ser evaluado y evolucionado de manera independiente. Sin embargo, como en cualquier sistema técnico social, estas características son complejas e interrelacionadas. Por ello, podría ocurrir que para mejorar en un aspecto determinado, también se deba alcanzar un nivel mínimo en otro aspecto.
 
 También es importante reconocer que las implementaciones de plataformas varían de una organización a otra. Asegúrese de evaluar el estado actual integral de la transformación cloud native de _su_ grupo. Un recurso fenomenal de apoyo para esta evaluación es el [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
 
