@@ -466,8 +466,8 @@ Se emplean equipos o herramientas dedicadas a obtener y revisar la retroalimenta
 #### Características:
 
 * Antes de entregar una nueva funcionalidad de plataforma, el equipo discute cómo evaluar el resultado de su trabajo.
-* Las organzación está ampliamente alineada con métricas que indican el éxito de las iniciativas de plataforma.
-* Un [Product Manager]({{< ref "/wgs/platforms/glossary#platform-team" >}}) o un miembro dedicado del equipo conduce una permamente y consistente recolección de retroalimentación y proceso de análisis.
+* La organización está ampliamente alineada con métricas que indican el éxito de las iniciativas de plataforma.
+* Un [Product Manager]({{< ref "/wgs/platforms/glossary#platform-team" >}}) o un miembro dedicado del equipo conduce una permanente y consistente recolección de retroalimentación y proceso de análisis.
 * La organización ha establecido métricas y objetivos para observar apuntando al éxito.
 
 #### Escenarios de ejemplo:
