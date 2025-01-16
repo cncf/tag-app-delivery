@@ -278,7 +278,7 @@ La falta de requerimientos centrales y estándares hace de este nivel el apropia
 #### Características:
 
 * La interacción de usuarios no es un tema clave de discusión y las interacciones rara vez (o ninguna) son probadas durante el diseño y entrega de nuevas capacidades.
-* Las capacidades son provistas principalmente mediante solicitudes manuales, si bien los proveedores pueden elegir automatizar algunas o todas las atividades necesarias para aprovisionar una solicitud de usuario.
+* Las capacidades son provistas principalmente mediante solicitudes manuales, si bien los proveedores pueden elegir automatizar algunas o todas las actividades necesarias para aprovisionar una solicitud de usuario.
 * Las solicitudes que se encuentran en fase “simple” se vuelven complejas debido la dificultad para encontrar el proceso adecuado a seguir.
 * En ocasiones un proceso se muestra como autorizado, pero los usuarios tienen problemas cuando un departamento o equipo diferente se involucra.
 
