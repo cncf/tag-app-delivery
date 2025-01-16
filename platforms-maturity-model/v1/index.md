@@ -472,7 +472,7 @@ Se emplean equipos o herramientas dedicadas a obtener y revisar la retroalimenta
 
 #### Escenarios de ejemplo:
 
-* La organización ha registrado consistentemente los tiempos de build y de ejecución de cambios. Sin embargo, ahora se dan cuenta que si bien son métricas fáciles de recolectar, por sí solas no ofrecen un panorama completo de la entrega de software. Con esto en mente, el equipo implementa métricas para la confiabilidad y estabilidad del servicio.
+* La organización ha registrado consistentemente los tiempos de producción y ejecución de cambios. Sin embargo, ahora se dan cuenta de que, si bien son métricas fáciles de recolectar, por sí solas no ofrecen un panorama completo de la entrega de software. Con esto en mente, el equipo implementa métricas para la confiabilidad y estabilidad del servicio.
 
 ### Nivel 4, Optimizable — Cuantitativo y cualitativo
 
