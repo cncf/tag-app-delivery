@@ -342,7 +342,7 @@ Las capacidades de plataforma están integradas con transparencia en las herrami
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Cómo se planifican, priorizan, desarrollan y mantienen las plataformas y sus capacidades?</i></h4>
 
-La operación de plataformas implica ejecutar y soportar sus capacidades y funcionalidades en todo su ciclo de vida, incluyendo la aceptación de nuevos requerimientos, releases iniciales, actualizaciones y extensiones, mantenimiento y operación permanente, soporte a usuarios e incluso deprecación y remoción. Las organizaciones y sus equipos de plataformas elijen las plataformas y capacidades a crear y mantener y pueden priorizar las iniciativas más valiosas e impactantes.
+La operación de plataformas implica ejecutar y soportar sus capacidades y funcionalidades en todo su ciclo de vida, incluyendo la aceptación de nuevos requerimientos, releases iniciales, actualizaciones y extensiones, mantenimiento y operación permanente, soporte a usuarios e incluso retirada y supresión. Las organizaciones y sus equipos de plataformas eligen las plataformas y capacidades a crear y mantener y pueden priorizar las iniciativas más valiosas e impactantes.
 
 Notablemente, la mayor parte del trabajo para proveer una capacidad se realiza posterior a su release inicial, al proveer actualizaciones sin impacto, funcionalidades nuevas y mejoradas, soporte operativo y habilitación y educación al usuario final. Por lo tanto, una plataforma valiosa y de impacto planificará de antemano la gestión de su plataforma para operaciones de largo plazo y confiabilidad.
 
