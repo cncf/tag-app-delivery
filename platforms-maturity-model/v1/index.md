@@ -327,7 +327,7 @@ Las capacidades de plataforma están integradas con transparencia en las herrami
 #### Características:
 
 * Está claro qué capacidades son diferenciadoras para la organización y cuales no, permitiendo que los equipos internos inviertan en soluciones personalizadas solo cuando no puedan aprovechar los estándares de la industria.
-* Si bien las capacidades presentan una navegación consistente, no hay una única forma de usar una capacidad. Algunas son más adecuadas como herramientas de linea de comandos para usar en scripts, mientras que otras se benefician de la integración con lo que el usuario utilice para escribir código en sus editores e IDEs.
+* Si bien las capacidades presentan una navegación consistente, no hay una única forma de usar una capacidad. Algunas son más adecuadas como herramientas de línea de comandos para usar en scripts, mientras que otras se benefician de la integración con lo que el usuario utilice para escribir código en sus editores e IDEs.
 * El valor de las capacidades individuales se extiende con foco en el flujo tanto del desarrollo como de liberación del software, lo que lleva a focalizar en cómo combinar capacidades en ofertas de mayor nivel.
 * Si bien las capacidades usualmente se proveen en paquetes, los super usuarios pueden descomponer estas ofertas de alto nivel para optimizar cuándo y dónde se necesite.
 
