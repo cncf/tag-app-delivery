@@ -197,7 +197,7 @@ La adopción de plataformas y capacidades compartidas es esporádica e inconsist
 
 * Herramientas, servicios y capacidades se gestionan y consumen de forma aislada por diversos equipos y departamentos de la organización.
 * Se adoptan servicios gestionados por un proveedor ("cloud") y se utilizan con inconsistencia y sin prácticas ni políticas estándar, dado que es dificil encontrar y usar configuraciones internas.
-* Los equipos de aplicaciones y servicios descubren herramientas y capacidades en forma anárquica, mediante rumores o conversaciones casuales, en lugar de contar con un proceso más centralizado.
+* Los equipos de aplicaciones y servicios descubren herramientas y capacidades de forma anárquica, mediante rumores o conversaciones casuales, en lugar de contar con un proceso más centralizado.
 * La coordinación y reutilización de componentes y capacidades sólo ocurre por los usuarios finales (equipos de aplicaciones), si es que ocurren.
 * Los equipos de producto mantienen cada cual sus propios conjuntos de scripts o herramientas para desplegar sus aplicaciones.
 
