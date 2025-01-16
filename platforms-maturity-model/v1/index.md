@@ -313,7 +313,7 @@ Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y r
 #### Características:
 
 * Las soluciones se ofrecen como implementaciones de “un-click”, permitiendo que los equipos se beneficien de una capacidad sin necesidad de comprender cómo se aprovisiona.
-* Si bien las soluciones son fáciles de crear, puede que no haya mucha facilidad de uso construída para la gestión de la solución en el día 2 y más allá
+* Si bien las soluciones son fáciles de crear, puede que no haya mucha facilidad de uso construida para la gestión de la solución en el día 2 y más allá.
 * Sigue existiendo un trayecto acotado de soluciones disponibles, dejando a los usuarios con requerimientos únicos para los que no se sabe bien cómo proceder.
 
 #### Escenarios de ejemplo:
