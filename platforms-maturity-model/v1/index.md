@@ -322,7 +322,7 @@ Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y r
 
 ### Nivel 4, Optimizable — Servicios integrados
 
-Las capacidades de plataforma están integradas con transparencia en las herramientas y procesos que los equipos utilizan para hacer su trabajo. Algunas capacidades se aprovisionan automáticamente, como ser observabilidad o gestión de identidades para un servicio desplegado. Cuando los usuarios llegan al límite de los servicios provistos, tienen la oportunidad de hacer a un lado las soluciones automatizadas y personalizarlas para sus necesidades, sin dejar las ofertas internas porque las capacidades de plataforma están consideradas como bloques para armar. Estos bloques para armar se usan para construir composiciones transparentes y automáticas para cubrir los casos de uso de alto nivel a la vez que habilitan una personalización más profunda donde sea necesaria.
+Las capacidades de plataforma están integradas con transparencia en las herramientas y procesos que los equipos utilizan para hacer su trabajo. Algunas capacidades se aprovisionan automáticamente, como observabilidad o gestión de identidades para un servicio desplegado. Cuando los usuarios llegan al límite de los servicios provistos, tienen la oportunidad de hacer a un lado las soluciones automatizadas y personalizarlas para sus necesidades, sin abandonar las ofertas internas porque las capacidades de plataforma están consideradas como bloques para armar. Estos bloques para armar se usan para construir composiciones transparentes y automáticas para cubrir los casos de uso de alto nivel a la vez que habilitan una personalización más profunda donde sea necesaria.
 
 #### Características:
 
