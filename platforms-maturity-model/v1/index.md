@@ -265,7 +265,7 @@ Los usuarios de equipos de producto promueven la inversión en capacidades de pl
 
 Las interfaces provistas por plataformas afectan a cómo los usuarios interactúan con las ofertas de capacidades que ofrece para aprovisionar, gestionar y observar. Las interfaces pueden incluir sistemas de tickets, plantillas de proyecto y portales gráficos así como APIs automatizables y herramientas de línea de comandos(CLI).
 
-Las características principales de una interface incluyen qué tan descubribles y amigables resultan ser para el usuario durante tareas clave para ellos, como ser un requerimiento inicial, mantenimiento o triage de incidentes. Aquí los niveles de madurez más elevados reflejan interfaces más integradas, consistentes, automatizadas y soportadas.
+Las características principales de una interfaz incluyen qué tan descubribles y amigables resultan ser para el usuario durante sus tareas clave, como requisito inicial, mantenimiento o triaje de incidentes. Aquí los niveles de madurez más elevados reflejan interfaces más integradas, consistentes, automatizadas y soportadas.
 
 ### Nivel 1, Provisional — Procesos personalizados
 
