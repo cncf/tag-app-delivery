@@ -47,13 +47,13 @@ A medida que la Ingeniería de Plataforma ha ido ganando importancia durante los
 
 Como nota, cada nivel adicional de madurez, va acompañado de mayores requerimientos presupuestarios y dedicación de tiempo de las personas. Por lo tanto, alcanzar el nivel más alto no debería ser una meta en sí misma. Cada nivel describe cualidades que deberían aparecer en esa etapa. Los lectores deben considerar si su organización y contexto actual se beneficiarían de esas cualidades, en base a la inversión requerida.
 
-Mantener presente que cada aspecto está pensado para ser evaluado y evolucionado de manera independiente. Sin embargo, como en cualquier sistema técnico social, estas características son complejas e interrelacionadas. Por ello, podría ocurrir que para mejorar en un aspecto determinado, también se debe alcanzar un nivel mínimo en otro aspecto.
+Manténgase presente que cada aspecto está pensado para ser evaluado y evolucionado de manera independiente. Sin embargo, como en cualquier sistema técnico social, estas características son complejas e interrelacionadas. Por ello, podría ocurrir que para mejorar en un aspecto determinado, también se deba alcanzar un nivel mínimo en otro aspecto.
 
-También es importante reconocer que las implementaciones de plataformas varían de una organización a otra. Asegúrese de evaluar el estado actual integral de la transformación cloud native de _su_ grupo. Un recurso fenomenal de apoyo para esta evaluación es el [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
+También es importante reconocer que las implementaciones de plataformas varían de una organización a otra. Asegúrese de evaluar el estado actual integral de la transformación nativa de la nube de _su_ grupo. Un recurso fenomenal de apoyo para esta evaluación es el [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
 
 Por último, este modelo alienta a que las organizaciones maduren su disciplina de Ingeniería de Plataforma y sus plataformas resultantes mediante una planificiación intencional. Tal planificación y disciplina son requerimientos en sí mismos para el desarrollo de plataformas maduras y su evolución continua.
 
-En general, tener presente que al mapear su organización dentro de un modelo, captura el estado actual _para permitir_ la iteración y mejora progresiva. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) bien lo dice: "El verdadero resultado de una evaluación de modelo de madurez no es en que nivel uno se encuentra, sino la lista de cosas en las que se debe trabajar para mejorar. Su nivel actual es tan solo un estadío intermedio de trabajo para poder determinar esa lista de conocimientos que se deben adquirir a continuación." En ese sentido, procure ubicarse dentro del modelo y luego identifique oportunidades en los niveles adyacentes.
+En general, tenga presente que al mapear su organización dentro de un modelo, captura el estado actual _para permitir_ la iteración y mejora progresiva. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) bien lo dice: "El verdadero resultado de una evaluación de modelo de madurez no es en qué nivel uno se encuentra, sino la lista de cosas en las que se debe trabajar para mejorar. Su nivel actual es tan solo un estadío intermedio de trabajo para poder determinar esa lista de conocimientos que se deben adquirir a continuación.". En ese sentido, procure ubicarse dentro del modelo y luego identifique oportunidades en los niveles adyacentes.
 
 ## El contexto detrás de este trabajo
 
@@ -74,7 +74,7 @@ Cada lector trae un contexto único y tomará aprendizajes únicos de este model
 
 Este modelo no está concebido para clasificar en forma determinante a una organización o plataforma con un “Nivel 1” o “Nivel 4.” Cada aspecto debe considerarse de manera independiente de las otras; las características de cada nivel representan una continuidad dentro de ese aspecto, pero no están necesariamente acopladas a otros aspectos del mismo nivel. Más aún, muchas organizaciones verán características de más de un nivel, que aplicarán a sus equipos y trabajos. Esto se debe a que ningún nivel es inherentemente bueno o malo, sino solo contextual a los objetivos del equipo.
 
-Las etiquetas de cada nivel pretenden reflejar el impacto de la Ingeniería de Plataforma en su organización. A medida que recozca a su organización en un nivel determinado, obtendrá una visión de las oportunidades que siguen en los siguientes niveles. Los niveles más bajos comprenden soluciones más tácticas, mientras que los más altos son más estratégicas.
+Las etiquetas de cada nivel pretenden reflejar el impacto de la Ingeniería de Plataforma en su organización. A medida que reconozca a su organización en un nivel determinado, obtendrá una visión de las oportunidades que siguen en los siguientes niveles. Los niveles más bajos comprenden soluciones más tácticas, mientras que los más altos son más estratégicas.
 
 Esto genera un potencial proceso para el desarrollo y madurez de las plataformas, similar al desarrollo de otro producto digital: primero, reconocer un problema y la necesidad de una nueva solución, luego desarrollar productos mínimamente viables como soluciones hipotéticas, en tercer lugar iterar para mejorar la solución y asegurar que satisface a los clientes y finalmente escalar y optimizar el producto para resolver el problema para muchos equipos y usuarios.
 
@@ -84,20 +84,20 @@ De forma similar al [CNCF Cloud Native Maturity Model](https://maturitymodel.cnc
 
 ¡Eso está perfecto! Todas las organizaciones y grupos tienen dinámicas y parámetros específicos.
 
-Hay que tener presente que el objetivo de este paper no es el de prescribir una fórmula rígida, sino dar un marco de trabajo que pueda aplicar a sus  circunstancias. Puede que no todas las palabras le sean relevantes, pero esperamos que el contenido lo inspire a una introspección sobre el trayecto de su propia plataforma, tomando lo que le haga sentido y dejando de lado el resto.
+Hay que tener presente que el objetivo de este paper no es el de prescribir una fórmula rígida, sino dar un marco de trabajo que pueda aplicar a sus  circunstancias. Puede que no todas las palabras le sean relevantes, pero esperamos que el contenido lo inspire a una introspección sobre el trayecto de su propia plataforma, tomando lo que tenga sentido y dejando de lado el resto.
 
-El objetivo de este modelo es proveer una herramienta que provea una guía a los practicantes de Ingeniería de Plataforma, accionistas y otros sujetos interesados en sus recorridos. El diseño e implementación de plataformas no es una ciencia exacta sino que depende de las necesidades de un proyecto individual, una organizacion y un tiempo y lugar particular.
+El objetivo de este modelo es proveer una herramienta que provea una guía a los practicantes de Ingeniería de Plataforma y otros sujetos interesados en sus recorridos. El diseño e implementación de plataformas no es una ciencia exacta sino que depende de las necesidades de un proyecto individual, una organizacion y un tiempo y lugar particular.
 
 
 ## Tabla del modelo
 
 | <div style="width:120px">Aspect </div> |                                                                                            | Provisional            | Operativo           | Escalable               | Optimizable                   |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------|:-----------------------|:----------------------|:-----------------------|:-----------------------------|
-| [Inversión](#Investment)     | _¿Cómo se asigna personal y presupuesto a las capacidades de la plataforma?_                              | Voluntario o transitorio | Equipo dedicado        | Como producto             | Ecosistema facultado            |
-| [Adopción](#Adoption)         | _¿Por qué y cómo los usuarios descubren y usan las plataformas internas y sus capacidades?_      | Erratica                | Empuje extrínseco        | Tracción intrínseca         | Participatoria                |
+| [Inversión](#Inversión)     | _¿Cómo se asigna personal y presupuesto a las capacidades de la plataforma?_                              | Voluntario o transitorio | Equipo dedicado        | Como producto             | Ecosistema facultado            |
+| [Adopción](#Adopción)         | _¿Por qué y cómo los usuarios descubren y usan las plataformas internas y sus capacidades?_      | Errática                | Empuje extrínseco        | Tracción intrínseca         | Participatoria                |
 | [Interfaces](#Interfaces)     | _¿Cómo interactúan los usuarios con la platforma y cómo consumen sus capacidades?_                            | Procesos peronalizados       | Herramientas estándar      | Soluciones de autoservicio | Servicios integrados          |
-| [Operaciones](#Operations)     | _¿Cómo se planifican, priorizan, desarrollan y mantienen las plataformas y sus capacidades?_ | A demanda             | Resgistro central     | Habilitación central      | Servicios gestionados             |
-| [Medición](#Measurement)   | _¿Cómo es el proceso para obtener e incorporar retroalimentación y aprendizaje?_               | Ad hoc                 | Recopilación consistente | Ideas               | Cuantitativo y cualitativo |
+| [Operaciones](#Operaciones)     | _¿Cómo se planifican, priorizan, desarrollan y mantienen las plataformas y sus capacidades?_ | A demanda             | Resgistro central     | Habilitación central      | Servicios gestionados             |
+| [Medición](#Medición)   | _¿Cómo es el proceso para obtener e incorporar retroalimentación y aprendizaje?_               | Ad hoc                 | Recopilación consistente | Ideas               | Cuantitativo y cualitativo |
 
 ## Detalle del modelo
 
@@ -120,16 +120,16 @@ Estas capacidades se construyen y mantienen por personas asignadas de forma temp
 * Se definen equipos de choque (_"Hit"_) o especializados (_"tiger"_) para abordar requerimientos urgentes. Estos equipos son efímeros y no tienen tiempo asignado ni otorgado para planificación y/o soporte a largo plazo.
 * Las migraciones, mejoras o  ampliaciones se suelen considerar ítems de trabajo "deseable" y dependen de esfuerzos de "investigación" o "días de hackeo".
 * Las mejoras a procesos o automatizaciones pueden introducirse durante la atención de algún requerimiento puntual, como ser un parche urgente de seguridad, sin embargo, no se cuenta con apoyo para construir las soluciones de manera reutilizable o sostenible.
-* Los empleados se quejan de sobrecarga y frustración por la cantidad de trabajo que realizan por fuera de su rol principal.
+* Los empleados se quejan de sobrecarga y frustración por la cantidad de trabajo que realizan fuera de su rol principal.
 
 #### Escenarios de ejemplo:
 
-* Hay un empleado específico a quien se lo percibe como el experto de entornos de prueba. Si bien este empleado tiene buenas intenciones, sus intentos por habilitar mejores entornos de prueba a pesar de la inversión limitada, han llevado a incrementar el riesgo, dado que no se realiza un mantenimiento de su solución y no hay conocimiento compartido sobre cómo hacer un triage de un entorno de prueba que presenta fallas.
+* Hay un empleado específico a quien se percibe como el experto en entornos de prueba. Si bien este empleado tiene buenas intenciones, sus intentos por habilitar mejores entornos de prueba a pesar de la inversión limitada, han llevado a incrementar el riesgo, dado que no se realiza un mantenimiento de su solución y no hay conocimiento compartido sobre cómo hacer un triaje de un entorno de prueba que presenta fallas.
 * Los ingenieros solo son alentados a invertir en mejoras de capacidades cuando no existe presión por parte de la gerencia en relación con funcionalidades de generación de ingresos. Esto se traduce en pocos días al final de algunos sprints, en los que ellos priorizan automatizar y mejorar partes de su pipeline de CI/CD. No es inusual que estas mejoras aparezcan en ráfagas ya que pueden pasar meses con sprints que los mantienen totalmente ocupados y que no dejan disponibilidad para estos emprendimientos.
 
 ### Nivel 2, Operativo — Equipo dedicado
 
-Se cuenta con presupuesto y el personal asignado para dar soporte persistente a personas y recursos. El personal asignado tiene la tarea de proveer un conjunto de capacidades comunmente requeridas para acelerar la entrega de software. A menudo estos equipos se enfocan en cumplir requerimientos técnicos reactivos. Pueden llamarse DevOps, Engineering Enablement, Developer Experience (DevEx o DevX), Shared Tools, Centre-Of-Excellence, o incluso Platform. Tienen financiamiento central y son gestionados con un centro de costos, pero su impacto directo en la cadena de valor no es medido. En este nivel puede resultar dificil asociar el impacto de los equipos de plataforma sobre la organización y sus flujos de valor, lo que puede complicar la sustentabilidad continua de estos equipos.
+Se cuenta con presupuesto y el personal asignado para dar soporte persistente a personas y recursos. El personal asignado tiene la tarea de proveer un conjunto de capacidades comúnmente requeridas para acelerar la entrega de software. A menudo estos equipos se enfocan en cumplir requerimientos técnicos reactivos. Pueden llamarse DevOps, Engineering Enablement, Developer Experience (DevEx o DevX), Shared Tools, Centre-Of-Excellence, o incluso Platform. Tienen financiamiento central y son gestionados con un centro de costos, pero su impacto directo en la cadena de valor no es medido. En este nivel puede resultar difícil asociar el impacto de los equipos de plataforma sobre la organización y sus flujos de valor, lo que puede complicar la sustentabilidad continua de estos equipos.
 
 #### Características:
 
@@ -141,18 +141,18 @@ Se cuenta con presupuesto y el personal asignado para dar soporte persistente a 
 
 #### Escenarios de ejemplo:
 
-* Los desarroladores de aplicaciones, levantan un problema por el tiempo que demora realizar el build de sus aplicaciones. A un equipo centralizado se le asigna la tarea de reducir el tiempo de build en un 50%. Ellos lo resuelven, duplicando el tamaño y cantidad de ejecutores de CI dado que no tienen la suficiente cercanía con el software como para mejorar individualmente los builds de las aplicaciones. Esto crea una preocupación de presupuesto en relación al equipo centralizado, debido a que la ganancia de productividad no se mide directamente contra este aumento de costo de infraestructura.
+* Los desarrolladores de aplicaciones señalan un problema por el tiempo que demora realizar el build de sus aplicaciones. A un equipo centralizado se le asigna la tarea de reducir el tiempo de build en un 50%. Ellos lo resuelven, duplicando el tamaño y cantidad de ejecutores de CI dado que no tienen la suficiente cercanía con el software como para mejorar individualmente los builds de las aplicaciones. Esto crea un problema de presupuesto para el equipo centralizado, debido a que la ganancia de productividad no se mide directamente contra este aumento de costo de infraestructura.
 
 ### Nivel 3, Escalable — Como producto
 
-La inversión en plataformas internas y sus capacidades es similar a la inversión en los productos y cadena de valor que genera una empresa: en base al valor que se espera proveer a sus clientes. Se considera de manera explícita y se invierte en la gestión de producto y experiencia de usuario. Puede usarse un sistema de cobro revertido para reflejar el impacto de las plataformas en las cadenas de valor y productos de sus clientes. La empresa asigna presupuesto y personal a las iniciativas apropiadas usando indicadores de rendimiento basados en datos y círcuitos de retroalimentación. Los equipos de plataforma pueden, en definitiva, optimizar el negocio y contribuir al aumento de rentabilidad.
+La inversión en plataformas internas y sus capacidades es similar a la inversión en los productos y cadena de valor que genera una empresa: en base al valor que se espera proveer a sus clientes. Se considera de manera explícita y se invierte en la gestión de producto y experiencia de usuario. Puede usarse un sistema de cobro revertido para reflejar el impacto de las plataformas en las cadenas de valor y productos de sus clientes. La empresa asigna presupuesto y personal a las iniciativas apropiadas usando indicadores de rendimiento basados en datos y circuitos de retroalimentación. Los equipos de plataforma pueden, en definitiva, optimizar el negocio y contribuir al aumento de rentabilidad.
 
 #### Características:
 
 * Los equipos de plataforma están conformados por roles que no se encuentran tradicionalmente en servicios internos o equipos técnicos, por ejemplo, Gerente de Producto y Experiencia de Usuario.
-* El equipo publica internamente un roadmap a la organización, que indica el valor entregado y objetivos de alto nivel a futuro.
-* Las funcionalidades se prueban por calidad de implementación y experiencia de usuario durante el diseño, entrega y post inmplementación.
-* La remoción de funcionalidades forma una parte clave de la conversación, el objetivo es lograr un conjunto de capacidades bien soportadas y utilizadas, en lugar de extensas funcionalidades que compliquen el mantenimiento.
+* El equipo publica internamente un roadmap para la organización, que indica el valor entregado y objetivos de alto nivel a futuro.
+* Las funcionalidades se prueban por calidad de implementación y experiencia de usuario durante el diseño, entrega y post implementación.
+* La supresión de funcionalidades forma una parte clave de la conversación, el objetivo es lograr un conjunto de capacidades bien soportadas y utilizadas, en lugar de extensas funcionalidades que compliquen el mantenimiento.
 
 #### Escenarios de ejemplo:
 
@@ -169,7 +169,7 @@ Los equipos de plataformas encuentran maneras de aumentar la eficiencia y efecti
 
 #### Escenarios de ejemplo:
 
-* Marketing trabaja con los constructores de plataform para introducir un registro de usuarios consistente que permita relacionar los esfuerzos de marketing con los resultados de productos.
+* Marketing trabaja con los constructores de plataforma para introducir un registro de usuarios consistente que permita relacionar los esfuerzos de marketing con los resultados de productos.
 * Iniciativas de automatización reducen el tiempo humano para el aprovisionamiento de bases de datos en 30 minutos por instancia, ahorrando $10m/año.
 
 {{< /tab >}}
@@ -177,7 +177,7 @@ Los equipos de plataformas encuentran maneras de aumentar la eficiencia y efecti
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Por qué y cómo los usuarios descubren y utilizan las plataformas internas y sus capacidades?</i></h4>
 
-La adopción describe no solo cómo y cuánto una organización utiliza las capacidades de una plataforma sino también qué los motiva a hacerlo. En las primeras etapas, muchos usuarios pueden no notar en lo más mínimo  que están usando una plataforma, en su lugar, ven sus herramientas como un conjunto de capacidades ad hoc de varias fuentes internas. Esto puede madurar en un grupo de capacidades que se gestionan y presentan de manera consistente a los usuarios; ya sea una o más plataformas. A medida de las capacidades se vuelven más refinadas y descubribles, es común que el motivador para el uso de plataformas se aleje de motivaciones externas como mandatos o incentivos. Esto lleva a que los usuarios elijan por sí mismos usar capacidades de la plataforma y aún en casos ideales, inviertan sus propios esfuerzos en el más amplio ecosistema de la plataforma.
+La adopción describe no solo cómo y cuánto una organización utiliza las capacidades de una plataforma sino también qué los motiva a hacerlo. En las primeras etapas, muchos usuarios pueden no notar en lo más mínimo que están usando una plataforma, en su lugar, ven sus herramientas como un conjunto de capacidades ad hoc de varias fuentes internas. Esto puede madurar en un grupo de capacidades que se gestionan y presentan de manera consistente a los usuarios; ya sea una o más plataformas. A medida de las capacidades se vuelven más refinadas y descubribles, es común que el motivador para el uso de plataformas se aleje de motivaciones externas como mandatos o incentivos. Esto lleva a que los usuarios elijan por sí mismos usar capacidades de la plataforma y aún en casos ideales, inviertan sus propios esfuerzos en el más amplio ecosistema de la plataforma.
 
 <figure align="center">
 <img src="assets/adoption-curve.jpg" width=600px />
@@ -197,7 +197,7 @@ La adopción de plataformas y capacidades compartidas es esporádica e inconsist
 
 * Herramientas, servicios y capacidades se gestionan y consumen de forma aislada por diversos equipos y departamentos de la organización.
 * Se adoptan servicios gestionados por un proveedor ("cloud") y se utilizan con inconsistencia y sin prácticas ni políticas estándar, dado que es dificil encontrar y usar configuraciones internas.
-* Los equipos de aplicaciones y servicios descubren herramientas y capacidades en forma anárquica, mediante rumores o conversaciones casuales, en lugar de contar con un proceso más centralizado.
+* Los equipos de aplicaciones y servicios descubren herramientas y capacidades de forma anárquica, mediante rumores o conversaciones casuales, en lugar de contar con un proceso más centralizado.
 * La coordinación y reutilización de componentes y capacidades sólo ocurre por los usuarios finales (equipos de aplicaciones), si es que ocurren.
 * Los equipos de producto mantienen cada cual sus propios conjuntos de scripts o herramientas para desplegar sus aplicaciones.
 
@@ -214,19 +214,19 @@ El descubrimiento de los usuarios sobre las capacidades y cómo utilizarlas es i
 #### Características:
 
 * Algún grado de ímpetu externo lleva a utilizar las capacidades de plataforma, por ejemplo:
-  * Incentivos, como ser revisiones personales
-  * Órdenes, como ser requerir su uso para los releases en producción o recibir financiación
+  * Incentivos, como revisiones personales
+  * Órdenes, como requerir su uso para los releases en producción o recibir financiación
 * La utilización de las capacidades de plataforma es fragmentada: los usuarios pueden aprovechar las ventajas de una capacidad, pero podrían no tener conocimiento o interés para adoptar otras capacidades disponibles.
 * Los usuarios tienen poca motivación para aprender cómo usar las capacidades de la plataforma y dependen mucho de la colaboración de los proveedores por medio de foros de colaboración o mesa de ayuda.
 * Se alienta a los usuarios de plataforma a que se unan a comunidades informales de práctica para compartir problemas y soluciones, pero la asistencia es limitada.
 
 #### Escenarios de ejemplo:
 
-* Una organización de ingeniería elige una herramienta estándar de despliegue e instruye a todos los equipos a usarla. Se construyen nuevos procesos  (comunicación de notas de release, etc) sobre ese estándar. Los equipos son instruídos para dejar de utilizar otros tipos de scripts de despliegue y usar en su lugar la herramienta común. Esto resulta difícil para algunos equipos cuyas necesidades no quedan cubiertas por el nuevo proceso pero no saben cómo o no tienen permitido extenderlo.
+* Una organización de ingeniería elige una herramienta estándar de despliegue e instruye a todos los equipos a usarla. Se construyen nuevos procesos (comunicación de notas de release, etc) sobre ese estándar. Los equipos son instruidos para dejar de utilizar otros tipos de scripts de despliegue y usar en su lugar la herramienta común. Esto resulta difícil para algunos equipos cuyas necesidades no quedan cubiertas por el nuevo proceso pero no saben cómo o no tienen permitido extenderlo.
 
 ### Nivel 3, Escalable — Tracción intrínseca
 
-Los usuarios de equipos de producto y servicios elijen usar plataformas y sus capacidades por el claro valor que proveen en la reducción de carga cognitiva sobre los equipos de producto a la vez que proveen servicios de soporte de mayor calidad. La documentación e interfaces engonómicas permiten a los usuarios del equipo rapidez en el aprovisionamiento y uso de las capacidades de la plataforma. Los usuarios elijen implementaciones internas de plataformas por sobre otras alternativas, como ser desarrollar por ellos mismos las capacidades o contratar un proveedor.
+Los usuarios de equipos de producto y servicios elijen usar plataformas y sus capacidades por el claro valor que proveen en la reducción de carga cognitiva sobre los equipos de producto a la vez que proveen servicios de soporte de mayor calidad. La documentación e interfaces ergonómicas permiten a los usuarios del equipo rapidez en el aprovisionamiento y uso de las capacidades de la plataforma. Los usuarios eligen implementaciones internas de plataformas ante otras alternativas como desarrollar por ellos mismos las capacidades o contratar un proveedor.
 
 #### Características:
 
@@ -243,7 +243,7 @@ Los usuarios de equipos de producto y servicios elijen usar plataformas y sus ca
 
 ### Nivel 4, Optimizable — Participativa
 
-Los usuarios de equipos de producto promueven la inversión en capacidades de plataforma uniéndose al ecosistema y contribuyendo con él. Algunas contibuciones mejoran y reparan capacidades existentes; otras introducen nuevas capacidades y funcionalidades para atender nuevos casos de uso. Se definen procesos y servicios que habilitan a los usuarios a identificar requerimientos y coordinar contribuciones entre varios equipos de producto y plataforma. Se publican nuevas capacidades por medio de interfaces y portales consistentes, con documentación completa y versionado estándar.
+Los usuarios de equipos de producto promueven la inversión en capacidades de plataforma uniéndose al ecosistema y contribuyendo con él. Algunas contribuciones mejoran y reparan capacidades existentes; otras introducen nuevas capacidades y funcionalidades para atender nuevos casos de uso. Se definen procesos y servicios que habilitan a los usuarios a identificar requerimientos y coordinar contribuciones entre varios equipos de producto y plataforma. Se publican nuevas capacidades por medio de interfaces y portales consistentes, con documentación completa y versionado estándar.
 
 #### Características:
 
@@ -256,36 +256,36 @@ Los usuarios de equipos de producto promueven la inversión en capacidades de pl
 
 #### Escenarios de ejemplo:
 
-* Un equipo quiere un plan de backup alternativo. Luego de proponer esto como una oferta general, se declara de baja prioridad debido a su mínima reutilización. El equipo que hizo la propuesta elije integrar su solución al marco de la plataforma y hacerlo disponible para la organización. Originalmente es una oferta alfa pero una vez que cumpla con todos los requisitos operativos puede promoverse como capacidad central de la plataforma.
+* Un equipo quiere un plan de backup alternativo. Luego de proponer esto como una oferta general, se declara de baja prioridad debido a su mínima reutilización. El equipo que hizo la propuesta elige integrar su solución en el marco de la plataforma y hacerlo disponible para la organización. Originalmente es una oferta alfa pero una vez que cumpla con todos los requisitos operativos puede promoverse como capacidad central de la plataforma.
 
 {{< /tab >}}
 {{< tab tabName="Interfaces">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Cómo interactúan y consumen los usuarios las capacidades de la plataforma?</i></h4>
 
-Las interfaces provistas por plataformas afectan cómo los usuarios interactúan con las ofertas de capacidades que ofrece para aprovisionar, gestionar y observar. Las interfaces pueden incluir sistemas de tickets, plantillas de proyecto y portales gráficos así como APIs automatizables y herramientas de línea de comandos(CLI).
+Las interfaces provistas por plataformas afectan a cómo los usuarios interactúan con las ofertas de capacidades que ofrece para aprovisionar, gestionar y observar. Las interfaces pueden incluir sistemas de tickets, plantillas de proyecto y portales gráficos así como APIs automatizables y herramientas de línea de comandos(CLI).
 
-Las características principales de una interface incluyen qué tan descubribles y amigables resultan ser para el usuario durante tareas clave para ellos, como ser un requerimiento inicial, mantenimiento o triage de incidentes. Aquí los niveles de madurez más elevados reflejan interfaces más integradas, consistentes, automatizadas y soportadas.
+Las características principales de una interfaz incluyen qué tan descubribles y amigables resultan ser para el usuario durante sus tareas clave, como requisito inicial, mantenimiento o triaje de incidentes. Aquí los niveles de madurez más elevados reflejan interfaces más integradas, consistentes, automatizadas y soportadas.
 
 ### Nivel 1, Provisional — Procesos personalizados
 
-Existen un conjunto variado de procesos para aprovisionar diferentes capacidades y servicios, pero no se considera la consistencia de la interfaz. Procesos personalizados a medida atienden las necesidades inmediatas de individuos o equipos que dependen de intervención manual aún si el proveedor usa algunos scripts de implementación automatizada.
+Existe un conjunto variado de procesos para aprovisionar diferentes capacidades y servicios, pero no se considera la consistencia de la interfaz. Procesos personalizados a medida atienden las necesidades inmediatas de individuos o equipos que dependen de intervención manual aun si el proveedor usa algunos scripts de implementación automatizada.
 
 El conocimiento de cómo solicitar estas soluciones se comparte de persona en persona. El proceso de requerir un servicio no está estandarizado ni es consistente. El aprovisionamiento y uso de un servicio de plataforma suele requerir bastante soporte del proveedor de la capacidad.
 
-La falta de requerimientos centrales y estándares hace de este nivel el apropiado cuando una compañía aún no ha identificado y documentado expetactativas. Puede ser particularmente efectivo para equipos de compañías o esfuerzos de plataforma en etapa temprana. En estos entornos los equipos tienen la libertad de evolucionar procesos y capacidades para sus necesidades, lo que les permite entregar con mayor rapidez y pagar el precio de estandarizar a posterior, solo cuando sea necesario.
+La falta de requerimientos centrales y estándares hace de este nivel el apropiado cuando una compañía aún no ha identificado y documentado expectativas. Puede ser particularmente efectivo para equipos de compañías o esfuerzos de plataforma en etapa temprana. En estos entornos los equipos tienen la libertad de evolucionar procesos y capacidades para sus necesidades, lo que les permite entregar con mayor rapidez y pagar el precio de estandarizar a posteriori, solo cuando sea necesario.
 
 #### Características:
 
 * La interacción de usuarios no es un tema clave de discusión y las interacciones rara vez (o ninguna) son probadas durante el diseño y entrega de nuevas capacidades.
-* Las capacidades son provistas principalmente mediante solicitudes manuales, si bien los proveedores pueden elegir automatizar algunas o todas las atividades necesarias para aprovisionar una solicitud de usuario.
+* Las capacidades son provistas principalmente mediante solicitudes manuales, si bien los proveedores pueden elegir automatizar algunas o todas las actividades necesarias para aprovisionar una solicitud de usuario.
 * Las solicitudes que se encuentran en fase “simple” se vuelven complejas debido la dificultad para encontrar el proceso adecuado a seguir.
 * En ocasiones un proceso se muestra como autorizado, pero los usuarios tienen problemas cuando un departamento o equipo diferente se involucra.
 
 
 #### Escenarios de ejemplo:
 
-* Un equipo de plataforma quiere realizar una prueba de rendimiento de su nuevo cambio. Para esto, quieren un entorno aislado que contenga suficientes datos de prueba que permita obtener un rendimiento preciso de lectura. La última vez que realizaron esta solicitud, un antiguo compañero de equipo logró acceder a un entorno, pero ya no está en el equipo y nadie sabe como recrearlo. Al final, se contactan con un ingeniero del equipo de infraestructura quien puede aprovisionarles un entorno en unos pocos días.
+* Un equipo de plataforma quiere realizar una prueba de rendimiento de su nuevo cambio. Para esto, quieren un entorno aislado que contenga suficientes datos de prueba que permita obtener una lectura precisa del rendimiento. La última vez que realizaron esta solicitud, un antiguo compañero de equipo logró acceder a un entorno, pero ya no está en el equipo y nadie sabe cómo recrearlo. Al final, contactan con un ingeniero del equipo de infraestructura quien puede aprovisionarles un entorno en unos pocos días.
 * Un equipo en la fase exploratoria de un desarrollo de producto usa un proceso a medida para aprovisionar un nuevo servicio de nube sin tener que validar que su solución merezca mayor inversión.
 
 ### Nivel 2, Operativo — Herramientas estándar
@@ -296,7 +296,7 @@ Se proveen "rutas pavimentadas" (_"paved roads"_) o  "rutas doradas" (_"golden p
 
 #### Características:
 
-* Las soluciones técnicas son herramientas integradas, específicas para área de dominio, no siempre son herramientas familiares para los usuarios.
+* Las soluciones técnicas son herramientas integradas, específicas para su área de dominio, no siempre son herramientas familiares para los usuarios.
 * Existe inversión en un trayecto común; sin embargo, la desviación de ese trayecto descubre con rapidez las pocas opciones de personalización debido a que el foco estuvo en construir una única opción.
 * Gracias a la estandarización, grupos informales internos pueden crear y compartir buenas prácticas y superar problemas compartidos.
 * Puede haber desviación en la implementación de capacidades debido a que los equipos toman las plantillas, las personalizan, pero luego no pueden fusionar los cambios con el equipo central.
@@ -308,12 +308,12 @@ Se proveen "rutas pavimentadas" (_"paved roads"_) o  "rutas doradas" (_"golden p
 
 ### Nivel 3, Escalable — Soluciones de autoservicio
 
-Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y requieren poco soporte de quienes las mantienen. La organización alienta y disponibiliza soluciones con interfaces consistentes que permiten el descubrimiento y portabilidad de la experiencia del usuario de una capacidad a otra. Si bien ofrecen autoservicio, las soluciones requieren información de equipo e implementación. Para mejorar esta experiencia puede haber un lenguaje interno guiado y simplificado que permita a los usuarios adoptar e integrar capacidades de plataforma con mayor rapidez. Esto genera un conjunto de capacidades focalizadas en el usuario, de autoservicios y consistentes.
+Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y requieren poco soporte de quienes las mantienen. La organización alienta y dispone soluciones con interfaces consistentes que permiten el descubrimiento y portabilidad de la experiencia del usuario de una capacidad a otra. Si bien ofrecen autoservicio, las soluciones requieren información de equipo e implementación. Para mejorar esta experiencia puede haber un lenguaje interno guiado y simplificado que permita a los usuarios adoptar e integrar capacidades de plataforma con mayor rapidez. Esto genera un conjunto de capacidades focalizadas en el usuario, de autoservicios y consistentes.
 
 #### Características:
 
-* Las soluciones se ofrecen como implementaciones de “un-click”, permitiendo que los equipos se beneficien de una capacidad sin necesidad de comprender cómo se aprovisionan.
-* Si bien las soluciones son fáciles de crear, puede que no haya mucha facilidad de uso construída para la gestión de la solución en el día 2 y más allá
+* Las soluciones se ofrecen como implementaciones de “un-click”, permitiendo que los equipos se beneficien de una capacidad sin necesidad de comprender cómo se aprovisiona.
+* Si bien las soluciones son fáciles de crear, puede que no haya mucha facilidad de uso construida para la gestión de la solución en el día 2 y más allá.
 * Sigue existiendo un trayecto acotado de soluciones disponibles, dejando a los usuarios con requerimientos únicos para los que no se sabe bien cómo proceder.
 
 #### Escenarios de ejemplo:
@@ -322,19 +322,19 @@ Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y r
 
 ### Nivel 4, Optimizable — Servicios integrados
 
-Las capacidades de plataforma están integradas con transparencia en las herramientas y procesos que los equipos utilizan para hacer su trabajo. Algunas capacidades se aprovisionan automáticamente, como ser observabilidad o gestión de identidades para un servicio desplegado. Cuando los usuarios llegan al límite de los servicios provistos, tienen la oportunidad de hacer a un lado las soluciones automatizadas y personalizarlas para sus necesidades, sin dejar las ofertas internas porque las capacidades de plataforma están consideradas como bloques para armar. Estos bloques para armar se usan para construir composiciones transparentes y automáticas para cubrir los casos de uso de alto nivel a la vez que habilitan una personalización más profunda donde sea necesaria.
+Las capacidades de plataforma están integradas con transparencia en las herramientas y procesos que los equipos utilizan para hacer su trabajo. Algunas capacidades se aprovisionan automáticamente, como observabilidad o gestión de identidades para un servicio desplegado. Cuando los usuarios llegan al límite de los servicios provistos, tienen la oportunidad de hacer a un lado las soluciones automatizadas y personalizarlas para sus necesidades, sin abandonar las ofertas internas porque las capacidades de plataforma están consideradas como bloques para armar. Estos bloques para armar se usan para construir composiciones transparentes y automáticas para cubrir los casos de uso de alto nivel a la vez que habilitan una personalización más profunda donde sea necesaria.
 
 #### Características:
 
 * Está claro qué capacidades son diferenciadoras para la organización y cuales no, permitiendo que los equipos internos inviertan en soluciones personalizadas solo cuando no puedan aprovechar los estándares de la industria.
-* Si bien las capacidades presentan una navegación consistente, no hay una única forma de usar una capacidad. Algunas son más adecuadas como herramientas de linea de comandos para usar en scripts, mientras que otras se benefician de la integración con lo que el usuario utilice para escribir código en sus editores e IDEs.
+* Si bien las capacidades presentan una navegación consistente, no hay una única forma de usar una capacidad. Algunas son más adecuadas como herramientas de línea de comandos para usar en scripts, mientras que otras se benefician de la integración con lo que el usuario utilice para escribir código en sus editores e IDEs.
 * El valor de las capacidades individuales se extiende con foco en el flujo tanto del desarrollo como de liberación del software, lo que lleva a focalizar en cómo combinar capacidades en ofertas de mayor nivel.
-* Si bien las capacidades usualmente se proveen en paquetes, los super usuarios pueden descomponer estas ofertas de alto nivel para optimizar cuándo y dónde se necesite.
+* Si bien las capacidades usualmente se proveen en paquetes, los superusuarios pueden descomponer estas ofertas de alto nivel para optimizar cuándo y dónde se necesite.
 
 #### Escenarios de ejemplo:
 
 * Se inyectan agentes de observabilidad en toda carga de trabajo y se ubica un proxy OIDC frente a todas las aplicaciones.
-* Por defecto, cada nuevo proyecto recibe un espacio en un ejecutor de tareas (pipelines) y un entorno de ejecución (namespace de K8s), sin embargo un proyecto puede optar por otras opciones, como ser la ejecución en entorno serverless.
+* Por defecto, cada nuevo proyecto recibe un espacio en un ejecutor de tareas (pipelines) y un entorno de ejecución (namespace de K8s), sin embargo un proyecto puede optar por otras opciones, como la ejecución en entorno serverless.
 * Desde un catálogo en un portal de Service Now un usuario selecciona "Aprovisionar una Base de Datos." Un proceso automatizado aprovisiona una base de datos RDS y envía una URL y ubicación para obtener credenciales para el usuario.
 
 {{< /tab >}}
@@ -342,9 +342,9 @@ Las capacidades de plataforma están integradas con transparencia en las herrami
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Cómo se planifican, priorizan, desarrollan y mantienen las plataformas y sus capacidades?</i></h4>
 
-La operación de plataformas implica ejecutar y soportar sus capacidades y funcionalidades en todo su ciclo de vida, incluyendo la aceptación de nuevos requerimientos, releases iniciales, actualizaciones y extensiones, mantenimiento y operación permanente, soporte a usuarios e incluso deprecación y remoción. Las organizaciones y sus equipos de plataformas elijen las plataformas y capacidades a crear y mantener y pueden priorizar las iniciativas más valiosas e impactantes.
+La operación de plataformas implica ejecutar y soportar sus capacidades y funcionalidades en todo su ciclo de vida, incluyendo la aceptación de nuevos requerimientos, releases iniciales, actualizaciones y extensiones, mantenimiento y operación permanente, soporte a usuarios e incluso retirada y supresión. Las organizaciones y sus equipos de plataformas eligen las plataformas y capacidades a crear y mantener y pueden priorizar las iniciativas más valiosas e impactantes.
 
-Notablemente, la mayor parte del trabajo para proveer una capacidad se realiza posterior a su release inicial, al proveer actualizaciones sin impacto, funcionalidades nuevas y mejoradas, soporte operativo y habilitación y educación al usuario final. Por lo tanto, una plataforma valiosa y de impacto planificará de antemano la gestión de su plataforma para operaciones de largo plazo y confiabilidad.
+Notablemente, la mayor parte del trabajo para proveer una capacidad se realiza después de su release inicial, al proveer actualizaciones sin impacto, funcionalidades nuevas y mejoradas, soporte operativo y habilitación y educación al usuario final. Por lo tanto, una plataforma valiosa y de impacto planificará de antemano la gestión de su plataforma para operaciones a largo plazo y confiabilidad.
 
 ### Nivel 1, Provisional — A demanda
 
@@ -357,18 +357,18 @@ Los equipos que construyen una nueva capacidad para cubrir sus propias necesidad
 * Las capacidades se crean para cubrir necesidades que generan presión en equipos de aplicación individuales.
 * El foco está en la entrega inicial de capacidades centrales; no se hacen planes para un mantenimiento y sustentabilidad duradero.
 * Las implementaciones de capacidad generalmente llegan tarde y necesitando actualizaciones.
-* Aparecen picos repentinos de trabajo asociados a cambios de alto impacto introducidos de forma tardía a las capacidades, como ser el descubrimiento de una vulnerabilidad.
+* Aparecen picos repentinos de trabajo asociados a cambios de alto impacto introducidos de forma tardía a las capacidades, como el descubrimiento de una vulnerabilidad.
 * Los cambios pueden provocar caídas de servicios tanto planificadas como no planificadas.
 * Cada actualización se hace en forma personalizada y requiere tiempo e investigación para establecer un proceso en cada actualización.
 
 #### Escenarios de ejemplo:
 
-* Se anuncia la vulnerabilidad de seguridad Log4Shell y la organización se apresura a designar un equipo de especialistas para investigar dónde podría existir una vulnerabilidad en la organización e instigar la aplicación de patches. Una vez que el equipo identifica el impacto, debe trabajar codo a codo con una cantidad de equipos diferentes dado que cada uno de ellos gestiona sus propios servidores y tienen procesos de actualización diferentes. Incluso cuando este trabajo se considera finalizado, el nivel de confianza de que no existan instancias que no se hayan cubierto, es escaso.
+* Se anuncia la vulnerabilidad de seguridad Log4Shell y la organización se apresura a designar un equipo de especialistas para investigar dónde podría existir una vulnerabilidad en la organización e instigar la aplicación de parches. Una vez que el equipo identifica el impacto, debe trabajar codo a codo con una cantidad de equipos diferentes dado que cada uno de ellos gestiona sus propios servidores y tienen procesos de actualización diferentes. Incluso cuando este trabajo se considera finalizado, el nivel de confianza de que no existan instancias que no se hayan cubierto es escaso.
 
 
 ### Nivel 2, Operativo — Registro central
 
-Las plataformas y capacidades están centralmente documentadas y descubribles y los procesos para planificar y gestionar el ciclo de vida de capacidades están, por lo menos, parcialmente definidos. La responsabilidad y dueños de cada servicio y función están documentados. Los procesos de gestión del ciclo de vida varian entre capacidades, dependiendo de sus dueños y prioridades. Un equipo central mantiene, o tiene la capacidad a demanda, de generar un inventario de requerimientos pendientes que indique el estado de mantenimiento de las capacidades actuales. Esto permite a la organización registrar el progreso hacia la oferta de capacidades y el cumplimiento con los requerimientos de actualización.
+Las plataformas y capacidades están centralmente documentadas y descubribles y los procesos para planificar y gestionar el ciclo de vida de capacidades están, por lo menos, parcialmente definidos. La responsabilidad y dueños de cada servicio y función están documentados. Los procesos de gestión del ciclo de vida varían entre capacidades, dependiendo de sus dueños y prioridades. Un equipo central mantiene, o tiene la capacidad de generar bajo demanda, un inventario de requerimientos pendientes que indique el estado de mantenimiento de las capacidades actuales. Esto permite a la organización registrar el progreso hacia la oferta de capacidades y el cumplimiento con los requerimientos de actualización.
 
 #### Características:
 
@@ -386,26 +386,26 @@ Las plataformas y capacidades están centralmente documentadas y descubribles y 
 
 ### Nivel 3, Escalable — Habilitación central 
 
-Las plataformas y capacidades no solo están centralmente registradas sino también centralmente orquestadas. Los equipos de platforma tienen la responsabilidad de entender las necesidades más amplias de la organización y priorizar el trabajo entre equipos de plataforma e infraestructura en consonancia. Se espera de aquellos responsables de una capacidad, no solo que la mantengan tecnicamente, sino también de proveer experiencias estándar de usuario para integrar la capacidad con otros servicios relacionados en la organización, asegurar un uso seguro y confiable e incluso proveer observabilidad.
+Las plataformas y capacidades no solo están centralmente registradas sino también centralmente orquestadas. Los equipos de plataforma tienen la responsabilidad de entender las necesidades más amplias de la organización y priorizar el trabajo entre equipos de plataforma e infraestructura en consonancia. Se espera de aquellos responsables de una capacidad, no solo que la mantengan técnicamente, sino también que provean experiencias estándar de usuario para integrar la capacidad con otros servicios relacionados en la organización, aseguren un uso seguro y confiable e incluso provean observabilidad.
 
 Existen procesos estándar para la creación y evolución de nuevas capacidades, permitiendo que cualquiera en la organización pueda contribuir con una solución que cubra expectativas. Procesos continuos de entrega de capacidades y funcionalidades de plataforma permiten despliegues y restauraciones regulares. Los grandes cambios se planifican y coordinan en la medida que sean cambios de producto de cara a los clientes.
 
 #### Características:
 
-* Los equipos de aplicaciones solicitan servicios a los equipos de plataforma antes antes de crearlos.
-* Los nuevos servicios deben adherir a prácticas estándar como ser interfaces estándar, documentación y gobierno.
+* Los equipos de aplicaciones solicitan servicios a los equipos de plataforma antes de crearlos.
+* Los nuevos servicios deben adherirse a prácticas estándar como interfaces estándar, documentación y gobierno.
 * Los procesos de actualización están documentados y son consistentes entre versiones y servicios.
 * En los casos donde el proveedor de la capacidad no gestiona una actualización, provee herramientas y soporte a los usuarios para lograr impacto mínimo.
 
 #### Escenarios de ejemplo:
 
-* La organización va a actualizar a RHEL 9. Al hacerlo, cada equipo de aplicación necesita validar que su software continúe funcionando. Para permitir esta fase de prueba, el equipo de cómputos central está configurando entornos de prueba para cada equipo, con el software y las versiones de S.O. adecuadas.
+* La organización va a actualizar a RHEL 9. Al hacerlo, cada equipo de aplicación necesita validar que su software continúe funcionando. Para permitir esta fase de prueba, el equipo de cómputo central está configurando entornos de prueba para cada equipo, con el software y las versiones de S.O. adecuadas.
 
 ### Nivel 4, Optimizable — Servicios gestionados
 
-El ciclo de vida de cada capacidad se gestiona de manera estandarizada y automatizada. Las capacidades, funcionalidades y actualizaciones son entregadas en forma continua sin impacto en los usuarios. Cualquier cambio importante, instigado por los proveedores de plataforma, incluye planes de migración para los usuarios existentes con responsabilidades y tiempos definidos.
+El ciclo de vida de cada capacidad se gestiona de manera estandarizada y automatizada. Las capacidades, funcionalidades y actualizaciones son entregadas de forma continua sin impacto en los usuarios. Cualquier cambio importante, instigado por los proveedores de plataforma, incluye planes de migración para los usuarios existentes con responsabilidades y tiempos definidos.
 
-Los proveedores de capacidades de plataforma asumen la mayor parte de la responsabilidad para el mantenimiento, pero hay un contrato claro, un "modelo de responsabilidad compartida", que describe las responsabilidades de usuarios, permitiendo que ambos lados operen mayormente con autónomía.
+Los proveedores de capacidades de plataforma asumen la mayor parte de la responsabilidad para el mantenimiento, pero hay un contrato claro, un "modelo de responsabilidad compartida", que describe las responsabilidades de usuarios, permitiendo que ambos lados operen mayormente con autonomía.
 
 #### Características:
 
@@ -414,54 +414,54 @@ Los proveedores de capacidades de plataforma asumen la mayor parte de la respons
 
 #### Escenarios de ejemplo:
 
-* A los usuarios de máquinas virtuales no se les requiere que gestionen nada relacionado con actualizaciones de versiones. Su única responsabilidad es tener un escenario en su pipeline de entrega, que contenga una prueba de humo representativa. Luego se les pide que declaren sus aplicaciones ya sea como de baja tolerancia, en caso que la misma deba esperar a un upgrade totalmente probado, o de alta tolerancia, para ser considerada como pionera. La capacidad de máquina virtual gestiona luego el release automático de las actualizaciones, incluyendo restauraciones en caso de falla, ya sea durante las pruebas de humo como en los canary releases.
+* A los usuarios de máquinas virtuales no se les requiere que gestionen nada relacionado con actualizaciones de versiones. Su única responsabilidad es tener un escenario en su pipeline de entrega que contenga una prueba de humo representativa. Luego se les pide que declaren sus aplicaciones como _de baja tolerancia_ en caso que la misma deba esperar a un upgrade totalmente probado, o _de alta tolerancia_ para ser considerada como pionera. La capacidad de máquina virtual gestiona luego el release automático de las actualizaciones, incluyendo restauraciones en caso de falla, ya sea tras las pruebas de humo o tras los _canary releases_.
 
 {{< /tab >}}
 {{< tab tabName="Medición">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Cómo es el proceso para obtener e incorporar retroalimentación y aprendizaje?</i></h4>
 
-Al reaccionar ante la retroalimentación explícita o implícita de los usuarios, las organizaciones pueden incrementar la satisfacción del usuario y asegurar sustentabilidad a largo plazo. Para mantener la relevencia de una plataforma, las organizaciones deben balancear entre la innovación y cubrir las demandas de los usuarios. A medida que la tecnología y las preferencias de los usuarios cambian, las plataformas ágiles y adaptables a estos cambios, serán las que prevalezcan. Reveer y redefinir regularmente el mecanismo de retroalimentación puede optimizar aún más el desarrollo de plataforma y mejorar el compromiso del usuario.
+Al reaccionar ante la retroalimentación explícita o implícita de los usuarios, las organizaciones pueden incrementar la satisfacción del usuario y asegurar sustentabilidad a largo plazo. Para mantener la relevancia de una plataforma, las organizaciones deben balancear entre la innovación y cubrir las demandas de los usuarios. A medida que la tecnología y las preferencias de los usuarios cambian, las plataformas ágiles y adaptables a estos cambios serán las que prevalezcan. Revisar y redefinir regularmente el mecanismo de retroalimentación puede optimizar aún más el desarrollo de plataforma y mejorar el compromiso del usuario.
 
 ### Nivel 1, Provisional — Ad hoc
 
-Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cada plataforma y capacidad si es que se cuenta con ellas. Los resultados y medidas de éxito no están alineadas de manera consistente entre capacidades y por lo tanto no se obtiene información que se pueda corresponder. La retroalimentación de usuario y la instrumentación de uso de la plataforma no puede obtenerse, o si se obtiene, será informal. Se toman decisiones en base requerimientos anecdóticos y datos incompletos.
+Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cada plataforma y capacidad si es que se cuenta con ellas. Los resultados y medidas de éxito no están alineadas de manera consistente entre capacidades y por lo tanto no se obtiene información que se pueda corresponder. La retroalimentación de usuario y la instrumentación de uso de la plataforma no puede obtenerse o, si se obtiene, será informal. Se toman decisiones basadas en requerimientos anecdóticos y datos incompletos.
 
 #### Características:
 
 * No hay experiencia u opiniones acerca de cómo medir el éxito de las plataformas
 * Se usan herramientas familiares para obtener métricas comunes con intenciones y consideracions limitadas
 * Dependencia en poca cantidad de datos
-* Dificultad para asegurar la participación del usuario — los usuarios creen que su retroalimentación no es considerada
+* Dificultad para asegurar la participación del usuario — los usuarios creen que su retroalimentación no se tiene en cuenta
 * Si se usan encuestas, las preguntas cambian entre versiones, negando la posibilidad de registrar progreso.
 
 #### Escenarios de ejemplo:
 
-* Un líder técnico de plataforma quiere mejorar la colaboración con usuarios agregando temas principales a su próxima planificación trimestral. Se decide realizar una encuesta sobre qué les gustaría ver a los usuarios. La respuestas es abrumadora, lo que es prometedor, pero también resulta en una dificultad para organizar y responder a todas esas ideas. Si bien algunas ideas influencian la planificación del trimestre, los usuarios no ven que sus ideas hayan sido consideradas y están menos dispuestos a responder la próxima encuesta.
-* El equipo quiere capturar más datos automáticamente, por lo que buscan oportunidades de fácil recolección como las fallas de pruebas en CI. Sin embargo, no todo equipo usa la misma automatización de CI, por lo que los datos solo están disponibles para aplicaciones Java aún cuando algunos equipos han cambiado las codificación de sus servicios a Scala.
+* Un líder técnico de plataforma quiere mejorar la colaboración con los usuarios agregando temas principales a su próxima planificación trimestral. Se decide realizar una encuesta sobre qué les gustaría ver a los usuarios. La respuesta es abrumadora, lo que es prometedor, pero también resulta en una dificultad para organizar y responder a todas esas ideas. Si bien algunas ideas influyen en la planificación del trimestre, los usuarios no ven que sus ideas hayan sido consideradas y están menos dispuestos a responder a la próxima encuesta.
+* El equipo quiere capturar más datos automáticamente, por lo que buscan oportunidades de fácil recolección como las fallas de pruebas en CI. Sin embargo, no todos los equipos usan la misma automatización de CI, por lo que los datos solo están disponibles para aplicaciones Java aun cuando algunos equipos han cambiado la codificación de sus servicios a Scala.
 
 ### Nivel 2, Operativo — Recolección consistente
 
-Las organizaciones en este nivel tienen el objetivo interno de verificar que los productos de plataforma cubran las necesidades del mercado y de sus usuarios internos. Se valora que la recolección de retroalimentación de usuarios sea procesable y estructurada. Pueden asignarse equipos dedicados o individuos para obtener retroalimentación, asegurando un acercamiento más consistente. Los canales de retroalimentación como encuestas o foros de usuario están estandarizados y la retroalimentación está categorizada y priorizada. Más allá de la retroalimentación del usuario, también hay una expectativa de que las experiencias de usuario sean instrumentadas para generar datos de uso en el tiempo.
+Las organizaciones en este nivel tienen el objetivo interno de verificar que los productos de plataforma cubran las necesidades del mercado y de sus usuarios internos. Se valora que la recolección de retroalimentación de usuarios sea procesable y estructurada. Pueden asignarse equipos dedicados o individuos para obtener retroalimentación, asegurando un acercamiento más consistente. Los canales de retroalimentación como encuestas o foros de usuario están estandarizados y la retroalimentación está categorizada y priorizada. Más allá de la retroalimentación del usuario, también hay una expectativa de que las experiencias de usuario sean instrumentadas para generar datos de uso a lo largo del tiempo.
 
-Se mantienen los desafíos de traducir la retroalimentación en tareas concretas. Mientras que hay un repositorio creciente de datos, la organización podría necesitar comprender e integrar efectivamente estas devoluciones en el roadmap de la platforma. Puede resultar dificil asegurar que los usuarios vean cambios tangibles derivados de su retroalimentación.
+Se mantienen los desafíos de traducir la retroalimentación a tareas concretas. Aunque hay un repositorio creciente de datos, la organización podría necesitar comprender e integrar efectivamente esta retroalimentación en el roadmap de la plataforma. Puede resultar difícil asegurar que los usuarios vean cambios tangibles derivados de su retroalimentación.
 
 #### Características:
 
 * La recolección de datos se discute en la mayor parte de las sesiones de planificación o de implementación de capacidades.
 * Puede que falte alinearse sobre qué exactamente debe medirse para verificar el éxito.
-* Las funcionalidades de plataforma pueden medirse por éxito, como ser medir la adopción del usuario o tiempo de usuario ahorrado.
+* Las funcionalidades de plataforma pueden medirse por éxito, como por ejemplo medir la adopción de los usuarios o el tiempo de usuario ahorrado.
 
 #### Escenarios de ejemplo:
 
-* Un equipo de plataforma dedica el 20% de su tiempo a funcionalidades definidas por usuario, que se identifican en base a encuestas y otras tícas de entrevista. Sus respuestas se recopilan en una herramienta que permite votar y comentar para refinar aún más las prioridades. Durante la implementación los usuarios solicitantes son abordados para que colaboren en los primeros diseños e implementaciones. Una vez implementados, se realizan anuncios que se aseguran de que los usuarios solicitantes están informados sobre las nuevas funcionalidades y que soporten su adopción 
+* Un equipo de plataforma dedica el 20% de su tiempo a funcionalidades definidas por usuario, que se identifican en base a encuestas y otras técnicas de entrevista. Sus respuestas se recopilan en una herramienta que permite votar y comentar para refinar aún más las prioridades. Durante la implementación los usuarios solicitantes son abordados para que colaboren en los primeros diseños e implementaciones. Una vez implementados, se realizan anuncios que se aseguran de que los usuarios solicitantes estén informados sobre las nuevas funcionalidades y de que reciban soporte en su adopción. 
 * El equipo con foco en capacidades de entrega de software quiere capturar más datos automaticamente incluyendo el tiempo de ciclo, el cual se automatiza por medio de la herramienta de build desde el commit a producción. Existe un acuerdo en que el tiempo de ciclo puede incluir otras actividades como PR review, pero no está incluido en este momento.
 
 ### Nivel 3, Escalable — Ideas
 
-En esta tapa, mientras que ya existen mecanismos robustos y estándar de retroalimentación, los datos se recolectan de manera personalizada para lograr ideas y acciones específicas y estratégicas. Los resultados deseados se identifican con métricas estándar seleccionadas para indentificar progreso hacia los resultados esperados. Se pueden usar marcos y estándares de la industria para beneficiarse de investigaciones sobre el impacto de ciertos comportamientos.
+En esta tapa, mientras que ya existen mecanismos robustos y estándar de retroalimentación, los datos se recolectan de manera personalizada para lograr ideas y acciones específicas y estratégicas. Los resultados deseados se identifican con métricas estándar seleccionadas para identificar progreso hacia los resultados esperados. Se pueden usar marcos y estándares de la industria para beneficiarse de investigaciones sobre el impacto de ciertos comportamientos.
 
-Se emplean equipos o herramientas dedicadas a obtener y revisar la retroalimentación y sumarizar las ideas viables. Se establece un relacionamiento simbiótico entre producto de plataforma y sus usuarios. La retroalimentación se considera un activo estratégico que guía las operaciones y roadmap de la plataforma. Pueden instituirse sesiones regulares de revisión de retroalimentación, donde equipos de diferentes funciones se unen para discutir y definir estrategias basadas en las ideas de usuarios. 
+Se emplean equipos o herramientas dedicadas a obtener y revisar la retroalimentación e identificar las ideas viables. Se establece una relación simbiótica entre producto de plataforma y sus usuarios. La retroalimentación se considera un activo estratégico que guía las operaciones y roadmap de la plataforma. Pueden instituirse sesiones regulares de revisión de retroalimentación, donde equipos de diferentes funciones se unen para discutir y definir estrategias basadas en las ideas de los usuarios. 
 
 #### Características:
 
