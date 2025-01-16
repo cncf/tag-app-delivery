@@ -1,7 +1,7 @@
 ---
 title: "Platform as a Product: Understanding the Personas"
 slug: paap-personas
-date: 2024-12-07 12:00:00 +0000
+date: 2025-01-16 12:00:00 +0000
 author: Valentina Rodriguez Sosa, Colin Griffin 
 categories:
 - Article
