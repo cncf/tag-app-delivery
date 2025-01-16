@@ -53,7 +53,7 @@ También es importante reconocer que las implementaciones de plataformas varían
 
 Por último, este modelo alienta a que las organizaciones maduren su disciplina de Ingeniería de Plataforma y sus plataformas resultantes mediante una planificiación intencional. Tal planificación y disciplina son requerimientos en sí mismos para el desarrollo de plataformas maduras y su evolución continua.
 
-En general, tener presente que al mapear su organización dentro de un modelo, captura el estado actual _para permitir_ la iteración y mejora progresiva. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) bien lo dice: "El verdadero resultado de una evaluación de modelo de madurez no es en que nivel uno se encuentra, sino la lista de cosas en las que se debe trabajar para mejorar. Su nivel actual es tan solo un estadío intermedio de trabajo para poder determinar esa lista de conocimientos que se deben adquirir a continuación." En ese sentido, procure ubicarse dentro del modelo y luego identifique oportunidades en los niveles adyacentes.
+En general, tenga presente que al mapear su organización dentro de un modelo, captura el estado actual _para permitir_ la iteración y mejora progresiva. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) bien lo dice: "El verdadero resultado de una evaluación de modelo de madurez no es en qué nivel uno se encuentra, sino la lista de cosas en las que se debe trabajar para mejorar. Su nivel actual es tan solo un estadío intermedio de trabajo para poder determinar esa lista de conocimientos que se deben adquirir a continuación.". En ese sentido, procure ubicarse dentro del modelo y luego identifique oportunidades en los niveles adyacentes.
 
 ## El contexto detrás de este trabajo
 
