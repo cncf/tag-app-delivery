@@ -421,7 +421,7 @@ Los proveedores de capacidades de plataforma asumen la mayor parte de la respons
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>¿Cómo es el proceso para obtener e incorporar retroalimentación y aprendizaje?</i></h4>
 
-Al reaccionar ante la retroalimentación explícita o implícita de los usuarios, las organizaciones pueden incrementar la satisfacción del usuario y asegurar sustentabilidad a largo plazo. Para mantener la relevencia de una plataforma, las organizaciones deben balancear entre la innovación y cubrir las demandas de los usuarios. A medida que la tecnología y las preferencias de los usuarios cambian, las plataformas ágiles y adaptables a estos cambios, serán las que prevalezcan. Reveer y redefinir regularmente el mecanismo de retroalimentación puede optimizar aún más el desarrollo de plataforma y mejorar el compromiso del usuario.
+Al reaccionar ante la retroalimentación explícita o implícita de los usuarios, las organizaciones pueden incrementar la satisfacción del usuario y asegurar sustentabilidad a largo plazo. Para mantener la relevancia de una plataforma, las organizaciones deben balancear entre la innovación y cubrir las demandas de los usuarios. A medida que la tecnología y las preferencias de los usuarios cambian, las plataformas ágiles y adaptables a estos cambios serán las que prevalezcan. Revisar y redefinir regularmente el mecanismo de retroalimentación puede optimizar aún más el desarrollo de plataforma y mejorar el compromiso del usuario.
 
 ### Nivel 1, Provisional — Ad hoc
 
