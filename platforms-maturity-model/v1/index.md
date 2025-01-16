@@ -145,7 +145,7 @@ Se cuenta con presupuesto y el personal asignado para dar soporte persistente a 
 
 ### Nivel 3, Escalable — Como producto
 
-La inversión en plataformas internas y sus capacidades es similar a la inversión en los productos y cadena de valor que genera una empresa: en base al valor que se espera proveer a sus clientes. Se considera de manera explícita y se invierte en la gestión de producto y experiencia de usuario. Puede usarse un sistema de cobro revertido para reflejar el impacto de las plataformas en las cadenas de valor y productos de sus clientes. La empresa asigna presupuesto y personal a las iniciativas apropiadas usando indicadores de rendimiento basados en datos y círcuitos de retroalimentación. Los equipos de plataforma pueden, en definitiva, optimizar el negocio y contribuir al aumento de rentabilidad.
+La inversión en plataformas internas y sus capacidades es similar a la inversión en los productos y cadena de valor que genera una empresa: en base al valor que se espera proveer a sus clientes. Se considera de manera explícita y se invierte en la gestión de producto y experiencia de usuario. Puede usarse un sistema de cobro revertido para reflejar el impacto de las plataformas en las cadenas de valor y productos de sus clientes. La empresa asigna presupuesto y personal a las iniciativas apropiadas usando indicadores de rendimiento basados en datos y circuitos de retroalimentación. Los equipos de plataforma pueden, en definitiva, optimizar el negocio y contribuir al aumento de rentabilidad.
 
 #### Características:
 
