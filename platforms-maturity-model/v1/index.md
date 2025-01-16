@@ -273,7 +273,7 @@ Existe un conjunto variado de procesos para aprovisionar diferentes capacidades 
 
 El conocimiento de cómo solicitar estas soluciones se comparte de persona en persona. El proceso de requerir un servicio no está estandarizado ni es consistente. El aprovisionamiento y uso de un servicio de plataforma suele requerir bastante soporte del proveedor de la capacidad.
 
-La falta de requerimientos centrales y estándares hace de este nivel el apropiado cuando una compañía aún no ha identificado y documentado expetactativas. Puede ser particularmente efectivo para equipos de compañías o esfuerzos de plataforma en etapa temprana. En estos entornos los equipos tienen la libertad de evolucionar procesos y capacidades para sus necesidades, lo que les permite entregar con mayor rapidez y pagar el precio de estandarizar a posterior, solo cuando sea necesario.
+La falta de requerimientos centrales y estándares hace de este nivel el apropiado cuando una compañía aún no ha identificado y documentado expectativas. Puede ser particularmente efectivo para equipos de compañías o esfuerzos de plataforma en etapa temprana. En estos entornos los equipos tienen la libertad de evolucionar procesos y capacidades para sus necesidades, lo que les permite entregar con mayor rapidez y pagar el precio de estandarizar a posteriori, solo cuando sea necesario.
 
 #### Características:
 
