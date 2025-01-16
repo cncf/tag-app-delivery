@@ -432,7 +432,7 @@ Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cad
 * No hay experiencia u opiniones acerca de cómo medir el éxito de las plataformas
 * Se usan herramientas familiares para obtener métricas comunes con intenciones y consideracions limitadas
 * Dependencia en poca cantidad de datos
-* Dificultad para asegurar la participación del usuario — los usuarios creen que su retroalimentación no es considerada
+* Dificultad para asegurar la participación del usuario — los usuarios creen que su retroalimentación no se tiene en cuenta
 * Si se usan encuestas, las preguntas cambian entre versiones, negando la posibilidad de registrar progreso.
 
 #### Escenarios de ejemplo:
