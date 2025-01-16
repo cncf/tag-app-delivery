@@ -425,7 +425,7 @@ Al reaccionar ante la retroalimentación explícita o implícita de los usuarios
 
 ### Nivel 1, Provisional — Ad hoc
 
-Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cada plataforma y capacidad si es que se cuenta con ellas. Los resultados y medidas de éxito no están alineadas de manera consistente entre capacidades y por lo tanto no se obtiene información que se pueda corresponder. La retroalimentación de usuario y la instrumentación de uso de la plataforma no puede obtenerse, o si se obtiene, será informal. Se toman decisiones en base requerimientos anecdóticos y datos incompletos.
+Las métricas de uso y satisfaccción se obtienen de forma personalizada, en cada plataforma y capacidad si es que se cuenta con ellas. Los resultados y medidas de éxito no están alineadas de manera consistente entre capacidades y por lo tanto no se obtiene información que se pueda corresponder. La retroalimentación de usuario y la instrumentación de uso de la plataforma no puede obtenerse o, si se obtiene, será informal. Se toman decisiones basadas en requerimientos anecdóticos y datos incompletos.
 
 #### Características:
 
