@@ -357,7 +357,7 @@ Los equipos que construyen una nueva capacidad para cubrir sus propias necesidad
 * Las capacidades se crean para cubrir necesidades que generan presión en equipos de aplicación individuales.
 * El foco está en la entrega inicial de capacidades centrales; no se hacen planes para un mantenimiento y sustentabilidad duradero.
 * Las implementaciones de capacidad generalmente llegan tarde y necesitando actualizaciones.
-* Aparecen picos repentinos de trabajo asociados a cambios de alto impacto introducidos de forma tardía a las capacidades, como ser el descubrimiento de una vulnerabilidad.
+* Aparecen picos repentinos de trabajo asociados a cambios de alto impacto introducidos de forma tardía a las capacidades, como el descubrimiento de una vulnerabilidad.
 * Los cambios pueden provocar caídas de servicios tanto planificadas como no planificadas.
 * Cada actualización se hace en forma personalizada y requiere tiempo e investigación para establecer un proceso en cada actualización.
 
