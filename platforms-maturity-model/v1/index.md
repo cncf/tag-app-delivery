@@ -269,7 +269,7 @@ Las características principales de una interfaz incluyen qué tan descubribles 
 
 ### Nivel 1, Provisional — Procesos personalizados
 
-Existen un conjunto variado de procesos para aprovisionar diferentes capacidades y servicios, pero no se considera la consistencia de la interfaz. Procesos personalizados a medida atienden las necesidades inmediatas de individuos o equipos que dependen de intervención manual aún si el proveedor usa algunos scripts de implementación automatizada.
+Existe un conjunto variado de procesos para aprovisionar diferentes capacidades y servicios, pero no se considera la consistencia de la interfaz. Procesos personalizados a medida atienden las necesidades inmediatas de individuos o equipos que dependen de intervención manual aun si el proveedor usa algunos scripts de implementación automatizada.
 
 El conocimiento de cómo solicitar estas soluciones se comparte de persona en persona. El proceso de requerir un servicio no está estandarizado ni es consistente. El aprovisionamiento y uso de un servicio de plataforma suele requerir bastante soporte del proveedor de la capacidad.
 
