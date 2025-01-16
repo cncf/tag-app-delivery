@@ -285,7 +285,7 @@ La falta de requerimientos centrales y estándares hace de este nivel el apropia
 
 #### Escenarios de ejemplo:
 
-* Un equipo de plataforma quiere realizar una prueba de rendimiento de su nuevo cambio. Para esto, quieren un entorno aislado que contenga suficientes datos de prueba que permita obtener un rendimiento preciso de lectura. La última vez que realizaron esta solicitud, un antiguo compañero de equipo logró acceder a un entorno, pero ya no está en el equipo y nadie sabe como recrearlo. Al final, se contactan con un ingeniero del equipo de infraestructura quien puede aprovisionarles un entorno en unos pocos días.
+* Un equipo de plataforma quiere realizar una prueba de rendimiento de su nuevo cambio. Para esto, quieren un entorno aislado que contenga suficientes datos de prueba que permita obtener una lectura precisa del rendimiento. La última vez que realizaron esta solicitud, un antiguo compañero de equipo logró acceder a un entorno, pero ya no está en el equipo y nadie sabe cómo recrearlo. Al final, contactan con un ingeniero del equipo de infraestructura quien puede aprovisionarles un entorno en unos pocos días.
 * Un equipo en la fase exploratoria de un desarrollo de producto usa un proceso a medida para aprovisionar un nuevo servicio de nube sin tener que validar que su solución merezca mayor inversión.
 
 ### Nivel 2, Operativo — Herramientas estándar
