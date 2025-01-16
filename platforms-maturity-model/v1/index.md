@@ -386,7 +386,7 @@ Las plataformas y capacidades están centralmente documentadas y descubribles y 
 
 ### Nivel 3, Escalable — Habilitación central 
 
-Las plataformas y capacidades no solo están centralmente registradas sino también centralmente orquestadas. Los equipos de platforma tienen la responsabilidad de entender las necesidades más amplias de la organización y priorizar el trabajo entre equipos de plataforma e infraestructura en consonancia. Se espera de aquellos responsables de una capacidad, no solo que la mantengan tecnicamente, sino también de proveer experiencias estándar de usuario para integrar la capacidad con otros servicios relacionados en la organización, asegurar un uso seguro y confiable e incluso proveer observabilidad.
+Las plataformas y capacidades no solo están centralmente registradas sino también centralmente orquestadas. Los equipos de plataforma tienen la responsabilidad de entender las necesidades más amplias de la organización y priorizar el trabajo entre equipos de plataforma e infraestructura en consonancia. Se espera de aquellos responsables de una capacidad, no solo que la mantengan técnicamente, sino también que provean experiencias estándar de usuario para integrar la capacidad con otros servicios relacionados en la organización, aseguren un uso seguro y confiable e incluso provean observabilidad.
 
 Existen procesos estándar para la creación y evolución de nuevas capacidades, permitiendo que cualquiera en la organización pueda contribuir con una solución que cubra expectativas. Procesos continuos de entrega de capacidades y funcionalidades de plataforma permiten despliegues y restauraciones regulares. Los grandes cambios se planifican y coordinan en la medida que sean cambios de producto de cara a los clientes.
 
