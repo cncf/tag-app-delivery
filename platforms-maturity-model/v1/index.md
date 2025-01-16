@@ -334,7 +334,7 @@ Las capacidades de plataforma están integradas con transparencia en las herrami
 #### Escenarios de ejemplo:
 
 * Se inyectan agentes de observabilidad en toda carga de trabajo y se ubica un proxy OIDC frente a todas las aplicaciones.
-* Por defecto, cada nuevo proyecto recibe un espacio en un ejecutor de tareas (pipelines) y un entorno de ejecución (namespace de K8s), sin embargo un proyecto puede optar por otras opciones, como ser la ejecución en entorno serverless.
+* Por defecto, cada nuevo proyecto recibe un espacio en un ejecutor de tareas (pipelines) y un entorno de ejecución (namespace de K8s), sin embargo un proyecto puede optar por otras opciones, como la ejecución en entorno serverless.
 * Desde un catálogo en un portal de Service Now un usuario selecciona "Aprovisionar una Base de Datos." Un proceso automatizado aprovisiona una base de datos RDS y envía una URL y ubicación para obtener credenciales para el usuario.
 
 {{< /tab >}}
