@@ -296,7 +296,7 @@ Se proveen "rutas pavimentadas" (_"paved roads"_) o  "rutas doradas" (_"golden p
 
 #### Características:
 
-* Las soluciones técnicas son herramientas integradas, específicas para área de dominio, no siempre son herramientas familiares para los usuarios.
+* Las soluciones técnicas son herramientas integradas, específicas para su área de dominio, no siempre son herramientas familiares para los usuarios.
 * Existe inversión en un trayecto común; sin embargo, la desviación de ese trayecto descubre con rapidez las pocas opciones de personalización debido a que el foco estuvo en construir una única opción.
 * Gracias a la estandarización, grupos informales internos pueden crear y compartir buenas prácticas y superar problemas compartidos.
 * Puede haber desviación en la implementación de capacidades debido a que los equipos toman las plantillas, las personalizan, pero luego no pueden fusionar los cambios con el equipo central.
