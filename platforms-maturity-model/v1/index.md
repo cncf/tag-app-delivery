@@ -84,7 +84,7 @@ De forma similar al [CNCF Cloud Native Maturity Model](https://maturitymodel.cnc
 
 ¡Eso está perfecto! Todas las organizaciones y grupos tienen dinámicas y parámetros específicos.
 
-Hay que tener presente que el objetivo de este paper no es el de prescribir una fórmula rígida, sino dar un marco de trabajo que pueda aplicar a sus  circunstancias. Puede que no todas las palabras le sean relevantes, pero esperamos que el contenido lo inspire a una introspección sobre el trayecto de su propia plataforma, tomando lo que le haga sentido y dejando de lado el resto.
+Hay que tener presente que el objetivo de este paper no es el de prescribir una fórmula rígida, sino dar un marco de trabajo que pueda aplicar a sus  circunstancias. Puede que no todas las palabras le sean relevantes, pero esperamos que el contenido lo inspire a una introspección sobre el trayecto de su propia plataforma, tomando lo que tenga sentido y dejando de lado el resto.
 
 El objetivo de este modelo es proveer una herramienta que provea una guía a los practicantes de Ingeniería de Plataforma, accionistas y otros sujetos interesados en sus recorridos. El diseño e implementación de plataformas no es una ciencia exacta sino que depende de las necesidades de un proyecto individual, una organizacion y un tiempo y lugar particular.
 
