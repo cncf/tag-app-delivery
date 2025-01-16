@@ -485,7 +485,7 @@ No solo se utilizan marcos estándar sino que también existe un entendimiento d
 * Los equipos de plataforma buscan continuamente formas de mejorar las métricas que miran y la forma en la que obtienen datos.
 * La organización está familiarizada y es sensible a [la ley de Goodhart](https://es.wikipedia.org/wiki/Ley_de_Goodhart): "Cuando una medida se convierte en objetivo, deja de ser una buena medida."
 * Las métricas y telemetría obtenidas son evaluadas constantemente en cuanto a vericidad de información y valor.
-* La gestión de datos de métricas está bien soportada, como ser mediante capacidades estándar de la plataforma para gestionar _data lakes_ e información derivada.
+* La gestión de datos de métricas está bien soportada, con herramientas como capacidades estándar de la plataforma para gestionar _data lakes_ e información derivada.
 * Se promueve la colaboración inter departamental para evitar silos de datos y permitir ciclos efectivos de retroalimentación.
 
 #### Escenarios de ejemplo:
