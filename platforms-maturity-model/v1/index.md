@@ -454,7 +454,7 @@ Se mantienen los desafíos de traducir la retroalimentación a tareas concretas.
 
 #### Escenarios de ejemplo:
 
-* Un equipo de plataforma dedica el 20% de su tiempo a funcionalidades definidas por usuario, que se identifican en base a encuestas y otras tícas de entrevista. Sus respuestas se recopilan en una herramienta que permite votar y comentar para refinar aún más las prioridades. Durante la implementación los usuarios solicitantes son abordados para que colaboren en los primeros diseños e implementaciones. Una vez implementados, se realizan anuncios que se aseguran de que los usuarios solicitantes están informados sobre las nuevas funcionalidades y que soporten su adopción 
+* Un equipo de plataforma dedica el 20% de su tiempo a funcionalidades definidas por usuario, que se identifican en base a encuestas y otras técnicas de entrevista. Sus respuestas se recopilan en una herramienta que permite votar y comentar para refinar aún más las prioridades. Durante la implementación los usuarios solicitantes son abordados para que colaboren en los primeros diseños e implementaciones. Una vez implementados, se realizan anuncios que se aseguran de que los usuarios solicitantes estén informados sobre las nuevas funcionalidades y de que reciban soporte en su adopción. 
 * El equipo con foco en capacidades de entrega de software quiere capturar más datos automaticamente incluyendo el tiempo de ciclo, el cual se automatiza por medio de la herramienta de build desde el commit a producción. Existe un acuerdo en que el tiempo de ciclo puede incluir otras actividades como PR review, pero no está incluido en este momento.
 
 ### Nivel 3, Escalable — Ideas
