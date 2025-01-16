@@ -344,7 +344,7 @@ Las capacidades de plataforma están integradas con transparencia en las herrami
 
 La operación de plataformas implica ejecutar y soportar sus capacidades y funcionalidades en todo su ciclo de vida, incluyendo la aceptación de nuevos requerimientos, releases iniciales, actualizaciones y extensiones, mantenimiento y operación permanente, soporte a usuarios e incluso retirada y supresión. Las organizaciones y sus equipos de plataformas eligen las plataformas y capacidades a crear y mantener y pueden priorizar las iniciativas más valiosas e impactantes.
 
-Notablemente, la mayor parte del trabajo para proveer una capacidad se realiza posterior a su release inicial, al proveer actualizaciones sin impacto, funcionalidades nuevas y mejoradas, soporte operativo y habilitación y educación al usuario final. Por lo tanto, una plataforma valiosa y de impacto planificará de antemano la gestión de su plataforma para operaciones de largo plazo y confiabilidad.
+Notablemente, la mayor parte del trabajo para proveer una capacidad se realiza después de su release inicial, al proveer actualizaciones sin impacto, funcionalidades nuevas y mejoradas, soporte operativo y habilitación y educación al usuario final. Por lo tanto, una plataforma valiosa y de impacto planificará de antemano la gestión de su plataforma para operaciones a largo plazo y confiabilidad.
 
 ### Nivel 1, Provisional — A demanda
 
