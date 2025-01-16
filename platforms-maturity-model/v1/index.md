@@ -49,7 +49,7 @@ Como nota, cada nivel adicional de madurez, va acompañado de mayores requerimie
 
 Manténgase presente que cada aspecto está pensado para ser evaluado y evolucionado de manera independiente. Sin embargo, como en cualquier sistema técnico social, estas características son complejas e interrelacionadas. Por ello, podría ocurrir que para mejorar en un aspecto determinado, también se deba alcanzar un nivel mínimo en otro aspecto.
 
-También es importante reconocer que las implementaciones de plataformas varían de una organización a otra. Asegúrese de evaluar el estado actual integral de la transformación cloud native de _su_ grupo. Un recurso fenomenal de apoyo para esta evaluación es el [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
+También es importante reconocer que las implementaciones de plataformas varían de una organización a otra. Asegúrese de evaluar el estado actual integral de la transformación nativa de la nube de _su_ grupo. Un recurso fenomenal de apoyo para esta evaluación es el [Cloud Native Maturity Model](https://maturitymodel.cncf.io/).
 
 Por último, este modelo alienta a que las organizaciones maduren su disciplina de Ingeniería de Plataforma y sus plataformas resultantes mediante una planificiación intencional. Tal planificación y disciplina son requerimientos en sí mismos para el desarrollo de plataformas maduras y su evolución continua.
 
