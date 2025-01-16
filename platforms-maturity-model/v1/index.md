@@ -308,7 +308,7 @@ Se proveen "rutas pavimentadas" (_"paved roads"_) o  "rutas doradas" (_"golden p
 
 ### Nivel 3, Escalable — Soluciones de autoservicio
 
-Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y requieren poco soporte de quienes las mantienen. La organización alienta y disponibiliza soluciones con interfaces consistentes que permiten el descubrimiento y portabilidad de la experiencia del usuario de una capacidad a otra. Si bien ofrecen autoservicio, las soluciones requieren información de equipo e implementación. Para mejorar esta experiencia puede haber un lenguaje interno guiado y simplificado que permita a los usuarios adoptar e integrar capacidades de plataforma con mayor rapidez. Esto genera un conjunto de capacidades focalizadas en el usuario, de autoservicios y consistentes.
+Las soluciones se ofrecen de tal forma que proveen autonomía a los uusarios y requieren poco soporte de quienes las mantienen. La organización alienta y dispone soluciones con interfaces consistentes que permiten el descubrimiento y portabilidad de la experiencia del usuario de una capacidad a otra. Si bien ofrecen autoservicio, las soluciones requieren información de equipo e implementación. Para mejorar esta experiencia puede haber un lenguaje interno guiado y simplificado que permita a los usuarios adoptar e integrar capacidades de plataforma con mayor rapidez. Esto genera un conjunto de capacidades focalizadas en el usuario, de autoservicios y consistentes.
 
 #### Características:
 
