@@ -414,7 +414,7 @@ Los proveedores de capacidades de plataforma asumen la mayor parte de la respons
 
 #### Escenarios de ejemplo:
 
-* A los usuarios de máquinas virtuales no se les requiere que gestionen nada relacionado con actualizaciones de versiones. Su única responsabilidad es tener un escenario en su pipeline de entrega, que contenga una prueba de humo representativa. Luego se les pide que declaren sus aplicaciones ya sea como de baja tolerancia, en caso que la misma deba esperar a un upgrade totalmente probado, o de alta tolerancia, para ser considerada como pionera. La capacidad de máquina virtual gestiona luego el release automático de las actualizaciones, incluyendo restauraciones en caso de falla, ya sea durante las pruebas de humo como en los canary releases.
+* A los usuarios de máquinas virtuales no se les requiere que gestionen nada relacionado con actualizaciones de versiones. Su única responsabilidad es tener un escenario en su pipeline de entrega que contenga una prueba de humo representativa. Luego se les pide que declaren sus aplicaciones como _de baja tolerancia_ en caso que la misma deba esperar a un upgrade totalmente probado, o _de alta tolerancia_ para ser considerada como pionera. La capacidad de máquina virtual gestiona luego el release automático de las actualizaciones, incluyendo restauraciones en caso de falla, ya sea tras las pruebas de humo o tras los _canary releases_.
 
 {{< /tab >}}
 {{< tab tabName="Medición">}}
