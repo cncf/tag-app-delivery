@@ -243,7 +243,7 @@ Los usuarios de equipos de producto y servicios elijen usar plataformas y sus ca
 
 ### Nivel 4, Optimizable — Participativa
 
-Los usuarios de equipos de producto promueven la inversión en capacidades de plataforma uniéndose al ecosistema y contribuyendo con él. Algunas contibuciones mejoran y reparan capacidades existentes; otras introducen nuevas capacidades y funcionalidades para atender nuevos casos de uso. Se definen procesos y servicios que habilitan a los usuarios a identificar requerimientos y coordinar contribuciones entre varios equipos de producto y plataforma. Se publican nuevas capacidades por medio de interfaces y portales consistentes, con documentación completa y versionado estándar.
+Los usuarios de equipos de producto promueven la inversión en capacidades de plataforma uniéndose al ecosistema y contribuyendo con él. Algunas contribuciones mejoran y reparan capacidades existentes; otras introducen nuevas capacidades y funcionalidades para atender nuevos casos de uso. Se definen procesos y servicios que habilitan a los usuarios a identificar requerimientos y coordinar contribuciones entre varios equipos de producto y plataforma. Se publican nuevas capacidades por medio de interfaces y portales consistentes, con documentación completa y versionado estándar.
 
 #### Características:
 
