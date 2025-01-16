@@ -120,7 +120,7 @@ Estas capacidades se construyen y mantienen por personas asignadas de forma temp
 * Se definen equipos de choque (_"Hit"_) o especializados (_"tiger"_) para abordar requerimientos urgentes. Estos equipos son efímeros y no tienen tiempo asignado ni otorgado para planificación y/o soporte a largo plazo.
 * Las migraciones, mejoras o  ampliaciones se suelen considerar ítems de trabajo "deseable" y dependen de esfuerzos de "investigación" o "días de hackeo".
 * Las mejoras a procesos o automatizaciones pueden introducirse durante la atención de algún requerimiento puntual, como ser un parche urgente de seguridad, sin embargo, no se cuenta con apoyo para construir las soluciones de manera reutilizable o sostenible.
-* Los empleados se quejan de sobrecarga y frustración por la cantidad de trabajo que realizan por fuera de su rol principal.
+* Los empleados se quejan de sobrecarga y frustración por la cantidad de trabajo que realizan fuera de su rol principal.
 
 #### Escenarios de ejemplo:
 
