@@ -129,7 +129,7 @@ Estas capacidades se construyen y mantienen por personas asignadas de forma temp
 
 ### Nivel 2, Operativo — Equipo dedicado
 
-Se cuenta con presupuesto y el personal asignado para dar soporte persistente a personas y recursos. El personal asignado tiene la tarea de proveer un conjunto de capacidades comunmente requeridas para acelerar la entrega de software. A menudo estos equipos se enfocan en cumplir requerimientos técnicos reactivos. Pueden llamarse DevOps, Engineering Enablement, Developer Experience (DevEx o DevX), Shared Tools, Centre-Of-Excellence, o incluso Platform. Tienen financiamiento central y son gestionados con un centro de costos, pero su impacto directo en la cadena de valor no es medido. En este nivel puede resultar dificil asociar el impacto de los equipos de plataforma sobre la organización y sus flujos de valor, lo que puede complicar la sustentabilidad continua de estos equipos.
+Se cuenta con presupuesto y el personal asignado para dar soporte persistente a personas y recursos. El personal asignado tiene la tarea de proveer un conjunto de capacidades comúnmente requeridas para acelerar la entrega de software. A menudo estos equipos se enfocan en cumplir requerimientos técnicos reactivos. Pueden llamarse DevOps, Engineering Enablement, Developer Experience (DevEx o DevX), Shared Tools, Centre-Of-Excellence, o incluso Platform. Tienen financiamiento central y son gestionados con un centro de costos, pero su impacto directo en la cadena de valor no es medido. En este nivel puede resultar difícil asociar el impacto de los equipos de plataforma sobre la organización y sus flujos de valor, lo que puede complicar la sustentabilidad continua de estos equipos.
 
 #### Características:
 
