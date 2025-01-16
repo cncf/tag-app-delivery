@@ -35,7 +35,7 @@ El [Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platform
 
 ## ¿Qué es la Ingeniería de Plataforma?
 
-Inspirados en la promesa de cooperación interdisciplinaria de DevOps, las Plataformas y la Ingeniería de Plataforma, han emergido en las empresas como una forma implícita de cooperation. Las plataformas organizan y presentan capacidades comunes, marcos y experiencias. En el contexto de este grupo de trabajo y publicaciones relacionadas, el foco está puesto en plataformas que facilitan y aceleran el trabajo de [usuarios internos]({{< ref "/wgs/platforms/glossary#platform-users" >}}) como ser equipos de producto y aplicaciones.
+Inspirados en la promesa de cooperación interdisciplinaria de DevOps, las Plataformas y la Ingeniería de Plataforma, han emergido en las empresas como una forma implícita de cooperación. Las plataformas organizan y presentan capacidades comunes, marcos y experiencias. En el contexto de este grupo de trabajo y publicaciones relacionadas, el foco está puesto en plataformas que facilitan y aceleran el trabajo de [usuarios internos]({{< ref "/wgs/platforms/glossary#platform-users" >}}) tales como equipos de producto y aplicaciones.
 
 [**Ingeniería de Plataforma**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) es la práctica de planificar y proveer esas plataformas de cómputo a desarrolladores y usuarios y abarca a todas las partes de las plataformas y sus capacidades: personas, procesos, políticas y tecnologías; como así también los resultados de negocio deseados que los impulsan.
 
