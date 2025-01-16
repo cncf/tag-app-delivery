@@ -490,7 +490,7 @@ No solo se utilizan marcos estándar sino que también existe un entendimiento d
 
 #### Escenarios de ejemplo:
 
-* Con el tiempo, la organización ha recolectado datos que indican un aumento en el tiempo del build de más del 15%. Esto genera experiencias negativas en el desarrollo y una vez generadas, aún si el tiempo de build se reduce por debajo del tiempo original, los desarrolladores permanecen frustrados por más tiempo. Este hecho lleva al equipo de build a establecer y adherirse a un Service Level Objective (SLO), que permite la identificación temprana y mejora antes de que se instigue el ciclo negativo con sus usuarios.
+* Con el tiempo, la organización ha recolectado datos que indican un aumento en el tiempo del build de más del 15%. Esto genera experiencias negativas en el desarrollo y una vez generadas, aun si el tiempo de build se reduce por debajo del tiempo original, los desarrolladores permanecen frustrados por más tiempo. Este hecho lleva al equipo de build a establecer y adherirse a un Service Level Objective (SLO), que permite la identificación temprana y mejora antes de que se instigue el ciclo negativo con sus usuarios.
 
 {{< /tab >}}
 {{< /tabs >}}
