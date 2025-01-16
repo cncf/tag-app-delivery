@@ -150,7 +150,7 @@ La inversión en plataformas internas y sus capacidades es similar a la inversi�
 #### Características:
 
 * Los equipos de plataforma están conformados por roles que no se encuentran tradicionalmente en servicios internos o equipos técnicos, por ejemplo, Gerente de Producto y Experiencia de Usuario.
-* El equipo publica internamente un roadmap a la organización, que indica el valor entregado y objetivos de alto nivel a futuro.
+* El equipo publica internamente un roadmap para la organización, que indica el valor entregado y objetivos de alto nivel a futuro.
 * Las funcionalidades se prueban por calidad de implementación y experiencia de usuario durante el diseño, entrega y post inmplementación.
 * La remoción de funcionalidades forma una parte clave de la conversación, el objetivo es lograr un conjunto de capacidades bien soportadas y utilizadas, en lugar de extensas funcionalidades que compliquen el mantenimiento.
 
