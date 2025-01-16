@@ -256,7 +256,7 @@ Los usuarios de equipos de producto promueven la inversión en capacidades de pl
 
 #### Escenarios de ejemplo:
 
-* Un equipo quiere un plan de backup alternativo. Luego de proponer esto como una oferta general, se declara de baja prioridad debido a su mínima reutilización. El equipo que hizo la propuesta elije integrar su solución al marco de la plataforma y hacerlo disponible para la organización. Originalmente es una oferta alfa pero una vez que cumpla con todos los requisitos operativos puede promoverse como capacidad central de la plataforma.
+* Un equipo quiere un plan de backup alternativo. Luego de proponer esto como una oferta general, se declara de baja prioridad debido a su mínima reutilización. El equipo que hizo la propuesta elige integrar su solución en el marco de la plataforma y hacerlo disponible para la organización. Originalmente es una oferta alfa pero una vez que cumpla con todos los requisitos operativos puede promoverse como capacidad central de la plataforma.
 
 {{< /tab >}}
 {{< tab tabName="Interfaces">}}
