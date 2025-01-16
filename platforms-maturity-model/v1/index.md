@@ -368,7 +368,7 @@ Los equipos que construyen una nueva capacidad para cubrir sus propias necesidad
 
 ### Nivel 2, Operativo — Registro central
 
-Las plataformas y capacidades están centralmente documentadas y descubribles y los procesos para planificar y gestionar el ciclo de vida de capacidades están, por lo menos, parcialmente definidos. La responsabilidad y dueños de cada servicio y función están documentados. Los procesos de gestión del ciclo de vida varian entre capacidades, dependiendo de sus dueños y prioridades. Un equipo central mantiene, o tiene la capacidad a demanda, de generar un inventario de requerimientos pendientes que indique el estado de mantenimiento de las capacidades actuales. Esto permite a la organización registrar el progreso hacia la oferta de capacidades y el cumplimiento con los requerimientos de actualización.
+Las plataformas y capacidades están centralmente documentadas y descubribles y los procesos para planificar y gestionar el ciclo de vida de capacidades están, por lo menos, parcialmente definidos. La responsabilidad y dueños de cada servicio y función están documentados. Los procesos de gestión del ciclo de vida varían entre capacidades, dependiendo de sus dueños y prioridades. Un equipo central mantiene, o tiene la capacidad de generar bajo demanda, un inventario de requerimientos pendientes que indique el estado de mantenimiento de las capacidades actuales. Esto permite a la organización registrar el progreso hacia la oferta de capacidades y el cumplimiento con los requerimientos de actualización.
 
 #### Características:
 
