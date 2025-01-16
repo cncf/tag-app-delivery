@@ -399,7 +399,7 @@ Existen procesos estándar para la creación y evolución de nuevas capacidades,
 
 #### Escenarios de ejemplo:
 
-* La organización va a actualizar a RHEL 9. Al hacerlo, cada equipo de aplicación necesita validar que su software continúe funcionando. Para permitir esta fase de prueba, el equipo de cómputos central está configurando entornos de prueba para cada equipo, con el software y las versiones de S.O. adecuadas.
+* La organización va a actualizar a RHEL 9. Al hacerlo, cada equipo de aplicación necesita validar que su software continúe funcionando. Para permitir esta fase de prueba, el equipo de cómputo central está configurando entornos de prueba para cada equipo, con el software y las versiones de S.O. adecuadas.
 
 ### Nivel 4, Optimizable — Servicios gestionados
 
