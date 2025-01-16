@@ -226,7 +226,7 @@ El descubrimiento de los usuarios sobre las capacidades y cómo utilizarlas es i
 
 ### Nivel 3, Escalable — Tracción intrínseca
 
-Los usuarios de equipos de producto y servicios elijen usar plataformas y sus capacidades por el claro valor que proveen en la reducción de carga cognitiva sobre los equipos de producto a la vez que proveen servicios de soporte de mayor calidad. La documentación e interfaces engonómicas permiten a los usuarios del equipo rapidez en el aprovisionamiento y uso de las capacidades de la plataforma. Los usuarios elijen implementaciones internas de plataformas por sobre otras alternativas, como ser desarrollar por ellos mismos las capacidades o contratar un proveedor.
+Los usuarios de equipos de producto y servicios elijen usar plataformas y sus capacidades por el claro valor que proveen en la reducción de carga cognitiva sobre los equipos de producto a la vez que proveen servicios de soporte de mayor calidad. La documentación e interfaces ergonómicas permiten a los usuarios del equipo rapidez en el aprovisionamiento y uso de las capacidades de la plataforma. Los usuarios eligen implementaciones internas de plataformas ante otras alternativas como desarrollar por ellos mismos las capacidades o contratar un proveedor.
 
 #### Características:
 
