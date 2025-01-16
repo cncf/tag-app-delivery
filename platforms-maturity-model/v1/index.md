@@ -405,7 +405,7 @@ Existen procesos estándar para la creación y evolución de nuevas capacidades,
 
 El ciclo de vida de cada capacidad se gestiona de manera estandarizada y automatizada. Las capacidades, funcionalidades y actualizaciones son entregadas de forma continua sin impacto en los usuarios. Cualquier cambio importante, instigado por los proveedores de plataforma, incluye planes de migración para los usuarios existentes con responsabilidades y tiempos definidos.
 
-Los proveedores de capacidades de plataforma asumen la mayor parte de la responsabilidad para el mantenimiento, pero hay un contrato claro, un "modelo de responsabilidad compartida", que describe las responsabilidades de usuarios, permitiendo que ambos lados operen mayormente con autónomía.
+Los proveedores de capacidades de plataforma asumen la mayor parte de la responsabilidad para el mantenimiento, pero hay un contrato claro, un "modelo de responsabilidad compartida", que describe las responsabilidades de usuarios, permitiendo que ambos lados operen mayormente con autonomía.
 
 #### Características:
 
