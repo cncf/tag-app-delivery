@@ -450,7 +450,7 @@ Se mantienen los desafíos de traducir la retroalimentación a tareas concretas.
 
 * La recolección de datos se discute en la mayor parte de las sesiones de planificación o de implementación de capacidades.
 * Puede que falte alinearse sobre qué exactamente debe medirse para verificar el éxito.
-* Las funcionalidades de plataforma pueden medirse por éxito, como ser medir la adopción del usuario o tiempo de usuario ahorrado.
+* Las funcionalidades de plataforma pueden medirse por éxito, como por ejemplo medir la adopción de los usuarios o el tiempo de usuario ahorrado.
 
 #### Escenarios de ejemplo:
 
