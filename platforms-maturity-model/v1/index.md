@@ -215,7 +215,7 @@ El descubrimiento de los usuarios sobre las capacidades y cómo utilizarlas es i
 
 * Algún grado de ímpetu externo lleva a utilizar las capacidades de plataforma, por ejemplo:
   * Incentivos, como revisiones personales
-  * Órdenes, como ser requerir su uso para los releases en producción o recibir financiación
+  * Órdenes, como requerir su uso para los releases en producción o recibir financiación
 * La utilización de las capacidades de plataforma es fragmentada: los usuarios pueden aprovechar las ventajas de una capacidad, pero podrían no tener conocimiento o interés para adoptar otras capacidades disponibles.
 * Los usuarios tienen poca motivación para aprender cómo usar las capacidades de la plataforma y dependen mucho de la colaboración de los proveedores por medio de foros de colaboración o mesa de ayuda.
 * Se alienta a los usuarios de plataforma a que se unan a comunidades informales de práctica para compartir problemas y soluciones, pero la asistencia es limitada.
