@@ -124,7 +124,7 @@ Estas capacidades se construyen y mantienen por personas asignadas de forma temp
 
 #### Escenarios de ejemplo:
 
-* Hay un empleado específico a quien se lo percibe como el experto de entornos de prueba. Si bien este empleado tiene buenas intenciones, sus intentos por habilitar mejores entornos de prueba a pesar de la inversión limitada, han llevado a incrementar el riesgo, dado que no se realiza un mantenimiento de su solución y no hay conocimiento compartido sobre cómo hacer un triage de un entorno de prueba que presenta fallas.
+* Hay un empleado específico a quien se percibe como el experto en entornos de prueba. Si bien este empleado tiene buenas intenciones, sus intentos por habilitar mejores entornos de prueba a pesar de la inversión limitada, han llevado a incrementar el riesgo, dado que no se realiza un mantenimiento de su solución y no hay conocimiento compartido sobre cómo hacer un triaje de un entorno de prueba que presenta fallas.
 * Los ingenieros solo son alentados a invertir en mejoras de capacidades cuando no existe presión por parte de la gerencia en relación con funcionalidades de generación de ingresos. Esto se traduce en pocos días al final de algunos sprints, en los que ellos priorizan automatizar y mejorar partes de su pipeline de CI/CD. No es inusual que estas mejoras aparezcan en ráfagas ya que pueden pasar meses con sprints que los mantienen totalmente ocupados y que no dejan disponibilidad para estos emprendimientos.
 
 ### Nivel 2, Operativo — Equipo dedicado
