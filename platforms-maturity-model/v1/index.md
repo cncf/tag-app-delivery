@@ -459,7 +459,7 @@ Se mantienen los desafíos de traducir la retroalimentación a tareas concretas.
 
 ### Nivel 3, Escalable — Ideas
 
-En esta tapa, mientras que ya existen mecanismos robustos y estándar de retroalimentación, los datos se recolectan de manera personalizada para lograr ideas y acciones específicas y estratégicas. Los resultados deseados se identifican con métricas estándar seleccionadas para indentificar progreso hacia los resultados esperados. Se pueden usar marcos y estándares de la industria para beneficiarse de investigaciones sobre el impacto de ciertos comportamientos.
+En esta tapa, mientras que ya existen mecanismos robustos y estándar de retroalimentación, los datos se recolectan de manera personalizada para lograr ideas y acciones específicas y estratégicas. Los resultados deseados se identifican con métricas estándar seleccionadas para identificar progreso hacia los resultados esperados. Se pueden usar marcos y estándares de la industria para beneficiarse de investigaciones sobre el impacto de ciertos comportamientos.
 
 Se emplean equipos o herramientas dedicadas a obtener y revisar la retroalimentación y sumarizar las ideas viables. Se establece un relacionamiento simbiótico entre producto de plataforma y sus usuarios. La retroalimentación se considera un activo estratégico que guía las operaciones y roadmap de la plataforma. Pueden instituirse sesiones regulares de revisión de retroalimentación, donde equipos de diferentes funciones se unen para discutir y definir estrategias basadas en las ideas de usuarios. 
 
