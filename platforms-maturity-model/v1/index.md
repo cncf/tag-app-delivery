@@ -169,7 +169,7 @@ Los equipos de plataformas encuentran maneras de aumentar la eficiencia y efecti
 
 #### Escenarios de ejemplo:
 
-* Marketing trabaja con los constructores de plataform para introducir un registro de usuarios consistente que permita relacionar los esfuerzos de marketing con los resultados de productos.
+* Marketing trabaja con los constructores de plataforma para introducir un registro de usuarios consistente que permita relacionar los esfuerzos de marketing con los resultados de productos.
 * Iniciativas de automatización reducen el tiempo humano para el aprovisionamiento de bases de datos en 30 minutos por instancia, ahorrando $10m/año.
 
 {{< /tab >}}
