@@ -141,7 +141,7 @@ Se cuenta con presupuesto y el personal asignado para dar soporte persistente a 
 
 #### Escenarios de ejemplo:
 
-* Los desarroladores de aplicaciones, levantan un problema por el tiempo que demora realizar el build de sus aplicaciones. A un equipo centralizado se le asigna la tarea de reducir el tiempo de build en un 50%. Ellos lo resuelven, duplicando el tamaño y cantidad de ejecutores de CI dado que no tienen la suficiente cercanía con el software como para mejorar individualmente los builds de las aplicaciones. Esto crea una preocupación de presupuesto en relación al equipo centralizado, debido a que la ganancia de productividad no se mide directamente contra este aumento de costo de infraestructura.
+* Los desarrolladores de aplicaciones señalan un problema por el tiempo que demora realizar el build de sus aplicaciones. A un equipo centralizado se le asigna la tarea de reducir el tiempo de build en un 50%. Ellos lo resuelven, duplicando el tamaño y cantidad de ejecutores de CI dado que no tienen la suficiente cercanía con el software como para mejorar individualmente los builds de las aplicaciones. Esto crea un problema de presupuesto para el equipo centralizado, debido a que la ganancia de productividad no se mide directamente contra este aumento de costo de infraestructura.
 
 ### Nivel 3, Escalable — Como producto
 
