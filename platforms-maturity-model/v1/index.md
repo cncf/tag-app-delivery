@@ -222,7 +222,7 @@ El descubrimiento de los usuarios sobre las capacidades y cómo utilizarlas es i
 
 #### Escenarios de ejemplo:
 
-* Una organización de ingeniería elige una herramienta estándar de despliegue e instruye a todos los equipos a usarla. Se construyen nuevos procesos  (comunicación de notas de release, etc) sobre ese estándar. Los equipos son instruídos para dejar de utilizar otros tipos de scripts de despliegue y usar en su lugar la herramienta común. Esto resulta difícil para algunos equipos cuyas necesidades no quedan cubiertas por el nuevo proceso pero no saben cómo o no tienen permitido extenderlo.
+* Una organización de ingeniería elige una herramienta estándar de despliegue e instruye a todos los equipos a usarla. Se construyen nuevos procesos (comunicación de notas de release, etc) sobre ese estándar. Los equipos son instruidos para dejar de utilizar otros tipos de scripts de despliegue y usar en su lugar la herramienta común. Esto resulta difícil para algunos equipos cuyas necesidades no quedan cubiertas por el nuevo proceso pero no saben cómo o no tienen permitido extenderlo.
 
 ### Nivel 3, Escalable — Tracción intrínseca
 
