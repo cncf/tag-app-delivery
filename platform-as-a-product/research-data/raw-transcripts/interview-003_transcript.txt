@@ -1,0 +1,347 @@
+**Person A**: Okay, we're okay. So, a little background to start with. How long have you been working in platforms?
+
+**Person C**: In love for about three years now.
+
+**Person A**: Okay.
+
+**Person C**: Well.
+
+**Person D**: Yeah.
+
+**Person C**: Depending on what you consider profer, but yeah, three years.
+
+**Person A**: Okay. And before that? Like, whoa, you know it.
+
+**Person C**: Before that, I just saw be platforms for another company, but that was much more in the infrastructure as a service model for belt research in that case. So yeah, we kind of serviced the platform on that particular platform component, but only for that one. And now I'm actually working on a product for my company for the last three years.
+
+**Person A**: And I guess that leads nicely to the next question. So, how is the platform you work on now existed for before you started, or were you part of the founding platform team?
+
+**Person C**: Funded. But yeah, it's very much a big team. So we have something like I don't know. Right now, we have seven hundred people working on the platform. So yeah, it's kind of a distributed safe scale large-scale team, part of it.
+
+**Person A**: How has that team been? Like, how long has the platform team been operational? 
+
+**Person D**: Three years.
+
+**Person A**: So, okay, so you guys were kind of the founding, okay, and you said 700 people, that one unified team. Like, how is it structured in terms of mandated areas of kind of focus? Is it multiple platforms? Is a unified platform?
+
+**Person C**: A good question. And trying to find the real reason. So yeah, we just reorganized recently. And I'm trying to find which are the themes that compose the whole platform. 
+Yeah, so we're actually scaling larger. So we have several trains composed of several themes. And the way that we go is we have—give me a second to load. Alright, so we have one train about application frameworks and communication solutions, what we call middleware.
+So what we have are batches, MQ, communication like service mesh, whatsoever streaming, for distributions is the integrations stream, and so on. There is one train application framework and exchange. We have another one on security, where we have direct access, secret, do you know it?
+So HUBAND Moritatory and continuous, all that is a large tin. So we have another DRIN, which is network infrastructure and connectivity. For which we have several themes.
+So about connectivity as a service, something fairly new in the house, which we are thinking of sourcing at some point. We have links, we have backup and storage, and we have been a management part of that train. We have another train, which is about engineer instruction.
+So everything related to CC D, we have several themes behind the train. One for development is environments. Number one for CCACCA D implementation and automation. Another one for re-orchestration, test management tests, execution, mocking, injection, validation, and say off and good change and development experiences that is part of the engineering tool chain train.
+Then we have another train that is about Datater. So we have several themes such as non-SQL or traditional DV Mascule and the non-as-SQL middle one. We have another train that is about platforms in which we have our platform security team. We have another one of our come runs, pretty much original issues that we have ented, which is about infrastructure service for clusters and the.
+Yeah, those are the themes behind the platform train. Then we have another train, which is I operation and continuous exploration in which we have several themes, one of them that is about logging, visualization SLA ving, logging, cloud core PHS, which is something that we are quite pioneering into that when into that. We have another one about functional validation monitoring team, which is everything metric related. And now traces. We have item like IDSM teams we handle one, and that's it for the idea of bration of conteration train.
+And the last train that we have, which is the one that is the platform serviceability train, which we aim to very much serve her with the whole platform, right? So we have one related to it's the cell service in everything infrastructure, which we call t got. We have another one about the Bosportal, which is a kind of internal development platform that we're building. We have another one, which is part of this called applications and trigger automation, which allows for coined platform dependencies that the engineers have and can actually establish.
+So, rather than like a Kafka topic that you want to create, they can get self-service code, codify wire, or spring indexes, or I don't know, primitive learns everything related. Then we have into automation.
+
+**Person D**: Which is.
+
+**Person C**: The theme that is actually running day-to-day, like building the automation for first service. Then we have the Configuration Team, which is kind of like a feature lock-in house solution that we have. Then we have an open dilution platform, which is basically the theme behind our universal tower. Everything has to do with non-standard BB and relative work, workloads. And that's it. That was probably a long answer, but what we have in place.
+
+**Person A**: We have a recording, so it's good. Is your team that's like more kind of DX focus across all of the other platform teams, the interface between the lower-level services and consumers like application teams and you know, other consumers of the platform?
+
+**Person C**: No, my team specifically works on applications and trigger automation. It is a bit of glue in between the users of the platform, what we call the sims. And we have something like 600 applications, which are composed of many DevOps engineers, right. And a lot of internal services as well, which we consider as well, users of the platform.
+So we are in charge of the glue, so they can define their love for dependencies. As he mentioned, like everything from I don't know, our research group in the infrastructure level or a keyboard, secret replication or I don't know, Splunk indices, cut topics.
+
+**Person D**: Everything.
+
+**Person C**: They can actually define in a self-service fashion. And yeah, I mentioned Sada because I'm sometimes collaborative with the Open GitHub initiative. And I think we are not fulfilling all its principles, but we try to have it co-defined, Git-backed version control, and let the magic happen, abstracted from the user.
+
+**Person A**: I make sense.
+
+**Person C**: That's what we do.
+
+**Person A**: And we'll get more to those aspects. But just once again to be explicit, how are your customers defined? So you said you service specifically like the DevOps teams within all the other initiatives. Or what could you interface with, I let you.
+
+**Person C**: Okay, so yeah, basically, all seems part of what I forgot to mention is that we are migrating fully onto the cloud right now. So, we don't have a big project that started three years ago with a partnership with Microsoft. Say we're pretty much just moving everything impromptu to the cloud, and we are trying to give as much glue as we can. 
+So, that is what we call cloud migration. Every obli has to go through it. 
+So, as part of their mitigation process, one part is that they have to use one tool that we use in order to toll service every platform component. So, that is the tool that I'm maintaining. They will go to their own repository, what we call an application deployment repository, and they will go and define all bloot from dependencies is the d half. 
+So, that is what my team is doing, and we'll talk to them quite often. By Achedia practices and have set up internally, and we try to kind of. There need some challenges.
+
+**Person A**: Do you have a product owner or product manager as part of your okay, one for your team, one for each team, or how? What's the relationship of platform teams toms?
+
+**Person C**: Yes. It is safe. We have a lot. We have one PO, then we have one train PM, and then we have a solution—I don't know how to call it—a solution PM, whatever it is. 
+And then we have a product manager on top of it that comes up with new features, so on. So, the product owner is the one that's kind of feeding from the product manager and allocating the features back into your iterations.
+
+**Person A**: So, let's run through—there's a lot there, but let's break that down a little. 
+So, yeah, product owner, there's like, they're the link to the business. Or like, what's their mandate? What are, like, what's the role that they fulfill?
+
+**Person C**: It's not that much the link to stakeholders in that there is a project manager on top from the train level. So, from our SAFE train, he's the link between the project manager and the team. 
+So, he's trying to allocate part of the business needs to our backlogs and raising whenever we have dependencies from other teams. When you're a central team trying to integrate several other solutions, we can get through the challenges, but obviously, Platform as a product has to do a lot with politics, so that is a bit of the glue.
+
+**Person A**: Current state, yeah. Do they?
+
+**Person C**: Okay, so that's it. Like trying to represent the team in the roadmap, kind of.
+
+**Person A**: The backlog, the product owner. Okay.
+
+**Person D**: Yes.
+
+**Person A**: And then the project manager is above them in terms of area of responsibility and focus.
+
+**Person C**: Yes. So, the project manager is the manager of the train, which is composed of several teams.
+
+**Person A**: Okay, got it. And that project manager works across multiple teams, making sure that everything is aligned, free, and within each of the teams.
+
+**Person D**: Yes.
+
+**Person A**: As a product owner. Okay? And then you said product manager?
+
+**Person C**: So that's a project manager, the one for the train. And there is a product manager, which I have not much clue what the role is, but that's a new role that's got introduced recently.
+
+**Person A**: Yeah.
+
+**Person C**: So right now, we are trying to identify what we call horizons. So you're trying to kind of know what we're gonna do in the short term. Kind of like a dream. As for that, we have this dedicated figure, which I think is not an official one in SAFE, which is called Product Manager, which aims to create a sort of short-term strategy and long-term strategy. And, yeah, that's pretty true.
+
+**Person A**: Is there anybody else that I've missed? There's a product owner, project manager, product manager. Is there anybody else on that? In that kind of thinking solution.
+
+**Person C**: There is a solution larger manager.
+
+**Person D**: Yeah.
+
+**Person C**: That's something on top. But honestly, I don't even know who it is.
+
+**Person A**: Like across, above project or...
+
+**Person C**: Across all the trains. Remember, 700 people working on this project. 
+So there is one figure that is supposed to kind of deal with cross-train dependencies and arbitrate and all that.
+
+**Person A**: Got it. And everything is kind of built around the SAFE model. Right? The...
+
+**Person C**: Yes, it's correct.
+
+**Person A**: Okay.
+
+**Person C**: I won't ask this.
+
+**Person B**: One follow-up question. So, what is this more or less unit of your team? As in, you said 700 people? But what is this more or less like group of people that work together on the same topic?
+
+**Person D**: Let's say.
+
+**Person C**: Okay, so my team is composed now—we're kind of growing—but something between three and five people. Yeah, we're scaling up. So we will scale to five, but right now, we are three core contributors. And I forgot to mention it's not enough. We have another project related to Platform as a product because not only are we migrating our applications to the cloud and servicing them, we are going a bit crazier.
+
+**Person A**: No.
+
+**Person C**: And we're gonna open it up for our clients as well, which we call Creation Platform. So this is a totally different project, which is kind of... I don't have much information on that. And there's a couple of folks there, I'm not sure—maybe 100, 200—who are working to self-service our platform to our clients so they can build on top of us.
+
+**Person A**: Right. And it's not one-to-one; we're working on this like with the same underlying services, but they're packaging it up in a way that is useful.
+
+**Person D**: No.
+
+**Person A**: To end customers. Right.
+
+**Person C**: They will build onto our platform. So, yeah, they have different security models and so on, but it's separated. It's another SAFE project. Yeah, completely.
+
+**Person A**: Separate team, separate focus.
+
+**Person D**: Yes.
+
+**Person A**: Okay, but they are...
+
+**Person C**: Separate project, completely isolated.
+
+**Person A**: But they don't work with any of these platform teams that you mentioned before.
+
+**Person C**: There are supposed to be some hierarchical links between them, but they are totally escalated. And I think there's a bit of a push as well, organizational push to kind of converge and work together. But we are focusing much more on the migration to cloud ourselves before we open it up.
+
+**Person A**: This hasn't happened yet. Like first migration, then this other project to expose the services and like a platform to your clients.
+
+**Person C**: It is ongoing, but there are different maturity levels. Say we have a much shorter horizon. The deadline for the first project is kind of the priority. And I guess once we complete the migration, we may recall and allocate resources into the other one with this servicing externally.
+
+**Person A**: Got it. And just to be, like, you know, super explicit. That team is like entirely isolated where they don't even touch the code of any of the platform teams that you just mentioned, like networking, infra services you already have developed. They're building them out in parallel, separate. Or like they forked them over. They're run like... Yeah. I'll stop.
+
+**Person C**: Okay, now you're talking to the right person because I'm the most silo-buster of the whole organization. So actually, the bustle of the community or others. So we have 110 media practices, and we are promoting insourced solutions. So of course, there is a way to share knowledge and practices in dedicated forums. There is a way to actually go and contribute if there are some gaps whatsoever. So we have a community of practice ecosystem to kind of bridge all the gaps. People from different projects or from different business domains connecting together and working into common solutions and so on. So there is a bit of the gluing between all divisions.
+
+**Person A**: Can you run me through kind of the last feature capability that you decided to work on? What did that look like? From kind of picking it up to rolling it out.
+
+**Person C**: Okay, so the very last feature that I'm working on is about one. As I mentioned to you, one of the platform components that we're interacting with is everything infrastructure, which is what we call base components. In these base components, the users can actually define their resource group, they can define their keywords, and they can define their current quota in a dedicated landing zone with pretty much an OpenShift cluster. 
+So what I'm trying to do is tag consistently all their resources—or like, more specifically, I'm interested in tagging the resource group so that for a number of reasons—for FinOps, for security standpoint, for incident management—and trying to provide the tags that are supposed to be used for those assets that we're creating.
+
+**Person A**: And how did you choose to work on this specific piece of work?
+
+**Person C**: So we have a number of items in the backlog. That's how we run through our planning iteration week. And I felt the most comfortable taking the job because it required writing some Terraform code and so on. So I went and autonomously picked it up.
+
+**Person A**: Can I... Is that something like you individually worked on or part of the team worked on that capability?
+
+**Person C**: It was me. Usually, like, features are actually allocated to one person. Sometimes we do pair work, but not that much. Usually there is a one-to-one.
+
+**Person A**: And part of the process is what, to break things down into those kind of components where like a single engineer could knock it out in the sprint or like do an iteration in the sprint.
+
+**Person C**: So, yeah, I mean, like, features are actually broken down into tasks. And, yeah. So, yeah, there were like three subtasks part of the whole feature that was allocated between the three regions of the prior increment.
+
+**Person A**: Got it. So let me rephrase that question. Not so much at the task you decided to pick up but like the whole feature. But like why was this capability determined... The task you picked up, that was part of what larger feature?
+
+**Person C**: Okay, good question. I wonder if there's the development experience, feature ownership. I mean, now... We don't prepare for the one. Things are going slow right now.
+
+**Person A**: Because I'm thinking in the context of like a complete deliverable experience to, you know, to end users or...
+
+**Person D**: Okay.
+
+**Person A**: Yeah.
+
+**Person C**: It's part of allowing a resume feature that is about allowing people to configure multiple keywords as per one single resource group. So as part of that new feature that people are requesting, like leverage tenancy at resource group level to create several resource groups.
+
+**Person A**: Okay.
+
+**Person C**: There is one subtask that is about tagging the resource group accordingly.
+
+**Person A**: And so, how was it that the side of the, like, for example, planning that feature would be worked on over other features in the backlog?
+
+**Person C**: So, we have—probably not the right person to answer because I'm not involved in those decisions. But as far as I understand, we have a user channel. So there are some forums where we talk to users and we try to what are the most needed features from them. We're trying to promote as well, like, similar to how it is upstream, for people to kind of raise issues and kind of mutualize them. But yeah, it's kind of like users and driven decisions. In that case, the product manager was actually interacting with the users.
+
+**Person A**: Is it more POs and project—and like, who is it that interfaces with end customers, making...?
+
+**Person C**: Product manager.
+
+**Person A**: Product manager. Got it. And okay, we'll come back to part of this later. Okay, when you released this, how did you know that this was, like, successful?
+
+**Person C**: Okay. So, we have this product increment. We have worked lots towards getting telemetry of the whole solution. So yeah, we're considering success/failure rates. We're gathering adoption metrics. Thanks to these tags, we will be able to drill down to more deep-down information. We are mostly log-based, to be honest. We're not that metric-related. Mostly around logs, but we have Pano dashboards, adoption dashboards, functional dashboards as well to know what is the state of the components, which are the ones working the most, are there issues.
+
+**Person A**: And how does that release get communicated?
+
+**Person C**: We have an entire solution with called Service Status dashboards in which people can subscribe to topics or, like, we have a lot of tools. Last time we checked, something like 400 services that we have there. So people can actually subscribe to what they are using, and we will actually just send the communication whenever something is released, whenever something has been degraded. And even today, we were discussing about having a sort of continuous release notes so that we release—and by the way, we're reaching trunk-based developments—whenever we release something, it's actually all the users that have subscribed to the service or tool will actually get the notification in their inbox.
+
+**Person A**: And that's the primary way that releases get communicated across the...
+
+**Person C**: Well, we have, like, we have integration as well with our instant messaging tools. So we have—we're using Microsoft Teams, and we have one team for our whole solution, and then we have one channel that is announcements. We have the integration between these two services. So people can actually check there as well.
+
+**Person A**: And just going back to—you're part of the platform as a whole. What other, you know, core capabilities does it currently provide?
+
+**Person C**: Okay. Opening the list of components. As you mentioned, we have several components. We have the base components that will help configure subscription, keywords in Azure, OpenShift quotas, and I think with our external secret vault. Then we have another platform component, which is called Global DNS, in configuring global DNS and endpoints. We have a platform component, which is for Splunk, in order to configure Splunk indexes. Because, yeah, we have a lot of private indexes for logs. We have another component, which is called Thanos, which is about defining declaratively and code-defined way cost allocation and North Star metrics configurations. We have a platform component, which is called Kafka, in order to manage Kafka topics, pretty much. Another one for Couchbase, for configuring your Couchbase clusters. Another one called Alerting for configuring your Prometheus deployments. Another one that is called HERM, which is about configuring Oracle SQL configurations. Another one that is called JOR, which is about configuration of batch systems. It's actually Control-M. And the last one is IBM, which is kind of like not much used, is for non-standards that are actually not running in OpenShift. This is for those that need dedicated virtual machines, which we call fast track or like different shift applications.
+
+**Person A**: And how can the user... how can your user access any of these capabilities?
+
+**Person C**: Okay, so there is a way—the boilerplate or scaffold of your deployment repository, as we call it. So in this deploy repository, users will have to define the logical representation of the system, kind of the where. 
+So there's something that they haven't seen much in the industry, so it's gonna be hard to explain, but there is what we call the topology. So we expect people to define where your service is going to be deployed in a node-based fashion. 
+So, I don't know. I want my service to be deployed in this subscription, which is going to be composed of these two platforms, and so on. With descriptions actually belonging to whatever version and so on. So it's actually like a node-based, hierarchical model, kind of like YAML thing of.
+
+**Person A**: Okay, so when users from different teams explicitly request what services, what functionality, what's—like where it's going to be deployed in terms of regions, like...
+
+**Person C**: No.
+
+**Person D**: Yes.
+
+**Person A**: Okay, what are the other pieces? The boilerplate.
+
+**Person C**: Actually, maybe I wonder if I can share my screen.
+
+**Person A**: I didn't think this...
+
+**Person C**: This is not confidential, so that might actually simplify the whole thing. Sorry. Can you share something? I don't have the... Some application of the... I think I have it here.
+You be also fine. Alright, so this is how topology looks like. I see we don't—but yeah, so people can define—they can either define it statically or something a bit more crazy, which we have some sort of dynamic topology discovery where application has been deployed in case people were doing things before we started this.
+So this is the where, kind of like where the service is going to be deployed. Several subscription groups, part of subscription in your case, subscription, part of region, partition, berm, and so on. That is the where.
+So that is defined in a user format, basically YAML format, which we call VOD YAML. And apart from that, they will be what we call overlays or what we call the what. So thanks to that, you could actually overlay on any of these leaf nodes at whatever level that you want. 
+So you would like the same configuration everywhere, you could actually have that file at the root level. You would say, like, I want one alert. I think you have one dedicated example of that one.
+Like this one, for example. Maybe it's better to... Imagine that you want to have one basic alert in one file which is called alerting.yaml, and you say, like, for any percentage namespace as wildcard, I would like to get an alert in case my replicas go down to one, and deploy that in percentage platform. 
+So that is the way that you can actually decouple the what—kind of the shopping list of your platform—from the where, kind of like the topology part. 
+So these configuration files can be placed in any of the levels if you would like to apply for any leaf node or at whatever level. Imagine that for this particular platform, you'd like to have another threshold, a more—a stronger threshold. You say, like, for this production platform, I would like to have the threshold to two. 
+So that is the way that you can kind of like overlay the target nodes and avoid reinventing the wheel.
+
+**Person A**: Thanks for sharing this, by the way. Just being mindful of time, I'm gonna hop on to fit in a few more questions while we have here. So what kind of support do you provide for consumers in using your platform?
+
+**Person C**: We have one dedicated support channel where we have "sheriffs." So, one of our team members every week is actually just helping out users. And this week, which happens to be my week, we are actually trying to connect that sheriff in chat to our documentation base, which is called Dev Insight, whatever.
+So, we're actually training around a... So, OpenAI model to kind of provide support to the users based on a knowledge base, frequently asked questions, and so on.
+So, we expect first the bot to provide some sort of hint, like, "Check this documentation base, check this frequently asked question, whatever." Then the support will be, wherever is the series, go and check this out. And, yeah, we will ask them to create one support ticket as well for traceability and we would help.
+
+**Person A**: Are you guys rolling that out yourselves? Are you using any kind of... Are you rolling out the kind of like RAG implementation in a RAG-backed chatbot that it's meant to offload a lot of, like, commonly asked questions yourself? Is building.
+
+**Person D**: Yeah.
+
+**Person C**: I mean, we're using [Tool Name], and we're using the OpenAI service. So, yeah, we made it ourselves.
+
+**Person A**: Okay. And yeah, you guys have Backstage or any other kind of like discovery tool for consumers.
+
+**Person C**: Okay, I think you will have another interview with one of my team members, and he will give you a lot of information about that one because, spoiler alert, at least what he says is that we have... maybe even show you that one. We have had our own solution for the last ten years or so. What he says is that we had one knowledge exchange with Spotify about four years ago, and four months later they did a hackathon and created Backstage based on... He likes saying that; I'm not sure how much true it is or not. The thing is that.
+
+**Person A**: I'm a day's lore.
+
+**Person C**: Whatever, the thing is that Backstage, the fact that it has been open, and it has grown, is actually getting adoption right there, and we're actually migrating—or there are plans to migrate—our in-house solution to a proprietary solution, which I'm quite against, with ServiceNow. So there are thoughts that we will actually go and blackbox our in-house solution into another in-house solution with ServiceNow. We are fighting against that one. But one of the issues that we experience with Backstage—and that's a bit of the challenges, or whatever you want to call it—there are two big challenges with Backstage, at least from my side. One of them, there is too much day related. As you can see, I know I'm talking about management. I'm not saying about index creation, anything background management like day one or day two operations. And the issue is the lack of multi-tenancy in Backstage. We have learned that isolation doesn't really fly for a number of reasons. We have tried it with [City]. And our in-house solution comes with this multi-tenancy concept embedded, which we call the isolation as a service. And if I can so influence the platform engineering roadmap of the CNCF, I could say Backstage go focus on day one and go focus on... And as well for enterprise users and plugins as well because the scaffolder is—we have a lot of scaffolding tools. For us having another scaffolder...
+
+**Person A**: Got it.
+
+**Person C**: Scaffolding to this new data.
+
+**Person A**: Then I'll jump back up to a few levels around where we kind of went on the Backstage conversation that I kicked off. Can the user request a new capability from your team?
+
+**Person D**: Yes.
+
+**Person C**: For example, that one—you want to have several key vaults being part of our resource group, and you want to do it in a self-service version. So as part of our user forums, you can go and track that one, and if other users are facing the same, it might eventually come into the picture if it is aligned with the priorities of the platform. Even though I wish and maybe have to put it up to open up the feature requests as well. So we have backlog requests open for everyone. A feature request is something that I was trying to influence as well. And we might actually put that in place, but we haven't yet.
+
+**Person A**: Are there other ways that a user can request for... That's like the standard.
+
+**Person C**: Standard paths in our usual channels—we have some collaboration pages where you can actually just address your wishes. And I know there is a way that different people are actually putting that in. I wish it could be slightly more streamlined, and people could vote for feature requests. The one thing I kind of like is having better visibility of what people want most, but as of now, it's kind of manual, added into a shared documentation page. What do you want? Ask.
+
+**Person A**: We touched on this earlier, talking about POs. How does your team set its priorities? What does that look like?
+
+**Person C**: That comes from the PO.
+
+**Person A**: From?
+
+**Person C**: Yeah. So, it comes from the top objectives, which are something that is coming from the top, and like, as well, the stories that we need to implement are coming from the top. How we break them down is done by the team. But at least in our implementation of SAFE, that comes from the top.
+
+**Person A**: So, they come into the room with the backlog of stories or any group, and who...
+
+**Person D**: Yes. Yeah.
+
+**Person A**: You know, you don't have a lot of visibility, but do you have a sense of who's in the room creating priorities, besides the PO?
+
+**Person C**: Yes, we have senior leadership. My belief is that they might actually want to...
+So, we have stakeholders, what we call business owners, which are actually coming as well into our planning events. And yeah, they are sizing the objectives. They say this objective; it has the size of, I don't know, eight out of ten or something like that.
+So, yeah, but it comes from the management levels, the prioritization of the objectives. I believe the objectives and the features are coming in from the product owner, which is kind of the link to all stakeholders.
+So, users or like management or other platform components.
+
+**Person A**: Yeah, and how often are those priorities revisited? They come into the room, they're like, here's what we're working on. Here's the backlog. Here are the stories we're working on. You break it down with the team. You kick off your sprints. How often do those priorities get revisited after that point?
+
+**Person C**: So, we have product increments of three months, iterations of three weeks, and we have innovation weeks of two weeks at the end of every quarter, in which we have kind of freedom to work on off-backlog stories. So, yeah, the priorities remain for the whole PI, and new PI, new objectives come along.
+
+**Person A**: Okay, and sorry, just mindful of time, do you have an extra ten minutes? Okay, awesome, thank you. And quickly, you know, once you have your kind of like PI, what's... How does another team know what you're working on in terms of, like, dependencies and just visibility?
+
+**Person C**: Okay, so again, SAFE. So we have a planning event, which takes one week's time, where all the teams and all the people behind the teams—700 people—go and sit and define the roadmap for the next three months based on the objectives that have been defined by the product owner and the features that have been, and as well by the PO. Yeah, so we see it, we size the stories, and yeah, we try to allocate them to the iterations. We have dependencies, which we do because we are a central team, that we try to integrate all platform components, which each platform component belongs to a different team. We try very often to track the dependencies. The problem is that they may have different priorities. Very often they have a lot of bandwidth problems with the way of a hundred people. I don't know why, but they always say that they have bandwidth problems.
+So it is very difficult to move them. So one says that platform as a product is 80% politics and 20% technical stuff. If you fail at the politics, you will end up doing 80% technical debt to go for that, taking shortcuts, taking workarounds, just to go for lack of alignment and long-term vision.
+
+**Person A**: We've touched on this a little bit too. Do you collect user feedback with any kind of cadence?
+
+**Person C**: Yes, that's exactly what I was telling you. We have some sort of forums with the users. I don't know what the occurrence is, to be honest. And apart from that, we're even building a community of practice, particularly for our solution.
+So, yeah, we gather our feedback quite a lot. Or we're trying much more than before.
+I mean, the name of it is called application-centric automation. So we try to be as much user-centric as possible.
+So, application means end-users. And we have several forums to interact with them. But the occurrences may be revisited as we are actually moving to a community of practice model.
+
+**Person A**: Is the primary means of communication user-driven in chat? Or like, how does that actually play? Is it structured? Is it ad hoc? Is...
+
+**Person C**: As of now, it is ad hoc. As I mentioned, we are moving to our community of practice framework. We have a framework with very defined objectives for PIs and so on. Communities, for example, the community engine, which is a wider one, which, for example, we have one initiative that is basically like connecting with the CNCF, so that one is organized differently. You can actually have a core team, and in a bi-weekly fashion, they work online or offline in chats, so it's much more structured. As of now, our link to users is kind of ad hoc by our product owner, but we are moving to our community of practice model that is much more structured.
+
+**Person A**: So just real quick. The community of practice—is that... What's the mandate? Is it like structured interviews and surveys, or what does it look like?
+
+**Person C**: Okay, we haven't yet clarified for my solution, but we have a master community of practice for everything. And yeah, for example, we track problems or challenges or opportunities through what we call community initiatives. Similar to, for example, if you would go on in GitHub, publish issues, go into action—it can be within the community itself, like by volunteer people, or it could be, thanks to our community sponsors, be delegated to the team behind in case there's a team that has money in the portfolio. The way that's working with the users—we have what we call broadcast communication channels, open channels, similar to Slack in the CNCF, where people can just come up with community support questions, or we can give information and get some back. We send surveys not that often, and as well we have knowledge sharing sessions every two weeks where we have some service slot as well to talk about open initiatives and so.
+So to be honest, we try to align quite a lot with the processes of the CNCF. We even create our own KubeCon, so to say, which is a whole event for the whole engineering community. So we try to work quite similar to how the CNCF is working.
+
+**Person A**: Okay, great. The last couple of questions—we're down to the home stretch here. You kind of alluded to this a little bit, but are there explicit metrics around the platform, like kind of key performance indicators that you look at to know if the platform is succeeding or how it's succeeding?
+
+**Person C**: Okay, as I said, it's a big project, so I don't have visibility on everything. Most likely, the stakeholders might have.
+So we have some functional metrics around kind of the usage of the platform, the migration status of applications. We have, as well, FinOps metrics, cost control, why not? We have technical debt as well per team; we don't have one aggregated for the whole project, unfortunately. I wish we would have some sort of kind of like Sentry dashboard, whatnot. But we don't; each team has to run—even though we have some solution to kind of do functional monitoring or pinging for the services.
+So same thing, subscribe-based; you can actually see what is the status of each of the services. But that's something that each team has to do. In relation, we now have something in terms of dashboards.
+
+**Person A**: Got it. And I think that's everything. Most to you, anything to...
+
+**Person B**: So I think we've covered everything. I would say, three rapid questions around the investments. Like, do you have, like, budget allocation per team, as in your small units?
+Like, five people has a budget to spend in terms of even time on something? Or do you have a budget that is more like around 700 people, team-wide, and then it gets broken down?
+
+**Person C**: Being you catch me on that, I'm not involved. But yeah, we talk manpower.
+
+**Person A**: For the platform teams. If you have...
+
+**Person C**: So what I was checking before in the train structure and so on, we have the FTEs—the manpower per team. And, yeah, I think we work on that. And I think there was one allocated budget line for the whole main project.
+
+**Person D**: Project.
+
+**Person C**: That it's kind of split down and has deadlines. And, yeah, that's the way that we're organizing it. Our budget is to look for the migration.
+
+**Person A**: Cool. Great. Anything else for you.
+
+**Person D**: No.
+
+**Person C**: That was the last.
+
+**Person A**: Okay.
+
