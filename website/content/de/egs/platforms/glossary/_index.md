@@ -13,7 +13,7 @@ Eine Sammlung von Funktionen, Dokumentationen und Tools, die die Entwicklung, da
 Je nach Umfang und Zielgruppe einer Plattform wird sie manchmal auch als „Entwicklerplattform“, „interne Entwicklerplattform“, abgekürzt aus dem englischen "Internal Developer Platform" als "IDP", „Bereitstellungsplattform“, „App-Plattform“ oder sogar als „Cloud-Plattform“ bezeichnet. Der Begriff „Platform-as-a-Service (PaaS)“ wird auch häufig verwendet, um Plattformen zu beschreiben, die von außerhalb einer Organisation gekauft oder anderweitig übernommen werden und eine besser verwaltete, aber oft weniger anpassbare Plattformlösung bieten.
 
 ## Plattform-Engineering
-Der Entwurf, Aufbau, Betrieb und die Weiterentwicklung einer Plattform. Eine Möglichkeit, diese Praxis zu betrachten, ist ein auf Empathie basierender Ansatz für die soziotechnische Gestaltung von Organisationen<sup><a href="https://hazelweakly.me/talks/qcon-sf-2023/slides#22">1</a></sup>. In diesem Sinne ist es ein kontinuierlicher Prozess, durch den eine Organisation lernt, wie und wo sie intern und nicht nur extern investieren und strategische Geschäftsentscheidungen treffen kann.
+Der Entwurf, Aufbau, Betrieb und die Weiterentwicklung einer Plattform. Eine Möglichkeit, diese Praxis zu betrachten, ist ein auf Empathie basierender Ansatz für die soziotechnische Gestaltung von Organisationen<sup><a href="https://hazelweakly.me/talks/qcon-sf-2023/slides#22">1</a></sup>. In diesem Sinne ist es ein kontinuierlicher Prozess, durch den eine Organisation lernt, wie und wo sie nicht nur extern, sondern auch intern investieren und strategische Geschäftsentscheidungen treffen kann.
 
 ## Plattform Team
 
