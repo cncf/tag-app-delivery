@@ -5,7 +5,7 @@ description: "Definiert Schlüsselbegriffe, die in den Texten der Arbeitsgruppe 
 
 Siehe auch: [Cloud Native Glossar](https://glossary.cncf.io/de/)
 
-Bei Bezug auf die folgenden Definitionen außerhalb des Rahmens der Texte der Arbeitsgruppe muss beachtet werden, dass diese sowohl im Kontext der Cloud Native Computing Foundation (CNCF) als auch der Technical Advisery Group (TAG) App Delivery verfasst wurden. 
+Bei Bezug auf die folgenden Definitionen außerhalb des Rahmens der Texte der Arbeitsgruppe muss beachtet werden, dass diese sowohl im Kontext der Cloud Native Computing Foundation (CNCF) als auch der Technical Advisory Group (TAG) App Delivery verfasst wurden. 
 
 ## Plattform
 Eine Sammlung von Funktionen, Dokumentationen und Tools, die die Entwicklung, das Ausliefern, den Betrieb und/oder die Verwaltung der Bereitstellung von Produkten und Diensten unterstützen. Eine Plattform kann Webportale, APIs, CLIs, Protokolldefinitionen, Dokumentationen, Standards und/oder Golden Path Templates umfassen. Wenn sie gut gemacht sind, ermöglichen Plattformen eine schnellere und zuverlässigere Bereitstellung der Anwendungen und Dienste eines Unternehmens.
