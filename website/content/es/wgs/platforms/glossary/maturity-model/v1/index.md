@@ -1,6 +1,6 @@
 ---
 title: Glosario
-description: "Define los términos clave utilizados en los escritos del Platforms Working Group."
+description: "Define los términos clave utilizados en los escritos del _Platforms Working Group_."
 ---
 
 Ver también: [Glosario Cloud Native](https://glossary.cncf.io/)
@@ -8,7 +8,7 @@ Ver también: [Glosario Cloud Native](https://glossary.cncf.io/)
 Si deseas referirte a estas definiciones fuera del alcance de los documentos del grupo de trabajo, ten en cuenta que han sido escritas en el contexto de la CNCF y el despliegue de aplicaciones.
 
 ## Plataforma (Platform)
-Colección de capacidades, documentación y herramientas que apoyan el desarrollo, despliegue, operativa y/o gestión de la entrega de productos y servicios. Una plataforma puede incluir portales web, APIs, CLIs, definiciones de protocolos, documentación, estándares y/o plantillas de "golden path". Cuando se hace bien, las plataformas permiten un despliegue más rápido y fiable de las aplicaciones y servicios de una organización.
+Colección de capacidades, documentación y herramientas que apoyan el desarrollo, despliegue, operativa y/o gestión de la entrega de productos y servicios. Una plataforma puede incluir portales web, APIs, CLIs, definiciones de protocolos, documentación, estándares y/o plantillas de "_golden path_". Cuando se hace bien, las plataformas permiten un despliegue más rápido y fiable de las aplicaciones y servicios de una organización.
 
 Dependiendo del alcance y la audiencia para una plataforma, a veces se puede referir a ella como una "Plataforma de Desarrollo", una "Plataforma de Desarrollo Interno (IDP)", una "Plataforma de Entrega", una "Plataforma de Aplicaciones" o incluso una "Plataforma en la Nube". El término "Plataforma como Servicio (PaaS)" también se usa a menudo para describir plataformas que se compran o adoptan desde fuera de una organización, proporcionando una solución de plataforma más gestionada pero a menudo menos personalizable.
 
