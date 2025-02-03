@@ -95,7 +95,7 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Incubating |
 | Website                         | [nats.io](https://nats.io) |
-| What challenges make developers adopt/use this project? | Developers can use NATS to exchange and store data securely, accross a combination of clouds, environment,s web and (edge) devices.  |
+| What challenges make developers adopt/use this project? | Developers can use NATS to exchange and store data securely, across a combination of clouds, environments, web, and (edge) devices.  |
 | How is the project best described? | Project |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | As part of their workflow - Fundamental |
