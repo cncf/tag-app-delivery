@@ -27,7 +27,7 @@ Fig 1. [Platform Capabilities](https://tag-app-delivery.cncf.io/whitepapers/plat
 It’s worth noting that this loose coupling does not preclude the benefits of interoperable components. While capabilities such as build and test, as well as artifact storage may be consumed separately, a composable platform can still provide benefits for those consumers who wish to use the two together, such as automatic image signing and SBOM generation. 
 
 A key concept in building platforms is the persona.  For this paper, we refer to a persona as a group of stakeholders within a platform.
-Note that a persona is not the same as a role, and is intended to loosely apply to different roles in team topologies. Some individuals will fit loosely into one or more persona - especially in smaller organizations where team members are expected to wear multiple hats. 
+Note that a persona is not the same as a role, and is intended to apply to different roles in team topologies. Some individuals will fit into one or more persona - especially in smaller organizations where team members are expected to wear multiple hats. 
 
 
 # Characteristics of a Composable Platform according to the personas
@@ -35,7 +35,7 @@ Note that a persona is not the same as a role, and is intended to loosely apply 
 
 - **Builders**  (focus on platform and beneficiary experience): From being extensible and configurable, the platform should support a variety of underlying infrastructure on which the platform will run, from on-premise to cloud.
 - **Enablers**  (focus on end-users and application capabilities): Provide availability to access different installation methods and configure the platform by allowing the custom configurations, extend the platform to additional infrastructure.  Increase platform capabilities to either of the following two roles- Developers and Business Customers
-- **Consumers**  - Platform Customers (Developers) components are the tools that add application capabilities, such as database, observability, and application log management to accomplish business goals. Decreasing lead time in development will increase developer productivity., 
+- **Consumers**  - Platform Customers (Developers) components are the tools that add application capabilities, such as database, observability, and application log management to accomplish business goals. Decreasing lead time in development will increase developer productivity.
 - **End-users (customers)**  -  End users don’t interact directly with the platform but benefit from the increased productivity of the platform consumers, which reduces the time to market. Platform capabilities and application features will contribute to business use cases and add customer value. Customers can also measure the value of a strong platform through enhanced reliability and availability, building trust over time.  Furthermore, the ability to support a variety of workloads helps the platform meet business requirements and provide value to the end users. 
 
 
@@ -67,7 +67,7 @@ Growing a Platform by increasing platform and application capabilities, taking a
 <img src="../assets/composable_enablers.png" width=1000px />
 Fig 3. Platform Expands within platform and application capabilities
 
-After cluster  installation and setup typically with a Kubernetes distribution, platform engineers embarked on Day 2 operation activities, ensuring relevant governance and security are in place.  Next, the teams will work to ensure an efficient onboarding experience and a great user experience, allowing teams to access the platform directly or indirectly and bringing application capabilities closer to developer teams. It’s critical to meet the business’s scalability, resilience, and high availability needs before moving forward with production workloads.
+After cluster installation and setup typically with a Kubernetes distribution, platform engineers embarked on Day 2 operation activities, ensuring relevant governance and security are in place.  Next, the teams will work to ensure an efficient onboarding experience and a great user experience, allowing teams to access the platform directly or indirectly and bringing application capabilities closer to developer teams. It’s critical to meet the business’s scalability, resilience, and high availability needs before moving forward with production workloads.
 
 
 ### [From Developers (platform end-users):](https://tag-app-delivery.cncf.io/blog/paap-personas/)
