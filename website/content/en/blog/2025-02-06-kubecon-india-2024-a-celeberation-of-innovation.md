@@ -31,7 +31,7 @@ This blog explores the event’s highlights, emphasizing platform engineering tr
 
 #### **Platform Engineering Focus**
 
-<img src="../assets/kubecon-india-2024/cloudera-session.jpg" width=100% />
+<img src="assets/kubecon-india-2024/cloudera-session.jpg" width=100% />
 
 Platform engineering emerged as a central theme, with a spotlight on Internal Developer Platforms (IDPs) and tools like Backstage and Crossplane that abstract Kubernetes complexities. Some of the interesting talks centered around platform engineering were:
 
