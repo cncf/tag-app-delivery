@@ -11,7 +11,7 @@ tags:
 - Community Contribution
 ---
 
-<img src="../assets/kubecon-india-2024/kubecon-india-welcome.jpg" width=100% />
+<img src="assets/kubecon-india-2024/kubecon-india-welcome.jpg" width=100% />
 
 
 The energy at [KubeCon \+ CloudNativeCon India 2024](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/) in Yashobhumi, Delhi was noticeable. This first-ever KubeCon hosted in India marked a significant milestone in the adoption of cloud-native technologies across the region. With over 4,000 professionals gathering on December 11-12, 2024, the event showcased the latest advancements and celebrated the 10th anniversary of Kubernetes, a technology that has transformed modern application development.
@@ -19,7 +19,7 @@ The energy at [KubeCon \+ CloudNativeCon India 2024](https://events.linuxfoundat
 This blog explores the event’s highlights, emphasizing platform engineering trends, keynotes, and actionable insights from breakout sessions and workshops. Whether you're a seasoned Kubernetes expert or just beginning your journey, these takeaways offer valuable guidance for navigating the cloud-native ecosystem.
 
 #### **Kubecon India Highlights**
-<img src="../assets/kubecon-india-2024/chris-keynote.jpg" width=100% />
+<img src="assets/kubecon-india-2024/chris-keynote.jpg" width=100% />
 
 1. [**Welcome and Opening Remarks**](https://www.youtube.com/watch?v=SN252Atn-io&list=PLj6h78yzYM2P0vFbS4o1I0gRHSiXgLiEe&index=76): Chris Aniszczyk, CTO of CNCF, emphasized the growing global significance of cloud-native technologies and announced the formation of the Linux Foundation India chapter, a move aimed at strengthening the local ecosystem.  
 2. [**Flipkart’s Service Mesh Journey**](https://www.youtube.com/watch?v=QCxG8H1F5rc&list=PLj6h78yzYM2P0vFbS4o1I0gRHSiXgLiEe&index=15): I.V. Prasad Reddy and Purushotham Malipedda shared insights into adopting Istio at scale, highlighting challenges, successes, and the transformative impact of service meshes on reliability and scalability.  
