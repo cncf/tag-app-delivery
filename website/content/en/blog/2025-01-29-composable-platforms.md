@@ -88,4 +88,5 @@ As the platform expands to fulfill technical and user needs, each expansion mean
 
 # Conclusion
 
-Composability allows the different personas in an organization to get what they need from a platform without undue investment by stakeholders in areas that are of secondary importance.  This paper has attempted to define what composable platforms are, and how they can help a business to succeed in their goal of deriving the most business value from their investment in cloud native technology.  
+Composability allows the different personas in an organization to get what they need from a platform without undue investment by stakeholders in areas that are of secondary importance, allowing for flexibility and more efficient onboarding.  This paper has attempted to define what composable platforms are, and how they can help a business to succeed in their goal of deriving the most business value from their investment in cloud native technology.  
+
