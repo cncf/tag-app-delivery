@@ -1,0 +1,325 @@
+**Person A**: Okay, great, okay, how long have you been work on platforms?
+
+**Person B**: Since 2021.
+
+**Person A**: 2021, and has that been entirely at your current company or before overall?
+
+**Person B**: No. Overall, I joined my current company at the start of this year. In 2021, I joined the previous, a company operating in roughly 28 countries, and they had roughly three to 400 developers, roughly the same size as my current one. And there, we started with the platform journey.
+
+**Person A**: Got it. And how long has the platform you work on existed in your current company?
+
+**Person B**: It did not exist. We are building the infrastructure platform; it did not exist, so we are now building it.
+
+**Person A**: Okay, great. And are you part of a designated platform team?
+
+**Person B**: Yes, I lead the infrastructure platform team.
+
+**Person A**: Is that the like official title of the team?
+
+**Person B**: Yes, there are multiple platform teams.
+
+**Person A**: Okay, and are there multiple platform teams in the org or is this like the platform initiative?
+
+**Person B**: So we have the previously we had Python platform team and a Java platform team, and now they have been combined into the developer platform team, and we have a security platform team and the ML platform team.
+
+**Person A**: Got it. So now developer, ML and Security are three distinct teams.
+
+**Person B**: Yes.
+
+**Person A**: Okay, and let's see. And what's the size of your team, the third of nots?
+
+**Person B**: My team is we are four right now, three, but again, going to move to four by the end of this year.
+
+**Person A**: Got it? And what are the roles on your team?
+
+**Person B**: So roles are simple. Because the team transitioned from a normal infrastructure team and got segregated into a court team, which is taking care of all the operations and day-to-day stuff, which we transitioned into infrastructure CRE, and we as the infrastructure platform team, so the titles remain the same, just like SRE or you can now call them platform engineers. So senior platform engineers. I have two of them on my team right now. Yeah.
+
+**Person A**: Okay. And do you guys have any kind of product person as part of the team? Product manager, product owner.
+
+**Person B**: Yes, so we have an owner for the whole infrastructure. We have an APO. So my role is to work with him. But he's not the only PO. For just our team. He is the PO for the rest of the two or three other teams as well. So we do have it. He's not dedicated to infra platform, but infrastructure as a whole.
+
+**Person A**: Is this the same person that, kind of works with the security team and the ML team? Like platform as a whole.
+
+**Person B**: No, just infrastructure. So we have the observability team and the storage team, core and platform. So these four teams, but they are all in simple words, they're all devos engineers.
+
+**Person A**: Got it. So just to clarify, your team is separate from the core infra team. So this within these larger groups that you named like this developer Security ML then within that platform INF platform, there's a further breakdown.
+
+**Person B**: So infrastructure is the bigger group. So, within infrastructure group, we have four infrastructure squads or teams. So infra platform, infra security infra sorry, not security is completely separate. So observability, storage, core. So storage is for storage related everything. Observabilities around data, dog blocking, monitoring everything. And core is around our Kubernetes. Kubernetes not from a platform perspective, but just operations maintaining all of the infrastructure. And we as the force is our team platform which is working on building the platform from Stretch.
+
+**Person A**: Got it and.
+
+**Person B**: So the developer platform and ML platform, they are like completely separate in the developer organizations. You can say, okay.
+
+**Person A**: Got it. I mean, and you just touched on this, but how, you know, how is your you know, the way you considered your mandate or the way the other the rest of the organization kind of interfaces with your team? What is its purpose? Or like mandate.
+
+**Person B**: So the mandate is to. R so number one mandate is right now our overarching goal is to decentralize the infrastructure. Right now, it's everything is very centralized, completely controlled by the infrastructure team as a whole. And we are moving it towards a self service approach where we are initially building Terraform modules, which are like a simpler version of Terraform modules which essentially encompasses a complete application. Instead of just giving them five different TERRAPHONE module or ten different TERRAPHONE modules that they can just use and buil their application. But we give them one simple. You can say. Application module which encompasses a general set of things an application would need at our organization and they can simply use that provision it from their own repo instead of a central Rapo where all the infrastructure is maintaining right now.
+
+**Person A**: Got it. And who are your customers?
+
+**Person B**: So, customers are the developer teams, mainly. And some infrastructure teams, as well. The other infrastructure teams. But actually, the main customers are the developers who we should target. I mean, our target is to make it easier, efficient, and scalable for them to provision infrastructure, maintain it, and maintain it as well in the future without depending too much on the infrastructure teams because right now, there's a lot of hassle for anything, any single service. You have eleven different PRs to raise and get approved from different teams to actually get a service life. And in our first iteration, which we are almost about to complete by the end of this quarter, is we'll reduce that to two PRs. Which is only one PR needs to be reviewed by another king.
+
+**Person A**: Okay, and can you describe the last feature or concrete capability that you released to your users?
+
+**Person B**: So that was around CIA tooling for Helmsters. So we introduced essentially some C static testing, integration tests for Helmsters. Our customers were mainly infra core team, which is mainly mostly building the Helm charts that different teams consume. So we have both kinds of Helm charts being produced at the company. There are specific ones or specialized application Helm charts that their teams right on their own, that they use for just for their application. But we, as infra, provide a lot of Helm charts that cater to most of the needs of the developers or services you can say. And. And for around those, it was very hard to test. So we, in the last year, actually had 64 pass releases for just minor fixes. After rolling a Helm tar, then okay, there's a problem. And now release the patch version again to fix it. And in order to stabilize that, we introduced static tests and integration tests for Helmsters and integrated that into our TeamCity build.
+
+**Person A**: And what was the last, let's say more developer-focused capability that you released?
+
+**Person B**: Developer-focused is it hasn't been released. I would say, it's. The initial version was released of this app module that allows you to provision infrastructure for an application. So it. Encompasses, abstracts away all the implementation details of the infrastructure for you. So you just need to call that module, and the full app with the right roles and everything is provisioned for you using that module. And then it is integrated with Spacelift, which is the CI/CD tool we use for our transform. And you, and the teams can simply manage that infrastructure through Spacelift, then.
+
+**Person A**: And did you choose to work on this particular feature amongst like competing priorities? Like, how did you decide that this was the thing you were going to prioritize?
+
+**Person B**: So, it is more of, I would say, in terms of there were other options or in terms of backlog, we had addressing uniform tagging, uniform naming conventions across different types of resources, et cetera, and building disaster recovery for our Terraform or self-service initiative that we are going to move towards. And instead of that, we focused on releasing this first version of self-service where they can use a module. This was targeted to work in the first stage, I think we completed in the first quarter of 2024, which was centered around Datadog. So, all the resources regarding Datadog, the teams can easily manage from their own rep instead of going to a central one.
+
+**Person A**: Got it. I guess what I'm asking is, amongst all the things in your backlog, all the things your team could be working on, how do you make the decision of what to work on?
+
+**Person B**: Yes he.
+
+**Person A**: Like, is there a process for that? Is it, you know, met like the PO? You know, the PO decides what the priority is. Like, where? Where does that come from?
+
+**Person B**: Right, so to be very honest, it's 50/50, and we are moving towards a very quantitative and qualitative process, but to be honest, like it has been 50/50 in the past.
+
+**Person A**: What's the RA behind. Please.
+
+**Person B**: But overall, what we do is, we mainly write down at the start of the year our yearly plan, discussed mainly with the CTOs and the domain leaders. You can say if domain leaders are links of directors in our company, you can say or department heads, discuss high-level goals with them, make sure they're aligned on a business value perspective. And then we share it widely. Our yearly goals, broken down into different quarters with different teams. We have a tech leads meeting, which is essentially for the whole organization. We share it with the whole organization. We don't work in a silo. So, we are completely open about what we were planning to do, and we do it just if we get feedback here. This is not what this is what they need right now. Based on that, we adjust our roadmap plans. Yeah, and so there is some quantitative, and it is feedback-driven, but not optimized as much as we would like to in the future.
+
+**Person A**: Okay, and what does that process look like from, like, when you decide this is, you know, this is the thing we're going to work on? Can you kind of walk me through that process? From, like, picking up a priority? What's the whole process look like to delivery?
+
+**Person B**: Yeah, so once we have the quarterly plan, we obviously work on the quarterly plan. We appreciate that before the quarter. We generally discuss it within infra first and within the whole of infrastructure, get feedback, and then share it with the well-perk teams because, obviously, they are our end customers. We want to have AA; we don't like to share the draft version because then it creates a lot of confusion. So we like to get some feedback internally from the infrastructure team because they are experts in that matter as well. And then we go to the developer teams, get feedback from them, and incorporate it based on that. So once the priority is set, and this is what we are going to work on, then we sit down with the BO, and they write down the initiate initiatives, which are already written, of course, but then we write down the EPEX and the stories that need to be addressed, and yup, pick them all and just try to address them one by one.
+
+**Person A**: Okay. And how do you know if the new capability or, you know, the new feature work you've released is successful?
+
+**Person B**: Yes. Very important question. I would say it; I mean, we do actually go and get feedback from people. It's not mandatory for them to share feedback, but we do actually go and ask for feedback collected. It's not written down in a specific matter for specific features, but we, yeah, on an yearly basis, have a developer experience survey where we have certain questions that, where we can every year have some questions that they want to add. So we add some questions there, so we get actual value from there as well from a survey perspective, which is, yeah, you know, properly quantitative. But at the same time, we directly get feedback in different channels or in an ad hoc sense from different teams on what their experience has been and what could be improved. And based on that, we do create improvement epics for the initiative, just like for the helm charts we delivered. There were some improvements that we got. And we then, for the next quarter, we already scheduled improvements for Helm Chart schooling.
+
+**Person A**: The specifically for the helm charts work. How did feedback come in? Was it like, would the ad hoc kind of conversations with teams?
+
+**Person B**: So for this, it was ad hoc because the developer experience survey runs yearly, right now. So there was no closer cycle for it. So this was more ad hoc. And the audience was smaller. And because it presented the whole company, it was some specific people, some specific teams, sort of roughly five to seven teams which we directly got feedback from and incorporated that.
+
+**Person A**: Got it? Can you walk me through the structure of it? Like, is it you and the PE reaching out to the teams? Is it just a request for them to use it and give feedback? Like.
+
+**Person B**: It's mostly me reaching out to the teams, and with the PO, we can mostly align on. Okay, this is what the feedback is, and this is how we should address it. And then, based on that, we mostly work with the PO. We are doing alignment on planning or priority. You can say.
+
+**Person A**: And when you go and reach out to the teams, can you talk a little bit through how that's structured?
+
+**Person B**: Yup, so it's not really structured to be honest, but generally, how we simply ask: How has your experience been? What do you like about it? What do you not like about it? What could be improved? So we ask these four questions. And based on that, we collect and write our improvement topics.
+
+**Person A**: And it's how does that go out to them? Is it like a questionnaire? And the email, an email.
+
+**Person B**: In a Slack channel. We have collaboration channels with every team, and so we simply send it out there. If needed, we hop on a call with them if there's something to be discussed in detail.
+
+**Person A**: And then, you know, once you get all of that feedback from all of these teams, what do you do with it? Like, you have answers to four questions from many people. How do you make sense of it all?
+
+**Person B**: First of all, we combine it into one document. And then, not always, but we try to. And then, we discuss it internally within the team. So everybody reviews it, we discuss it internally in the team, and then we sit together to write the improvement specifics.
+
+**Person A**: Okay, and let's see where we are, when. So, like, when new work, you know, new features are released, new capabilities go out. How is that communicated out?
+
+**Person B**: Yes, so as mentioned, we, since we are real-time, everybody is aware that this is going to release by the end of this quarter. As soon as there are features to be released, we have specific channels where we make those announcements.  
+So we have the infrastructure channel where we release this, where all the teams are essentially signed up to. In our company, we don't want two emails because the thinking is that nobody reads emails.  
+So we're releasing in those specific channels. There are the infrastructure channel and there's a developer's channel.  
+So we really mention it at both places. And then we have a weekly tech stand-up company-wide, and we post there.  
+So one of us from the team goes there, mostly the PO. And announces the new features that are being released, that have been released, and introduces everybody to that.
+
+**Person A**: Okay, and.
+
+**Person B**: And then we have a Friday weekly update message sent out by the CTO every week, and we post there, so we try to use every place we can find to post.
+
+**Person A**: Okay, got it.
+
+**Person B**: In simple words.
+
+**Person A**: What?  
+So I mean, you touched on a few, just taking a step back. What capabilities does your platform provide? What are the other things that you provide, whether it's internally to infrafolks or to developers?
+
+**Person B**: Yes. So, number one as a service that we maintain is the only thing that we right now maintain is CCA I cir d for Terraform only, so only for infrastructure using Space Lift.  
+So, we are making it simple. We have written a few Terraform modules, and actually, now it's one simple telephone module that everybody can just inject into their overall infrastructure to maintain the state of different stacks across different markets. And that's what we maintain for different teams. Other than that is Helters. And now, actually, building this application module.
+
+**Person A**: Okay, and how can a user access that capability? Or those capabilities?
+
+**Person B**: So, in simple terms, they are all Terraform modules that simply users can use. For telephone modules, we have introduced a release process. And so, everybody's informed about the tank. There's always, you know, proper change logs, upgrade logs, et cetera available for them, and how to use them.  
+So, all documentation. We don't have good examples yet. We do have some examples there right now. The... And that's simply how they can use it.  
+And then, for them, we have since we have collaboration channels with all the teams, they can reach out to us where if they need help in a certain regard.
+
+**Person A**: Got it. And do those dogs live within those specific repos? Or is there something else above that?
+
+**Person B**: So, we no, we so we have them in the repos. And but we mostly try to keep everything component-wise.  
+So, for example, for data, do you were trying to do the similar process. So, for indeedog, we have a document in Confluence where it entails all the steps that you need to do and how to achieve it.
+
+**Person A**: Got it.  
+So is Confluence kind of the starting point for discovery for everything?
+
+**Person B**: Yes, conference is the start points, yes, correct.
+
+**Person A**: And let's see. And I mean, I guess in terms of support for the work that you're doing, it's Confluence. Or are there any other ways that you support developers in, like learning about how to use the latest tools you're providing?
+
+**Person B**: Yes. Starting point is confidence, obviously. But at the same time, we have, our support handles. And so everybody from at least one person from the team is assigned to the support handle, and they can always reach out to us to ask questions. And, since I. But that time is dedicated out from our roadmap.  
+So you would definitely get help there. So it's not something that ad hoc. It's actually dedicated time we have there.
+
+**Person A**: Got it. Have you done. Have you ever done, you know, roadshs or kind of luncheon learns or anything where, you know, workshops?
+
+**Person B**: So we have not previously. But in this quarter, we are actually working on two, different workshops.  
+So we do have demo sessions that we used to, we usually keep doing on a regular basis on new features being developed. Different people can join, but they always had a very small audience in my experience or it was mostly other platform teams and. And we my team feels that we that it's not the right enough audience to that we need to get our message to. And for that we at our at Picnic, we have a tech academy and this worker we have working with them in for introducing workshops related to Terraform and Spacelift where teams can simply use all these features we are building and maintain their building, manage their infrastructure with that.
+
+**Person A**: Got it.
+
+**Person B**: So yeah, so we're working on that, but we don't do it yet.
+
+**Person A**: Got it. Just to clarify, the Tech Academy team is responsible for like, all technology across the org and evangelizing it and supportcoring.
+
+**Person B**: Yes. So no, I wouldn't say they are responsible for evangelizing it, but they are responsible for ensuring the content is there and then, that content leas into onboarding.  
+And then different all teams, you can, yeah, so you can say they make sure that everybody or your intended audience did sign up. Or you actually can get a proper metrics from them, quantitative metrics who joined from which team.  
+So how many people actually did the workshop from different teams?
+
+**Person A**: Got it.  
+So you bring that to fresh.
+
+**Person C**: Yeah, learning. Learning management, I think, is sometimes the term used for it.
+
+**Person A**: Yeah, right, more aronyms.
+
+**Person C**: Yeah, right.
+
+**Person A**: So they keep things fresh and they just capture, you know, who's been exposed to it and. Okay, let's see.
+
+**Person C**: Yes.
+
+**Person A**: Where are we here? Can the user request a new capability from the team?
+
+**Person B**: Yes, so, normally it's reaching out in many the channels where they ask for a certain capability.
+
+**Person A**: What does that look like?
+
+**Person B**: We do we obviously do consider it discuss with the PO. And if it's viable. And actually it does make it to the backlogm.
+
+**Person A**: Got it. How frequently does that happen?  
+Like in terms of incoming requests, would you say.
+
+**Person B**: So, right now, since there haven't been a lot of requests from, you can say, developers, et cetera, which I consider my main customers - the day-to-day normal developer who is working with infrastructure. But there are requests that come in from other infra teams and the developer platform team. For both of these cases, we have a specific channel, and we actually recently introduced that because we saw the restriction that people were asking for some features, and then they were some of them missed out in between.  
+So, now we introduced a process where we created a separate Slack channel where somebody can post about their question or a requirement based on then different people can write based on the discussion. If it is actually something we compile a document, get everybody to get everybody's comments there.  
+So, this is the feature they are requiring. So, with different options, how this can be handled, and if it actually needs to be addressed as a feature from our team, then we once that actually is finalized, discussed with everybody, we close that track there and then create a respective ticket.  
+So, and everybody has, whenever they reach out to us, I mean, over a coffee break or whatever, and then we always request them to hit this post there. Then we have a proper way then to make sure that it doesn't get skipped or missed.
+
+**Person A**: Got it? And, related to that, and something you've touched on before is prioritization. So, there are incoming requests or higher-level priorities that are decided that, you know, value level. You know, what does that planning look like? How frequently does it happen in terms of major initiatives or priorities that you're working on?
+
+**Person B**: I personally evaluate them almost every month to ensure everything is going in accordance with the needs of the users. For example, in this quarter, we originally planned to skip having disaster recovery for Spacelift in place, but instead, we worked towards a smaller migration of a set of repos that we have or a set of infrastructure first.  
+So the idea was to do it in an agile way: first, introduce a version, get some feedback, and based on that, introduce a better version of the first version in the next quarter. And at the same time, I worked on disaster recovery. But at the start of this month, we started getting different questions from mostly the other infrastructure, other platform teams around these naming conventions and the Atlas account structure. And mostly around security in the scope of decentralized infrastructure. And they all became very apparent that this is something that is required first instead of our initial migration.  
+So, I collected all those feature requests and built an adjusted roadmap with highlighting the implications. Okay, these are the features that are being requested. This is the value of these new features. And if we pick them up now and adjust our roadmap, this is what the difference is. For example, we'll have to skip B and C and adopt E and F into the roadmap. And this is what we can do in this.  
+So essentially, sharing an updated version of the roadmap with the directors and the PO, discussing that, and if everybody is aligned, we simply make the move. And in this quarter, we actually did that.
+
+**Person A**: Is this the first time this kind of organic adjustment happened? Or is this... or is this pretty standard in terms of like continuous... creating the roadmap?
+
+**Person B**: I would say on this level, it's the first time because this time it was a very big adjustment. And so we... but we always have smaller adjustments, so we are... we don't stick to... okay, this was our roadmap, and we are not gonna change for the quarter.  
+We adjust if we can.
+
+**Person A**: In the.
+
+**Person B**: We adjust if we can.
+
+**Person C**: Simply before you go on, there are a couple of acronyms used there, EF and no, I heard B.
+
+**Person B**: MZ Just example, so, feature a BCD.
+
+**Person A**: I think that was right. Go ahead.
+
+**Person C**: Okay, got you.
+
+**Person A**: He just dumped farther ahead in the alphabet.
+
+**Person B**: Yeah.
+
+**Person C**: Got it.
+
+**Person A**: So, I mean, related to that, do you use any prioritization framework? Is it like a structured process when you evaluate feature A versus feature B, or like initiative A versus B? Is there some structured way of thinking about how you compare them?  
+So, you mentioned when you adjust the roadmap, you're getting this feedback that this is actually a bigger problem that will be more meaningful to the business if we shift the roadmap a little. And you said, you know, create a justification, get people on board so you can shift the roadmap.  
+So, what did that look like? Like, how did you approach making the case that this was more valuable work? How did you structure it in a way that was, you know, convincing?
+
+**Person B**: Yup. So, in general, it was simply just writing the benefits of these teams. This is what needs to happen first.  
+So, there are two options. So, one option is you release an initial version. You don't have everything figured out. You work in a very agile way. And, but that poses the risk that later on, because you introduce new features, you have new migrations come, smaller migrations coming in.  
+So, you have a lot of support work going on later on in the next quarters. Or versus the other was, okay, so since you will have all those things nailed out in this quarter and the next quarter, you'll just have one migration where you do everything in one go from the start.  
+So, that in this case, it was a simple comparison of, so do we want to do multiple smaller increments again and again on the same type of infrastructure, or do we want to nail all of these things down first and then go towards it? And, timeline-wise, there wasn't even a full quarter of a difference that you would have because of it.
+
+**Person A**: Got it. And when you, you know, when you kind of put this together, do you pair with the PO or bring it up to the PO first? In terms of, like, how this shifts overall priorities, no.
+
+**Person B**: Yeah, I first start discussing it with the team internally. Then, we mostly go back together and discuss it with the PO, and then we'll talk with the domain leaders or directors, which, and then share it with the overall wider community of the adjusted roadmap. And an important thing we do there is.  
+So sometimes there are blocked rock maps on different teams. For example, for migration, we ask the warehouse systems team that will need, let's say, three man-days from you for this migration. We will then inform them, "Okay, because the roadmap is adjusted, we are not going to utilize it this quarter, but next quarter."  
+So they can use their time in this quarter, but still make sure that we explain it in the next quarter, because otherwise, at least in my experience, you get a lot of backlash. We block time, but we wasted it there. And now you are, blah. And so, even for just a couple of PPR, you can get that sometimes, yes.
+
+**Person A**: You mentioned that you do quarterly planning, right? Who's involved in that?  
+You know, who are the people in the room? Who are the people who are kind of needed to be informed or are part of the conversation?
+
+**Person B**: So, it mostly starts with me getting a clear idea of what's done in this quarter, which is not likely to be done.  
+So first of all, writing down the leftovers from this quarter. Likely leftovers from this quarter. Then reviewing what our plan is for the next quarter. The rest of the things are reviewing the backlog of what we could pick. I create an initial draft version, then discuss it with the team in our refinement sessions or one of the planning sessions or something. I just create a new one, new meeting for it, discuss it, and then discuss it with the PO.
+
+**Person A**: Okay, so first it's internal.
+
+**Person B**: And basic.
+
+**Person A**: First, you and the team, you know, make sure we're all on the same page. Then PO.
+
+**Person B**: Yeah.
+
+**Person A**: Align with the larger program. What happened to that with the roadmap?
+
+**Person B**: Then we talk with the domain leaders, which are essentially, you can say the directors. We are of multiple departments.  
+So we talk to our director first, obviously, and we discuss it with him there. We then have a business analyst or are you there, just like POs, you can say, but I think the scope is bigger, but I don't really know – you'll be very honest – but they are everywhere; it's the same guy, but in every meeting. And so he's there, but.  
+And they make sure that things are aligned from a business value perspective and what we are going to work on, if everything makes sense. And from both from a timeline perspective and the features we are going to work on.
+
+**Person A**: Got it. You mentioned the main experts. So it's like what director of infra or director of. Like, who? Who are the folks at that level?
+
+**Person B**: So they are the domain leagues. We have, I think, in total, five domain leagues in the company. So they are technical people, but they... I mean, for example, our domain lead is the domain lead of operations and infrastructure. So overall operations and infrastructure is completely under that.
+
+**Person A**: Got who are the other four?
+
+**Person B**: So one is from the consumer domain, so the consumer entire department. The other is one from the ML division. So he completely checks the ML Leng analytics. ML Leng and analytics are somehow two different things here. I would just put them in analytics, but that's how it is. And I think one other is either warehouse or inbound systems, one of those. So maybe one other, I don't know.
+
+**Person A**: Okay, that makes sense. And you've mentioned that already. Let's see, and then does this roadmap get shared company-wide? Like, is there?  
+Okay, so once it's finally becomes like a document that anybody can access to see what the team's up to.
+
+**Person B**: Yes, correct. So they are actually even from the time it is being discussed with the PO. It is actually in the same online variant.
+
+**Person A**: Okay, sorry. In Confluence.
+
+**Person B**: No, in PowerPoint.
+
+**Person A**: Okay. So it's something anybody can go to if they're curious. Okay. And then we talked about user feedback, so there's the yearly, right, and the yearly is I'm guessing much. Is it technology, organ-focused and like, super broad or what does that look like? It's not. Is it just your team?
+
+**Person B**: To be honest, I haven't been part of that because I just joined at the start of this year and they already had it. So I will learn how exactly it is. But it's mostly alignment with the CTO. From what I've heard, it's mostly the domain leads aligning with the CTO and the POs. I'm not sure if technical teams are involved at that stage or not. Maybe not directly, but I mean, in general, on what we could work on or what we feedback, what the potential things are from the backlog, and then you can say requirements from the business side.
+
+**Person A**: Did you get any visibility so far into like what happens to the outputs of the survey? Like, do you know how it impacts priority or anything else or how it's processed internally?
+
+**Person B**: Yes, so we have a very dedicated developer experienced team, so that we have a dedicated analyst for it.  
+And then other people who are responsible for it, and they make sure to act. So once the service is there, they make sure to share those details with all of the entire organization.  
+So all the techniques and all the pos share it with everyone. Then they share different analytics based off of that survey with everybody.  
+And then they create smaller groups, in which how certain different issues can be addressed so extract in a proper manner. So there's a with a proper process.
+
+**Person A**: Got it. So there's a dedicated, like, DX team.
+
+**Person B**: Yes Debas.
+
+**Person A**: Okay, let's see. Do you have any, kind of team or mean, like...  
+Yeah, like essentially team with metrics that you guys look at in terms of judging the like effectiveness or success of your team.
+
+**Person B**: So we actually started doing, we are moving towards the CD in the last few months. We'd SLOS or SL SLOS, essentially not. I wouldn't say we have specifically have SLS in my team.  
+So SLAs around our CSC D platform for infrastructure, that's this space left was starting monitoring, was we already had monitoring in Prometheus, but it wasn't really with metrics. So we just have something, some dashboards running there, but nobody is actually looking at them. But now we actually defined SLOS on the uptime of our workers. How many jobs are cured in a certain time. How much, for example, how the maximum my job is cued. And, to actually communicate how the platform is performing and based on that adjust our focus. I want to do it similar for the telephone modules and app module that we are trying to introduce. But to be honest, right now, I'm really confused. And to how to effectively measure that.
+
+**Person A**: So this is like a very new conversation about how to measure that when it's focused on developer, like more developer experience.
+
+**Person B**: Yes, for my thing, yes.
+
+**Person A**: And then, you know, what's the significance of these metrics? Like how actionable are they? What decisions or how do you make or, you know, how do you think about them, how do you react to them, how do they impact what you focus on or what you prioritize? The new ones that you've come with?
+
+**Person B**: So the neighbors that we have configured, yes, we definitely act on them. We have alerts configured on them. And for example, if we have, in case it's actually quite simpler because it's you essentially just have a CSC platform, which is, for example, you have workers not performing well or there's too much queue time, you simply have more workers because of the kind of contract we have with [Service Provider]. Enabling auto scaling is not a good metric simply because of billing.
+
+So it's an ongoing discussion internally on if we should just simply go out of scaling. But right now it's pretty well adjusted. So there's only maybe one or two days in the month where you actually have this kind of blockage. And right now, there hasn't really been, other than that alert being triggered, nobody has complained, "Hey, this is actually blocking us." But, yeah, we do take action, so. But if we're just blocking somebody, or for example, there are no workers available, we will immediately act on it.
+
+**Person A**: Got it. I'm just mindful of time. We've actually hit time. Are you having an extra ten minutes to close this out?
+
+**Person B**: Yes.
+
+**Person A**: Yeah, okay, great, thank you. Alright, we're in the tail end here. Do you have visibility into how your team gets funded? Like the funding model for your team, correct?
+
+**Person B**: No, I don't.
+
+**Person A**: And, let's see.
+
+**Person B**: I mean, I know in general how much they are paid, but not anything else.
+
+**Person A**: Okay, you know what? I think actually we're good on that then. 
