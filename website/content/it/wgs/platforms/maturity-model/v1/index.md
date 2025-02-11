@@ -43,17 +43,17 @@ Per avere un contesto completo, si raccomanda di leggere il white paper della CN
 
 ## Come utilizzare questo modello
 
-Con l'aumento dell'importanza del Platform Engineering negli ultimi anni, sono emersi alcuni schemi ricorrenti. Organizzando questi schemi e le nostre osservazioni in un modello progressivo di maturità, miriamo ad orientare i team di piattaforma verso le sfide che potrebbero affrontare e le opportunità da perseguire. Ogni aspetto è descritto da un continuum di caratteristiche dei diversi team e delle organizzazioni ad ogni livello all'interno dell'aspetto. Ci aspettiamo che i lettori si ritrovino nel modello e identifichino opportunità nei livelli adiacenti.
+Con l'aumento dell'importanza del Platform Engineering negli ultimi anni, sono emersi alcuni schemi ricorrenti. Organizzando questi schemi e le nostre osservazioni in un modello progressivo di maturità, miriamo ad orientare i [team di piattaforma](https://tag-app-delivery.cncf.io/wgs/platforms/glossary/#platform-team) verso le sfide che potrebbero affrontare e le opportunità da perseguire. Ogni aspetto è descritto da un continuum di caratteristiche dei diversi team e delle organizzazioni ad ogni livello all'interno dell'aspetto. Ci aspettiamo che i lettori si ritrovino nel modello e identifichino opportunità nei livelli adiacenti.
 
 Da notare che ogni livello aggiuntivo di maturità è accompagnato da maggiori requisiti di finanziamento e tempo delle persone. Pertanto, raggiungere il livello più alto non dovrebbe essere un obiettivo di per sé. Ogni livello descrive qualità che dovrebbero apparire in quella fase. I lettori devono considerare se la loro organizzazione e il loro contesto attuale beneficerebbero di queste qualità, dato l'investimento richiesto.
 
 Tenete presente che ogni aspetto del Maturity Model è destinato ad essere valutato ed evoluto indipendentemente. Tuttavia, come in qualsiasi sistema socio-tecnico questi aspetti sono complessi e interrelati. Così, potreste scoprire che per migliorare in un aspetto dovete raggiungere un livello minimo anche in un altro aspetto.
 
-È inoltre importante riconoscere che le implementazioni delle piattaforme variano da organizzazione a organizzazione. Assicuratevi di valutare lo stato attuale della trasformazione Cloud Native del vostro gruppo. Una risorsa fenomenale da sfruttare per questa valutazione è il Cloud Native Maturity Model (Modello di Maturità Cloud Native).
+È inoltre importante riconoscere che le implementazioni delle piattaforme variano da organizzazione a organizzazione. Assicuratevi di valutare lo stato attuale della trasformazione Cloud Native del vostro gruppo. Una risorsa fenomenale da sfruttare per questa valutazione è il [Cloud Native Maturity Model](https://maturitymodel.cncf.io/) (Modello di Maturità Cloud Native).
 
 Infine, questo modello incoraggia le organizzazioni a maturare la loro disciplina di Platform Engineering e le piattaforme risultanti attraverso una pianificazione intenzionale. Tale pianificazione e disciplina sono di per sé un requisito per lo sviluppo di piattaforme mature e per l'evoluzione continua.
 
-In generale, tenete presente che mappare la vostra organizzazione in un modello ne cattura lo stato attuale per abilitare l'iterazione progressiva e il miglioramento. [Martin Fowler] scrive: "Il vero risultato di una valutazione del modello di maturità non è il livello in cui vi trovate ma l'elenco delle cose su cui lavorare per migliorare. Il vostro livello attuale è semplicemente un pezzo di lavoro intermedio per determinare quell'elenco di competenze da acquisire successivamente." In tale ottica, cercate di ritrovarvi nel modello, per poi identificare opportunità nei livelli adiacenti.
+In generale, tenete presente che mappare la vostra organizzazione in un modello ne cattura lo stato attuale per abilitare l'iterazione progressiva e il miglioramento. [Martin Fowler](https://martinfowler.com/bliki/MaturityModel.html) scrive: "Il vero risultato di una valutazione del modello di maturità non è il livello in cui vi trovate ma l'elenco delle cose su cui lavorare per migliorare. Il vostro livello attuale è semplicemente un pezzo di lavoro intermedio per determinare quell'elenco di competenze da acquisire successivamente." In tale ottica, cercate di ritrovarvi nel modello, per poi identificare opportunità nei livelli adiacenti.
 
 ## Contesto dietro a questo lavoro
 
@@ -78,7 +78,7 @@ Le etichette per ciascun livello hanno lo scopo di riflettere l'impatto del Plat
 
 Questo produce un potenziale processo per lo sviluppo e la maturazione della piattaforma che è simile allo sviluppo di altri prodotti digitali: occorre prima riconoscere un problema e la necessità di una nuova soluzione, poi sviluppare prodotti minimamente validi (MVP) come soluzioni ipotizzate, terzo iterare per risolvere al meglio il problema e assicurarsi che si adatti ai vostri clienti e infine scalare e ottimizzare il prodotto per risolvere il problema per molti team e utenti.
 
-Simile al Modello di Maturità Cloud Native CNCF, questo modello evidenzia che i risultati aziendali di successo possono essere raggiunti solo bilanciando persone, processi e policy insieme alla tecnologia. In particolare, questo modello introduce aspetti che spesso non sono completamente di competenza di un singolo team interno, ma richiedono piuttosto la cooperazione attraverso il dipartimento di ingegneria e molto spesso l'organizzazione più ampia.
+Simile al [Modello di Maturità Cloud Native CNCF](https://maturitymodel.cncf.io/), questo modello evidenzia che i risultati aziendali di successo possono essere raggiunti solo bilanciando persone, processi e policy insieme alla tecnologia. In particolare, questo modello introduce aspetti che spesso non sono completamente di competenza di un singolo team interno, ma richiedono piuttosto la cooperazione attraverso il dipartimento di ingegneria e molto spesso l'organizzazione più ampia.
 
 ### Ma non sembra adattarsi
 
@@ -482,7 +482,7 @@ Non solo vengono sfruttati framework standard, ma c'è la comprensione che misur
 #### Caratteristiche:
 
 * I team di piattaforma cercano continuamente modi per migliorare le metriche che osservano e il modo in cui raccolgono dati. 
-* L'organizzazione è familiare e sensibile alla Legge di Goodhart(: "Quando una misura diventa un obiettivo, smette di essere una buona misura."
+* L'organizzazione è familiare e sensibile alla [Legge di Goodhart](https://en.wikipedia.org/wiki/Goodhart%27s_law): "Quando una misura diventa un obiettivo, smette di essere una buona misura."
 * Le metriche e la telemetria raccolte sono continuamente valutate per un vero insight e valore. 
 * La gestione dei dati metrici è ben supportata, come le capacità standard della piattaforma per gestire data lakes e derivarne insight. 
 * È incoraggiata la collaborazione interdipartimentale per evitare silos di dati e abilitare cicli di feedback efficaci.
@@ -502,4 +502,4 @@ Non solo vengono sfruttati framework standard, ma c'è la comprensione che misur
 
 Le piattaforme e i loro manutentori forniscono una base per lo sviluppo agile di prodotti digitali. Offrono una raccolta coerente di capacità e funzionalità che abilitano lo sviluppo e il rilascio efficienti del software. Questo modello di maturità fornisce una mappa per il vostro viaggio nel Platform Engineering.
 
-Nota di traduzione: Per una migliore comprensione del contesto e al fine di evitare ambiguità, occasionalmente alcuni termini specifici — come platform engineering, developer advocate, build, smoke test, ... — sono stati mantenuti in lingua originale. Si consiglia di fare riferimento al Glossario Cloud Native della CNCF, al Platforms WG Glossary di questo gruppo di lavoro e alla restante letteratura in materia per ogni dubbio e approfondimento.
+Nota di traduzione: Per una migliore comprensione del contesto e al fine di evitare ambiguità, occasionalmente alcuni termini specifici — come platform engineering, developer advocate, build, smoke test, ... — sono stati mantenuti in lingua originale. Si consiglia di fare riferimento al [Glossario Cloud Native](https://glossary.cncf.io/) della CNCF, al [Platforms WG Glossary](https://tag-app-delivery.cncf.io/wgs/platforms/glossary/) di questo gruppo di lavoro e alla restante letteratura in materia per ogni dubbio e approfondimento.
