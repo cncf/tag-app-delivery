@@ -98,9 +98,8 @@ title = "CNCF TAG App Delivery"
 languageName = "Italiano(Italian)"
 contentDir = "content/it"
 weight = 7
-[languages.es.params]
+[languages.it.params]
 description = "Il TAG App Delivery si concentra sull’abilitazione di progetti e iniziative legate al deployment di applicazioni cloud-native, incluse la loro realizzazione, gestione e operatività."
-
 
 [markup]
   [markup.goldmark]
