@@ -1,15 +1,15 @@
 ---
-title: "Modelo de Madurez de Ingeniería de Plataforma"
+title: "Platform Engineering Maturity Model"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-maturity-model/v1/assets/platform-eng-maturity-model-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-maturity-model/README.md
-description: "Este modelo de madurez tiene la intención de brindar una guía táctica a usuarios que buscan adoptar los patrones que se discuten en el artículo Platforms Definition. Dicho artículo sugiere por qué y qué construir mientras que en este documento se comenzará a describir cómo planificar su construcción. La audiencia objetivo son CTOs, Directores de ingeniería, líderes de ingeniería, y arquitectos que buscan evaluar su situación y entorno actual e identificar oportunidades de mejora.<br/><br/>
-Este documento refiere, amplía y sigue estándares similares a los siguientes documentos relacionados:<br/>
+description: "
+Questo modello di maturità ha l’obiettivo di fornire una guida tattica a coloro che desiderano adottare i pattern discussi nell’articolo Platforms Definition. Tale articolo suggerisce il perché e il cosa costruire, mentre in questo documento si inizierà a descrivere come pianificare la costruzione. Il pubblico di riferimento comprende CTO, Direttori di Ingegneria, leader di ingegneria e architetti che vogliono valutare la propria situazione e il contesto attuale, e identificare opportunità di miglioramento.<br/><br/>
+Questo documento fa riferimento, amplia e segue standard simili ai seguenti documenti correlati:<br/>
 [Cloud Maturity Model](https://maturitymodel.cncf.io/)<br/>
 [Platforms Definition White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)"
 type: whitepapers
 url: whitepapers/platform-eng-maturity-model
 ---
-
 
 <script>
 window.onhashchange = function() {
