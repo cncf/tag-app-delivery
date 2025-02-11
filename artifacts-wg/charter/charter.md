@@ -39,6 +39,6 @@ The working group intends to carry out (but is not limited to) the following:
 * Demonstrate via prototypes the use of published schemas to facilitate query and analysis of bundles and content.
 
 [1]: https://artifacthub.io/docs/topics/repositories/
-[2]: https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.mdp-delivery.md#areas-considered-in-scope
+[2]: https://github.com/cncf/toc/blob/main/tags/tag-charters/app-delivery.md#areas-considered-in-scope
 [3]: https://artifacthub.io/docs/topics/repositories/
 [4]: https://knative.dev/docs/concepts/duck-typing/ 

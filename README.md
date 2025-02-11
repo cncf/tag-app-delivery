@@ -16,24 +16,24 @@ Full charter here: <https://github.com/cncf/toc/blob/main/tags/tag-charters/app-
 
 ## Meetings
 
-Every two weeks on Wednesday at 16:00 UTC ([convert to your local
-time](https://dateful.com/convert/utc?t=16)).
+Every two weeks on Wednesday at 11:00 ET ([convert to your local
+time](https://dateful.com/convert/eastern-time-et?t=11)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
 
 * Agenda and Notes: <https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#>
-* Zoom Meeting: <https://zoom.us/j/7276783015>
-    * Passcode: 77777
+* Zoom Meeting: <https://zoom-lfx.platform.linuxfoundation.org/meeting/98590236563?password=b0335b64-4162-4499-bb61-ff2c7dec2724>
 * Recordings of previous meetings:
     * <https://www.youtube.com/playlist?list=PLjNzvzqUSpxJ0JfD6vrdF5bsuBaJQ2BRT>
     * Prior to April 2021: <https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci>
 
 ## Leads
 
-- Lian Li (@lianmakesthings) (Co-Chair, Term: 2024/04/16 - 2026/04/15)2
-- Thomas Schuetz (@thschue) (Co-Chair, Term: 2023/08/30 - 2025/08/29)
-- Roberth Strand (@roberthstrand) (TL)
+- Lian Li (@lianmakesthings) (Co-Chair, Term: 2024/04/16 - 2026/04/15)
+- Roberth Strand (@roberthstrand) (Co-Chair, Term: 2024/08/05 - 2026/08/04)
+- Sarah Christoff (@schristoff) (TL)
+- Dylan Page (@genpage) (TL)
 
 ## TOC Liaisons
 - Katie Gamanji (@kgamanji)
@@ -46,6 +46,7 @@ as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-deliv
 - Alex Jones (@AlexsJones)
 - Josh Gavant (@joshgav)
 - Karena Angell (@angellk)
+- Thomas Schuetz (@thschue)
 
 ## Working Groups
 
@@ -59,3 +60,4 @@ The TAG has created the following working groups to investigate and discuss the 
 | [Operator](https://github.com/cncf/tag-app-delivery/tree/main/operator-wg)     |                                                                        | Inactive                                                             |
 | [Artifacts](artifacts-wg/README.md)                                            | [artifacts-wg/README.md#chairs](./artifacts-wg/README.md#chairs)       | [artifacts-wg/README.md#meetings](./artifacts-wg/README.md#meetings) |
 | [App Development](app-development-wg/README.md)                                | [app-development-wg/README.md#chairs](./app-development-wg/README.md#chairs) | [app-development-wg/README.md#meetings](./app-development-wg/README.md#meetings) |
+| [Infrastructure Lifecycle](infra-lifecycle-wg/README.md)                       | [infra-lifecycle-wg/README.md#chairs](./infra-lifecycle-wg/README.md#chairs) | [infra-lifecycle-wg/README.md#meetings](./infra-lifecycle-wg/README.md#meetings) |
