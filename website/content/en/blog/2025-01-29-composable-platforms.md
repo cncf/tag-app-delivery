@@ -26,7 +26,7 @@ Fig 1. [Platform Capabilities](https://tag-app-delivery.cncf.io/whitepapers/plat
 
 It’s worth noting that this loose coupling does not preclude the benefits of interoperable components. While capabilities such as build and test, as well as artifact storage may be consumed separately, a composable platform can still provide benefits for those consumers who wish to use the two together, such as automatic image signing and SBOM generation. 
 
-A key concept in building platforms is the persona.  For this paper, we refer to a persona as a group of stakeholders within a platform.
+A key concept in building platforms is the persona. We refer to a persona as a group of stakeholders within a platform.
 Note that a persona is not the same as a role, and is intended to apply to different roles in team topologies. Some individuals will fit into one or more persona - especially in smaller organizations where team members are expected to wear multiple hats. 
 
 
@@ -88,4 +88,4 @@ As the platform expands to fulfill technical and user needs, each expansion mean
 
 # Conclusion
 
-Composability allows the different personas in an organization to get what they need from a platform without undue investment by stakeholders in areas that are of secondary importance, allowing for flexibility and more efficient onboarding.  This paper has attempted to define what composable platforms are, and how they can help a business to succeed in their goal of deriving the most business value from their investment in cloud native technology.  
+Composability allows the different personas in an organization to get what they need from a platform without undue investment by stakeholders in areas that are of secondary importance, allowing for flexibility and more efficient onboarding.  We discussed what composable platforms are, and how they can help a business to succeed in their goal of deriving the most business value from their investment in cloud native technology.  
