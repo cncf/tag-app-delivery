@@ -1,0 +1,147 @@
+Role: DevOps Platform Architect
+Company Size: >10.000
+
+Transcript
+**Person A**: How long have you been working on platforms?
+
+**Person B**: Since around 2012.
+
+**Person A**: How long has the platform you work on existed?
+
+**Person B**: Since 2016 - so 8 years
+
+**Person A**: Are you part of a designated platform team? 
+
+**Person B**: No, it’s not a platform. We call our internal product a platform, obviously because it’s what we want. The Team has the keyword platform in it. But we have not yet reached inside the organization the understanding what a platform is. Even if we share that - there is not really, at our level a platform team. 
+
+**Person A**: So do you generally have no platform team? 
+
+**Person B**: We have teams that you can assimilate as a platform team, but it’s not always the scope that is given to them. They are more a solution team that work on a specific topic that would really fit in that platform work. But today they are not seen as a platform. They are still seen as multiple teams working on different subjects and we are still lacking the understanding that all these teams should work together to build an integrated platform together. We are lacking these quite [inaudible] in fact in order to ensure that all the development, all the features, all the evolution are done collectively toward the vision of the common platform. Even if at the level of the Architects and Developers we are still aligned on that vision, on the top management they are still lacking that understanding.
+And why are they lacking that? That’s quite easy, it’s so huge and transversal that it requires the whole organization to change basically their practices and mindset in order to allow that work to happen, that shared vision to happen. Today our organization, you can see it as multiple independent business units, each with their own goal and their own budget and even if we have some transversal organization you need - even they are not able to drive the traction on that global vision on platform or setup of a platform that we should create. 
+So it will come, but it’s more a bottom up approach instead of a top down. 
+
+**Person A**: What is the name of your team within the org?
+
+**Person B**: It’s CI/CD and DevOps Platform.
+
+**Person A**: How is the platform defined in your organization? 
+
+**Person B**: Our purpose is basically to offer to our customer an integrated product from where they can benefit of all the features we have already worked together, so they will automatically get the most of them. Previously we had silos. We had for instance the SCM team, the CI Team, the CD Team, the Releasing Team and they were working in completely isolated mode. Each with its own topic, but no one willing to bridge all these independent features into a single pipeline. And even today it’s quite difficult if I go to the SRE and Operation Team saying them that basically they should not only consider the panel part of the product, so when they deploy either in test or in production, but they are part of the concrete pipeline. And whatever they are doing or they are requesting or they are willing to change, this should start at the beginning of the lifecycle by creating inside the product landscape some real feature request or some improvement request. And this is the one that we pulled little by little to the end of the product. So that mainly for the SRE that are attached to a product. We have obviously platform SREs, but again as I was saying you, we used to have siloed teams - SCM, CI Team, we still have these teams, they are now DevOps Teams themselves, so they have developers, QA, SRE, within the team, but it’s quite difficult for me, because I work on the sole platform to get traction to have SRE and to have people working on this platform and then on the platform as a product. Because it’s where they will deliver the final value. 
+Today it is more like I was telling you we are more in a bottom up approach where we are trying to bring everything together. Rather than having from a top-down vision, where it would be much easier for us to have the support from the management during that direction. 
+
+**Person A**: Who are your customers? 
+
+**Person B**: The main one is engineering groups, so the engineering team. But as well as some of our external customers. They are using the platform directly in order to have the ability to come up with [inaudible] we are deploying for them. We also have some code development capabilities where our internal developers are working with some developers coming from an external customer and we are welcoming them on our platform. 
+Again the idea remain to have a single solution where any developer can work together wherever they are coming from. 
+
+**Person A**: Describe the last feature or capability that you released to your users.
+
+**Person B**: The last thing we released is something that is a non-functional feature. It is the ability to have the full services of the platform operated and running from a specific location from where they can access the different parts of the landscape. Which makes them capable of, from this platform, having access and automating all what they were doing by hand. So this CI/CD today they can from the CI landscape deploy some version of the application of some temporary or ephemeral environment and then validate it and later deploy that on the open environment. This initially was two completely separated world. We had the development world on the one side, we had the different instances of the different environments on the other side. But the developer they had first to go through some first release to be able to test some things. So we did the bridge in order to shorten the development lifecycle. So the developer they can immediately test in a look-a-like production environment what they are building. 
+And that look-a-like production environment comes also with a set of release security constraints that makes the developer able to operate the instance of the application as an SRE would do. So they have access to the OpenShift Console, they have permission to restart the pod if needed. They are basically the SRE of that application on that ephemeral environment. So they have full access, they can track down to any issue they couldn’t counter.
+
+**Person A**: So it’s like a temporary development environment, so to say? 
+
+**Person B**: It’s not for development, it’s release and run the application. The temporary development environment is something that we’re working on but not yet released. It’s what we call the development box. There are [inaudible] what gitops is providing. You have the ability to describe with some configuration file the dependency you expect to have in your environment. You can share it between the different member of the team or between the different teams. And this is also [inaudible] for our internal inner open source capabilities. 
+That is also something that, working on this platform, we have started from the beginning. So it was a push from my side. When we were building the platform initially I wanted to have all the components of the platform ready for inner source contribution. So it’s like open source contributions. Meaning any team inside the company is able to propose changes. We have a contribution guide exactly the same way you can find on an open source project. And this approach helped us in two dimensions. The first one is that when we were building the platform we were asked to focus on a subset of the engineering groups that we had. Some specific tech stack. And some other developers from the other technical stack, they were some more frustrated not to be part of this pilot. And because we released the platform, the contribution to the platform in an inner source they were able to jump in, participate in the development of the platform, work on their own need and at the end that specific group was able to complete its migration to that platform before the pilot. And it was also very useful for us because we were working closely with them. They were able to report us any issue, any wish they would have for the platform. And then we were able to talk to them, whether it is something we could come up with on our side or whether it is something that they would have to do in an open source manner and that would end up at the end in the platform. 
+
+**Person A**: That was also the case for the feature you just talked about? 
+
+**Person B**: Yes, that collaborative contribution. The platform group, or team, or division, the people that are working on the platform, we are very few in terms of people. Again that’s the bottom up approach. We get the budget for the capability that are inside the platform for the SCM or the CI, but if you look at it from a true role that is allocated for this platform that is not many. 
+
+**Person A**: Why did you choose to deliver this capability? 
+
+**Person B**: Because that’s one of the parts of the platform that was missing. And it’s one that was seen as bringing the most value once they have heard, versus some other features that is still in the backlog. 
+
+**Person A**: Can you walk me through the process of working on this capability, from deciding to work on it to delivery? 
+
+**Person B**: That’s very similar to any product capability. We are seeing the platform as a product. Okay that is the title of the meeting obviously. But that’s really the way we do that. We start either with an idea or with some requirement coming from an engineering group. We refine that idea in terms of vision, whether this fit into the vision of the platform or if it is something that is a nice to have. Is a core feature or is it a nice to have? We try to address in our process the urgency of the request, regarding all the other requests that we have, whether if it’s something that can be done in an inner source approach or not, again depending on different priorities that come to the different teams that would be impacted. Then we have basically an architecture meeting or decision to draft basically an achievable solution on the platform, on the capability, come with the technical landscape to different technical capabilities, functional one, the observability, do you want to have specific metric on that particular capability, together also have a kind of showcasing, yes we have validated that feature request as a priority and see now we have x percent of our company using it. So we have KPIs. We not always have KPIs with many metrics, but from time to time we receive the KPIs, on that the typical KPIs that you can find in any other company, the time to market for instance. That is also one of the work we are doing at the devops platform, is to ensure we have all the data model between the different components that help anyone that is willing to understand. When we get a business request coming from the sales part of the company, this is recorded as somewhere in some document, it has a correlation ID that we can correlate to the different step and the different component within the platform in order at the end to understand when was it initially requested and when we were able to deliver first in production that particular feature.
+That and another I would say not difficult but time consuming activity to build that data model, because again, no one today is really entitled to do that. That’s a nice to have for the observability. When the top management has it they are quite happy with it, but before having it, it is quite difficult go to them, saying them we want to build that new observability metric, what will be the benefit for them to observe, there is also from time to time some reluctance, because it means also that you can see the velocity of a team. And some teams are not quite happy with that. So it’s not always a technical discussion. It also involves some discussion, because we are also working with our german colleagues, they are very, very strict on anonymisation of the data, for the management to not be able to do finger pointing later. So on one side personally I think it’s very interesting to have all these metrics, but I can also understand their concern. And those are the discussions that can take ages. 
+
+**Person A**: How did you know if the new capability was successful?
+
+**Person B**: We have a lot of metrics. We don’t have KPIs today. So indicators that are monitored. We know that for instance we have almost 90% of the engineering group in the company that are using our platform. There is also that for the success. There is also some interesting KPI on the efficiency. Not the efficiency of the platform but the efficiency of the different teams and product. In terms of how many builds are they running, when they are creating a new feature. So all of the CPU cycle, how many time it’s done, “wasting” the platform resources rather than for instance during the CI check, during the developer lifecycle. There is this kind of metric, that today are not used enough if you want my personal opinion. Because as I have access to all these metrics, I can tell you that we have lots of waste in CPU cycle, because people rather than looking at their code they just push a commit and wait for the CI build and most of the time you have a missing comma, that make the compilation to fail. So this is some things that normally a code editor would show you, but we have still people that will push some changes without running locally this kind of change. So this is a metric that we are looking at. And with the new FinOps trends that we have in our company I really want this metric to be able to be a northstar metric of the platform to reduce the cost, reduce the burden on the SRE team because just to give you an idea, today we are running 60.000 builds a day. Regarding our number of developers that means 5 builds per developer per day. I’m quite sure that we can reduce this. So in order to decrease the size of the hardware but also in order to have less SRE, less QA spending time in trying to ensure that we have a platform that can scale way larger that what it should. And rather than vetting these resources this person could work on either a new feature, rather to maintain the platform. This is a kind of discussion I hope to have at some point in time. And for that the first thing is for us to have all the metrics then to have these metric reported inside the new finops dashboard that is coming and then I hope this will trigger some question at the top management and then they will be able to cascade back to us asking some evolution. 
+
+**Person A**: so far until now you have no automatically collected metrics yet?
+
+**Person B**: We have some metrics that are automatically collected. But they are not yet part of this finops dashboard. They are inside Grafana, inside some dashboards, you have between each metric some estimated cost in euro most of the time. But what we are missing is a key kind of a way to have a computed kind of standard aviation for a team of a certain size working in a certain product whether they are between the range or they are already on top of what they should consume. The day we have that we would be able to easily show that there is some deviation and we should be able to work on that. 
+And one of the reason we are also in this situation is that in the beginning the platform and service of the platform, one of the core idea was to have them in self-service. So basically we forgo the same approach as the cloud provider, except today we are not asking for any credit card. So people consider they can consume whatever they want and that’s one of the reason why today on of my main concern is really to be able not to do again a finger pointing, but to return metrics and to have a way for the owner of this whole services, when they are consuming, to understand whether they are within the normal usage of the platform or not. 
+
+**Person A**: Do you communicate the release of new capabilities and platform changes to users?
+
+**Person B**: Yes, communicate, but we are not using it when we usually release a new version or a new capability and we advocate them. We inform them at the end but not in between. 
+
+**Person A**: What channel do you usually use?
+
+**Person B**: Today what we have what we call a support portal, where whoever is interested in information about one of the components of the platform they are able to subscribe to a kind of mailing list. And it’s where we are running all the information regarding that particular component. If we have issues, or not, what we are going to do, if we have an upcoming change, that’s our main channel with our internal communities. So it’s a broadcast.
+Again if you have thousands of people in front of you it’s not always easy. So this still remains the main way for us, to broadcast information. And now that we are on teams [MS Teams] we have also dedicated channels. One for the platform itself and one per component. And here it’s very open for all. We advertise and also people come and ask questions.
+We have a lot of community of practice. And one is a DevOps Community. And this is also a way to centralize all the information that the DevOps community can also be interested in. 
+
+**Person A**: What other capabilities does your platform provide? (Note: talked about the provisioning of runtime environment, CI/CD and observability as core capabilities of their platform)
+
+**Person B**: The platform itself is basically agnostic and generic. You have the self-service capability. The platform is extensible. Meaning that whether is we need to rug a new component that would make sense inside the platform - I give you an example: the security scanners is something that was one of the main features that was added. And what I wanted to have at the time - so that was two years ago - I told the security offices that this is fine, that’s a good idea but I would like you to do it as contributor of the platform. I don’t want a new team to be set and to form and do it like a product, I want it to do it as a platform and as an extensible platform. So they came and in fact what they did, they build the different module and the different services. So they are still owner of the module and different services and they are the one maintaining it. Because they can make this different module the way they want. 
+They have in the - today we will call that developer portal - it’s where whoever is accessing the platform is going to connect to, that’s the portal. And they have added there in fact that security scanner capability into that portal, just by discussing once with the portal team showing them what they wanted to create with the new module. And this was done completely outside of the core platform team. We discussed, but once we agreed where the integration point, where and how to integrate, they were able to do that on their own and that’s again what I mentioned earlier regarding the engineering groups that was able to work on their own need by themselves, that’s really one of the core decisions that I forced into the platform that the platform is open. 
+
+**Person A**: How can a user access platform capabilities? 
+
+**Person B**: The way the platform is built is that each component, each service is only available, only consumable by the end user, the portal is here to activate when they need the self-service capabilities. Also for the owner for the services, for the instance of the services the different statuses of his services and to manage the full lifecycle. Also I mention it quickly. When someone creates a resource, they should also be able to delete that resource when that resource is no longer needed. That’s also something that was and is still important and we are still working on, the decommission of unused resources is also something that requires still a lot of work to understand what is still needed and what’s not. 
+In terms of CI and in terms of different product or the security scanners or the reports, we see what we need today is to have clear lifecycle for everything, for instance today it’s quite difficult to know if a source code is still linked to something that is running in production. Even if we have that data model, there is no portal, not yet, that would be able to tell you this particular git repository is linked to nothing in production, should we keep it, update it, delete it? We are not able to do that today. That’s also one of the work that I would like us to work on. 
+
+**Person A**: Do you provide support for using the platform? 
+
+**Person B**: It is requested for our user to go through that support portal, simply to be sure that the ticket that will be created will be tagged accordingly and redirected to the right team. Obviously we are on teams, people know us, so you can be sure that first thing they do is to open a 1on1 chat with us and say “hey something is not working, please fix it”. And that’s also something I ask a lot the people on the platform to kindly ask them to open a ticket, because a ticket can track the activities and we have also the ability to categorize them, whether the ticket is a real issue or the ticket is a user error and I can tell you that we have a lot of user error. 
+
+**Person A**: Do you also have self-service support like docs, demos, etc.?
+
+**Person B**: Yes, you cannot provide self-service without having the documentation, without having the observability part I was telling you. There is a documentation per component, per service, and there is the end-to-end platform documentation that address the specific part of the platform. For instance one of the specific part of the platform is the transversal rbac model. Meaning when you are part of the devops team that you are a developer that you have created a product inside the devops portal that represent this product and this team. As developer you are entitled to open pull requests, to view the log of some jenkins build but perhaps not to deploy in production. As an SRE you have different ability, it’s more read only on the dev repositories, while the CD repository as an SRE you have usually access on read/write. That’s the kind of transversal integration that make in fact the platform useful for everybody.
+And the organisation has created different roles, they have created the SRE role and they need to be able to work with the developer. They need to be able to work together, potentially for the SRE to share some test or even some production log to together with the developer work on some issues. 
+
+**Person A**: Can a user request a new capability?
+
+**Person B**: Yes. 
+
+**Person A**: How do you set your team's priorities? 
+
+**Person B**: It’s not me that's doing that. It’s really coming from the organization objective and it’s most of the time a discussion between directors on who’s willing to accept external requests that are not in their main focus but still waiting. 
+So on my side I can prioritize regarding what the value and time to deliver, if it’s an easy feature to implement, or again what I try to do is to move it into an inner source approach. Except for very complicated requests that involve for instance multiple components in the later platform, the different engineering groups are quite eager to go into this inner source model, because they gain some knowledge, they are able to have access to the senior developer of the team, so they can exchange with them and it’s really a win/win situation. 
+They come with a request and we help them shaping up their code and they can concentrate on logic on their code and then it’s embedded later in the component. 
+We have a backlog and there is a meeting between the directors and project managers that try to organize that backlog. 
+
+**Person A**: Who’s involved in shaping priorities?
+
+**Person B**: Directors and project managers 
+
+**Person A**: How often do you revisit your priorities?
+
+**Person B**: It’s a quartal PI, so every 3 months. 
+
+**Person A**: How would another team or a platform user know what you're working on?
+
+**Person B**: It’s a Jira Board. Every request is a Jira Ticket. There is a ongoing, planned, backlog. We are using the SAFe Framework for everything today. Even if the devops platform is not 100% one single train, we are across multiple train, we have one board that is across those trains. 
+
+**Person A**: Do you collect feedback from platform users?
+
+**Person B**: Yes, there is a user groups, that are there. There is a user group per component and a global user group for the whole platform. And this group they have different pace. For the whole platform we meet once a month. And what we call the reference implementation, so basically the walkthrough that are driving the lifecycle of the application, they have the frequency of every two weeks. 
+
+**Person A**: When was the last time?
+
+**Person B**: Usually it is monthly, but last time was in july, because in august in our organization most people are off.
+
+**Person A**: What form did the feedback take? 
+
+**Person B**: The form of feedback is through the internal user groups. That’s where people are more verbose. What we are seeing is that receiving an email, generally people try to keep it short, not to be too negative or too positive. What we have seen during the user group, especially when we are not recording the session, people are more verbose. 
+
+**Person A**: What did you do with the collected feedback? 
+We take the meeting minutes and we ask people to validate the minutes and based on these minutes we either create a new ticket in the backlog or we create a follow up meeting with that person. 
+
+**Person A**: How does your team get funded?
+
+**Person B**: We get money through the services. So each team is there to provide a service and what I try to do is to allocate a percentage of this budget to make them work platform related subjects. What I was telling you, the creation of the rbac model, once we had that model, each of the component had to come up and map the permission on the groups for particular item in there. So this is the way we do it. But again the released platform today is not something that is tangible in terms of vision, budget, coming from the top management. So it’s me, trying to get some work done, specifically for the platform. The only one that is funded for the platform that’s me, because i have the transversal role through all the components.  
+
+**Person A**: Do you have executive sponsors? 
+
+**Person B**: Not the platform, but the different services. Because the services are not linked to one single director. But on my side it would be going to different directors and telling them their budget would be used for another director. And that today does not really work. I really hope that in the coming years we get some maturity and really understand we are building platforms, because we are already building platforms, but today there are only notions but today if you go and see the director of operations and ask him he will tell you he has nothing to do with the CI, except that the operation, they are doing infrastructure as code, so they are also using the CI. But it’s called infrastructure as code. 
+
+
+**Person A**: Why do these sponsors support the platform? 
+
+**Person B**: They should normally understand that the platform is here for the company globally and what they are working and doing is globally for the whole organization. But the directors have objectives. They focus on their objectives. If there is a notion of platform is coming into that set of objectives they will support it. But until then it’s not the case. And again perhaps, if one day we have one single director that will be accountable for all the services of the platform, we could consider him or her as a sponsor, because he basically everything will be under that scope and it will be easy to convince that notion of platform is important, but today that’s really the decoupling that we have from the vision of engineering of what we need and what we want to build because I’m part of this transversal group to support our users and our customers and the objective coming from the top management. But I have great hope that it will change. 
