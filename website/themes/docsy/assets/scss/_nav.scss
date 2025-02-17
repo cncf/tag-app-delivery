@@ -96,3 +96,39 @@
         }
     }
 }
+
+@media print {
+    /* Hide the navbar during printing */
+    .navbar, .nav-tabs {
+      display: none !important;
+    }
+  
+    /* Ensure the tab content is visible and starts from the top */
+    .tab-content > .tab-pane {
+      display: block !important;  /* Ensure all tab content is shown */
+      opacity: 1 !important;
+      visibility: visible !important;
+      margin-top: 20px; /* Space between the tab heading and content */
+    }
+  
+    /* Display the tab name (from data-heading) as a heading before content */
+    .tab-content > .tab-pane::before {
+      content: attr(data-heading); /* Use the tab name from data-heading */
+      font-size: 24px;
+      font-weight: bold;
+      color: $nav-tabs-link-active-color;
+      background-color: $nav-tabs-link-active-bg;
+      display: block;  /* Ensure the tab name is above the content */
+    }
+  
+    /* Ensure that the content of the active tab is displayed properly */
+    .tab-content {
+      display: block !important;
+      padding: 15px !important;
+    }
+  
+    /* Hide unnecessary elements during printing */
+    .no-print, .footer {
+      display: none !important;
+    }
+  }
