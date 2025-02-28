@@ -1,24 +1,73 @@
 <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-
         {{ $tabTotal := .Get "tabTotal" }}
         {{ $tabRightAlign := .Get "tabRightAlign" }}
         {{ $tabName := .Scratch.Get "tabName" }}
         {{ $tabID := .Scratch.Get "tabID" }}
 
         {{ range $i, $sequence := (seq $tabTotal) }}
-
         <a class="nav-item nav-link {{ if eq $i 0 }} active {{ end }}{{ if in $tabRightAlign (add 1 $i) }} ml-auto {{ end }}"
-            id="nav-{{ (index $tabID $i) }}" data-toggle="tab" href="#{{ (index $tabID $i) }}" role="tab"
-            aria-controls="nav-home" aria-selected="true">{{ (replaceRE "(\\s)" "" (index $tabName $i)) }}</a>
-
+            id="{{ (index $tabID $i) }}-tab" data-toggle="tab" href="#{{ (index $tabID $i) }}" role="tab"
+            aria-controls="{{ (index $tabID $i) }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">{{ (replaceRE "(\\s)" "" (index $tabName $i)) }}</a>
         {{ end }}
-
     </div>
 </nav>
 
 <div class="tab-content" id="nav-tab-content">
-
     {{ .Inner }}
-
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.nav-link');
+    const tabContent = document.querySelectorAll('.tab-pane');
+
+    // Function to activate a tab by its href
+    const activateTab = (hash) => {
+        const activeTab = document.querySelector(`.nav-link[href="${hash}"]`);
+        const targetTab = document.querySelector(hash);
+        if (activeTab && targetTab) {
+            tabs.forEach(tab => tab.classList.remove('active'));
+            tabContent.forEach(tab => tab.classList.remove('show', 'active'));
+
+            activeTab.classList.add('active');
+            targetTab.classList.add('show', 'active');
+            setTimeout(() => {
+                targetTab.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+    };
+
+    // Handle tab click
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function(event) {
+            event.preventDefault();
+            const hash = this.getAttribute('href');
+            history.pushState(null, null, hash);
+            activateTab(hash);
+            sessionStorage.setItem('activeTab', hash);
+        });
+    });
+
+    // Activate the tab based on the URL hash or stored session state
+    const hash = window.location.hash;
+    const sessionTab = sessionStorage.getItem('activeTab');
+    if (hash && document.querySelector(hash)) {
+        activateTab(hash);
+    } else if (sessionTab && document.querySelector(sessionTab)) {
+        activateTab(sessionTab);
+    } else {
+        // Fallback to activate the first tab if neither hash nor sessionTab is available
+        activateTab(tabs[0].getAttribute('href'));
+    }
+
+    // Store active tab in session storage on tab click
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const hash = this.getAttribute('href');
+            sessionStorage.setItem('activeTab', hash);
+        });
+    });
+});
+</script>
+
