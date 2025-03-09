@@ -80,7 +80,7 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Graduated |
 | Website                         | [cloudevents.io](http://cloudevents.io) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | Each event system typically has its own unique message format, making interoperability and integration between services complex and time-consuming. CloudEvents addresses this by providing a standardized, unified format for event data, Developers can use to simplify communication accross services. |
 | How is the project best described? | Specification |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | As part of their workflow - Fundamental |
@@ -95,13 +95,13 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Incubating |
 | Website                         | [nats.io](https://nats.io) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | Developers can use NATS to exchange and store data securely, across a combination of clouds, environments, web, and (edge) devices.  |
 | How is the project best described? | Project |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | As part of their workflow - Fundamental |
 | How does this tool help/improve developer productivity? | Provides a resilient and performance oriented mechanism to exchange data across applications.<br><br> Distributed applications, including edge applications, need to exchange data. Developers need to understand how to connect and exchange messages using SDKs provided for all major programming languages. |
 | Which cloud-native principles and good practices does this project promote? | Distributed, resilient, and scalable messaging system. |
-| When and why did a developer learn about this tool/project/spec? | _TODO_ |
+| When and why did a developer learn about this tool/project/spec? | Teams facing the challenge of secure data distribution and storage across multiple different end-locations and/or applications.  |
 | Does this tool help other teams/roles to collaborate with developers? | Yes. NATS can help teams write applications using different programming languages to standardize how data is exchanged across systems. |
 
 ### OpenFeature
@@ -110,7 +110,7 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Incubating |
 | Website                         | [openfeature.dev](https://openfeature.dev) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | FeatureFlagging is important in the modern age of software development and micro serivces. Typically, this can either be homegrown or code wise done through a vendor lock in. OpenFeature offers away to abstract is, to that Developers can still swap the backend behind.|
 | How is the project best described? | Tool, SDK, Library |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | As part of their workflow - Fundamental |
@@ -140,11 +140,11 @@ This section outlines a framework for classifying tools relevant to cloud-native
 | ------------------------------- | ----------------------------- |
 | Status                          | CNCF Incubating |
 | Website                         | [grpc.io](https://grpc.io) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | Developers often face challenges like inconsistent communication protocols, manual serialization/deserialization, and difficulty maintaining cross-language compatibility when using in a microservice environment.  |
 | How is the project best described? | Project, SDK |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding |
 | How often does a developer use this tool? | As part of their daily workflow - Fundamental. Using gRPC, developers can create efficient service-to-service communications by leveraging bidirectional communications using HTTP 2.0. |
-| How does this tool help/improve developer productivity? | _TODO_ |
+| How does this tool help/improve developer productivity? | gRPC improves producitivty by offering a simple framework with automatic code generation and fast data serialization using Protocol Buffers. This helps across different languages, reduces repetitive code, improves performance, and simplifies integration, making development faster and easier.  |
 | Which cloud-native principles and good practices does this project promote? | The use of common data structures, protocols, and architectural patterns to make our applications more observable, covering logs, traces, and metrics. |
 | When and why did a developer learn about this tool/project/spec? | Teams building high-performing applications might need bidirectional communications across their services. For example, if sending HTTP 1.0 requests becomes a bottleneck, developers might look into using the gRPC SDKs provided for all major programming languages. |
 | Does this tool help other teams/roles to collaborate with developers? | Yes. Using gRPC helps teams connect services using a highly optimized protocol for RPC (Remote procedure calls) between services. Teams writing applications using different programming languages can connect applications reliably by sharing service interfaces to generate clients from a wide range of programming languages. |
@@ -183,9 +183,9 @@ This section outlines a framework for classifying tools relevant to cloud-native
 
 | Property                        | Description                   |
 | ------------------------------- | ----------------------------- |
-| Status                          | CNCF Incubating |
+| Status                          | CNCF Graduated |
 | Website                         | [dapr.io](https://dapr.io) |
-| What challenges make developers adopt/use this project? | _TODO_ |
+| What challenges make developers adopt/use this project? | Dapr tackles key developer challenges in distributed systems, such as unreliable service communication, fragmented state management, inconsistent observability, and the complexity of integrating diverse tools, enabling faster development and scalability with less boilerplate. |
 | How is the project best described? | Tool, Project |
 | In which development activity is this tool used? | Architecture, Planning, and Collaboration; Coding. |
 | How often does a developer use this tool? | Every day. |
