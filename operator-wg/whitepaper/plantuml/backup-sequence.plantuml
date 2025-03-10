@@ -1,0 +1,15 @@
+@startuml
+
+skinparam monochrome true
+
+participant Initiator
+participant Operator
+participant Application
+participant "Custom Resource"
+
+Initiator -> Operator: trigger backup process
+Operator -> Application: ensure consistent state
+Operator -> Application: backup data and save it to an external storage
+Operator -> "Custom Resource": write backup state and location
+
+@enduml

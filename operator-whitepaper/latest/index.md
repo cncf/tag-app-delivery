@@ -354,7 +354,7 @@ about if they should use an operator:
 
 For further ideas around the security of the development process,
 the reader may wish to review the CNCF Security TAG's [self-assessment
-questionnaire](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md).
+questionnaire](https://github.com/cncf/tag-security/blob/main/community/assessments/guide/self-assessment.md).
 
 #### Operator Scope
 
@@ -397,13 +397,13 @@ Being focused on the development and security of the operator,
 there are steps that must be taken as an operator developer to ensure
 validation and proper security analysis has been done. Following the
 guidelines in the CNCF Cloud Native Security Whitepaper there is a
-clear lifecycle process which defines the [layers of concern](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
+clear lifecycle process which defines the [layers of concern](https://github.com/cncf/tag-security/blob/main/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper.md#cloud-native-layers) for the operator developer. All three layers
 should be adhered to with a strict focus on the develop and distribute
 layers in the scope of the operator developer. There are many detailed
 guidelines in the development and distribution layers that will help
 to apply sound vulnerability analysis to supply chain to ensure
 that the operator being developed is signed and trusted for the best
-integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md)
+integrity. The CNCF [Cloud Native Security Whitepaper](https://github.com/cncf/tag-security/blob/main/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper.md)
 is available at this link.
 
 In addition to the supply chain there needs to be a focus on
@@ -411,7 +411,7 @@ performing a threat model of the operator to keep the developer
 in check and also make sure that there was nothing incidentally missed
 that could leave the door open for attack. The foundational model for
 checking for threats can be observed in the CNCF Cloud Native Security
-Whitepaper on [Threat Modeling](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md#threat-modeling).
+Whitepaper on [Threat Modeling](https://github.com/cncf/tag-security/blob/main/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper.md#threat-modeling).
 
 ### Application Developer (Operator-"Users")
 
@@ -491,7 +491,7 @@ To review the script ask the following questions:
   attempt to run container securityContexts with host sharing or
   “privileged mode”?
 
-More information about software supply chain security is available in the [CNCF Supply Chain Security White Paper](https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper).
+More information about software supply chain security is available in the [CNCF Supply Chain Security White Paper](https://github.com/cncf/tag-security/tree/main/community/working-groups/supply-chain-security/supply-chain-security-paper).
 
 **Advanced security controls**, such as SELinux, AppArmor, or seccomp
 may be mandated by cluster policy. Open source operators are unlikely
@@ -780,7 +780,7 @@ The Prometheus Operator was one of the first ever Operators written, along with 
 
 _"The Prometheus Operator serves to make running Prometheus on top of Kubernetes as easy as possible, while preserving Kubernetes-native configuration options."_
 
-When the [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/user-guides/getting-started.md) is installed, besides the operator controller pod/deployment, a wide range of APIs becomes available to configure a Prometheus stack. The APIs are represented as Custom Resource Definitions (CRDs) which allow us to configure objects responsible, among other tasks, for:
+When the [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/developer/getting-started.md) is installed, besides the operator controller pod/deployment, a wide range of APIs becomes available to configure a Prometheus stack. The APIs are represented as Custom Resource Definitions (CRDs) which allow us to configure objects responsible, among other tasks, for:
 
 - Describing a set of targets to be monitored by Prometheus (ServiceMonitor).
 - Declaratively describing the desired state of a Prometheus deployment.
@@ -1119,7 +1119,7 @@ The CNCF TAG Security spent a lot of effort to add security related topics to th
 \[4\] https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps
 \[5\] Operator Framework. Retrieved 11 2020, 24, from https://operatorframework.io/operator-capabilities/,
 https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
-\[6\] https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md
+\[6\] https://github.com/cncf/tag-security/blob/main/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper.md
 
 
 ## Acknowledgements
