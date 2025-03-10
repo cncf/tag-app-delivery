@@ -1,0 +1,233 @@
+**Person A**: Were you working platforms before this company? And how long has the platform that you're currently working on existed? Yeah.
+
+**Person C**: 2015. I say 2014.
+
+**Person B**: I would say the first iteration of the platform started around, I would say 2014, maybe 2014. And then they built the second iteration orbits in 2021 or something like that. 20. So this is kind of like. Yeah, I would say this is kind of like a. They've they're trying to think of another iteration now. And we yeah, like it is a pretty I would say give it give would take. It's about a ten year old, something like that background.
+
+**Person A**: Just quickly on that. What's driving the iteration? Like what?
+
+**Person B**: Just the we're trying to scale it this the scalability is kind of like driving it the demand and things like that. And as we like, as we try to like change the scalability of it like, you know, increase the there are a lot of like certain bottlenecks that the current platform cannot, like provide. So we need to kind of like figure out how we can redo the entire thing over and over again. So.
+
+**Person A**: Got it. Do you have a product manager or product owner as part of the team?
+
+**Person B**: Yeah, we actually have, five product owners in the team. I know that's not traditional. AG Part of the whole Scrum thing. But that's just how it's split.
+
+**Person A**: Got it. And how big is the team overall?
+
+**Person B**: I would say about maybe 50 engineers in total now.
+
+**Person A**: Okay. And is it just like is it one platform team or multiple platform teams across the org?
+
+**Person B**: Yeah, so there's split it sorry ho you're saying.
+
+**Person C**: So I was gonna say it's split into services yeah in terms of platform services.
+
+**Person B**: Yeah so yeah all is right so they've they kind of have like a AWS and Azure teams now and they've split it into services. Azure team is not that big. AWS team is quite big, so they've actually done a split on the services itself.
+
+**Person A**: Got it. And, do you have an official name for the, you know, for the team? Like what does the team ever do internally?
+
+**Person B**: it's actually called the AWS as squad.
+
+**Person A**: What's it called? AWS Cloud team?
+
+**Person B**: Yeah, it's called the AWS Foundations team, and they are basically the Public Clouds team under the public cloud service. 
+
+**Person A**: So how you know? How is the platform defined for your organization? What's the scope of the team's work?
+
+**Person B**: Yeah, like I said, it's, primarily just providing. So the it's actually just providing public cloud service. And it essentially the scope of what we are trying to do is just build an integration there, between the systems that we support, the underlying systems that we support and it. PS Just in general. So you are kind of like, providing landing zone as a service to all our tenants.
+
+**Person A**: Got it. So. Who are your customers? Who are your users inside the organization?
+
+**Person B**: The developers essentially, they built applications on top of CBAS platform. And they are often for like a public cloud service. Once they do that, we give them like a landing zone that has all the controls, all the standards that we kind of like set and they can build on top of that. So they are kind of like technically the developers that own that landing zone. So they are kind of our end customers.
+
+**Person A**: Got it. And, can you describe the last feature capability that you released that you worked on?
+
+**Person B**: Yeah, so I built the I personally built a serverless module for Which is an integration layer for COMBOLT, which is kind of like a backup solution they opted in for. And essentially, like I said, when the landing zone is. It's bootstrapped, that particular module gets triggered, and it onboards all the necessary, like. Or all the necessary core, like it automates the entire end to end process, of, having a commalth, basically as a service for the people who've kind of, like, opted in for this particular service. So it takes care of that entire bootstrap process for backups.
+
+**Person A**: Got it. And why did you choose to work on that particular problem versus, let's say, anything else?
+
+**Person B**: I think backup in general has been kind of like a child for the organisation. And it's. As we mature. This is like. Kind of like one of those things that they've really wanted, all tenants to kind of, like, have. Right, and as we kind of, like, mature a little bit, we want to kind of like. Because you're taking care of all the data, right? This is all like tera data and there's no proper backup solution that was in the organisation. There was we were using something called an off sortomomter, which is like an AWS EL solution that they released I think six seven years ago and it's been like a completely LOL it still runs on Python. 2.7. So we wanted to actually introduce a service for our again, tenants are. And customers, so they can like basically try and back up all this information, all this data. And then the second part was the controls. Unfortunately, the current backup solution that they had in place was not meeting up their backup controls. They have like, I think, 20 controls or something. Some of the controls that I can mention here were like the data needs to be in one landing zone. So it needs to be kind of like controlled by an entity rather than having it's completely decoupled into other different landing zones. So it was like I said, it was quite important for the organisation. And they want like I said, they wanted to really maketure this as a kind of like a service moving forward.
+
+**Person A**: Got it. Well, so when you decided to work on this, what information did you already have about kind of what the problem looked like? What a potential solution could be? And can you kind of walk me through what process was from like I'm going to work on this all the way through to actually releasing that capability?
+
+**Person B**: Yeah, so I think the first thing for me was. I mean, like at that point, I kind of was brought in to help the team out as much as possible. Let's say my specialty is not anything to do with combals at that point in time. And I didn't know much about Comwalt to begin with. Like, my expertise was mostly in as and writing code. So, yeah, I think the whole end to end process was, you know, the product owner kind of had these ideas on how to kind of, like, commence. And they kind of brought the team together in the organisation. The crew lead of the team, kind of like we had regular catch ups with the crewleads who gave us all the information that we needed. So we kind of like had a requirement document that we were given we had to basically have functional requirements for that, you know, actually have discuss how this can actually have engineering actions for the entire team. And since I was the lead on the project, I had to kind of like break things down for other team members. We put a design document. There is something called Design Council within the organisation. And we kind of had to go there and pitch in the entire design end to end and ask their permission to, implement the solution. Once the solution was implemented, we spent about. I think, give or take. First of all, we obviously went back to the person who requested this and the solution and made sure that they were kind of like fine with the approaches and the engineering work that we are kind of doing there. There was a lot of misalignment there. The first situation. So we had to kind of like try and align with what they had originally wanted us to do. Once everything was done in to hand, there was alignment and we released the solution. We just ended up maintaining it for. And opening the product and then maintaining the product for at least for myself, I've maintained the product for almost a month and a half because there was some software bugs here and there. And you just need to be on top of things. And until all let's put it this way, until all cases were kind of like resolved, we were just overly active in terms of maintaining the solution.
+
+**Person A**: Got it. And first of all, thank you. That was a great walk through. You said that you know, you went back to the person who originally had requested this solution. This was the only user, that you worked with to refine the solution, or were there other?
+
+**Person B**: So this was actually a I don't know if you know what OKRs are, but this was an or for the CTO of our company was kind of, it was super critical for at least our work. But the crew lead that we had aligned to their view of things and they were filtering all the information out to us. So we were kind of. Yeah, it was coming in from, I guess, the CTO's office or the CTO himself, which we didn't have a view on. So it is actually part of their ORS. And that information kind of, like, got filtered down to the engineers itself. So we were kind of like. Yeah, on a day to day basis. To answer your question, on a day to day basis, we were just, talking to the crew lead and giving all our all the engineering updates to them. You know, if there were any blockers, the this. This was the only individual who was kind of like helping us. Obviously the product owner was there to kind of support us, but the real requirements actually didn't come from them. The real requirements came from the lead. They basically wanted us to take a certain approach and deletes him. Just FIN something probably you would know, but like, the lead is. Yeah, like, he's. He's been around for a really long time. So he's kind of like an engineer himself. So he really is quite opinionated about how to do things. And, he likes to always think of things in a more. Sorry if I'm giving extra information about him, but he wants to take things on a very, start thinking on the product way of doing things rather than just releasing this as just an engineering piece.
+
+**Person A**: That's really good.
+
+**Person B**: So he really wanted us to start thinking about how we can take the tenants, the customer. Basically start thinking about the user journey rather than just dumping a product on the interface. So yeah, it's again like this is something that they the crew leads kind of hinted us.
+
+**Person A**: I mean, this is really good. You mentioned User Journey. Is that something that the P. O or this person provided? It's something.
+
+**Person B**: But we kind of like got the user journey and those sorts of things. And basically, and at least like the way at least some of us work, and I'm, just quoting probably Steve Jobs, it's like you need to first think about the, you know, what the end user journey would look like and then start the engineering. And we kind of always try and opt in for that as a lead. Like, at least I try to make sure that we start there rather than on the other side, which is engineering something, because you can get lost right there. So. So yeah.
+
+**Person A**: So correct me if I misinterpreted it. The requirements came from this person who had this kind of context on how it should be solved, and they were, you know, thinking in terms of the product experience. At any point in this process, do you know if the end users were involved in this in, whether anybody spoke to them, whether anybody validated the solutions with them? Do you know if that happened outside of your team? Or is that something you know you and your team did or not at all?
+
+**Person B**: So the end users were not consulted in any way on form because the other thing is the at least the solution that this was kind of like developed. It's not, it's first of all a backend code. It's not and it's again, internal to the organisation, right? So the intricacies of this is not something that we would want them to kind of know. Like if backup works. And womens, like, they're happy, they wouldn't care about these sorts of things. But yeah, like we did consult Comwald. Like <redacted> as a company to kind of had a few sessions with them to make sure that we understand their APIs and the libraries that we are kind of like using because we were using their code and. And more importantly, we were trying to integrate it with our systems and we didn't know how be because we are doing things at scale.
+
+**Person A**: Got it.
+
+**Person B**: We personally didn't know that it was going to work for this many landing zones. So in total, we were like just to give you a number, we were we have a thousand landing zones at this point, and we didn't know if this service can scale that much. So we the only people we were consulting at that point were not the end customers. To answer your question, they were actually our consulting partners at that point, which is <redacted> itself.
+
+**Person A**: When you release this or I mean, at any point in time but after you release it, were there any kind of metrics that you were tracking any KPIs around? You know. Was the successful. You know. How is it performing out in the wild.
+
+**Person B**: Yeah, obviously, we were. We put a dashboard there, and, we did, have everything tracked to the point where we had a database. Every step had a task status that was kind of like updated on that database. So we were using DYNAMMO DB in the backend, which is kind of like a no SQL 1 d be kind of like data database.
+
+**Person A**: What were you. Sorry, just to refocus that question, what were the metrics that were most important to Gage? If this thing worked or, you know, if this thing succeeded or didn't succeed. Or if it had any problems?
+
+**Person B**: Yeah, basically to make sure that all steps kind of ran fine, there were no exceptions, and, they are able to restore the data that they want. And everything is like, you know, everything is backed up. We created a controller module as well with this, which actually goes through individual logs for Comwalth. So it will actually pull out that information from Conwalwald and see if you know that particular resource. For example, if you are trying to back up an S 3 or an EC 2 instance, whether that shows up in these logs and they are getting backed up. So we went in that detail to meet our controls.
+
+**Person A**: Got it. Perfect. Do you. You know, after you released this, did you communicate out this capability to platform users?
+
+**Person B**: Correct? So we have, a demo kind of, demo demode ka thing. And we did, certain presentations for our management as well. You know, people who are at the CT and, the, CTO level. And, so we did kind of like a little bit of how things are released introductory, like emails that were kind of like sent out to all our platform users. And we did like, you know, our documentation, updated our documentation. So if they want to kind of like find product catalog and how it works and those sorts of things, they will have that information. But there's just one more important thing that I want to mention is we did what we can at that point. So the tenants or the end customers don't have to do anything, all they have to do is give us their requirements and we take care of the rest. Kind of thing. Like I said, we've really wanted to have that product mindset of, yeah, it just works, you know, kind of thing rather than, you know, too much communication is not good. Where you have to actually explain your service. You want to just give in a simple form and like let the API and things like that just this job.
+
+**Person A**: Got it. Outside of demos. You know, when a new capability comes online, is it announced anywhere or does it live anywhere so that somebody can find it? You know who's trying to understand what services are available when they're actually building something?
+
+**Person B**: So, outside of that. So yeah, like I said, the email gets sent out since this was, like I said, really critical. And it goes out to all our tenants and that's probably the only place. And then we had like brownback sessions with myself and a couple of other engineers to go through, you know, again like go through not the chord itself, but the features that we are kind of releasing and more importantly, educating them how to use it rather than oil. Look, we builds like this really hold several as backup solution. So we didn't. It was more about how to use it and how you can opt in and basically increase the awareness of the product so there is more engagement. Because if we wanted more tenants to join in.
+
+**Person A**: Got it. Taking a step back from the specific solution, if you can just give kind of maybe a broad overview of the kinds of capabilities that the platform provides for the users who are actually working on these different applications.
+
+**Person B**: Yeah, basically the like I said, this is an integration layer, so it talks to a lot of individual platforms or you can say individual downstream modules. The services that it currently supports are the services that our tenants needs as part of the bootstrap processes. So there is something for obviously there is something for networking, you know, things like proxy, DNS, security of the foundation layers. This is an observability layer. So we use like a ETL tool that injects all the serverless etl tool that injects everything to our on prem observability system, which is Plunk. And then there there's always there's backup solution as well. So it basically is like I said, it bootstraps all the code for them, make sure everything works. If there is any issue, then it's kind of like managed by a platform team whos strapping the entire individual component. And once it's done, we just make sure that everything kind of runs as expected. If there are any issues or, you know, if there's any security issue or controls that we are not meeting, that code kind of like is managed and maintained by our teams. So we are managing the code. We are making sure that they are compliant, their landing zone is completely compliant. And more importantly, it takes care of all the individual components that our end customer needs to be working in the organisation. Because there are a lot of individual systems that landing zone, for example, you would need traffic to on prem. You know, all those components, all the network components, everything just, takes care by itself.
+
+**Person A**: Got it. You. You mentioned. There's an. A separate platform?
+
+**Person B**: So this is Azure. And Azure. Kind of. Yeah, the Azure kind of like trying to develop more or less the same thing. There's obviously an on prem team that we have, which is managing our own prem portfolio of products that we have at this point. There's obviously there's a networking team. There's like a tooling team that we have that takes care of all the tools that we have for the organisation. So there's a bunch of portfolios. My. Like my. My. My team takes care of everything. Public cloud and all the different layers like services which we alluded to in the start.
+
+**Person A**: Sorry, just being mindful of time. I'm going to try to zip through a few of the next ones. How do users access the kind of capabilities that you provide? Is there, like, is it a ticketing system? Can they get it through the CI is there a portal?
+
+**Person B**: Yes, everything's done through <toolname>. All incidents and issues are raised through cries. Now.
+
+**Person A**: Got it. So when they want to, like when they want something provisioned, they'll do it through.
+
+**Person B**: Twom serve.
+
+**Person A**: Go to your team. Like, they'll put in the request.
+
+**Person B**: So there's, a form that they yeah, the form that they need to build. And that form talks to our systems, the server systems that we built. It's event driven pattern. And they will send a JSON payload to our system. The service now form. And that will kind of be used as something that we would like kind of like inject into other different decoupled modules that we that I spoke about already.
+
+**Person A**: It makes sense. Is that the same way that a user can request, like, a new capability? Like, you know, somebody saying like, Hey, I have this problem. Do this. Is it, you know, food service now as well?
+
+**Person B**: So when a service is bootstrapped, like when a landing zones already bootstrapped, it's not something that they you can go and edit, and you would need to probably reach out to the platform team because like the problem is that, if one t we can't give specific things to one tenant and not give it to the other. It's the way how the organisation operates is everything is super standardized to a point that each environment is completely immutable. And if one individual tenant kind of makes a change, it's will be overridden by the next change. Windows. So if they want to make changes to the platform, they would to answer your question, they would really need to reach out to the crew leads, put their feetback in. And then that will be kind of like analyzed if we can give this as a feature to all our tenants rather this just one individual one. If they want to have something really individual to their side of things because, again, like I said, everything is super standardized. If they want something just for their individual service or their module or perhaps their laning zone, There will be like a professional services. Someone in our team will be working, like an engineer will be working with them to kind of like develop a solution out for them. And they would need to reach out to our crew leads, which I actually don't have too much visibility on. It's happened in the past. And usually the people who get it, they are pretty well like I would say funded, to have a request like that.
+
+**Person A**: Got it. let's see. So how does your team shape its priorities, like what it's going to sequence? It's going to, you know, work on those things and.
+
+**Person B**: Yeah, so we changed our ways. It was quite chaotic. The until last year, we were doing things in a more like hey very reactively, you know something broke or we have a control or things like that we have to meet until it was the case was kind of like open we would not kind of like work on it. But since this year, we have been a little bit proactive in the approach and the process. Right now kind of looks like, you know, the PS who own the individual service now, they will analyze and work with the engineers, to figure out what's important. And then that will kind of be pitched onto the crew leads and the tenants itself like the customers itself to see to gage whether this is something worth a feature that we can kind of release. And once this kind of like, these features are kind of like approved and they seem like something that is interesting to the tenants. And obviously, our top level management, we will kind of be working out our ORS or these individual features or components or whatever we are working on. And then there is going to be what we call a small room planning day where all engineers will kind of like sit together and figure out how we can do this and break jirz down and things like that in one entire day. So we call this the like literally just the planning day. We sit down and create the GS and things like that, and then there is obviously a playback day that we have next day. It's called the big room planning where you know, the PS will get on stage and basically play back everything as much as possible. And then obviously, we have that feature to release in the next quarter. That's what you it's the important thing to note here is it's going to be a quarterly features that we are looking at rather than doing everything like I mentioned last year to last year, we were doing everything on a not we weren't doing things in a like an increment, slower releases kind of way. But now we are doing things in a much more swer releases, more product mindset and better communication, more transparency, kind of like, way of doing things.
+
+**Person A**: Got it. Do you have any visibility ahead of the kind of like engineering engineers getting together into a planning session in terms of how we're going to break this work down? Do you have any visibility ahead of that? How PS make the decisions about, you know, the value of any particular work or like how do they compare different initiatives or different features or different things that they could do against themselves? Do you know if there is that level of comparison?
+
+**Person B**: Yeah, so at because under the lead I have a full view of what they're going to work the entire year, but like only one person would know this. And we kind of like, yeah, we do have a say on what we'll get to work on and how much effort we can put in, but not I wouldn't say like, yeah, not anyone in at least my squad would have that view.
+
+**Person A**: Is that at the door level.
+
+**Person B**: Yeah. I mean, yeah. So the poo will share every information he has individually. With the leads. So they will share every information that they have, any anything that is coming in, from any new road product, road map that is coming in. They'll have to share that information with the leads. And basically, we will have a say on whether the staff engineers will have a say on whether they'll move forward or not with the resources who will kind of be responsible for it? And in the end, it will be the leader's responsibility whether it gets delivered. So they want to kind of make sure that they have us on their side on day one and like I said, each. And just to give you, the organizational structure as well. Each squad, like I said, which is individual service squad has one lead so and then one principal. Towers were like probably two squads. And that's how it's the organization works. Structur.
+
+**Person A**: Got it. And so that what gets decided on essentially there is some prioritization and planning that happens above leads at the PO business level that comes to engineers in terms of like, hey, want to do these things? Then you get to review things and say. Which you can realistically do and have your say on that process. And that becomes the quarterly ROADMAPMM.
+
+**Person B**: Yeah, sorry, I actually didn't I forgot to answer your previous question, which is like, do you assess the business value? That was one of your questions. Yes, we do actually, as staff engineers, we do have to because the requirements are quite weight that come to us and they don't actually give you any information on like, they will just give you a very high level information. So you have to go in and figure out what is the business value, how much whatever money you are going to save or how much if it's worth the. And then we have to kind of like compare as engineers what project gives more value and what feature is more exciting for the end tenants. And put that value kind of like forward to the product owner himself, and that product owner kind of like relays that information back to the crew lead or the EMS and then they kind of like figure out. It's quite clear by then who's going to be the winner because we are looking data driven decisions at that point.
+
+**Person A**: So then in that process, are you looking at like value of doing this thing, the impact of that thing, the level of effort, right? The level of confidence that you know enough about this thing to do it. Do those things, you know, those criteria go into judging? Different initiative?
+
+**Person B**: Spot, yeah, spot on. So these are kind of like those things you whether you want to look at the RI, whether it is worth something for someone to pursue and whether prioritization should be given to this one or something else or perhaps you want to solve in some tech debt that we really kind of like need to solve. You know, it all depends on what's the most important thing you know and what's the ROI and perhaps you're meeting some control in our case. So yeah, that kind of really comes back to again, like the value proposition that we are putting forward.
+
+**Person A**: Got it on. Once you. You have that quarterly road map? Does it ever get changed?
+
+**Person B**: No. At least that's how they initially the back in the days, at least when Oie was around, that used to literally get changed every week and it was quite chaotic. But now because you at least like I said, this year, a lot of things had changed. We went in from a more product mindset and we actually hold people responsible. And especially the. Ps If they want to change something, they are literally held responsible and they have to give a huge explanation why they have to changes. So the whole point is first of all, you want to kind of give ownership out as much as possible. You know, be cautious of what you are committing to because you know, back in when Oli was around these the product the not the product owners, but the PMS would go and overcome it, say a lot of like good things and they would like literally deliver only 20% of it. But now it's like, hey look, you have committed to perhaps like 100%. And you would you are kind. They are a little bit, open towards maybe 80%. I would say if 80% of it gets delivered is completely fine. Or perhaps if you have, like, an actual roadblock, which is like, you've hit some sort of, like, hard limit or something that you can't change, then they're understanding about it. But like the whole point is that they want people to, especially the product owners to be responsible for what they are committing and that's why they have these playback sort of things. So you have a product owner going in every quarterly to say, Hey, look, this is what we are trying to build. And all the engineers are in the kind of like the same room. This is what we are trying to build and we won't back off it until we build it. And this is our road map that we are trying to achieve.
+
+**Person A**: Got it. Is the roadmap accessible to other teams or is it just an internal like can other teams see what you're working on and what you've committed to?
+
+**Person B**: Yeah, it's all in Confluence. So other teams can and see everything and based on like the permissions, even I think the tenants can probably see the road map.
+
+**Person A**: Got it. Do you, just to clarify, when we say tenants, we're talking about like the users of the platform, correct?
+
+**Person B**: Yeah, so sorry if I use that inter interchangeably, but yeah's that's Those are the customers, the developers who are building on top of our.
+
+**Person A**: Okay. Yeah, I wanted you guys rehe for them, so that's great.
+
+**Person B**: Yeah. And trust me, I was using a lot of other lingos as well. I' trying not to use that because, yeah, like there are other lingos as well. Sometimes I do go back to forgetting that I'm not talking to anyone from CPA. But yeah, I'm trying really hard not to use those LIS, so apologies for that.
+
+**Person A**: Yeah, I'll ask for clarification If you use something. But, you know, something super vague and opaque. Do you know, collect feedback from platform users in any way with any cadence?
+
+**Person B**: NPS we have like NPS scores for everything, which basically determined whether, you're right, it's kind of like vague the way they do things at this point. They don't look at things in a more individual way. So I think they can do better. An extra comment there. But they just track the entire experience as a whole for now, to take their kind of like, you know, inputs, which is their feedback. That's how they measure how good, how releases are going, everything is going. And that's the only metric I think that they track in other than obviously, if there are any issues, any tenant or any customer can literally reach out to my to our crew lead and they can go through that stuff. But like in terms of, they can go through an escalation channel any day of the week. But in terms of, tracking, like metrics, they have to participate in this whole NPS score that they do. I think that's done, I believe, every quarterly.
+
+**Person A**: Got it. As a whole? Is it an NPS score? Over the platform as a whole? Is that what you mean?
+
+**Person B**: Yeah, platform as a whole. Yeah, platform as a whole.
+
+**Person A**: And. You said quarter.
+
+**Person B**: And just. Yeah, just again, like, they ask a bunch of questions, which I actually don't have a view on, but they ask a bunch of questions to determine what kind of, like, the score is. And those questions are like, again, like, I'm pretty sure they're not at the individual level where they say, hey, look, which is better as on Azure or things like that. But, you know, it's just for the platform as a whole.
+
+**Person A**: Yeah.
+
+**Person B**: And again, like the things the scale at which the organisation is operating at least just to give you like a view on what we are at this point. We are kind of like the apple of our country. Like when you look at market cap Apple and the Googles, our country. Like our companies the way how they are kind of like structured. They are with the boring old companies and the organisations, the top tier companies. They are not like the big tech companies. So, everything is kind of like done in a very, you know, like a big tech way. You know, one one developer can own like Azure a of Blus on prem, you know. Or they have their own literally their own services running as well. So like and they have to participate in these NP scores. So we like I said, it's super standardized for them.
+
+**Person A**: Just mindful, we have 5 minutes left. Any ch minutes past the hour.
+
+**Person B**: Yeah, I can stay longer if you want. I can stay longer if you want. That's completely fine.
+
+**Person A**: Okay, perfect, I just wanted to make sure you weren't caught off guard. And let me see. So you say quarterly Happens every quarter. Platform wide. And then. Do you know what happens to that data?
+
+**Person B**: I again, like I think that gets analyzed and pushed on if there is any wrong, like if there is any feedback that is, you know, not positive or something.
+
+**Person A**: What PO?
+
+**Person B**: I'm I think the analysts would kind of like to reach out and figure out how we can, you know, create a good customer experience for them, you know, turn that around kind of thing. So yeah, the analysts will kind of like break everything down and, hopefully have like some sort of presentations for the management to figure out how we can, you know, like pass that relay on that feedback from the Tenans.
+
+**Person A**: When you say analyst, does that separate from the PO?
+
+**Person B**: Yeah, so we have business analysts in almost every squad. Every almost every business unit as well. You would have an analyst. There are a lot of analysts there because yeah, E everything is data driven there. So they are always analysts kind of like around, breaking the myths and trying to get as much data as they can.
+
+**Person A**: Got it. And, let's see where we PO okay, so, you know, whether it's like on your team or the way that it's talked about at, let's say the executive level or, you know, how is the value of the platform defined? Is that something you talk about? Is that something that that's clearly articulated?
+
+**Person B**: So what do you exactly mean by the value like value of the platform?
+
+**Person A**: Great. So like is the platform tied to business goals in anyway?
+
+**Person B**: The business close. Yes, so we are kind of. The services that the platform provides are super critical to the organisation because they have like their trading platform and their other API services that integrate in with the end user, meaning the, you know, the services for combac users, they can literally operate the platform we've kind of built. So it ties back to yeah, it certainly ties back a lot. So. So the tenants that I'm talking about, they build apps and the apps are really critical to the organisation. That is the end user apps that we release out. So they are external to all the tenants, and they deliver a lot of like they deliver their main revenue for the organisation. So it's quite critical, especially the platform.
+
+**Person C**: I was just going to say I would say the platform is more of an enabler for objectives in the wider organization, right? Rather than, you know, its owning objectives that are more on the sea level of the organisation. I guess a number of the business units will have directives, objectives. And then the platform that you own, Canal, is more of an enabler for those objectives. It's like a downstream dependency. It's probably a good way to put it.
+
+**Person B**: Yeah, that's right, that's absolutely right.
+
+**Person A**: Are those so are those, you know, business level objectives or the like, upstream objectives? Is that something you guys have visibility on? Is that something that there's like a dashboard for?
+
+**Person C**: So his GM will meet with the other GMS of the other business units. And that's kind of how those objectives for the Canals platform will be somewhat defined and agreed upon. And then that's how funding gets funneled down as well through the other business units to kind of again, be an enabler for those other business units.
+
+**Person A**: Got it. And, are there, you know, what are the KPIs then for the platform as a whole?
+
+**Person B**: Y.
+
+**Person A**: Are there things that are tracked that you know every platform team is looking at?
+
+**Person B**: The KPIs. I don't think it's this standard bunch of KP guys that at least I know. But like we do have our internal metrics that we kind of like track and make sure that everything is working as expected. And we do have tests and those sorts of things to make sure that, you know, the environment is working as kind of like expected and those sort of things, but like, I don't think they are set off. We've not reached that maturity that they are actually set off a defined metrics and. And like I'm pretty sure they will be at some point. And we are kind of like getting to that point as well, like we are gradually getting better at, you know, defining these things. We are still doing a lot of. At least from the management point of view, they were still doing a lot of firefighting on me. Making sure that our capabilities that we offer match to what we have on prem in terms of reliability and more importantly, regulations and compliance and things like that. So it gets to that level. So, I think once they get to that level, you know, you will probably start thinking about having more metrics and having more, you know, things around it like KPIs and things like that to make sure that the way it's kind of released, the intention for it works, Yeah, it works on that level.
+
+**Person A**: Got it. I think we covered some of it. Unless there's anything else you want to add around investment. But it seems to be like at the GM level, right? The platform teams get funded. And so those conversations happen outside of the.
+
+**Person B**: Yeah, I don't have any visibility. I don't have any visibility on that. There.
+
+**Person B**: Yeah, these are kind of like discussions that until you are on the management side, you would probably not have that ad visibility.
+
+**Person B**: Yeah. I mean, like, until the project's kind of, like, funded.
+
+**Person B**: Like I said, when I was answering one of your questions, which was, until the project gets funded in. We wouldn't get a tap on our back.
+
+**Person B**: So it's all funded in it's ready to go. And that's where we kind of are, yeah, we are there kind of thing.
+
+**Person A**: Do you know sequence. Like, does the funding already happen before the quarter is prioritized, or does the funding come through once there is a road map?
+
+**Person B**: I think the funding kind of happens at the start of the year and the product quarterly is just kind of. Hey, look, you're doing things a little bit more iteratively. And then we are trying to release gradual MVPS and doing POCs and whatever we can to make sure that we meet that end criteria, whatever that is. Right?
+
+**Person A**: Got it.
+
+**Person B**: But yeah, the teams, everything, the budgets, everything is started at the start of the FY, which is here. It's the first of July. That that's how our year starts.
+
+**Person A**: Well, that's perfect. I mean, you know, we're. We're pretty much done. Unless. Oliver, you have any questions? Before I have some kind of asks.
+
+**Person C**: No, I think that kind of answered everything that we kind of wanted to talk about.
+
+**Person A**: Okay?
+
+**Person C**: And I think, yeah, the other thing just to touch on around funding is it's effectively two two separate streams, right? You have the run fund, which is like the shared services kind of fund in a sense that, you know, it's distributed from the CTO organization within the organisation to the platforms that help the other business units operate. And then there's then additional funding that come from the separate group business units when they need to enable additional features in the platforms to achieve their objectives. Is probably the best way to put it.
