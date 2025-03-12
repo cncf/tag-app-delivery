@@ -17,7 +17,7 @@ To contribute please join our Slack channel and/or biweekly meetings.
 
 ## Meetings
 
-* Meeting schedule: Bi-weekly on Friday at [17:00 GMT+1](https://dateful.com/convert/utc?t=16)
+* Meeting schedule: Bi-weekly on Thursday at [17:00 GMT+1](https://dateful.com/convert/utc?t=16)
     * [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/96148400770?password=767d45df-c7cf-4400-9239-e789115cc85e&invite=true)
 * Agendas and notes: 
     * https://docs.google.com/document/d/1KvNAY8hYZ_PXzyLC3BSnzWBl8w8glpLYuqDIa-Z6Stk/edit#heading=h.7ivcxpd95s29
