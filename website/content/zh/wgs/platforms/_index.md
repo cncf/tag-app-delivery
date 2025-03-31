@@ -23,7 +23,7 @@ To register for updates and to "Join" the group, please also consider joining th
 
 ## 会议
 
-* Meeting schedule: Every other Tuesday of each month at [1600 Europe/London time](https://www.timeanddate.com/worldclock/converter.html?iso=20240514T150000&p1=136)
+* Meeting schedule: Every other Tuesday of each month at [1600 Europe/London time](https://www.worldtimebuddy.com/?qm=1&lid=2643743,30,3451190,5391959,5128581,2147714&h=2643743&sln=16-17&hf=1)
 * Join the meeting via [Zoom link](https://zoom-lfx.platform.linuxfoundation.org/meeting/95319413756?password=a945340e-f322-437f-9653-cbf3f05ada69). You can also add the recurring meetings to your calendar by clicking on the **"Need an invite?"** option on the same page.
   * Passcode: 77777
 * Agendas and notes can be found in this [Google Doc](https://docs.google.com/document/d/1_smeS9-j-SuHJi0VXjx4g9xiD2-tgqhnlwf5oSMDQgg)
