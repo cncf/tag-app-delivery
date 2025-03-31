@@ -21,10 +21,10 @@ engineers and end users; shares that feedback with projects in its domain; and
 produces guidance and examples for end users.
 
 The TAG supports projects related to its charter
-such as those in the [CNCF Landscape](https://landscape.cncf.io/card-mode) under
-[application definition and image build](https://landscape.cncf.io/card-mode?category=application-definition-image-build&project=hosted),
-[continuous integration and delivery](https://landscape.cncf.io/card-mode?category=continuous-integration-delivery&project=hosted)
-and [container registry](https://landscape.cncf.io/card-mode?category=container-registry&project=hosted).
+such as those in the [CNCF Landscape](https://landscape.cncf.io/?view-mode=card) under
+[application definition and image build](https://landscape.cncf.io/?view-mode=card#app-definition-and-development--application-definition-image-build),
+[continuous integration and delivery](https://landscape.cncf.io/?view-mode=card#app-definition-and-development--continuous-integration-delivery)
+and [container registry](https://landscape.cncf.io/?view-mode=card#provisioning--container-registry).
 
 Today there are two active working groups under the TAG -
 [WG Platforms](./wgs/platforms/) and [WG Artifacts](./wgs/artifacts/).
