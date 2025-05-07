@@ -28,11 +28,9 @@ window.onhashchange = function() {
 }
 </script>
 
-{{< translation-note >}}
-
 ## 概述
 
-CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/) 描述了什么是云计算下的内部平台，以及该平台应为企业带来哪些价值。但要实现这些价值，一个组织必须反思并刻意追求对它们有影响的成果和实践，同时记住每个组织都依赖于为其自身组织量身定制的内部平台 - 即使这个平台只是关于如何使用第三方服务的文档。这个成熟度模型提供了一个框架，用于反思和识别任何组织中改进的机会。
+CNCF 的首份[平台白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/) 描述了什么是云计算下的内部平台，以及该平台应为企业带来哪些价值。但要实现这些价值，一个组织必须反思并刻意追求对它们有影响的成果和实践，同时记住每个组织都依赖于为其自身组织量身定制的内部平台 - 即使这个平台只是关于如何使用第三方服务的文档。这个成熟度模型提供了一个框架，用于反思和识别任何组织中改进的机会。
 
 ## 什么是平台工程？
 
@@ -40,7 +38,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 [**平台工程**]({{< ref "/wgs/platforms/glossary#platform-engineering" >}}) 是一种为开发者和用户规划和提供此类计算平台的实践，并涵盖平台及其能力的所有部分 —— 其人员、流程、政策和技术；以及驱动它们的期望商业成果。
 
-请先阅读 [CNCF 平台定义白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/)，以获得完整的背景信息。
+请先阅读 [CNCF 平台白皮书](https://tag-app-delivery.cncf.io/whitepapers/platforms/)，以获得完整的背景信息。
 
 ## 如何应用此模型
 
@@ -105,7 +103,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 {{< tabs tabTotal="6">}}
 {{< tab tabName="投入" >}}
 
-<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
+<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>如何为平台功能分配人员和资金投入？</i></h4>
 对平台和平台工程的投资是分配预算和人员以建立和维护通用能力的过程。通常情况下，各种举措被描述为自下而上的有机建设，或通过自上而下的举措来推动。无论哪种情况，都是持续投入的能力推动了高影响力的工作。这一方面体现了投资规模和广度如何影响平台的成功。
 
 ### 第一阶段，临时性——基于自愿或临时安排
@@ -187,7 +185,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 {{< /tab >}}
 {{< tab tabName="采用" >}}
 
-<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
+<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>用户为何以及如何发现和使用内部平台及其功能？</i></h4>
 
 采用不仅描述了一个组织使用平台功能的方式和程度，还描述了他们这样做的动机。在早期阶段，许多目标用户可能根本没有意识到他们在使用一个平台。相反，他们将他们的工具视为来自各种内部资源的功能的临时集合。随着时间的推移，这可能会发展成为一组能力，并由一个或多个平台进行统一管理并呈现给用户。随着功能的日益完善和可发现性的提高，平台的驱动力通常会从更多的外部动机（如授权或激励）中转移出来。这导致用户自主选择平台功能，甚至在理想情况下将自己的精力投入到更广泛的平台生态系统中。
 
@@ -282,7 +280,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 {{< /tab >}}
 {{< tab tabName="接口">}}
 
-<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How do users interact with and consume platform capabilities?</i></h4>
+<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>用户如何与平台交互并使用其功能？</i></h4>
 
 平台提供的接口会影响用户与这些平台进行配置、管理和观察的方式。接口可以包括工单系统、项目模板、图形门户以及可自动API和命令行(CLI) 工具。
 
@@ -350,9 +348,9 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 - 提供一个 API 来提取数据库的创建和维护，并为用户提供它们所需要的任何信息，以利用平台能力，例如连接字符串， 保密数据的位置和带有观察能力数据的仪表盘。
 
-### 第四阶段：优化--可管理的服务
+### 第四阶段：优化--可集成的服务
 
-团队已经毫无阻力的降平台能力集成到了日常的流程与工具中。有些能力是自动提供的，例如部署服务的观察能力或身份管理能力。由于平台的模块化构建方式，当团队在遇到超出平台能力的情况的时候，可以根据自己的需求进行定制，而不需要脱离内部提供的服务 这些构建模块被用来构建透明自动组件，以满足更高级别的用例，同时在必要时实现更深层次的定制化
+团队已经毫无阻力的将平台能力集成到了日常的流程与工具中。有些能力是自动提供的，例如部署服务的观察能力或身份管理能力。由于平台的模块化构建方式，当团队在遇到超出平台能力的情况的时候，可以根据自己的需求进行定制，而不需要脱离内部提供的服务 这些构建模块被用来构建透明自动组件，以满足更高级别的用例，同时在必要时实现更深层次的定制化
 
 #### 属性：
 
@@ -375,7 +373,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 {{< /tab >}}
 {{< tab tabName="Operations">}}
 
-<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
+<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>如何规划、确定优先级、开发和维护平台及其功能？</i></h4>
 
 平台的运营意味着在其整个生命周期内运行和支持其功能及其特性，包括接受新请求、初始发布、升级和扩展、持续维护和运营、用户支持，甚至废弃和终止。组织及其平台团队选择要创建和维护的平台和能力，并可以优先考虑最有价值和最有影响力的项目。
 
@@ -420,7 +418,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 - 基础设施即代码（Infrastructure as Code）的目的是为了实现更轻松地追踪部署的服务。
 
-- 符合PCI DSS或HIPPA等合规性法规的审计是通过服务清单来实现的。
+- 符合PCI DSS或HIPAA等合规性法规的审计是通过服务清单来实现的。
 
 - 迁移和升级工作是根据火焰图进行跟踪，使组织能够跟踪合规率和完成时间。
 
@@ -469,7 +467,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 {{< /tab >}}
 {{< tab tabName="衡量">}}
 
-<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
+<h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>收集、采纳反馈以及学习的过程是怎样的？</i></h4>
 
 通过对用户的明确和隐式反馈做出反应，组织可以提高用户满意度并确保长期的平台可持续发展。组织必须在创新和满足用户需求之间取得平衡，以保持平台的相关性。随着科技和用户偏好的改变，能够灵活而及时响应这些变化的平台将脱颖而出。定期重新审视和完善反馈机制，可进一步优化平台开发，改善用户参与。
 
@@ -527,7 +525,7 @@ CNCF 的首份[平台定义白皮书](https://tag-app-delivery.cncf.io/whitepape
 
 - 该组织在表明平台计划成功的衡量标准上有着广泛的一致性。
 
-- \[产品管理员]\({{{< ref "/wgs/platforms/glossary#platform-product-managers" >}}})或专职团队成员推动持续和一致的反馈收集和分析进程。
+- \[产品经理]\({{{< ref "/wgs/platforms/glossary#platform-team" >}}})或专职团队成员推动持续和一致的反馈收集和分析进程。
 
 - 该组织制定了衡量尺度和目标，以观察和确定目标来表明成功。
 
