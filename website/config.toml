@@ -93,6 +93,14 @@ languageName = "Français(French)"
 contentDir = "content/fr"
 weight = 6
 
+[languages.pt-br]
+title = "CNCF TAG App Delivery"
+languageName = "Português(Portuguese)"
+contentDir = "content/pt-br"
+weight = 7
+[languages.pt-br.params]
+description = "O TAG App Delivery foca em permitir projetos e iniciativas relacionados à entrega de aplicações nativas da nuvem, incluindo sua construção, implantação, gerenciamento e operação."
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
